@@ -1,6 +1,6 @@
 ---
-title: VEX
-description: vex
+title: Syntax
+
 categories:
  - VEX
 tags: vex
