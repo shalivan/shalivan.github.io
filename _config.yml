@@ -117,15 +117,16 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  VEX: /vex/
+
   home: /
   categories: /categories/
   about: /about/
   archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
+  #sitemap: /sitemap.xml
   commonweal: /404.html
-
+  vex: /vex/
+  hou: /category/#/Foo
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -135,17 +136,17 @@ menu:
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
-  VEX: home
+
   home: home
   about: user
   categories: th
   schedule: calendar
   tags: tags
   archives: archive
-  sitemap: sitemap
+  #sitemap: sitemap
   commonweal: heartbeat
-
-
+  vex: home
+  hou: sitemap
 
 
 # ---------------------------------------------------------------
@@ -267,6 +268,7 @@ sidebar:
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
   display: post
+  #display: post
   #display: always
   #display: hide
   #display: remove
