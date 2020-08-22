@@ -1,6 +1,6 @@
 ---
 layout: default
-title: VEX syntax
+title: Syntax
 parent: VEX
 ---
 
@@ -10,7 +10,7 @@ parent: VEX
 VEX is not indented language
 - geometry editing speed:  Houdini node > VOP > compiled > vex > python
 - default data type is float
-## Data tyoes
+## Data types
 
 |variable | | ||
 |:--|:--|:--|:--|
