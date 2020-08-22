@@ -1,5 +1,5 @@
 ---
-title: Syntax
+title: Attributes
 
 categories:
  - VEX
