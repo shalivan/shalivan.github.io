@@ -119,15 +119,16 @@ index_with_subtitle: false
 menu:
 
   home: /
+  vex: /category/#/VEX
+  hou: /category/#/HOU
   categories: /categories/
   about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
-  schedule: /calendar/
-  commonweal: /404.html
-  vex: /vex/
-  hou: /category/#/VEX
+  #schedule: /calendar/
+  #commonweal: /404.html
+
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -139,15 +140,16 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
 
   home: home
-  about: user
+  vex: code
+  hou: sitemap
   categories: th
-  schedule: calendar
+  about: user
+  #schedule: calendar
   tags: tags
   archives: archive
   #sitemap: sitemap
-  commonweal: heartbeat
-  vex: file-code
-  hou: sitemap
+  #commonweal: heartbeat
+
 
 
 # ---------------------------------------------------------------
