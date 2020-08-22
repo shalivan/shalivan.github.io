@@ -5,8 +5,8 @@
 
 # Site
 title: library
-subtitle:A library of random snipets
-description:
+subtitle: A library of random snipets
+description: ...with a description
 author: Adam Bryla
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -126,7 +126,7 @@ menu:
   #sitemap: /sitemap.xml
   commonweal: /404.html
   vex: /vex/
-  hou: /category/#/Foo
+  hou: /category/#/VEX
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -145,7 +145,7 @@ menu_icons:
   archives: archive
   #sitemap: sitemap
   commonweal: heartbeat
-  vex: home
+  vex: file-code
   hou: sitemap
 
 
