@@ -14,15 +14,15 @@ VEX is not indented language
 
 |variable | | ||
 |:--|:--|:--|:--|
-`float` |`f@` |  float  |
-`vector2` |`u@` | 2 floats  |
-`vector` |`v@`  | 3 floats   |
-`vector4` |`p@` |  4 floats  |
-` int` |`i@` | integer |
-`matrix2`  |`2@`  |2×2 floats|
-`matrix3` |`3@`  |   3×3 floats|
-`matrix` | `4@`  |  4×4 floats| `4@transform = matrix(ident());`
-`string` | `s@`   | string |`s@myString = "abc";`
+|`float` |`f@` |  float  ||
+|`vector2` |`u@` | 2 floats  ||
+|`vector` |`v@`  | 3 floats   ||
+|`vector4` |`p@` |  4 floats  ||
+|` int` |`i@` | integer ||
+|`matrix2`  |`2@`  |2×2 floats||
+|`matrix3` |`3@`  |   3×3 floats||
+|`matrix` | `4@`  |  4×4 floats| `4@transform = matrix(ident());`|
+|`string` | `s@`   | string |`s@myString = "abc";`|
 
 
 ### reserved:
