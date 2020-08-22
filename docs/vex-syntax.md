@@ -1,8 +1,10 @@
 ---
 layout: default
 title: VEX syntax
-nav_order: 2
+nav_order: 3
+parent: vex
 ---
+
 
 VEX is not indented language
 - geometry editing speed:  Houdini node > VOP > compiled > vex > python
