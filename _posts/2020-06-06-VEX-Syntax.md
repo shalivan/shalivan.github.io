@@ -1,0 +1,383 @@
+---
+title: Next Theme Tutorial
+description: NexT is a high quality elegant Jekyll theme ported from Hexo Next. It is crafted from scratch, with love.
+categories:
+ - tutorial
+tags:
+---
+
+> NexT is a high quality elegant [Jekyll](https://jekyllrb.com) theme ported from [Hexo Next](https://github.com/iissnan/hexo-theme-next). It is crafted from scratch, with love.
+
+<!-- more -->
+
+
+
+VEX is not indented language
+- geometry editing speed:  Houdini node > VOP > compiled > vex > python
+- default data type is float
+## Data tyoes
+
+variable | | ||
+-- | --|--|--|
+`float` |`f@` |  float  |
+`vector2` |`u@` | 2 floats  |
+`vector` |`v@`  | 3 floats   |
+`vector4` |`p@` |  4 floats  |
+` int` |`i@` | integer |
+`matrix2`  |`2@`  |2×2 floats|
+`matrix3` |`3@`  |   3×3 floats|
+`matrix` | `4@`  |  4×4 floats| `4@transform = matrix(ident());`
+`string` | `s@`   | string |`s@myString = "abc";`
+
+
+### reserved:
+
+`break`, `bsdf`, `char`, `color`, `const`, `continue`, `do`, `else`, `export`, `false`, `float`, `for`, `forpoints`, `foreach`, `gather`, `hpoint`, `if`, `illuminance`, `import`, `int`, `integer`, `matrix`, `matrix2`, `matrix3`, `normal`, `point`, `return`, `string`, `struct`, `true`, `typedef`, `union`, `vector`, `vector2`, `vector4`, `void`, `while`  
+
+# Attributes
+Material:
+
+`s@shop_materialpath` - Path to a material. You can add this attribute to points using the Material surface node. When you instance an object onto a point with this attribute, the instanced object uses the given material. Not supported in the viewport.  
+
+`s@material_override` A serialized Python dictionary mapping parameter names to values. You can add this attribute to points using the "override" controls on the Material surface node. When you instance an object onto a point with this attribute, the instanced object applies the given overrides to its material.  
+
+#### Time
+`$F` - The current frame, (as set with the Playbar controls)  
+`$FSTART` - start frame, `$FEND` - end frame  
+`f@Time` -  Float time `$T` -  Current time, in seconds  
+`f@Frame` -  Float frame `$FF`    
+`f@SimTime` - Float simulation time `$ST`, only present in DOP contexts.  
+`f@SimFrame` -Float simulation frame `$SF`, only present in DOP contexts.  
+`f@TimeInc` - Float time step `1/$FPS`    
+
+#### General
+`i@ptnum` - Current point number / `i@primnum` /  `i@vtxnum`  
+`i@numpt` - Total number of points  / `i@numprim`   / `i@numvtx`    
+
+#### Geometry  
+`v@P` - Point/Primitive Position  
+`v@N` - Point/Primitive/Vertex Normal - to initialize normals @N = @N  
+
+`v@Cd` - Color   
+`v@v` - Velocity (e.g. for motion blur / in particle systems)  
+
+`v@pivot` - Local pivot point for instance  
+`f@lod` - Detail/Primitive Level of detail  
+`v@rest` - Rest position  
+#### Pop  
+`v@force` - Force (e.g. acting on particle)  
+`f@age` - Particle Age  
+`f@life` - Max. Particle Life  
+
+#### Transform
+`f@pscale` - Uniform scale. Used in copy-SOP or particle systems  
+`v@scale` - Non-Uniform scale. For use see pscale  
+`v@up` - Up-Vector. Used together with @N to orient point/particle/instance    
+`p@orient` - Quaternion defining the rotation of a point/particle/instance  
+`p@rot` - Quaternion defining additional rotation  
+`v@trans` - Translation of instance  
+`3@transform` - Transformation matrix (used e.g. in Copy-SOP)  
+
+#### Volumes
+`f@density` - Density of voxel  
+`i@ix, @iy, @iz` - Voxel indices along each axis. Ranging from 0 to resolution-1  
+`v@center` - Center of current Volume  
+`v@orig` - Bottom left corner of current Volume  
+`v@size` - Size of current Volume  
+`v@dPdx` - Change in position to get from one voxel to the next in x direction  
+`v@dPdy` - Change in position to get from one voxel to the next in y direction  
+`v@dPdz` - Change in position to get from one voxel to the next in z direction  
+`v@BB` - relative position inside bounding box. Ranging from {0,0,0} to {1,1,1}  
+
+#### Shadin
+`v@Cd` - Diffuse Color  
+`f@Alpha` - Alpha transparency  
+`v@uv` - Point/Vertex UV coordinates  
+`v@Cs` - Specular Color  
+`v@Cr` - Reflective Color  
+`v@Ct` - Transmissive Color  
+`v@Ce` - Emissive Color  
+`f@rough` - Roughness  
+`f@fresnel` - Fresnel coefficient  
+`f@shadow` - Shadow intensity  
+`f@sbias` - Shadow bias  
+
+
+
+### intrinsic
+- being an extremely important and basic characteristic of a person or thing.  
+
+
+
+### Arithmetic
+`=`, `==` (same as), `!=`, `>`,` <`, `>=`, `<=` , `+=`, `++` - add one , `%` - modulus  
+
+### Conditionals
+
+`==` - equal,`!=` - is not equal    
+`a ~~= b` - equivalent to `match(a, b)` strings      
+`!` - Logic negation  
+`||`- Logic OR  
+`&&` - Logic AND  
+
+
+## Functions
+```glsl
+int fnName(int a, b; string c)
+{
+    int c=0;
+    c = a*b;
+    return c;
+}
+
+// call fn:
+int foo = 1;
+@bar = fnName(foo, @ptnum);
+```
+
+## Conditioning
+
+
+
+> in ternary conditional `(condition) ? true : false`. use logical operators: `&&` (AND), `||` (OR)
+
+```glsl
+@P.y *= (v@P.y > 0) ? ch("ValueAbove") : ch("ValueBelow");
+```
+```glsl
+@foo = (@ptnum <= 0 || @ptnum >= (@numpt-1)) ? 1 : 0; // Color first and last point
+```
+```glsl
+if(b<a) s@foo = "true";
+else if(b=a) s@foo = "equal";
+else s@foo = "false";
+```
+
+```glsl
+if(b < a)
+    s@foo = "true";
+else if(b=a)
+    s@foo = "equl";   
+else
+    s@foo = "false";
+```
+
+
+```glsl
+if(b<a) {
+    s@foo = "true";
+}
+else if(b=a){
+    s@foo = "equl";
+}
+else {
+    s@foo = "false";
+}
+```
+
+
+
+
+
+
+
+## Loops
+### For
+> Do for x elements
+
+```glsl
+int a = 5;
+for (int i=0; i<13; i++) {
+    a *= 5;
+    if (a > 10000000) break;
+}
+i@a = a;
+```
+
+`break` keyword - can stop the loop at any point
+
+### ForEach
+> iterating over elements of an array
+
+```glsl
+v[]@colors = {{1,0,0},{0,1,0},{0,0,1}};
+
+foreach(vector x; @colors)
+{
+   if (x == {1,0,0})
+    {
+       @colors[0] = set(rand(@ptnum+123),rand(@ptnum-1),rand(@ptnum+42));
+    }
+}
+```
+`continue` keyword to jump to the next loop iteration. in this example we average point position with positions of neighbours which are above it in world space (their Y coordinate is larger)
+
+### While
+>until condition
+
+change colors of nearby points from 2 op.
+```glsl
+float rad=ch('radius');
+int  maxpt=10;
+int handle;
+vector foo;
+
+handle= pcopen(@OpInput2,"P",@P,rad,maxpt); // cloud open
+
+while(pciterate(handle)) //return one until point is valid
+{
+   pcimport(handle,"Cd",foo);
+   @Cd = foo;
+}
+
+```
+## Arrays
+
+`array()` - Efficiently creates an array from its arguments.  
+`int fooArray[] = {};` - Array variable    
+`int fooArray[] = array(1,2,3,4); ` - Array variable      
+`i[]@fooArray = {-1,0,1};` - Array attribute    
+`i[]@connected_pts = neighbours(0, @ptnum);` - Array attribute   
+
+
+
+`i@firstItem = numbers[0];` - Reading from arrays    
+`vector fooArray[] = v[]@fooArray; ` - Load array attributes into local var      
+
+`numbers[0] += 1;` - Add value to [0]   
+`i@fooArray[1] = @primnum;` - Set primnum in array[1]       
+
+`getcomp()` - Gets the value of an array component, the same as array[num].    
+`setcomp()` - Sets the value of an array component, the same as array[num] = value.    
+
+##### Slice
+`i[]@firstHalf = numbers[:2];` - Slicing   
+`i[]@secondHalf = numbers[2:];` - Slicing   
+`i@secondLastItem = numbers[-2];` - Indexing can also go backwards   
+##### Add Remove   
+`push(numbers, i@returnedPopVal);` - Appends element to the array   
+`removevalue(i[]@fooArray, ValueToRemove); `   
+
+`pop(i[]@MyArray, IndexToRemove)` - -last item from the array (decreasing the size of the array by 1) and returns it.    
+`push(@MyArray, ValueToAdd)` - Adds an item to the end of an array (increasing the size of the array by 1).   
+`resize()` - Sets the length of the array. If the array is enlarged, intermediate values will be 0 or "".      
+
+##### Search
+`i@lenghtOfArray = len(numbers);`  `len()` - -length of an array.    
+`find(i[]@MyArray, ValueToFind)`      
+
+
+
+##### Serialize
+`serialize()` - Flattens an array of vectors or matrices into an array of floats.    
+`unserialize()` - Reverses the effect of serialize: assembles a flat array of floats into an array of vectors or matrices.
+
+
+
+Other fns works with arrays:  
+`min()`
+`avg()`
+`spline()`
+`import()`
+`addattribute()`
+`metaimport()`
+
+
+
+#### random item using ptnum  
+
+```glsl
+string array[] = ['A','B','C'];
+s@letter = array[fit(random(@ptnum,0,1,0,21)];
+```
+
+in specific frames
+```
+int frames[] = {2,4,10,11};
+if( find( frames, @Frame) >= 0){
+}
+```
+
+
+
+#### Flattening an array of vectors and reverting it
+
+```glsl
+vector vectors[] = { {1,2,3}, {4,5,6}, {7,8,9} };
+f[]@serializedVectors = serialize(vectors);
+v[]@unserializedFloats = unserialize(f[]@serializedVectors);
+```
+
+#### lerp arrays
+function float[] array_lerp(float array1[]; float array2[]; float amount)
+{
+    int count = len(array1);
+    float result[];
+
+    for (int i=0; i<count; i++)
+    {
+        float cur_result = lerp(array1[i],array2[i],amount);
+        append(result,cur_result);
+    }
+    return result;
+}
+
+
+`neighbours()` - An array-based replacement for the neighbourcount/neighbour combo. Returns an array of the point numbers of the neighbors of a given point.  
+
+
+## Matrices
+> array of arrays
+ intilize a vector
+
+```glsl
+float   f = 0;
+vector  v = set(f,f,f);
+matrix3 m = set(f,f,f,f,f,f,f,f,f);
+        m = set(v,v,v);
+
+```
+```glsl
+float f = getcomp(m,0,0); // read the value
+```
+
+
+## Structs
+
+
+## Include
+```cpp
+#include "math.h"
+```
+import files from:
+$HIP/vex/include   
+$HOME/houdiniXX.X/vex/include   
+$HH/vex/include  
+
+
+
+
+## Cvex
+>CVEX is VEX code that runs outside a context. CVEX doesn’t have predefined variables, since it is just a program that Houdini calls with certain arguments (usually corresponding to points or data on points).
+
+
+
+--
+
+## H script
+
+`$F3` - int frame with `padzero(5, $F)`- pad0    
+`$FF` - float frame   
+`${F}` - The current frame, (as set with the Playbar controls)   
+``` `$F+1` ``` - Next frame   
+
+
+`$N` - Old number of points `npoints(0)`  
+`$OS` - `opname("..")`- for container name    
+
+`$FSTART` - start frame, `$FEND` - end frame  
+
+`$T` - Current time, in seconds `f@Time`  
+`$ST` - only present in DOP contexts `f@SimTime` - Float simulation time   
+`$SF`- only present in DOP contexts `f@SimFrame` - Float simulation frame    
+`1/$FPS` - `f@TimeInc` - Float time step   
