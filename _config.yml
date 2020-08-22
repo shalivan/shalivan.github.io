@@ -5,9 +5,9 @@
 
 # Site
 title: library
-subtitle:
+subtitle:A library of random snipets
 description:
-author: John Doe
+author: Adam Bryla
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -615,7 +615,8 @@ use_motion: true
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+# pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
