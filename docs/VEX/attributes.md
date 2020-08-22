@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Syntax
+title: Attributes
 parent: VEX
 ---
 
