@@ -191,7 +191,7 @@ i@a = a;
 ### ForEach
 > iterating over elements of an array
 
-```glsl
+```
 v[]@colors = {{1,0,0},{0,1,0},{0,0,1}};
 
 foreach(vector x; @colors)
