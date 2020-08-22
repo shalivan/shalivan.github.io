@@ -192,7 +192,7 @@ i@a = a;
 > iterating over elements of an array
 
 ```
-v[]@colors = {{1,0,0},{0,1,0},{0,0,1}};
+v[]@colors = { {1,0,0} , {0,1,0} , {0,0,1} };
 
 foreach(vector x; @colors)
 {
