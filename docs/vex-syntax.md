@@ -12,8 +12,8 @@ VEX is not indented language
 - default data type is float
 ## Data tyoes
 
-variable | | ||
--- | --|--|--|
+|variable | | ||
+|-- | --|--|--|
 `float` |`f@` |  float  |
 `vector2` |`u@` | 2 floats  |
 `vector` |`v@`  | 3 floats   |
