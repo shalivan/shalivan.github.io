@@ -124,6 +124,7 @@ menu:
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
+  schedule: /calendar/
   commonweal: /404.html
   vex: /vex/
   hou: /category/#/VEX
