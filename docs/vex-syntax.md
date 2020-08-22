@@ -13,7 +13,7 @@ VEX is not indented language
 ## Data tyoes
 
 |variable | | ||
-|-- | --|--|--|
+|:--|:--|:--|:--|
 `float` |`f@` |  float  |
 `vector2` |`u@` | 2 floats  |
 `vector` |`v@`  | 3 floats   |
