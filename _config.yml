@@ -117,6 +117,7 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
+  VEX: /vex/
   home: /
   categories: /categories/
   about: /about/
@@ -134,6 +135,7 @@ menu:
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
+  VEX: home
   home: home
   about: user
   categories: th
