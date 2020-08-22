@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Navigation Structure
-nav_order: 1
+title: VEX syntax
+nav_order: 2
 ---
 
 VEX is not indented language
