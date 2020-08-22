@@ -1,9 +1,10 @@
 ---
 layout: default
 title: VEX syntax
-nav_order: 3
-parent: vex
+parent: VEX
 ---
+
+
 
 
 VEX is not indented language
