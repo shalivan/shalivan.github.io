@@ -1,3 +1,17 @@
+---
+title: Mantra
+
+categories:
+ - HOU
+tags:
+- Rendering
+- Houdini
+description: Description for Vellum post TEST 测试图片类文章的显示。
+---
+
+<!-- more -->
+
+
 
 # Rendering
 
