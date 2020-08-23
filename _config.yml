@@ -144,17 +144,17 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   #home: home user
   #categories: home
-  vex: feather
+  vex: image
   hou: cube
   ue4: cogs
   art: paint-brush
   soft: id-badge
   #soft: cube
   #code: terminal
-  code: file-alt
+  code: file-image
   #categories: th
   #about: home
-  about: feather
+  about: newspaper
   #schedule: calendar
   #tags: tags
   #archives: archive
