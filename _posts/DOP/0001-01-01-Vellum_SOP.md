@@ -17,8 +17,8 @@ tags:
 # Constraints
 Constraints are geometry attributes. Add in sop and edit it in `velum Constrains Properties` inside vellum solver to modify constr dynamicly
 
-|| Effect | ------------------------------------------------------------------------ |When to use||
-|---|---|---------|---|-|
+|| Effect | |When to use||
+|---|---| ------------------------------------------------------------------------|---|-|
 **Distance** |   Stretch | Keep distance Along Edges by Stiffness and Damping | basic
 **Bend**  | Rotation |  Keep angle Across Trix  | basic
 **Slide**  | Slide |  H18  |
