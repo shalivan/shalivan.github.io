@@ -5,8 +5,8 @@
 
 # Site
 title: library
-subtitle: A library of random snipets github.com/shalivan/shalivan.github.io
-description: ...with a description
+subtitle: A library of random snipets
+description: github.com/shalivan/shalivan.github.io
 author: Adam Bryla
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -19,7 +19,7 @@ baseurl:
 permalink: pretty
 
 # Pagination
-paginate: 10
+paginate: 100
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -144,14 +144,17 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   #home: home user
   #categories: home
-  vex: code
-  hou: sitemap
-  ue4: gamepad
-  art: palette
-  soft: cube
-  code: terminal
+  vex: feather-alt
+  hou: h-square
+  ue4: cogs
+  art: paint-brush
+  soft: artstation
+  #soft: cube
+  #code: terminal
+  code: file-image
   #categories: th
-  about: home
+  #about: home
+  about: lightbulb
   #schedule: calendar
   #tags: tags
   #archives: archive
