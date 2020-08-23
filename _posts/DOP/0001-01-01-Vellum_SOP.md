@@ -18,7 +18,7 @@ tags:
 Constraints are geometry attributes. Add in sop and edit it in `velum Constrains Properties` inside vellum solver to modify constr dynamicly
 
 || Effect | |When to use||
-|-|-|-|-|-|
+|---|---|---------|---|-|
 **Distance** |   Stretch | Keep distance Along Edges by Stiffness and Damping | basic
 **Bend**  | Rotation |  Keep angle Across Trix  | basic
 **Slide**  | Slide |  H18  |
@@ -51,8 +51,8 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 ##### Geometry
 || low | ||
 |-|-|-|-|
-**Mass** |  0 - mass inactivete  || Can set from param or calculate
-**Thickness** | | |( `edge len scale`- multi for thick)  Can set from param or calculate
+ |**Mass** |  0 - mass inactivete  || Can set from param or calculate
+ |**Thickness** | | |( `edge len scale`- multi for thick)  Can set from param or calculate
 
 check thickness. should be smaller than distas between points
 
