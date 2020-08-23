@@ -144,17 +144,17 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   #home: home user
   #categories: home
-  vex: image
+  vex: code
   hou: cube
   ue4: cogs
   art: paint-brush
-  soft: id-badge
+  soft: image
   #soft: cube
   #code: terminal
-  code: file-image
+  code: terminal
   #categories: th
   #about: home
-  about: newspaper
+  about: ellipsis-v
   #schedule: calendar
   #tags: tags
   #archives: archive
