@@ -1,13 +1,14 @@
-
 ---
 title: Orient
-
 categories:
  - VEX
-tags: 
+tags:
 - VEX
 - Houdini
 ---
+
+
+<!-- more -->
 
 #### Angle
 `f@angle =          degrees(acos(dot(normalize(a),normalize(b))));` - Angle Between Vectors   
