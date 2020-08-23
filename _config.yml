@@ -121,10 +121,10 @@ menu:
   #home: /
   vex: /category/#/VEX
   hou: /category/#/HOU
-  ue4: /category/#/UE4
-  art: /category/#/Art
-  soft: /category/#/Soft
-  code: /category/#/Code
+  ue4: /category/#/UE
+  soft: /category/#/CG
+  code: /category/#/RT
+  art: /category/#/ART
   #categories: /categories/
   #archives: /archives/
   #tags: /tags/
