@@ -121,10 +121,14 @@ menu:
   home: /
   vex: /category/#/VEX
   hou: /category/#/HOU
+  ue4: /category/#/UE4
+  art: /category/#/Art
+  soft: /category/#/Soft
+  code: /category/#/Code
   categories: /categories/
-  about: /about/
-  archives: /archives/
+  #archives: /archives/
   tags: /tags/
+  about: /about/
   #sitemap: /sitemap.xml
   #schedule: /calendar/
   #commonweal: /404.html
@@ -138,15 +142,18 @@ menu:
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
-
   home: home
   vex: code
   hou: sitemap
+  ue4: gamepad
+  art: palette
+  soft: cube
+  code: terminal
   categories: th
   about: user
   #schedule: calendar
   tags: tags
-  archives: archive
+  #archives: archive
   #sitemap: sitemap
   #commonweal: heartbeat
 
