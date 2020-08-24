@@ -1,5 +1,6 @@
 ---
 title: Orient
+description: Vex Transform, Orientations
 categories:
  - VEX
 tags:
@@ -130,7 +131,7 @@ https://vimeo.com/226167508
 
 #### Rotate Matrix about axies
 (Run over points)
-```hlsl
+```cs
 vector axis = normalize(chv("axies")); //  Axies to rotate
 float eulerAngle = radians(chf('rotateAmount')*360); // 0-1 amount *360 degree to radians
 matrix3 m = ident();  // empty transform matrix
@@ -149,7 +150,7 @@ translate_matrix*=m;
 ##### Roatate Matrix Normal Along Tangent
 (Run over points)
 OpInput0: polyframe with `tangent`   
-```hlsl
+```cs
 float eulerAngle = radians(ch("angle"));
 matrix rot = ident();
 
@@ -159,7 +160,7 @@ rotate(rot, eulerAngle, @tangent); // matrix to rotate, angle, vector to rotate 
 
 #### Rotate Quaternion in local space
 (Run over points)
-```hlsl
+```cs
 vector eulerAngle = radians(chv("rot"));  // angle  in degrees  converted to radians
 
 vector4 quat = eulertoquaternion(eulerAngle, 0);
