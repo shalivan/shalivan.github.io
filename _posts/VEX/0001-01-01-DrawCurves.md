@@ -90,7 +90,7 @@ for(int i= 0; i < iterations; i++){
 
 ### Rhodonea Curve (sin @ polar)
 
-![](../../../../../_data/images/curves/Rho.jpg)
+![](../../../../../src/curves/Rho.jpg)
 
 ```hlsl
 float x,y;
