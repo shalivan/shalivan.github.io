@@ -1,5 +1,6 @@
 ---
 title: Draw Curves
+description: VEX equations for curves drawing.
 categories:
  - VEX
 tags:
