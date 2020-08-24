@@ -66,7 +66,7 @@ while( theta < two_pi){
 }
 ```
 ### Logarytmic spiral
-![](/_data/images/curves/Log.jpg)
+![](../../../../_data/images/curves/Log.jpg)
 ```hlsl
 float e = 2.7182; // e
 float r, x, y;
@@ -90,7 +90,7 @@ for(int i= 0; i < iterations; i++){
 
 ### Rhodonea Curve (sin @ polar)
 
-![](../../_data/images/curves/Rho.jpg)
+![](../../../../../_data/images/curves/Rho.jpg)
 
 ```hlsl
 float x,y;
