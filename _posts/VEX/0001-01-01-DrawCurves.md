@@ -119,7 +119,7 @@ for(int i = 0; i < iterations; i++){
 
 
 ### Polar Limacon  
-![](/Sources/curves/Lim.jpg)
+![](/src/curves/Lim.jpg)
 
 ```hlsl
 float r;
