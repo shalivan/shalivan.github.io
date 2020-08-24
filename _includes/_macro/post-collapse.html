@@ -14,7 +14,7 @@
                 {{ post.content }}
               {% else %}
                 <b><span itemprop="name">{{ post.title | default: __.post.untitled }}</span></b>
-                - <span itemprop="description"> {{ post.description | default: __.post.untitled }}</span>
+                - <i> <span itemprop="description"> {{ post.description | default: __.post.untitled }}</span> </i>
 
               {% endif %}
             </a>

@@ -7,7 +7,7 @@ tags:
 - Houdini
 ---
 ### Line
-```hlsl
+```cpp
 vector pos0 = chv("pos0");
 vector pos1 = chv("pos1");
 
@@ -21,7 +21,8 @@ addvertex( 0, prim, pt1);
 ```
 
 Create a line for each point in primitive
-```
+
+```cpp
 int primitive = addprim(0, 'polyline');
 int numberOfPoints = @numpt;
 
@@ -32,7 +33,7 @@ for (int n=0; n<numberOfPoints; n++){
 
 ### Circle  
 
-```hlsl
+```cpp
 int line = addprim(0,"polyline"); //draw
 int a = ch("Angle");
 float r = ch("Radian");
@@ -47,7 +48,7 @@ for(a=0; a<360; a++){
 }
 ```
 
-```hlsl
+```cpp
 int sample = chi("sample");
 float radius = ch(""radius");
 vector origin = chv("origin");
@@ -67,7 +68,7 @@ while( theta < two_pi){
 ```
 ### Logarytmic spiral
 ![](/src/curves/Log.jpg)
-```hlsl
+```cpp
 float e = 2.7182; // e
 float r, x, y;
 float a = ch("Angle");
@@ -92,7 +93,7 @@ for(int i= 0; i < iterations; i++){
 
 ![](/src/curves/Rho.jpg)
 
-```hlsl
+```cpp
 float x,y;
 float n = ch("n");
 float d = ch("d");
@@ -121,7 +122,7 @@ for(int i = 0; i < iterations; i++){
 ### Polar Limacon  
 ![](/src/curves/Lim.jpg)
 
-```hlsl
+```cpp
 float r;
 float a = ch("a");
 float b = ch("b");
@@ -145,7 +146,7 @@ for(int i = 0; i < iterations; i++){
 
 ### Lissajous Curve
 ![](/src/curves/Lis.jpg)
-```hlsl
+```cpp
 vector pos = set(0,0,0);
 float a = chf("a");
 float b = chf("b");
@@ -169,7 +170,7 @@ for(float angle = 0; angle < maxiter; angle += 0.01){
 
 ![](/src/curves/Sup.jpg)
 
-```hlsl
+```cpp
 int   numsteps = chi("NumPoints");
 float a = chf("a");
 float b = chf("b");
@@ -203,7 +204,7 @@ for(int i=0; i<numsteps; i++) {
 ```
 ### Superformula 3D
 
-```hlsl
+```cpp
 addpointattrib(0, "long", 0, "");
 addpointattrib(0, "lat", 0, "");
 
@@ -261,7 +262,7 @@ for(int j=0; j<numsteps_lat; j++) {
 
 ![](/src/curves/Hyp.jpg)
 
-```hlsl
+```cpp
 float pi = 3.1415 // PI
 float theta = ch("Theta") * pi * 2;
 @theta2 = ch("Theta") * pi * 2;
@@ -359,7 +360,7 @@ to create trace point
 
 ### Golden Points in circle
 `![](/Sources/curves/GldSph.jpg)`
-```hlsl
+```cpp
 int num_pts = chi('NumPoints');
 float radius = chf('Radius');
 float radius_falloff = chf("RadiusFalloff");
@@ -379,7 +380,7 @@ for(int i = 0; i < num_pts; ++i) {
 }
 ```
 Arrange egzisting points in point wrangle log:
-```
+```cpp
 @P.x = chf("a") * pow(e, chf("b") * @ptnum * .001) * sin(@ptnum);
 @P.z = chf("a") * pow(e, chf("b") * @ptnum * .001) * cos(@ptnum);
 ```
@@ -390,7 +391,7 @@ IN: spline > polyframe
 [x] tangent   
 [x] bitangent  
 [x] make fram orthogonal     
-```
+```cpp
 float rad=chf("radius");
 vector dir=set(0,0,1)*rad;
 matrix3 myMatrix=set(v@tangentu,v@tangentv,normalize(cross(v@tangentu,v@tangentv)));
@@ -414,7 +415,7 @@ dir=myMatrix*dir;
 ```
 ### Strange Attractors
 Svensson
-```
+```cpp
 int num = chi("num");
 float a = chf("a");
 float b = chf("b");
