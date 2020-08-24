@@ -16,24 +16,24 @@ description: Houdini rendering basics in Mantra.
 # Render Engines
 
 ## PBR      
->path tracer
+Path tracer
 
 realistic light with multip dif bounces. (use rayytrace) and phis light   
 GI - diffuse limits  
 (path traceing happening outside surface shader )  
 
-
+---
 
 ## MICRO POLIGON  
 
 (divide to micro polis in buckets) (same as pbr but mp)  
 Rendering DICEING: shader quality 1 >> 5  
 
-
+---
 
 ## RAY TRACRING:
 
->ray tracer
+Ray tracer
 
 reflection & refraction. (cleaner resoult because not diceing) its going pixel by pixelon image.
 (path traceing happening inside surface shader)
@@ -61,7 +61,7 @@ Color Limit 4
 ---
 
 ## PHOTON MAP
-generaiotn (Final gather) for final gather
+Generation (Final gather) for final gather
 
 
 ---
