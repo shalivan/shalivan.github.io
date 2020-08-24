@@ -6,76 +6,87 @@ categories:
 tags:
 - Rendering
 - Houdini
-description: Houdini rendering basics in Mantra. 
+description: Houdini rendering basics in Mantra.
 ---
 
 <!-- more -->
 
 
 
-# Rendering
+# Render Engines
 
-#### PBR      
+## PBR      
 >path tracer
 
 realistic light with multip dif bounces. (use rayytrace) and phis light   
 GI - diffuse limits  
 (path traceing happening outside surface shader )  
 
-#### MICRO POLIGON  
+
+
+## MICRO POLIGON  
 
 (divide to micro polis in buckets) (same as pbr but mp)  
 Rendering DICEING: shader quality 1 >> 5  
 
-#### RAY TRACRING:
+
+
+## RAY TRACRING:
 
 >ray tracer
 
 reflection & refraction. (cleaner resoult because not diceing) its going pixel by pixelon image.
 (path traceing happening inside surface shader)
 
-## Render Settings:
-setting | lo | med | hi | production
---- | --- | --- | --- | ---
-pixel sample | 4x4 | - | 7x7 | 10x10 (fur or huge motion)
-Min/Max ray samples | - | 1/9 | - | 2/9
-Noise Levels | - | 0.1 | - | 0.08
-Sample Lock | - | ON | - | OFF
-Stochastic sample (AA volume quality) | 1 | - | - | 4
+
+
+# Render Settings:
+|setting | lo | med | hi | production|
+|--- | --- | --- | --- | --- |
+|pixel sample | 4x4 | - | 7x7 | 10x10 (fur or huge motion)
+|Min/Max ray samples | - | 1/9 | - | 2/9
+|Noise Levels | - | 0.1 | - | 0.08
+|Sample Lock | - | ON | - | OFF
+|Stochastic sample (AA volume quality) | 1 | - | - | 4
 
 **[light]** light: sample quality on lights more than 1 (on direct samples) now direct light is clean.
 
 #### Indirect illumination:
 [mantra] rendering > limits:  2 3 2 0 1
-[mantra] rendering > sampling, Qualities. diffiuse, reflection  quality (1-4)
+[mantra] rendering > sampling, Qualities. diffuse, reflection  quality (1-4)
 Reflect/Refract/Diffuse lim 4/4/1  
 Color Space Gamma 2.2
 Color Limit 4
 
-#### PHOTON MAP
+---
+
+## PHOTON MAP
 generaiotn (Final gather) for final gather
 
-# Shadeing  
+
+---
+
+# Shading  
 
 
-`material bnuilder`  - colapse selected to material > (like subnets)
+`material bnuilder`  - collapse selected to material > (like subnets)
  `layer mix` you can mix shader by layers outputs
 
 Core versions are without texture and displacement inputs.
-#### Classic shader
+## Classic shader
 oldschool mantra  
 More settings  
 Workglow in metalic: color reflections and black diffuse (all in texture)  
 
-#### Principle shader
+## Principle shader
 Less parameters and ranged 0-1  
 Workflow normal albedo and metallic channel like pbr     
-IOR use with `nasted dielectrics` model. model 2 side surface and liquid should be inside betwreen then set priorities to surfaces [mantra] rendering >  shadeing:  ENABLE ABSORBTIONA AND NESTED DIELECTRICS ~!!!! turn on !
+IOR use with `nasted dielectrics` model. model 2 side surface and liquid should be inside between then set priorities to surfaces [mantra] rendering >  shadeing:  ENABLE ABSORBTIONA AND NESTED DIELECTRICS ~!!!! turn on !
 
-#### Volume shader
+## Volume shader
 
 
-#### Pyro shader
+## Pyro shader
 `pyro shader` shader use 2 field: smoke field: density /// color form temperature // intensity from heat ///  
 only flame simple    
 ```for shader flame simple change to density evetywhere```  
