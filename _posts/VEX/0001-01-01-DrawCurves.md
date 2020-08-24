@@ -66,7 +66,7 @@ while( theta < two_pi){
 }
 ```
 ### Logarytmic spiral
-![](../../../../_data/images/curves/Log.jpg)
+![](/src/curves/Log.jpg)
 ```hlsl
 float e = 2.7182; // e
 float r, x, y;
@@ -90,7 +90,7 @@ for(int i= 0; i < iterations; i++){
 
 ### Rhodonea Curve (sin @ polar)
 
-![](../../../../../src/curves/Rho.jpg)
+![](/src/curves/Rho.jpg)
 
 ```hlsl
 float x,y;
@@ -144,7 +144,7 @@ for(int i = 0; i < iterations; i++){
 - r = a + b * cos(theta)
 
 ### Lissajous Curve
-![](/Sources/curves/Lis.jpg)
+![](/src/curves/Lis.jpg)
 ```hlsl
 vector pos = set(0,0,0);
 float a = chf("a");
@@ -167,7 +167,7 @@ for(float angle = 0; angle < maxiter; angle += 0.01){
 
 ### Superformula 2D
 
-![](/Sources/curves/Sup.jpg)
+![](/src/curves/Sup.jpg)
 
 ```hlsl
 int   numsteps = chi("NumPoints");
@@ -259,7 +259,7 @@ for(int j=0; j<numsteps_lat; j++) {
 ### Hypotrochoid
 
 
-![](/Sources/curves/Hyp.jpg)
+![](/src/curves/Hyp.jpg)
 
 ```hlsl
 float pi = 3.1415 // PI
