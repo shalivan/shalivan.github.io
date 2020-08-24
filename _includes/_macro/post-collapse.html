@@ -13,9 +13,9 @@
               {% if post.type == 'picture' %}
                 {{ post.content }}
               {% else %}
-                <span itemprop="name">{{ post.title | default: __.post.untitled }}</span> bbb
-                <meta itemprop="description" content="{{ site.signature }}">
-                aaaa
+                <span itemprop="name">{{ post.title | default: __.post.untitled }}</span>
+                <span itemprop="description"> {{ post.description | default: __.post.untitled }}</span>
+
               {% endif %}
             </a>
         {% endif %}
