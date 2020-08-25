@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: library
-subtitle: Layout for personal notes, thoughts and snippets.
+title: note.one
+subtitle: Layout for personal notes, with the kindness of internet resources.
 description: github.com/shalivan/shalivan.github.io
-author: Adam Bryla
+author: ADAM BRYLA
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
