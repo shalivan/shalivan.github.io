@@ -13,7 +13,6 @@ description: Houdini rendering basics in Mantra.
 
 
 
-# Render Engines
 
 ## PBR      
 Path tracer
