@@ -119,6 +119,7 @@ index_with_subtitle: false
 menu:
   #
   #home: /
+  about: /about/
   vex: /category/#/VEX
   hou: /category/#/HOU
   ue4: /category/#/UE
@@ -128,7 +129,7 @@ menu:
   #categories: /categories/
   #archives: /archives/
   #tags: /tags/
-  about: /about/
+
   #sitemap: /sitemap.xml
   #schedule: /calendar/
   #commonweal: /404.html
@@ -292,6 +293,8 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
+
+
   b2t: false
 
   # Scroll percent label in b2t button
