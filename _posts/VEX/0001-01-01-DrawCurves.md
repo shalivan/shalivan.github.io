@@ -1,11 +1,13 @@
 ---
-title: Draw Curves
+title: Math Curves
 description: VEX equations for curves drawing.
 categories:
  - VEX
+ - ART
 tags:
 - VEX
 - Houdini
+- Art
 ---
 ### Line
 ```cpp
