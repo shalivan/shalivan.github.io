@@ -145,7 +145,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   #home: home user
   #categories: home
-  vex: code
+  vex: laptop-code
   hou: cube
   ue4: cogs
   art: paint-brush
@@ -155,7 +155,7 @@ menu_icons:
   code: tv
   #categories: th  / terminal
   #about: home
-  about: hamsa
+  about: paperclip
   #schedule: calendar
   #tags: tags
   #archives: archive
