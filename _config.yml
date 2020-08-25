@@ -155,7 +155,7 @@ menu_icons:
   code: terminal
   #categories: th
   #about: home
-  about: heart
+  about: far fa-heart
   #schedule: calendar
   #tags: tags
   #archives: archive
