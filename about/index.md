@@ -102,3 +102,11 @@ https://thinkzone.wlonk.com/index.htm
 ##### Papers  
 https://blog.demofox.org/ - Gamedev Math Programing Blog with fn()   
 http://school.geometryprocessing.org - CG presentations list   
+
+
+
+
+
+
+{% assign __ = site.data.languages[site.language] %}
+{% include archive.html %}
