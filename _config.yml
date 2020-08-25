@@ -152,10 +152,10 @@ menu_icons:
   soft: image
   #soft: cube
   #code: terminal
-  code: terminal
-  #categories: th
+  code: tv
+  #categories: th  / terminal
   #about: home
-  about: bars
+  about: hamsa
   #schedule: calendar
   #tags: tags
   #archives: archive
