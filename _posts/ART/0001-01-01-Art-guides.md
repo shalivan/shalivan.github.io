@@ -1,5 +1,5 @@
 ---
-title: Art guides
+title: Art Guides
 
 categories:
  - ART

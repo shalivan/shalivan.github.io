@@ -1,5 +1,5 @@
 ---
-title: Math Curves
+title: Curves equations
 description: VEX equations for curves drawing.
 categories:
  - VEX
