@@ -145,7 +145,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   #home: home user
   #categories: home
-  vex: laptop-code
+  vex: code
   hou: cube
   ue4: cogs
   art: paint-brush
