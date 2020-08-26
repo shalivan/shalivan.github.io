@@ -6,7 +6,7 @@ categories:
 tags:
 - Houdini
 - Config
-description: Houdini shortcuts and personal configuration. 
+description: Houdini shortcuts and personal configuration.
 ---
 
 
@@ -17,14 +17,6 @@ Hide not working all the time
 
 ----
 
-`Alt` + `LLM`  - create key  
-
-`Ctrl` + `LLM` - delete key    
-`Ctrl`+ `Shift` + LLM - delete key whertever is     
-`Ctrl` + `MMB` - zero   
-`Shift` + `LLM` - OPEN CURVE EDITR   
-
-----
 
 To set/change key klick on shelf or menu item while holding `Ctrl` + `Alt` + `Shift`   
 
@@ -173,6 +165,16 @@ prims:
 
 ## Parameter Fields
 
+
+`Alt` + `LLM`  - create key  
+
+`Ctrl` + `LLM` - delete key    
+`Ctrl`+ `Shift` + `LLM` - delete key whertever is     
+`Ctrl` + `MMB` - zero   
+
+`Shift` + `LLM` - OPEN CURVE EDITR   
+
+----
 
 .|.|.|
 -|-|-|
