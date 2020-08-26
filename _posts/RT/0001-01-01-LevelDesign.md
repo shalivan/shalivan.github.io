@@ -6,6 +6,8 @@ categories:
 tags:
 - Design
 - Game
+- Gameplay
+- Architecture
 ---
 
 # Level Design
