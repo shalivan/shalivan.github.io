@@ -2,7 +2,7 @@
 title: Algebra
 description: Math basic concepts
 categories:
-
+- RT
 tags:
 - Math
 ---
