@@ -50,10 +50,11 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 # Constraints parameters
 
 ##### Geometry
+
 || low | ||
 |-|-|-|-|
- |**Mass** |  0 - mass inactivete  || Can set from param or calculate
- |**Thickness** | | |( `edge len scale`- multi for thick)  Can set from param or calculate
+|**Mass** |  0 - mass inactivete  || Can set from param or calculate
+|**Thickness** | | |( `edge len scale`- multi for thick)  Can set from param or calculate
 
 check thickness. should be smaller than distas between points
 
@@ -80,6 +81,7 @@ For cloths, curves or constraints (like attach)
 - wrinkliness (with low res sim lower param help to remove jagginess) / (if compress how likley it stay compressed)  more is more likely stay  (decrease more smooth look and dont enforce wrinkles)  
 
 #### Bend
+
 ||low |high ||
 |-|-|-|-|
 **Stiffnes** | 0.01 - soft and bandy (silk) | 1000000 - more rigid (plastic))) |  How much resistant to unroll or bend   
@@ -94,6 +96,7 @@ For cloths, curves or constraints (like attach)
 
 
 #### Pin To Animation
+
 submenu Wystepuje w curves lub pin to target
 
 
@@ -104,9 +107,10 @@ submenu Wystepuje w curves lub pin to target
 `Match to Animation` - animate with object    `i@pintoanimation = 1`
 
 #### Breaking
-Weld have stress treshold
+
+Weld have stress threshold
 Different types by: Stress or Ratio  (sensitive, low values)
-normalie streees on solver -  to normalie for substeps change
+normalize stress on solver -  to normalizes for sub steps change
 
 
 
@@ -114,7 +118,7 @@ normalie streees on solver -  to normalie for substeps change
 ### SET TARGET
 
 **Avoid time dependences** - set  when pining top not fetch animation to solver  
-![](/Sources/vellum/vellumtargetsmall.png)
+![](/src/vellum/vellumtargetsmall.png)
 
 
 ---
@@ -130,7 +134,7 @@ Change constraints properties  (can animate here )
 
 #### Remove Pin Constraint
 Unpin for soft constraints
-- (create output group in vellumconstraint and use it in [Remove Pin Constraint] )
+- (create output group in vellum constraint and use it in [Remove Pin Constraint] )
 - and check box REMOVE > 1
 - set time/frames
 
@@ -147,7 +151,8 @@ Blend 2 meshes to change rest position
 
 
 Unpin for hard pin (Type: Stopped):
-```
+
+```cpp
 if (@Frame > 10)
 {
   i@stopped = 0;
@@ -155,7 +160,8 @@ if (@Frame > 10)
 }
 ```
 Unweld
-```
+
+```cpp
 if (@Frame > 10)
 {
   i@weld = -1;
@@ -163,7 +169,8 @@ if (@Frame > 10)
 ```
 
 Initially set Stress Type to None(0) (never break)
-```
+
+```cpp
 if (@Frame > 10)
 {
   s@breaktype = "stretchstress";
@@ -171,7 +178,8 @@ if (@Frame > 10)
 ```
 
 Inputs (link to group node with group animation) and check if is in group:
-```
+
+```cpp
 if(inpointgroup(0,"unweld",@ptnum))
  i@weld = -1;
 ```
@@ -216,7 +224,7 @@ https://youtu.be/rQw2UZGWP-0 - rozwijanie płachty
 ###   `[Vellum Solver drape]` SOP
 To create drape from patches.  
 `welding frame` - where it start to fuse  (maby work on frame 1 ?)   
-`forces` - increse velocity damping and air drag if cloth move to much  
+`forces` - increase velocity damping and air drag if cloth move to much  
 
 Drape solver help resolve cloths  
 
