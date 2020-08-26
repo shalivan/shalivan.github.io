@@ -34,16 +34,16 @@ $orange       : #fc6423;
 $text-color                   : $black-light;
 
 // Global link color.
-$link-color                   : #F7B23D;
-$link-hover-color             : #FFC667;
-$link-decoration-color        : #EA8300;
-$link-decoration-hover-color  : #EF6500;
+$link-color                   : $black-light;
+$link-hover-color             : #B92600; //$black-deep;
+$link-decoration-color        : $grey-light;
+$link-decoration-hover-color  : $black-deep;
 
 // Global border color.
 $border-color                 : $grey-light;
 
 // Background color for <body>
-$body-bg-color                : #DDDDDD; //white;
+$body-bg-color                : #F9F9F9; //white;
 
 // Selection
 $selection-bg                 : $blue-deep;
