@@ -8,6 +8,7 @@ tags:
 - VEX
 - Houdini
 - Art
+- Math
 ---
 ### Line
 ```cpp
