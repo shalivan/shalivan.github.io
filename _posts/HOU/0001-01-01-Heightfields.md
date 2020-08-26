@@ -20,11 +20,12 @@ Make in passes from:
 - High Erosion
 
 #### Mix layers
+
 |-|-|-|
 |-|-|-|
-Add Subtract | masks, good transitions  | TOP: gradient , bottom pattern
-Overlay |  Smoother than addsub. less useful for mask, for blend height| car about 50%, bottom gradient
-Min, Max | boolean in heights | cz wspola/ Blend!!!
+|Add Subtract | masks, good transitions  | TOP: gradient , bottom pattern
+|Overlay |  Smoother than addsub. less useful for mask, for blend height| car about 50%, bottom gradient
+|Min, Max | boolean in heights | cz wspola/ Blend!!!
 
 ---
 
