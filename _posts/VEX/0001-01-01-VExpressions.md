@@ -1,6 +1,6 @@
 ---
 title: Vexpressions
-description: VEX basic expressions
+description: VEX basic expressions, Op()
 categories:
  - VEX
 tags:
@@ -8,7 +8,63 @@ tags:
 - Houdini
 ---
 
-### Patterns:
+
+# Op()
+
+`geoself()`, `0`, `@OpInput1`- Returns a handle to the current geometry  
+
+### OpInputs:
+`opname(".")` - node name `$OS`   
+`opname("..")` - name of node Container   
+`opinput(".", 0)` -  name of the node connected to input 0  
+`opinputpath(".", 0)` - path of the node connected to input 0 (`/obj/geo/lastNodeName`)  
+`opinputpath("/obj/geo/null1", 0)` - path to the node conected to first input of null1              
+`opfullpath(".")` - returns the full path of a node   
+`oprelativepath("../sourcePath","../targetPath")` - Returns the relative path from one node to another      
+
+### op:
+>`op` operator is that it allows you to grab live data from another node elsewhere in your scene.
+
+This will work as long as the data being fed in is the type of data the parameter the path to the node must be an absolute path starting from the root path:  
+`op:/img/img1/gamma1` - get texture in COPs/Imp. Put as image name  
+`op:/obj/cop2net1/OUT` - get texture from COP  
+`op:/obj/geo/MyNode` = ``` op: `opfullpath(“../../MyNode”)` ``` - For relative path use opfullpath    
+``` point("op:`opfullpath("../../null1")`","Cd",@ptnum) ``` - Copy color from points of other node  
+``` s@instancepath = sprintf(op:../../var_%s, VariantEnding); ```-
+
+
+### Channels/Parameters
+
+`ch()` -   
+`chf()` - float  
+`chs()` - string  
+`chi()` - int  
+`ch3()` - matrix3  
+`chramp()` - rampo  f@Cd = chramp('Cd',rand(@ptnum));   - noise ramp
+`chop("../chops/OUT/chan1")` - get chop channel    
+
+#### Rampkeys:  
+```glsl
+int rampkeys = chramp("ramp");
+
+for( int i=i; i<=rampkeys; i++){
+    float pos = ch(sprintf("ramp%gpos", i));
+    float val = ch(sprintf("ramp%gvalue", i));
+}
+```
+
+ you can interact with ramp keys just like a multiparm block. The ramp parameter itself has the value of how many keys there are:
+```
+c int rampkeys = chramp(“ramp”);
+for( int i=i; i<=rampkeys; i++){ float pos = ch(sprintf("ramp%gpos", i));
+float val = ch(sprintf("ramp%gvalue", i)); // Do stuff }
+```
+@flight404 (I normally don’t condone 1-based loop indices but the keys do start at 1 and not 0. I supposed you could switch to doing `i+1` in the `sprintf` calls though if you wanted)  
+
+
+---
+
+# Patterns
 Pattern may be a numeric pattern, attribute pattern, or group name pattern.
 `?` -  Match any character  
 `*` - Match any substring  
