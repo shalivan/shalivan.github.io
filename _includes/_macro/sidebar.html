@@ -35,6 +35,39 @@
                alt="{{ site.author }}" />
 -->
 
+        {% comment %} % Not to show title for quote posts that do not have a title {% endcomment %}
+        {% unless is_index and post.type == 'quote' and post.title == nil %}
+          <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
+          {% comment %} Link posts {% endcomment %}
+          {% if post.link %}
+              {% if post.sticky > 0 %}
+                {{ post.sticky }}
+                <span class="post-sticky-flag" title="{{ __.post.sticky }}">
+                  <i class="fa fa-thumb-tack"></i>
+                </span>
+              {% endif %}
+              <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
+                {% if post.title %}{{ post.title }}{% else %}{{  post.link }}{% endif %}
+                <i class="fa fa-external-link"></i>
+              </a>
+            {% else %}
+            {% if is_index %}
+                {% if post.sticky > 0 %}
+                  <span class="post-sticky-flag" title="{{ __.post.sticky }}">
+                    <i class="fa fa-thumb-tack"></i>
+                  </span>
+                {% endif %}
+                <a class="post-title-link" href="{{ post.url | relative_url }}" itemprop="url">
+                {{ post.title | default: __.post.untitled }}
+              </a>
+            {% else %}{{ post.title }}{% endif %}
+          {% endif %}
+        </{% if site.seo %}h2{% else %}h1{% endif %}>
+        {% endunless %}
+
+
+
+
           <p class="site-author-name" itemprop="name">{{ site.author }}</p>
            {% if site.seo %}
               <p class="site-description motion-element" itemprop="description">{{ site.signature }}</p>

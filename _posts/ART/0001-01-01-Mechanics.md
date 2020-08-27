@@ -94,3 +94,7 @@ Dramatic moments happening  on screen (cutscenes) are less freametic because you
 
 #### stoping problem
 37% optimal . after 27% of checked options commit to first that is better then
+
+# emertgent gameplay
+# tutorials
+# rewards

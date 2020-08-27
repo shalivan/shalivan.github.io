@@ -11,6 +11,7 @@ tags:
 ---
 
 
+
 linear narrative is not enough for games.  
 
 plot relevency - only add what matter. essential
