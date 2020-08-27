@@ -154,7 +154,7 @@ menu_icons:
   #soft: cube
   #code: terminal
   code: tv
-  psy: brain
+  psy: lightbulb-o
   #categories: th  / terminal
   #about: home
   about: paperclip
