@@ -6,6 +6,8 @@ categories:
 tags:
 - Science
 - Design
+- Cognition
+
 description: .
 ---
 
