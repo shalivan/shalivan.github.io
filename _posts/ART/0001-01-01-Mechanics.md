@@ -1,3 +1,13 @@
+---
+title: Mechanics
+description: .
+categories:
+ - ART
+tags:
+- Design
+- Games
+- Gameplay
+---
 
 # Mechanics   
 

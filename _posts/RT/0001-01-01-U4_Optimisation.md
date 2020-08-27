@@ -4,10 +4,9 @@ description: .
 categories:
  - RT
 tags:
-- Rendering 
+- Rendering
 - Real Time
 - Unreal
-- Design
 - Games
 - Tech
 ---

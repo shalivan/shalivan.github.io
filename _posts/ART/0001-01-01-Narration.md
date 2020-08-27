@@ -1,3 +1,16 @@
+---
+title: Narration
+description: .
+categories:
+ - ART
+tags:
+- Design
+- Games
+- Gameplay
+- Narration
+---
+
+
 linear narrative is not enough for games.  
 
 plot relevency - only add what matter. essential

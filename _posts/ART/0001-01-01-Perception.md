@@ -4,8 +4,8 @@ title: Perception
 categories:
  - ART
 tags:
-- Art
 - Science
+- Design
 description: .
 ---
 
