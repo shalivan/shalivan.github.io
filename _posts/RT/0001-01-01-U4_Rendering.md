@@ -8,7 +8,7 @@ tags:
 - Rendering
 - Real Time
 - Game Dev
-- Tech
+- Tech Art
 ---
 
 

@@ -7,7 +7,6 @@ tags:
 - Design
 - Game Dev
 - Gameplay
-- Narration
 - Cognition
 ---
 

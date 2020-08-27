@@ -9,7 +9,6 @@ tags:
 - Real Time
 - Art
 - Game Dev
-- Tech
 ---
 
 # Atmosphere

@@ -8,7 +8,7 @@ tags:
 - Real Time
 - Unreal
 - Game Dev
-- Tech
+- Tech Art
 ---
 
 check:
