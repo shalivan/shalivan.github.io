@@ -6,7 +6,7 @@
 # Site
 title: Note
 subtitle: Layout for personal notes.
-description: github.com/shalivan/shalivan.github.io
+description: ...
 author: ADAM BRYLA
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -233,6 +233,7 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   Twitter: https://twitter.com/BrylaAdam
+  Artstation: https://www.artstation.com/brylaadam
 
 
 # Social Links Icons
@@ -247,7 +248,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-
+  Artstation: artstation
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif

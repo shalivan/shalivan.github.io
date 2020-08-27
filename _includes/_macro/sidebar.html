@@ -31,8 +31,9 @@
       <section class="site-overview sidebar-panel{% unless display_toc and toc.size > 1 %} sidebar-panel-active{% endunless %}">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="{% assign default_avatar = site.images | append: '/avatar.gif' %}{{ site.avatar | default: default_avatar | relative_url }}"
-               alt="{{ site.author }}" />
+ <!--      src="{% assign default_avatar = site.images | append: '/avatar.gif' %}{{ site.avatar | default: default_avatar | relative_url }}"
+               alt="{{ site.author }}" />   -->
+
           <p class="site-author-name" itemprop="name">{{ site.author }}</p>
            {% if site.seo %}
               <p class="site-description motion-element" itemprop="description">{{ site.signature }}</p>
@@ -78,7 +79,7 @@
           {% endif %}
 
         </nav>
-
+<!--
         {% assign site_rss = site.rss %}
         {% if site.feed and site.feed.path and site.rss == '' or site.rss == nil %}
           {% assign site_rss = site.feed.path %}
@@ -91,7 +92,7 @@
             </a>
           </div>
         {% endif %}
-
+-->
         <div class="links-of-author motion-element">
           {% if site.social %}
             {% for name_link in site.social %}
