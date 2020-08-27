@@ -113,8 +113,13 @@ high level long term goals. not pull a leaver.
 # Space
 
 
-### Layout
-In games Perceptual pattern to create Orientation
+
+### Orientation
+
+**where I am**  In games Perceptual pattern to create Orientation  
+- Signposting (oznaczenia charakterystyczne dla areny)
+- Divide to district / zroznicuj areny (to distinc in map and mind )
+
 
 Way finding elements:
 dont lead player where to go but how move through space
@@ -122,8 +127,9 @@ dont lead player where to go but how move through space
 - `Landmarks` - individual object - `Wniees` - mystery element + landmark
 - `District` - with unique fulvous
 - `Linear elements` - Path, rivers.
-- `Edges` - Walls, rivers (temporay / depended)  
+- `Edges` - Walls, rivers (temporary / depended)  
 - `Nodes` - moments of decisions - train station
+
 
 ### Composition
 Composing 3d to view in 2d (flat monitor) like composition rules
@@ -138,36 +144,24 @@ Composing 3d to view in 2d (flat monitor) like composition rules
 ---
 
 # Visuals
-develop consistent visual language
 
-style: aesthetic
----
 
-# Visual Language
-
+### Visual Language
+- develop & maintain visual language consistency in style: aesthetic.
 - `Optimum complexity`
 - modular
 
 - gradient of visual complexity where the play space has less visual complexity and then as the space transitions to where players/enemies can no longer traverse (or where something visually important is) we increase it.
 
 
-- Signposting (oznaczenia charakterystyczne dla areny)
-
-- - divide to district / zroznicuj areny (to distinc in map and mind )
-
-
-
-
-maintain visual language consistency.
-
-##### visual story telling
+### Visual story telling
 let content of story to draw image  (not style ! )
 evaluating story:
 - what matter from the story point of view (no details)
 - what is interesting for story
 - summary important details
 
-##### environmental narrative (mise-en-scene)
+### Environmental narrative (mise-en-scene)
 - universal themes understood by all cultures > honor freedom lib injustice vengin survival
 - `Symbolism` (ascending desc.)> stairs up (create narrative),
 - `Expression`. world; Historical and cultural, inhabitant (znaki zamieszkania)
@@ -175,10 +169,10 @@ evaluating story:
 - `Novelty`
 - `Foreshadowing` - showing goals
 
-##### Architecture
+### Architecture
 https://vol.co/product/anime-architecture/
 
-#### pattern analysis
+### Pattern analysis
 oprocz dunkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w girsach auromatycznym skinem. obvious.
 
 
@@ -190,9 +184,10 @@ oprocz dunkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w
 #### Physics and usable
 
 
-#### divide to parts
+#### divide to parts - `Gateing`
 - gates / valves
 - soft gates
+
 
 
 - differentiate by usage
@@ -201,11 +196,11 @@ oprocz dunkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w
 - primary target (no deadends) vs. illusory targets vs. escalating (everywhere), vs bonus missions << structure
 - opportunities for different playstyles  
 - beginning and end
-- `Gateing`
 
 
 
-- evel reuse
+
+- level reuse
 
 ---  
 
