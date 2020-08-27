@@ -5,7 +5,7 @@ categories:
  - ART
 tags:
 - Design
-- Games
+- Game Dev
 - Gameplay
 - Architecture
 ---

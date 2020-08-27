@@ -1,11 +1,11 @@
 ---
-title: Mechanics
+title: Game Desing (Mechanics)
 description: .
 categories:
  - ART
 tags:
 - Design
-- Games
+- Game Dev
 - Gameplay
 ---
 
