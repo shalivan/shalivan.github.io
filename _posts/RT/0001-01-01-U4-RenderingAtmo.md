@@ -1,6 +1,6 @@
 ---
 title: Unreal Rendering Atmosphere
-description: .
+description: RAW NOTE.
 categories:
  - RT
 tags:

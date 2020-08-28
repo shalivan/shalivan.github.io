@@ -1,6 +1,6 @@
 ---
 title: Level Design
-description: .
+description: RAW NOTE.
 categories:
  - ART
 tags:

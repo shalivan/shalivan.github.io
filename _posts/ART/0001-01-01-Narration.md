@@ -1,6 +1,6 @@
 ---
 title: Narration
-description: .
+description: RAW NOTE.
 categories:
  - ART
 tags:
