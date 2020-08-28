@@ -1,6 +1,6 @@
 ---
-title: Game Desing (Mechanics)
-description: .
+title: Game Desing
+description: Mechanics.
 categories:
  - ART
 tags:
