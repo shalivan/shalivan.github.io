@@ -2,7 +2,7 @@
 title: Perception
 
 categories:
- - ART
+ - PSY
 tags:
 - Science
 - Design
