@@ -3,12 +3,13 @@ title: Curves equations
 description: VEX equations for curves drawing.
 categories:
  - VEX
- - ART
+ - CG
 tags:
 - VEX
 - Houdini
 - Art
 - Math
+- Procedural
 ---
 ### Line
 ```cpp

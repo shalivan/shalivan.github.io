@@ -8,7 +8,7 @@ tags:
 - Design
 - Cognition
 
-description: .
+description: Gestalt.
 ---
 
 
