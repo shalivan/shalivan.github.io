@@ -1,6 +1,6 @@
 ---
 title: Vexpressions
-description: VEX basic expressions, Op()
+description: patterns, expressions, Op()
 categories:
  - VEX
 tags:
@@ -240,3 +240,25 @@ HScript Textport
 
 ### Python Shell
 ```
+
+
+
+--
+
+# H script
+
+`$F3` - int frame with `padzero(5, $F)`- pad0    
+`$FF` - float frame   
+`${F}` - The current frame, (as set with the Playbar controls)   
+``` `$F+1` ``` - Next frame   
+
+
+`$N` - Old number of points `npoints(0)`  
+`$OS` - `opname("..")`- for container name    
+
+`$FSTART` - start frame, `$FEND` - end frame  
+
+`$T` - Current time, in seconds `f@Time`  
+`$ST` - only present in DOP contexts `f@SimTime` - Float simulation time   
+`$SF`- only present in DOP contexts `f@SimFrame` - Float simulation frame    
+`1/$FPS` - `f@TimeInc` - Float time step   
