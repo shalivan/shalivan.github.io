@@ -130,15 +130,10 @@ Building - ground/horizon relation
 
 # Draw
 
+
 ## Sketch
 - Refer to `human scale` and `relations` with other objects    
 - `proportion`, `shape recognition`, `perspective`  
-
-- practice one line not multiple in same place
-
-  line drawings
-
-
 
 
 
