@@ -210,7 +210,11 @@ add smoke
 https://shaderbits.com/blog/ue4-volumetric-fog-techniques  
 
 
+---
 
+Old setup
+ - `Sky box` > `Exp fog` > `Sky Light` > `Directional Light` > `Secondary lights` > `Cam Post` > `Color Grading`
+ 
 
 
 

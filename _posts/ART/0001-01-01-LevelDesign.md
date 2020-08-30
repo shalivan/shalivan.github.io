@@ -169,6 +169,15 @@ evaluating story:
 - `Novelty`
 - `Foreshadowing` - showing goals
 
+
+
+## Scene Setup   
+
+- `Depth`  - Atmosphere, Repeating same elements in space
+- `Light` - but we not evolve to going directly to light
+
+
+
 ### Architecture
 https://vol.co/product/anime-architecture/
 

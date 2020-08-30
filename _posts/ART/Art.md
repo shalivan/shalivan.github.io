@@ -3,10 +3,22 @@
 
 # Design
 
+what
 
 
- - Design Elements
+
+
+
+
+
+
+Animalistic features. Design base on anture or manufactured items
+
+
+
+- Design Elements
  - Principles of Design
+
 
 ## Level / 2d / items / ...
 
@@ -41,151 +53,15 @@ Typograpth -
 
 
 
-## UX/UI
-
-
-
-- Consistency / Intentionallyty
-- Ergonomy. The time to acquire a target is a function of the distance to and size of the target.
-- Visual Feedback
-- Simplicity / Cognitive Load. (The time it takes to make a decision increases with the number and complexity of choices.)
-
-**UI types**:
-- non-Diagetic
-- Diagetic
-- Spatial
-- Meta  
-
-
-
-**UI elements**
-
-Iconography - construction grid, smallest point   
-Typograpth -    
-
-
 ---
 
-# Architecture
-
-Arch as response to anchors:  needs / function / context / local constrain /  external conditions  (sun: south wall is most efficient, land features)
-
-# Form
-Point of contact between mass and space
-
-- forms, (space, structure) , outward expression. (size scale texture ) emotions (formal language create forms)
-- shapes (l- shelter and open , long sides... )
-Additive  Subtractive
 
 
+duality
 
-#### Imposible Figure
-M.C. Escher
-
-
-# Space
- Space is formed by relationship to object within. Literal space define scene by Degree of enclosure.
-Enclosure Spaces
-
-#### Implied  Space
-
-#### Negative Space
+- Harmony and dissonance
 
 
-
-- court
-- horizon height- separation and connections
-
-
-
-## Spatial Form
-
-##### Organization
-- **Plane Layout** - indoor, outdoor, connection
-- **Pace** - change frequency over time by density over sopace (close spaceing make illusion of fast movement) Repetiton and Rythm
-
-symetries
-
-
-
-
-
-##### Relationship
-
-
-
-Space-space relations
-
-Building - ground/horizon relation
-
-.
-##### Function
-
-
- ---
-
-
-
----
-
-# Draw
-
-
-## Sketch
-- Refer to `human scale` and `relations` with other objects    
-- `proportion`, `shape recognition`, `perspective`  
-
-
-
-
-## Paint   
-  - Value !!
-  - Biggest to smallest details
-  - Detail Control: Most details on: Focal point / silhouettes
-  - Stylization  
-    - [Flip  for perspective correction]   
-    - [Thumbnails for detail correction]    
-    - [B&W for valor correction]    
-
-- dynamism / >!>!>>!>!!??!?!
-- moment (just before action / during / after )
-
-
----
-
-# Color
-   - `The Opponent-Process Theory`, `Trichromatic Theory`  
-   - Color temperature  vs  neutral colors (W&B and gray)   
-   - Work in `HSV` to manage `Chroma` and `Valor` .   
-
-**HSV**   
-- Hue - perceived colors. dependent on its dominant wavelength and independent of intensity or lightness.
-- Saturation (Chroma) - the strength or dominance of the hue.  
-- Lightness (Valor) -  or darkness of the hue.
-
-**Compose Colors**
-
-   || |
-   |-|- |
-   `Monochrome` | 1 color
-   `Analogous`| Similar
-   `Complimentary` | Opposites
-   `Split-Complementary` | (dominant & support + accent),
-   `Triad`  |3 |
-   `Tetradic` | 4   
-
-complimentary color not both saturated. One should bne desat.
-
-
-   - `Spectral Locus` ploting all visible colors can show how much sRGB is limited. rec2020 (much vider color space)      
-   Enviroment make diference how we see image  (monitor clalib and viewing conditions)  
-
-#### Contrast   
-- `Value` high key painting has a `high-value` scale (light) vs `low-value` scale (dark).  
-- `Hue/Saturation`  
-- `Edge`  
-- `Proximity`  
-- `Texture` (material), `Shape`
 
 
 ---
@@ -209,12 +85,10 @@ complimentary color not both saturated. One should bne desat.
 
 
 
-## Scene Setup   
-   - `Sky box` > `Exp fog` > `Sky Light` > `Directional Light` > `Secondary lights` > `Cam Post` > `Color Grading`
- - `Depth`  - Atmosphere, Repeating same elements in space
-- `Light` - but we not evolve to going directly to light
 
-- Ground things to make it believable
+
+
+
 
  ----
 
@@ -244,11 +118,7 @@ complimentary color not both saturated. One should bne desat.
 
 
 
-#### Light
-   - Unmotivated Light - Support light that doesn't have a physical representation.  
-   - `Direct`: `Key light`, `Fill light`, `Rim light`,   `Diffuse light`
-   -`Indirect`: `Ambient`, `Bounced`  
-   - one eye must be stronger
+
 
 
    ---
