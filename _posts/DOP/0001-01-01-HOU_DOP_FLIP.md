@@ -21,7 +21,7 @@ Divergence
 ---   
 
 
-<img src="/Sources/flip/flipsolver.png" width="406">
+<img src="/src/flip/flipsolver.png" width="406">
 
 
 
@@ -144,7 +144,7 @@ Physical behavior : `Bounce`, `Friction`, `Temperature`, `Density`, `Viscosity` 
 
 ---
 
-<img src="/Sources/flip/flipsource.png" width="406">
+<img src="/src/flip/flipsource.png" width="406">
 
 # `FLIP Source` SOP
 (for Volume Source DOP)- converts its input geometry into a volume that can be used to control simulations. For instance, the generated volume can be used to inject liquid into a FLIP simulation or act as a sink in a smoke simulation.   
