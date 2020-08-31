@@ -1,5 +1,5 @@
 ---
-title: Vellum SOP
+title: DOP Vellum SOP
 
 categories:
  - HOU
@@ -7,7 +7,7 @@ tags:
 - DOP
 - Vellum
 - Houdini
-description:  Houdini vellum solver in SOP's.
+description:  Houdini solver in SOP's.
 ---
 
 <!-- more -->
