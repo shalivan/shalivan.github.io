@@ -7,7 +7,7 @@ tags:
 - Science
 - Cognition
 
-description: RAW NOTE!
+description: attention, cognition motivation, emotion, choice, satisfaction
 ---
 
 
@@ -240,13 +240,13 @@ Cooperation give chance for Positive externalities (benefit for others)
 
 
 ###  Flow  
->`Game Folow` - is wave zone between anexity and boredom (sometimes challenge and sometimes powerfull)  
+`Game Folow` - is wave zone between anexity and boredom (sometimes challenge and sometimes powerfull)  
 - `Dificulty Curve` - Challange  
 - `Paceing` Rythm + Pressure >Manage stress. If there is no stress its not meaningfull and you dont care. So pressure is good  
 - `Learning Curve` - Onboarding > tutorials super important   
 
 # Choice
->paradox of choice - we can be hap[ier witlh less choices
+paradox of choice - we can be hap[ier witlh less choices
 
 - more information player have more miningful is choice
 - changeing decision need effort thou is more dificult with time pass
@@ -268,7 +268,7 @@ autonomy - capacity to make decisions  (multiplayer huge autonomy)
 ----------
 
 
-# Satisfaction and meaning
+# Satisfaction
 1) challange   
 - chelenging task
 - flow state > zom  

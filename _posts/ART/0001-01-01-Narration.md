@@ -1,6 +1,6 @@
 ---
 title: Narration
-description: RAW NOTE.
+description: plot, characters, philosophy.
 categories:
  - ART
 tags:
@@ -11,58 +11,53 @@ tags:
 ---
 
 
+Every medium have it own narration style. Linear narrative is not enough for games.  
 
-linear narrative is not enough for games.  
-
-plot relevency - only add what matter. essential
-to much - boring
-little - implausible
-every question brought by the plot is an promies , keep best to keep those promieses
-ruless for world for all characters same
-
-
-black and white reality is simple but ....
+- plot relevancy - only add essentials that matter. to much - boring, to little - implausible
+- every question brought by the plot is an promise , keep best to keep those promises
+- rules for world for all characters same
+- black and white reality is simple but .... ??
 
 # Storyline
 
-Writing > Editing > Voiceovers, Localisation > Cinematics
+Writing > Editing > Voiceovers, Localization > Cinematics
 
 
 Narration types:  
 - `explicid` - cutscenes text written
-- `implicit` - player must figur out itself
+- `implicit` - player must figure out itself
 - `emergent`
 
 Invite Questions!!!
 
-##### Theme
-What is about / what thread bind it toghether
+### Theme
+What is about / what thread bind it together
 
 elevator pitches
 peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
 
-##### Story  & Plot
->A story is a series of events recorded in their chronological order. A plot is a series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance.
+### Story  & Plot
+A story is a series of events recorded in their chronological order. A plot is a series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance.
 
 Cannot say a story without `Place`, `Time` and `Character`. Or you can :> ?
 
    - `Premise` -  Meaningful, obietnica, zapowiedz
    - `Causality` -  Therefor instead of: Then  (a means to an end)
-   - `Character` reveale when human characters make choices under pressuere
+   - `Character` reveale when human characters make choices under pressure
    -  Establish conflict, Twist
-   - `Pacing`, `Build up` Stimulus delta over moments. Suprise changes moment to moment and our desire.
+   - `Pacing`, `Build up` Stimulus delta over moments. Surprise changes moment to moment and our desire.
 
 
 
 
-`Begining` - to engage  
+`Beginning` - to engage  
 `Peak` -  (tentpole - most expensive mom)
 `End` - brain reference to those experience and have impact to long term memory  
 
 
 plot along motivation  
-novel, unique, cohesive, meaningfull  
-Structure in gemes is not as important  
+novel, unique, cohesive, meaningful  
+Structure in games is not as important  
 
 (theme and moral)
 
@@ -77,8 +72,8 @@ Structure in gemes is not as important
   - a big unexpected question
 
 
-##### Pace layers
- >6 layers that function simultaneously at different speeds within society by stuard brand   
+### Pace layers
+6 layers that function simultaneously at different speeds within society by stuard brand   
 
 
  Layer | function | home metaphore |
@@ -91,30 +86,33 @@ Culture | Record | Structure (building 100y)
 Nature | Slow, Preserve | Site (place, forever)
 
 
-#####  Motivations
->universal throuth shared by all cultures
+###  Motivations
+universal through shared by all cultures
 
 
 
 Love, Injustice, Freedom, Honor, Liberty, Vengins,  Survival, Frear, Guilt
 
 
-##### Conflict !
+#### Conflict
 Wants vs needs
 Mind (primal mamal) vs Soul (fulfill to have superior existance)
-##### Mystery
+
+#### Mystery
+
+
+####  collective unconscious
+Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
+
+
 #### Semiotics
->of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
+of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
 
 symbolism and atchetypes
 
-#####  collective unconscious
-> Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
 
-
-
-##### Signifires
-> Gameplay (signales that help find that sth is usable (signs/ colors)) (BRAK 4-th wall)
+#### Signifiers
+Gameplay (signals that help find that sth is usable (signs/ colors)) (BRAK 4-th wall)
 
 
 
@@ -122,7 +120,8 @@ symbolism and atchetypes
 driven by exter/inter motivations
 
 name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want acomplished, what affraid, what like to do, hidden talent, deepest secret
-##### Character Archetypes
+
+### Character Archetypes
 - Hero
 - Sidekick
 - Maiden
