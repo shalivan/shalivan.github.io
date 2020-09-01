@@ -1,6 +1,6 @@
 ---
-title: Unreal Rendering Atmosphere
-description: RAW NOTE.
+title: Unreal Atmosphere
+description: Light, Atmosphere and Fog settings.
 categories:
  - RT
 tags:
@@ -14,17 +14,17 @@ tags:
 # Atmosphere
 Lowering contrast and saturation over distance, make color more like sky  
 Skylight intensity is relative to the HDR  
-Light - Radious and intensity keep both toghether. Mini roiughness light without reflections
+Light - Radius and intensity keep both together. Mini roughness light without reflections
 
- Direct lighted vs shaded intensity ratio   | |
-  ---| -- |
-~4:1 |sun/sky
-~3:1 |sunrise/sunset  
-~2:1 |overcast
+ |Direct lighted vs shaded intensity ratio   | |
+|  ---| -- |
+|~4:1 |sun/sky
+|~3:1 |sunrise/sunset  
+|~2:1 |overcast
 
->You can measure that by looking at a white surface with sun on it, and adding a shadow casting object then comparing the brightness of the lit to the shadowed areas. Modify skylight until its around 25% the value of the sun. Convert to linear space if comparing in screens photoshop. (adjustment->levels and set the midpoint to 0.4545)
+You can measure that by looking at a white surface with sun on it, and adding a shadow casting object then comparing the brightness of the lit to the shadowed areas. Modify skylight until its around 25% the value of the sun. Convert to linear space if comparing in screens photoshop. (adjustment->levels and set the midpoint to 0.4545).
 
-## Light
+# Light
 
 1 cd = 625 unitless
 1 cd = 1 lm/sr
@@ -32,7 +32,7 @@ Light - Radious and intensity keep both toghether. Mini roiughness light without
 Candelas, it is unaffected by its cone angle.
 Lumens, its luminous power only applies to the solid angle affected by the light, in Steradians (sr).
 
-#### Units
+### Units
 
 - Directional lights uses Direct Normal Illuminance, lux = (lm/m²)   
 - Sky lights Luminance, cd/m²  `1 cd` = `1 lm/sr` = `625 unitless`     
@@ -52,7 +52,7 @@ Lumens, its luminous power only applies to the solid angle affected by the light
 `Source Angle` - **0.5357** Angular Diameter of circle drawn on skybox for Sun   
 [x] `Atmospheric / Fog Sunlight` - Fog on Hallo & sun location from sky
 
-#### Light Shafts & Bloom
+### Light Shafts & Bloom
 `Light Shafts` -  Max darkness / depth   
 `Light Bloom` -    Scale / threshold / max bright / color
 
@@ -63,22 +63,23 @@ Lumens, its luminous power only applies to the solid angle affected by the light
 
 # Sky Atmosphere
 
->Work with SUN. Simulates **absorption** with **Mie** scattering and **Rayleigh** scattering. They themselves are made up of particles and molecules that have their own shape, size and density. When photons (or light energy) enters the atmosphere and collides with the particles and molecules there, it is either reflected (**scattered**)  or consumed (**absorbed**).  Different colors during day because angle to ground change the **distance light go through** Atmospheric density.
+Work with SUN. Simulates **absorption** with **Mie** scattering and **Rayleigh** scattering. They themselves are made up of particles and molecules that have their own shape, size and density. When photons (or light energy) enters the atmosphere and collides with the particles and molecules there, it is either reflected (**scattered**)  or consumed (**absorbed**).  Different colors during day because angle to ground change the **distance light go through** Atmospheric density.
 
 `■` `Ground Albedo` - Horizon color (can be modified by rayl...)  
 `z` `Atmosphere Height` - 60 km up - default
 [x] `Multiple scattering` - use  
 
-#### Rayleigh
-> Scatter Uniform-ish on the molecules smallest size than 1/10 of photon wave length. Longer wavelength less scattering, therefore **sky is Blue** (400 nm) is 5.8 more scattered than red (700 nm) 1.0  
+### Rayleigh
+Scatter Uniform-ish on the molecules smallest size than 1/10 of photon wave length. Longer wavelength less scattering, therefore **sky is Blue** (400 nm) is 5.8 more scattered than red (700 nm) 1.0  
 
 
 `■` `Color` - Effect color   
 `x` `Rayleigh Scattering Scale` - **0,0331** for Earth. - 0.0 more like selected color - 1.0 more like opposite to selected  color (shift original toward sun)      
 `F` `Exponential Distribution` - Z - Distance Falloff. - 1 black  - 20 nicer falloff to  see horizon color (8 default)     
 
-#### Mie
-> More directional Interaction of light with larger particles  **Height fog** simulation. (dust, pollen, or air pollution) **absorbs light** causing the clarity of the sky to appear hazy by occluding light.  Aerosols Scattering.
+
+### Mie
+More directional Interaction of light with larger particles  **Height fog** simulation. (dust, pollen, or air pollution) **absorbs light** causing the clarity of the sky to appear hazy by occluding light.  Aerosols Scattering.
 
 `■` `Scattering Color` - Halo color + Inverted Horizon color   
 `x` `Scattering Scale` - 0 - 5 Amount of Lightness    
@@ -89,12 +90,12 @@ Lumens, its luminous power only applies to the solid angle affected by the light
 `F` `Anisotropy` - 0-1  - Halo Distribution.  0 - Uniformly, 1 - More Hallo     
 `F` `Exponential Distribution` - Z - Distance Falloff.  0- on ground, 1 - whole sky.
 
-#### Absorption
+### Absorption
 `■` `Color` - Color to absorb   
 `x` `Absorption scale` - 0-1 Amount      
 `z` `Tip Altitude`, `Tip Value`, `Width` -  Distribution    
 
-#### Art
+### Art
 `■` `Sky Luminanse Factor` - Background Color  
 `Aerial Perspedctive Distance Scale `  - Fog Distance    
 `Taransmittance Min Light Elevation Angle` - Help maintain sun and shadows when sun under horizon    
@@ -111,7 +112,7 @@ r.SkyAtmosphere.Visualize 1
 ---
 
 # Sky Light
-> Emit light from captured cubemap  Require: **Recapture**
+Emit light from captured cubemap  Require: **Recapture**
 
 
 `■` `Light Color` -    
@@ -129,8 +130,8 @@ r.SkyAtmosphere.Visualize 1
 ----
 
 
-# Skydome
->Shape of skydome mesh is important when using some of theseexpressions since they will drive evaluation of those values. For example, if you use the functions to evaluate lighting on clouds, you can assume the skydome pixel world position represents the cloud world position in the atmosphere.  
+# Sky dome
+Shape of sky dome mesh is important when using some of these expressions since they will drive evaluation of those values. For example, if you use the functions to evaluate lighting on clouds, you can assume the sky dome pixel world position represents the cloud world position in the atmosphere.  
 
 ### Using HDR
 
@@ -160,7 +161,7 @@ add smoke
 ??: `Sky Atmosphere Aerial Perspective` - wide glow tint  
 ??: `Sky Atmosphere Light Luminance` - intensity/color of sunlight hitting atmosphere  
 
-##### H Fog & Lihght
+##### H Fog & Light
 
 `Atmospherer Light Vector` - Sun Angle of dir.   
 `Atmosphere Light Color` -     Old    
@@ -173,9 +174,9 @@ add smoke
 
 
 # Height Fog
->With Atmosphere are ADDITIVE So basic setup black
+With Atmosphere are ADDITIVE So basic setup black
 
-#### Inscattering
+### Inscattering
 `■` `Color`  - Inscattering   
 `x` `Density`,  - Density  
 `x` `Density 2` - Density 2-nd      
@@ -185,13 +186,13 @@ add smoke
 `Start Distance` -  Start  
 `Fog Cutoff Distance` -  End (excluding skybox which already have fog baked into them)  
 
-#### Directional Inscattering  
+### Directional Inscattering  
 `■ Color` - Directional Inscattering   
 `x` `Exponent` - 2-64  2 - huge Halo -  64 - Small Halo
 `Start Distance` - Start   
 `Max Opacity` - clamp   
 
-#### Volume Fog
+### Volume Fog
 
 
 `□` `Albedo` -  The height fog particle reflectiveness used by Volumetric Fog. Water particles in the air have an albedo near white, while dust have slightly darker value  
@@ -212,9 +213,10 @@ https://shaderbits.com/blog/ue4-volumetric-fog-techniques
 
 ---
 
+
 Old setup
  - `Sky box` > `Exp fog` > `Sky Light` > `Directional Light` > `Secondary lights` > `Cam Post` > `Color Grading`
- 
+
 
 
 
