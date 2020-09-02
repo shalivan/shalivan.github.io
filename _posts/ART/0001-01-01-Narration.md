@@ -61,7 +61,7 @@ Structure in games is not as important
 
 (theme and moral)
 
-  ##### Monomyth:
+### Monomyth:
   Heroes Journey: `You`, `Need`, `Go`, `Search`, `Find`, `Take`, `Return`, `Change`  (Joseph Campbell)
   vs. seriale ???  
   make story on various level opf magnification   
