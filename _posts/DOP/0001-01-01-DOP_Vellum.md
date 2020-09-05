@@ -5,7 +5,6 @@ categories:
  - HOU
 tags:
 - DOP
-- Vellum
 - Houdini
 description: Houdini solver.
 ---

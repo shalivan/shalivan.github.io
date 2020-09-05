@@ -1,5 +1,5 @@
 ---
-title: Unreal Atmosphere
+title: Unreal Rendering Light & Atmosphere
 description: Light, Atmosphere and Fog settings.
 categories:
  - RT
@@ -7,6 +7,7 @@ tags:
 - Unreal
 - Rendering
 - Real Time
+- Light
 - Art
 - Game Dev
 ---
