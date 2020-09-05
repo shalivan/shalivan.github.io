@@ -12,11 +12,6 @@ tags:
 ---
 
 
-# clouds
-https://sergeneren.com/2019/08/21/creating-low-altitude-clouds/
-
-https://gumroad.com/l/sFTCY/Clouds6m52fv
-
 
 
 #### Project and Light Settings

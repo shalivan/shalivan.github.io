@@ -85,15 +85,7 @@ Dramatic moments happening  on screen (cutscenes) are less freametic because you
 
 ### Econotmy and balance
 
-## Game Theroy
->Interaction and payofs. the mathematical study of optimizing agents
-- `Cooperative` - how to be fair - coalition and benefit and contribution type in coalition
-- `Competitive` - how to be smatr
-- `Zero Sum Game` - Interest is not overlaping. `win-lose`
-
-
-#### stoping problem
-37% optimal . after 27% of checked options commit to first that is better then
+Game Theroy
 
 # emertgent gameplay
 # tutorials

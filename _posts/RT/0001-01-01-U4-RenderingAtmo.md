@@ -215,6 +215,15 @@ https://shaderbits.com/blog/ue4-volumetric-fog-techniques
 ---
 
 
+
+# Clouds
+https://sergeneren.com/2019/08/21/creating-low-altitude-clouds/
+
+https://gumroad.com/l/sFTCY/Clouds6m52fv
+
+
+
+
 Old setup
  - `Sky box` > `Exp fog` > `Sky Light` > `Directional Light` > `Secondary lights` > `Cam Post` > `Color Grading`
 
