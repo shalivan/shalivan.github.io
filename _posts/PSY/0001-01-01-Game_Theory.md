@@ -1,6 +1,6 @@
 ---
-title: Game Design
-description: Mechanics.
+title: Game Theory
+description: For poker, gameplay, reciprocal altruism.
 categories:
  - PSY
 tags:

@@ -1,6 +1,6 @@
 ---
-title: Game Theory
-description: For poker, gameplay, reciprocal altruism.
+title: Game Design
+description: Mechanics.
 categories:
  - RT
 tags:
@@ -85,7 +85,7 @@ Dramatic moments happening  on screen (cutscenes) are less freametic because you
 
 ### Econotmy and balance
 
-Game Theroy
+## Game Theroy
 
 # emertgent gameplay
 # tutorials
