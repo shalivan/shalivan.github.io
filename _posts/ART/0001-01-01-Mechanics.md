@@ -1,8 +1,8 @@
 ---
-title: Game Desing
+title: Game Design
 description: Mechanics.
 categories:
- - ART
+ - PSY
 tags:
 - Design
 - Game Dev

@@ -11,6 +11,7 @@ tags:
 - Tech Art
 ---
 
+`ToggleAllScreenMessages`
 check:
 - precise uv
 - colision setup

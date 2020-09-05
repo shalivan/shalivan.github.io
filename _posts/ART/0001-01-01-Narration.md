@@ -2,7 +2,7 @@
 title: Narration
 description: plot, characters, philosophy.
 categories:
- - ART
+ - PSY
 tags:
 - Design
 - Game Dev
