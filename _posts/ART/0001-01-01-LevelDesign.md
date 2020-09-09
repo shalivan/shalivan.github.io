@@ -26,7 +26,7 @@ LD driven by mechanics. Books imagine, movie see, games act.
 - obj with fixed size = car, without = tree    
 - Readability  
 - Signposting  
-
+.
 - **Critical path** = The quickest and most direct route to beating the level.
 - **Golden path** = The designers ‘preferred’ route. It’s the one you expect most players to take and the one which will offer the optimal experience.
 
@@ -144,13 +144,18 @@ Composing 3d to view in 2d (flat monitor) like composition rules
 ---
 
 # Visuals
+generally more effective when it makes contextual narrative sense i
 
+
+### Usable Visual
+- usable elements
 
 ### Visual Language
 - develop & maintain visual language consistency in style: aesthetic.
 - `Optimum complexity`
 - modular
 
+.
 - gradient of visual complexity where the play space has less visual complexity and then as the space transitions to where players/enemies can no longer traverse (or where something visually important is) we increase it.
 
 
