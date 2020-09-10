@@ -17,13 +17,15 @@ midi device on windows:
 
 # Synths
 
+[**Synth playground**](https://learningsynths.ableton.com/en/playground)
+
 
 
 
 
 
 ### Waveforms:
-Create sound in oscilator
+Create sound in oscillator
 
 |-|-|-|-|
 |-|-|-|-|
@@ -31,7 +33,7 @@ Sin | Simple | Muted Warm Hollow Bassy |Flute Organ
 Triangle| Simple few overtones  (not as full as square) | Pure, Dull | Chime, Organ
 Saw wave | Complex excitements and bright at hi end in upper range. |  Full Harsh Bright | string
 Square | Complex harmonics, full sound  Can be shape no other can| Hollow Harsh Brass ruddy | Horn
-Square Pulse | Square with wariation in timing
+Square Pulse | Square with variation in timing
 Noise | very Complex many overtones. Hard Cutting  |Asymmetric | Noise
 
 Smooth shape, smooth tone , hard; hard tone
@@ -40,12 +42,10 @@ Smooth shape, smooth tone , hard; hard tone
 ### Filter
 Shape sound and character of waveform
 
- if you low pass filter saw wave you will get sth like sin  
-
  |-|-|-|-|
  |-|-|-|-|
-Lowpass |  Cut off High end freq (higher are filtered)  | (traditional ?) duller
-Highpass | Cut off Low end freq  | (more esoteric ? )
+Lowpass |  Cut off Highend frequencies  | (traditional ?) duller
+Highpass | Cut off Lowend frequencies  | (more esoteric ? )
 Bandpass | Low + High  
 Resonance | Peak before high cut. Add sharpness. | Laser zaps, Focused sounds  
 Sweep | Move resonance center   
@@ -53,13 +53,14 @@ Key track | Low same but higher notes have higher filter (more open) frequencies
 Envelope | ie: Open and Close filter over time  
 Cutoff frequency | Take out of focus  
 Drive |   
-Env2 Mode  |  how much filter env modulate filter ftreq  
+Env2 Mode  |  how much filter env modulate filter frequencies
 
+-  if you low pass filter saw wave you will get sth like sin  
 
 
 
 ### Envelope
-How fast tur on and down. how much envelop impacts settings u can modulate: filters, pitch or frequencies
+How fast turn on and down. Determine how much envelop impacts settings. U can modulate: filters, pitch, frequencies, pulse with modulation(shape square wave), amplifier.
 
 |-|-|-|
 |-|-|-|
@@ -70,32 +71,18 @@ Release | how long will stay after trigger release  | Start Immediately after re
 
 
 
-Examples :   
-- filter envelope -   
-- amplifier envelope -   
-- frequency envelope -    
-- pitch envelope -   
-- pulse with modulation - shape square wave
-
-
-
 ### Modulation
-using signal to shape aspect of sound over time
-> Modulate Wave with additional waves
+Modulate Wave with additional waves. Using signal to shape aspect of sound over time
+
 
 #### LFO (modulator)
-> Low frequency oscillator generate waveform (e.g. sin) like oscillator and using it as control signal modulator
+Low frequency oscillator generate waveform (e.g. sin) like oscillator and using it as control signal modulator
 
 Examples :    
-- source >> destination e.g. LFO can modulate filter freq  
+- source >> destination e.g. LFO can modulate filter frequencies   
 - can create pitch vibrato
 - pulse width modulation with  Square wave
 
-```
-`Rate`  
-`Sync`  
-`Slwe`  
-```
 ---
 
 
