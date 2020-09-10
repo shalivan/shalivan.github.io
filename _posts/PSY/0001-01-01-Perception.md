@@ -12,10 +12,16 @@ description: Gestalt.
 ---
 
 
+| | average reaction time |
+|---|---|
+0.25 | visuals
+0.17 | audio
+0.15 | touch stimulation
 
 
 
-# Perception
+
+# Visual Perception
 
 ## Gestalt
 
@@ -53,9 +59,12 @@ Gestalt law of pragnanz. which means ‘concise and meaningful‘
 
 RAW NOTE: !
 
+
+
+# Memory
+
 ```
 
-# Brain left and ritght :
 
 
 -

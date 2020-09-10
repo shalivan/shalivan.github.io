@@ -1,6 +1,6 @@
 ---
-title: Python hou. class 
-description: Houdini classes.
+title: Python hou.
+description: Houdini class.
 categories:
  - RT
 tags:
@@ -10,58 +10,19 @@ tags:
 ---
 
 
-
-
-https://github.com/kiryha/Houdini/wiki/python-snippets
-
-
-# Python:
 - Python Shell - Live code
 - Python Source Editor - you can save  code and function / hou.session.myDefinedFunction()
 - Digital Asset -
-- Shelf Tool - scrpit section to write code Executed after shelf click
-
----
-### Groups:
-
-`myGrp=geo.createPrimGroup('name')` - Create group   
-`group.destroy()` - Delete group, leaving contents intact  
-
-Add Point to group:
-```python
-point=geo.createPoint()
-myGrp=geo.createPointGroup('name')
-myGrp.add(point)
-```
-Iterate group:
-```python
-groups = geo.primGroups()
-for group in groups:
-    print group.name
-```
-
-### Attributes:
-
-`points[index].setAttribValue("Cd",(1.0,1.0,1.0))` - Set attribute  
-`redVal=point.attribValue("Cd")[0]` - Get attribute   
-
-###  Delete primitives
-```
-deleteList=[]
-for i in boundingGrp.prims():
-    deleteList.append(i)
-geo.deletePrims(deleteList)
-```
-
-# Class
+- Shelf Tool - scripts section to write code Executed after shelf click
 
 
-### hou
+# hou Class
+
 - `hou.` is houdini python class. We can drop it in **expressions**:  
 - see what params is passing `kwargs` (pthos dict to see what is avalable)
 
 
-### hou.node
+## hou.node
 node in trees
 ```python
 foo = hou.node('/path')
@@ -130,7 +91,7 @@ print examplereturn("houdini") # will print HOUDINI with all big captions
 ```
 
 
-#### swap $HIP to $JOB
+#### swap $ HIP to $ JOB
 NickD
 ```python
 def hipToJob():
@@ -139,7 +100,7 @@ def hipToJob():
             fileJob = node.parm("tex0").rawValue().replace("$HIP","$JOB")
             node.parm("tex0").set(fileJob)
 ```
-### hou.parm
+## hou.parm
 behaviour of all parameters
 ```python
 ty = hou.parmTuple('/obj/ball/t')[1]
@@ -174,7 +135,7 @@ for key in ry.keyframes():
 ry.asCode() # will print code
 ```
 
-### hou.ObjNode
+## hou.ObjNode
 how is displayed and how manipulate
 ```python
 
@@ -195,7 +156,7 @@ print (product == world) # True
 ball.mmoveParmTransformIntoPreTransform()
 
 ```
-### hou.Geometry
+## hou.Geometry
 Define 3d geo shape  
 ```python
 geo = hou.node('/obj/ball/AddPointNormal').geometry()
@@ -251,6 +212,56 @@ for pos in (0,0,0),(1,0,0),(0,1,0):
 	poly.addVertex(point)  
 
 ```
+
+
+
+---
+
+---
+---
+
+---
+---
+
+---
+---
+
+---
+
+
+# RAW NOTES
+### Groups:
+
+`myGrp=geo.createPrimGroup('name')` - Create group   
+`group.destroy()` - Delete group, leaving contents intact  
+
+Add Point to group:
+```python
+point=geo.createPoint()
+myGrp=geo.createPointGroup('name')
+myGrp.add(point)
+```
+
+Iterate group:
+```python
+groups = geo.primGroups()
+for group in groups:
+    print group.name
+```
+
+### Attributes:
+
+`points[index].setAttribValue("Cd",(1.0,1.0,1.0))` - Set attribute  
+`redVal=point.attribValue("Cd")[0]` - Get attribute   
+
+###  Delete primitives
+```
+deleteList=[]
+for i in boundingGrp.prims():
+    deleteList.append(i)
+geo.deletePrims(deleteList)
+```
+
 
 
 ### Timeline keys
@@ -341,6 +352,7 @@ from test import *
 
 
 # Viewport States
+https://www.artstation.com/siver/blog/W9PL/houdini-blog-38-viewer-states  
+https://youtu.be/iMb8W2dH4hs  
 
-
-https://www.artstation.com/siver/blog/W9PL/houdini-blog-38-viewer-states
+https://github.com/kiryha/Houdini/wiki/python-snippets
