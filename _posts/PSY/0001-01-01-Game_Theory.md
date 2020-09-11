@@ -45,8 +45,8 @@ Strategies to survive forgiving tic for tat (vulnerable to exploit) > forgiven t
 
 **GTO**
 - assumes opponent is always countering with the perfect strategy
-- can have lower wyield EV then exploitative play
--
+- can have lower yield EV then exploitative play
+
 
 **Exploitative**
 -humans make a lot errors  exploit mistakes
