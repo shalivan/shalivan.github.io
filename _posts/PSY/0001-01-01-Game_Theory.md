@@ -12,26 +12,22 @@ tags:
 ---
 
 
-# Game Theroy
+# Game Theory
 mathematical study of optimizing agents strategies in games where outcome depend on other agents actions.
 - `Cooperative` - how to be fair - coalition and benefit and contribution type in coalition
-- `Competitive` - how to be smatr
+- `Competitive` - how to be smart
 
 
 - `Zero Sum Game` - Interest is not overlapping. `win-lose`
 - `imperfect information games` - depth limited search.
 
-
 **Nash equilibrium**
 (rational play when more then one player. not only define start but always believes)
 Is a concept within game theory where the optimal outcome of a game is where no player have incentives to deviate from initial strategy.
 
-
 **Poisoner dilemma**
 Very complicated not always everything plays around these lines. (some Exceptions)   
 multiple goals, number of rounds....  In lot of species there is no cognitive strategy  
-
-
 
 
 **two player vs more**
