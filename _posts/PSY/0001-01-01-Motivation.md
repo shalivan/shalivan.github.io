@@ -11,30 +11,23 @@ description: attention, cognition motivation, emotion, choice, satisfaction
 ---
 
 
-Optimizing social behavior 1980: sociobiology > evolutionary psychology.
+Human behavior is complex. Optimizing social behavior since 1980: sociobiology > evolutionary psychology.
 
 
-Human behavior is not simple
-Illusion of control is just as much impact as real
-
-What about building TENTION ??>
-
-
-
-behaviours dictate your desires and wants not about needs  
-emotional labour
-
-brain have idea and it must fit to reality. To meet expoectations is important  
+```
+- emotional labor
+- building TENTION ?
+```
 
 
 # Attention
 ### Attention
->Selective concentration on a discrete stimulus while ignoring other perceivable stimuli. Affect Cognitive load: (amount of mental effort being uesd)
+Selective concentration on a discrete stimulus while ignoring other perceivable stimuli. Affect Cognitive load: (amount of mental effort being used)
 
 `Area of focus` of brain is like thumb of hand in front of u
 
 ### Engagement  
->Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self  `Flow` / the `Zone` / `Imersia`: altered time. fully `immersed` with mechanics while challenfe and tension in ballance  (anxiety vs boredom)
+Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self  `Flow` / the `Zone` / `Immerse`: altered time. fully `immersed` with mechanics while challenge and tension in balance  (anxiety vs boredom)
 
 - primal forces
 - context dependend
@@ -44,8 +37,10 @@ brain have idea and it must fit to reality. To meet expoectations is important
 ### Agency
 ????!!!!!
 
+---
+
 # Cognition
-### Cognitive Biaes
+### Cognitive Biases
 - Recency Bias
 - Confirmation Bias
 - False-Consensus Effect
@@ -55,7 +50,7 @@ brain have idea and it must fit to reality. To meet expoectations is important
 - Bias Blind Spot (other feel dif than you)
 - Peak-End Rule (shortcut when thinking how feel about exp. you thing about: 1 highest peaks and at end )
 
-### Cognitive Disonance
+### Cognitive Dissonance
 
 Free choice  
 Forbidden Behaviour paradigm  
@@ -63,17 +58,20 @@ Induced compliance
 Belief disconfirmation  
 Effort justification  
 
-
+---
 
 # Motivation
->shot of dopamine is not needed
-Drive - ? ciekawosc ?  
-### Implicit & Biological
+Shot of dopamine is not needed,
+Drive - (ciekawosc?)   
+## Implicit & Biological
 `Impulses`, `Power`, `Achievement`, `Affiliation`  
 
-### Personality and Individual Needs
-##### OCEAN
-> Big Five personality traits OCEAN Change a litle over life. Population norm is only meaningful point of reference for traits and otivations
+---
+
+
+## Individual & Personalities
+### Personality traits
+OCEAN - Big Five personality traits OCEAN Change a litle over life. Population norm is only meaningful point of reference for traits and otivations
 
 ||  ||
 |--|--|--|
@@ -87,8 +85,8 @@ Neuroticism | Stability | Worries about many different things vs Emotionally sta
 **Locus of control** is a psychological concept that refers to how strongly people believe they have control over the situations and experiences that affect their lives.
 
 
-##### Temperament
->Most of people fall in Avarage. Like bell curve show . People on edges are hard to deal with  
+### Temperament
+Most of people fall in Average. Like bell curve show . People on edges are hard to deal with  
 
 
 |4 types|Extrovertic |Introvert|
@@ -103,8 +101,104 @@ Functions: Take in information| Sensing | Intuition
 Functions: Decision Makeing| Thinking | Feeling
 Lifestyle preferences| Judging | Perciving
 
+---
 
 
+## Behaviorism
+Behavioral theories of motivation focus on how the results we’ve obtained from past behaviors shape our future behaviors (Enviromental Shaped & Learned Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
+
+Positive Reinforcement
+Negative Reinforcement.
+Punishment.
+Extinction.
+d gain. (continous login bonus) (good Dorprate in consumables items)
+
+### Continuous Reinforcement
+happens when the desired behavior is reinforced each time it is observed.continuous reinforcement is the quickest way to get someone to develop a new behavior.
+
+ ##### Intermittent  Reinforcement
+
+| |Interval (after time)|Ratio (after action)|
+|--|--|--|
+__Fixed__  Predictable | kill > loot spawn, stamina (building up high peak and quick drop)  | One more turn. clickers,  turnbased building time (short post reinforcement pause)
+__Variable__ Unpredictable |  public events (moderate stady response pattern) | Gambling. Loot drops, Crit hits  (high stady responce pattern, small bumps)
+
+
+### Contingent
+- `Not-Contingent` - not related to behavior (suprice gifts), not controled
+- `Task-Contingent` - rewarding: `engagement`, `completion`, `perdormance`. Sense of progression - task releated motivate more contingent outcomes are not necessary to demonstrate reinforcement, but perceived contingency may increase learning.
+
+
+
+
+### Feadback
+feadback on action is reward  !!!
+reward timeing and (un)certanity - immediate for success progress and choice
+delayed feedback need stronger support
+nitr geting rew u expect could become punishmenbnt   
+
+
+### Others
+story creativiy
+reward can be demotivating
+
+
+
+```
+- Unexpexted reward are motivating
+- Expectations. After bad luck we expect payout (gambling).
+- `Representative Heuristic` - Time/Cost/Effort > Up expectation for reward . (Procedural like rouglikes play agianst it sometimes)  
+balanced economy   
+- Representative expectations - (Ngram colors in destiny)
+- Loss Aversion: Smt I have > Sth I coul
+
+```
+
+---
+
+
+## Self Determination Teroy
+### SDT
+ Depend on contecst and not account for all human behavior. Can shift by different frameing. OLD: `Intrinsic` -  Personal Grtification. last longer. rate higher! better (autonomy, angency, progression, feedback, oportunity). But cann feel bad i.e. if you are obligated to your self vs. `Extrinsic` - External. Rewards shape to do but risk of shifting motivation. Use when needed (money) But! can feel autonomus if enbough choices
+
+`Autonomus` - (self determinated) vs. `Controled` - (non self determinated) Illusion of controll is as good as real contr.
+
+
+| SDT | |
+|--|--|
+Competence  |sense of progression, sense of being in control Interact with activities. everyone want be bst
+Autonomy | self expression or meaningfull:  choice (not satidfy by chose)
+Relatedness |  cooperation or competition. Rank relation. (knowledge where i fit)
+
+### PENS
+Player Experience of Needed Satisfaction
+
+
+| PENS | ||
+|--|--|--|
+Competence  | Easy to learn dificult to master  | skill: survival, crafting
+Autonomy | choice, customization, agency | your world, your creations
+Relatedness |  social grouping, status feadback  | shared experiences, public canvases
+
+```
+##### Tips  
+- show purpose before giving reward Goals must be `meaningfull`! for players     '
+- after miningfull avctions clear goals. Why important
+- show value / personalize
+- more effort / time needed, greater reward expected     
+- absence is like a punishment    
+- intermited intervals for forming habits  
+- fixed ration to sense of mastery   
+- variable ratio for excitement  
+- reward is not an ending but starting point  
+- help player feel beeing in control
+- Illusion of controll is as good as real contr. Loosing control can be mechanic as well: stanley parable.
+```
+
+---
+
+
+## Gamer motivation profile
 
 |Gamer motivation profile|High|Low|
 |--|--|--|
@@ -128,94 +222,7 @@ Challenge - Skilled/No  Work/not work
 Harmony -  mechanics/context   cooperation/conflikt  
 Stimulation - singiel/multi   calm/thrill   
 
-### Behaviorism
-
->Behavioral theories of motivation focus on how the results we’ve obtained from past behaviors shape our future behaviors (Enviromental Shaped & Learned Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
-
-Positive Reinforcement
-Negative Reinforcement.
-Punishment.
-Extinction.
-d gain. (continous login bonus) (good Dorprate in consumables items)
-
-##### Continous Reinforcement
->happens when the desired behavior is reinforced each time it is observed.continuous reinforcement is the quickest way to get someone to develop a new behavior.
-
- ##### Intermittent  Reinforcement
-
-| |Interval (after time)|Ratio (after action)|
-|--|--|--|
-__Fixed__  Predictable | kill > loot spawn, stamina (building up high peak and quick drop)  | One more turn. clickers,  turnbased building time (short post reinforcement pause)
-__Variable__ Unpredictable |  public events (moderate stady response pattern) | Gambling. Loot drops, Crit hits  (high stady responce pattern, small bumps)
-
-
-##### Contingent
-- `Not-Contingent` - not related to behavior (suprice gifts), not controled
-- `Task-Contingent` - rewarding: `engagement`, `completion`, `perdormance`. Sense of progression - task releated motivate more contingent outcomes are not necessary to demonstrate reinforcement, but perceived contingency may increase learning.
-
-
-
-
-##### Feadback
-feadback on action is reward  !!!
-reward timeing and (un)certanity - immediate for success progress and choice
-delayed feedback need stronger support
-nitr geting rew u expect could become punishmenbnt   
-
-
-##### Others
-story creativiy
-reward can be demotivating
-
-
-
-- Unexpexted reward are motivating
-- Expectations. After bad luck we expect payout (gambling).
-- `Representative Heuristic` - Time/Cost/Effort > Up expectation for reward . (Procedural like rouglikes play agianst it sometimes)  
-balanced economy   
-- Representative expectations - (Ngram colors in destiny)
-- Loss Aversion: Smt I have > Sth I coul
-
-
-
-
-
-### SDT Self Determination Teroy
-> Depend on contecst and not account for all human behavior. Can shift by different frameing. OLD: `Intrinsic` -  Personal Grtification. last longer. rate higher! better (autonomy, angency, progression, feedback, oportunity). But cann feel bad i.e. if you are obligated to your self vs. `Extrinsic` - External. Rewards shape to do but risk of shifting motivation. Use when needed (money) But! can feel autonomus if enbough choices
-
-`Autonomus` - (self determinated) vs. `Controled` - (non self determinated) Illusion of controll is as good as real contr.
-
-| SDT | |
-|--|--|
-Competence  |sense of progression, sense of being in control Interact with activities. everyone want be bst
-Autonomy | self expression or meaningfull:  choice (not satidfy by chose)
-Relatedness |  cooperation or competition. Rank relation. (knowledge where i fit)
-
-##### PENS Player Experience od Needed Satisfaction
-
-
-| PENS | ||
-|--|--|--|
-Competence  | Easy to learn dificult to master  | skill: survival, crafting
-Autonomy | choice, customization, agency | your world, your creations
-Relatedness |  social grouping, status feadback  | shared experiences, public canvases
-
-
-##### Tips  
-- show purpose before giving reward Goals must be `meaningfull`! for players     '
-- after miningfull avctions clear goals. Why important
-- show value / personalize
-- more effort / time needed, greater reward expected     
-- absence is like a punishment    
-- intermited intervals for forming habits  
-- fixed ration to sense of mastery   
-- variable ratio for excitement  
-- reward is not an ending but starting point  
-- help player feel beeing in control
-- Illusion of controll is as good as real contr. Loosing control can be mechanic as well: stanley parable.
-
-
-
+---
 
 #  Emotion
 >Emotions are motivations by `Discovery, novelity, suprises`
@@ -244,6 +251,8 @@ Cooperation give chance for Positive externalities (benefit for others)
 - `Dificulty Curve` - Challange  
 - `Paceing` Rythm + Pressure >Manage stress. If there is no stress its not meaningfull and you dont care. So pressure is good  
 - `Learning Curve` - Onboarding > tutorials super important   
+
+---
 
 # Choice
 paradox of choice - we can be hap[ier witlh less choices
@@ -286,8 +295,8 @@ sounds satisfaing because of feadback. even small delay can  estroy effect
 if we know the meaning and can recogniz e interpret or understand
 https://youtu.be/qr0JMv2uYxQ
 
-
-
+brain have idea and it must fit to reality. To meet expectations is important  
+Illusion of control is just as much impact as real
 
 -----
 https://youtu.be/xkg9ocYDLr8

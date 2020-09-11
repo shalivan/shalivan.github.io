@@ -49,3 +49,4 @@ Strategies to survive forgiving tic for tat (vulnerable to exploit) > forgiven t
 -
 
 **Exploitative**
+-humans make a lot errors  exploit mistakes
