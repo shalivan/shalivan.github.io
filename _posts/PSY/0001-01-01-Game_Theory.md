@@ -43,10 +43,13 @@ multiple goals, number of rounds....  In lot of species there is no cognitive st
 Strategies to survive forgiving tic for tat (vulnerable to exploit) > forgiven tic for tat after while  
 
 
-**GTO**
+**Game Theory Optimal**
 - assumes opponent is always countering with the perfect strategy
 - can have lower yield EV then exploitative play
 
+pkr> fint highest EV lines routes possible for have best formulatetd strategy. + balance it to dont be exploited.
+but can be not profitable as exploit.  
+balance stratedy  
 
 **Exploitative**
 -humans make a lot errors  exploit mistakes
