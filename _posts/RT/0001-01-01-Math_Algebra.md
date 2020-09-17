@@ -24,11 +24,14 @@ tags:
 |0.000 2 | 2x10^-4 | 2e-04
 |0.2	|2×10^−1| 2e-1
 |1	|1×10^0|  Scientific notation
-|φ (phi) | ≈ 1.6180 | a+b/a Golden ration from fibonacci seq / Golden Angle = 137.5  
-|e | ≈ 2.71828 | unique number whose natural logarithm is equal to one   
-|π (pi) | ≈ 3.4159265 |  
-|δ | ≈ 4.669 | Feigenbaum Constant ratios in a bifurcation diagram for a non-linear map.  
-|200 | 2×10^2 | 2e+2
+≈ 1.6180 |φ (phi)   | a+b/a Golden ration from fibonacci seq / Golden Angle = 137.5  
+| ≈ 2.71828 |e | unique number whose natural logarithm is equal to one   
+| ≈ 3.141592 | π (pi)  |  
+ | ≈ 4.669 |δ| Feigenbaum Constant ratios in a bifurcation diagram for a non-linear map.
+|10 | 1×10^1 | 1e+1 - order of magnitude
+|100 | 1×10^2 | 1e+2  - two orders of magnitude
+|200 | 2×10^2 | 1e+2
+
 
 
 
