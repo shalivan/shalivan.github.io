@@ -132,3 +132,4 @@ and underestimate events
 
 
 ```
+humans bad in accepting loses

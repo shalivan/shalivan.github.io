@@ -136,13 +136,32 @@ name, birth day, age, best friend, worst enemy, places they have been, things th
 
 # Eastern vs Western phylosophy
 
-hero villan romance action but
-westetn on a centralconflict more agressive (greek tragedy 1 plavce 1 day 1 plot ) Externbal struggle
-eastern - internal styrugle
+
+||W|E|
+|---|---|---|
+||object separeted in space| surrounding  background nd relationship
+| | object | subject |
+||destroyed object not anymore whole |no notion of whole or part.
+||emphes. individuality of object| wholnes > oneness|
+||brain focus on obj separatley |
+||emphasis on tee | emphasis on drink
+||expres individualnes (nouunes) | to interaction (werbs)
+||Beeing- stationary existing | Araising |
+||casaulity is copmlex|
+
+
+
+||W|E|
+|---|---|---|
+||Externbal struggle|internal styrugle
+||westetn on a centralconflict more agressive (greek tragedy 1 plavce 1 day 1 plot )|east - internal struggle (substance)
+
+|religion|W|E|
+|---|---|---|
 
 religion
-west - ready foir external struggle
-east - internal struggle
+west - ready foir external struggle (object - singular plurar nones )
+
 
 
 (book: the future of narrative in cyberspace)

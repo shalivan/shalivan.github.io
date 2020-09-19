@@ -304,3 +304,12 @@ https://youtu.be/xkg9ocYDLr8
 asymetry dominance  
 framing priming  
 prospect theroy  
+
+
+gole u set for yourself are strongetrr than gols set by someone else  extr / intrinsing
+rewards can be demotivated:
+
+overjustification:  
+- les interes dwawing if later no rewards
+- les creaticve more prone to cheat
+- les motivated if reward stop
