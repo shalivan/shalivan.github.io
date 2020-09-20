@@ -5,8 +5,7 @@ categories:
  - VEX
 tags:
 - VEX
-- Houdini
-- Code 
+- Code
 ---
 
 

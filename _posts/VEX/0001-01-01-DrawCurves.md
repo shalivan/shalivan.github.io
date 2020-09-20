@@ -3,10 +3,9 @@ title: Curves equations
 description: VEX equations for curves drawing.
 categories:
  - VEX
- 
+
 tags:
 - VEX
-- Houdini
 - Art
 - Math
 - Procedural
