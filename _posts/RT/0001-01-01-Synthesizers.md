@@ -2,7 +2,7 @@
 title: Synthesizers
 description: Synthesizers guide  Circuit Novation
 categories:
- - ART
+ - RT
 tags:
 - Audio
 - Music
@@ -16,6 +16,7 @@ midi device on windows:
 
 
 # Synths
+Create sound in oscillator based on waveform which is filtered and modulated.
 
 [**Synth playground**](https://learningsynths.ableton.com/en/playground)
 
@@ -84,15 +85,3 @@ Examples :
 - pulse width modulation with  Square wave
 
 ---
-
-
-
-# Samples
-
-https://trisamples.com/  
-https://cymatics.fm/pages/free-download-vault  
-https://www.noiiz.com/  
-https://www.looperman.com/  
-https://r-loops.com/  
-
-------------

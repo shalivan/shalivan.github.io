@@ -38,6 +38,7 @@ description: Gestalt.
 
 
 
+
 **Law of Perception**  
 Gestalt law of pragnanz. which means ‘concise and meaningful‘
 
@@ -57,12 +58,81 @@ Gestalt law of pragnanz. which means ‘concise and meaningful‘
 
 
 
-RAW NOTE: !
+more easly we can understood by what it do than by its properties
 
-
+**Humans bad in accepting loses**
 
 # Memory
 
+
+
+
+# Thinking Fast and Slow (Daniel Kahneman)
+
+What to do to improve a quality of judgement
+
+Chapters:
+1. distinction of automatic of 1 and controlled of 2. Core of system 1 create coherent interpretation what's going on. What underlay intuition and how it influence judgement
+2. Study of judgement statistic. Why its hard to think statistically (sys 1 is not god)
+3. limitation of our mind. Confidence what we believe we know. and hard to acknowledge how lo we know. Overconfidence because of (nie widzimy dużo i myslimy ze to wsystko co jes t)
+4. economic. Model of choice deviate from rationality. Decvisions are driven bym inconsequential features of.
+5. recent search. distinction EXPERIENCED cell and REMEMBERING cell. (2 experiences: 1 longer, we can exploit remembering cell)
+
+##### Distinctions in book:
+1. Experiaence cell , emember cell
+2. agents in clasical economics and behavioral economics
+3. Automatic sys 1, efortful sys 2
+
+
+## Introduction
+- easier to see errors of others (objective observers more likely detect our errors)
+- systematic errors : biases (biases on intuitions)
+- reliance on statistic produce bias (we have intuition for grammar but not for statistics)
+- judging probability by representatives, better than by chance, sometimes stereotypes have true in it.  (ocenieanie po wygladzie)
+- corruption of fought by emotions
+
+
+
+**Attention** have limited budget to spend  
+- concentrations on a task make  invisible some things (gorilla) blind to obvious and blind to our blindness  
+- hard to multitask and depend on tasks  
+
+
+**Intuition**  is only = recognition  
+- expert intuition is real, accumulation things stored in memory  
+- expert intuition can have biases as : affect  
+
+
+**Media coverage bias**
+- freq mentioned topics popular mind even if as other slip away from awareness.
+- showing what in public mind in their view
+- dramatic events and celebrities
+- no stands on critical topic with less drama
+
+
+
+
+## 1 Systems Distinction
+
+- : expert and heuristic.
+
+
+
+sys 1  fast routine
+- generally we are using system 1.
+- effortless choice, canbot multiplay big numbers.
+- u cannot stop it. can only learn to detect
+sys 2 slow
+- is mobilized when sys 1 is not able to get answer (17*24)
+- adopts conclusions by sys 1
+- in charg of slef control. overcolme crazy decisions of sys 1  only by effort !!!
+
+
+
+**cognitive illusions** -
+
+
+## 2 Attention & Effort
 ```
 
 
@@ -70,50 +140,41 @@ RAW NOTE: !
 -
 
 
-# Thinking Fast and Slow (Daniel Kahneman)
-- fast : expert and heuristic. efortless choice
-- slow:
 
-## Introduction
-- easier to see errors of others
-- systematic errors : biasses
-biasses on intuitions a lot of this book.
-- objective observers more likley detect our errors
-- we have intuition for grammar but not for statistics
-- relaiance on statistic produce bias
-expert intuition is real, accumulation things stored in memory
-expert intuition can have biases as : affect
-**intuition**  is only = recognition
 
-sytsem 1 have more influence than we think
 
-most od book is of sys 1 and mutual interwork
+
+system 1 have more influence than we think
+
+
 
 ## Systems Distinction
 automaric  and unconc processes and how influence heuristic of judgement
+
 control operation of syst 2
 
-17x24 - considering if we should ingage and then we have to manage complex operations and have in mind partial solutions while doing next computations
+17x24 - considering if we should engage and then we have to manage complex operations and have in mind partial solutions while doing next computations
 
-sys 2 alocate ... to includee complex computation. Agency,m choice, computation
+sys 2 alocate ... to includee complex computation. Agency, choice, computation
 
 sys 1 reat to sound and give atterntion for sys 2
 
-limited budget of **attention** to spend
-- concentrantion on a tsask make  invisible some things (gorilla ) blind to ovious and blind to our blindness
-- hard to multitask and depend on tasks
 
-sys 1 contionous creat suges
+
+sys 1 continuous create suggestions
 indorsed by sys 2
 intuitions > believes  
-oimpulses > volountary actions
+impulses > voluntary actions
 
-sys 2 adopts concludion by sys 1
-when sys 1 go to dificulti call to sys 2
-sys 2 is mobilized when sys 1 is not able to get answer (17*24)
+
+when sys 1 go to difficulty call to sys 2
+
+
 
 you cannot turn off sys 1. (yo will recognize )
 
+
+-------------------------
 ####### conflict
 
 
@@ -132,4 +193,3 @@ and underestimate events
 
 
 ```
-humans bad in accepting loses

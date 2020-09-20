@@ -162,6 +162,11 @@ name, birth day, age, best friend, worst enemy, places they have been, things th
 religion
 west - ready foir external struggle (object - singular plurar nones )
 
-
+### Theather
+actioin almost around   
 
 (book: the future of narrative in cyberspace)
+
+### Time travel
+
+https://youtu.be/d3zTfXvYZ9s
