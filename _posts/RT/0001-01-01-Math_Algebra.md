@@ -34,27 +34,6 @@ tags:
 
 
 
-$$a^2 + b^2 = c^2$$
-
-aaaaaaaaaaaaa
-
-
-$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
-
-
-aaaa
-
-$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
-
-
-aaaaaaaaaaaaa
-
-$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
-
-
-sum_(i=1)^n i^3=((n(n+1))/2)^2
-
-
 
 
 # Linear Algebra
@@ -72,9 +51,9 @@ sum_(i=1)^n i^3=((n(n+1))/2)^2
 |a+b| a+b - move b to tip of a. | Vector
 |a-b |  a-b = a+(-b) | Vector
 |Dual |a° | Vector
-|Dot product |  a°b | Scalar  -1 - 1| 1 = similar, 0 = perpendicular - orthogonal (90°), -1 = opposite dir (180°)
-|Cross product | AxB  |Normal vector | Normal of plane created by 2 vec len depend on angle n  (only in 3 dimentions)
-|Wedge product 2 vect | A^B | Bivector | plane with orientation witch contain a and b. (magnitude and orient) Exterior |product > (similar to cross)   
+|Dot product |  a°b  $$a*b$$ | Scalar  -1 - 1| 1 = similar, 0 = perpendicular - orthogonal (90°), -1 = opposite dir (180°)
+|Cross product | AxB $$axxb$$ |Normal vector | Normal of plane created by 2 vec len depend on angle n  (only in 3 dimentions)
+|Wedge product 2 vect | A^B  $$u^^v$$ | Bivector | plane with orientation witch contain a and b. (magnitude and orient) Exterior |product > (similar to cross)   
 |Wedge product 3 vect | A^B^C   | Trivector | Extruded bivector if vect are linearly dependent wedge = 0 ()
 |Contraction product| a╜x = B,   a╜b = a*b | |dot in higher dimenmtion (how similar)
 |Geometric product | ab = a╜b - a^b, aB = a╜B + a^B  | Real + Bivector| complex number inner(dot) + outer product(wedge,'cross') (plane) -
@@ -91,3 +70,23 @@ https://bivector.net/ - Vectors
 https://eater.net/quaternions - Quaternions    
 http://immersivemath.com/ila/index.html  - immersive math        
 https://www.desmos.com/calculator - function plot  
+
+
+
+---------
+
+$$a^2 + b^2 = c^2$$
+
+aaaaaaaaaaaaa
+
+$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
+
+aaaa
+
+$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
+
+aaaaaaaaaaaaa
+
+$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
+
+sum_(i=1)^n i^3=((n(n+1))/2)^2
