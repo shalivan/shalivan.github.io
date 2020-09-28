@@ -34,6 +34,22 @@ tags:
 
 
 
+$$a^2 + b^2 = c^2$$
+
+aaaaaaaaaaaaa
+
+
+$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
+
+
+aaaa
+
+$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
+
+
+aaaaaaaaaaaaa
+
+$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
 
 
 sum_(i=1)^n i^3=((n(n+1))/2)^2
