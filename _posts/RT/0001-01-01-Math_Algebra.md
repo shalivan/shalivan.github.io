@@ -36,7 +36,7 @@ tags:
 
 
 
-
+sum_(i=1)^n i^3=((n(n+1))/2)^2
 
 
 
@@ -50,6 +50,7 @@ tags:
 ## Vectors
 
 #### Equations
+
 | Operation |||- |
 |- | - | - |- |
 |a+b| a+b - move b to tip of a. | Vector

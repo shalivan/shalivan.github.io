@@ -89,8 +89,8 @@ Dramatic moments happening  on screen (cutscenes) are less freametic because you
 
 ### Econotmy and balance
 
-## Game Theroy
-
+###### backward pedaling
+doom 2016 forrowrd combad - build forroward momentum from glory kills  
 # emertgent gameplay
 # tutorials
 # rewards
