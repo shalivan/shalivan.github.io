@@ -91,6 +91,14 @@ Dramatic moments happening  on screen (cutscenes) are less freametic because you
 
 ###### backward pedaling
 doom 2016 forrowrd combad - build forroward momentum from glory kills  
+
+battle royal
 # emertgent gameplay
 # tutorials
 # rewards
+
+
+
+plan zeby zdobyc cos co ci odblokuje cos innego
+
+mastery mapy vs nowa mapa .

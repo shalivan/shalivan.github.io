@@ -9,10 +9,7 @@ tags:
 - Data
 ---
 
-# PC
-.sys /.sysex  -  drum samples / patch  
-.circuitpack  - whole pack  
-midi device on windows:  
+
 
 
 # Synths
@@ -25,8 +22,8 @@ Create sound in oscillator based on waveform which is filtered and modulated.
 
 
 
-### Waveforms:
-Create sound in oscillator
+### Oscillator:
+Create sound in oscillator: Smooth shape, smooth tone , hard; hard tone
 
 |-|-|-|-|
 |-|-|-|-|
@@ -37,11 +34,24 @@ Square | Complex harmonics, full sound  Can be shape no other can| Hollow Harsh 
 Square Pulse | Square with variation in timing
 Noise | very Complex many overtones. Hard Cutting  |Asymmetric | Noise
 
-Smooth shape, smooth tone , hard; hard tone
 
+
+- 1.00 Hz A frequency of one hertz means that a full oscillation (or cycle) happens once per second
+- Pulse width - How long on top and how long down: The wave has its “fullest” sound at the center, where the waveform is symmetrical.
+
+
+### Low Frequencies oscillator LFO:
+Low frequency oscillator generate waveform (e.g. sin) like oscillator and using it as control signal modulator
+
+Examples :    
+- source >> destination e.g. LFO can modulate filter frequencies   
+- can create pitch vibrato
+- pulse width modulation with  Square wave
 
 ### Filter
 Shape sound and character of waveform
+- open, close
+- resonance
 
  |-|-|-|-|
  |-|-|-|-|
@@ -63,12 +73,14 @@ Env2 Mode  |  how much filter env modulate filter frequencies
 ### Envelope
 How fast turn on and down. Determine how much envelop impacts settings. U can modulate: filters, pitch, frequencies, pulse with modulation(shape square wave), amplifier.
 
-|-|-|-|
-|-|-|-|
-Attack | In (immediate in: drum / or long in) | How loud over time  
-Decay | Out (loudness over time) After attack  | How loud over time
-Sustain | Rest state after decay 0 - immediately stop even key down | Rest state
-Release | how long will stay after trigger release  | Start Immediately after release
+ envelope’s shape with each new note, some aspect of sound
+
+|-|how long it takes for the envelope to  |-|immediate| long|
+|---|---|---|---|---|
+Attack | reach its peak at the start of a note | Hit and Hold  |  drums  | wind
+Decay | decrease from its peak to the sustain level  | Hold | sharp change
+Sustain | Rest state | Hold Rest state|
+Release | decrease to its minimum level after the note is released | Immediately after release |
 
 
 
@@ -76,12 +88,5 @@ Release | how long will stay after trigger release  | Start Immediately after re
 Modulate Wave with additional waves. Using signal to shape aspect of sound over time
 
 
-#### LFO (modulator)
-Low frequency oscillator generate waveform (e.g. sin) like oscillator and using it as control signal modulator
-
-Examples :    
-- source >> destination e.g. LFO can modulate filter frequencies   
-- can create pitch vibrato
-- pulse width modulation with  Square wave
 
 ---
