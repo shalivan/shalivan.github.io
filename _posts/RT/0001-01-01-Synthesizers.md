@@ -20,7 +20,7 @@ Create sound in oscillator based on waveform which is filtered and modulated.
 
 
 
-
+---
 
 ### Oscillator:
 Create sound in oscillator: Smooth shape, smooth tone , hard; hard tone
@@ -39,6 +39,7 @@ Noise | very Complex many overtones. Hard Cutting  |Asymmetric | Noise
 - 1.00 Hz A frequency of one hertz means that a full oscillation (or cycle) happens once per second
 - Pulse width - How long on top and how long down: The wave has its “fullest” sound at the center, where the waveform is symmetrical.
 
+---
 
 ### Low Frequencies oscillator LFO:
 Low frequency oscillator generate waveform (e.g. sin) like oscillator and using it as control signal modulator
@@ -47,6 +48,8 @@ Examples :
 - source >> destination e.g. LFO can modulate filter frequencies   
 - can create pitch vibrato
 - pulse width modulation with  Square wave
+
+---
 
 ### Filter
 Shape sound and character of waveform
@@ -68,7 +71,7 @@ Env2 Mode  |  how much filter env modulate filter frequencies
 
 -  if you low pass filter saw wave you will get sth like sin  
 
-
+---
 
 ### Envelope
 How fast turn on and down. Determine how much envelop impacts settings. U can modulate: filters, pitch, frequencies, pulse with modulation(shape square wave), amplifier.
@@ -82,7 +85,7 @@ Decay | decrease from its peak to the sustain level  | Hold | sharp change
 Sustain | Rest state | Hold Rest state|
 Release | decrease to its minimum level after the note is released | Immediately after release |
 
-
+---
 
 ### Modulation
 Modulate Wave with additional waves. Using signal to shape aspect of sound over time
