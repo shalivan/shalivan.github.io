@@ -65,7 +65,7 @@ Quaternions, Dual quaternions, Exterior Algebra
 
  $$a*b$$
 
- 
+
  $$axxb$$
 
 $$u^^v$$
@@ -77,6 +77,9 @@ https://bivector.net/ - Vectors
 https://eater.net/quaternions - Quaternions    
 http://immersivemath.com/ila/index.html  - immersive math        
 https://www.desmos.com/calculator - function plot  
+
+
+
 
 
 

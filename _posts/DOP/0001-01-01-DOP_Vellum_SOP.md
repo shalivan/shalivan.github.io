@@ -40,13 +40,27 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 **Pressure** |  |  Compresable Volume  (enforce volume depending on stiffness) (fstr than tetra)  | Air   
 **Tetra** |  | Uncompresable Volume Tetrahedral fwm  (requiure tetrah geo: solid conf SOP)   |  Liquids
 **Struts** |  Stretch Body| Conect opose sides. Good for stftb. that does not stiff tu much   
-|Hard | [Direct update] |Create / remove by setting point attribute: | -
+
+#####  Hard
+ [Direct update] |Create / remove by setting point attribute:
+
+||Hard | | -||
+|---|---| ------------------------------------------------------------------------|---|-|
 **PinHard**   | Geometry point attributes  | Set type: permament/stopped.  `stopped`, `pintoanimation`  |Pin to Target position |  ![](/src/vellum/pinhs.png)  
 **Weld**  | Geometry point attributes   | Threat pts as one point and will look like 1 object  Can break at stress level.  (add bend across weld for smooth normal) Autobreakable (pre-tearing)  `weld`, use pointid or groups ! | Same @P (fuse), Fractured cloth |   ![](/src/vellum/welds.png)
-|Soft | [Solvable] | Create / remove by `vellumconstraintproperty` DOP node.  [plasticity / autobreakable] | -
+
+
+##### Soft
+[Solvable]  Create / remove by `vellumconstraintproperty` DOP node.  [plasticity / autobreakable]
+
+||Soft |  | -||
+|---|---| ------------------------------------------------------------------------|---|-|
 **PinSoft**  | Constraint primitive | Pin to Target  position (remove manualy constr) / stiffness(magnes) |  Magness, Pin to own anim to get detail in existing movement   | ![](/src/vellum/pinss.png)
 **Stich**  |Constraint primitive|  Soft or Stich Weld.  Points with in 2 groups that are far - keeping them apart. Can stitch to poligon instead point. SLIDE (remove manualy constr) plasticity. Can have spaces between points | Additional cloth pieces, keep distance  | ![](/src/vellum/stitchs.png)
-|
+
+
+|| Effect | |When to use||
+|---|---| ------------------------------------------------------------------------|---|-|
 **Glue**  | Constraint primitive  |  Glue source to target distance treshold (check: nr constr per pt)(remove manualy constr) plasticity | Anim,  2 pieces
 **Attach**  |  |  Stick to closest point on geometry & keep distance    |  Anim objects
 

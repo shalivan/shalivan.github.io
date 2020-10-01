@@ -12,8 +12,22 @@ description: basics.
 # Animation types
 
 - by expression or keys
-- physic
+- physic  simulations
 - chop
+`Keyframe`   
+`reactive`  
+ `dynamic`  
+  `mocap data`  
+
+
+
+
+## Animation
+
+   - Timing FPS
+   - Easing curves  
+   - Reaction time 0.2 for see 0.1 for hear and less for touch (go / no go time decision)
+
 
 
 # Principles of animation
@@ -34,6 +48,10 @@ Solid drawing | volume weight drawing on solid spheres. Avoid twinning (mirror)
 Appeal | chrismatic aspects > dynamic design. (varietyu of shapes on dif characters), play with proportions.
 
 
+## Simulation & procedural   
+   - Normalize - Fit parameters to 0-1  
+
+   
 # VFX
 
 https://youtu.be/WLMVpcK0WvA?list=PLQD_sA-R5qVKVYw3EVuRT7fSJsVukLEhD

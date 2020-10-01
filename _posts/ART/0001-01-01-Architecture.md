@@ -6,6 +6,8 @@ categories:
 tags:
 - Art
 - Design
+- Game Dev
+- Gameplay
 - Architecture
 description: .
 ---
