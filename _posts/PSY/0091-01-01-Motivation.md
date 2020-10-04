@@ -38,87 +38,59 @@ Psychological presence. According to his definition, engagement refers to the st
 ### Agency
 ????!!!!!
 
----
-
-# Cognition
-### Cognitive Biases
-- Recency Bias
-- Confirmation Bias
-- False-Consensus Effect
-- Hindsight Bias (Rationalise that sth happ.)
-- Endowment Effect  (Want to sell item for more)
-- Mere Exposure Effect (More often see more u like it)
-- Bias Blind Spot (other feel dif than you)
-- Peak-End Rule (shortcut when thinking how feel about exp. you thing about: 1 highest peaks and at end )
-
-### Cognitive Dissonance
-
-Free choice  
-Forbidden Behaviour paradigm  
-Induced compliance  
-Belief disconfirmation  
-Effort justification  
 
 ---
-
+```
 # Motivation
 Shot of dopamine is not needed,
 Drive - (ciekawosc?)   
-## Implicit & Biological
+
+
+
+- Implicit & Biologica = `Impulses`, `Power`, `Achievement`, `Affiliation`    
+- Explicit & Implicit Motives -
+- Intrinsic & Extrinsic - Personal Grtification
+- Autonomus - (self determinated) vs. Controled - (non self determinated)
+
+
+```
+
+
+# Implicit & Biological
 `Impulses`, `Power`, `Achievement`, `Affiliation`  
 
 ---
 
 
-## Individual & Personalities
-### Personality traits
-OCEAN - Big Five personality traits OCEAN Change a litle over life. Population norm is only meaningful point of reference for traits and otivations
+# Individual
 
-||  ||
-|--|--|--|
-Openness to experience | Closedness |
-Conscientiousness| Unconcientiousness | preparing, schedule vs Procrastinates
-Extraversion| Introvetsion |
-Agreeableness| Disagreeableness
-Neuroticism | Stability | Worries about many different things vs Emotionally stable. At extreames are worst!!!
+Personalities
+Personality traits OCEAN
+Temperament
+Myers-Briggs / 16 Personalities
+
 
 
 **Locus of control** is a psychological concept that refers to how strongly people believe they have control over the situations and experiences that affect their lives.
 
-
-### Temperament
-Most of people fall in Average. Like bell curve show . People on edges are hard to deal with  
-
-
-|4 types|Extrovertic |Introvert|
-|--|--|--|
-Stable  | Sanguine  | Phlegmatic
-Unstable | Choleric | Melancholic
-
-|Myers-Briggs / 16 Personalities | | |
-|--|--|--|
-Attitudes:  Focus| Extravert |Introvert
-Functions: Take in information| Sensing | Intuition
-Functions: Decision Makeing| Thinking | Feeling
-Lifestyle preferences| Judging | Perciving
-
 ---
 
 
-## Behaviorism
+# Behaviorism
 Behavioral theories of motivation focus on how the results we’ve obtained from past behaviors shape our future behaviors (Enviromental Shaped & Learned Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
 
-Positive Reinforcement
-Negative Reinforcement.
-Punishment.
-Extinction.
+- Positive Reinforcement
+- Negative Reinforcement.
+- Punishment.
+- Extinction.
 d gain. (continous login bonus) (good Dorprate in consumables items)
 
 ### Continuous Reinforcement
-happens when the desired behavior is reinforced each time it is observed.continuous reinforcement is the quickest way to get someone to develop a new behavior.
+All responces are reinforced
+happens when the desired behavior is reinforced each time it is observed. continuous reinforcement is the quickest way to get someone to develop a new behavior.
 
- ##### Intermittent  Reinforcement
-
+### Intermittent  Reinforcement
+Some responces are reinforced
 | |Interval (after time)|Ratio (after action)|
 |--|--|--|
 __Fixed__  Predictable | kill > loot spawn, stamina (building up high peak and quick drop)  | One more turn. clickers,  turnbased building time (short post reinforcement pause)
@@ -138,27 +110,22 @@ reward timeing and (un)certanity - immediate for success progress and choice
 delayed feedback need stronger support
 nitr geting rew u expect could become punishmenbnt   
 
-
-### Others
-story creativiy
-reward can be demotivating
+`Representative Heuristic` - Time/Cost/Effort > Up expectation for reward . (Procedural like rouglikes play agianst it sometimes)  balanced economy   
 
 
 
-```
+
+- reward can be demotivating
 - Unexpexted reward are motivating
 - Expectations. After bad luck we expect payout (gambling).
-- `Representative Heuristic` - Time/Cost/Effort > Up expectation for reward . (Procedural like rouglikes play agianst it sometimes)  
-balanced economy   
 - Representative expectations - (Ngram colors in destiny)
 - Loss Aversion: Smt I have > Sth I coul
 
-```
 
 ---
 
 
-## Self Determination Teroy
+# Self Determination Teroy
 ### SDT
  Depend on contecst and not account for all human behavior. Can shift by different frameing. OLD: `Intrinsic` -  Personal Grtification. last longer. rate higher! better (autonomy, angency, progression, feedback, oportunity). But cann feel bad i.e. if you are obligated to your self vs. `Extrinsic` - External. Rewards shape to do but risk of shifting motivation. Use when needed (money) But! can feel autonomus if enbough choices
 
@@ -199,7 +166,7 @@ Relatedness |  social grouping, status feadback  | shared experiences, public ca
 ---
 
 
-## Gamer motivation profile
+# Gamer motivation profile
 
 |Gamer motivation profile|High|Low|
 |--|--|--|
@@ -237,6 +204,7 @@ People judge an experience largely based on how they felt at its peak and at its
 ### Multiplayer
 Guilds/ clans
 Cooperation give chance for Positive externalities (benefit for others)
+
 ##### Toxicity
 - Anonimity
 - Significant time involved
@@ -313,4 +281,9 @@ rewards can be demotivated:
 overjustification:  
 - les interes dwawing if later no rewards
 - les creaticve more prone to cheat
-- les motivated if reward stop
+- les motivated if reward stop    
+
+
+
+### Others
+story creativiy
