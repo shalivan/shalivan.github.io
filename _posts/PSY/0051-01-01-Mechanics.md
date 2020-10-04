@@ -2,7 +2,7 @@
 title: Game Design
 description: Mechanics.
 categories:
- - RT
+ - PSY
 tags:
 - Design
 - Game Dev

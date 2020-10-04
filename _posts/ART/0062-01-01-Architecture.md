@@ -9,7 +9,7 @@ tags:
 - Game Dev
 - Gameplay
 - Architecture
-description: .
+description: basics.
 ---
 
 

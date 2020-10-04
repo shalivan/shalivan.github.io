@@ -6,5 +6,5 @@ categories:
 tags:
 - Art
 
-description: RAW!!!!!.
+description: -
 ---

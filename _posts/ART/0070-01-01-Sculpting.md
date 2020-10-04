@@ -1,5 +1,5 @@
 ---
-title: ZBrush
+title: Sculpting
 
 categories:
  - ART
@@ -7,7 +7,7 @@ tags:
 - CG
 - zBrush
 
-description: basics.
+description: zBrush basics.
 ---
 
 
