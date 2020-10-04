@@ -1,5 +1,5 @@
 ---
-title: Motivation & Personality
+title: Motivation
 
 categories:
  - PSY
