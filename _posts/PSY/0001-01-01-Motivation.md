@@ -14,6 +14,7 @@ description: attention, cognition motivation, emotion, choice, satisfaction
 Human behavior is complex. Optimizing social behavior since 1980: sociobiology > evolutionary psychology.
 
 
+
 ```
 - emotional labor
 - building TENTION ?

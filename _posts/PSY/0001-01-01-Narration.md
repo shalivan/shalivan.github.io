@@ -10,6 +10,8 @@ tags:
 - Cognition
 ---
 
+What about building TENTION ??>
+
 
 Every medium have it own narration style. Linear narrative is not enough for games.  
 

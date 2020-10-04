@@ -21,6 +21,7 @@ description: Gestalt.
 
 
 
+
 # Visual Perception
 
 ## Gestalt
