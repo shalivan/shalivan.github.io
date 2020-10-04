@@ -88,17 +88,23 @@ What to do to improve a quality of judgement
 
 
 
-**Attention** have limited budget to spend  
+##### Attention
+
+Have limited budget to spend  
 - concentrations on a task make  invisible some things (gorilla) blind to obvious and blind to our blindness  
 - hard to multitask and depend on tasks  
 
 
-**Intuition**  is only = recognition  
+##### Intuition  
+
+is only = recognition  
 - expert intuition is real, accumulation things stored in memory  
-- expert intuition can have biases as : affect  
+- expert intuition can have biases as : affect   
 
 
-**Media coverage bias**
+
+##### Media coverage bias
+
 - frequently  mentioned topics popular mind even if as other slip away from awareness.
 - showing what in public mind in their view
 - dramatic events and celebrities
@@ -106,52 +112,74 @@ What to do to improve a quality of judgement
 
 
 
+##### Useful fiction
 
-## 1 Systems Distinction
+represent  
+sentence is recognized more by `what it is` easily then by its property
+
+
+
+## 1. Systems Distinction
 
 
 
 Generally we are using system 1 which have more influence than we think, u cannot stop it. can only learn to detect  
 
 
-#### System 1  
+#### Automatic (System 1)
 Core of system 1 create coherent interpretation what's going on, continuously creating suggestions. Not good in statistic
 - Fast
-- Automatic
 - intuitions  
 - impulses   
 - routine
 - Effortless choice
 
 
-#### System 2
+#### Effortful (System 2)
 When sys 1 go to difficulty (is not able to get answer) call to sys 2  
 - Slow
 - Believes  
 - Voluntary actions  
-- Effortful
 - self control
 - Adopts conclusions by sys 1
 - in charge of self control
 - Capable of work with data include complex computation. Agency, choice, computation (have in mind partial solutions while doing next computations)
 
-## Attention & Effort
-overcome crazy decisions of sys 1  only by effort
-
-
-**Cognitive illusions**
-
-you cannot see lines equal even you know they are .
-to resist t only can learn mistrust impressions
-recall what you know about it. but will still see as illusion.
 
 
 
+## 2. Attention & Effort
+
+overcome crazy decisions of sys 1  only by effort because 1 cannot be turned off.  
+Only by monitoring by sys 2  
+
+Vital task that required control and effort   
+- Efort required if have severeal idesa required several actions   
+
+##### Cognitive illusions
+
+you cannot see lines equal even you know they are  
+to resist t only can learn mistrust impressions  
+recall what you know about it. but will still see as illusion  
+
+
+##### Pupils
+`Pupils in eyes can show you how much effort U put  !`  
+`Some were dark glasses to hide interet`  
+Effort is distanced from euphorically arousals   
+- if stop thinking pupils shrank
+
+##### Invisible gorilla
+- blindness when concentrated
+depend on mental effort
+mental overload - capacity: sys 2 , spare capacity is .,..
+Currency of attention.
 
 
 
 
-
+region in brain that
+https://youtu.be/8cVSIDBx1wo?t=5827
 
 
 
@@ -165,6 +193,8 @@ recall what you know about it. but will still see as illusion.
 ## Study of judgment heuristic
 why is so dif to think staiscticly
 tstatisctic is thinking more than 1 thing witch cannot be done in sys 1
+
+
 ## ignorance
 overestim how much we know
 and underestimate events
@@ -186,9 +216,6 @@ Chapters:
 ##### Distinctions in book:
 1. Experience cell , remember cell
 2. agents in classical economics and behavioral economics
-
-
-
 
 
 What underlay intuition and how it influence judgement  
