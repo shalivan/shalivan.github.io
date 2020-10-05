@@ -18,7 +18,7 @@ description:  Houdini solver in SOP's.
 
 
 
-<span style="color: #F09900"> HIP:</span> [VellumSOP.hiplc](/srs/hip/DOP_VellumSOP.hiplc)  
+<span style="color: #F09900"> HIP:</span> [VellumSOP.hiplc](/src/hip/DOP_VellumSOP.hiplc)  
 
 
 <!-- more -->
