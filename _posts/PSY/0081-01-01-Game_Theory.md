@@ -13,6 +13,11 @@ tags:
 
 
 
+https://www.youtube.com/c/Gametheory101/videos
+
+
+
+
 # Game Theory
 mathematical study of optimizing agents strategies in games where outcome depend on other agents actions.
 - `Cooperative` - how to be fair - coalition and benefit and contribution type in coalition

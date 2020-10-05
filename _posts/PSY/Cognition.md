@@ -73,6 +73,22 @@ feedback loop of our actions other perceptions and our reaction to this percepti
 ----
 
 
+## Memory
+>in brain:  hypocampus  
+memory  is not stored as plasticity of synapses only. but is one aspect of formation of neuro network as well. therefor can connect with other memories.
+
+- repetition drive memory
+- to better memorize constraint to your thoughts from past
+- if u starving its not good time to remembering
+- stress hormones give advantages to remembrance in short time
+- LTP  
+- alcohol directly disrupt LTP
+- categorical way of thinking is how
+
+----
+
+
+
 # Thinking
 ## Fast and Slow (Daniel Kahneman)
 
