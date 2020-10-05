@@ -6,8 +6,14 @@ categories:
 tags:
 - VEX
 - Houdini
-- Code 
+- Code
 ---
+
+
+
+<span style="color: #F09900"> HIP:</span> [SOP Vexpression](/src/hip/SOP_Vexpression.hiplc)  
+
+
 
 
 # Op()

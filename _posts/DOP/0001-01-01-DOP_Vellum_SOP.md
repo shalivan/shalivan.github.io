@@ -12,19 +12,14 @@ description:  Houdini solver in SOP's.
 
 
 
-
-
-
-
-
-
-<span style="color: #F09900"> HIP:</span> [VellumSOP.hiplc](/src/hip/DOP_VellumSOP.hiplc)  
+<span style="color: #F09900"> HIP:</span> [Vellum SOP](/src/hip/DOP_VellumSOP.hiplc)  
 
 
 <!-- more -->
 
 # Constraints
 Constraints are geometry attributes. Add in sop and edit it in `velum Constrains Properties` inside vellum solver to modify constr dynamicly
+
 
 || Effect | |When to use||
 |---|---| ------------------------------------------------------------------------|---|-|
