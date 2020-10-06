@@ -1,6 +1,6 @@
 ---
 title: Game Design
-description: Mechanics.
+description: RAW NOTES !!!!!  Mechanics.
 categories:
  - PSY
 tags:
