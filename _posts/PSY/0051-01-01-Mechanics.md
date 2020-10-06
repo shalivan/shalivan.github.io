@@ -10,8 +10,15 @@ tags:
 ---
 
 
+farming -
+- czasowy jak w ogema
+fomo
 
 gamification
+
+##### Signifiers
+Gameplay (signals that help find that sth is usable (signs/ colors)) (BRAK 4-th wall)
+
 
 
 # Mechanics   

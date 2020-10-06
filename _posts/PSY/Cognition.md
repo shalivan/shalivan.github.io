@@ -192,14 +192,25 @@ mental overload - capacity: sys 2 , spare capacity is .,..
 Currency of attention.
 
 
-
+Switching between tasks is efortfull
+Accumulating resoultss.
+Time presure.
+ew divide task to
 
 region in brain that
 https://youtu.be/8cVSIDBx1wo?t=5827
 
 
+## 3. Lazy Controller
+we can decide what to do but limited what effor we put in it.
 
+- in emergnecies sys 1 take control and taked a self protection actions
+- if you are skjilled demand for energy deminish Pattern of activity change after trening.
 
+- effort is a cost
+- lazyness is build deep in our nature
+
+sys 1 gather simple relation but not combine informations
 
 ```
 
