@@ -1,19 +1,19 @@
 
 # Cognition
 ### Cognitive Biases
-- Recency Bias
+- Regency Bias
 - Confirmation Bias
 - False-Consensus Effect
-- Hindsight Bias (Rationalise that sth happ.)
+- Hindsight Bias (Rationalize that something happened)
 - Endowment Effect  (Want to sell item for more)
 - Mere Exposure Effect (More often see more u like it)
-- Bias Blind Spot (other feel dif than you)
+- Bias Blind Spot (other feel different than you)
 - Peak-End Rule (shortcut when thinking how feel about exp. you thing about: 1 highest peaks and at end )
 
 ### Cognitive Dissonance
 
 Free choice  
-Forbidden Behaviour paradigm  
+Forbidden Behavior paradigm  
 Induced compliance  
 Belief disconfirmation  
 Effort justification  
@@ -72,6 +72,27 @@ feedback loop of our actions other perceptions and our reaction to this percepti
 
 ----
 
+## Brain
+
+Hemispheres
+
+||||
+|---|---|---|
+||Left Hemisphere|Right Hemisphere|
+|Operation in |Explored territory | Unexplored territory
+|Affect|Positive|negative
+|Behavior| Activation | Inhibition
+|Processing| World| Imafe
+|Thinking|Linear|Holistic|
+|Recognition|Detail| Pattern |
+|Generation|Detail|Pattern|
+|Action |Fine Motor|Gross Motor|
+
+
+
+
+
+----
 
 ## Memory
 >in brain:  hypocampus  
@@ -211,6 +232,9 @@ we can decide what to do but limited what effor we put in it.
 - lazyness is build deep in our nature
 
 sys 1 gather simple relation but not combine informations
+
+
+
 
 ```
 

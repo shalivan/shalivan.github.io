@@ -21,7 +21,7 @@ tags:
 
 
 #  Plot
-
+Telling stories is in human nature.
 
 **Story** the story tells who and what. is a series of events recorded in their chronological order. a sequence of events,  The story includes all of the events described that make up a narrative.  
 **Plot** the plot tells how. Once you have a story in mind, you can decide how you are going to plot it. is a series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance. And create tension.  
@@ -80,7 +80,10 @@ Universal through shared by all cultures
 
 ## 4-Layers, A Narrative Design Approach
 https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html
-
+1. what am I doing and how
+2. narrative goal (short term) gratifications
+3. Narrative background. How my knowledge increase
+4. Mental Modeling. Sense of mental image of game. that we would like to get.
 
 ---
 # Theme
@@ -145,9 +148,9 @@ Driven by external / internal motivations
 
 
 
-||Western|Eastern|
+||Western |Eastern |
 |---|---|---|
-||Externbal struggle|internal styrugle
+||External struggle | internal struggle
 ||westetn on a centralconflict more agressive (greek tragedy 1 plavce 1 day 1 plot )|east - internal struggle (substance)
 
 |religion|Western|Eastern|

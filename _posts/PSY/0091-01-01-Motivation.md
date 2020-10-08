@@ -6,6 +6,7 @@ categories:
 tags:
 - Science
 - Cognition
+- Gameplay
 
 description: attention, cognition motivation, emotion, choice, satisfaction
 ---
@@ -24,7 +25,7 @@ Human behavior is complex. Optimizing social behavior since 1980: sociobiology >
 
 # Attention
 
-
+(For kids short videos are worse than long because of shortening attention span)
 
 immersion - teleport mind
 presence - teleport body

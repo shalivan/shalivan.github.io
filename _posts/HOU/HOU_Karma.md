@@ -1,0 +1,80 @@
+When light hit surface it can be:
+- reflection
+- absorption
+- transmission
+
+
+
+
+
+#### Diffuse
+#### Albedo
+#### Base Color
+Albedo multip: - sth with absorbtion
+
+#### Specular
+- any point of surface
+
+- dielectric: 2-8%
+- semi-conductor  8-40$
+- metal - 40 +
+#### Fresnel
+- at any angle  (Is spec refl !)
+
+#### Roughness
+
+-----
+
+#### Absorption
+we see colors throughh absorption (color are absorbed by heat)
+
+ BLACK BODY IS NOT ONLY A PERFECT ABSORBER BUT ALSO A PERFECT emitter of heat. Hence the black container will cool down faster.
+
+
+ Dark-colored materials absorb visible light better than light-colored materials. That's why the dark side of the card heats up first.
+
+
+### IOR
+for dielectric ~1.3
+
+RefractiveIndex.Info
+PixelAndPoly.com
+
+higher ior is , slower light will travel .
+bend on border of values
+
+### Anisotropic
+directional refl
+
+### Sheen
+subtle dif rough
+
+### Corat
+double highlights
+
+
+#### transparency
+- ray limitatins - up refl and refr limits
+if black resoults to low limits
+
+### Sub Surf
+single scattering - like a marble. will soften a shadows
+random walk -new one
+
+#### Tansparency
+- transmition @ distance (at what distance will be fully trans. color ) : how its color wwhen going throu medium
+
+
+-0--
+###### lambertian reflection
+All diffuse is technicaly subsurface but not visible
+water based body liki skin have deeper
+
+----
+
+
+### Prinvipal shader
+### .. ?
+
+
+more dense mats ~ more ior > so more spec

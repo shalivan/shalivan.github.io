@@ -16,8 +16,8 @@ description: basics.
 - chop
 `Keyframe`   
 `reactive`  
- `dynamic`  
-  `mocap data`  
+`dynamic`  
+`mocap data`  
 
 
 
@@ -34,7 +34,7 @@ description: basics.
 
 | . | |less|more|
 | --- | --- |--- | ----|
-Squash & Stretch | (for VFX), emphesize speed, momentum, weight  and mass | solid stiff | soft, charcters, face | try to preserve volume
+Squash & Stretch | (for VFX), emphasize speed, momentum, weight  and mass | solid stiff | soft, characters, face | try to preserve volume
 Anticipation |  (for VFX) prepare for action clue what hapen next and focus action. can be multiple layers ||face |if you have time for build up do it
 Staging |make idea clear: wher to look what i happenieng |
 strait ahead and pose to pose |character pose to pose but hairs frame to fram  |frame by frame for unpredictable like simulations | better in most actions
@@ -51,7 +51,7 @@ Appeal | chrismatic aspects > dynamic design. (varietyu of shapes on dif charact
 ## Simulation & procedural   
    - Normalize - Fit parameters to 0-1  
 
-   
+
 # VFX
 
 https://youtu.be/WLMVpcK0WvA?list=PLQD_sA-R5qVKVYw3EVuRT7fSJsVukLEhD
@@ -82,4 +82,4 @@ acceleration
 rapidly decelerating | explosion
 peak |
 repeated | light blink
-wave |
+wave |  
