@@ -13,8 +13,10 @@ float f     = atan2( @P.z, @P.x );
 @P.x       = p;
 @P.z       = f;
 ```
-  
+
 #### Projective general linear group (PGL)
+
+
 ##### Möbius transformation
 ```
 vector2 mobiusInverse(vector2 o; float r; vector p){
@@ -22,11 +24,18 @@ vector2 mobiusInverse(vector2 o; float r; vector p){
     return set(a*(p.x - o.x) + o.x, a*(p.y-o.y)+o.y);
 }
 ```
+
 youtube.com/watch?v=0z1fIsUNhO4
 http://virtualmathmuseum.org/ConformalMaps/inv/index.html
 
-### Hyperbolic Geometry 
+### Hyperbolic Geometry
 >(Bolyai–Lobachevskian or Lobachevskian geometry) is a non-Euclidean geometry. The parallel postulate of Euclidean geometry is replaced with:For any given line R and point P not on R, in the plane containing both line R and point P there are at least two distinct lines through P that do not intersect R.
+
+### Spherical
+
+https://youtu.be/yY9GAyJtuJ0
+
+
 
 line is drawn as arc  
 
@@ -37,7 +46,7 @@ youtu.be/6z3rQb3fUMw
 
 
 ### Manifold - Curved spaces
-manifold is a topological space, such that each point has a neighborhood that is homeomorphic to an open subset of a Euclidean space. 
+manifold is a topological space, such that each point has a neighborhood that is homeomorphic to an open subset of a Euclidean space.
 
 ### Barycentric Coordinates
 Find coords within triangle by jackie rice. "this also extends to tets as well, but it'd be a 4x4 matrix instead of a 3x3"   if everything is actually aligned to the z-1 axis, so if z is set to 1, then you can invert the solution as well to convert back to cartesian coordinates  
@@ -54,7 +63,7 @@ matrix3 gen_bary_mat(vector pts[]){
 vector tri_pts[] = array({10, 4, 1}, {3,2,1}, {0, 10, 1});
 vector test_pt = {6, 5, 1};
 matrix3 bary_matrix = gen_bary_mat(tri_pts);
-vector bary_pt = test_pt * invert(bary_matrix);  //solution by inversion, this is big brain 
+vector bary_pt = test_pt * invert(bary_matrix);  //solution by inversion, this is big brain
 printf("bary coords: %g \n", bary_pt);
 ```
 
@@ -116,4 +125,3 @@ vector dir = volumegradient( 1, 0, @P);
 vector dist = abs(volumesample( 1, 0, @P));
 v@P += dir * dist;
 ```
-

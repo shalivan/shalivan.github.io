@@ -6,7 +6,8 @@ categories:
 tags:
 - Art
 - Animation
-description: basics.
+- VFX
+description: principles.
 ---
 
 # Animation types
