@@ -1,0 +1,26 @@
+
+
+# Install
+1. Put .json to packages
+2. set proper path to MOPS directory
+
+
+
+
+# MOP
+
+>Modify packed, primitives or template points
+
+# Nodes 
+
+`Instancer` - copy to point
+`Randomize` - orienteattion
+
+
+
+`Shape Fallof`-
+`Transform` -
+`Aim` - lookat
+
+
+`Align` - for packed
