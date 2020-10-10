@@ -1,5 +1,5 @@
 ---
-title: Synthesizers
+title: Synths
 description: Synthesizers guide  Circuit Novation
 categories:
  - RT
