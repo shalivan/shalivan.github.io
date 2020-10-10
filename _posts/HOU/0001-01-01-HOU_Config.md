@@ -1,11 +1,11 @@
 ---
-title: Houdini Config
+title: Houdini shortcuts
 
 categories:
  - HOU
 tags:
 - Houdini
-- Config
+- Shortcuts
 description: Houdini shortcuts and personal configuration.
 ---
 
