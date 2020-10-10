@@ -7,6 +7,9 @@ tags:
 - Math
 ---
 
+\\( \sqrt{\frac{n!}{k!(n-k)!}} \\) or
+this one \\( x^2 + y^2 = r^2 \\).
+
 
 # Notation
 
