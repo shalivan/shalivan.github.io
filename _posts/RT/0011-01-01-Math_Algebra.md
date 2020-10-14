@@ -7,8 +7,7 @@ tags:
 - Math
 ---
 
-\\( \sqrt{\frac{n!}{k!(n-k)!}} \\) or
-this one \\( x^2 + y^2 = r^2 \\).
+
 
 
 # Notation
@@ -66,12 +65,6 @@ this one \\( x^2 + y^2 = r^2 \\).
 
 Quaternions, Dual quaternions, Exterior Algebra
 
- $$a*b$$
-
-
- $$axxb$$
-
-$$u^^v$$
 
 
 
@@ -85,8 +78,65 @@ https://www.desmos.com/calculator - function plot
 
 
 
+-----
+
+
+
+## Matrixes
+`Tensor` - is like vector  written by components made of dot products of component vectors
+
+---
+#### Derivative
+1
+
+2
+
+
+
+#### Fourier
+Fourier Transform: decomposing to freq. .  rtepresent sampled signal as sin and cos
+Fast Fourier Transform: recognizing symetry
+
+#### Laplace
+Tel us both if sinusoids and exponentials are represented in the function  
+
+divergence of the gradient of some function. so say you have a heightfield (like a 2d grid with a scalar quantity on that grid, defining height).
+
+the laplacian of the height value at any given voxel, will be a scalar value that basically tells you what the rate of change in that voxel will be, if you flow along the height fields gradient.
+
+when you're doing this on a volume grid there's a "discrete laplacian operator" that's basically just a kernel that approximates the real thing
+
+so if u want to sort of guide the growth, you would want to basically define a divergence field (diverg of field '+' when go awa -" when go to this point , )to mix in or merge on top (similar to how u would guide a smoke/flip sim). basically you would want to find the directions you want to flow towards, compute the divergence of that, and then add that on top of your laplace values. but id have to know how the growth is being driven, to confirm if that would work
+
+If you want it to get more interesting rather than your growth weight being just the laplacian you can do something like growthweight = laplacian * dot(volumegradient, vec) where vec comes out of some 3d noise or something
+
+
+#### Monte-Carlo
+statistical model with random and proportions to calculate ie area
+
+
+
+#### Gerstner Waves
+
 
 ---------
+
+
+
+# .md Latex notation
+
+\\( \sqrt{\frac{n!}{k!(n-k)!}} \\) or
+this one \\( x^2 + y^2 = r^2 \\).
+
+
+$$a*b$$
+
+$$axxb$$
+
+$$u^^v$$
+
+
+
 
 $$a^2 + b^2 = c^2$$
 

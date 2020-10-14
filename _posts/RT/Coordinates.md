@@ -1,3 +1,50 @@
+---
+title: Algebra
+description: coordinates
+categories:
+- RT
+tags:
+- Math
+---
+
+
+
+# Coordinate Systems
+
+
+#### Cartesian coordinates
+x, y
+Rene Descartes
+
+
+#### Polar Coordinates
+2d. where x, y >> angle, radius  
+
+#### Barycentric coordinates
+is specified as the center of mass, or barycenter,
+
+
+
+
+#### Spherical coordinates
+- parallels will converge (nachodzić na siebie)
+- even if not changing direction you will get accumulated rotation
+
+#### Euclidean
+- in Euclidian parallel will stay parallels
+
+#### Hyperbolic coordinates
+- parallels will diverge (Opposite to spherical)
+- even if not changing direction you will get accumulated rotation
+
+#### Mesh Uv's
+
+
+
+
+
+
+
 ### Euclidean space
 log to cartesian (input grid)
 ```
