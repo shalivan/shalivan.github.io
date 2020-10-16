@@ -26,7 +26,7 @@ $blue-deep    : #262a30;
 $orange       : #fc6423;
 
 $bcg-color    : #1D1D1D;
-$bcg-color-alt: #111111;
+$bcg-color-alt: #111111;  // tables
 $accent-color : #F7B001;
 $accent-light : #F9BF47;
 
@@ -139,7 +139,7 @@ $table-th-font-weight           : 700;
 $table-cell-padding             : 8px;
 $table-cell-border-right-color  : $gainsboro;
 $table-cell-border-bottom-color : $gray-lighter;
-$table-row-odd-bg-color         : #f9f9f9;
+$table-row-odd-bg-color         : $bcg-color-alt;
 $table-row-hover-bg-color       : smoke;
 
 
