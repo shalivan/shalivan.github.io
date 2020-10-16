@@ -139,7 +139,7 @@ $table-cell-padding             : 8px;
 $table-cell-border-right-color  : $gainsboro;
 $table-cell-border-bottom-color : $gray-lighter;
 $table-row-odd-bg-color         : #f9f9f9;
-$table-row-hover-bg-color       : $whitesmoke;
+$table-row-hover-bg-color       : smoke;
 
 
 
@@ -300,7 +300,7 @@ $site-state-item-border-color         : $black-dim;
 
 $toc-link-color                       : $a-whitesmoke; //$grey-dark;
 $toc-link-border-color                : $a-whitesmoke; //$black-light;
-$toc-link-hover-color                 : $white; //$grey-light;
+$toc-link-hover-color                 : $accent-light; //$grey-light;
 $toc-link-hover-border-color          : $a-whitesmoke; //$grey-light;
 $toc-link-active-color                : $accent-color; //$sidebar-highlight;
 $toc-link-active-border-color         : $a-whitesmoke; //$sidebar-highlight;
@@ -317,7 +317,7 @@ $b2t-position-bottom          : -100px;
 $b2t-position-bottom-on       : 19px;
 $b2t-position-right           : 30px;
 $b2t-font-size                : 12px;
-$b2t-color                    : white;
+$b2t-color                    : $whitesmoke; //white;
 $b2t-bg-color                 : $whitesmoke; //$black-deep;
 
 // full-image
