@@ -6,7 +6,7 @@
 
   width: 0;
   z-index: $zindex-4;
-  box-shadow: inset 0 2px 6px black;
+  //box-shadow: inset 0 2px 6px black;
   background: $bcg-color; //$black-deep;
   -webkit-transform: translateZ(0); // http://stackoverflow.com/questions/17079857/position-fixed-broken-in-chrome-with-flash-behind
 

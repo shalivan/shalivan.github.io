@@ -8,17 +8,17 @@
 // colors for use across theme.
 // --------------------------------------------------
 
-$whitesmoke   : #222222; //#f5f5f5;
+$whitesmoke   : #222222; //  #f5f5f5;
 $a-whitesmoke : #D3D3D3; // new white
-$gainsboro    : #333333; //#eee;
+$gainsboro    : #333333; //  #eee;
 $gray-lighter : #aaa; // #ddd;
-$grey-light   : #bbb; //#ccc;
-$grey         : #ccc; //#bbb;
-$grey-dark    : #444; //#999;
-$grey-dim     : #ddd; //#666;
-$black-light  : #fff; //#555;
-$black-dim    : #ccc; //#333;
-$black-deep   : #eee; //#222;
+$grey-light   : #bbb; //  #ccc;
+$grey         : #ccc; //  #bbb;
+$grey-dark    : #444; //  #999;
+$grey-dim     : #ddd; //  #666;
+$black-light  : #fff; //  #555;
+$black-dim    : #ccc; //  #333;
+$black-deep   : #eee; //  #222;
 $red          : #ff2a2a;
 $blue-bright  : #87daff;
 $blue         : #0684bd;
@@ -282,7 +282,7 @@ $site-author-image-border-width       : 2px;
 $site-author-image-border-color       : $black-dim;
 
 $site-author-name-margin              : 5px 0 0;
-$site-author-name-color               : $whitesmoke;
+$site-author-name-color               : $a-whitesmoke; //$whitesmoke;
 $site-author-name-align               : center;
 $site-author-name-weight              : normal;
 
@@ -298,14 +298,14 @@ $site-state-item-name-font-size       : 13px;
 $site-state-item-name-color           : inherit;
 $site-state-item-border-color         : $black-dim;
 
-$toc-link-color                       : $blue; //$grey-dark;
-$toc-link-border-color                : $blue; //$black-light;
-$toc-link-hover-color                 : $blue; //$grey-light;
-$toc-link-hover-border-color          : $blue; //$grey-light;
-$toc-link-active-color                : $blue; //$sidebar-highlight;
-$toc-link-active-border-color         : $blue; //$sidebar-highlight;
-$toc-link-active-current-color        : $blue; //$sidebar-highlight;
-$toc-link-active-current-border-color : $blue; //$sidebar-highlight;
+$toc-link-color                       : $a-whitesmoke; //$grey-dark;
+$toc-link-border-color                : $a-whitesmoke; //$black-light;
+$toc-link-hover-color                 : $white; //$grey-light;
+$toc-link-hover-border-color          : $a-whitesmoke; //$grey-light;
+$toc-link-active-color                : $accent-color; //$sidebar-highlight;
+$toc-link-active-border-color         : $a-whitesmoke; //$sidebar-highlight;
+$toc-link-active-current-color        : $accent-color; //$sidebar-highlight;
+$toc-link-active-current-border-color : $a-whitesmoke; //$sidebar-highlight;
 
 
 // Components
@@ -318,7 +318,7 @@ $b2t-position-bottom-on       : 19px;
 $b2t-position-right           : 30px;
 $b2t-font-size                : 12px;
 $b2t-color                    : white;
-$b2t-bg-color                 : $black-deep;
+$b2t-bg-color                 : $whitesmoke; //$black-deep;
 
 // full-image
 $full-image-width             : 110%;
