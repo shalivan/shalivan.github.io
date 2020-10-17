@@ -13,14 +13,8 @@ permalink: /motivation/
 ---
 
 
-Human behavior is complex. Optimizing social behavior since 1980: sociobiology > evolutionary psychology.
 
 
-
-```
-- emotional labor
-- building TENTION ?
-```
 
 
 
@@ -29,9 +23,9 @@ Human behavior is complex. Optimizing social behavior since 1980: sociobiology >
 
 (For kids short videos are worse than long because of shortening attention span)
 
-immersion - teleport mind
-presence - teleport body
-engagement - mental or manual effort meets interactivity  (not in books)
+immersion - teleport mind  
+presence - teleport body  
+engagement - mental or manual effort meets interactivity  (not in books)  
 
 
 
@@ -102,8 +96,8 @@ Myers-Briggs / 16 Personalities
 ---
 
 
-# Behaviorism
-Behavioral theories of motivation focus on how the results we’ve obtained from past behaviors shape our future behaviors (Environmental Shaped & Learned Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
+# Behavioral
+Behaviorism is theory of motivation focused on how the results we’ve obtained from past behaviors shape our future behaviors (Environmental Shaped & Learned Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
 
 - Positive Reinforcement
 - Negative Reinforcement.
@@ -314,3 +308,8 @@ overjustification:
 
 ### Others
 story creativiy
+
+```
+- emotional labor
+- building TENTION ?
+```
