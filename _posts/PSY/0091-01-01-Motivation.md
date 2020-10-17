@@ -93,6 +93,8 @@ Personality traits OCEAN
 Temperament
 Myers-Briggs / 16 Personalities
 
+[Personalities](/personality/)   
+
 
 
 **Locus of control** is a psychological concept that refers to how strongly people believe they have control over the situations and experiences that affect their lives.
@@ -192,8 +194,6 @@ Relatedness | Connecting, Social grouping, Status feedback  | shared experiences
 
 
 # Gamer motivation profile
-
-[Personalities](/personality/)   
 
 |Gamer motivation profile | High | Low |
 |--|--|--|
