@@ -371,7 +371,7 @@ post_copyright:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: false
-  image: /src/logo.png
+  image: # /src/logo.png
 
 
 # Code Highlight theme
