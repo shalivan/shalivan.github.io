@@ -19,3 +19,4 @@
 
 `clamp(@gradient*2+(@pattern-1),0,1)`  - gradient with height blend  
 `lerp(0-@contrast,@contrast+1,@power)` - cheap contrast   
+fit / MapRangeClamped - ( ( i - A ) / ( B - A ) ) * (Y - X) + X

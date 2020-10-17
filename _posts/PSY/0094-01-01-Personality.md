@@ -9,6 +9,9 @@ tags:
 
 description: attention, cognition motivation, emotion, choice, satisfaction
 ---
+
+- individual and collective elements
+
 ### Personality traits
 OCEAN - Big Five personality traits OCEAN Change a litle over life. Population norm is only meaningful point of reference for traits and otivations
 

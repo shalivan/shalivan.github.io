@@ -9,6 +9,8 @@ tags:
 - Game Dev
 - Gameplay
 
+permalink: /gametheory/
+
 ---
 
 
