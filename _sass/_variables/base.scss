@@ -212,7 +212,7 @@ $gap-between-main-and-footer    : 100px;
 // Headband
 // --------------------------------------------------
 $headband-height                : 3px;
-$headband-bg                    : $black-deep;
+$headband-bg                    : #00FF00; // $black-deep;
 
 
 
@@ -318,7 +318,7 @@ $b2t-position-bottom          : -100px;
 $b2t-position-bottom-on       : 19px;
 $b2t-position-right           : 30px;
 $b2t-font-size                : 12px;
-$b2t-color                    : $whitesmoke; //white;
+$b2t-color                    : $accent-light; //white;
 $b2t-bg-color                 : $whitesmoke; //$black-deep;
 
 // full-image
