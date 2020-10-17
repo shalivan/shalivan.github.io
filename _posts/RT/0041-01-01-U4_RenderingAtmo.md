@@ -10,20 +10,11 @@ tags:
 - Light
 - Art
 - Game Dev
+
+permalink: /u4light/
+
 ---
 
-# Atmosphere
-Lowering contrast and saturation over distance, make color more like sky  
-Skylight intensity is relative to the HDR  
-Light - Radius and intensity keep both together. Mini roughness light without reflections
-
- |Direct lighted vs shaded intensity ratio   | |
-|  ---| -- |
-|~4:1 |sun/sky
-|~3:1 |sunrise/sunset  
-|~2:1 |overcast
-
-You can measure that by looking at a white surface with sun on it, and adding a shadow casting object then comparing the brightness of the lit to the shadowed areas. Modify skylight until its around 25% the value of the sun. Convert to linear space if comparing in screens photoshop. (adjustment->levels and set the midpoint to 0.4545).
 
 # Light
 
@@ -33,12 +24,14 @@ You can measure that by looking at a white surface with sun on it, and adding a 
 Candelas, it is unaffected by its cone angle.
 Lumens, its luminous power only applies to the solid angle affected by the light, in Steradians (sr).
 
+
 ### Units
 
 - Directional lights uses Direct Normal Illuminance, lux = (lm/m²)   
 - Sky lights Luminance, cd/m²  `1 cd` = `1 lm/sr` = `625 unitless`     
 - Emissive  Luminance, cd/m²
 
+[Light Data](/light/)
 
 
 
@@ -226,16 +219,3 @@ https://gumroad.com/l/sFTCY/Clouds6m52fv
 
 Old setup
  - `Sky box` > `Exp fog` > `Sky Light` > `Directional Light` > `Secondary lights` > `Cam Post` > `Color Grading`
-
-
-
-
-
-# Light Units
-
-Lights | solid angle | 1 lm ≈ | 1 cd ≈ |
--- | -- | -- | -- |
-Point | 4π sr | 49.7 *  (1 unitless) | 4 x 3.14 = 12.566 lm
-Spot | 2π * (1 - cos(θ)) | 99.5 / (1 - cos(θ)) * (1 unitless)
-Spot 44°|1.76 sr | 354 *  (1 unitless) | 1.76 *  (1 lm)
-Rect  | 2π sr | 1.31  | 199 *  (1 unitless) | 3.14 *(1 lm)

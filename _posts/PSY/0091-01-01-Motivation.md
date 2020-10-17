@@ -21,8 +21,6 @@ permalink: /motivation/
 # Terms
 
 
-(For kids short videos are worse than long because of shortening attention span)
-
 immersion - teleport mind  
 presence - teleport body  
 engagement - mental or manual effort meets interactivity  (not in books)  
@@ -313,3 +311,6 @@ story creativiy
 - emotional labor
 - building TENTION ?
 ```
+
+
+(For kids short videos are worse than long because of shortening attention span)

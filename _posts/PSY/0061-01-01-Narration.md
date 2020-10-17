@@ -139,14 +139,15 @@ Driven by external / internal motivations
 
 ||Western |Eastern |
 |---|---|---|
-||Object separated in space| Surrounding, background and relationship
+
 | | Object | Subject |
+|Being|Stationary existing | Arising |
+|Emphases | Individuality | Wholeness, Oneness|
+|Express| Individualnes (nouns) | Interaction (werbs)
+||Object separated in space| Surrounding, background and relationship
 ||Destroyed object > not anymore whole | No notion of whole or part
-||Emphases individuality of object| Wholeness > Oneness|
 ||Brain focus on objects separately |
-||Emphasis on tee | Emphasis on drink
-||Express individualnes (nouunes) | To interaction (werbs)
-||Being- stationary existing | Arising |
+||Emphasis on tee | Emphasis on drinking
 ||Causality is complex|
 
 
@@ -158,9 +159,7 @@ Driven by external / internal motivations
 
 |religion|Western|Eastern|
 |---|---|---|
-
-religion
-west - ready for external struggle (object - singular plural nones )
+|| ready for external struggle (object - singular plural nones )
 
 
 ---

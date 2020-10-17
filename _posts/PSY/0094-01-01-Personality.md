@@ -11,7 +11,7 @@ description: attention, cognition motivation, emotion, choice, satisfaction
 permalink: /personality/
 ---
 
-- individual and collective elements
+# Individual
 
 ### Personality traits
 OCEAN - Big Five personality traits OCEAN Change a litle over life. Population norm is only meaningful point of reference for traits and otivations
@@ -41,3 +41,6 @@ Attitudes:  Focus| Extravert |Introvert
 Functions: Take in information| Sensing | Intuition
 Functions: Decision Makeing| Thinking | Feeling
 Lifestyle preferences| Judging | Perciving
+
+
+# Collective
