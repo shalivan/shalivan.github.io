@@ -29,8 +29,9 @@ $bcg-color    : #262728; // 1D1D1D;
 $bcg-color-alt: #111111;  // tables
 $accent-color : #F9BF47; // F7B001;
 $accent-light : #F9BF47;
-
-
+$table-light : #222324;
+$table-dark  : #1F2020;
+$table-border: #55585B;
 // Scaffolding
 // Settings for some of the most global styles.
 // --------------------------------------------------
@@ -131,16 +132,16 @@ $zindex-5       : 1050;
 // Table
 // --------------------------------------------------
 $table-width                    : 100%;
-$table-border-color             : $gray-lighter;
+$table-border-color             : $table-border;
 $table-font-size                : 14px;
 $table-content-alignment        : left;
 $table-content-vertical         : middle;
 $table-th-font-weight           : 700;
-$table-cell-padding             : 8px;
+$table-cell-padding             : 6px;
 $table-cell-border-right-color  : $gainsboro;
 $table-cell-border-bottom-color : $gray-lighter;
-$table-row-odd-bg-color         : $bcg-color-alt;
-$table-row-hover-bg-color       : smoke;
+$table-row-odd-bg-color         : $table-light;
+$table-row-hover-bg-color       : $table-dark;
 
 
 

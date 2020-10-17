@@ -56,14 +56,17 @@ Memorable moments:
 
 
 
-
-### Monomyth
+#### Monomyth
   Heroes Journey: **You**, **Need**, **Go**, **Search**, **Find**, **Take**, **Return**, **Change**  (Joseph Campbell)
-  - What with serials?
+  - What with serials and games ? Its less relevant.
 
 
 
 ##  Motivations
+
+[Human Motivation](/motivation/)  
+
+during the story object can inherit meaning and emotional value
 
 - **Conflict** - Wants vs needs
    - Mind (primal mammal) vs Soul (fulfill to have superior existence)
@@ -76,9 +79,9 @@ Universal through shared by all cultures
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
 
 
+## Narrative Design Approach
 
-
-## 4-Layers, A Narrative Design Approach
+#### 4-Layers
 https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html
 1. what am I doing and how
 2. narrative goal (short term) gratifications
@@ -86,7 +89,7 @@ https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.
 4. Mental Modeling. Sense of mental image of game. that we would like to get.
 
 ---
-# Theme
+# Themes
 What is about / what thread bind it together
 
 
@@ -163,15 +166,13 @@ west - ready for external struggle (object - singular plural nones )
 ---
 
 
----
 
-  - rewrite existing
-  - unexpected solution to mainstream problem
-  - start wit your emotions.
-  - a big unexpected question
-
-make story on various level of magnification   
-
+- rewrite existing
+- unexpected solution to mainstream problem
+- start wit your emotions.
+- a big unexpected question
+- make story on various level of magnification   
+- way it happen must be different than last time
 - plot along motivation  
 - novel, unique, cohesive, meaningful  
 - Structure in games is not as important  
@@ -186,20 +187,29 @@ make story on various level of magnification
 ---
 
 
+- exposition - show story
+- character asking question  
 
-### Theather
-actioin almost around   
+
+
+
+
+
+
+
+
+
+
+
 
 (book: the future of narrative in cyberspace)
 
-### Time travel
 
-https://youtu.be/d3zTfXvYZ9s
-
+to show story:
 
 elevator pitches  
 peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
 
-----
+
 Writing > Editing > Voiceovers, Localization > Cinematics
 'we are telling stories to not feel alone in universe ??? '
