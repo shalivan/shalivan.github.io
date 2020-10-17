@@ -13,8 +13,9 @@ permalink: /gametheory/
 
 ---
 
-Context for:
-[GameTheory](/humbio1/)  
+Context for:  
+[Human Behavioral Biology](/humbio1/)  
+
 
 
 https://www.youtube.com/c/Gametheory101/videos
@@ -45,21 +46,26 @@ multiple goals, number of rounds....  In lot of species there is no cognitive st
 
 # Strategies
 
-**Tic Tac Toe**   
-`Pavlov strategy` - switch if not working (you can exploit)  
-`TfT` -  Tit for tat drove other strategies to extinction and formalize optimal strategy  may lose battles but win wars. (Vulnerable of signal error). Start nice cooperating > forgiving > cooperate when you can   
-`FTfT` - forgiving tit for tat  witch is more vulnerable for exploitation TfT -> jezeli zaufanie to switch to forgiven TFTF Trust  
-`Madness` - possibility of changes   
+**Tic Tac Toe**  
+
+##### Pavlov strategy
+ - switch if not working (you can exploit)  
+#### TfT
+-  `Tit for tat` drove other strategies to extinction and formalize optimal strategy  may lose battles but win wars. (Vulnerable of signal error). Start nice cooperating > forgiving > cooperate when you can   
+#### FTfT
+- `forgiving tit for tat`  witch is more vulnerable for exploitation TfT -> jezeli zaufanie to switch to forgiven TFTF Trust  
+#### Madness
+- possibility of changes   
 Strategies to survive forgiving tic for tat (vulnerable to exploit) > forgiven tic for tat after while  
 
 
-**Game Theory Optimal**
+#### Game Theory Optimal
 - assumes opponent is always countering with the perfect strategy
 - can have lower yield EV then exploitative play
 
-pkr> fint highest EV lines routes possible for have best formulatetd strategy. + balance it to dont be exploited.
+pkr > fint highest EV lines routes possible for have best formulatetd strategy. + balance it to dont be exploited.
 but can be not profitable as exploit.  
 balance stratedy  
 
-**Exploitative**
+##### Exploitative
 -humans make a lot errors  exploit mistakes
