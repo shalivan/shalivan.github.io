@@ -13,6 +13,8 @@ permalink: /gametheory/
 
 ---
 
+Context for:
+[GameTheory](/humbio1/)  
 
 
 https://www.youtube.com/c/Gametheory101/videos
