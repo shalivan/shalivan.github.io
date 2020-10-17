@@ -8,6 +8,7 @@ tags:
 - Cognition
 
 description: attention, cognition motivation, emotion, choice, satisfaction
+permalink: /personality/
 ---
 
 - individual and collective elements

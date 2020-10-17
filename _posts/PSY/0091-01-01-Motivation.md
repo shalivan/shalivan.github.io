@@ -9,6 +9,7 @@ tags:
 - Gameplay
 
 description: attention, cognition motivation, emotion, choice, satisfaction
+permalink: /motivation/
 ---
 
 
@@ -23,7 +24,8 @@ Human behavior is complex. Optimizing social behavior since 1980: sociobiology >
 
 
 
-# Attention
+# Terms
+
 
 (For kids short videos are worse than long because of shortening attention span)
 
@@ -46,8 +48,16 @@ Psychological presence. According to his definition, engagement refers to the st
 - expose things to promote them
 - predictable
 
+if you lost a momentum from one moment to next and persist in that state
+
 ### Agency
 ????!!!!!
+
+
+### Entertain
+things happening > its excitement its entertainment
+---
+
 
 
 ---
@@ -182,6 +192,8 @@ Relatedness | Connecting, Social grouping, Status feedback  | shared experiences
 
 
 # Gamer motivation profile
+
+[Personalities](/personality/)   
 
 |Gamer motivation profile | High | Low |
 |--|--|--|
