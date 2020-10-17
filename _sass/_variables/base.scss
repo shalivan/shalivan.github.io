@@ -224,9 +224,9 @@ $head-bg                        : transparent;
 
 // Site Meta
 $site-meta-text-align           : center;
-$brand-color                    : white;
+$brand-color                    : $bcg-color;
 $brand-hover-color              : white;
-$brand-bg                       : $black-deep;
+$brand-bg                       : $accent-light; //$black-deep;
 
 $logo-font-size                 : 20px;
 $logo-font-size                 : if(type-of(jekyll-config('font.logo.size')) == 'number', jekyll-config('font.logo.size') + px, $logo-font-size);
