@@ -132,6 +132,10 @@ dont lead player where to go but how move through space
 - `Nodes` - moments of decisions - train station
 
 
+
+[Architecture]](/arch/)
+
+
 ### Composition
 Composing 3d to view in 2d (flat monitor) like composition rules
 

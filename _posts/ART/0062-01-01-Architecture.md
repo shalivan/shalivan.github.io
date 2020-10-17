@@ -10,6 +10,7 @@ tags:
 - Gameplay
 - Architecture
 description: basics.
+permalink: /arch/
 ---
 
 
