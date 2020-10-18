@@ -155,6 +155,18 @@ setprimintrinsic(0, "transform", @primnum, x, "set");
 ```
 
 
+#### Packed Geometry from RDB to copy to object
+https://youtu.be/W9ggbLr6wNY?t=1001
+transform to replace low proxy in RDB. 
+```cpp
+matrix m4 = primintrinsic(0,'packedfullytransform', @ptnum);
+matrix3 m3 = matrix3(m4);
+@orient = quaternion(m3);
+@scale = cracktransform(0,0,2,0,m4);
+v@pivot = primintrinsic(0,'pivot',@ptnum);
+
+
+```
 
 #### Orient piece of geometry by 4 points: {@vux}  
 - src_pt - source point 1

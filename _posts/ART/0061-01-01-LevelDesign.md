@@ -8,6 +8,7 @@ tags:
 - Game Dev
 - Gameplay
 - Architecture
+
 ---
 
 
@@ -146,10 +147,11 @@ Composing 3d to view in 2d (flat monitor) like composition rules
 
 
 
+
 ---
 
 # Visuals
-generally more effective when it makes contextual narrative sense i
+generally more effective when it makes contextual narrative sense
 
 
 ### Usable Visual
@@ -178,7 +180,7 @@ evaluating story:
 - `Mystery` (scene enrichment)
 - `Novelty`
 - `Foreshadowing` - showing goals
-
+- emotions and history
 
 
 ## Scene Setup   
@@ -197,34 +199,81 @@ oprocz dunkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w
 
 ---
 
+
 # Gameplay
 
 
-#### Physics and usable
+#### Physics,  usable & reactivity
 
-
-#### divide to parts - `Gateing`
-- gates / valves
-- soft gates
-
-
-
+```
 - differentiate by usage
 - type; stelth / combat / traversal / public
 - public space / purpose spaces
 - primary target (no deadends) vs. illusory targets vs. escalating (everywhere), vs bonus missions << structure
 - opportunities for different playstyles  
 - beginning and end
+```
 
 
 
 
-- level reuse
+### Pacing
 
----  
+linear vs. non-linear
+ moving through a level more fluid and intuitive
+- intensity  
+- variety  
+- time  
+
+##### Gating
+
+|  |  |
+| ---|  ---|
+gates hard | Halts progress until something is completed,  
+gates soft | Intended to briefly slow the player down.   
+valves | one way,  keep pushing players forward  
+
+- Revealing level slowly, in tiers.
+
+### non linear - Pacing
+
+### Recycling levels
+Power shift / Reversal  
+Playing the level backwards  
+Revisit
 
 
-  https://youtu.be/L27Qb20AYmc  
-  dieter rams: minimalist product design  
-  (book: design of normal things don norman)  
-  (roberto rengel: shaping interior space)
+# Combat
+
+### Vantage point
+show off the combat space (or area the player needs to sneak through), including possibly showing off enemies. Have reinforcements that spawn in a position that makes the vantage point a bad place to fight from.
+Don’t make it possible to kill all enemies from this sp
+
+### Combat Spaces
+  - You then try and shape your combat spaces so it enables these different playstyles.design for multiple options and strategies
+  - Enemy reinforcements enter from different positions or in new ways
+  -  fronts, flanks, No man’s land.
+  - blocking line of sight
+  - covers high/low
+    - Static
+    - Moveable
+    - Moving
+    - Dynamic
+    - Concealment - no ptrotection like bush
+
+### Line of sight
+
+- Vertical LoS
+- Tight angles
+- Ramps
+- Corner angles & verticality
+
+https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/preview?pru=AAABcubYTrs*65ZuXXMNJriddYR6IXE8Ag#
+
+
+---------
+
+
+dieter rams: minimalist product design  
+(book: design of normal things don norman)  
+(roberto rengel: shaping interior space)    

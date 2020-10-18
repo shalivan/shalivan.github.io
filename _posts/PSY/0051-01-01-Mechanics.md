@@ -97,6 +97,41 @@ Dramatic moments happening  on screen (cutscenes) are less freametic because you
 
 ### Econotmy and balance
 
+
+# Combat
+
+  COPY TO MECHANICS:
+
+####  type of players:
+  - Rusher
+  - Sniper
+  - Ninja
+  - Opportunist
+
+#### players 'senses':  
+
+See  
+Move  
+Shoot/Attack  
+Take cover  
+Hear  
+Get Hurt  
+
+
+#### NPC's
+- brign stisfaction, dont stole moments from player or be burden u must cary on.
+
+#### Encounter
+
+###### Waves
+- increase and maniulate amounts / strength
+
+##### Enemies
+types and classes .
+- short long distance and speed
+- difficulty
+
+
 ###### backward pedaling
 doom 2016 forrowrd combad - build forroward momentum from glory kills  
 
