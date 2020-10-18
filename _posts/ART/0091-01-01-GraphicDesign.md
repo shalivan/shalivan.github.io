@@ -1,5 +1,5 @@
 ---
-title: Graphic Design
+title: Design
 
 categories:
  - ART
@@ -42,7 +42,9 @@ description: principles.
 
 
 
- # UX/UI
+
+---
+# UX/UI
 
  - Consistency / Intentionallyty
  - Ergonomy. The time to acquire a target is a function of the distance to and size of the target.
