@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     z-index: 2080;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color:  #050505; //rgba(0, 0, 0, 0.3);
   }
 
   .algolia-popup {
@@ -58,7 +58,7 @@
     padding: 10px 15px 5px;
     max-height: 50px;
     border-bottom: 1px solid #ccc;
-    background: $whitesmoke;
+    background:  #050505; //$whitesmoke;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
