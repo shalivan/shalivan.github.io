@@ -1,5 +1,5 @@
 ---
-title: Game Mechanics
+title: Game Design
 description: RAW NOTES !!!
 categories:
  - ART

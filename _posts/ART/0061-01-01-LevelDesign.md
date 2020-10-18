@@ -134,7 +134,7 @@ dont lead player where to go but how move through space
 
 
 
-[Architecture]](/arch/)
+[Architecture](/arch/)
 
 
 ### Composition
