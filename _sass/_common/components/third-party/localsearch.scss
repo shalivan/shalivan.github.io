@@ -19,7 +19,7 @@
   padding: 0;
   background:    $table-dark; // #050505; //#fff; $table-light : #292A2B;
 
-  color: #333;
+  color: #bbb; //#333;
   z-index: 9999;
   border-radius: 5px;
   @include mobile() {
@@ -46,12 +46,13 @@
   a.search-result-title {
     font-weight: bold;
     font-size: 16px;
+    color: #fff;
   }
 
   .search-keyword {
-    border-bottom: 1px dashed #f00;
+    border-bottom: 1px dashed #fff;
     font-weight: bold;
-    color: #f00;
+    color: #fff;
   }
 
   .local-search-header {
@@ -91,7 +92,7 @@
   .search-icon, .popup-btn-close {
     display: inline-block;
     font-size: 18px;
-    color: #999;
+    color: #bbb;
     height: 36px;
     width: 18px;
     padding-left: 10px;
