@@ -2,7 +2,7 @@
 title: Synths
 description: Synthesizers guide  Circuit Novation
 categories:
- - RT
+ - ART
 tags:
 - Audio
 - Music

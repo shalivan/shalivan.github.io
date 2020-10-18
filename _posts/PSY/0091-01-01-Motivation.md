@@ -17,7 +17,6 @@ permalink: /motivation/
 
 
 
-
 # Terms
 
 
@@ -209,7 +208,11 @@ Challenge - Skilled/No  Work/not work
 Harmony -  mechanics/context   cooperation/conflict  
 Stimulation - single/multi   calm/thrill   
 
+
+# FOMO
+
 ---
+
 
 #  Emotion
 >Emotions are motivations by `Discovery, novelty, surprises`

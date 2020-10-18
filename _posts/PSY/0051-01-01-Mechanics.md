@@ -7,66 +7,115 @@ tags:
 - Design
 - Game Dev
 - Gameplay
+permalink: /gamemechanics/
 ---
 
-
-farming -
-- czasowy jak w ogema
-fomo
-
-gamification
-
-##### Signifiers
-Gameplay (signals that help find that sth is usable (signs/ colors)) (BRAK 4-th wall)
+[Game Design](/gamedesign/)
 
 
 
-# Mechanics   
-
-# Camera (Gamatography)
-
-- Yaw, Pitch and roll
-- distance from pivor
-- laterral and vertical offset for framing
-- fov
-
-(user think in euler look up down or on sides)
-
-####  FPS
-simple
-
-####  TPS fixed:
-2d scroller   
-camera locked  (rails)    
-top wiev: rts-top   
-slajdy   
-
-####  TPS dynamic:
-thgird person - hardest to design  (fixed angels are easier to make)
-- automatic gudience to not controll cam and character by player
-   - cam and level work toghether
-   - line of sight must be small enough to fit throuhgh level
-   - swing away from obstacles (detected earlier)
-   - camera must satisfy lot of constraints
-   - you can change distance to player depend on angle
-   - see player and enviroment
-   - depth perception and distance judgeing is preaty week
-
-
-
-### podział ze wzgledu na mechanike
-- taktyki planszówki ect
-- stroy
-- strzelankio
-- symilaatory
-- wyscigi
-- sportowa rywalizacja
+- taktyki
+- strzelanki
+- symulatory
+- rywalizacja sportowa/ wyscigi
 - zagadki
 - zrecznosciowki
 
+multi  
+- PvP / PvE  
 
-# lavel
+- battle royal  
 
+- stroy
+
+# Mechanics   
+
+sec to sec (momentary) / min to min / h to h (structural)  
+
+`explicit` vs. `emergence`
+
+
+
+
+##### Skill  
+
+
+### Risk aversion problems:
+##### Grind
+Repeated battles for the sole purpose of increasing party level, stats
+- czasowy jak w ogema
+
+##### Farming
+Repeated battles for the sole purpose of finding a rare item drop
+
+
+###### Backward pedaling
+doom 2016 forrowrd combad - build forroward momentum from glory kills  
+
+---
+
+# Players
+
+[Motivation](/motivation/)  
+
+
+####  Type of players:
+  - Rusher
+  - Sniper
+  - Ninja
+  - Opportunist
+
+#### Players 'senses':  
+
+  - See  
+  - Move  
+  - Shoot/Attack  
+  - Take cover  
+  - Hear  
+  - Get Hurt  
+
+
+---
+
+# Combat
+## Encounters
+
+
+##### Enemies
+  types and classes .
+  - short long distance and speed
+  - difficulty
+
+###### Waves
+  - increase and manipulate amounts / strength
+
+---
+
+# Econotmy and balance
+
+
+
+
+----
+-
+-
+-
+-----
+
+
+
+
+
+```
+##### Signifiers
+Gameplay (signals that help find that sth is usable (signs/ colors)) (BRAK 4-th wall)
+```
+
+
+
+
+
+```
 ### gameplay scenario
 a-b mission / sandbox / vechicle /
 
@@ -77,9 +126,8 @@ feadback
 turn / timelimits   
 keys and bariers > progress   
 
-sec to sec (momentary) / min to min / h to h (structural)   
+```
 
-`explicit` vs.`emergence`
 
 
 
@@ -90,55 +138,15 @@ better experience from discover additional value (shorter wat times ect... ). If
 
 
 
-firs minute     
-end (+ stick landing ) nail it!    
-
-Dramatic moments happening  on screen (cutscenes) are less freametic because you just look without a control
-
-### Econotmy and balance
-
-
-# Combat
-
-  COPY TO MECHANICS:
-
-####  type of players:
-  - Rusher
-  - Sniper
-  - Ninja
-  - Opportunist
-
-#### players 'senses':  
-
-See  
-Move  
-Shoot/Attack  
-Take cover  
-Hear  
-Get Hurt  
-
-
 #### NPC's
 - brign stisfaction, dont stole moments from player or be burden u must cary on.
 
-#### Encounter
-
-###### Waves
-- increase and maniulate amounts / strength
-
-##### Enemies
-types and classes .
-- short long distance and speed
-- difficulty
 
 
-###### backward pedaling
-doom 2016 forrowrd combad - build forroward momentum from glory kills  
 
-battle royal
+
 # emertgent gameplay
-# tutorials
-# rewards
+
 
 
 

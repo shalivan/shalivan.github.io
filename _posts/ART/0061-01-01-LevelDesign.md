@@ -214,6 +214,11 @@ oprocz dunkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w
 - beginning and end
 ```
 
+##### Signifiers
+Gameplay (signals that help find that sth is usable (signs/ colors)) (BRAK 4-th wall)
+
+gamification
+
 
 
 
@@ -270,6 +275,9 @@ Don’t make it possible to kill all enemies from this sp
 
 https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/preview?pru=AAABcubYTrs*65ZuXXMNJriddYR6IXE8Ag#
 
+### Multiplayer
+
+mastery mapy vs nowa mapa .
 
 ---------
 
