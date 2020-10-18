@@ -11,6 +11,34 @@ description: RAW
 ---
 
 
+
+#### Procedurals
+>procedural ;
+- scalability
+- prone to human error
+
+- tiles (procedurally generate world)
+- L-system
+- tracery and templating text (combining text)
+- distribution (hierarchy and clustering and maintain spacing)
+- parametric ()
+- interpretive: noise Perlin, grid/cell (voronoi/delaunay), metaballs
+
+
+# Patterns
+
+Franz Sales Meyer - A handbook of ornament (1920)
+## Fractals
+
+
+https://medium.com/data-mining-the-city/fractal-cities-d39e63ce23bb
+
+
+https://orangejellies.booth.pm/
+
+
+
+
 https://github.com/jasonwebb/morphogenesis-resources
 
 
@@ -45,26 +73,3 @@ https://youtu.be/VBzIPLh-ECg
 
 
 ------      
-
-#### Procedurals
->procedural ;
-- scalability
-- prone to human error
-
-- tiles (procedurally generate world)
-- L-system
-- tracery and templating text (combining text)
-- distribution (hierarchy and clustering and maintain spacing)
-- parametric ()
-- interpretive: noise Perlin, grid/cell (voronoi/delaunay), metaballs
-
-
-# Patterns
-
-## Fractals
-
-
-https://medium.com/data-mining-the-city/fractal-cities-d39e63ce23bb
-
-
-https://orangejellies.booth.pm/
