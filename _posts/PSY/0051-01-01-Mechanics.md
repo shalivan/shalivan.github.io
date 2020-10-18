@@ -106,12 +106,6 @@ doom 2016 forrowrd combad - build forroward momentum from glory kills
 
 
 
-```
-##### Signifiers
-Gameplay (signals that help find that sth is usable (signs/ colors)) (BRAK 4-th wall)
-```
-
-
 
 
 
@@ -127,29 +121,3 @@ turn / timelimits
 keys and bariers > progress   
 
 ```
-
-
-
-
-better experience from discover additional value (shorter wat times ect... ). If you must wait longer its bad   
-
-
-
-
-
-
-#### NPC's
-- brign stisfaction, dont stole moments from player or be burden u must cary on.
-
-
-
-
-
-# emertgent gameplay
-
-
-
-
-plan zeby zdobyc cos co ci odblokuje cos innego
-
-mastery mapy vs nowa mapa .
