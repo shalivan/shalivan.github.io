@@ -7,7 +7,14 @@ tags:
 - Houdini
 - Shortcuts
 description: Houdini shortcuts and personal configuration.
+permalink: /houdiniconfigs/
 ---
+
+[Config folder](/src/configs)  
+
+[Desktop](/src/configs/Hou/desktop/AB.desk)  
+[Radial Menu](/src/configs/Hou/radialmenu.ABModeling.radialmenu)  
+
 
 
 działaja snapy oi handle na poziomie object   
@@ -21,54 +28,67 @@ Hide not working all the time
 To set/change key klick on shelf or menu item while holding `Ctrl` + `Alt` + `Shift`   
 
 # Viewport Manipulation
-`T` - Transform,   
-`R` - Rotate,   
-`E` - Scale    
-`M` - World Coordinates    
+
+|||
+|-|-|
+`T` | Transform,   
+`R` | Rotate,   
+`E` | Scale    
+`M` | World Coordinates    
 
 #### Pivot
 >For animation. Permament pivot of object.
 
-`Insert` - pivot transform (take car e about pretransform for pivot after every viewport operation)  
-`Shift` + `"` - pivot sth
+|||
+|-|-|
+`Insert` | pivot transform (take car e about pretransform for pivot after every viewport operation)  
+`Shift` + `"` | pivot sth
 
 #### Handle
 > For modeling and placement. leave pivot unefected .
 
-`"` - Deeatache Viewport handle temporary.  
-`RMB>presistant` - To have 2second handles and pivot rotation   
-`RMB>SnapTo..` - Pivot or centroid.  
-`RMB>HandleParameters` - Options  
-`RMB>Local/Global` - Local pivot points vs Global - centroid of all  
-`RMB>TranslateGloballyInLocalControl` - Local transform of last selected
+|||
+|-|-|
+`"` | Deeatache Viewport handle temporary.  
+`RMB>presistant` | To have 2second handles and pivot rotation   
+`RMB>SnapTo..` | Pivot or centroid.  
+`RMB>HandleParameters` | Options  
+`RMB>Local/Global` | Local pivot points vs Global - centroid of all  
+`RMB>TranslateGloballyInLocalControl` | Local transform of last selected
 
 
 ##### Align  
 > hover over geometry .. Y is up.
 Check if you have object or world aligned handles it change behaviour
 
-
-`:` /  `:` + `Shift` - Align (`RMB>OrientationPeaking`).       
-`selct placement` + `Shift` - only rotate    
-`selct placement` + `Ctrl` - move dont rotate   
-`selct placement` + `Ctrl` + `Shift` - lookat Y  (to change click handle with ctrl)   
-`select axis` + `drag` - secondaty axies direction  
+|||
+|-|-|
+`:` /  `:` + `Shift` | Align (`RMB>OrientationPeaking`).       
+`selct placement` + `Shift` | only rotate    
+`selct placement` + `Ctrl` | move dont rotate   
+`selct placement` + `Ctrl` + `Shift` | lookat Y  (to change click handle with ctrl)   
+`select axis` + `drag` | secondaty axies direction  
 
 #### Snap
 
 #### Grid plane
- `/` - Align Grid   
-`?`  
+
+|||
+|-|-|
+ `/` | Align Grid   
+`?`  |
 
 
 # Viewport Main
 
-`Alt`+`Space` -  wieport  
-`B` - show uv layout !!!!!
-`9` - select by group
-`H` -  hide `H`+`ctrl`/`shift`   ??
-
-`F2`-`F5` - Selection types box/lasso/paint/laser  
+|||
+|-|-|
+`Alt`+`Space` |  wieport  
+`B` | show uv layout !!!!!
+`9` | select by group
+`H` |  hide `H`+`ctrl`/`shift`   ??
+||
+`F2`-`F5` | Selection types box/lasso/paint/laser  
 
 
 #### Hide
@@ -77,22 +97,27 @@ Check if you have object or world aligned handles it change behaviour
 # Viewport Selection
 
 #### Selection modes:  
-`Shift`+`V` - backmasking    
-`Shift`+`C` - contained  
+
+|||
+|-|-|
+`Shift`+`V` | backmasking    
+`Shift`+`C` | contained  
 
 #### Selection modify:  
-`N` - select all  
-`Shift`+`N` - select none  
-`Shift`+`B` - bounds   
-`Shift`+`Ctrl`+`E` (on edges)- pgrowth oli age boundary  
-`Shift`+`G` - Growth selection  
-`Shift`+`S` - Shrink selection  
-
-`A`+`ctrl`/`shift`+`[MMB]`/`[RMB]` - full selection / partial selection    
-`Shift` + `P` - Set sellection pattern  
-`Shift` + `🡰` `🡲` `🡱` `🡳` - Growth pattern  
-`Shift` + `Ctrl` + `🡰` `🡲` `🡱` `🡳`- Growt pattern till the end  
-`K` - Growth till paint under mouse  
+|||
+|-|-|
+`N` | select all  
+`Shift`+`N` | select none  
+`Shift`+`B` | bounds   
+`Shift`+`Ctrl`+`E` (on edges)| pgrowth oli age boundary  
+`Shift`+`G` | Growth selection  
+`Shift`+`S` | Shrink selection  
+||
+`A`+`ctrl`/`shift`+`[MMB]`/`[RMB]` | full selection / partial selection    
+`Shift` + `P` | Set sellection pattern  
+`Shift` + `🡰` `🡲` `🡱` `🡳` | Growth pattern  
+`Shift` + `Ctrl` + `🡰` `🡲` `🡱` `🡳` | Growt pattern till the end  
+`K` | Growth till paint under mouse  
 
 
 
@@ -100,12 +125,15 @@ Check if you have object or world aligned handles it change behaviour
 --------------------------------------------
 
 ## Edit
-`L` - Slide on Surface   
-`H` - Peak  
-`B` - Sculpt  
 
-`Y` -  Edit  
-`Shift`+`T`- Tweek mode   (no handles )
+|||
+|-|-|
+`L` | Slide on Surface   
+`H` | Peak  
+`B` | Sculpt  
+||
+`Y` |  Edit  
+`Shift`+`T`| Tweek mode   (no handles )
 
 ## PolyDraw
 
@@ -137,42 +165,53 @@ prims:
 
 
 
-# Network Wiev Graph
+# Network View Graph
 ##### Navigation
-`U` - Up  
-`I` - Dive  
-`Shift` + `/` - Find node by path   
-`Ctrl` + `F` - Find node by name   
-`PageUp` or `PageDowna` - move through nodes `Shift`    
-` ' ` - last view  
-`F` or `G` - zoom selected   
-`H` - zoom all
+
+|||
+|-|-|
+`U` | Up  
+`I` | Dive  
+`Shift` + `/` | Find node by path   
+`Ctrl` + `F` | Find node by name   
+`PageUp` or `PageDown` | move through nodes `Shift`    
+` ' ` | last view  
+`F` or `G` | zoom selected   
+`H` | zoom all
 
 ##### Node customize
-`Z` - NODE shape  
-`X` - NODE visualizer  
-`C` - NODE color  
+
+|||
+|-|-|
+`Z` | NODE shape  
+`X` | NODE visualizer  
+`C` | NODE color  
 
 ##### Layaut
-`L` - layaut
-`Shift`+`L` - layout Selected  
-`Shift` + `A` + `🡰` `🡲` - (on selected nodes) - align horizontaly  
-`Shift` + `A` +`🡱` `🡳`  - (on selected nodes) - align verticaly  
-`Shift` + `S` - Change link type
-`Ctrl`+`Shift`+`Alt`+ `LMB` on a node will duplicate the node and automatically reference everything
+
+
+|||
+|-|-|
+`L` | layaut
+`Shift`+`L` | layout Selected  
+`Shift` + `A` + `🡰` `🡲` | (on selected nodes) - align horizontaly  
+`Shift` + `A` +`🡱` `🡳`  | (on selected nodes) - align verticaly  
+`Shift` + `S` | Change link type
+`Ctrl`+`Shift`+`Alt`+ `LMB` | on a node will duplicate the node and automatically reference everything
 
 
 
 ## Parameter Fields
 
-
-`Alt` + `LLM`  - create key  
-
-`Ctrl` + `LLM` - delete key    
-`Ctrl`+ `Shift` + `LLM` - delete key whertever is     
-`Ctrl` + `MMB` - zero   
-
-`Shift` + `LLM` - OPEN CURVE EDITR   
+|||
+|-|-|
+`Alt` + `LLM`  | create key  
+||
+`Ctrl` + `LLM` | delete key    
+`Ctrl`+ `Shift` + `LLM` | delete key whertever is     
+`Ctrl` + `MMB` | zero   
+||
+`Shift` + `LLM` | OPEN CURVE EDITR   
 
 ----
 
