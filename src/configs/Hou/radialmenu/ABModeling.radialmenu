@@ -1,231 +1,300 @@
-[
-	"fileversion","18.0.306",
-	"name","AB Modeling",
-	"submenu",["submenu",
-		"label","AB Modeling",
-		"top",["submenu",
-			"label","Edge",
-			"shortcut","",
-			"top",["script",
-				"label","PolyFill",
-				"icon","SOP_polyfill",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_polyfill')",
-				"shortcut","D"
-			],
-			"top_left",["script",
-				"label","Edge Straighten",
-				"icon","SOP_edgestraighten",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_edgestraighten')",
-				"shortcut",""
-			],
-			"left",["script",
-				"label","Edge Equalize",
-				"icon","SOP_edgeequalize",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_edgeequalize')",
-				"shortcut",""
-			],
-			"bottom_left",["script",
-				"label","Circle from Edges",
-				"icon","SOP_circlefromedges",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_circlefromedges')",
-				"shortcut",""
-			],
-			"bottom_right",["script",
-				"label","Edge Collapse",
-				"icon","SOP_edgecollapse",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_edgecollapse')",
-				"shortcut",""
-			],
-			"right",["script",
-				"label","Edge Flip",
-				"icon","SOP_edgeflip",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_edgeflip')",
-				"shortcut",""
-			],
-			"top_right",["script",
-				"label","PolyBevel",
-				"icon","SOP_polybevel",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_polybevel::3.0')",
-				"shortcut",""
-			]
-		],
-		"top_left",["script",
-			"label","Extrude",
-			"icon","SOP_polyextrude",
-			"script","radialmenu.runShelfTool(kwargs, 'sop_polyextrude::2.0')",
-			"shortcut","Q"
-		],
-		"left",["submenu",
-			"label","Misc",
-			"shortcut","",
-			"top_left",["script",
-				"label","PolyDraw",
-				"icon","SOP_polydraw",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_polydraw')",
-				"shortcut",""
-			],
-			"left",["script",
-				"label","Sculpt",
-				"icon","SOP_sculpt",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_sculpt')",
-				"shortcut",""
-			],
-			"bottom_left",["script",
-				"label","Edit",
-				"icon","SOP_edit",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_edit')",
-				"shortcut",""
-			],
-			"bottom",["script",
-				"label","Boolean",
-				"icon","SOP_boolean",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_boolean::2.0')",
-				"shortcut",""
-			],
-			"bottom_right",["script",
-				"label","Knife",
-				"icon","SOP_knife",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_knife')",
-				"shortcut",""
-			],
-			"top_right",["script",
-				"label","Clip",
-				"icon","SOP_clip",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_clip')",
-				"shortcut",""
-			]
-		],
-		"bottom_left",["script",
-			"label","Bridge",
-			"icon","SOP_polybridge",
-			"script","radialmenu.runShelfTool(kwargs, 'sop_polybridge')",
-			"shortcut","A"
-		],
-		"bottom",["submenu",
-			"label","Transform",
-			"shortcut","",
-			"top_left",["submenu",
-				"label","Create",
-				"shortcut","",
-				"top",["script",
-					"label","Platonic Solids",
-					"icon","SOP_platonic",
-					"script","radialmenu.runShelfTool(kwargs, 'geometry_platonic')",
-					"shortcut",""
-				],
-				"top_left",["script",
-					"label","Box",
-					"icon","SOP_box",
-					"script","radialmenu.runShelfTool(kwargs, 'geometry_box')",
-					"shortcut",""
-				],
-				"left",["script",
-					"label","Sphere",
-					"icon","SOP_sphere",
-					"script","radialmenu.runShelfTool(kwargs, 'geometry_sphere')",
-					"shortcut",""
-				],
-				"bottom_left",["script",
-					"label","Circle",
-					"icon","SOP_circle",
-					"script","radialmenu.runShelfTool(kwargs, 'geometry_circle')",
-					"shortcut",""
-				],
-				"bottom",["script",
-					"label","Line",
-					"icon","SOP_line",
-					"script","radialmenu.runShelfTool(kwargs, 'geometry_line')",
-					"shortcut",""
-				],
-				"top_right",["script",
-					"label","Grid",
-					"icon","SOP_grid",
-					"script","radialmenu.runShelfTool(kwargs, 'geometry_grid')",
-					"shortcut",""
-				]
-			],
-			"left",["script",
-				"label","Mirror",
-				"icon","SOP_mirror",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_mirror')",
-				"shortcut",""
-			],
-			"bottom_left",["script",
-				"label","Bend",
-				"icon","SOP_bend",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_bend')",
-				"shortcut",""
-			],
-			"bottom",["script",
-				"label","Duplicate",
-				"icon","SOP_duplicate",
-				"script","radialmenu.runShelfTool(kwargs, 'geometry_duplicate')",
-				"shortcut",""
-			],
-			"bottom_right",["script",
-				"label","Transform",
-				"icon","SOP_xform",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_xform')",
-				"shortcut","E"
-			],
-			"right",["script",
-				"label","Soft Transform",
-				"icon","SOP_softxform",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_softxform')",
-				"shortcut",""
-			],
-			"top_right",["script",
-				"label","File",
-				"icon","SOP_file",
-				"script","radialmenu.runShelfTool(kwargs, 'geometry_file')",
-				"shortcut",""
-			]
-		],
-		"bottom_right",["script",
-			"label","Loop",
-			"icon","SHELF_edgeloop",
-			"script","radialmenu.runShelfTool(kwargs, 'sop_edgeloop')",
-			"shortcut","S"
-		],
-		"right",["submenu",
-			"label","Delete",
-			"shortcut","",
-			"top",["script",
-				"label","Weld",
-				"icon","SOP_pointweld",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_pointweld')",
-				"shortcut",""
-			],
-			"bottom",["script",
-				"label","Cusp",
-				"icon","SOP_edgecusp",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_edgecusp')",
-				"shortcut",""
-			],
-			"bottom_right",["script",
-				"label","Blast",
-				"icon","SOP_blast",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_blast')",
-				"shortcut",""
-			],
-			"right",["script",
-				"label","Delete",
-				"icon","SOP_delete",
-				"script","radialmenu.runShelfTool(kwargs, 'generic_delete')",
-				"shortcut","X"
-			],
-			"top_right",["script",
-				"label","Fuse",
-				"icon","SOP_fuse",
-				"script","radialmenu.runShelfTool(kwargs, 'sop_fuse::2.0')",
-				"shortcut","Z"
-			]
-		],
-		"top_right",["script",
-			"label","Split",
-			"icon","SOP_polysplit-2.0",
-			"script","radialmenu.runShelfTool(kwargs, 'sop_polysplit::2.0')",
-			"shortcut","W"
-		]
-	]
-]
+{
+	"fileversion":"18.5.351",
+	"name":"ABModeling",
+	"categories":"AB",
+	"pane":"scene",
+	"label":"ABModeling",
+	"type":"submenu",
+	"items":{
+		"0":{
+			"label":"Edge",
+			"type":"submenu",
+			"items":{
+				"0":{
+					"label":"Split",
+					"type":"script_action",
+					"icon":"SOP_polysplit",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_polysplit::2.0')"
+				},
+				"1":{
+					"label":"Straighten",
+					"type":"script_action",
+					"icon":"SOP_edgestraighten",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_edgestraighten')"
+				},
+				"2":{
+					"label":"Equalize",
+					"type":"script_action",
+					"icon":"SOP_edgeequalize",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_edgeequalize')"
+				},
+				"3":{
+					"label":"Circle",
+					"type":"script_action",
+					"icon":"SOP_circlefromedges",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_circlefromedges')"
+				},
+				"5":{
+					"label":"Collapse",
+					"type":"script_action",
+					"icon":"SOP_edgecollapse",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_edgecollapse')"
+				},
+				"6":{
+					"label":"Flip",
+					"type":"script_action",
+					"icon":"SOP_edgeflip",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_edgeflip')"
+				},
+				"7":{
+					"label":"Loop",
+					"type":"script_action",
+					"icon":"SHELF_edgeloop",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_edgeloop')"
+				}
+			}
+		},
+		"1":{
+			"label":"Extrude",
+			"shortcut":"Q",
+			"type":"script_action",
+			"icon":"SOP_polyextrude",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_polyextrude::2.0')"
+		},
+		"2":{
+			"label":"Misc",
+			"type":"submenu",
+			"items":{
+				"0":{
+					"label":"Mirror",
+					"type":"script_action",
+					"icon":"SOP_mirror",
+					"script":"radialmenu.runShelfTool(kwargs, 'geometry_mirror')"
+				},
+				"1":{
+					"label":"PolyDraw",
+					"type":"script_action",
+					"icon":"SOP_polydraw",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_polydraw')"
+				},
+				"2":{
+					"label":"Sculpt",
+					"type":"script_action",
+					"icon":"SOP_sculpt",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_sculpt')"
+				},
+				"3":{
+					"label":"Edit",
+					"type":"script_action",
+					"icon":"SOP_edit",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_edit')"
+				},
+				"4":{
+					"label":"Boolean",
+					"type":"script_action",
+					"icon":"SOP_boolean",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_boolean::2.0')"
+				},
+				"5":{
+					"label":"Knife",
+					"type":"script_action",
+					"icon":"SOP_knife",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_knife')"
+				},
+				"7":{
+					"label":"Clip",
+					"type":"script_action",
+					"icon":"SOP_clip",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_clip')"
+				}
+			}
+		},
+		"3":{
+			"label":"PolyBevel",
+			"type":"script_action",
+			"icon":"SOP_polybevel-3.0",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_polybevel::3.0')"
+		},
+		"4":{
+			"label":"Transform",
+			"type":"submenu",
+			"items":{
+				"1":{
+					"label":"Create",
+					"type":"submenu",
+					"items":{
+						"0":{
+							"label":"Platonic Solids",
+							"type":"script_action",
+							"icon":"SOP_platonic",
+							"script":"radialmenu.runShelfTool(kwargs, 'geometry_platonic')"
+						},
+						"1":{
+							"label":"Box",
+							"type":"script_action",
+							"icon":"SOP_box",
+							"script":"radialmenu.runShelfTool(kwargs, 'geometry_box')"
+						},
+						"2":{
+							"label":"Sphere",
+							"type":"script_action",
+							"icon":"SOP_sphere",
+							"script":"radialmenu.runShelfTool(kwargs, 'geometry_sphere')"
+						},
+						"3":{
+							"label":"Circle",
+							"type":"script_action",
+							"icon":"SOP_circle",
+							"script":"radialmenu.runShelfTool(kwargs, 'geometry_circle')"
+						},
+						"4":{
+							"label":"Line",
+							"type":"script_action",
+							"icon":"SOP_line",
+							"script":"radialmenu.runShelfTool(kwargs, 'geometry_line')"
+						},
+						"6":{
+							"label":"Creep",
+							"type":"script_action",
+							"icon":"SOP_creep",
+							"script":"radialmenu.runShelfTool(kwargs, 'sop_creep')"
+						},
+						"7":{
+							"label":"Grid",
+							"type":"script_action",
+							"icon":"SOP_grid",
+							"script":"radialmenu.runShelfTool(kwargs, 'geometry_grid')"
+						}
+					}
+				},
+				"2":{
+					"label":"Bend",
+					"type":"script_action",
+					"icon":"SHELF_twist_bend",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_bend')"
+				},
+				"3":{
+					"label":"Move Center to Pivot",
+					"type":"script_action",
+					"icon":"SHELF_move_center_to_pivot",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_movetopivot')"
+				},
+				"4":{
+					"label":"Duplicate",
+					"type":"script_action",
+					"icon":"SOP_duplicate",
+					"script":"radialmenu.runShelfTool(kwargs, 'geometry_duplicate')"
+				},
+				"5":{
+					"label":"Move Pivot to Center",
+					"type":"script_action",
+					"icon":"SHELF_center_pivot",
+					"script":"radialmenu.runShelfTool(kwargs, 'object_centerpivot')"
+				},
+				"6":{
+					"label":"Soft Transform",
+					"type":"script_action",
+					"icon":"SOP_softxform",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_softxform')"
+				},
+				"7":{
+					"label":"Submenu",
+					"type":"submenu",
+					"items":{
+						"0":{
+							"label":"Facet",
+							"type":"script_action",
+							"icon":"SOP_facet",
+							"script":"radialmenu.runShelfTool(kwargs, 'sop_facet')"
+						},
+						"1":{
+							"label":"Edge Cusp",
+							"type":"script_action",
+							"icon":"SOP_edgecusp",
+							"script":"radialmenu.runShelfTool(kwargs, 'sop_edgecusp')"
+						},
+						"2":{
+							"label":"Crease",
+							"type":"script_action",
+							"icon":"SOP_crease",
+							"script":"radialmenu.runShelfTool(kwargs, 'sop_crease')"
+						},
+						"5":{
+							"label":"Clean",
+							"type":"script_action",
+							"icon":"SOP_clean",
+							"script":"radialmenu.runShelfTool(kwargs, 'sop_clean')"
+						},
+						"6":{
+							"label":"PolyFrame",
+							"type":"script_action",
+							"icon":"SOP_polyframe",
+							"script":"radialmenu.runShelfTool(kwargs, 'sop_polyframe')"
+						},
+						"7":{
+							"label":"Normal",
+							"type":"script_action",
+							"icon":"SOP_normal",
+							"script":"radialmenu.runShelfTool(kwargs, 'sop_normal')"
+						}
+					}
+				}
+			}
+		},
+		"5":{
+			"label":"PolyFill",
+			"type":"script_action",
+			"icon":"SOP_polyfill",
+			"script":"radialmenu.runShelfTool(kwargs, 'sop_polyfill')"
+		},
+		"6":{
+			"label":"Delete",
+			"type":"submenu",
+			"items":{
+				"0":{
+					"label":"Weld",
+					"type":"script_action",
+					"icon":"SOP_pointweld",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_pointweld')"
+				},
+				"3":{
+					"label":"Script",
+					"type":"script_action",
+					"icon":"PLASMA_App",
+					"script":"radialmenu.setPickingContainedGeometry(kwargs, )"
+				},
+				"4":{
+					"label":"Edge Collapse",
+					"type":"script_action",
+					"icon":"SOP_edgecollapse",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_edgecollapse')"
+				},
+				"5":{
+					"label":"Split",
+					"type":"script_action",
+					"icon":"SOP_split",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_split')"
+				},
+				"6":{
+					"label":"Fuse",
+					"shortcut":"Z",
+					"type":"script_action",
+					"icon":"SOP_fuse",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_fuse::2.0')"
+				},
+				"7":{
+					"label":"PolyBridge",
+					"type":"script_action",
+					"icon":"SOP_polybridge",
+					"script":"radialmenu.runShelfTool(kwargs, 'sop_polybridge')"
+				}
+			}
+		},
+		"7":{
+			"label":"Delete",
+			"type":"script_action",
+			"icon":"SOP_delete",
+			"script":"radialmenu.runShelfTool(kwargs, 'generic_delete')"
+		}
+	}
+}
