@@ -11,7 +11,7 @@ tags:
 
 
 
-<span style="color: #F09900"> HIP:</span> [SOP Vexpression](/src/hip/SOP_Vexpression.hiplc)  
+[HIP: SOP Vexpression](/src/hip/SOP_Vexpression.hiplc)  
 
 
 

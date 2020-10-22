@@ -62,3 +62,6 @@ Dramatic moments happening  on screen (cutscenes) are less framatic because you 
 
 #### NPC's
 - brign stisfaction, dont stole moments from player or be burden u must cary on.
+
+
+#### Endgame
