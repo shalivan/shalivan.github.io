@@ -13,7 +13,7 @@ permalink: /houdiniconfigs/
 [Config folder](/src/configs)  
 
 [Desktop](/src/configs/Hou/desktop/AB.desk)  
-[Radial Menu](/src/configs/Hou/radialmenu.ABModeling.radialmenu)  
+[Radial Menu](/src/configs/Hou/radialmenu/ABModeling.radialmenu)  
 
 
 
@@ -22,30 +22,32 @@ inne toole mamy w topo build i inne w edit
 maby for packed ?? because cannot make 1000 obj nodes.   
 Hide not working all the time   
 
+
+To set/change key klick on shelf or menu item while holding `Ctrl` + `Alt` + `Shift`
+
 ----
 
 
-To set/change key klick on shelf or menu item while holding `Ctrl` + `Alt` + `Shift`   
 
 # Viewport Manipulation
 
 |||
 |-|-|
-`T` | Transform,   
-`R` | Rotate,   
+`T` | Transform  
+`R` | Rotate   
 `E` | Scale    
 `M` | World Coordinates    
 
-#### Pivot
->For animation. Permament pivot of object.
+### Pivot
+For animation. Permanent pivot of object.
 
 |||
 |-|-|
-`Insert` | pivot transform (take car e about pretransform for pivot after every viewport operation)  
+`Insert` | pivot transform (take car e about pre transform for pivot after every viewport operation)  
 `Shift` + `"` | pivot sth
 
-#### Handle
-> For modeling and placement. leave pivot unefected .
+### Handle
+For modeling and placement. leave pivot unaffected.
 
 |||
 |-|-|
@@ -57,8 +59,8 @@ To set/change key klick on shelf or menu item while holding `Ctrl` + `Alt` + `Sh
 `RMB>TranslateGloballyInLocalControl` | Local transform of last selected
 
 
-##### Align  
-> hover over geometry .. Y is up.
+### Align  
+Hover over geometry .. Y is up.
 Check if you have object or world aligned handles it change behaviour
 
 |||
@@ -69,14 +71,18 @@ Check if you have object or world aligned handles it change behaviour
 `selct placement` + `Ctrl` + `Shift` | lookat Y  (to change click handle with ctrl)   
 `select axis` + `drag` | secondaty axies direction  
 
-#### Snap
+### Snap
 
-#### Grid plane
+### Grid plane
 
 |||
 |-|-|
- `/` | Align Grid   
+`/` | Align Grid   
 `?`  |
+
+
+----
+
 
 
 # Viewport Main
@@ -91,19 +97,23 @@ Check if you have object or world aligned handles it change behaviour
 `F2`-`F5` | Selection types box/lasso/paint/laser  
 
 
-#### Hide
+### Hide
+
+
+----
 
 
 # Viewport Selection
 
-#### Selection modes:  
+### Selection modes:  
 
 |||
 |-|-|
 `Shift`+`V` | backmasking    
 `Shift`+`C` | contained  
 
-#### Selection modify:  
+### Selection modify:  
+
 |||
 |-|-|
 `N` | select all  
@@ -121,8 +131,6 @@ Check if you have object or world aligned handles it change behaviour
 
 
 
-
---------------------------------------------
 
 ## Edit
 
@@ -163,10 +171,11 @@ prims:
 #### `Shift`+`5` Smooth  
 
 
+----
 
 
 # Network View Graph
-##### Navigation
+### Navigation
 
 |||
 |-|-|
@@ -179,7 +188,7 @@ prims:
 `F` or `G` | zoom selected   
 `H` | zoom all
 
-##### Node customize
+### Node customize
 
 |||
 |-|-|
@@ -187,7 +196,7 @@ prims:
 `X` | NODE visualizer  
 `C` | NODE color  
 
-##### Layaut
+### Layaut
 
 
 |||
@@ -201,7 +210,9 @@ prims:
 
 
 
-## Parameter Fields
+----
+
+# Parameter Fields
 
 |||
 |-|-|
@@ -213,7 +224,6 @@ prims:
 ||
 `Shift` + `LLM` | OPEN CURVE EDITR   
 
-----
 
 .|.|.|
 -|-|-|
@@ -238,6 +248,8 @@ prims:
 <img src="/src/hou/parm_17.png" width="76"> |  After deleted all keys ?
 
 
+--------------------------------------------
+
 
 # TOPs
 Generate nodes  
@@ -246,6 +258,8 @@ Generate nodes
 
 
 
+
+--------------------------------------------
 
 
 # CUSTOM
