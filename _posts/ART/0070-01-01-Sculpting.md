@@ -7,169 +7,21 @@ tags:
 - CG
 - zBrush
 
-description: zBrush basics.
+description:  basics.
+permalink: /sculpting/
 ---
 
-
-
-# Tools:
-*.zpr `Ctrl` + `S` - Save with project settings `File` > `Save As`  
-*.zpt `Ctrl` + `Shift` + `T` - Save Only 3d File > `Tool`> `Save As`    
-*.obj - 1 subtool  `Tool`>`Export`   
-*.obj - All `Zpluginds`>`PrintHub`>`ExportAll`   // polygroups > H Groups  
-*.fbx - `Zplugins`>`FBX`  // Export polygroups as material > shop_materialpath  
-
-
-- morph target is like layer but one and dynamic  
-
-# Ninja Combos
-
-##### Basic
-`Space` - Brush menu   
-`S` - Brush size    
-`B` - Brush palet  
-`X` - Symetry     
-`L` - Lazy mouse  
-`F` - Focus
-
-`LMB inside` - Brush / `Alt` - Alt Brush / `Shift` Smooth Brush        
-`LMB outside` - Viewport rotate / `Alt` - Move  / `Shift` Align to Axies    
-
-`Shift` + `Ctrl` `inside` - Hide Not selected   
-`Shift` + `Ctrl` `outside` - Invert Hide  
-`Shift` + `Ctrl` `outside click` - Unhide All  
-`Shift` + `Ctrl` `whole model` - Unhide All   
-`Shift` + `Ctrl` + `S` - Hide Shrink    
-`Shift` + `Ctrl` + `X` - Hide Expand   
-`Shift` + `Ctrl` + `Alt` - Hide Selected    
-
-`Ctrl` `inside` - Mask brush  
-`Ctrl` + `Alt` `inside` - Unmask brush     
-`Ctrl` `drag outside` - Unmask, `click outside` - Invert mask  
-`Ctrl` + `Alt` `drag outside` - Mask All, `click outside` - Invert mask   
-
-
-
-`Ctrl` +  `Shift` + `Click on polygroup`  
-`Ctrl` + `W` > make one poly group    
+[zBrush]( /zbrush/)  
 
 
 
 
-`Ctrl Drag outside` - Dynamesh   
-`/` - sculptris  
+# Sculpt
+Sculpting is about volume, form and silhouette.  
 
-
-##### UI
-`Ctrl`+`Alt`+`LeftClick` on the Save Tool button to assign it a custom shortcut (as with any UI button).
-Preference>Lightbox > off  
-Palets>OneOpenSubpalet  
-
-##### Fix basic shit:
-
-- Pref>Draw>Dynamic brush sacale - If brush is too big  
-- Stroke>SculptrisPro>  
-
-
-# Brushes:
-
-
-##### Build Form
-
-Brush | type | usage case |
---- | --- | --- |
-`Standard`|  Add vol |  (mid detail) Generic, but: preserv detil undernith
-`Clay Brush`| Add vol |  (mid detail) Try with Alpha 06 - default
-`Clay Bildup`| Add vol  |  (mid detail) Try without alpha
-`HPolish`| Planes resp. edges | (overal shape) Try big brush, make new angles
-`Mallet Fast`| Build plane lvls | Try on edges
-`Trim SmoothBorder`| Build plane lvls | Try with square alpha for rocks
-
-##### Slash/Pinch
-
- Brush | type | usage case |
- --- | --- | --- |
-`Slash2` `Slash3` | Slash |    
-`Dam Standard` | Slash | (mid detail)  More agressive standard brush   
-`Pinch`|  
-
-##### Hard Planes
-
- Brush | type | usage case |
- --- | --- | --- |
-`Planar`| Hard plane | for corners and flat walls     
-`Trim Adaptive`| Hard plane | Geometry Normal direction   
-`Trim Front`| Hard plane | Camera Trim direction
-`Planar Cut`| Hard plane |  `Planar Line Cut` to trim !
-
-
-##### Smooth
-
-Brush | type | usage case |
---- | --- | --- |
-`Flatten`| Avarage flat |
-`Trim Dynamic`| Soften | moothing angle    
-`Clay Finish B`| Soften |
-`Polish` | Soften |   
-`Smooth Stronger`| Smooth | Valleys/Direction/  Use 'refine' insted ! U are loosing details   
-
-##### Geometry change
-
-Brush | type | usage case |
---- | --- | --- |
-`Move` | | use a lot with dynamesh and masks |  
-`Inflat`|Bubble    
-`Insert` , `IMM`| Insert mesh | (`Alt`- subtractive Dynamesh to sub) > W - manipulate inserted object   
-`SnakeHook2` | Extrude by nornmal |
-
-
-
-# Topology:  
-
-### Sculptris:     
-Stroke > SculptisPro
-- Adaptive size - Addapt density on brush size  
-- tesimate  
-- up to 0,5 mil poly  
-
-### Dynamesh:   
-Tool>Geometry
-- size important (up to 4096 grid)  
-- prepear special low with creasing to subdivide
-
-### ZRemesher
-Tools>Geometry  
-### Decimation Master:  
-ZPlugins>Decimation master (polyreduce)
-
-# Mesh management:
-
-- mask   
-- layers   
-- split to parts  
-- subtools  
-
-
-create thickness: tools StoreMT (morph target) >> inflate >> create differnt mesh  
-
-
-
-# Trix
-- use surface noise as mask, and brush places with clay buildup    
-- geometry weld topoplogy >> weld vertex !!!!
-
-#### presets:
-
-- Zstartup/BrushPresets - to permament save brush   
-- Zdata/BrushPresets -
-
-
-# Menus
-
-#### Alphas
-#### Stroke
-### Tools
-#### Geometry:
-Modify Topology   
-- mirrors
-- delete/weld/
+   - `silhouettes` > `Medium Frequencies` > `Detail`      
+   - Varies details placement.     
+   - Sculpt across the form (not with the flow).    
+   - Don't use smooth.       
+   - Directionality  
+   - Maintain Volume

@@ -10,6 +10,7 @@ tags:
 permalink: /gamemechanics/
 ---
 
+
 [Game Design](/gamedesign/)
 
 
@@ -77,6 +78,14 @@ doom 2016 forrowrd combad - build forroward momentum from glory kills
 
 ---
 
+
+# Econotmy and balance
+
+
+[Game Theory](/gametheory/)
+
+----
+
 # Combat
 ## Encounters
 
@@ -91,12 +100,6 @@ doom 2016 forrowrd combad - build forroward momentum from glory kills
 
 ---
 
-# Econotmy and balance
-
-
-
-
-----
 -
 -
 -

@@ -7,6 +7,7 @@ tags:
 - Art
 - Design
 description: principles.
+permalink: /graphicdesign/
 ---
 
 
@@ -22,7 +23,7 @@ description: principles.
 ![](/src/gestalt/shape.png)  |  **Shape** | 2D | Geometric, Organic| Perception of shape depend on contrast
 ![](/src/gestalt/simplicitysmall.png)  |  **Form** | 3D |Circural (friendly) vs Jagged (danger)
 ![](/src/gestalt/space.png)  |  **Space** |  |Vertical (powerful), Horizontal (stability),  Negative
-![](/src/gestalt/color.png)  |  **Color** | Hue
+![](/src/gestalt/color.png)  |  **Color** [Color](/color/)  | Hue
 ![](/src/gestalt/value.png)  |  **Value** | Level of lightness | Build by adding or subtracting lightness
 ![](/src/gestalt/empty.png)  |  **Texture** | | Properties of material.
 ![](/src/gestalt/a.png)   |  **Typo**  | Typography| Serif, Sans Serif, Script, Monospaced, Display

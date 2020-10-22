@@ -7,8 +7,12 @@ tags:
 - Audio
 - Music
 - Data
+
+permalink: /synth/
 ---
 
+[Music](/music/)  
+[Circuit](/circuit/)  
 
 
 

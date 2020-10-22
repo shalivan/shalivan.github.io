@@ -14,7 +14,8 @@ permalink: /gametheory/
 ---
 
 Context for:  
-[Human Behavioral Biology](/humbio1/)  
+[Human Behavioral Biology](/humbio1/)   
+[Game Mechanics](/gamemechanics/)  
 
 
 

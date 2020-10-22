@@ -1,8 +1,8 @@
 ---
-title: Houdini shortcuts
+title: Houdini configs & shortcuts
 
 categories:
- - HOU
+ - DTA
 tags:
 - Houdini
 - Shortcuts
