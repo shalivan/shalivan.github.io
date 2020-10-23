@@ -16,7 +16,7 @@ tags:
 - Shelf Tool - scripts section to write code Executed after shelf click
 
 
-# hou Class
+# Class hou.
 
 - `hou.` is houdini python class. We can drop it in **expressions**:  
 - see what params is passing `kwargs` (pthos dict to see what is avalable)
@@ -24,6 +24,7 @@ tags:
 
 ## hou.node
 node in trees
+
 ```python
 foo = hou.node('/path')
 foo.name #return name of object.
@@ -91,7 +92,8 @@ print examplereturn("houdini") # will print HOUDINI with all big captions
 ```
 
 
-#### swap $ HIP to $ JOB
+#### swap HIP to JOB
+
 NickD
 ```python
 def hipToJob():
@@ -135,7 +137,7 @@ for key in ry.keyframes():
 ry.asCode() # will print code
 ```
 
-## hou.ObjNode
+## hou.objNode
 how is displayed and how manipulate
 ```python
 
@@ -156,7 +158,7 @@ print (product == world) # True
 ball.mmoveParmTransformIntoPreTransform()
 
 ```
-## hou.Geometry
+## hou.geometry
 Define 3d geo shape  
 ```python
 geo = hou.node('/obj/ball/AddPointNormal').geometry()

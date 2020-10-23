@@ -1,5 +1,5 @@
 ---
-title: Sculpting
+title: Character
 
 categories:
  - ART
@@ -10,6 +10,7 @@ tags:
 description:  basics.
 permalink: /characters/
 ---
+
 
 
 

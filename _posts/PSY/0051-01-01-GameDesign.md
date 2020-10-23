@@ -2,7 +2,7 @@
 title: Game Design
 description: RAW NOTES !!!
 categories:
- - ART
+ - PSY
 tags:
 - Design
 - Game Dev
@@ -29,6 +29,7 @@ permalink: /gamedesign/
 
 ####  FPS
 simple
+
 
 ####  TPS fixed:
 2d scroller   
@@ -59,9 +60,11 @@ thgird person - hardest to design  (fixed angels are easier to make)
 Dramatic moments happening  on screen (cutscenes) are less framatic because you just look without a control
 
 
+#### Player
+[Characters](/characters/)  
 
 #### NPC's
 - brign stisfaction, dont stole moments from player or be burden u must cary on.
 
 
-#### Endgame
+# Endgame

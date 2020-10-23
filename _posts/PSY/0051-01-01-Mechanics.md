@@ -15,6 +15,11 @@ permalink: /gamemechanics/
 
 
 
+
+
+
+- 4x
+
 - taktyki
 - strzelanki
 - symulatory
@@ -28,6 +33,11 @@ multi
 - battle royal  
 
 - stroy
+
+# Endgame 
+
+[Narration](/narration/)
+
 
 # Mechanics   
 
