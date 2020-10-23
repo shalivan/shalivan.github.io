@@ -1,8 +1,8 @@
 ---
 title: Synths
-description: Synthesizers guide  Circuit Novation
+description: Data.
 categories:
- - ART
+ - DTA
 tags:
 - Audio
 - Music
