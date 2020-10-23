@@ -8,6 +8,7 @@ tags:
 - Game Dev
 - Gameplay
 - Cognition
+permalink: /narration/
 ---
 
 
