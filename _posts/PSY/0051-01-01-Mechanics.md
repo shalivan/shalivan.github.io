@@ -36,29 +36,29 @@ Victory condition
 a-b mission Endgame [Narration](/narration/)/sandbox / vechicle /  
 
 
-|||
+|.||
 |---|---|
-taktyki | 4x Management Economy
-RPG |  C J S ..
-Simulators | Building
-FPS | battle royal  
-Puzzle|
-zrecznosciowki|Skill base
-Rouglike |
-rywalizacja | sportowa/ wyscigi
-sandbox
+|taktyki | 4x Management Economy
+|RPG |  C J S ..
+|Simulators | Building
+|FPS | battle royal  
+|Puzzle|
+|zrecznosciowki|Skill base
+|Rouglike |
+|rywalizacja | sportowa/ wyscigi
+|sandbox|
 
 |||
 |---|---|
 singiel | stroy
 multi | PvP / PvE  
 
-|||
+|.||
 |---|---|
-turn
-realtime
-timelimits
-keys and bariers > progress
+|turn|
+|realtime|
+|timelimits|
+|keys and bariers > progress|
 ---
 
 # Players
