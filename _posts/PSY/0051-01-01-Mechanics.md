@@ -1,6 +1,6 @@
 ---
 title: Game Mechanics
-description: RAW NOTES !!!
+description: FPX
 categories:
  - PSY
 tags:
@@ -18,56 +18,55 @@ permalink: /gamemechanics/
 
 
 
-- 4x
-
-- taktyki
-- strzelanki
-- symulatory
-- rywalizacja sportowa/ wyscigi
-- zagadki
-- zrecznosciowki
-
-multi  
-- PvP / PvE  
-
-- battle royal  
-
-- stroy
-
-# Endgame 
-
-[Narration](/narration/)
-
-
 # Mechanics   
-
+Gameplay loop  
 sec to sec (momentary) / min to min / h to h (structural)  
 
-`explicit` vs. `emergence`
+`explicit` vs. `emergence`   
+
+
+
+---
 
 
 
 
-##### Skill  
+### Struktura
+Victory condition
+a-b mission Endgame [Narration](/narration/)/sandbox / vechicle /  
 
 
-### Risk aversion problems:
-##### Grind
-Repeated battles for the sole purpose of increasing party level, stats
-- czasowy jak w ogema
+|||
+|---|---|
+taktyki | 4x Management Economy
+RPG |  C J S ..
+Simulators | Building
+FPS | battle royal  
+Puzzle|
+zrecznosciowki|Skill base
+Rouglike |
+rywalizacja | sportowa/ wyscigi
+sandbox
 
-##### Farming
-Repeated battles for the sole purpose of finding a rare item drop
+|||
+|---|---|
+singiel | stroy
+multi | PvP / PvE  
 
-
-###### Backward pedaling
-doom 2016 forrowrd combad - build forroward momentum from glory kills  
-
+|||
+|---|---|
+turn
+realtime
+timelimits
+keys and bariers > progress
 ---
 
 # Players
 
 [Motivation](/motivation/)  
+
+
+[Characters](/characters/)  
 
 
 ####  Type of players:
@@ -89,10 +88,30 @@ doom 2016 forrowrd combad - build forroward momentum from glory kills
 ---
 
 
+# Multiplayer
+
+[Game Theory](/gametheory/)
+
+
+
+---
+
 # Econotmy and balance
 
 
-[Game Theory](/gametheory/)
+### Risk aversion problems:
+###### Grind
+Repeated battles for the sole purpose of increasing party level, stats
+- czasowy jak w ogema
+
+###### Farming
+Repeated battles for the sole purpose of finding a rare item drop
+
+
+###### Backward pedaling
+doom 2016 forrowrd combad - build forroward momentum from glory kills  
+
+
 
 ----
 
@@ -107,30 +126,3 @@ doom 2016 forrowrd combad - build forroward momentum from glory kills
 
 ###### Waves
   - increase and manipulate amounts / strength
-
----
-
--
--
--
------
-
-
-
-
-
-
-
-
-```
-### gameplay scenario
-a-b mission / sandbox / vechicle /
-
-Victory condition   
-Nr of players  
-Game flow   
-feadback      
-turn / timelimits   
-keys and bariers > progress   
-
-```

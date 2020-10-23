@@ -21,15 +21,60 @@ permalink: /houdiniconfigs/
 
 
 
+```
+- acces to select by one key.
+- redesign select mode to work always
+- have acces to edit options like straighten
+- T transform , prefer transform node
+- S always for selection
 
-działaja snapy oi handle na poziomie object   
+-escape to edit again
+-features from edit in other nodes
+działaja snapy i handle na poziomie object   
 inne toole mamy w topo build i inne w edit   
-maby for packed ?? because cannot make 1000 obj nodes.   
 Hide not working all the time   
+enter edit after merge / edit mode after chamfer
+
+ packed ??    
+
+```
+
+
+```
+BRAKUJE W KÓŁKU
+- select groups '9'
+- show others node geo
+- hide geo/ show all/ invert
+- select options
+
+
+
+```
+
+
+# CUSTOM
+`Shift` + `W` - In all windows wireframe mode   
+~~`Alt` + `W`~~ - close window  
+~~`Ctrl` + `1`,`2`~~ ... - change   
+~~`C` is visualize~~ should be: comment
+`9` selection group        
+`\` - manual update   `|` - auto update      
+` ' ` - RESELECT FOR CURENT TOOL     
+` ~ ` - SECURE SELECTION  
+
+
+#### Match translate
+> is icon on the right of transform params click, and select obj u want rotate to.
+
 
 
 To set/change key klick on shelf or menu item while holding `Ctrl` + `Alt` + `Shift`
 
+Options to change
+- default Desktop
+- default handle aligment: World
+- standard tumblig wievport
+- secure selection off
 ----
 
 
@@ -56,7 +101,7 @@ For modeling and placement. leave pivot unaffected.
 
 |||
 |-|-|
-`"` | Deeatache Viewport handle temporary.  
+`'` | Deeatache Viewport handle temporary.  
 `RMB>presistant` | To have 2second handles and pivot rotation   
 `RMB>SnapTo..` | Pivot or centroid.  
 `RMB>HandleParameters` | Options  
@@ -148,6 +193,9 @@ Check if you have object or world aligned handles it change behaviour
 `Y` |  Edit  
 `Shift`+`T`| Tweek mode   (no handles )
 
+
+```
+
 ## PolyDraw
 
 #### `Shift`+`1` Build
@@ -175,11 +223,19 @@ prims:
 #### `Shift`+`4` Brush
 #### `Shift`+`5` Smooth  
 
+```
+
+
 
 ----
 
-
 # Network View Graph
+
+
+![](/src/hou/cfg/wheel1.png)
+
+
+
 ### Navigation
 
 |||
@@ -256,7 +312,6 @@ prims:
 
 --------------------------------------------
 
-![](/src/hou/cfg/wheel1.png)
 
 
 
@@ -273,18 +328,3 @@ Generate nodes
 
 
 --------------------------------------------
-
-
-# CUSTOM
-`Shift` + `W` - In all windows wireframe mode   
-~~`Alt` + `W`~~ - close window  
-~~`Ctrl` + `1`,`2`~~ ... - change   
-~~`C` is visualize~~ should be: comment
-`9` selection group        
-`\` - manual update   `|` - auto update      
-` ' ` - RESELECT FOR CURENT TOOL     
-` ~ ` - SECURE SELECTION  
-
-
-#### Match translate
-> is icon on the right of transform params click, and select obj u want rotate to.

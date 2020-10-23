@@ -132,6 +132,7 @@ Driven by external / internal motivations
 - Adult-like child
 - Mother
 
+[Characters](/characters/)  
 
 ---
 
