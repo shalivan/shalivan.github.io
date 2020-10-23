@@ -68,6 +68,7 @@ keys and bariers > progress
 
 [Characters](/characters/)  
 
+[Personality](/personality/)
 
 ####  Type of players:
   - Rusher

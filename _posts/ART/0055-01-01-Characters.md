@@ -13,7 +13,7 @@ permalink: /characters/
 
 
 
-
+[Personality](/personality/)
 
 # Character
 

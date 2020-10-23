@@ -44,3 +44,6 @@ Lifestyle preferences| Judging | Perciving
 
 
 # Collective
+
+
+[Game Theory](/gametheory/)
