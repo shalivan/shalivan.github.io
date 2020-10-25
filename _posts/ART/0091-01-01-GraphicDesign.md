@@ -47,6 +47,12 @@ permalink: /graphicdesign/
 ---
 # UX/UI
 
+
+- **Diegetic**  - Source of information came from the world   recounted story
+- **Nondiegetic** - Source of information came from outside commentary sound / HUD (out of world)
+
+
+
  - Consistency / Intentionallyty
  - Ergonomy. The time to acquire a target is a function of the distance to and size of the target.
  - Visual Feedback

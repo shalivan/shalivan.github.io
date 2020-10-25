@@ -7,7 +7,7 @@ tags:
 - Science
 - Cognition
 
-description: attention, cognition motivation, emotion, choice, satisfaction
+description: Individual vs Collective
 permalink: /personality/
 ---
 

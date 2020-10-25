@@ -1,6 +1,6 @@
 ---
 title: Narrative Experience
-description: plot, characters, philosophy.
+description: plot
 categories:
  - PSY
 tags:
@@ -18,8 +18,9 @@ permalink: /narration/
 - See or listen not as powerful as play themselves
 - Every medium have it own narration style. Linear narrative is not enough for games.  
 
----
 
+
+---
 
 #  Plot
 Telling stories is in human nature.
@@ -28,6 +29,40 @@ Telling stories is in human nature.
 **Plot** the plot tells how. Once you have a story in mind, you can decide how you are going to plot it. is a series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance. And create tension.  
 **Narrative** the narrative tells why.  is the interpretation of the events within the story. point of view of the story.
 
+
+## Narration
+
+
+#### Narration types  
+- **Explicit** - cutscenes text written
+- **Implicit** - player must figure out itself
+- **Emergent** -
+
+show vs tell - showing dramatizes / telling summarize
+
+#### Point of view
+||||
+|---|---|---|
+First Person | I Me My  | character is telling the story.
+Second Person | You/Your  | narrator speak to the reader.
+Third Person | She/He Her/His | external narrator is telling the story.
+
+
+#### Narrator types
+||||
+|---|---|---|
+Ontology | homodiegetic (within world)| heterodiegetic (outside (commentary/hud))
+Shapedness | personal | non-personal
+Knowledge | restricted | omnipotent
+Story world facts | representing (represents exiting world) | stipulating  (stipulates story through narration)
+
+Commentator/Interviewer
+
+
+---
+
+## Structure
+#### Place, Time, Character
 Cannot say a story without **Place**, **Time** and **Character**. Or you can :> ?
 - **Premise** -  Meaningful, Promise, announce
 - **Causality** -  Therefor instead of: Then  (a means to an end)
@@ -35,37 +70,36 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can :> 
 -  **Establish conflict**, **Twist**
 - **Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
 
-
-Narration types:  
-- **Explicit** - cutscenes text written
-- **Implicit** - player must figure out itself
-- **Emergent** -
-
-Narration types:  
-- **Diegetic** - Source of information is world itself. (Diegesis - recounted story)
-- **Nondiegetic** - HUD (out of world)
-
-
-
-
-
-
 Memorable moments:
 - **Beginning** - to engage   
 - **Peak** -  (tentpole - most expensive mom)  
 - **End** - brain reference to those experience and have impact to long term memory    
 
 
-
 #### Monomyth
   Heroes Journey: **You**, **Need**, **Go**, **Search**, **Find**, **Take**, **Return**, **Change**  (Joseph Campbell)
   - What with serials and games ? Its less relevant.
 
+#### 4-Layers in games
+  1. what am I doing and how
+  2. narrative goal (short term) gratifications
+  3. Narrative background. How my knowledge increase
+  4. Mental Modeling. Sense of mental image of game. that we would like to get.
 
+https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html
+
+
+
+---
 
 ##  Motivations
 
-[Human Motivation](/motivation/)  
+
+
+dont give 4 give 2+2 - simple equasion, puzzles  (simple deduction)
+- care about story: imply meaning, to enable discover meaning .
+
+
 
 during the story object can inherit meaning and emotional value
 
@@ -80,14 +114,29 @@ Universal through shared by all cultures
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
 
 
-## Narrative Design Approach
+[Human Motivation](/motivation/)  
 
-#### 4-Layers
-https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html
-1. what am I doing and how
-2. narrative goal (short term) gratifications
-3. Narrative background. How my knowledge increase
-4. Mental Modeling. Sense of mental image of game. that we would like to get.
+---
+
+# Characters
+Driven by external / internal motivations
+
+- name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want accomplished, what afraid, what like to do, hidden talent, deepest secret
+
+### Character Archetypes
+- Hero
+- Sidekick
+- Maiden
+- Wise Old Man
+- Villain
+- Shape-Shifter
+- Trickster / Comic
+- Child-like adult
+- Adult-like child
+- Mother
+
+[Characters](/characters/)  
+
 
 ---
 # Themes
@@ -115,33 +164,12 @@ Nature | Slow, Preserve | Site (place, forever)
 ---
 
 
-# Characters
-Driven by external / internal motivations
-
-- name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want accomplished, what afraid, what like to do, hidden talent, deepest secret
-
-### Character Archetypes
-- Hero
-- Sidekick
-- Maiden
-- Wise Old Man
-- Villain
-- Shape-Shifter
-- Trickster / Comic
-- Child-like adult
-- Adult-like child
-- Mother
-
-[Characters](/characters/)  
-
----
 
 # Eastern vs Western philosophy
 
 
 ||Western |Eastern |
 |---|---|---|
-
 | | Object | Subject |
 |Being|Stationary existing | Arising |
 |Emphases | Individuality | Wholeness, Oneness|
@@ -167,7 +195,7 @@ Driven by external / internal motivations
 ---
 
 
-
+good
 - rewrite existing
 - unexpected solution to mainstream problem
 - start wit your emotions.
@@ -184,33 +212,17 @@ Driven by external / internal motivations
 - rules for world for all characters same
 - black and white reality is simple but .... ??
 
+bad
+- exposition - show story
+- character asking question  
 
 ---
 
 
-- exposition - show story
-- character asking question  
-
-
-
-
-
-
-
-
-
-
-
-
-
-(book: the future of narrative in cyberspace)
-
-
+[//]: # (book: the future of narrative in cyberspace
 to show story:
-
 elevator pitches  
 peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
-
-
 Writing > Editing > Voiceovers, Localization > Cinematics
 'we are telling stories to not feel alone in universe ??? '
+)

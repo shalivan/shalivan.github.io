@@ -1,6 +1,6 @@
 ---
 title: Game Theory
-description: RAW NOTES !!!! For poker, gameplay, reciprocal altruism.
+description: raw note ...  gameplay balance, reciprocal altruism, poker
 categories:
  - PSY
 tags:

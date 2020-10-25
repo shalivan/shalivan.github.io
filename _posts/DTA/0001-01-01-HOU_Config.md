@@ -1,9 +1,10 @@
 ---
-title: Houdini configs
+title: configs Houdini
 
 categories:
  - DTA
 tags:
+- CG
 - Houdini
 - Shortcuts
 - Configs
@@ -20,6 +21,21 @@ permalink: /houdiniconfigs/
 [qLibDarkFlatTheme](/src/configs/Hou/config/qLibDarkFlatTheme.hcs)  
 
 
+```
+I saw new polybevel state, that is what i was trying to say about modeling state.  What it lack is:
+-  quick button for 'accept and enter selection'
+- use same shortcuts in all modeling relateing nodes.
+
+- better selection 9
+- try to use transform instead of edit when group or all is selected
+
+
+- what about a pivot ?
+- what states. Modeling, moving full parts (copy to points)
+- modeling state:
+   - operacje jak loop straighten
+   -
+```
 
 ```
 - acces to select by one key.
@@ -52,6 +68,8 @@ BRAKUJE W KÓŁKU
 ```
 
 
+
+
 # CUSTOM
 `Shift` + `W` - In all windows wireframe mode   
 ~~`Alt` + `W`~~ - close window  
@@ -75,6 +93,8 @@ Options to change
 - default handle aligment: World
 - standard tumblig wievport
 - secure selection off
+- add paths to 'Open file dialog'
+
 ----
 
 

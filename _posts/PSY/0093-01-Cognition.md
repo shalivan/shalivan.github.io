@@ -1,3 +1,20 @@
+---
+title: Motivation
+
+categories:
+ - PSY
+tags:
+- Science
+- Cognition
+- Gameplay
+
+description: attention, cognition motivation, emotion, choice, satisfaction
+permalink: /motivation/
+---
+
+[//]: # ()
+Emotions vs Logic
+
 
 # Cognition
 ### Cognitive Biases
@@ -182,9 +199,6 @@ When sys 1 go to difficulty (is not able to get answer) call to sys 2
 - in charge of self control
 - Capable of work with data include complex computation. Agency, choice, computation (have in mind partial solutions while doing next computations)
 
-
-
-
 ## 2. Attention & Effort
 
 overcome crazy decisions of sys 1  only by effort because 1 cannot be turned off.  
@@ -273,3 +287,4 @@ What underlay intuition and how it influence judgement
 
 
 ```   
+)
