@@ -49,6 +49,7 @@ Third Person | She/He Her/His | external narrator is telling the story.
 
 
 #### Narrator types
+
 ||||
 |---|---|---|
 Ontology | homodiegetic (within world)| heterodiegetic (outside (commentary/hud))
