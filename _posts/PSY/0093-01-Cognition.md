@@ -9,7 +9,7 @@ tags:
 - Gameplay
 
 description: attention, cognition motivation, emotion, choice, satisfaction
-permalink: /motivation/
+permalink: /cognition/
 ---
 
 [//]: # ()
@@ -124,7 +124,7 @@ memory  is not stored as plasticity of synapses only. but is one aspect of forma
 - categorical way of thinking is how
 
 ----
-
+Cognitive effort capacity and mental load
 
 
 # Thinking
@@ -242,13 +242,18 @@ we can decide what to do but limited what effor we put in it.
 - in emergnecies sys 1 take control and taked a self protection actions
 - if you are skjilled demand for energy deminish Pattern of activity change after trening.
 
+.
 - effort is a cost
 - lazyness is build deep in our nature
+
 
 sys 1 gather simple relation but not combine informations
 
 
+Too many people relay on intuition
 
+
+(asociated activation: podobne mysli przychodzą na mysl )
 
 ```
 

@@ -1,6 +1,6 @@
 ---
-title: Unreal Rendering Light & Atmosphere
-description: Light, Atmosphere and Fog settings.
+title: Unreal Light & Atmosphere
+description: settings.
 categories:
  - RT
 tags:
@@ -11,9 +11,14 @@ tags:
 - Art
 - Game Dev
 
-permalink: /u4light/
+permalink: /uelight/
 
 ---
+
+
+
+[Unreal Rendering Features](/ue_rendering_features/)
+
 
 
 # Light
@@ -214,6 +219,36 @@ https://sergeneren.com/2019/08/21/creating-low-altitude-clouds/
 
 https://gumroad.com/l/sFTCY/Clouds6m52fv
 
+
+---
+
+# Capture Atmosphere from Photos
+
+##### Photo references
+
+Automatic Exposure Bracketing examples:  
+13EV's of scene light for interiors (7 shots with 2EV)  
+26EVs for Outdoors - Sun visible sometimes even on -20EV  
+
+##### Shoot
+- Shoot RAW - 16 bit if possible. HDR: (if not PBR will be affected)   
+- Orient set to recognize front direction  
+- Shoot in central point of scene: Cannot change EV during shot.    
+
+`Color checker` - white ballans. from differences between shoot and CG create transform matrix to neutralize colour cast (shoot fulll exposure)   
+`Gray card` - to set base EV (correctly expoing for 18% grey calibration card (fill frame) which is oriented twoward main light (without shadow))  
+`Gray ball` -  lighting intensity and direction 18% grey (like lambert shading)   
+`Chroma ball` -  help to correct Lightprobe rotation and light locations- shoot front and side   
+`Lightprobe` shot for HDRI shoot with 8mm lens 3 shoots 0 120 240  
+`RAW` > `TIFF` (PTGUI software) > merge to  `EXR` panorama  > color correction
+
+##### Unreal Light
+- For unreal HDRI mask out light sources to get ambient light   
+- Gray Ball 18% Sepecular 0.7 Roughtnss 0.85 - paint on physical grayball    
+- Position ball in exact location, find front orientation   
+- Turn off PP    
+- Set lights in proper location  
+- Set lights intensity: Go to HDR view and match chroma ball with reference image by seting   
 
 
 

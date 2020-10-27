@@ -1,5 +1,5 @@
 ---
-title: Unreal Rendering features
+title: Unreal Rendering Features
 description: RAW NOTE.
 categories:
  - RT
@@ -9,8 +9,11 @@ tags:
 - Real Time
 - Game Dev
 - Tech Art
+permalink: /ue_rendering_features/
 ---
 
+
+[Unreal Light & Atmosphere](/uelight/)
 
 
 
@@ -29,7 +32,7 @@ tags:
 Point Light - Point light have 6x shadows .Max draw distance
 
 
- - Cascade shadows: split cam frustrum to pieces
+ - Cascade shadows:   split cam frustrum to pieces
  - Ray traced distance dield shadows: for far 30 50% more eficient than cascade (5000 units) save on GPU little
  - Capsule shadows
  - Close shadow (contact)   
@@ -130,24 +133,27 @@ r.EyeAdaptation.VisualizeDebugType 1 (histogram debug mode)
 
 
 # Sky light
-DFAO
+#### DFAO
+
+---
 
 # Post Process
+
 Cubemap.  Newer use. Old One !!!! same as sky but not shadowed !
 
-DOF   
-Bloom   
-Exposure   
-Flares   
+#### DOF   
+#### Bloom  
+#### Flares
+#### Color grading + tonemaping   
+#### PP materials
+#### Motion Blur   
 
-Color grading + tonemaping   
-PP materials   
-DFAO ?? mUltiplaye   
-Raytraceing: GI + Reflections + Translucency   
-Motion Blur   
-Path Traceing   
 
-##### SSGI
+#### Exposure   
+DFAO ?? mUltiplaye  
+
+
+#### SSGI
 
 ```
 `r.SSGI.Enable`  
@@ -155,11 +161,8 @@ Path Traceing
 
 ```
 
-###  SSAO (Screen Space Ambient Occlusion)
+####  SSAO (Screen Space Ambient Occlusion)
 >implementation and is currently based on the depth buffer only. ur method makes use of the depth buffer and the normal from the GBuffer (see Deferred Shading). You can look at the AO value directly by using the "Visualize GBuffer" view mode (see View Modes) or by using the show flag "Visualize Ambient Occlusion". As the AO is part of the GBuffer, it also can be output by the material. The SSAO and material AO become combined and can result in even darker AO.
-
-
-
 
 #### Bloom
 Classic - Gausian filters
@@ -167,34 +170,13 @@ Convoluted - (weighted distribution) by filtering freq. with Fast Fourier Transf
 Kernel: (duper center must be turbo bright. Percentage of bright will affect sharpnes of bloom from EXR texture). `HDR compression` no `mip maps` and `never stream`. (Kernel is remaped to size and transf to freq space and cached)  
 `Convolution Center` - It can move image if wrongly set becase it giev out back an image with efect composed  
 `Convolution Boost` - Promote bright pixels    
-`Convolution Buffer` - Help to not blead bloom to other side of screen. (should be as small as possible cause it add black borders)    
+`Convolution Buffer` - Help to not blead bloom to other side of screen. (should be as small as possible cause it add black borders)      
 
 
----
+Raytraceing: GI + Reflections + Translucency   
+Path Traceing   
 
 
-
-# Material
-### PBR
-
-
-----
-### Motion Blur
-Visualise > motion blur (in simulate) (colored in motion)    
-Bufer visualitsation > Velocity     
-`Accurate velo` in settings !
-
-PP@cam can ovveride
-- per object setting - will exclude from MB (not working if acucurate velo is enable in settings)
-
-type of object
-- sequence - (just work)
-- BP set actor location - (just work)
-- Verte offset material - (in project settings + material:  support accurate velo from vert deform)
-- in particle system - material: Particle motion Blur Fade !!!!!(cascade override, and transulcent only on gpu)
-- on spline - material: preview frame switch
-
-https://youtu.be/r1BCJt22oHY
 
 ---
 
@@ -205,7 +187,7 @@ Use High Precision Tangent Basis
 Use High Precision uv    
 
 
-### Distance field
+## Distance field
 >0 inside. staic object and avoid v huge meshes
 
 
@@ -225,8 +207,27 @@ Optimisation: 8 bit (halfmemory) / compress: les mem but hitches on sream decomp
 `ShowFlag.VisualizeDistanceFieldAO`  
 ```
 
+---
 
 
+# Material
+
+## Motion Blur
+Visualise > motion blur (in simulate) (colored in motion)    
+Bufer visualitsation > Velocity     
+`Accurate velo` in settings !
+
+PP@cam can ovveride
+- per object setting - will exclude from MB (not working if acucurate velo is enable in settings)
+
+type of object
+- sequence - (just work)
+- BP set actor location - (just work)
+- Verte offset material - (in project settings + material:  support accurate velo from vert deform)
+- in particle system - material: Particle motion Blur Fade !!!!!(cascade override, and transulcent only on gpu)
+- on spline - material: preview frame switch
+
+https://youtu.be/r1BCJt22oHY
 
 
 
@@ -250,7 +251,7 @@ https://www.vfxwizard.com/tutorials/gamma-correction-for-linear-workflow.html
 `r.tonemapperfilmic 0`- disable filmic and change to default
 ```
 
-#### HDR
+## HDR
 texture compress: vector displacement   
 
 https://www.unrealengine.com/en-US/tech-blog/how-epic-games-is-handling-auto-exposure-in-4-25
@@ -269,6 +270,9 @@ https://www.unrealengine.com/en-US/tech-blog/how-epic-games-is-handling-auto-exp
 `r.HDR.Display.ColorGamut`   
 ```
 
+
+---
+
 # Virtual texturing  streaming
 New aproach to mips.  Divided in to tiles
 - memory optimisation where we pay a small amount in performance.  
@@ -284,7 +288,7 @@ Virtual texture stack: - using same uvs  (see in material stat)
 
 there is bulk convert on texture in browser to convert many at once
 
-
+---
 
 # Virtual texture runtime
 same tech in runerttime in gpu  (shading cash)
@@ -303,13 +307,11 @@ r.VT.borders 1
 - stack as much with same uv  (base color spec ... nm )
 ---
 
-# Guides
 
 
 
 
-
-## Ray trace light
+# Ray trace light
 Path Tracer
 In addition to the Ray Tracer, we've included an unbiased Path Tracer with a full global illumination path for indirect lighting that creates ground truth reference renders right inside of the engine. T  
 
@@ -331,34 +333,6 @@ Sun:
 `Indirect light intensity` -  Increase bounce   
 
 ---
-
-## Capture Atmosphere from Photos
-
-##### Photo references
-
-Automatic Exposure Bracketing examples:  
-13EV's of scene light for interiors (7 shots with 2EV)  
-26EVs for Outdoors - Sun visible sometimes even on -20EV  
-
-##### Shoot
-- Shoot RAW - 16 bit if possible. HDR: (if not PBR will be affected)   
-- Orient set to recognize front direction  
-- Shoot in central point of scene: Cannot change EV during shot.    
-
-`Color checker` - white ballans. from differences between shoot and CG create transform matrix to neutralize colour cast (shoot fulll exposure)   
-`Gray card` - to set base EV (correctly expoing for 18% grey calibration card (fill frame) which is oriented twoward main light (without shadow))  
-`Gray ball` -  lighting intensity and direction 18% grey (like lambert shading)   
-`Chroma ball` -  help to correct Lightprobe rotation and light locations- shoot front and side   
-`Lightprobe` shot for HDRI shoot with 8mm lens 3 shoots 0 120 240  
-`RAW` > `TIFF` (PTGUI software) > merge to  `EXR` panorama  > color correction
-
-##### Unreal Light
-- For unreal HDRI mask out light sources to get ambient light   
-- Gray Ball 18% Sepecular 0.7 Roughtnss 0.85 - paint on physical grayball    
-- Position ball in exact location, find front orientation   
-- Turn off PP    
-- Set lights in proper location  
-- Set lights intensity: Go to HDR view and match chroma ball with reference image by seting   
 
 
 ## ACES
