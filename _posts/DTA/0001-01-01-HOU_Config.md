@@ -12,61 +12,84 @@ description: .
 permalink: /houdiniconfigs/
 ---
 
-[Config folder](/src/configs)  
 
-[Desktop](/src/configs/Hou/desktop/AB.desk)  
 
-[Radial Menu](/src/configs/Hou/radialmenu/ABModeling.radialmenu)  
-
-[qLibDarkFlatTheme](/src/configs/Hou/config/qLibDarkFlatTheme.hcs)  
 
 
 ```
-I saw new polybevel state, that is what i was trying to say about modeling state.  What it lack is:
--  quick button for 'accept and enter selection'
-- use same shortcuts in all modeling relateing nodes.
 
+-  quick button for 'accept and enter selection mode' across all modeling nodes (use same shortcuts in all modeling realtering nodes), (acces to select by one key., redesign select mode to work always, have acces to edit options like straighten, T transform , prefer transform node, S always for selection)
+
+Radial menus:
+- show hide other nodes geometry
 - better selection 9
-- try to use transform instead of edit when group or all is selected
-
-
-- what about a pivot ?
-- what states. Modeling, moving full parts (copy to points)
-- modeling state:
-   - operacje jak loop straighten
-   -
-```
-
-```
-- acces to select by one key.
-- redesign select mode to work always
-- have acces to edit options like straighten
-- T transform , prefer transform node
-- S always for selection
-
--escape to edit again
--features from edit in other nodes
-działaja snapy i handle na poziomie object   
-inne toole mamy w topo build i inne w edit   
-Hide not working all the time   
-enter edit after merge / edit mode after chamfer
-
- packed ??    
-
-```
-
-
-```
-BRAKUJE W KÓŁKU
-- select groups '9'
-- show others node geo
 - hide geo/ show all/ invert
 - select options
 
+Prefer procedural behavior
+- try to use transform instead of edit when group or all is selected
 
+Auto Poly Bevel
+- 1 2 3 to select, why not S ?
+-features from edit in other nodes
+-escape to edit again
+
+
+
+- modeling state:
+   - operacje jak loop straighten
+   -
+
+BUGS:
+enter edit after merge / edit mode after chamfer
+
+```
+- what about a pivot ? / copy to points ? what states. Modeling, moving full parts (copy to points)
 
 ```
 
+
+- straighten
+- equalize
+- make circle
+- pivot operations ?
+
+
+
+change coordinates
+ handlers /
+ pivot
+snap /
+align
+grid
+TWEAK MODE
+select points edges and prims
+
+- mody selekcji
+selekcja i patterny
+select patterns
+EDIT
+/ slide
+/ peak
+/ sculpt  
+/ tweak mode
+/ multi component selection (Bug work with tweak mode only)
+/ brush options
+
+BEVEL /
+EXTRUDE /
+SPLIT /
+RING SPLIT /  
+BRIDGE /
+BLAST /
+MERGE /
+FILL /
+FUSE/
+TOPO BUILD /
+
+--------------
+
+```
 
 
 
@@ -245,14 +268,15 @@ prims:
 
 ```
 
+# Radial
+
+![](/src/hou/cfg/wheel1.png)
 
 
 ----
 
 # Network View Graph
 
-
-![](/src/hou/cfg/wheel1.png)
 
 
 
@@ -332,7 +356,9 @@ prims:
 
 --------------------------------------------
 
-
+[Desktop](/src/configs/Hou/desktop/AB.desk)  
+[Radial Menu](/src/configs/Hou/radialmenu/ABModeling.radialmenu)  
+[qLibDarkFlatTheme](/src/configs/Hou/config/qLibDarkFlatTheme.hcs)  
 
 
 --------------------------------------------

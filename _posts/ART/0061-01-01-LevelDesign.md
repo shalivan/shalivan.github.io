@@ -8,7 +8,7 @@ tags:
 - Game Dev
 - Gameplay
 - Architecture
-
+permalink: /leveldesign/
 ---
 
 
