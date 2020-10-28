@@ -41,6 +41,7 @@ Telling stories is in human nature.
 show vs tell - showing dramatizes / telling summarize
 
 #### Point of view
+
 ||||
 |---|---|---|
 First Person | I Me My  | character is telling the story.
