@@ -13,6 +13,8 @@ permalink: /sculpting/
 
 [zBrush]( /zbrush/)  
 
+[KineFX](/kinefx/)
+
 
 
 

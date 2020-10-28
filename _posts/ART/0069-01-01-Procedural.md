@@ -8,6 +8,7 @@ tags:
 - Math
 - Procedural
 description: RAW
+permalink: /procedural/
 ---
 
 

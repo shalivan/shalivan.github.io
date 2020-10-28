@@ -6,6 +6,7 @@ categories:
 tags:
 - Houdini
 description: Houdini landscape 2d fields.
+permalink: /heightfields/
 ---
 
 

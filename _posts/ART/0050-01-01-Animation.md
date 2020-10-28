@@ -8,6 +8,7 @@ tags:
 - Animation
 - VFX
 description: principles.
+permalink: /animation/
 ---
 
 # Animation types
@@ -19,6 +20,9 @@ description: principles.
 `reactive`  
 `dynamic`  
 `mocap data`  
+
+
+[KineFX](/kinefx/)
 
 
 

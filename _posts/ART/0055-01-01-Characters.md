@@ -40,5 +40,6 @@ old men vs young woman
 - ucho, nos,  bardziej czerwone
 
 
+[KineFX](/kinefx/)
 
 [zBrush]( /zbrush/)  

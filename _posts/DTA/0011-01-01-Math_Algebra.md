@@ -5,6 +5,7 @@ categories:
 - DTA
 tags:
 - Math
+permalink: /mathalgebra/
 ---
 
 

@@ -7,6 +7,7 @@ tags:
 - Rendering
 - Houdini
 description: Houdini rendering basics in Mantra.
+permalink: /mantra/
 ---
 
 <!-- more -->
