@@ -10,6 +10,7 @@ tags:
 - Gameplay
 
 description: Gestalt.
+permalink: /perception/
 ---
 
 

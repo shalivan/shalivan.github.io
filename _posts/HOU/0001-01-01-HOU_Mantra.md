@@ -40,7 +40,8 @@ reflection & refraction. (cleaner resoult because not diceing) its going pixel b
 
 
 
-# Render Settings:
+# Render Settings
+
 |setting | lo | med | hi | production|
 |--- | --- | --- | --- | --- |
 |pixel sample | 4x4 | - | 7x7 | 10x10 (fur or huge motion)
