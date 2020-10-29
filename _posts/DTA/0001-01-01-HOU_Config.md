@@ -17,14 +17,9 @@ permalink: /houdiniconfigs/
 
 
 ```
-
+Unify shortcuts:
 -  quick button for 'accept and enter selection mode' across all modeling nodes (use same shortcuts in all modeling realtering nodes), (acces to select by one key., redesign select mode to work always, have acces to edit options like straighten, T transform , prefer transform node, S always for selection)
 
-Radial menus:
-- show hide other nodes geometry
-- better selection 9
-- hide geo/ show all/ invert
-- select options
 
 Prefer procedural behavior
 - try to use transform instead of edit when group or all is selected
@@ -36,9 +31,19 @@ Auto Poly Bevel
 
 
 
+Radial menus:
+- show hide other nodes geometry
+- better selection 9
+- hide geo/ show all/ invert
+- select options
+
+
 - modeling state:
    - operacje jak loop straighten
    -
+
+Many nodes:
+- subnet is almost good, but it change visibility.
 
 BUGS:
 enter edit after merge / edit mode after chamfer
@@ -49,14 +54,12 @@ enter edit after merge / edit mode after chamfer
 ```
 
 
-- straighten
-- equalize
-- make circle
+
 - pivot operations ?
 
 
 
-change coordinates
+
  handlers /
  pivot
 snap /
@@ -68,16 +71,27 @@ select points edges and prims
 - mody selekcji
 selekcja i patterny
 select patterns
+
+change coordinates (obj world wiev c-plane component )
+change transform space (ie. per poly)
+
 EDIT
-/ slide
-/ peak
-/ sculpt  
-/ tweak mode
-/ multi component selection (Bug work with tweak mode only)
-/ brush options
+- slide
+- peak
+- sculpt  
+- tweak mode
+- multi component selection (Bug work with tweak mode only)
+- brush options
+- straighten
+- equalize / even space
+- make circle
+- relax
+- to c plane
 
 BEVEL /
+- edge
 EXTRUDE /
+- polies
 SPLIT /
 RING SPLIT /  
 BRIDGE /
@@ -128,24 +142,23 @@ Options to change
 |-|-|
 `T` | Transform  
 `R` | Rotate   
-`E` | Scale    
+`E` | Scale  
+`Y` | Cycle  
 `M` | World Coordinates    
 
-### Pivot
+### Pivot / Handle
+
 For animation. Permanent pivot of object.
 
-|||
-|-|-|
-`Insert` | pivot transform (take car e about pre transform for pivot after every viewport operation)  
-`Shift` + `"` | pivot sth
+||||
+|-|-|-|
+`'`+`Shift`/`Insert`|pivot | pivot transform change parameter.
+`'` |handle| leave pivot unaffected. Detached Viewport handle temporary. For modeling and placement.
 
-### Handle
-For modeling and placement. leave pivot unaffected.
 
 |||
 |-|-|
-`'` | Deeatache Viewport handle temporary.  
-`RMB>presistant` | To have 2second handles and pivot rotation   
+`RMB>presistant` | For enable 2nd handles!   
 `RMB>SnapTo..` | Pivot or centroid.  
 `RMB>HandleParameters` | Options  
 `RMB>Local/Global` | Local pivot points vs Global - centroid of all  
@@ -237,6 +250,99 @@ Check if you have object or world aligned handles it change behaviour
 `Shift`+`T`| Tweek mode   (no handles )
 
 
+---
+
+|Operation type|houdini shorts|Tools|
+|-|-|-|
+Enter Mode|`ENTER`|Enter modeling mode
+Camera|`Alt` + `RMB`|Rot as cam
+|| `RMB`|Rot around
+||`Alt` + `MMB` / `LMB` + `RMB`|Pan
+||`LMB`|Zoom
+ ||`MMB`|Move tool
+Snap|on wheel menu
+ConstructionPlane|on wheel menu
+Comon |`Shift` + `M`|Mirror selection in place
+||`Ctrl` + `+`| Subdivide
+||`D`|Display
+||`F`|Focus
+||`G`|
+||||`Space`|Context wheel
+||`Q`|Repeat
+||`Ctrl` +  `Q`|Collapse stack
+||Scroll|Smooth selection
+|
+View options|`W`|Wireframe
+||`Shift` + `W`|Wire
+||`Ctrl` + `W`|Show points
+Hide|`H`|Hide
+||`Ctrl` + `H`|Invert |
+||`Shift` + `H` |Unhoide
+|
+Selection Tools|`F2` | Box
+||`F3`|Lasso
+||`F4`|Brush
+||`F5`|Laser
+||`?`|Backmasking
+||`?`|Contained
+Selection Context|`1`| Multi select
+||`2`|Points
+||`3`|Edges
+||`4`|Polys
+||`ctrl` + `1-4`|Convert selection to other type
+|
+Handlers Type|`E`|Transform
+||`R`|Rotate
+||`T`|Scale
+||`Y`|Brush
+Pivot |on wheel menu
+Coordinates  |`Shift` + `Q` | Coords loop  (obj, world, viewport,plane, tweek)
+Move Constraints |
+Selection  |`S` / `Shift`  + `S`|Select
+Selection |`A` / `Shift`  + `A`|Semi loop
+||`Shift` +  `F`|Fill to all contained in type
+||`Shift` +  `S`|Shrink
+||`Shift` +  `G`|Grow
+||`Shift` +  `J`|Pattern
+||`Shift`  + `D`|Normal / Fill selections to borders of group
+Select Groups |`Shift` +  `1`|Toggle select types
+||`Shift` +  `2`|Connected 3d
+||`Shift` +  `3`|Uv
+||`Shift` +  `4`|Name
+|||Groups
+|||Normal
+
+
+|Snap|Point|Edges|
+|-|-|-|
+`Shift` `E`
+`Shift` `R`
+`Shift` `T`
+`Shift` `Y`
+
+
+
+|Edit geo tools|Point|Edges|Border|Poly|
+|-|-|-|-|-|
+`Ctrl` + `A` |-|Make circle |Make circle |Circle
+`Ctrl` +  `D`|Evenly spaced |Evenly spaced|Evenly spaced |Square
+`Ctrl` +  `G`|Straighten|Straighten|Straighten|Flatten n-gone
+`Ctrl` +  `X`|Fuse|Fuse|Fuse|Fuse
+`Ctrl` +  `Shift` `X`|Delete|Delete|Delete|Delete|
+`Ctrl` +  `C`|Relax|Split Knife like tool|Bridge / Fill|Bridge / Fill
+`Ctrl` +  `V`|-|Flip|-|Inset
+`Ctrl` +  `B`|Bevel|Bevel (bridgeborders)|-|Extrude
+|||||Bridge
+
+Fuse / delete (disappear)/ remove
+
+Delete  
+Backspace
+Delete
+Delete and retain poly
+
+
+
 ```
 
 ## PolyDraw
@@ -267,6 +373,9 @@ prims:
 #### `Shift`+`5` Smooth  
 
 ```
+
+
+
 
 # Radial
 
