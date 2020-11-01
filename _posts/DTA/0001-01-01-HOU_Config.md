@@ -100,12 +100,13 @@ MERGE /
 FILL /
 FUSE/
 TOPO BUILD /
-
+groups / (howanie powino)
 --------------
-
+Selection (shortest path and other https://youtu.be/JMBMHSca_j0?t=1612 ) BRAKUJE FICZERA !!!!
 ```
-
-
+brakuje, instancja obiektu https://youtu.be/JMBMHSca_j0?t=3921
+brakuje pivot poitnt dla obiektu ???  
+gtrl +g group ???  i select from groups `9`
 
 # CUSTOM
 `Shift` + `W` - In all windows wireframe mode   
