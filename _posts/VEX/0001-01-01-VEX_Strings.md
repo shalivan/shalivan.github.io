@@ -19,7 +19,7 @@ atoi() and itoa()
 ### to String
 ##### Float
 
-`; ` - name from class nad string    
+` ; ` - name from class nad string    
 `sprintf("%s %d", "piece", @ptnum)` - from string and ptnum  
 `sprintf("_%03d", @ptnum)` - set ptnum as a 3 digits number (001, 002)    
 `sprintf("%08.3f", value)`- padding and number of decimal points it will round to
