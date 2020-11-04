@@ -25,7 +25,7 @@ atoi() and itoa()
 `sprintf("%08.3f", value)`- padding and number of decimal points it will round to
 
 `printf("P = %g, dot(N, P) = %g, %d = %x\n", P, dot(N, P), ptnum, ptnum);`  
-`printf("RGB = {%g,%g,%g}\n", clr.r, clr.g, clr.b);`  
+`printf("RGB = { %g,%g,%g }\n", clr.r, clr.g, clr.b);`  
 `printf("P = %20s\n", "20 chars");`  
 `printf("%-+20s\n", "Left justified and quoted");`  
 `printf("%+08.3g\n", velocity);`  
