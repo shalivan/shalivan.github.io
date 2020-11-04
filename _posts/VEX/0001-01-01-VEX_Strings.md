@@ -8,6 +8,8 @@ tags:
 - Code
 ---
 
+
+```
 ### Strings
 
 atoi() and itoa()
@@ -58,3 +60,4 @@ opdigits("oriev548.hip") << return 548...
 
 `@name = string[0:1];` - H
 `@name = string[0:1];` - Hello worl
+```
