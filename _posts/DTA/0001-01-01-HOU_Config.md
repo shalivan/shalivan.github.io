@@ -108,6 +108,9 @@ brakuje, instancja obiektu https://youtu.be/JMBMHSca_j0?t=3921
 brakuje pivot poitnt dla obiektu ???  
 gtrl +g group ???  i select from groups `9`
 
+
+
+
 # CUSTOM
 `Shift` + `W` - In all windows wireframe mode   
 ~~`Alt` + `W`~~ - close window  
@@ -132,6 +135,8 @@ Options to change
 - standard tumblig wievport
 - secure selection off
 - add paths to 'Open file dialog'
+- add 'render flipbook' outpout: $HIP/$HIPNAME.jpg
+- .json z configiem: ~\Documents\houdini18.5\packages
 
 ----
 

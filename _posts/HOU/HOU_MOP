@@ -1,9 +1,13 @@
 
 
 # Install
-1. Put .json to packages
-2. set proper path to MOPS directory
+1. Put .json to "packages" folder.
+2. set proper path to MOPS directory )not in H folder !
 
+
+
+
+You need to download MOPs from GitHub and then save them somewhere on a local drive or network share. It's important that you **do not** install MOPs directly into your `$HOME/houdiniXX.X` directory, or else it may not properly be loaded when you start Houdini.
 
 
 
@@ -11,7 +15,7 @@
 
 >Modify packed, primitives or template points
 
-# Nodes 
+# Nodes
 
 `Instancer` - copy to point
 `Randomize` - orienteattion
