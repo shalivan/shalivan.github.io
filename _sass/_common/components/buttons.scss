@@ -24,7 +24,7 @@
   width: 22px;
   height: 2px;
   background: $text-color;
-  border-radius: 1px;
+  border-radius: 0px; //1px;
 
   &+.btn-bar { margin-top: 4px; }
 }
