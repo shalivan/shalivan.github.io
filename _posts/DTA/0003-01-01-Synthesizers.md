@@ -12,12 +12,16 @@ permalink: /synth/
 ---
 
 [Music](/music/)  
-[Circuit](/circuit/)  
 
 
-
-
+## Synthesizers
 Create sound in oscillator based on waveform which is filtered and modulated.
+
+[Circuit](/circuit/) - synth  
+[Keystep](/keystep/) - keyboard  
+
+
+
 
 [**Synth playground**](https://learningsynths.ableton.com/en/playground)
 
