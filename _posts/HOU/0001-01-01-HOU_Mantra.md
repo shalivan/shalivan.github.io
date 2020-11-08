@@ -31,7 +31,7 @@ Rendering DICEING: shader quality 1 >> 5
 
 ---
 
-# RAY TRACRING:
+# RAY TRACRING
 
 Ray tracer
 
