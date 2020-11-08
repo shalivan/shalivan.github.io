@@ -16,7 +16,7 @@ permalink: /synth/
 
 
 
-# Synths
+
 Create sound in oscillator based on waveform which is filtered and modulated.
 
 [**Synth playground**](https://learningsynths.ableton.com/en/playground)
@@ -26,7 +26,7 @@ Create sound in oscillator based on waveform which is filtered and modulated.
 
 ---
 
-### Oscillator:
+## Oscillator:
 Create sound in oscillator: Smooth shape, smooth tone , hard; hard tone
 
 |-|-|-|-|
@@ -45,7 +45,7 @@ Noise | very Complex many overtones. Hard Cutting  |Asymmetric | Noise
 
 ---
 
-### Low Frequencies oscillator LFO:
+## Low Frequencies oscillator LFO:
 Low frequency oscillator generate waveform (e.g. sin) like oscillator and using it as control signal modulator
 
 Examples :    
@@ -55,7 +55,7 @@ Examples :
 
 ---
 
-### Filter
+## Filter
 Shape sound and character of waveform
 - open, close
 - resonance
@@ -77,7 +77,7 @@ Env2 Mode  |  how much filter env modulate filter frequencies
 
 ---
 
-### Envelope
+## Envelope
 How fast turn on and down. Determine how much envelop impacts settings. U can modulate: filters, pitch, frequencies, pulse with modulation(shape square wave), amplifier.
 
  envelope’s shape with each new note, some aspect of sound
@@ -91,11 +91,11 @@ Release | decrease to its minimum level after the note is released | Immediately
 
 ---
 
-### Modulation
+## Modulation
 Modulate Wave with additional waves. Using signal to shape aspect of sound over time
 
 
 
 ---
 
-### Arpeggiator
+## Arpeggiator
