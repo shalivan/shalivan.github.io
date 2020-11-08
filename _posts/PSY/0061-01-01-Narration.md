@@ -19,7 +19,8 @@ permalink: /narration/
 - Every medium have it own narration style. Linear narrative is not enough for games.  
 
 
-
+Book is more than one idea.
+Even bad ideas can have nice execution
 ---
 
 #  Plot
@@ -61,7 +62,44 @@ Story world facts | representing (represents exiting world) | stipulating  (stip
 Commentator/Interviewer
 
 
+```
+- cold open (start in adventure)
+- when cleache is well executed is not a cliche (clishe is when its not driving us to the point )
+- premiss proper premies and way to get there
+- obsticle, desire
+- pase
+- overpowered to much , no tention
+- slight differences
+- every step in journey should bring you little bit to final
+
+- fail and find  new: clue, inspiration, information
+- umbrela plot : we will do x because core plot of genre
+- arc (character how will change ) suptle inversion to promies
+- strange attractor (new spin on familiar idea / 2 ideas )
+- plot expansion: instead of twist (u get more than promisied not unexpected change)
+- substitution plot :L give sth elese than what expected (harder to write, )
+- payof should give u everything from premies of begininig +
+- FIRST DRAFT IS OUTLINE
+
+przyklady
+- grb team , make plan , on piece miss, ll go great (oceans)
+- grab team, explain problems, go throu, you have other problem at end (italian job)
+puzzle
+- murder mistery: whn to know what hppened and see if detective is wizer than us
+- romances: wish fulfilmetns
+
+```
+
+- sense of progress from bbullet point to bullet point > sections. and organize them in plot
+
+- change from inactive tro proactive  
+- try fail cycle
 ---
+- dont show monseter but causes it make
+- roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
+
+- promies > progress > payoff
+
 
 ## Structure
 #### Place, Time, Character
@@ -125,6 +163,7 @@ Driven by external / internal motivations
 
 - name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want accomplished, what afraid, what like to do, hidden talent, deepest secret
 
+competence !  
 ### Character Archetypes
 - Hero
 - Sidekick

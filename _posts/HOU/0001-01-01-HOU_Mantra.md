@@ -15,7 +15,7 @@ permalink: /mantra/
 
 
 
-## PBR      
+# PBR      
 Path tracer
 
 realistic light with multip dif bounces. (use rayytrace) and phis light   
@@ -24,14 +24,14 @@ GI - diffuse limits
 
 ---
 
-## MICRO POLIGON  
+# MICRO POLIGON  
 
 (divide to micro polis in buckets) (same as pbr but mp)  
 Rendering DICEING: shader quality 1 >> 5  
 
 ---
 
-## RAY TRACRING:
+# RAY TRACRING:
 
 Ray tracer
 
@@ -61,7 +61,7 @@ Color Limit 4
 
 ---
 
-## PHOTON MAP
+# PHOTON MAP
 Generation (Final gather) for final gather
 
 
