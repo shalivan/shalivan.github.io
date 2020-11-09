@@ -70,3 +70,7 @@ balance stratedy
 
 ##### Exploitative
 -humans make a lot errors  exploit mistakes
+
+
+## Tradegy of the Commons
+Some public good lot of persons contribute noone want to pay cause take a small parts of contribution only.( there is mat trouh to compensate )
