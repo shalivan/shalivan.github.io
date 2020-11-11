@@ -215,6 +215,9 @@ Stimulation - single/multi   calm/thrill
 
 
 #  Emotion
+Psychosomatic evaluative responses based on automatized value-judgements. 
+
+
 >Emotions are motivations by `Discovery, novelty, surprises`
 
 `Game Feel` - is it seem real, does mechanics allow us to do sth. feeling of competence and growth mastery   
