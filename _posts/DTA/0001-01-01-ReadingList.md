@@ -10,8 +10,13 @@ description: List
 ---
 
 
-
-
+To read:
+the machiavellians james burnham    
+The Fountainhead Novel by Ayn Rand   
+The Righteous Mind Haidt  
+Basic Economics - Thomas Sowell     
+The Crowd A Study of the Popular Mind by Gustave Le Bon  
+https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY   
 # Important
 
 Fiodor Dostojewski
