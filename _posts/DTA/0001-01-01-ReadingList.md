@@ -7,6 +7,7 @@ tags:
 - Links
 
 description: List
+permalink: /list/
 ---
 
 
