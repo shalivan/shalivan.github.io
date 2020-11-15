@@ -11,13 +11,16 @@ permalink: /list/
 ---
 
 
-To read:
+# To read
 the machiavellians james burnham    
 The Fountainhead Novel by Ayn Rand   
 The Righteous Mind Haidt  
 Basic Economics - Thomas Sowell     
-The Crowd A Study of the Popular Mind by Gustave Le Bon  
+The Crowd A Study of the Popular Mind by Gustave Le Bon  - cultural, moral, social decay (crysis of lawlessnes, and increasing baurocracy)
 https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY   
+
+---
+
 # Important
 
 Fiodor Dostojewski
@@ -144,3 +147,10 @@ The Experience Economy, Updated Edition
 10. Gulag Archipelago (Vol. 1, Vol. 2, & Vol. 3) – Aleksandr Solzhenitsyn
 11. Man’s Search for Meaning – Viktor Frankl
 15. Affective Neuroscience – Jaak Panksep
+
+
+
+
+# Fun
+
+john marco allegro, the sacred mushroom and the cross    

@@ -13,6 +13,8 @@ Arits: unrealized edns: what nature cannot complite
 ```
 
 
+- Iconic art - product of zeitgeist of era
+
 >ART: is quality production expression or realm acording to estetioc  principles of what is beauty apealing or more than oirdinary significant (emotional responce?)   
 
 ### Duchamp - modern art get rid of word art becuse its not aboutr beauty anymore but it captive imagination. it was not cinicism but art that denay all things ppl think art should be.

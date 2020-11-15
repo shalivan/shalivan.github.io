@@ -15,9 +15,8 @@ permalink: /gametheory/
 
 Context for:  
 [Human Behavioral Biology](/humbio1/)   
+[Personality](/personality/)  
 [Game Mechanics](/gamemechanics/)  
-
-
 
 https://www.youtube.com/c/Gametheory101/videos
 
