@@ -215,7 +215,7 @@ Stimulation - single/multi   calm/thrill
 
 
 #  Emotion
-Psychosomatic evaluative responses based on automatized value-judgements. 
+Psychosomatic evaluative responses based on automatized value-judgements.
 
 
 >Emotions are motivations by `Discovery, novelty, surprises`
@@ -318,5 +318,6 @@ story creativiy
 - building TENTION ?
 ```
 
+r (left), K (right) strategies. 
 
 (For kids short videos are worse than long because of shortening attention span)

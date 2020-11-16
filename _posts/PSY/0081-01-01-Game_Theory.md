@@ -72,4 +72,8 @@ balance stratedy
 
 
 ## Tradegy of the Commons
-Some public good lot of persons contribute noone want to pay cause take a small parts of contribution only.( there is mat trouh to compensate )
+Some public good lot of persons contribute noone want to pay cause take a small parts of contribution only.( there is mat trouh to compensate )   
+
+
+
+r (left), K (right) strategies.

@@ -20,6 +20,18 @@ Rene Descartes
 #### Polar Coordinates
 2d. where x, y >> angle, radius  
 
+Polar (r,θ) to Cartesian (x,y):
+```
+x = r × cos( θ )
+y = r × sin( θ )
+```
+
+Cartesian (x,y) to Polar(r,θ):
+```
+r = √ ( x2 + y2 )
+θ = tan-1 ( y / x )
+```
+
 #### Barycentric coordinates
 is specified as the center of mass, or barycenter,
 
