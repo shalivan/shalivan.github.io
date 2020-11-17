@@ -48,6 +48,12 @@ Many nodes:
 BUGS:
 enter edit after merge / edit mode after chamfer
 
+BY NODE:
+
+Delete
+-  by connectivity i.e groups
+
+
 ```
 - what about a pivot ? / copy to points ? what states. Modeling, moving full parts (copy to points)
 

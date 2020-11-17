@@ -13,7 +13,7 @@ permalink: /list/
 
 # To read
 the machiavellians james burnham    
-The Fountainhead Novel by Ayn Rand   
+
 The Righteous Mind Haidt  
 Basic Economics - Thomas Sowell     
 The Crowd A Study of the Popular Mind by Gustave Le Bon  - cultural, moral, social decay (crysis of lawlessnes, and increasing baurocracy)
@@ -76,6 +76,12 @@ Joseph Campbel
 
 William Golding
 - **Lord of Flies** - (demoralization of society) recurring pattern of falling vs: 'De meeste mensen deugen: Een nieuwe geschiedenis van de mens ' opisane na prewdziwych wydarzeniach z pamietnika, tam chłopcy wspolpracowali
+
+
+# Philosophy
+
+Ayn Rand
+- The Fountainhead - novel Philosophy of objectivism  
 
 ---
 
