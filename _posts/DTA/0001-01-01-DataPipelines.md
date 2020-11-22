@@ -13,46 +13,20 @@ permalink: /datapipelines/
 
 
 
-# Rules
-
-- niezmienna nazwa noda-contenera
-- modelowaną geometrie trzymaj w innym nodzie !!!  
-
-#### Attributes
-
-`s@name` -  prim  
-`i@class` -   reserved to connectivity   
-`i@id` -  particles ?   
-`s@tag` - string in  new scatter
-
-
-#### Channels
-
-###### prefix/sufix
-oznaczenia czesci A B C D jak jest policzalna ilosc, jak nie to liczby  
-`cd`,  `ao`, `cv` ,`th` ,`fb` ,`h` ,`a` ,`p`
-`nm`, `wn` ,`bn`
-
----
-
-
 
 
 # Paths
 
-|per container:|||
-|-|-|-|
-```$HIP/`opname("..")`/export/$OS.fbx``` |  Mesh| Export  
-```$HIP/`opname("..")`/cache/$OS.bgeo```  | Mesh |Cache  
-```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` | Simulation  |Cache  
-```$HIP/`opname("..")`/bake/${OS}/${OS}_$(CHANNEL).tif``` | Maps Bake  
-```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL). ..?``` | Vertex Anims  
 
+```$HIP/`opname("..")`/export/$OS.fbx``` - Mesh  Export   
+```$HIP/`opname("..")`/cache/$OS.bgeo```  -  Mesh  Cache    
+```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` -  Simulation   Cache   
 
+```$HIP/`opname("..")`/bake/${OS}/${OS}_$(CHANNEL).tif``` -  Maps Bake    
+```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` -  Vertex Anims    
+```$HIP/`opname("..")`/bake/${OS}_sequence``` - TextureSheet/MorionVector seqence      
+```$HIP/`opname("..")`/bake``` - TextureSheet/MorionVector   
 
-```$HIP/`opname("..")`/bake/${OS}_sequence``` - TextureSheet/MorionVector seqence    
-```$HIP/`opname("..")`/bake``` - TextureSheet/MorionVector    
-```$HIP/`opname("..")`/cache/sim_`opinput(".", 0)`/`opinput(".", 0)`.`$F+1`.bgeo```  -  name from upstream node input0 with previous frame  
 
 
 
@@ -62,15 +36,10 @@ oznaczenia czesci A B C D jak jest policzalna ilosc, jak nie to liczby
 ```$HIP/`opname("..")`/material/fileA.png``` - Export    / in same folder as  spp/sbs   
 
 
-*.spexp - E:\Documents\Allegorithmic\Substance Painter\shelf\export-presets  
 
 #### Zbrush
 ```$HIP/geo_`opname("..")`/zbrush/fileA.ztl``` - Tool (ctrl shift T)
->Documents>SaveAs ZBrush Document.ZBR   
-Preferences>Enable customisation   and Ctrl+Alt drag
-*.cfg - custom UI  Preference>StoreConfig  
-*.zep - Brushes C:\Program Files\Pixologic\ZBrush 2020\ZStartup\BrushPresets  
-*.zmt - Matcaps C:\Program Files\Pixologic\ZBrush 2020\ZStartup\Materials  
+
 
 ### PDG
 ```$HIP/geo_`opname("../..")`/top/`opname("../..")`_part`@wedgeindex`.bgeo.sc``` - ROP Geometry
@@ -78,11 +47,9 @@ Preferences>Enable customisation   and Ctrl+Alt drag
 
 
 
----
+### Folders
 
-
-# Folders
-
+`$HIPNAME.hip`
 fileA.fbx - export    
 fileA_LOD1.fbx - lod    
 fileA_paint.fbx - export for painting    
@@ -92,27 +59,50 @@ fileA_hi.fbx - high for bake
 ` $HIP/raw/ ` - Sources    
 ` $HIP/ref/ ` - References    
 
+
+---
+
+# Rules
+
+- niezmienna nazwa noda-contenera
+- modelowaną geometrie trzymaj w innym nodzie !!!  
+
+#### Attributes
+
+- `s@name` -  prim  
+- `i@class` -   reserved to connectivity   
+- `i@id` -  particles ?   
+- `s@tag` - string in  new scatter
+
+#### Sufixes
+
+**Mesh Parts** - oznaczenia czesci A B C D jak jest policzalna ilosc, jak nie to liczby  
+**Maps Channels** - `cd`,  `ao`, `cv` ,`th` ,`fb` ,`h` ,`a` ,`p` `nm`, `wn` ,`bn`
+
+---
+
+# Configs
+
+#### Substance
+
+
+(*.spexp - E:\Documents\Allegorithmic\Substance Painter\shelf\export-presets)  
+
+#### Zbrush
+
+
+Documents>SaveAs ZBrush Document.ZBR   
+Preferences>Enable customisation   and Ctrl+Alt drag
+*.cfg - custom UI  Preference>StoreConfig  
+*.zep - Brushes C:\Program Files\Pixologic\ZBrush 2020\ZStartup\BrushPresets  
+*.zmt - Matcaps C:\Program Files\Pixologic\ZBrush 2020\ZStartup\Materials  
+
+
 ---
 
 
 
-### .env
 
-
-
-PDG_IMAGEMAGICK = "..magic.exe"  
-PDG_FFMPEG = ".. ffmpeg.exe"   
-CURVES IN EDITOR: python2.7libs fcurves.py 3 files / HSITE = ""  
-
-python:?
-
-
-
-### transforms:
-OBJ TO FBX: Rotate 90
-
-
-`$HIPNAME.hip`
 
 # Res
 
@@ -152,12 +142,35 @@ WHAT FORMAT AND COMPRESSION TO UNREAL
 `*.sbsar` - Substance Archive    
 `*.iff`- maya “z-depth”    
 
+
+
+---
+
+
+
+
+
 # P4
 `Accept Source` GEt clean file from repo, discarding your changes.  
 `Accept Target` Accepts the file local, overwriting repo.  
 
 
 ---
-
+# Tools
 
 C:\Program Files\Side Effects Software\Houdini 18.0.432\bin\Gplay - przegladarka 3d  
+
+
+
+```
+
+### .env
+
+
+
+PDG_IMAGEMAGICK = "..magic.exe"  
+PDG_FFMPEG = ".. ffmpeg.exe"   
+CURVES IN EDITOR: python2.7libs fcurves.py 3 files / HSITE = ""  
+
+python:?
+```

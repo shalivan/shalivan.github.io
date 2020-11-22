@@ -45,6 +45,9 @@ Radial menus:
 Many nodes:
 - subnet is almost good, but it change visibility.
 
+
+Rotate points !: add > transform acannot rotete points. 
+
 BUGS:
 enter edit after merge / edit mode after chamfer
 
