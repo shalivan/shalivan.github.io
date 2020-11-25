@@ -17,34 +17,29 @@ permalink: /datapipelines/
 
 # Paths
 
-
+Export / Cache  
 ```$HIP/`opname("..")`/export/$OS.fbx``` - Mesh  Export   
 ```$HIP/`opname("..")`/cache/$OS.bgeo```  -  Mesh  Cache    
-```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` -  Simulation   Cache   
+```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` -  Simulation   Cache  
 
+Bakes  
 ```$HIP/`opname("..")`/bake/${OS}/${OS}_$(CHANNEL).tif``` -  Maps Bake    
-```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` -  Vertex Anims    
+
 ```$HIP/`opname("..")`/bake/${OS}_sequence``` - TextureSheet/MorionVector seqence      
 ```$HIP/`opname("..")`/bake``` - TextureSheet/MorionVector   
 
+Vertex Anims   
+```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` -  Vertex Anims     
+``` $HIP/export/`chs("_component")`_vat```   
+``` `chs("_project")`/`chs("_component")`_xxx.fbx```  
+
+KineFx  
+```$HIP/.... .fbx``` -  FBX Character Export  
+```$HIP/.... .fbx``` - FBX Animation Output  
 
 
-
-#### Substance
-
-```$HIP/`opname("..")`/material/fileA.sbs``` - Substance     Designer / Painter          
-```$HIP/`opname("..")`/material/fileA.png``` - Export    / in same folder as  spp/sbs   
-
-
-
-#### Zbrush
-```$HIP/geo_`opname("..")`/zbrush/fileA.ztl``` - Tool (ctrl shift T)
-
-
-### PDG
+PDG  
 ```$HIP/geo_`opname("../..")`/top/`opname("../..")`_part`@wedgeindex`.bgeo.sc``` - ROP Geometry
-
-
 
 
 ### Folders
@@ -58,6 +53,9 @@ fileA_locage.fbx - cage to bake
 fileA_hi.fbx - high for bake     
 ` $HIP/raw/ ` - Sources    
 ` $HIP/ref/ ` - References    
+```$HIP/geo_`opname("..")`/zbrush/fileA.ztl``` - Tool (ctrl shift T)
+```$HIP/`opname("..")`/material/fileA.sbs``` - Substance     Designer / Painter          
+```$HIP/`opname("..")`/material/fileA.png``` - Export    / in same folder as  spp/sbs   
 
 
 ---

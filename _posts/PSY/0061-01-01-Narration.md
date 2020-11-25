@@ -11,6 +11,18 @@ tags:
 permalink: /narration/
 ---
 
+Show not tell
+showing dramatize
+tell summarize
+
+as long as it character thing its ok,
+stronger showing
+- use evidence for claims
+- emotions are complex concept and must be shoiwn with details
+
+give 2+2
+
+filter words to show perspopective of character
 
 
 
@@ -48,6 +60,9 @@ show vs tell - showing dramatizes / telling summarize
 First Person | I Me My  | character is telling the story.
 Second Person | You/Your  | narrator speak to the reader.
 Third Person | She/He Her/His | external narrator is telling the story.
+
+First Person - connection,m acces to thoughts. They share emotions. / in vilan shose you can understand vilan. / strong characterisation
+but: restricted to one chatacter, dificult .
 
 
 #### Narrator types

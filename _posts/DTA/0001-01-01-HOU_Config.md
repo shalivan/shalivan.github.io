@@ -46,7 +46,7 @@ Many nodes:
 - subnet is almost good, but it change visibility.
 
 
-Rotate points !: add > transform acannot rotete points. 
+Rotate points !: add > transform acannot rotete points.
 
 BUGS:
 enter edit after merge / edit mode after chamfer
@@ -56,6 +56,8 @@ BY NODE:
 Delete
 -  by connectivity i.e groups
 
+Material
+- `9` - select by material
 
 ```
 - what about a pivot ? / copy to points ? what states. Modeling, moving full parts (copy to points)
