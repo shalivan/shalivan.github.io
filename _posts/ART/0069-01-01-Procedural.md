@@ -13,6 +13,9 @@ permalink: /procedural/
 
 
 
+https://bleuje.github.io/tutorials/
+
+
 #### Procedurals
 >procedural ;
 - scalability
@@ -29,19 +32,6 @@ permalink: /procedural/
 # Patterns
 
 Franz Sales Meyer - A handbook of ornament (1920)
-## Fractals
-
-
-https://medium.com/data-mining-the-city/fractal-cities-d39e63ce23bb
-
-
-https://orangejellies.booth.pm/
-
-
-
-
-https://github.com/jasonwebb/morphogenesis-resources
-
 
 
 # Emergent systems

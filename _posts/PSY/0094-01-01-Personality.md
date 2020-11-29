@@ -11,6 +11,11 @@ description: Individual vs Collective
 permalink: /personality/
 ---
 
+
+
+Difference in between individual and population level analysis  -  collective action problems.
+
+
 # Individual
 
 ### Personality traits
@@ -44,6 +49,8 @@ Lifestyle preferences| Judging | Perciving
 
 
 # Collective
+
+Tragedy of commons  
 
 
 [Game Theory](/gametheory/)

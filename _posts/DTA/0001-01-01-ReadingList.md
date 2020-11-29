@@ -85,16 +85,6 @@ Ayn Rand
 
 ---
 
-# Fiction
-
-David Mitchell - **Cloud Atlas**  
-Frank Herbert - **Dune**    
-James Joyce - **Finnegan's Wake**    
-
-Hunter S. Thompson
-- **Fear and loathing in Las Vegas**
-- **The Rum Diary**
-- **Where the Buffalo Roam**
 
 # Science
 
@@ -105,28 +95,40 @@ Daniel Kahneman
 - **Thinking, Fast and Slow** -
 
 
+The Crowd A Study of the Popular Mind by Gustave Le Bon - Audiobook
+
 ---
 
 # Art
 
-- **The Illusion of life: Disney animation** (Frank Thomas, Ollie Johnston) -   
-- **Anatomy of Facial Expression** (Uldis Zarins) -   
-- **Anatomy for Sculptors: Understanding the Human Form** (Uldis Zarins, Sandis Kondrat) -    
-- **The Algorithmic Beauty of Plants** (Przemyslaw Prusinkiewicz) -    
+Frank Thomas, Ollie Johnston - **The Illusion of life: Disney animation**    
+Uldis Zarins - **Anatomy of Facial Expression**      
+Uldis Zarins, Sandis Kondrat - **Anatomy for Sculptors: Understanding the Human Form**    
+Przemyslaw Prusinkiewicz - **The Algorithmic Beauty of Plants**  
 
-The Animator's Survival Kit: A Manual of Methods, Principles and Formulas for Classical, Computer, Games, Stop Motion and Internet Animators
+**The Animator's Survival Kit: A Manual of Methods, Principles and Formulas for Classical, Computer, Games, Stop Motion and Internet Animators**  
 
 
 ---
 
 # Design
-Jessica Helfand - **Reinventing the Wheel**
-
-**Data Flow: Visualising Information in Graphic Design**
+Jessica Helfand - **Reinventing the Wheel**  
+**Data Flow: Visualising Information in Graphic Design**   
+Jacobson, Max; Silverstein, Murray; Winslow, Barbara - **The Good House: Contrast as a Design Tool**      
 
 
 ---
+# Fiction
 
+David Mitchell - **Cloud Atlas**  
+Frank Herbert - **Dune**    
+James Joyce - **Finnegan's Wake**    
+
+Hunter S. Thompson
+- **Fear and loathing in Las Vegas**
+- **The Rum Diary**
+- **Where the Buffalo Roam**
+---
 
 
 # Programing
@@ -153,7 +155,6 @@ The Experience Economy, Updated Edition
 10. Gulag Archipelago (Vol. 1, Vol. 2, & Vol. 3) – Aleksandr Solzhenitsyn
 11. Man’s Search for Meaning – Viktor Frankl
 15. Affective Neuroscience – Jaak Panksep
-
 
 
 

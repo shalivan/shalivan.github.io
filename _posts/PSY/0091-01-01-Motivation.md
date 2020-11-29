@@ -237,6 +237,11 @@ Cooperation give chance for Positive externalities (benefit for others)
 - Dunning-Kruger Effect
 
 
+TOXICITY IN HUM BIO II
+
+
+https://www.google.com/search?q=emotion+wheel&sxsrf=ALeKk01LnyPDVP1QuPfYyQXYOeT_Co6y6Q:1606525739378&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjrhpLghqTtAhXloosKHcSdDBQQ_AUoAXoECAwQAw&biw=1536&bih=758
+
 
 
 
@@ -318,6 +323,6 @@ story creativiy
 - building TENTION ?
 ```
 
-r (left), K (right) strategies. 
+r (left), K (right) strategies.
 
 (For kids short videos are worse than long because of shortening attention span)

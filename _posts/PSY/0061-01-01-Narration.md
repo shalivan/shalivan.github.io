@@ -10,6 +10,17 @@ tags:
 - Cognition
 permalink: /narration/
 ---
+mechanick video storytell:
+- odcinnie ryb
+- nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
+morrals
+attach to charcter
+
+dyolemat niejednoznaczne rozwiazanie
+ryzyko
+twist
+
+
 
 Show not tell
 showing dramatize
@@ -26,6 +37,22 @@ filter words to show perspopective of character
 
 
 
+known   
+known unknown   
+unknown unknow  
+
+emotions :
+- thrill
+- positive
+- interest rythm,
+
+- do you have power over the world
+-
+zagrozenie i jak mozena je pokonac (kill it / craft to survive )
+RESPONCE -
+
+
+(opening > crises > up tension > climax > denouement  )
 # Medium
 - See or listen not as powerful as play themselves
 - Every medium have it own narration style. Linear narrative is not enough for games.  
@@ -36,6 +63,7 @@ Even bad ideas can have nice execution
 ---
 
 #  Plot
+(unique story or have a twist or sth to say. Try to implement plot in mechanics)
 Telling stories is in human nature.
 
 **Story** the story tells who and what. is a series of events recorded in their chronological order. a sequence of events,  The story includes all of the events described that make up a narrative.  
@@ -195,7 +223,9 @@ competence !
 
 
 ---
-# Themes
+
+# Lore
+Themes / levels /   
 What is about / what thread bind it together
 
 
@@ -221,7 +251,7 @@ Nature | Slow, Preserve | Site (place, forever)
 
 
 
-# Eastern vs Western philosophy
+# Eastern/Western philosophy
 
 
 ||Western |Eastern |

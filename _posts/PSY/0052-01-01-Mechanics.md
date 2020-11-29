@@ -47,7 +47,7 @@ a-b mission Endgame [Narration](/narration/)/sandbox / vechicle /
 |Rouglike |
 |rywalizacja | sportowa/ wyscigi
 |sandbox|
-
+survival| 
 |||
 |---|---|
 singiel | stroy
@@ -59,6 +59,7 @@ multi | PvP / PvE
 |realtime|
 |timelimits|
 |keys and bariers > progress|
+
 
 ---
 

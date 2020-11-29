@@ -10,6 +10,12 @@ description:  Houdini solver.
 permalink: /doppyrodense/
 ---
 
+
+
+PYRO SHADING
+- know your max density values !!!
+
+
 # PYRO
 >PYRO Dense is not using Sparse!
 
