@@ -67,10 +67,12 @@ fileA_hi.fbx - high for bake
 
 #### Attributes
 
-- `s@name` -  prim  
-- `i@class` -   reserved to connectivity   
-- `i@id` -  particles ?   
-- `s@tag` - string in  new scatter
+- `s@name` -  [prim] , joints names
+- `i@class` -  reserved to connectivity   
+- `i@id` -  particles    
+- `s@tag` - string in new scatter
+- `variation` - copy to point / new scatter
+
 
 #### Sufixes
 

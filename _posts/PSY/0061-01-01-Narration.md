@@ -10,6 +10,8 @@ tags:
 - Cognition
 permalink: /narration/
 ---
+
+
 mechanick video storytell:
 - odcinnie ryb
 - nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
@@ -53,6 +55,9 @@ RESPONCE -
 
 
 (opening > crises > up tension > climax > denouement  )
+
+
+contrast: elemental oposites. dobro zło ogien lod 
 # Medium
 - See or listen not as powerful as play themselves
 - Every medium have it own narration style. Linear narrative is not enough for games.  
