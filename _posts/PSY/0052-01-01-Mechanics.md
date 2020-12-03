@@ -47,7 +47,7 @@ a-b mission Endgame [Narration](/narration/)/sandbox / vechicle /
 |Rouglike |
 |rywalizacja | sportowa/ wyscigi
 |sandbox|
-survival| 
+survival|
 |||
 |---|---|
 singiel | stroy
@@ -60,7 +60,8 @@ multi | PvP / PvE
 |timelimits|
 |keys and bariers > progress|
 
-
+https://www.youtube.com/watch?v=fwVPh9KtKh4  Video Games Don't Need to Be Fun -GameSpot    
+https://www.youtube.com/watch?v=ABC7PjrTGFs Cloud Atlas p  
 ---
 
 # Players
