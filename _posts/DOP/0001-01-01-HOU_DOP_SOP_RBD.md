@@ -7,7 +7,7 @@ tags:
 - DOP
 - Houdini
 description: RAW! Houdini solver.
-permalink: /rbd/
+permalink: /rbdsop/
 ---
 
 
