@@ -5,6 +5,7 @@ categories:
  - HOU
 tags:
 - Houdini
+- SOP
 description: Houdini landscape 2d fields.
 permalink: /heightfields/
 ---

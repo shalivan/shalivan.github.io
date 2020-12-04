@@ -2,7 +2,7 @@
 title: DOP  PYRO
 
 categories:
- - HOU
+ - DOP
 tags:
 - DOP
 - Houdini
