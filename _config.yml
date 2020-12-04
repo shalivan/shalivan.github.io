@@ -122,6 +122,7 @@ menu:
   #home: /
   #about: /about/
   vex: /category/#/VEX
+  dop: /category/#/DOP
   hou: /category/#/HOU
   #ue4: /category/#/UE
   soft: /category/#/DTA
@@ -153,6 +154,7 @@ menu_icons:
   art: paint-brush
   soft: image
   soft: bar-chart
+  dop: cubes
   #code: terminal
   code: tv
   psy: lightbulb-o
