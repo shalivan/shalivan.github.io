@@ -39,8 +39,8 @@ KineFx
 
 
 PDG  
-```$HIP/geo_`opname("../..")`/top/`opname("../..")`_part`@wedgeindex`.bgeo.sc``` - ROP Geometry
-
+```./NodeName/top/TopNodeName/FileName.```  
+```$HIP/geo_`opname("../..")`/top/`opname("..")`/part`@top_name`.bgeo.sc``` - ROP Geo
 
 ### Folders
 
@@ -53,9 +53,9 @@ fileA_locage.fbx - cage to bake
 fileA_hi.fbx - high for bake     
 ` $HIP/raw/ ` - Sources    
 ` $HIP/ref/ ` - References    
-```$HIP/geo_`opname("..")`/zbrush/fileA.ztl``` - Tool (ctrl shift T)
-```$HIP/`opname("..")`/material/fileA.sbs``` - Substance     Designer / Painter          
-```$HIP/`opname("..")`/material/fileA.png``` - Export    / in same folder as  spp/sbs   
+```$HIP/AssetName/zbrush/fileA.ztl``` - Tool (ctrl shift T)  
+```$HIP/AssetName/material/fileA.sbs``` - Substance     Designer / Painter          
+```$HIP/AssetName/material/fileA.png``` - Export    / in same folder as  spp/sbs   
 
 
 ---
@@ -64,6 +64,7 @@ fileA_hi.fbx - high for bake
 
 - niezmienna nazwa noda-contenera
 - modelowaną geometrie trzymaj w innym nodzie !!!  
+- TOP net nie zmieni wedgeparamsa po zmianie nazwy noda
 
 #### Attributes
 

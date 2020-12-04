@@ -1,3 +1,17 @@
+---
+title: DOP RBD
+
+categories:
+ - HOU
+tags:
+- DOP
+- Houdini
+description: RAW! Houdini solver.
+permalink: /rbd/
+---
+
+
+
 
 - work with packed geometry  
 - to wiev subframes: in global anim options  (global subs?) And Time is float turn off /  solver substeps (expensive when stacking obj)  / constrain substeps  
@@ -46,7 +60,7 @@ if its plane turn off volume based collision
 - mode: collision intersect to volume source
 - proxy volume: vdb path  
 
-Invert sign - reverse collision 
+Invert sign - reverse collision
 
 ### `RDB Object`  
 Also use for collision in flips  flips  (FLIP Fluids https://vimeo.com/116176349)
