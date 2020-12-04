@@ -13,7 +13,7 @@ permalink: /vellumsop/
 
 
 
-<span style="color: #F09900"> HIP:</span> [Vellum SOP](/src/hip/DOP_VellumSOP.hiplc)  
+[Vellum SOP.hiplc](/src/hip/DOP_VellumSOP.hiplc)  
 
 
 <!-- more -->
@@ -21,6 +21,7 @@ permalink: /vellumsop/
 # Constraints
 Constraints are geometry attributes. Add in sop and edit it in `velum Constrains Properties` inside vellum solver to modify constr dynamicly
 
+### Types
 
 || Effect | |When to use||
 |---|---| ------------------------------------------------------------------------|---|-|
@@ -37,19 +38,15 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 **Tetra** |  | Uncompresable Volume Tetrahedral fwm  (requiure tetrah geo: solid conf SOP)   |  Liquids
 **Struts** |  Stretch Body| Conect opose sides. Good for stftb. that does not stiff tu much   
 
-#####  Hard
- [Direct update] |Create / remove by setting point attribute:
 
-||Hard | | -||
+|[Direct update]|Hard |  Create / remove by setting point attribute | -||
 |---|---| ------------------------------------------------------------------------|---|-|
 **PinHard**   | Geometry point attributes  | Set type: permament/stopped.  `stopped`, `pintoanimation`  |Pin to Target position |  ![](/src/vellum/pinhs.png)  
 **Weld**  | Geometry point attributes   | Threat pts as one point and will look like 1 object  Can break at stress level.  (add bend across weld for smooth normal) Autobreakable (pre-tearing)  `weld`, use pointid or groups ! | Same @P (fuse), Fractured cloth |   ![](/src/vellum/welds.png)
 
 
-##### Soft
-[Solvable]  Create / remove by `vellumconstraintproperty` DOP node.  [plasticity / autobreakable]
 
-||Soft |  | -||
+|[Solvable]|Soft |   Create / remove by `vellumconstraintproperty` DOP node.   | [plasticity / autobreakable]||
 |---|---| ------------------------------------------------------------------------|---|-|
 **PinSoft**  | Constraint primitive | Pin to Target  position (remove manualy constr) / stiffness(magnes) |  Magness, Pin to own anim to get detail in existing movement   | ![](/src/vellum/pinss.png)
 **Stich**  |Constraint primitive|  Soft or Stich Weld.  Points with in 2 groups that are far - keeping them apart. Can stitch to poligon instead point. SLIDE (remove manualy constr) plasticity. Can have spaces between points | Additional cloth pieces, keep distance  | ![](/src/vellum/stitchs.png)
@@ -61,14 +58,10 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 **Attach**  |  |  Stick to closest point on geometry & keep distance    |  Anim objects
 
 
+### Parameters
 
-
-
-
-# Constraints parameters
-
-##### Geometry
-
+#### Geometry
+-
 || low | ||
 |-|-|-|-|
 |**Mass** |  0 - mass inactivete  || Can set from param or calculate
@@ -77,14 +70,14 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 check thickness. should be smaller than distas between points
 
 
-##### Drag
+#### Drag
 Slow down motion
 
 
 
 
 
-#### Stretch
+### Stretch
 For cloths, curves or constraints (like attach)
 
 ||low |high ||
@@ -98,7 +91,7 @@ For cloths, curves or constraints (like attach)
 
 - wrinkliness (with low res sim lower param help to remove jagginess) / (if compress how likley it stay compressed)  more is more likely stay  (decrease more smooth look and dont enforce wrinkles)  
 
-#### Bend
+### Bend
 
 ||low |high ||
 |-|-|-|-|
@@ -113,7 +106,7 @@ For cloths, curves or constraints (like attach)
 
 
 
-#### Pin To Animation
+### Pin To Animation
 
 submenu Wystepuje w curves lub pin to target
 
@@ -124,7 +117,7 @@ submenu Wystepuje w curves lub pin to target
 `Orient Pin` - for hairs    
 `Match to Animation` - animate with object    `i@pintoanimation = 1`
 
-#### Breaking
+### Breaking
 
 Weld have stress threshold
 Different types by: Stress or Ratio  (sensitive, low values)
@@ -139,15 +132,55 @@ normalize stress on solver -  to normalizes for sub steps change
 ![](/src/vellum/vellumtargetsmall.png)
 
 
+
+
+```
+EXISTING SETUPS
+### `[Vellum Configure Cloth]`
+
+### `[Vellum Configure Baloon]`
+= cloth Constraint + Pressure Constraint     
+- anim stretch on pressre   
+- change volume by - rest length scale    
+
+Expose output group in pressure  `@pstretch` - @VellumsconstraintProperty inside solver forces
+`cluster points` - to glue constrain
+
+
+
+### `[Vellum Configure Soft Body]`
+= cloth + struts     
+
+### `[Vellum Configure Grain]`
+Increase substeps 5+   
+`@breaktreshold` / `@isgrain = 1` / `@mass` / `@pscale` / `@v` -   
+```
+animating constraints:  
+```
+https://youtu.be/NwabG-znu9Y?t=5745 - H 17 advanced wath end
+https://www.youtube.com/watch?v=zPQZ8KJTjzo - H 18
+https://www.youtube.com/watch?v=iHtdex9kM-A - grab constr
+https://youtu.be/qAraO2E-v84 - megaplex part 1 (part 2 on gum)
+https://www.youtube.com/watch?v=8ge2W7KKwf8&t=163s - entagma stitches
+https://youtu.be/rQw2UZGWP-0 - rozwijanie płachty
+```
+
+
 ---
 
-# Solver
- (Vellum Solver SOP > Dopnet1 > forces) you can set dynamic behavior and constrains (each frame) and use pop forces  
+# Solver Forces
 
-## `[Velum Constrains]`
+
+1. OBJECT
+2. CONSTRAINT
+3. COLLISION
+
+
+
+## `[Velum Constrains]` DOP
 Set constraints here (change from 1'st to each frame creation)  
 
-## `[Velum Constraint Properties]`
+## `[Velum Constraint Properties]` DOP
 Change constraints properties  (can animate here )
 
 #### Remove Pin Constraint
@@ -158,14 +191,14 @@ Unpin for soft constraints
 
 (WHEN u have animation, animate after constraints and before solver )
 
-## `[Vellum Rest Blend]`
+## `[Vellum Rest Blend]` DOP
 Blend 2 meshes to change rest position    
 
 
 
-## `[Pop Force]` -  
+## `[Pop Force]`  DOP
 
-## `[Geometry Wrangle]`  
+## `[Geometry Wrangle]`  DOP
 
 
 Unpin for hard pin (Type: Stopped):
@@ -225,18 +258,9 @@ run in for loop with feedback.
 Surfeca colider You dont need VDB  
 You can ad per point `friction` attribute  
 
+
+
 ---
-
-# animating constraints:  
-```
-https://youtu.be/NwabG-znu9Y?t=5745 - H 17 advanced wath end
-https://www.youtube.com/watch?v=zPQZ8KJTjzo - H 18
-https://www.youtube.com/watch?v=iHtdex9kM-A - grab constr
-https://youtu.be/qAraO2E-v84 - megaplex part 1 (part 2 on gum)
-https://www.youtube.com/watch?v=8ge2W7KKwf8&t=163s - entagma stitches
-https://youtu.be/rQw2UZGWP-0 - rozwijanie płachty
-```
-
 # Drape
 
 ###   `[Vellum Solver drape]` SOP
@@ -264,42 +288,4 @@ Drape solver help resolve cloths
 
 
 
-
-
-
-
-```
-##### Glue Stretch
-##### Strut Stretch
-
-||low |high ||
-|-|-|-|-|
-**tangent stiff** |maintain distnce  but rotate | maintain angle as well
-
-
-##### Target Geometry
-##### Closest Point
-```
-
 ---
-
-```
-### `[Vellum Configure Cloth]`
-
-### `[Vellum Configure Baloon]`
-= cloth Constraint + Pressure Constraint     
-- anim stretch on pressre   
-- change volume by - rest length scale    
-
-Expose output group in pressure  `@pstretch` - @VellumsconstraintProperty inside solver forces
-`cluster points` - to glue constrain
-
-
-
-### `[Vellum Configure Soft Body]`
-= cloth + struts     
-
-### `[Vellum Configure Grain]`
-Increase substeps 5+   
-`@breaktreshold` / `@isgrain = 1` / `@mass` / `@pscale` / `@v` -   
-```
