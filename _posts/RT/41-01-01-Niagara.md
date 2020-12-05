@@ -34,13 +34,10 @@ https://youtu.be/3wcTor5rwmE - pre particle no force
 https://www.youtube.com/c/UnrealSimon/featured
 
 
-asfafsasf
-Parameters, Attributes
------
-asfasf
+
 
 # Parameters, Attributes
------
+
 
 ###  Name Space
 

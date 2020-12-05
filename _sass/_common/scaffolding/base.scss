@@ -30,7 +30,24 @@ h1 {
   font-family: $font-family-headings;
 }
 
-h2, h3, h4, h5, h6 {
+
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  color: #FFD949; // ADD DODAŁEM !
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: $font-family-headings;
+}
+
+
+
+
+
+
+h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   color: #FFF; // ADD DODAŁEM !
