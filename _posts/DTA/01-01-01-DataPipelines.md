@@ -52,8 +52,8 @@ fileA_lo.fbx - low to bake
 fileA_locage.fbx - cage to bake      
 fileA_hi.fbx - high for bake     
 
-`raw/` - Sources     
-`ref/` - References      
+`raw` - Sources     
+`ref` - References      
 `AssetName/export/NodeName.fbx` -       
 `AssetName/export/bake/NodeName/NodeName_channel` -       
 `AssetName/export/niagara/` -     
@@ -73,8 +73,14 @@ fileA_hi.fbx - high for bake
 
 #### Attributes
 
-- `s@name` -  [prim] , joints names
-- `i@class` -  reserved to connectivity   
+Base
+- `v@N` (vert) -  
+- `@P`, `v@rest`, `v@Cd`, `i@id`, `@Alpha` (point)  
+- `s@shop_materialpath` (prim) - to split mesh in partes / or do it by primitive Groups: Attr copy to `name`  
+
+Manage
+- `s@name` -  (prim) , joints names
+- `i@class` -  (prim), reserved to connectivity   
 - `i@id` -  particles    
 - `s@tag` - string in new scatter
 - `variation` - copy to point / new scatter
@@ -82,19 +88,15 @@ fileA_hi.fbx - high for bake
 
 #### Sufixes
 
-**Mesh Parts** - oznaczenia czesci A B C D jak jest policzalna ilosc, jak nie to liczby  
-**Maps Channels** - `cd`,  `ao`, `cv` ,`th` ,`fb` ,`h` ,`a` ,`p` `nm`, `wn` ,`bn`
+- **Mesh Parts** - oznaczenia czesci A B C D jak jest policzalna ilosc, jak nie to liczby  
+- **Maps Channels** - `cd`,  `ao`, `cv` ,`th` ,`fb` ,`h` ,`a` ,`p` `nm`, `wn` ,`bn`
 
 ---
 
 ## Modeling
 Houdini 1 U = 1m Zbrush - scale * 100  obj rotation ?    
-`s@shop_materialpath` (prim) - to split mesh in partes / or do it by primitive Groups: Attr copy to `name`  
-`s@name` (prim) - label    
-`i@class` (prim) -    
-`v@N` (vert) -   
-`@P`, `v@rest`, `v@Cd`, `i@id`, `@Alpha` (point)  
-`UCX_*` - from houdini need to be in separated containers  named UCX_nameOfGeoContainer. - object level  (make container !!! and ROPnet > fbx)  
+
+- `UCX_*` - from houdini need to be in separated containers  named UCX_nameOfGeoContainer. - object level  (make container !!! and ROPnet > fbx)  
 
 
 
@@ -103,5 +105,5 @@ Houdini 1 U = 1m Zbrush - scale * 100  obj rotation ?
 
 
 # P4
-`Accept Source` GEt clean file from repo, discarding your changes.  
-`Accept Target` Accepts the file local, overwriting repo.  
+- `Accept Source` GEt clean file from repo, discarding your changes.  
+- `Accept Target` Accepts the file local, overwriting repo.  
