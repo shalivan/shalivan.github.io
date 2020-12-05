@@ -57,7 +57,7 @@ RESPONCE -
 (opening > crises > up tension > climax > denouement  )
 
 
-contrast: elemental oposites. dobro zło ogien lod 
+contrast: elemental oposites. dobro zło ogien lod
 # Medium
 - See or listen not as powerful as play themselves
 - Every medium have it own narration style. Linear narrative is not enough for games.  
@@ -223,6 +223,8 @@ competence !
 - Child-like adult
 - Adult-like child
 - Mother
+
+### Character Appearance
 
 [Characters](/characters/)  
 

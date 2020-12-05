@@ -13,6 +13,9 @@ tags:
 permalink: /niagara/
 ---
 
+Niagara 16 params can send to material
+U can accse only depth buffer can read  
+
 Niagara can intreract with:  
 - Triangles  - u must point to spoecific mesh in query  
 - Phys Volumetric  
@@ -31,12 +34,13 @@ https://youtu.be/3wcTor5rwmE - pre particle no force
 https://www.youtube.com/c/UnrealSimon/featured
 
 
+asfafsasf
+Parameters, Attributes
 -----
-
-
+asfasf
 
 # Parameters, Attributes
-
+-----
 
 ###  Name Space
 
@@ -48,7 +52,7 @@ https://www.youtube.com/c/UnrealSimon/featured
 |`Engine` |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
 |`Module` | Module | Module | Module | expose a module input to the System and Emitter Editor
 |`Module Locals` | Module | Module | not persist f2f, or between stages| Transient values.
-|
+|User
 |INPUT.|Y||| Use inside of module for promoted Parameters
 |LOCAL.|||| Truly local for function !
 Output ||Y|| pay for calculate but not for adding it to emiter (parameter writes)
@@ -499,8 +503,20 @@ Occlusion of point in time can do for point ()
 
 Flight Orientation
 
+# Events
+push
+Will be 2.0! cause of fixed payloads (could be arbitrary )
+# Attribute Reader
+Listen to other emitter (events not push, but pull directly) - bats, flock, swarming bugs.
 
+`Get Vector by index` -
+`Get Spawned ID at Index` > `Get Vectro by ID`
 
+you can use it on yourself every particle can ask of neighbour pos (phys line)
+can integrate with otherforces (like cable component in niagara)
+ and
+
+ Is better then events in some way
 
 ### Map Attributes
 
@@ -607,3 +623,8 @@ not valid anymore
 
 
 ```
+
+Future:
+- ray matching particle sprites/ meshes
+- accum light in particle
+- vdb
