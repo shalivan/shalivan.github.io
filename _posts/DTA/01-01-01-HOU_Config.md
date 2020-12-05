@@ -500,3 +500,25 @@ Generate nodes
 
 
 --------------------------------------------
+
+
+
+---
+# Tools
+
+C:\Program Files\Side Effects Software\Houdini 18.0.432\bin\Gplay - przegladarka 3d  
+
+
+
+```
+
+### .env
+
+
+
+PDG_IMAGEMAGICK = "..magic.exe"  
+PDG_FFMPEG = ".. ffmpeg.exe"   
+CURVES IN EDITOR: python2.7libs fcurves.py 3 files / HSITE = ""  
+
+python:?
+```

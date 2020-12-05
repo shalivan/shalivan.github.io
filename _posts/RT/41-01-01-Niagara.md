@@ -42,12 +42,24 @@ https://www.youtube.com/c/UnrealSimon/featured
 
 | Name Space | R | W | Define | Share within |
 |--- | --- | --- | --- | ---|
-|`System` | Yes | System | Persisted frame 2 frame | System
-|`Emitter` | Emitter / Particle  | Emitter  | Persisted frame 2 frame | Emitter instance / color ect...
-|`Particles` | Particle | Particle |  Persisted frame 2 frame |  Per-particle (@point)
-|`Engine` |  Yes | No | Runtime for Niagara itself | Attribs from unreal
+|`System` | Yes | System | Persisted f2f | System
+|`Emitter` | Emitter/Particle  | Emitter  | Persisted f2f | Emitter instance / color ect...
+|`Particles` | Particle | Particle |  Persisted f2f  |  Per-particle (@point)
+|`Engine` |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
 |`Module` | Module | Modules | Within a module | expose a module input to the System and Emitter Editor
 |`Module Locals` | |  | | Transient values that can be written to and read from within a single module. Transient values do not persist from frame to frame, or between stages.
+|
+|INPUT.|Y||| Use inside of module for promoted Parameters
+|LOCAL.|||| Truly local for function !
+Output ||Y|| pay for calculate but not for adding it to emiter (parameter writes)
+
+name space modifiers:
+
+- module - insert module name as namespace so if u have x modules u have x different params
+- initial -  initial value of attribute (from eg in particle spawn)
+
+
+
 
 
 ### Map Attributes
@@ -513,6 +525,7 @@ http://andy.moonbase.net/archives/1499
 >special position cash when a lot of particle need global comunication
 
 
+# PBD
 ---
 
 # Flocks
