@@ -17,7 +17,10 @@ body {
   @include desktop-large() { font-size: $font-size-large; }
 }
 
-h1, h2, h3, h4, h5, h6 {
+
+
+
+h1 {
   margin: 0;
   padding: 0;
   color: $accent-light; // ADD DODAŁEM !
@@ -26,8 +29,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
 }
 
+h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  color: #000; // ADD DODAŁEM !
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: $font-family-headings;
+}
+
 h2, h3, h4, h5, h6 { margin: 20px 0 15px; }
-color: #000;
+
 @for $headline from 1 through 6 {
   h#{$headline} {
     font-size: $font-size-headings-base - $font-size-headings-step * $headline;
