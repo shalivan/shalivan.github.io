@@ -91,6 +91,15 @@ fileA_hi.fbx - high for bake
 
 ---
 
+## Modeling
+Houdini 1 U = 1m Zbrush - scale * 100  obj rotation ?    
+`s@shop_materialpath` (prim) - to split mesh in partes / or do it by primitive Groups: Attr copy to `name`  
+`s@name` (prim) - label    
+`i@class` (prim) -    
+`v@N` (vert) -   
+`@P`, `v@rest`, `v@Cd`, `i@id`, `@Alpha` (point)  
+`UCX_*` - from houdini need to be in separated containers  named UCX_nameOfGeoContainer. - object level  (make container !!! and ROPnet > fbx)  
+
 
 
 
