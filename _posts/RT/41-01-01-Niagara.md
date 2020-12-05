@@ -14,10 +14,10 @@ permalink: /niagara/
 ---
 
 Niagara can intreract with:  
-Triangles  - u must point to spoecific mesh in query
-Phys Volumetric
-Scene Depth  - niestety: 2d, wiec nie ma info co jest za
-Distance Fields  - !
+- Triangles  - u must point to spoecific mesh in query  
+- Phys Volumetric  
+- Scene Depth  - niestety: 2d, wiec nie ma info co jest za  
+- Distance Fields  - !
 
 
 # States
@@ -43,11 +43,11 @@ https://www.youtube.com/c/UnrealSimon/featured
 | Name Space | R | W | Define | Share within |
 |--- | --- | --- | --- | ---|
 |`System` | Yes | System | Persisted f2f | System
-|`Emitter` | Emitter/Particle  | Emitter  | Persisted f2f | Emitter instance / color ect...
+|`Emitter` | Emitter / Particle  | Emitter  | Persisted f2f | Emitter instance / color ect...
 |`Particles` | Particle | Particle |  Persisted f2f  |  Per-particle (@point)
 |`Engine` |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
-|`Module` | Module | Modules | Within a module | expose a module input to the System and Emitter Editor
-|`Module Locals` | |  | | Transient values that can be written to and read from within a single module. Transient values do not persist from frame to frame, or between stages.
+|`Module` | Module | Module | Module | expose a module input to the System and Emitter Editor
+|`Module Locals` | Module | Module | not persist f2f, or between stages| Transient values.
 |
 |INPUT.|Y||| Use inside of module for promoted Parameters
 |LOCAL.|||| Truly local for function !
@@ -61,47 +61,6 @@ name space modifiers:
 
 
 
-
-### Map Attributes
-
-#### Time:
-
-`Engine`. `DeltaTime` / `InverseDeltaTime` / `Owner.TimeSinceRendered` / `RealTime`    
-`Emitter.Age`  
-`System`. `Age`/ `TickCount`  
-`Time` -    
-`Particles.Age` -  
-`Particles.NormalizedAge` - 0-1  
-`Particles.Lifetime` -     
-`Module.DeltaTime`  
-`Module.LifeTime`  
-`Module.LoopParticlesLifetime`  
-
-#### Translation
-
-`Particles.Position` - @P  
-`Particles.Scale`- @pscale (mesh)  
-`Particles.SpriteSize`- @pscale (sprite)   
-`Particles.RibbonWidth` - Ribbon width  
-
-`Particles.Owner.Position` `/Rotation` `/Scale`  - Owner Transform  
-
-#### Physics
-
-`Particles.Mass`  
-`Particles.Velocity` - @v  
-`Particle.PreviousVelocity` - @v  
-`Engine.Owner.Velocity`  
-`Physics.Force`  
-`Physics.DeltaTime`  
-
-#### Render
-
-`Particles.MaterialRandom` - Float  
-`Particles.Color` - Linear Color  
-`Particles.DynamicMaterialParameter` - Vector 4  
-`Particles.CameraOffset`  
-`Particles.UVScale`  
 
 
 ----
@@ -119,24 +78,24 @@ name space modifiers:
 ##### Module Script
 
 
-<img align="right" src="/src/ue/niagara/module.png">  
+<img align="right" src="/src/ue/niagara/module.png" width="250" >  
 
 -  you can see read/writes in finished module
 
 
 ##### Function Script
 
-<img align="right" src="/src/ue/niagara/script.png">
+<img align="right" src="/src/ue/niagara/script.png" width="250">
 .
 
 
 ##### Dynamic Input Script
 
-<img align="right" src="/src/ue/niagara/dynamic.png">
+<img align="right" src="/src/ue/niagara/dynamic.png" width="250">
 
 .
 
-#### Module usage flags
+## Module usage flags
 
 - Function - fn to use in modules
 - Module - particle , emitter, system scripts
@@ -262,11 +221,13 @@ tuts
 
 
 ## Niagara ROP
+
 - Export pointcloud as: **.hjson**, **.hbjson** - bin quicker  
  - `i@id`  per particle  same for one particle   
  - `f@time` of pop-up / arrival time // just normalize time before export!  check length from a to b and set time  
  - `@type` group   
- - `@life` Life set for first point    
+ - `@life` Life set for first point
+ .    
  - `i@dead = 1`  
  -  `NID` - niagara id attrib CREATED BY SAMPLE MODULES  
 no `Force` ?
@@ -492,10 +453,13 @@ http://andy.moonbase.net/archives/1499
 ---
 
 # Camera Interface
-`newCameraquery` > `GetCameraProperties`   
+on gpu more control. on cpu only on simulate will work
+
+`input.newCameraquery` > `GetCameraProperties`   - gpu/cpu properties
 `newCameraquerry` > `PropertiesGpu`   
-`getFieldOfView`    
-`getViewSpaceTransformGpu`  
+`get Field Of View`    
+`Get View Space Transform GPU ` - tarnsforms
+`View Properties GPU`
 (in input)  
 
 ---
@@ -508,7 +472,10 @@ http://andy.moonbase.net/archives/1499
 ---
 
 #  Occlusion
-`NewOcclusionQuery` / `OcclusionFactorWithCirclegpu` / `OcclusionFactorWithRectangleGpu`     
+GPU
+Occlusion of point in time can do for point ()  
+`NewOcclusionQuery`  -  
+`Occlusion Factor With Circle / Rectangle GPU` - compare to depth bufer    
 
 ---
 
@@ -534,6 +501,47 @@ Flight Orientation
 
 
 
+
+### Map Attributes
+
+#### Time:
+
+`Engine`. `DeltaTime` / `InverseDeltaTime` / `Owner.TimeSinceRendered` / `RealTime`    
+`Emitter.Age`  
+`System`. `Age`/ `TickCount`  
+`Time` -    
+`Particles.Age` -  
+`Particles.NormalizedAge` - 0-1  
+`Particles.Lifetime` -     
+`Module.DeltaTime`  
+`Module.LifeTime`  
+`Module.LoopParticlesLifetime`  
+
+#### Translation
+
+`Particles.Position` - @P  
+`Particles.Scale`- @pscale (mesh)  
+`Particles.SpriteSize`- @pscale (sprite)   
+`Particles.RibbonWidth` - Ribbon width  
+
+`Particles.Owner.Position` `/Rotation` `/Scale`  - Owner Transform  
+
+#### Physics
+
+`Particles.Mass`  
+`Particles.Velocity` - @v  
+`Particle.PreviousVelocity` - @v  
+`Engine.Owner.Velocity`  
+`Physics.Force`  
+`Physics.DeltaTime`  
+
+#### Render
+
+`Particles.MaterialRandom` - Float  
+`Particles.Color` - Linear Color  
+`Particles.DynamicMaterialParameter` - Vector 4  
+`Particles.CameraOffset`  
+`Particles.UVScale`  
 
 
 
