@@ -212,6 +212,10 @@ Optimisation: 8 bit (halfmemory) / compress: les mem but hitches on sream decomp
 
 # Material
 
+POM vs Tessalation:
+
+
+
 ## Motion Blur
 Visualise > motion blur (in simulate) (colored in motion)    
 Bufer visualitsation > Velocity     
