@@ -36,13 +36,8 @@ Vertex Anims |```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` |
 ||``` `chs("_project")`/`chs("_component")`_xxx.fbx```  |
 ||
 Niagara|``` $HIP/`opname("..")`/export/niagara/$OS.hbjson ``` |
-
-
-
-PDG  ||
---|--|
-|```./NodeName/top/TopNodeName/FileName.```  
-ROP Geo|```$HIP/geo_`opname("../..")`/top/`opname("..")`/part`@top_name`.bgeo.sc```
+  ||
+PDG ROP Geo|```$HIP/geo_`opname("../..")`/top/`opname("..")`/part`@top_name`.bgeo.sc```
 
 ```$HIP/.... .fbx``` -  FBX Character Export   KineFx  
 ```$HIP/.... .fbx``` - FBX Animation Output  KineFx  
@@ -59,9 +54,10 @@ fileA_hi.fbx - high for bake
 
 ` raw/ ` - Sources    
 ` ref/ ` - References    
-` AssetName/export/ ` -    fbx   
-` AssetName/export/bake/ ` -     
+` AssetName/export/NodeName.fbx ` -       
+` AssetName/export/bake/NodeName/NodeName_channel` -       
 ` AssetName/export/niagara/ ` -     
+` AssetName/top/NodeName/NodeName.bgeo`  
 ` AssetName/zbrush/fileA.ztl` - Tool (ctrl shift T)  
 ` AssetName/material/fileA.sbs` - Substance     Designer / Painter          
 ` AssetName/material/fileA.png` - Export    / in same folder as  spp/sbs   
