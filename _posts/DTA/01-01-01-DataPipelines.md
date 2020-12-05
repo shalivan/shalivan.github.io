@@ -52,15 +52,15 @@ fileA_lo.fbx - low to bake
 fileA_locage.fbx - cage to bake      
 fileA_hi.fbx - high for bake     
 
-` raw/ ` - Sources    
-` ref/ ` - References    
-` AssetName/export/NodeName.fbx ` -       
-` AssetName/export/bake/NodeName/NodeName_channel` -       
-` AssetName/export/niagara/ ` -     
-` AssetName/top/NodeName/NodeName.bgeo`  
-` AssetName/zbrush/fileA.ztl` - Tool (ctrl shift T)  
-` AssetName/material/fileA.sbs` - Substance     Designer / Painter          
-` AssetName/material/fileA.png` - Export    / in same folder as  spp/sbs   
+`raw/` - Sources     
+`ref/` - References      
+`AssetName/export/NodeName.fbx` -       
+`AssetName/export/bake/NodeName/NodeName_channel` -       
+`AssetName/export/niagara/` -     
+`AssetName/top/NodeName/NodeName.bgeo`  
+`AssetName/zbrush/fileA.ztl` - Tool (ctrl shift T)  
+`AssetName/material/fileA.sbs` - Substance     Designer / Painter          
+`AssetName/material/fileA.png` - Export    / in same folder as  spp/sbs   
 
 
 ---
