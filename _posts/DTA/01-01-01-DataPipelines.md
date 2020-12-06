@@ -20,24 +20,25 @@ permalink: /datapipelines/
 
 ### Paths
 
-|Exports/cache|
-|--|
- Mesh  Export - ```$HIP/`opname("..")`/export/$OS.fbx``` |  
- Mesh  Cache -```$HIP/`opname("..")`/cache/$OS.bgeo```  |     
- Simulation   Cache - ```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` |  
+|Exports, Cache|
+|---|
+| Mesh  Export - ```$HIP/`opname("..")`/export/$OS.fbx``` |  
+| Mesh  Cache -```$HIP/`opname("..")`/cache/$OS.bgeo```  |     
+| Simulation   Cache - ```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` |  
 |**Bake**|
- Maps Bake -```$HIP/`opname("..")`/export/bake/${OS}/${OS}_$(CHANNEL).tif``` |      
-||
-TextureSheet / MorionVector seqence - ```$HIP/`opname("..")`/export/bake/${OS}_sequence``` |      
-TextureSheet / MorionVector - ```$HIP/`opname("..")`/export/bake``` |  
-||
-Vertex Anims  -```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` |       
+| Maps Bake -```$HIP/`opname("..")`/export/bake/${OS}/${OS}_$(CHANNEL).tif``` |      
+|
+|TextureSheet / MorionVector seqence - ```$HIP/`opname("..")`/export/bake/${OS}_sequence``` |      
+|TextureSheet / MorionVector - ```$HIP/`opname("..")`/export/bake``` |  
+|
+|Vertex Anims  -```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` |       
 |``` $HIP/export/`chs("_component")`_vat```   |
 |``` `chs("_project")`/`chs("_component")`_xxx.fbx```  |
-||
-Niagara -``` $HIP/`opname("..")`/export/niagara/$OS.hbjson ``` |
-  ||
-PDG ROP Geo -```$HIP/geo_`opname("../..")`/top/`opname("..")`/part`@top_name`.bgeo.sc```
+|
+|Niagara -``` $HIP/`opname("..")`/export/niagara/$OS.hbjson ``` |
+|
+|PDG ROP Geo -```$HIP/geo_`opname("../..")`/top/`opname("..")`/part`@top_name`.bgeo.sc```
+
 
 ```$HIP/.... .fbx``` -  FBX Character Export   KineFx  
 ```$HIP/.... .fbx``` - FBX Animation Output  KineFx  
