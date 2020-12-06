@@ -19,7 +19,7 @@ permalink: /heightfields/
 
 ---
 
-# Landscape modeling principles
+# Principles
 Make in passes from:
 - Low Massing: make a volume (bigger than end result)
 - Low Add obstacles and disturbance for better erosion
