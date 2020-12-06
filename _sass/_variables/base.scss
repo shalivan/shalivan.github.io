@@ -11,13 +11,13 @@
 $whitesmoke   : #222222; // #222222; pionowa kreska
 $a-whitesmoke : #D3D3D3; // text: normal , dates in spis
 $gainsboro    : #333333; //
-$gray-lighter : #303233; // Ciemniejsza kreska linia / Quote linia pionowa.
-$grey-light   : #bbb; // #FF0000; // kreska mini w spisie #bbb;
-$grey         : #ccc; // #0000FF; // kropki inside, tag/category text. #ccc;
+$gray-lighter : #303233; // Quote vert / linia horizon 1 color
+$grey-light   : #bbb; // spis: kreska mini w spisie #bbb;
+$grey         : #ccc; // spis: kropki inside, tag/category text. #ccc;
 $grey-dark    : #00D8AA; // text: about, podkreslnik, podpisy pod logo/postname. (caly opis about) #444;
 $grey-dim     : #ddd; //  text: spis main + opis // #ddd;
-$black-light  : #00FF00; // text: `code` // #fff;
-$black-dim    : #FF00FF; // about pionoew kreski i kropki // #ccc;
+$black-light  : #00D87D; // text: `code`
+$black-dim    : #FF00FF; // about panel:  pionoew kreski i kropki / ilosc tagów w tagcloud (top)
 $black-deep   : #eee; //
 $red          : #ff2a2a;
 $blue-bright  : #87daff;
