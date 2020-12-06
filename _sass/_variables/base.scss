@@ -8,17 +8,17 @@
 // colors for use across theme.
 // --------------------------------------------------
 
-$whitesmoke   : #222222; //  #f5f5f5;
-$a-whitesmoke : #D3D3D3; // new white
-$gainsboro    : #333333; //  #eee;
-$gray-lighter : #303233; // Ciemniejsza kreska linia / Quote linia pionowa.  #ddd;
-$grey-light   : #FF0000; //#bbb; //  #ccc;
-$grey         : #0000FF; //#ccc; //  #bbb;
-$grey-dark    : #00FFFF; //#444; //  #999;
-$grey-dim     : #FFFF00; //#ddd; //  #666;
-$black-light  : #00FF00; //#fff; //  #555;
-$black-dim    : #FF00FF; //#ccc; //  #333;
-$black-deep   : #eee; //  #222;
+$whitesmoke   : #FFFF00; //#222222; //  #f5f5f5;
+$a-whitesmoke : #FF00FF; // #D3D3D3; // new white
+$gainsboro    : #333333; //
+$gray-lighter : #303233; // Ciemniejsza kreska linia / Quote linia pionowa.
+$grey-light   : #bbb; // #FF0000; // kreska mini w spisie #bbb; //
+$grey         : #ccc; // #0000FF; // kropki inside, tag/category text. #ccc; //
+$grey-dark    : #00D8AA; //#00FFFF; // podkreslnik, podpisy pod logo/postname. (caly opis about) #444; //
+$grey-dim     : #ddd; // spis main text + opis //#ddd; //  #666;
+$black-light  : #00FF00; // podkreslnik logo art staion , `code` text// #fff; //
+$black-dim    : #FF00FF; //#ccc; //
+$black-deep   : #eee; //
 $red          : #ff2a2a;
 $blue-bright  : #87daff;
 $blue         : #0684bd;
