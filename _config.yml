@@ -237,8 +237,8 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  Twitter: https://twitter.com/BrylaAdam
-  Artstation: https://www.artstation.com/brylaadam
+#  Twitter: https://twitter.com/BrylaAdam
+#  Artstation: https://www.artstation.com/brylaadam
 
 
 # Social Links Icons
