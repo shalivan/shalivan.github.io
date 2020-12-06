@@ -94,7 +94,7 @@ Manage
 
 ---
 
-## Modeling
+# Modeling
 Houdini 1 U = 1m Zbrush - scale * 100  obj rotation ?    
 
 - `UCX_*` - from houdini need to be in separated containers  named UCX_nameOfGeoContainer. - object level  (make container !!! and ROPnet > fbx)  
