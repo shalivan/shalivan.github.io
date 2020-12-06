@@ -113,3 +113,12 @@ lobes - płaty
 ---
 
 # Unreal
+
+#### Import
+
+||||
+|-|-|-|
+SectionSize|7x7 LOD sections more aggressively at a higher CPU cost.|256x256 fewer components and is less costly on the CPU. (for large landscapes)  
+Sections per component| 1x1 reduced CPU calculation time too many vertices at once | 2x2  possible that one component could be rendering four different LOD's |
+num components| Tiles count  |  
+Overal resolution|final size  1+(SectionSize * NumOfComp * Sectionspercomp)
