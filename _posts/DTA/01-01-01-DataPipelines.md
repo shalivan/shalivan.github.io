@@ -20,8 +20,8 @@ permalink: /datapipelines/
 
 ### Paths
 
-|Exports/cache||
---|--|
+|Exports/cache|
+|--|
  Mesh  Export - ```$HIP/`opname("..")`/export/$OS.fbx``` |  
  Mesh  Cache -```$HIP/`opname("..")`/cache/$OS.bgeo```  |     
  Simulation   Cache - ```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` |  
