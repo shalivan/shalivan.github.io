@@ -116,7 +116,7 @@ high level long term goals. not pull a leaver.
 
 
 
-### Orientation
+## Orientation
 
 **where I am**  In games Perceptual pattern to create Orientation  
 - Signposting (oznaczenia charakterystyczne dla areny)
@@ -137,7 +137,7 @@ dont lead player where to go but how move through space
 [Architecture](/arch/)
 
 
-### Composition
+## Composition
 Composing 3d to view in 2d (flat monitor) like composition rules
 
 - clarity and flow vs confusion

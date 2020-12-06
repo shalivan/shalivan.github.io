@@ -128,6 +128,8 @@ Overal resolution|final size  1+(SectionSize * NumOfComp * Sectionspercomp)
 
 #### Height
 
+512 jednostek w unrealu. 256 up + 256 down
+
  -256 to 255.992 and stored with 16 bit precision. multiplied by the Z
 
   scale value of 1 results in a maximum height of roughlty 256 centimeters (cm) and a maximum depth of -256cm. Therefore, at the default Z scale value of 100 your height values with be between 256 meters (m) and -256m.

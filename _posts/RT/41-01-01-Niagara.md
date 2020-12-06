@@ -198,9 +198,9 @@ Unreal
 [2020 04 Inside Unreal - Houdini workflows](https://www.youtube.com/watch?v=LHFN8ccf_8o&t=3449s)  / paul / crowd / chains   
 [2020 05 Unreal - Building advanced effects in Niagara Unreal Engine](https://youtu.be/syVSRDQxrZU)    character   
 [2020 05 Unreal  talk](https://www.youtube.com/watch?v=tMPwXotnl5I)      Wyeth  
-[2020 08 Unreal tut](https://youtu.be/oX6uiPWXJDY) inteligent sys    
-[2020 11 Advanced Niagara Effects  Inside Unreal](https://youtu.be/31GXFW-MgQk) popcorn    
-
+[2020 08 Unreal Fest Online 2020](https://youtu.be/oX6uiPWXJDY) inteligent sys    
+[2020 11 Advanced Niagara Effects  Inside Unreal](https://youtu.be/31GXFW-MgQk) - popcorn    
+[2020 11 Advanced Niagara Effects  Inside Unreal](https://youtu.be/vqGblCiKm2c) -
 
 
 RTVFX  

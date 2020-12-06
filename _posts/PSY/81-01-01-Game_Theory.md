@@ -18,8 +18,8 @@ Context for:
 [Personality](/personality/)  
 [Game Mechanics](/gamemechanics/)  
 
-https://www.youtube.com/c/Gametheory101/videos
-
+https://www.youtube.com/c/Gametheory101/videos  
+https://www.youtube.com/c/PrimerLearning/videos  
 
 
 

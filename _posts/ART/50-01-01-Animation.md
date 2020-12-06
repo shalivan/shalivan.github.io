@@ -80,11 +80,12 @@ https://youtu.be/WLMVpcK0WvA?list=PLQD_sA-R5qVKVYw3EVuRT7fSJsVukLEhD
   - tempo (beats)
   - intensity over time.
 
+
 | intensity over time | |||
 | --- | --- |--- | ----|
-constant | missile
-acceleration
-rapidly decelerating | explosion
-peak |
-repeated | light blink
-wave |  
+|constant | missile
+|acceleration
+|rapidly decelerating | explosion
+|peak |
+|repeated | light blink
+|wave |  

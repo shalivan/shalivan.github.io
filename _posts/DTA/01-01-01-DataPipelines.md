@@ -30,7 +30,7 @@ permalink: /datapipelines/
 ||
 |TextureSheet / MorionVector seqence - ```$HIP/`opname("..")`/export/bake/${OS}_sequence``` |      
 |TextureSheet / MorionVector - ```$HIP/`opname("..")`/export/bake``` |  
-||
+|Heightfields - $HIP/`opname("..")`/export/heightfields/$OS|
 |Vertex Anims  -```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` |       
 |``` $HIP/export/`chs("_component")`_vat```   |
 |``` `chs("_project")`/`chs("_component")`_xxx.fbx```  |

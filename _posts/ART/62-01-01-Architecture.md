@@ -40,6 +40,8 @@ M.C. Escher
 # Space
  Space is formed by relationship to object within. Literal space define scene by Degree of enclosure.
 
+## Standard Types
+
  |  |  |Enclosure Spaces|
  |--|--| --|
  ![](/src/arch/floor.png) | Floor | topology / architecture Man made / natural, Unmodulated / Modulated, Ground stability, Balcony
@@ -53,7 +55,7 @@ M.C. Escher
 Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Portico, Anteroom, Gallery
 
 
-#### Implied  Space
+## Implied  Space
 
 | | ||
 |--|--|--|
@@ -64,7 +66,7 @@ Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Por
 - platform Schodki (sugerowana),
 - open colonnade   
 
-#### Negative Space
+## Negative Space
 
 
 | | ||
@@ -79,7 +81,7 @@ Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Por
 
 
 
-## Spatial Form
+# Spatial Form
 
 ##### Organization
 is both the physical and material solid-stuff of the built environment and its void-space. It is meant to capture the relationship between solid form and void-form
