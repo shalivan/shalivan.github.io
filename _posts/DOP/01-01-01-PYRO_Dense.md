@@ -7,7 +7,7 @@ tags:
 - DOP
 - Houdini
 description:  Houdini solver.
-permalink: /doppyrodense/
+permalink: /pyrodense/
 ---
 
 
@@ -17,16 +17,16 @@ PYRO SHADING
 
 
 # PYRO
->PYRO Dense is not using Sparse!
+PYRO Dense is not using Sparse!
 
 | Fields |
-| - |
-Fuel - `fuel`       
-Burn - (only temporary field) recalc evey frame and if you cut out fuel it desaper.     
-Flames - `heat`  dep on: `fuel`, `butnrate`- Heat is the intersection of fuel and temperature fields).  
-Smoke - `density`    is like a mask    dep on:  `fuel`, `butnrate`, `smoke amount `  
-Expantion - `divergence`  dep on: `fuel` `burntrate`, `gas released`    
-Temperature - `temperature`  dep on: `fuel`, `burnrates`, `flame contribution`, `burn ccontrib` (may exist anywere).     
+| --- |
+|Fuel - `fuel`       
+|Burn - (only temporary field) recalc evey frame and if you cut out fuel it desaper.     
+|Flames - `heat`  dep on: `fuel`, `butnrate`- Heat is the intersection of fuel and temperature fields).  
+|Smoke - `density`    is like a mask    dep on:  `fuel`, `butnrate`, `smoke amount `  
+|Expantion - `divergence`  dep on: `fuel` `burntrate`, `gas released`    
+|Temperature - `temperature`  dep on: `fuel`, `burnrates`, `flame contribution`, `burn ccontrib` (may exist anywere).     
 
 `pressure` / `confinment` / `pump` / `sink` / `vel`    (dop pyro name of source volume:v, target field: vel)  
 
@@ -42,7 +42,7 @@ Temperature - `temperature`  dep on: `fuel`, `burnrates`, `flame contribution`, 
 
 
 # Solver
-### `[PYRO Solver]`
+## [PYRO Solver]
 use open CL (advanced in solver)  
 ### Simulation:
 Temperature difusion - how temperature blur  
@@ -94,7 +94,7 @@ vortex like sworl motion
 
 
 # DOP nodes
-### `[Smoke Object]`
+## [Smoke Object]
 - container that stroe volumes  set SOP paths  for vdb (fog) volumes
 
 
@@ -107,7 +107,7 @@ Velocuty
 	 - you can override scale o fvolume
 
 # Source
-### `[Source Volume]`
+## [Source Volume]
 - source somoke
 - set sop path: `opinputpath("../",0)`
 
@@ -118,21 +118,21 @@ Velocuty
 
 # Microsolvers
 
-### `[Gas resize fludi dynamic]` 2op
+## [Gas resize fludi dynamic] 2op
 - voxel that have almost 0 will delete and clean / initialisation dynamic when should follow moving source.   
 - automatic sim bounds
 
-### `[Gas Dissipation]` 3op
+## [Gas Dissipation] 3op
 znikanie   
 - diffusion is blur
 - evaporation rate. is: Substarct (1 - remove 100% smoke in a 1sec (0.7 liuve a littlebit ))
 
-### `[Gas Disturbance]` 3op
+## [Gas Disturbance] 3op
 take edges of sim and disturb to get granual details.
 - cutoff - how low of density or other reference volume shoud be in value to make it active
 
 
-### `[Gas resize fluid dynamic]` 2op
+## [Gas resize fluid dynamic] 2op
 
 
 
@@ -140,7 +140,7 @@ take edges of sim and disturb to get granual details.
 # SOP Sourcing
 
 
-### `[Pyro Source]` SOP
+## [Pyro Source] SOP
 
 - initialize
  	- sourse fuel

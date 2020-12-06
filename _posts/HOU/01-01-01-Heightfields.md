@@ -114,7 +114,10 @@ lobes - płaty
 
 # Unreal
 
-#### Import
+.r16
+
+
+#### Landscape Size
 
 ||||
 |-|-|-|
@@ -122,3 +125,9 @@ SectionSize|7x7 LOD sections more aggressively at a higher CPU cost.|256x256 few
 Sections per component| 1x1 reduced CPU calculation time too many vertices at once | 2x2  possible that one component could be rendering four different LOD's |
 num components| Tiles count  |  
 Overal resolution|final size  1+(SectionSize * NumOfComp * Sectionspercomp)
+
+#### Height
+
+ -256 to 255.992 and stored with 16 bit precision. multiplied by the Z
+
+  scale value of 1 results in a maximum height of roughlty 256 centimeters (cm) and a maximum depth of -256cm. Therefore, at the default Z scale value of 100 your height values with be between 256 meters (m) and -256m.

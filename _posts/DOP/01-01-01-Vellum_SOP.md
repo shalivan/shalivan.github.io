@@ -21,7 +21,7 @@ permalink: /vellumsop/
 # Constraints
 Constraints are geometry attributes. Add in sop and edit it in `velum Constrains Properties` inside vellum solver to modify constr dynamicly
 
-### Types
+## Types
 
 || Effect | |When to use||
 |---|---| ------------------------------------------------------------------------|---|-|
@@ -58,10 +58,11 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 **Attach**  |  |  Stick to closest point on geometry & keep distance    |  Anim objects
 
 
-### Parameters
+## Parameters
 
 #### Geometry
--
+
+
 || low | ||
 |-|-|-|-|
 |**Mass** |  0 - mass inactivete  || Can set from param or calculate
@@ -111,11 +112,11 @@ For cloths, curves or constraints (like attach)
 submenu Wystepuje w curves lub pin to target
 
 
-`Permament` Hard - Is storet as geo point attrib  - not solving constr, update pos directly.  mass = 0 (cannot be move by constsr)   
-`Stop` Hard - mass not changed but `i@stopped = 1` prevent to inf;luence from constraints(same in pop)  
-`Soft` - constr peimitives (pin stitch glue)  (inheret Strech Stif Parameters) can have varying stiff and breaking threshold         
-`Orient Pin` - for hairs    
-`Match to Animation` - animate with object    `i@pintoanimation = 1`
+- `Permament` Hard - Is storet as geo point attrib  - not solving constr, update pos directly.  mass = 0 (cannot be move by constsr)   
+- `Stop` Hard - mass not changed but `i@stopped = 1` prevent to inf;luence from constraints(same in pop)  
+- `Soft` - constr peimitives (pin stitch glue)  (inheret Strech Stif Parameters) can have varying stiff and breaking threshold         
+- `Orient Pin` - for hairs    
+- `Match to Animation` - animate with object    `i@pintoanimation = 1`
 
 ### Breaking
 
@@ -177,10 +178,10 @@ https://youtu.be/rQw2UZGWP-0 - rozwijanie płachty
 
 
 
-## `[Velum Constrains]` DOP
+## [Velum Constrains] DOP
 Set constraints here (change from 1'st to each frame creation)  
 
-## `[Velum Constraint Properties]` DOP
+## [Velum Constraint Properties] DOP
 Change constraints properties  (can animate here )
 
 #### Remove Pin Constraint
@@ -191,14 +192,14 @@ Unpin for soft constraints
 
 (WHEN u have animation, animate after constraints and before solver )
 
-## `[Vellum Rest Blend]` DOP
+## [Vellum Rest Blend] DOP
 Blend 2 meshes to change rest position    
 
 
 
-## `[Pop Force]`  DOP
+## [Pop Force]  DOP
 
-## `[Geometry Wrangle]`  DOP
+## [Geometry Wrangle]  DOP
 
 
 Unpin for hard pin (Type: Stopped):
@@ -241,11 +242,12 @@ if(inpointgroup(0,"unweld",@ptnum))
 
 
 # Post Process
-###  `[Vellum Post Process]`
+
+###  [Vellum Post Process] SOP
 Spply Welds - Weld geometry that have cuts  and in theory should stick together   
 Visualize - !    
 
-###   `[Detangle]`
+###   [Detangle] SOP
 run in for loop with feedback.   
 - rest position as previous position   
 - pscale   
@@ -263,7 +265,7 @@ You can ad per point `friction` attribute
 ---
 # Drape
 
-###   `[Vellum Solver drape]` SOP
+###  [Vellum Solver drape] SOP
 To create drape from patches.  
 `welding frame` - where it start to fuse  (maby work on frame 1 ?)   
 `forces` - increase velocity damping and air drag if cloth move to much  
