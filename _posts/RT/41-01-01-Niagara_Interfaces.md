@@ -10,6 +10,7 @@ tags:
 - Real Time
 - HLSL
 - Game Dev
+- Niagara
 permalink: /niagaraintrerfaces/
 ---
 
