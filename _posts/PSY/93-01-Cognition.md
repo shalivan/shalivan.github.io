@@ -237,7 +237,7 @@ https://youtu.be/8cVSIDBx1wo?t=5827
 
 
 ## 3. Lazy Controller
-
+lazy system 2 will adopt
 
 we can decide what to do but limited what effor we put in it.
 
@@ -258,7 +258,48 @@ Too many people relay on intuition
 (asociated activation: podobne mysli przychodzą na mysl )
 
 
-4. 2:17:00 z 9:58:00
+## 4.
+2:17:00 z 9:58:00
+
+assoscitation wtords
+(banana, vomit)
+ideas triger other ideas
+
+World > memories > emotions > facial expression
+self reinforcing pattern of emotional, cognitive, and physical responces.
+
+priming efect - sth in your mind conect with other things
+habitatual connection - expressions and not unconiously
+
+smile to fell better
+
+5. `cognitive izzz`
+multiple causes which produce illusions of trueth
+if familiar accept -
+produced of amiliarity by sys 1 and sys 2 judge if its true
+
+illusions of rememberigng
+
+? straiun and effort (3:00:00)
+
+plesure of cognitive izz > conected with good feelings
+
+`mire exposue efect` - PODOBNO NIE DZIALA ?
+
+
+
+Coarelational but not causal
+
+
+CLUSTERS:
+good mood intuition cretivety and relaiance on sys 1
+adnes analityc aproach suspicion incresed effort sys 2
+
+NORM SPECIFY RANGES IN CATEGORIES
+
+
+7 Machine for jumping int o conclusions (3:45)
+
 ```
 
 ####### conflict
