@@ -237,6 +237,8 @@ https://youtu.be/8cVSIDBx1wo?t=5827
 
 
 ## 3. Lazy Controller
+
+
 we can decide what to do but limited what effor we put in it.
 
 - in emergnecies sys 1 take control and taked a self protection actions
@@ -255,6 +257,8 @@ Too many people relay on intuition
 
 (asociated activation: podobne mysli przychodzą na mysl )
 
+
+4. 2:17:00 z 9:58:00
 ```
 
 ####### conflict
