@@ -96,8 +96,7 @@ Erosion create Voxel grids: `mask`, `sediment` (osady), `bedrock` (podłoże), `
 
 ## Thermal  
 
-
-<img src="/src/hou/heightfields/cs.png" width="350" align="center"  >  
+<img src="/src/hou/heightfields/cs.png" width="350" align="center">  
 
 Heat based. mostly about mountaintops    
 **Cut Angle** -  Threshold angle. (Angle grater than value will be considered as erodible )(0 for more sand soft tops, 90 low erosion)   
