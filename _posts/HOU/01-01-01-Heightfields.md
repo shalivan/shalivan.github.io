@@ -64,6 +64,12 @@ Erosion create Voxel grids: `mask`, `sediment` (osady), `bedrock` (podłoże), `
 **Erodability** -    
 **Erosion rate** -    
 
+
+<img src="/src/hou/heightfields/a2s.png" width="350" align="center"  >  
+
+
+
+
 ## Hydro
 **Bank Angle** - Threshold angle. (Low values will make erosion on flatter planes more erosion with longer slopes and expanded riverbed)  
 **Spread Itterations** - (high: longer slopes and expanded riverbed)    

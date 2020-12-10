@@ -18,7 +18,7 @@ permalink: /niagaraintrerfaces/
 files:  
 Houdini niagara - ue plugin   
 Houdini Extras - ue plugin   
-
+https://youtu.be/3wcTor5rwmE - UNREAL FOR ALL CREATORS zobacz
 SideFx  
 [2020 04 SideFx Niagara(frompluginContent) / Demo2020](https://www.sidefx.com/tutorials/houdini-to-ue4s-niagara/)  (water Paul)   
 [2020 11 SideFx](https://www.sidefx.com/tutorials/realtime-fx-with-niagara-ue4/)  -  [2020 11 SideFx YT - to samo co wyzej](https://www.youtube.com/watch?v=jA3uAxT5FhM)  

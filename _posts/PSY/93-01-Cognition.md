@@ -273,7 +273,7 @@ habitatual connection - expressions and not unconiously
 
 smile to fell better
 
-5. `cognitive izzz`
+## 5. `cognitive izzz`
 multiple causes which produce illusions of trueth
 if familiar accept -
 produced of amiliarity by sys 1 and sys 2 judge if its true
@@ -298,7 +298,44 @@ adnes analityc aproach suspicion incresed effort sys 2
 NORM SPECIFY RANGES IN CATEGORIES
 
 
-7 Machine for jumping int o conclusions (3:45)
+## 7. Machine for jumping int o conclusions (3:45)
+RISKI IN UNFAMILIAR SITRUATION
+IUNTUITIVE ERRORS PROBNABLE !   
+CAN BE STOPED BY 2   
+
+UNCERTATNIT > SYS 2
+
+accept advert when tired hungry ect....
+
+hallo efect . 1 slowo splywa na wydzwiek
+
+what u see is what there is
+
+## 8 how judgement happened
+
+Mental shotgun
+
+## answering easier question
+
+u have intuitive opiniosn for all before u will analyze it
+
+
+5:00:00 LISTA !!!!!!!!!!!!!!
+
+
+PART 2 !!!!  HEURISTIC AND BIASSES !!!!!
+
+# 10
+# 11 anchors
+5:33:00 -   
+
+2 mechanism.
+- deliberate proces of ajustment sys 2
+- by priming efect, automatic sys 1
+
+
+Avaibnelity heuristic
+
 
 ```
 

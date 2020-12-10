@@ -38,7 +38,7 @@ permalink: /datapipelines/
 |Niagara -``` $HIP/`opname("..")`/export/niagara/$OS.hbjson ``` |
 ||
 |PDG ROP Geo -```$HIP/geo_`opname("../..")`/top/`opname("..")`/part`@top_name`.bgeo.sc```
-
+|$HIP/geo_`opname("../..")`/top/`opname("..")`/part`@top_name`.$F4.exr
 
 ```$HIP/.... .fbx``` -  FBX Character Export   KineFx  
 ```$HIP/.... .fbx``` - FBX Animation Output  KineFx  

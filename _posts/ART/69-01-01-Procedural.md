@@ -13,6 +13,14 @@ permalink: /procedural/
 
 
 
+Computational Geometry: visualisation of math equations
+
+Computational Design
+
+Emergent : egeometry that emerge over time  (growth)    
+Structural : (sim based on structural optimization/analysus)
+
+
 https://bleuje.github.io/tutorials/
 
 
