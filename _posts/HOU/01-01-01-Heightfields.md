@@ -57,6 +57,9 @@ Make in passes from:
 heightfield_output > convert to image   
 convert  
 
+
+<img src="/src/hou/heightfields/0s.png" width="350" align="center"  >  
+
 ---
 
 # Erosion
