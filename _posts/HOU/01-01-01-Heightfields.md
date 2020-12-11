@@ -58,8 +58,6 @@ heightfield_output > convert to image
 convert  
 
 
-<img src="/src/hou/heightfields/0s.png" width="350" align="center"  >  
-
 ---
 
 # Erosion
@@ -68,14 +66,21 @@ Erosion create Voxel grids: `mask`, `sediment` (osady), `bedrock` (podłoże), `
 **Erosion rate** -    
 
 
-<img src="/src/hou/heightfields/as.png" width="350" align="center"  >  
+
+<img src="/src/hou/heightfields/021.png" width="350" align="center"  >  
+<img src="/src/hou/heightfields/015.png" width="350" align="center"  >  
+<img src="/src/hou/heightfields/016.png" width="350" align="center"  >  
 
 
 
 
 ## Hydro
 
-<img src="/src/hou/heightfields/bs.png" width="350" align="center"  >  
+
+<img src="/src/hou/heightfields/021.png" width="350" align="center"  >  
+<img src="/src/hou/heightfields/hydro/018.png" width="350" align="center"  >  
+<img src="/src/hou/heightfields/hydro/017.png" width="350" align="center"  >  
+
 
 **Bank Angle** - Threshold angle. (Low values will make erosion on flatter planes more erosion with longer slopes and expanded riverbed)  
 **Spread Itterations** - (high: longer slopes and expanded riverbed)    
@@ -97,9 +102,60 @@ Erosion create Voxel grids: `mask`, `sediment` (osady), `bedrock` (podłoże), `
 
 **Riverbank:** (brzeg)
 
+
+||||||
+|--|--|--|--|--|
+**Bank Angle** | Threshold angle. (Low values will make erosion on flatter planes more erosion with longer slopes and expanded riverbed)  | 30 85 | <img src="/src/hou/heightfields/hydro/003.png">  | <img src="/src/hou/heightfields/hydro/004.png">  
+**Spread Itterations** |(high: longer slopes and expanded riverbed)     |20 - 60  | <img src="/src/hou/heightfields/hydro/005.png">  | <img src="/src/hou/heightfields/hydro/006.png">  
+#### Hydro Advanced  
+**Removal Rate** | How much of debris to remove (-1 Accumulate a lot), (1 - Cuts but not debris)     |
+**Max Depth** | Stop when debris reach level      |
+**Grid Bias** | (-1 Sand on the Ground), (1- Leave sand on cliffs/slopes) Bias angles    |
+##### Erodibility Adjustment
+**Ramp-up Iterarions** | How many itters before full erosion (0 - Immediately)      |
+**Initial factor** | Strength of erosion in initial movement      |
+**Slope Factor** | (0 - Everything, will erode),  (0.8) Less erosion (stip lot of, shallow little)   |  
+##### Riverbed  (koryto)
+**Erosion Rate Factor** |  | 0.2 - 0.6  | <img src="/src/hou/heightfields/hydro/001.png">  | <img src="/src/hou/heightfields/hydro/002.png">  
+**Deposition Rate** | Removal rate     |
+**Sediment Capacity** |  How much debris can be carry by sediments down (pojemność osadów)  |
+**Riverbank:** (brzeg)|
+
+
+
+
+
+
+
+
+7 8
+riverbank0.5
+2
+
+
+9 10
+riverbet rate factor 0.5
+2
+
+
+11 12
+deposition 0.001
+0.1
+
+
+13 14
+???deposition 0.001
+erodablilty: slope  0.4
+
+
+
+
 ## Thermal  
 
-<img src="/src/hou/heightfields/cs.png" width="350" align="center">  
+<img src="/src/hou/heightfields/021.png" width="350" align="center"  >  
+<img src="/src/hou/heightfields/thermal/020.png" width="350" align="center"  >  
+<img src="/src/hou/heightfields/thermal/019.png" width="350" align="center"  >  
+
 
 Heat based. mostly about mountaintops    
 **Cut Angle** -  Threshold angle. (Angle grater than value will be considered as erodible )(0 for more sand soft tops, 90 low erosion)   
@@ -123,6 +179,63 @@ Heat based. mostly about mountaintops
 
 lobes - płaty  
 
+
+
+default thermal
+
+-------------
+
+
+
+1 2
+erosion rate 0.2
+0.6
+
+
+
+4 3
+bank angle 30
+85
+
+
+
+
+5 6
+spreed 20
+60
+
+
+
+7 8
+riverbank0.5
+2
+
+
+9 10
+riverbet rate factor 0.5
+2
+
+
+11 12
+deposition 0.001
+0.1
+
+
+13 14
+???deposition 0.001
+erodablilty: slope  0.4
+
+
+
+
+
+BOTH DEFAULT
+BOTH 3
+hydro 3
+hydro 1
+thermal 3
+thermal 1
+00000000 21
 
 
 ---
