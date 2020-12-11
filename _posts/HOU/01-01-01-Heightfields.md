@@ -67,9 +67,7 @@ Erosion create Voxel grids: `mask`, `sediment` (osady), `bedrock` (podłoże), `
 
 
 
-<img src="/src/hou/heightfields/021.png" width="350" align="center"  >  
-<img src="/src/hou/heightfields/015.png" width="350" align="center"  >  
-<img src="/src/hou/heightfields/016.png" width="350" align="center"  >  
+<img src="/src/hou/heightfields/021.png" width="250">  <img src="/src/hou/heightfields/015.png" width="250">  <img src="/src/hou/heightfields/016.png" width="250">  
 
 
 
