@@ -143,10 +143,11 @@ Erosion rate main | | <img src="/src/hou/heightfields/hydro/001.png">  | <img sr
 
 ```
 
+
 0
 1 2 3 - resolutions
 4 - hydro 1
-5 - ---------------hydro general  4 -------------------------------------
+5 - ------tes off riversite and rivebet x0
 6 - hydro/erodability 4                vvvvvvvvvv
 7 - hydro advanced/ riverbed 4        vvvvvvvvvvvvv
 8 ------------------------------------- same rest others
@@ -158,11 +159,18 @@ Erosion rate main | | <img src="/src/hou/heightfields/hydro/001.png">  | <img sr
 - termal 1
 - ----------------------      global 4
 -  termal / erodability  4
-- grid bias -
-- grid +
-- precipitation > amount
-- precipitation > density
-- precipitation > density
+- grid bias - 14
+- grid + 15
+
+on multi 4 opad:
+
+16 - am 0.3, dens 0.05 . rate 0.04
+17 - am 0.6, dens 0.05 . rate 0.04
+18 - am 0.3, dens 0.6 . rate 0.04
+19- am 0.6, dens 0.6 . rate 0.04
+20- am 0.6, dens 0.05 . rate 0.5
+21- am 0.3, dens 0.6 . rate 0.5
+
 ```
 
 

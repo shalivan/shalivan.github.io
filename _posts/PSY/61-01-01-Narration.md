@@ -11,53 +11,11 @@ tags:
 permalink: /narration/
 ---
 
-
-mechanick video storytell:
-- odcinnie ryb
-- nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
-morrals
-attach to charcter
-
-dyolemat niejednoznaczne rozwiazanie
-ryzyko
-twist
+jaki jest temat  
+jakie sa zagadnienia  
 
 
 
-Show not tell
-showing dramatize
-tell summarize
-
-as long as it character thing its ok,
-stronger showing
-- use evidence for claims
-- emotions are complex concept and must be shoiwn with details
-
-give 2+2
-
-filter words to show perspopective of character
-
-
-
-known   
-known unknown   
-unknown unknow  
-
-emotions :
-- thrill
-- positive
-- interest rythm,
-
-- do you have power over the world
--
-zagrozenie i jak mozena je pokonac (kill it / craft to survive )
-RESPONCE -
-
-
-(opening > crises > up tension > climax > denouement  )
-
-
-contrast: elemental oposites. dobro zło ogien lod
 # Medium
 - See or listen not as powerful as play themselves
 - Every medium have it own narration style. Linear narrative is not enough for games.  
@@ -70,6 +28,8 @@ Even bad ideas can have nice execution
 #  Plot
 (unique story or have a twist or sth to say. Try to implement plot in mechanics)
 Telling stories is in human nature.
+
+give 2+2
 
 **Story** the story tells who and what. is a series of events recorded in their chronological order. a sequence of events,  The story includes all of the events described that make up a narrative.  
 **Plot** the plot tells how. Once you have a story in mind, you can decide how you are going to plot it. is a series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance. And create tension.  
@@ -84,7 +44,6 @@ Telling stories is in human nature.
 - **Implicit** - player must figure out itself
 - **Emergent** -
 
-show vs tell - showing dramatizes / telling summarize
 
 #### Point of view
 
@@ -96,6 +55,8 @@ Third Person | She/He Her/His | external narrator is telling the story.
 
 First Person - connection,m acces to thoughts. They share emotions. / in vilan shose you can understand vilan. / strong characterisation
 but: restricted to one chatacter, dificult .
+
+filter words to show perspopective of character
 
 
 #### Narrator types
@@ -148,9 +109,27 @@ puzzle
 
 - promies > progress > payoff
 
+Mistrust and misdirection  oftren are good narative tools
+
+twist
+
+
+known   
+known unknown   
+unknown unknow  
+
+
+contrast: elemental oposites. dobro zło ogien lod
+
+
+#### dialogues
+Plot Exposition
+Character Exposition
+Emotional Exposition
+ Gameplay Exposition
 
 ## Structure
-#### Place, Time, Character
+### Place, Time, Character
 Cannot say a story without **Place**, **Time** and **Character**. Or you can :> ?
 - **Premise** -  Meaningful, Promise, announce
 - **Causality** -  Therefor instead of: Then  (a means to an end)
@@ -163,12 +142,38 @@ Memorable moments:
 - **Peak** -  (tentpole - most expensive mom)  
 - **End** - brain reference to those experience and have impact to long term memory    
 
+### 3 acts
+Greek  
+Setup > conflict > resolution
+plot points are between phases
+(opening > crises > up tension > climax > denouement  )
 
-#### Monomyth
+
+
+##### Tension
+crisis and climax
+dyolemat niejednoznaczne rozwiazanie
+
+### Monomyth
   Heroes Journey: **You**, **Need**, **Go**, **Search**, **Find**, **Take**, **Return**, **Change**  (Joseph Campbell)
   - What with serials and games ? Its less relevant.
 
-#### 4-Layers in games
+
+### Meta
+Grand narrative
+Claim to apply to all people (common to everyone.)
+Universal, Natural, Structural,
+(what really behind story.)
+postmodernism: world is more complicated. Any large claim to be a thrue for all people is outdated  (short termism) not about future
+
+Lyotard (postmodern coditoin book)
+
+[our chices and outtside forces are prepearing and shaping what come next  ]
+wy we are here what abnout future what are consequences, story about being free
+not how human is but how should bne like
+[] nature is not only good it kills u too. and culture saves u
+
+### 4-Layers in games
   1. what am I doing and how
   2. narrative goal (short term) gratifications
   3. Narrative background. How my knowledge increase
@@ -176,13 +181,47 @@ Memorable moments:
 
 https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html
 
+### Scope
+To much stories in witch the fate of the world was at stake
+Bigeger stakes not equal more powerfull stories
 
 
----
+## Exposition
+
+Coincidence are bad in stroy
+
+### Show it dont tell it
+show vs tell - showing dramatizes / telling summarize
+
+“Talk is cheap.” “Actions speak louder than words
+
+Show not tell
+showing dramatize
+tell summarize
+
+as long as it character thing its ok,
+stronger showing
+- use evidence for claims
+- emotions are complex concept and must be shoiwn with details
+
+
+
+###  Seeding
+spreading tiny bits of
+exposition
+
+### payoff
+RESPONCE -
+
+
+### Foreshadowing
+Plant idea ahead and earlier to connect later
+
+----
 
 ##  Motivations
-
-
+ryzyko
+zagrozenie i jak mozena je pokonac (kill it / craft to survive )
 
 dont give 4 give 2+2 - simple equasion, puzzles  (simple deduction)
 - care about story: imply meaning, to enable discover meaning .
@@ -191,19 +230,33 @@ dont give 4 give 2+2 - simple equasion, puzzles  (simple deduction)
 
 during the story object can inherit meaning and emotional value
 
-- **Conflict** - Wants vs needs
-   - Mind (primal mammal) vs Soul (fulfill to have superior existence)
-- **Mystery** -
-- **Meaning** - Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
+### Conflict
+- konflikt interesów
+- Wants vs needs
+- Mind (primal mammal) vs Soul (fulfill to have superior existence)
+
+### Mystery
+
+### Meaning
+
+ Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
 
 #####  collective unconscious
 Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
 Universal through shared by all cultures  
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
 
+### Emotion s
+
+emotions :
+- thrill
+- positive
+- interest rythm,
+
 
 [Human Motivation](/motivation/)  
 
+- do you have power over the world
 ---
 
 # Characters
@@ -212,14 +265,39 @@ Driven by external / internal motivations
 - name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want accomplished, what afraid, what like to do, hidden talent, deepest secret
 
 competence !  
-### Character Archetypes
-- Hero
+## Archetypes
+#### Hero
+protagonist. Atempt to resolve conflict
+Audience identification, change growth action risk sacrifice
+Personal, Primal Stakes
+
+#### Herald
+deliver  story-kickstarting message
+
+#### Mentor
+Teachnig/ giving gifts / bad advices /. motivation conscience
+sometimes short lifespans
+
+
+#### Threshold Guardian/Henchman
+he blocks the progress
+
+#### Trickster / Comic
+f comic relief
+
+####  Shape-Shifter
+Shapeshifting characters are great catalysts for crucial story
+components such as surprises, plot twists, and red herrings
+
+#### Villain
+generator/defender of the
+main conflict, and that he exists to present the final challenge to the
+Hero
+
+
 - Sidekick
 - Maiden
 - Wise Old Man
-- Villain
-- Shape-Shifter
-- Trickster / Comic
 - Child-like adult
 - Adult-like child
 - Mother
@@ -227,6 +305,10 @@ competence !
 ### Character Appearance
 
 [Characters](/characters/)  
+
+###  Character Arcs
+change in a
+character and/or his situation is called an arc.
 
 
 ---
@@ -236,21 +318,21 @@ Themes / levels /
 What is about / what thread bind it together
 
 
-
+Consistency/e Believability  
 
 
 ### Pace layers
 6 layers that function simultaneously at different speeds within society by Stuart Brand   
 
 
-|Layer | function | home metaphor |
-| - | - | - |
-Fashion, Art | Fast , Innovate | Stuff (Sets change 1d)
-Commerce | Differentiation | Space Plan (Furniture change 5y)
-Infrastructure | | Service (pipes and maintenance 15y)
-Governance | | Skin
-Culture | Record | Structure (building 100y)
-Nature | Slow, Preserve | Site (place, forever)
+|Years|Layer | Function | Home metaphor | Bourdieu|
+| - | - | - | - | - |
+0|Fashion, Art | Fast , Innovate | Stuff (Sets changes)| Events
+5|Commerce | Differentiation | Space Plan (Furniture changes)|
+15|Infrastructure | | Service (pipes and maintenance )| Economic / Society
+70|Governance | | Skin, (human)|
+100|Culture | Record | Structure (building )|
+forever|Nature | Slow, Preserve | Site (place, )| environment
 
 
 
@@ -286,6 +368,17 @@ Nature | Slow, Preserve | Site (place, forever)
 
 
 ---
+
+# Mechanics in narration
+
+mechanick video storytell:
+- odcinnie ryb
+- nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
+morrals
+attach to charcter
+
+---
+
 
 
 good
