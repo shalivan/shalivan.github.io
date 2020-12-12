@@ -30,40 +30,35 @@ Make in passes from:
 
 #### Mix layers
 
-|-|-|-|
-|-|-|-|
-|Add Subtract | masks, good transitions  | TOP: gradient , bottom pattern
-|Overlay |  Smoother than addsub. less useful for mask, for blend height| car about 50%, bottom gradient
-|Min, Max | boolean in heights | cz wspola/ Blend!!!
+- Add Subtract - masks, good transitions   TOP: gradient , bottom pattern
+- Overlay -  Smoother than addsub. less useful for mask, for blend height car about 50%, bottom gradient
+- Min, Max - boolean in heights  cz wspola/ Blend!!!
 
 ---
 
-# Modeling
+# Heightfields
 #### Building
-- noise  
-- project  
-- distort : by noise or layer  
-- terrace
-- FlowLines:  - Simple version that create Water flow  - Wain Amount / density  Spread Smooth  (Adjust Height - Add to H.)
+- `Noise`  
+- `Project`  
+- `Distort` : by noise or layer  
+- `Terrace`
+- `Flow Lines` :  - Simple version that create Water flow  - Wain Amount / density  Spread Smooth  (Adjust Height - Add to H.)
 
-#### Masking
-- by features - Slope / Height / Peaks / Dir / Occlusion   
-- mask by object  
 
 #### Layers
 
 #### Change size
-Remap - change H (Y)  
-Crop - change X,Z  
-Transform - move / scale  
-Resample - dense  
+- `Remap` - change H (Y)  
+- `Crop` - change X,Z  
+- `Transform` - move / scale  
+- `Resample` - dense  
 
 
 
 ### Export
 
-heightfield_output > convert to image   
-convert  
+- `Heightfield Output` > convert to image   
+- `Convert`  
 
 
 ---
@@ -81,8 +76,6 @@ Erosion create Voxel grids:
 ||| ||
 |---|---|---|---|
 Resample |<img src="/src/hou/heightfields/0001.png" width="150"> | <img src="/src/hou/heightfields/0002.png" width="150"> | <img src="/src/hou/heightfields/0003.png" width="150">  
-
-Erosion Scale|
 
 
 
@@ -142,7 +135,7 @@ Heat based. mostly about mountaintops
 |---|---|---|---|
 |**Grid Bias** |<img src="/src/hou/heightfields/thermal/0014.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0015.png" width="150" align="center" >  
 |**Remove Rate**|<img src="/src/hou/heightfields/thermal/0016.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0017.png" width="150" align="center" >  | <img src="/src/hou/heightfields/thermal/0018.png" width="150" align="center" >  
-0.7 / -1/ 0 
+0.7 / -1/ 0
 
 ## Precipitation (opad)
 **Precipitation** - How much water.  High to erode quicker.  (AMOUNT)   
