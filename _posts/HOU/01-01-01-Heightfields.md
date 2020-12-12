@@ -52,6 +52,14 @@ Make in passes from:
 
 #### Layers
 
+#### Change size
+Remap - change H (Y)  
+Crop - change X,Z  
+Transform - move / scale  
+Resample - dense  
+
+
+
 ### Export
 
 heightfield_output > convert to image   
@@ -61,23 +69,31 @@ convert
 ---
 
 # Erosion
-Erosion create Voxel grids: `mask`, `sediment` (osady), `bedrock` (podłoże), `debris`, `water`    
-**Erodability** -    
-**Erosion rate** -    
+Erosion create Voxel grids:
+- `mask`
+- `sediment` (osady) - yellow
+- `bedrock` (podłoże) - violet
+- `debris` - orange
+- `water`  - green
+
+**Global Erosion**, **Erodability** & **Erosion rate** -   are multiplayers
+
+||| ||
+|---|---|---|---|
+Resample |<img src="/src/hou/heightfields/0001.png" width="250"> | <img src="/src/hou/heightfields/0002.png" width="250"> | <img src="/src/hou/heightfields/0003.png" width="250">  
+Erosion Scale|
 
 
-|no erosion| erosion 1|erosion 3|
-|---|---|---|
-<img src="/src/hou/heightfields/021.png" width="250"> | <img src="/src/hou/heightfields/015.png" width="250"> | <img src="/src/hou/heightfields/016.png" width="250">  
+
 
 
 
 
 ## Hydro
 
-|no erosion| erosion 1|erosion 3|
-|---|---|---|
-<img src="/src/hou/heightfields/021.png" width="350" align="center"  >  | <img src="/src/hou/heightfields/hydro/018.png" width="350" align="center"  >  | <img src="/src/hou/heightfields/hydro/017.png" width="350" align="center"  >  
+|Hydro only default |Erodability x4| Riverbed x4 only|Riverbank x4 only|
+|---|---|---|---|
+|<img src="/src/hou/heightfields/hydro/0004.png" width="350" align="center"  >|<img src="/src/hou/heightfields/hydro/0006.png" width="350" align="center"  >|<img src="/src/hou/heightfields/hydro/0007.png" width="350" align="center"  >|<img src="/src/hou/heightfields/hydro/0009.png" width="350" align="center"  >
 
 
 **Bank Angle** - Threshold angle. (Low values will make erosion on flatter planes more erosion with longer slopes and expanded riverbed)  
@@ -98,13 +114,16 @@ Erosion create Voxel grids: `mask`, `sediment` (osady), `bedrock` (podłoże), `
 **Deposition Rate** - Removal rate     
 **Sediment Capacity** -  How much debris can be carry by sediments down (pojemność osadów)  
 
-**Riverbank:** (brzeg)
+##### Riverbank (brzeg)
+**Max Bank To Water Ratio** -  
 
 
+```
 ||||||
 |--|--|--|--|--|
 |**Bank Angle** 30 85| Threshold angle. (Low values will make erosion on flatter planes more erosion with longer slopes and expanded riverbed)    | <img src="/src/hou/heightfields/hydro/003.png">  | <img src="/src/hou/heightfields/hydro/004.png">  
 |**Spread Itterations** 20 - 60  |(high: longer slopes and expanded riverbed)     | <img src="/src/hou/heightfields/hydro/005.png">  | <img src="/src/hou/heightfields/hydro/006.png">  
+Erosion rate main | | <img src="/src/hou/heightfields/hydro/001.png">  | <img src="/src/hou/heightfields/hydro/002.png">  
 ||**Hydro Advanced**
 |**Removal Rate** | How much of debris to remove (-1 Accumulate a lot), (1 - Cuts but not debris)     |
 |**Max Depth** | Stop when debris reach level      |
@@ -118,42 +137,41 @@ Erosion create Voxel grids: `mask`, `sediment` (osady), `bedrock` (podłoże), `
 |**Deposition Rate** | Removal rate     |
 |**Sediment Capacity** |  How much debris can be carry by sediments down (pojemność osadów)  |
 |**Riverbank:** (brzeg)|
+```
 
 
 
-Erosion rate main
- | <img src="/src/hou/heightfields/hydro/001.png">  | <img src="/src/hou/heightfields/hydro/002.png">  
+```
+
+0
+1 2 3 - resolutions
+4 - hydro 1
+5 - ---------------hydro general  4 -------------------------------------
+6 - hydro/erodability 4                vvvvvvvvvv
+7 - hydro advanced/ riverbed 4        vvvvvvvvvvvvv
+8 ------------------------------------- same rest others
+9 - hydro advanced / riverbank 4        vvvvvvvvvvv
+10 -------------------------------- same rest others
 
 
 
-7 8
-riverbank0.5
-2
-
-
-9 10
-riverbet rate factor 0.5
-2
-
-
-11 12
-deposition 0.001
-0.1
-
-
-13 14
-???deposition 0.001
-erodablilty: slope  0.4
-
-
+- termal 1
+- ----------------------      global 4
+-  termal / erodability  4
+- grid bias -
+- grid +
+- precipitation > amount
+- precipitation > density
+- precipitation > density
+```
 
 
 ## Thermal  
 
 
-|no erosion| erosion 1|erosion 3|
+|no erosion| erosion 1|erosion 4|
 |---|---|---|
-<img src="/src/hou/heightfields/021.png" width="150" align="center"  > |<img src="/src/hou/heightfields/thermal/020.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/019.png" width="150" align="center"  >  
+<img src="/src/hou/heightfields/0000.png" width="150" align="center"  > |<img src="/src/hou/heightfields/thermal/0011.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0012.png" width="150" align="center"  >  
 
 
 Heat based. mostly about mountaintops    
@@ -164,80 +182,35 @@ Heat based. mostly about mountaintops
 **Max Debris Depth** -   
 **Grid Bias** - change values per angle (- debris remain on ground + debris remain on slopes )  (lower : more on bottom)   
 
-#### Precipitation (opad)
+
+|| ||
+|---|---|---|
+Grid bias |<img src="/src/hou/heightfields/thermal/0014.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0015.png" width="150" align="center" >  
+
+
+
+## Precipitation (opad)
 **Precipitation** - How much water.  High to erode quicker.  (AMOUNT)   
 **Density** - how much   low: more lines hi: wide and rear lines - High to erode quicker  (AMOUNT)   
 **Evaporation rate** - how much water to sink    
 
-#### Water Flow
+|| ||
+|---|---|---|
+Amount |<img src="/src/hou/heightfields/thermal/0000.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0000.png" width="150" align="center" >  
+Density  |<img src="/src/hou/heightfields/thermal/0004.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/00015.png" width="150" align="center" >  
 
 
-#### Debris Flow
+## Water Flow
+
+
+## Debris Flow
 **Spread Itter** - 4 low -fine lines , 15-20 - is middle ,   hi - large chunks of sand   (AMOUNT)   
 **Max Height** - how height debris can build up - high value can create interesting cliff pattern (bolders?)  
 
 lobes - płaty  
 
-
-
 default thermal
 
--------------
-
-
-
-1 2
-erosion rate 0.2
-0.6
-
-
-
-4 3
-bank angle 30
-85
-
-
-
-
-5 6
-spreed 20
-60
-
-
-
-7 8
-riverbank0.5
-2
-
-
-9 10
-riverbet rate factor 0.5
-2
-
-
-11 12
-deposition 0.001
-0.1
-
-
-13 14
-???deposition 0.001
-erodablilty: slope  0.4
-
-
-
-
-
-BOTH DEFAULT
-BOTH 3
-hydro 3
-hydro 1
-thermal 3
-thermal 1
-00000000 21
-
-
----
 
 # Unreal
 
