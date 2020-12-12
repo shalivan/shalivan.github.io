@@ -80,7 +80,8 @@ Erosion create Voxel grids:
 
 ||| ||
 |---|---|---|---|
-Resample |<img src="/src/hou/heightfields/0001.png" width="250"> | <img src="/src/hou/heightfields/0002.png" width="250"> | <img src="/src/hou/heightfields/0003.png" width="250">  
+Resample |<img src="/src/hou/heightfields/0001.png" width="150"> | <img src="/src/hou/heightfields/0002.png" width="150"> | <img src="/src/hou/heightfields/0003.png" width="150">  
+
 Erosion Scale|
 
 
@@ -93,7 +94,7 @@ Erosion Scale|
 
 |Hydro only default |Erodability x4| Riverbed x4 only|Riverbank x4 only|
 |---|---|---|---|
-|<img src="/src/hou/heightfields/hydro/0004.png" width="350" align="center"  >|<img src="/src/hou/heightfields/hydro/0006.png" width="350" align="center"  >|<img src="/src/hou/heightfields/hydro/0007.png" width="350" align="center"  >|<img src="/src/hou/heightfields/hydro/0009.png" width="350" align="center"  >
+|<img src="/src/hou/heightfields/hydro/0004.png" width="150" align="center"  >|<img src="/src/hou/heightfields/hydro/0006.png" width="150" align="center"  >|<img src="/src/hou/heightfields/hydro/0007.png" width="150" align="center"  >|<img src="/src/hou/heightfields/hydro/0009.png" width="150" align="center"  >
 
 
 **Bank Angle** - Threshold angle. (Low values will make erosion on flatter planes more erosion with longer slopes and expanded riverbed)  
@@ -118,68 +119,15 @@ Erosion Scale|
 **Max Bank To Water Ratio** -  
 
 
-```
-||||||
-|--|--|--|--|--|
-|**Bank Angle** 30 85| Threshold angle. (Low values will make erosion on flatter planes more erosion with longer slopes and expanded riverbed)    | <img src="/src/hou/heightfields/hydro/003.png">  | <img src="/src/hou/heightfields/hydro/004.png">  
-|**Spread Itterations** 20 - 60  |(high: longer slopes and expanded riverbed)     | <img src="/src/hou/heightfields/hydro/005.png">  | <img src="/src/hou/heightfields/hydro/006.png">  
-Erosion rate main | | <img src="/src/hou/heightfields/hydro/001.png">  | <img src="/src/hou/heightfields/hydro/002.png">  
-||**Hydro Advanced**
-|**Removal Rate** | How much of debris to remove (-1 Accumulate a lot), (1 - Cuts but not debris)     |
-|**Max Depth** | Stop when debris reach level      |
-|**Grid Bias** | (-1 Sand on the Ground), (1- Leave sand on cliffs/slopes) Bias angles    |
-||Erodibility Adjustment
-|**Ramp-up Iterarions** | How many itters before full erosion (0 - Immediately)      |
-|**Initial factor** | Strength of erosion in initial movement      |
-|**Slope Factor** | (0 - Everything, will erode),  (0.8) Less erosion (stip lot of, shallow little)   |  
-||Riverbed  (koryto)
-|**Erosion Rate Factor** 0.2 - 0.6  |
-|**Deposition Rate** | Removal rate     |
-|**Sediment Capacity** |  How much debris can be carry by sediments down (pojemność osadów)  |
-|**Riverbank:** (brzeg)|
-```
-
-
-
-```
-
-
-0
-1 2 3 - resolutions
-4 - hydro 1
-5 - ------tes off riversite and rivebet x0
-6 - hydro/erodability 4                vvvvvvvvvv
-7 - hydro advanced/ riverbed 4        vvvvvvvvvvvvv
-8 ------------------------------------- same rest others
-9 - hydro advanced / riverbank 4        vvvvvvvvvvv
-10 -------------------------------- same rest others
-
-
-
-- termal 1
-- ----------------------      global 4
--  termal / erodability  4
-- grid bias - 14
-- grid + 15
-
-on multi 4 opad:
-
-16 - am 0.3, dens 0.05 . rate 0.04
-17 - am 0.6, dens 0.05 . rate 0.04
-18 - am 0.3, dens 0.6 . rate 0.04
-19- am 0.6, dens 0.6 . rate 0.04
-20- am 0.6, dens 0.05 . rate 0.5
-21- am 0.3, dens 0.6 . rate 0.5
-
-```
 
 
 ## Thermal  
 
 
-|no erosion| erosion 1|erosion 4|
-|---|---|---|
-<img src="/src/hou/heightfields/0000.png" width="150" align="center"  > |<img src="/src/hou/heightfields/thermal/0011.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0012.png" width="150" align="center"  >  
+
+||no erosion| erosion 1|erosion 4|
+|---|---|---|---|
+||<img src="/src/hou/heightfields/0000.png" width="150" align="center"  > |<img src="/src/hou/heightfields/thermal/0011.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0012.png" width="150" align="center"  >  
 
 
 Heat based. mostly about mountaintops    
@@ -188,24 +136,25 @@ Heat based. mostly about mountaintops
 #### Thermal Advanced
 **Remove Rate** - (-1 - Add more debris , +1 Remove debris )  
 **Max Debris Depth** -   
-**Grid Bias** - change values per angle (- debris remain on ground + debris remain on slopes )  (lower : more on bottom)   
+**Grid Bias** -   change values per angle
 
-
-|| ||
-|---|---|---|
-Grid bias |<img src="/src/hou/heightfields/thermal/0014.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0015.png" width="150" align="center" >  
-
-
+|Grid bias| -1 debris remain on ground |debris remain on slopes +1 ||
+|---|---|---|---|
+|**Grid Bias** |<img src="/src/hou/heightfields/thermal/0014.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0015.png" width="150" align="center" >  
+|**Remove Rate**|<img src="/src/hou/heightfields/thermal/0016.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0017.png" width="150" align="center" >  | <img src="/src/hou/heightfields/thermal/0018.png" width="150" align="center" >  
+0.7 / -1/ 0 
 
 ## Precipitation (opad)
 **Precipitation** - How much water.  High to erode quicker.  (AMOUNT)   
 **Density** - how much   low: more lines hi: wide and rear lines - High to erode quicker  (AMOUNT)   
 **Evaporation rate** - how much water to sink    
 
-|| ||
-|---|---|---|
-Amount |<img src="/src/hou/heightfields/thermal/0000.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0000.png" width="150" align="center" >  
-Density  |<img src="/src/hou/heightfields/thermal/0004.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/00015.png" width="150" align="center" >  
+
+||Amount 0.3 |Amount 0.6|Rate 0.5 |
+|---|---|---|---|
+**Density** 0.05|<img src="/src/hou/heightfields/thermal/0021.png" width="150" align="center"  >|<img src="/src/hou/heightfields/thermal/0022.png" width="150" align="center"  >|<img src="/src/hou/heightfields/thermal/0024.png" width="150" align="center"  >
+**Density** 0.6  |<img src="/src/hou/heightfields/thermal/0019.png" width="150" align="center"  >|<img src="/src/hou/heightfields/thermal/0020.png" width="150" align="center"  >|<img src="/src/hou/heightfields/thermal/0023.png" width="150" align="center"  >
+
 
 
 ## Water Flow
@@ -241,3 +190,61 @@ Overal resolution|final size  1+(SectionSize * NumOfComp * Sectionspercomp)
  -256 to 255.992 and stored with 16 bit precision. multiplied by the Z
 
   scale value of 1 results in a maximum height of roughlty 256 centimeters (cm) and a maximum depth of -256cm. Therefore, at the default Z scale value of 100 your height values with be between 256 meters (m) and -256m.
+
+
+
+
+  ```
+  ||||||
+  |--|--|--|--|--|
+  |**Bank Angle** 30 85| Threshold angle. (Low values will make erosion on flatter planes more erosion with longer slopes and expanded riverbed)    | <img src="/src/hou/heightfields/hydro/003.png">  | <img src="/src/hou/heightfields/hydro/004.png">  
+  |**Spread Itterations** 20 - 60  |(high: longer slopes and expanded riverbed)     | <img src="/src/hou/heightfields/hydro/005.png">  | <img src="/src/hou/heightfields/hydro/006.png">  
+  Erosion rate main | | <img src="/src/hou/heightfields/hydro/001.png">  | <img src="/src/hou/heightfields/hydro/002.png">  
+  ||**Hydro Advanced**
+  |**Removal Rate** | How much of debris to remove (-1 Accumulate a lot), (1 - Cuts but not debris)     |
+  |**Max Depth** | Stop when debris reach level      |
+  |**Grid Bias** | (-1 Sand on the Ground), (1- Leave sand on cliffs/slopes) Bias angles    |
+  ||Erodibility Adjustment
+  |**Ramp-up Iterarions** | How many itters before full erosion (0 - Immediately)      |
+  |**Initial factor** | Strength of erosion in initial movement      |
+  |**Slope Factor** | (0 - Everything, will erode),  (0.8) Less erosion (stip lot of, shallow little)   |  
+  ||Riverbed  (koryto)
+  |**Erosion Rate Factor** 0.2 - 0.6  |
+  |**Deposition Rate** | Removal rate     |
+  |**Sediment Capacity** |  How much debris can be carry by sediments down (pojemność osadów)  |
+  |**Riverbank:** (brzeg)|
+  ```
+
+
+
+  ```
+
+
+  0
+  1 2 3 - resolutions
+  4 - hydro 1
+  5 - ------tes off riversite and rivebet x0
+  6 - hydro/erodability 4                vvvvvvvvvv
+  7 - hydro advanced/ riverbed 4        vvvvvvvvvvvvv
+  8 ------------------------------------- same rest others
+  9 - hydro advanced / riverbank 4        vvvvvvvvvvv
+  10 -------------------------------- same rest others
+
+
+
+  - termal 1
+  - ----------------------      global 4
+  -  termal / erodability  4
+  - grid bias - 14
+  - grid + 15
+
+  on multi 4 opad:
+
+  19 - am 0.3, dens 0.05 . rate 0.04
+20 - am 0.6, dens 0.05 . rate 0.04
+  21 - am 0.3, dens 0.6 . rate 0.04
+  22- am 0.6, dens 0.6 . rate 0.04
+  23- am 0.6, dens 0.05 . rate 0.5
+  24- am 0.3, dens 0.6 . rate 0.5
+
+  ```
