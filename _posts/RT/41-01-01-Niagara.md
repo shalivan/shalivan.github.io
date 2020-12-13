@@ -14,14 +14,13 @@ tags:
 permalink: /niagara/
 ---
 
-Niagara 16 params can send to material
-U can accse only depth buffer can read  
-
-Niagara can intreract with:  
-- Triangles  - u must point to spoecific mesh in query  
-- Phys Volumetric  
-- Scene Depth  - niestety: 2d, wiec nie ma info co jest za  
-- Distance Fields  - !
+- Niagara 16 params can send to material
+- U can accse only depth buffer can read  
+- Niagara can intreract with:  
+ - Triangles  - u must point to spoecific mesh in query  
+ - Phys Volumetric  -  
+ - Scene Depth  - niestety: 2d, wiec nie ma info co jest za  
+ - Distance Fields  -
 
 
 
@@ -35,7 +34,7 @@ Niagara can intreract with:
 | Name Space | R | W | Define | Share within |
 |--- | --- | --- | --- | ---|
 |`System` | Yes | System | Persisted f2f | System
-|`Emitter` | Emitter / Particle  | Emitter  | Persisted f2f | Emitter instance / color ect...
+|`Emitter` | Emitter, Particle  | Emitter  | Persisted f2f | Emitter instance / color ect...
 |`Particles` | Particle | Particle |  Persisted f2f  |  Per-particle (@point)
 |`Engine` |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
 |`Module` | Module | Module | Module | expose a module input to the System and Emitter Editor
@@ -45,10 +44,9 @@ Niagara can intreract with:
 |LOCAL.|||| Truly local for function !
 Output ||Y|| pay for calculate but not for adding it to emiter (parameter writes)
 
-name space modifiers:
-
-- module - insert module name as namespace so if u have x modules u have x different params
-- initial -  initial value of attribute (from eg in particle spawn)
+Name space modifiers:
+  - module - insert module name as namespace so if u have x modules u have x different params
+  - initial -  initial value of attribute (from eg in particle spawn)
 
 
 
@@ -64,52 +62,51 @@ name space modifiers:
 ## Script types
 
 
+#### Module Script
 
 
-##### Module Script
+<img  src="/src/ue/niagara/module.png" width="350" >  
+
+You can see read/writes in finished module
+- Module usage flags  
+  - `Module` - particle , emitter, system scripts
+
+#### Function Script
+
+<img  src="/src/ue/niagara/script.png" width="350">
+
+- Module usage flags
+  - `Function` - fn to use in modules
 
 
-<img align="right" src="/src/ue/niagara/module.png" width="250" >  
+#### Dynamic Input Script
 
--  you can see read/writes in finished module
+<img  src="/src/ue/niagara/dynamic.png" width="350">  
 
-
-##### Function Script
-
-<img align="right" src="/src/ue/niagara/script.png" width="250">
-.
+- Module usage flags  
+  - `Dynamic Input` - particle , emitter, system scripts
 
 
-##### Dynamic Input Script
+#### System state
 
-<img align="right" src="/src/ue/niagara/dynamic.png" width="250">
+- Module usage flags  
+  - `System Spawn Script` - on system spawn
+  - `System Update Script` -
 
-.
+#### Emitter
+Do what system (optimal to set for multiple emitters) do or define.
 
+- Module usage flags  
+  - `Emitter Spawn Script` - once on spawn
+  - `Emitter Update Script` - Tick
 
+#### Particle
 
-
-
-## Module usage flags
-
-- `Function` - fn to use in modules
-- `Module` - particle , emitter, system scripts
-- `Dynamic Input` - particle , emitter, system scripts
-- `Particle Spawn Script` - on spawn
-- `Particle Update Script` - every frame
-- `Particle Event Script` - In response to event
-- `Particle Simulation Stage Script` -
-- `Emitter Spawn Script` - once on spawn
-- `Emitter Update Script` - Tick
-- `System Spawn Script` - on system spawn
-- `System Update Script` -
-
-
-`System state` -   
-`Emitter` - do what system (optimal to set for multiple emitters) do or define.   
-`Particle` -   
-
-
+- Module usage flags  
+  - `Particle Spawn Script` - on spawn
+  - `Particle Update Script` - every frame
+  - `Particle Event Script` - In response to event
+  - `Particle Simulation Stage Script` -
 
 
 ----------
@@ -197,7 +194,6 @@ Particles.Position.z > Emitter.InitialPosition.z - Emitter.ZOffset
 - `Particles.Scale`- @pscale (mesh)  
 - `Particles.SpriteSize`- @pscale (sprite)   
 - `Particles.RibbonWidth` - Ribbon width  
-
 - `Particles.Owner.Position` `/Rotation` `/Scale`  - Owner Transform  
 
 #### Physics
