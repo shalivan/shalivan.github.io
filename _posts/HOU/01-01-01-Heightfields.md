@@ -131,11 +131,12 @@ Heat based. mostly about mountaintops
 **Max Debris Depth** -   
 **Grid Bias** -   change values per angle
 
-|Grid bias| -1 debris remain on ground |debris remain on slopes +1 ||
+|.| -1 debris remain on ground |debris remain on slopes +1 ||
 |---|---|---|---|
-|**Grid Bias** |<img src="/src/hou/heightfields/thermal/0014.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0015.png" width="150" align="center" >  
+| **Grid Bias** |<img src="/src/hou/heightfields/thermal/0014.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0015.png" width="150" align="center" >  
+
 |**Remove Rate**|<img src="/src/hou/heightfields/thermal/0016.png" width="150" align="center"  >| <img src="/src/hou/heightfields/thermal/0017.png" width="150" align="center" >  | <img src="/src/hou/heightfields/thermal/0018.png" width="150" align="center" >  
-0.7 / -1/ 0
+|0.7 / -1/ 0|
 
 ## Precipitation (opad)
 **Precipitation** - How much water.  High to erode quicker.  (AMOUNT)   
