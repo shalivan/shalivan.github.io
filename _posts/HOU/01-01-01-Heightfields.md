@@ -146,8 +146,8 @@ Heat based. mostly about mountaintops
 
 ||Amount 0.3 |Amount 0.6|Rate 0.5 |
 |---|---|---|---|
-**Density** 0.05|<img src="/src/hou/heightfields/thermal/0021.png" width="150" align="center"  >|<img src="/src/hou/heightfields/thermal/0022.png" width="150" align="center"  >|<img src="/src/hou/heightfields/thermal/0024.png" width="150" align="center"  >
-**Density** 0.6  |<img src="/src/hou/heightfields/thermal/0019.png" width="150" align="center"  >|<img src="/src/hou/heightfields/thermal/0020.png" width="150" align="center"  >|<img src="/src/hou/heightfields/thermal/0023.png" width="150" align="center"  >
+**Density** 0.05|<img src="/src/hou/heightfields/precipitation/0021.png" width="150" align="center"  >|<img src="/src/hou/heightfields/precipitation/0022.png" width="150" align="center"  >|<img src="/src/hou/heightfields/precipitation/0024.png" width="150" align="center"  >
+**Density** 0.6  |<img src="/src/hou/heightfields/precipitation/0019.png" width="150" align="center"  >|<img src="/src/hou/heightfields/precipitation/0020.png" width="150" align="center"  >|<img src="/src/hou/heightfields/precipitation/0023.png" width="150" align="center"  >
 
 
 
@@ -231,6 +231,10 @@ Overal resolution|final size  1+(SectionSize * NumOfComp * Sectionspercomp)
   -  termal / erodability  4
   - grid bias - 14
   - grid + 15
+
+  16
+  17
+  18
 
   on multi 4 opad:
 
