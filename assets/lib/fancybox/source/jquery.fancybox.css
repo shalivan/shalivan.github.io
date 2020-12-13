@@ -26,8 +26,8 @@
 
 .fancybox-skin {
 	position: relative;
-	background: #110000;
-	color: #001100;
+	background: #111100;
+	color: #110011;
 	text-shadow: none;
 	-webkit-border-radius: 4px;
 	   -moz-border-radius: 4px;
@@ -99,7 +99,7 @@
 
 .fancybox-close {
 	position: absolute;
-	top: -148px;  /*              !!!!!!!!! tu zmieniłem z -18*/
+	top: 48px;  /*              !!!!!!!!! tu zmieniłem z -18*/
 	right: -18px;
 	width: 36px;
 	height: 36px;
