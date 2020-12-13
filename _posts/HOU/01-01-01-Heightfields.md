@@ -80,11 +80,7 @@ Erosion create Voxel grids:
 <img src="/src/hou/heightfields/size_0001.png" width="150"> | <img src="/src/hou/heightfields/size_0002.png" width="150"> | <img src="/src/hou/heightfields/size_0003.png" width="150">   | <img src="/src/hou/heightfields/size_0004.png" width="150">  
 |Rescale  100 (.1 of orginal) | 200 (.2) | 1000 (1) | 5000 (5)
 
-Rescale |
-Resample |
-256, 1024, 2048
-.2, 1, 5
-200, 1000, 5000
+
 
 
 

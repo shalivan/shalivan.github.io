@@ -24,18 +24,13 @@ Niagara can intreract with:
 - Distance Fields  - !
 
 
-# States
-
-`System state` -   
-`Emitter` - do what system (optimal to set for multiple emitters) do or define.   
-`Particle` -   
 
 
 
 # Parameters, Attributes
 
 
-###  Name Space
+##  Name Space
 
 | Name Space | R | W | Define | Share within |
 |--- | --- | --- | --- | ---|
@@ -54,7 +49,6 @@ name space modifiers:
 
 - module - insert module name as namespace so if u have x modules u have x different params
 - initial -  initial value of attribute (from eg in particle spawn)
-
 
 
 
@@ -92,19 +86,28 @@ name space modifiers:
 
 .
 
+
+
+
+
 ## Module usage flags
 
-- Function - fn to use in modules
-- Module - particle , emitter, system scripts
-- Dynamic Input - particle , emitter, system scripts
-- Particle Spawn Script - on spawn
-- Particle Update Script - every frame
-- Particle Event Script - In response to event
-- Particle Simulation Stage Script -
-- Emitter Spawn Script - once on spawn
-- Emitter Update Script - Tick
-- System Spawn Script - on system spawn
-- System Update Script -
+- `Function` - fn to use in modules
+- `Module` - particle , emitter, system scripts
+- `Dynamic Input` - particle , emitter, system scripts
+- `Particle Spawn Script` - on spawn
+- `Particle Update Script` - every frame
+- `Particle Event Script` - In response to event
+- `Particle Simulation Stage Script` -
+- `Emitter Spawn Script` - once on spawn
+- `Emitter Update Script` - Tick
+- `System Spawn Script` - on system spawn
+- `System Update Script` -
+
+
+`System state` -   
+`Emitter` - do what system (optimal to set for multiple emitters) do or define.   
+`Particle` -   
 
 
 
@@ -134,33 +137,29 @@ FlipBook - `SpriteUVScale`, `SpriteSubimageIndex`
 
 
 # HLSL
-#### Expressions
+## Expressions
 
 - `/* Custom HLSL! */`  
-- `sin(Emitter.Age *0.3) /2 +0.5` - 0-1 time x 0.3    
+- `sin(Emitter.Age *0.3) /2 +0.5` - 0-1 time x 0.3
+- `cross(Particles.RandomVector, float3(0,8,0))` - cross   
+- `rand(1.5f) + 2.2f` - random   
+- `length(Particles.Position - Emitter.InitialPosition)` - length   
+- `saturate()` - fast clamp 0-1  
 - `frac(Emitter.Age *0.3)` - 0-1 loop in time x 0.3   
 - `float3(0.0f, 0.0f, Emitter.ZOffset) *0.2f)` - Add Z  
 - `Particles.Position + float3(0, 0, (sin(Engine.Time) * 0.3f ))` - Add Z sin to actual pos    
+
+.
 - `float3(Particles.UV,0)` - make vector from uvs  
+- `(Particles.Position-Particles.PreviousPosition)/Engine.DeltaTime` - render velocity
 
-`(Particles.Position-Particles.PreviousPosition)/Engine.DeltaTime` - render velocity  
+.
+- `Emitter.InitialPosition + Particles.RandomVector`  
+- `Particles.NormalizedAge`  
+- `Particles.Position - Emitter.InitialPosition`  
 
-`Emitter.InitialPosition + Particles.RandomVector`  
-`Particles.NormalizedAge`  
-`Particles.Position - Emitter.InitialPosition`  
-
-`cross(Particles.RandomVector, float3(0,8,0))` - cross   
-`rand(1.5f) + 2.2f` - random   
-`length(Particles.Position - Emitter.InitialPosition)` - length   
-`saturate()` - fast clamp 0-1  
-
-### HLSL Functions  
-
-
-
-
-
-
+.
+- `(1.0f-(abs((Particles.RibbonLinkOrder)-0.5f)*2.0f))*50.0f` - Ribbon radious  
 
 ###  Conditioning  
 
@@ -173,14 +172,11 @@ Particles.Position.z > Emitter.InitialPosition.z - Emitter.ZOffset
 ```
 
 
-Ribbon radious
-
-```
-(1.0f-(abs((Particles.RibbonLinkOrder)-0.5f)*2.0f))*50.0f
-```
 
 
-### Map Attributes
+
+
+## Map Attributes
 
 #### Time:
 
