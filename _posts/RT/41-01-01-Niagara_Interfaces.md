@@ -72,6 +72,7 @@ hardcoded attributes -
 ### Emitter Spawn  - `InitHoudiniPointCache`  
 Initialize  
 
+<img align="right" src="/src/ue/niagara/houdiniinit.png">
 ```
 W:  
 emitter.Houdini.LastSpawnTime - 0.0  
@@ -85,6 +86,10 @@ emitter.Houdini.RestSpawnState - [V]
 Spawn only   
 
 - `GetPointIDTospawnAtTime` - create spawn data: deltaTime, InterpStart, Delat, Count
+
+<img align="right" src="/src/ue/niagara/houdinispaenfrompointcloud.png">
+
+
 
 ```
 R:    
@@ -112,6 +117,9 @@ sample data not set! (similar to sample niagara mofules )
 - Creat `NID` - Particles.Houdini.NID: This is not the same value as the original ID attribute. This is the persistent Niagara ID that should be used for attribute lookups.  
 - `GetPoint...AtTime` -   
 - `Transform...` - Local to sim for: P, N, v
+
+<img align="right" src="/src/ue/niagara/houdiniparticlespawn.png">
+
 
 ```
 R:
@@ -145,6 +153,8 @@ particles.Houdini.Velocity  // v@v
 - `GetSampleIndexesForPointAtTime` - get sample index and BlendAlpha
 - `Get... ` - and LERP
 - `NF Transform Vector` (Local to Sim) + `NF Initial Particle Postition` (engine.Owner.Position)
+
+<img align="right" src="/src/ue/niagara/oudinipointupdate.png">
 
 ```
 R:

@@ -11,55 +11,62 @@ tags:
 permalink: /narration/
 ---
 
-jaki jest temat  
-jakie sa zagadnienia  
+chase desire to order  !!!
+internal goal
+
+
 
 
 
 # Medium
-- See or listen not as powerful as play themselves
 - Every medium have it own narration style. Linear narrative is not enough for games.  
+- See or listen not as powerful as play themselves
 
-
-Book is more than one idea.
-Even bad ideas can have nice execution
 ---
 
 #  Plot
-(unique story or have a twist or sth to say. Try to implement plot in mechanics)
+
 Telling stories is in human nature.
 
-give 2+2
 
-**Story** the story tells who and what. is a series of events recorded in their chronological order. a sequence of events,  The story includes all of the events described that make up a narrative.  
-**Plot** the plot tells how. Once you have a story in mind, you can decide how you are going to plot it. is a series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance. And create tension.  
-**Narrative** the narrative tells why.  is the interpretation of the events within the story. point of view of the story.
+- **Story**  tells who and what.   
+  - Series of events recorded in their chronological order,  sequence of events.
+  - Story includes all of the events described that make up a narrative.
+- **Plot** tells how.   
+  - With story in mind, you can decide how to plot it.
+  - Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
+- **Narrative** tells why.   
+  - Interpretation of the events within the story. point of view of the story.
 
+
+
+## Key Concept
+What is the topic, what are the issue.  
+Unique story or have a twist or sth to say.   
+- Give 2+2
+- Book is more than one idea.
 
 ## Narration
 
 
-#### Narration types  
-- **Explicit** - cutscenes text written
-- **Implicit** - player must figure out itself
-- **Emergent** -
+### Narration types  
+- **Explicit** - cutscenes text written  
+- **Implicit** - player must figure out itself  
+- **Emergent** -  
 
 
-#### Point of view
+### Point of view
 
-||||
-|---|---|---|
-First Person | I Me My  | character is telling the story.
-Second Person | You/Your  | narrator speak to the reader.
-Third Person | She/He Her/His | external narrator is telling the story.
-
-First Person - connection,m acces to thoughts. They share emotions. / in vilan shose you can understand vilan. / strong characterisation
-but: restricted to one chatacter, dificult .
-
-filter words to show perspopective of character
+- **1st Person** - I Me My.
+  - Character is telling the story.
+connection,m acces to thoughts. They share emotions. / in vilan shose you can understand vilan. / strong characterisation
+but: restricted to one chatacter, dificult .filter words to show perspopective of character
+- **2nd Person** - You/Your.  
+  - Narrator speak to the reader.
+- **3rd Person** - She/He Her/His.
+  - External narrator is telling the story.
 
 
-#### Narrator types
 
 ||||
 |---|---|---|
@@ -71,62 +78,18 @@ Story world facts | representing (represents exiting world) | stipulating  (stip
 Commentator/Interviewer
 
 
-```
-- cold open (start in adventure)
-- when cleache is well executed is not a cliche (clishe is when its not driving us to the point )
-- premiss proper premies and way to get there
-- obsticle, desire
-- pase
-- overpowered to much , no tention
-- slight differences
-- every step in journey should bring you little bit to final
-
-- fail and find  new: clue, inspiration, information
-- umbrela plot : we will do x because core plot of genre
-- arc (character how will change ) suptle inversion to promies
-- strange attractor (new spin on familiar idea / 2 ideas )
-- plot expansion: instead of twist (u get more than promisied not unexpected change)
-- substitution plot :L give sth elese than what expected (harder to write, )
-- payof should give u everything from premies of begininig +
-- FIRST DRAFT IS OUTLINE
-
-przyklady
-- grb team , make plan , on piece miss, ll go great (oceans)
-- grab team, explain problems, go throu, you have other problem at end (italian job)
-puzzle
-- murder mistery: whn to know what hppened and see if detective is wizer than us
-- romances: wish fulfilmetns
-
-```
-
-- sense of progress from bbullet point to bullet point > sections. and organize them in plot
-
-- change from inactive tro proactive  
-- try fail cycle
 ---
-- dont show monseter but causes it make
-- roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
 
-- promies > progress > payoff
-
-Mistrust and misdirection  oftren are good narative tools
-
-twist
-
-
-known   
-known unknown   
-unknown unknow  
-
-
-contrast: elemental oposites. dobro zło ogien lod
-
-
+# Game story vs player story domination
+scale: narrativ to mechanics driven
 #### dialogues
-Plot Exposition
-Character Exposition
-Emotional Exposition
- Gameplay Exposition
+Plot Exposition  
+Character Exposition  
+Emotional Exposition  
+Gameplay Exposition  
+
+
+# Ludonarrative Harmony
 
 ## Structure
 ### Place, Time, Character
@@ -153,6 +116,7 @@ plot points are between phases
 ##### Tension
 crisis and climax
 dyolemat niejednoznaczne rozwiazanie
+balance between: anxiet  and boredom
 
 ### Monomyth
   Heroes Journey: **You**, **Need**, **Go**, **Search**, **Find**, **Take**, **Return**, **Change**  (Joseph Campbell)
@@ -220,6 +184,12 @@ Plant idea ahead and earlier to connect later
 ----
 
 ##  Motivations
+
+
+for character
+- inretnal change sth inside person. Overcoming grive / block
+- external: change sth in world outside / travel / fulfill emotions
+
 ryzyko
 zagrozenie i jak mozena je pokonac (kill it / craft to survive )
 
@@ -370,7 +340,8 @@ forever|Nature | Slow, Preserve | Site (place, )| environment
 ---
 
 # Mechanics in narration
-
+Earier established gandra
+Try to implement plot in mechanics
 mechanick video storytell:
 - odcinnie ryb
 - nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
@@ -379,6 +350,59 @@ attach to charcter
 
 ---
 
+
+
+```
+
+- sense of progress from bbullet point to bullet point > sections. and organize them in plot
+
+- change from inactive tro proactive  
+- try fail cycle
+
+- dont show monseter but causes it make
+- roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
+
+- promies > progress > payoff
+
+Mistrust and misdirection  oftren are good narative tools
+
+twist
+
+
+known   
+known unknown   
+unknown unknow  
+
+
+contrast: elemental oposites. dobro zło ogien lod
+
+
+- cold open (start in adventure)
+- when cleache is well executed is not a cliche (clishe is when its not driving us to the point )
+- premiss proper premies and way to get there
+- obsticle, desire
+- pase
+- overpowered to much , no tention
+- slight differences
+- every step in journey should bring you little bit to final
+
+- fail and find  new: clue, inspiration, information
+- umbrela plot : we will do x because core plot of genre
+- arc (character how will change ) suptle inversion to promies
+- strange attractor (new spin on familiar idea / 2 ideas )
+- plot expansion: instead of twist (u get more than promisied not unexpected change)
+- substitution plot :L give sth elese than what expected (harder to write, )
+- payof should give u everything from premies of begininig +
+- FIRST DRAFT IS OUTLINE
+
+przyklady
+- grb team , make plan , on piece miss, ll go great (oceans)
+- grab team, explain problems, go throu, you have other problem at end (italian job)
+puzzle
+- murder mistery: whn to know what hppened and see if detective is wizer than us
+- romances: wish fulfilmetns
+
+```
 
 
 good
