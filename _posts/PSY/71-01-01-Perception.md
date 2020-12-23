@@ -14,6 +14,11 @@ permalink: /perception/
 ---
 
 
+
+
+
+# Reaction Time
+
 | | average reaction time |
 |---|---|
 0.25 | visuals
@@ -24,7 +29,17 @@ permalink: /perception/
 
 
 
+
 # Visual Perception
+
+## Human Vision
+
+| | |
+|---|---|
+15 x 2 | preferred viewing area 30 (left + right)  
+25 x 2 | immediate field o f view (max eye movement)  
+60 x 2 | head rotation  (console games)  
+95 x 2 | head & eyes  (max viewing area)   
 
 ## Gestalt
 
