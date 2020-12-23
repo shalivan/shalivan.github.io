@@ -1,5 +1,5 @@
 ---
-title: Unreal Niagara Syntax
+title: Unreal Niagara Paradigm
 description: Unreal Niagara.
 categories:
  - RT
@@ -21,9 +21,11 @@ permalink: /niagara/
  - Phys Volumetric  -  
  - Scene Depth  - niestety: 2d, wiec nie ma info co jest za  
  - Distance Fields  -
-
-
-
+- Use: Inheritance. You can always reparent  
+- Niagara paradigms:
+ - Modules - graph paradigm  
+ - Emitters - stack paradigm  
+ - Systems - stack and Sequencer timeline
 
 
 # Parameters, Attributes
@@ -33,18 +35,19 @@ permalink: /niagara/
 
 | Name Space | R | W | Define | Share within |
 |--- | --- | --- | --- | ---|
+|`Engine` |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
+|`User`| Y | N
+|`Module Input`|Y|N|| Use inside of module for promoted Parameters
+|`Output` |N|Y|transient ?| pay for calculate but not for adding it to emiter (parameter writes)
 |`System` | Yes | System | Persisted f2f | System
 |`Emitter` | Emitter, Particle  | Emitter  | Persisted f2f | Emitter instance / color ect...
 |`Particles` | Particle | Particle |  Persisted f2f  |  Per-particle (@point)
-|`Engine` |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
 |`Module` | Module | Module | Module | expose a module input to the System and Emitter Editor
-|`Module Locals` | Module | Module | not persist f2f, or between stages| Transient values.
-|User
-|INPUT.|Y||| Use inside of module for promoted Parameters
-|LOCAL.|||| Truly local for function !
-Output ||Y|| pay for calculate but not for adding it to emiter (parameter writes)
+|`Module Locals` ??? | Module | Module | not persist f2f, or between stages| Transient values.
+|`Local`|||| Truly local for function ! Transient values.
+|`Transient` | from any module |from any module | dont persist f2f and between stages
 
-Name space modifiers:
+####  Name space modifiers:
   - module - insert module name as namespace so if u have x modules u have x different params
   - initial -  initial value of attribute (from eg in particle spawn)
 
@@ -80,14 +83,19 @@ You can see read/writes in finished module
 
 
 #### Dynamic Input Script
+Dynamic inputs have almost the same power as creating modules, but can be selected and dropped into the stack without actually creating new modules.
+
+Dynamic inputs are built the same way modules are built.
+extensibility for inheritance.
+Instead of acting on a parameter map, dynamic inputs act on a value type.
 
 <img  src="/src/ue/niagara/dynamic.png" width="350">  
 
 - Module usage flags  
   - `Dynamic Input` - particle , emitter, system scripts
 
-
-#### System state
+## Stages
+#### System
 
 - Module usage flags  
   - `System Spawn Script` - on system spawn
@@ -108,16 +116,20 @@ Do what system (optimal to set for multiple emitters) do or define.
   - `Particle Event Script` - In response to event
   - `Particle Simulation Stage Script` -
 
-
+#### Spawn
+#### Update
 ----------
 
 
 
 
 
-# Coordinates, Space & Phisics
+# Coordinates, Space &
 Simulation, World, Local   
 Mesh Tri Coordinates > Bary Coords  
+
+
+
 
 #### Alignment
 Sprite  - `SpriteAlignment` , `SpriteFaceing` , `SpriteRotation`    
@@ -126,15 +138,50 @@ FlipBook - `SpriteUVScale`, `SpriteSubimageIndex`
 (in particles.)
 
 
+# Collision
+post soft collision    
+
+# Physics
+
+### Solve Dorces and velocity
 
 
+
+force1
+
+
+<img  src="/src/ue/niagara/force1.png">  
+<img  src="/src/ue/niagara/force2.png">  
+
+```
+R:
+`Engine.DelatTime`    
+`Engine.Owner.Position`    
+`Emitter Local Space`  
+Masss Position  Previous.Position, Velocity, Previous.Velocity,
+Transient.PhysicsDeltaTime
+Transient.PhysicsDrag
+Transient.PhysicsForce
+
+
+W:
+Position, Velocity
+Presolve pos, velo
+presolv physic forces
+Transient  Physics Drag
+Transient PhysiocForce
+
+```
+
+# Events
+# Dynamic inputs
 
 
 ---
 
 
 # HLSL
-## Expressions
+## Micro Expressions
 
 - `/* Custom HLSL! */`  
 - `sin(Emitter.Age *0.3) /2 +0.5` - 0-1 time x 0.3

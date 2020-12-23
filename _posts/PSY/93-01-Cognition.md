@@ -309,7 +309,7 @@ accept advert when tired hungry ect....
 
 hallo efect . 1 slowo splywa na wydzwiek
 
-what u see is what there is
+what u see is what there is.
 
 ## 8 how judgement happened
 

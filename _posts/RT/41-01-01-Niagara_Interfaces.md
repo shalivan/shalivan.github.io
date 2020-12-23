@@ -1,5 +1,5 @@
 ---
-title: Unreal Niagara Interfaces
+title: Unreal Niagara Data Interfaces
 description: Unreal Niagara.
 categories:
  - RT
@@ -18,12 +18,12 @@ permalink: /niagaraintrerfaces/
 files:  
 Houdini niagara - ue plugin   
 Houdini Extras - ue plugin   
-https://youtu.be/3wcTor5rwmE - UNREAL FOR ALL CREATORS zobacz
+[UNREAL FOR ALL CREATORS zobacz](https://youtu.be/3wcTor5rwmE) -
 SideFx  
 [2020 04 SideFx Niagara(frompluginContent) / Demo2020](https://www.sidefx.com/tutorials/houdini-to-ue4s-niagara/)  (water Paul)   
 [2020 11 SideFx](https://www.sidefx.com/tutorials/realtime-fx-with-niagara-ue4/)  -  [2020 11 SideFx YT - to samo co wyzej](https://www.youtube.com/watch?v=jA3uAxT5FhM)  
 Unreal  
-[2018 11]](https://youtu.be/GIzwxwrM9Mk)  
+[2018 11](https://youtu.be/GIzwxwrM9Mk)  
 [2020 04 Inside Unreal - Houdini workflows](https://www.youtube.com/watch?v=LHFN8ccf_8o&t=3449s)  / paul / crowd / chains   
 [2020 05 Unreal - Building advanced effects in Niagara Unreal Engine](https://youtu.be/syVSRDQxrZU)    character   
 [2020 05 Unreal  talk](https://www.youtube.com/watch?v=tMPwXotnl5I)      Wyeth  
@@ -33,21 +33,14 @@ Unreal
 
 
 RTVFX  
-- [Particle Location Module Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-particle-location-module-mini-tutorial/13133)    
-- [Near Surface Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-near-surface-location-mini-tutorial/14247)  
-- [Using splines for GPU particles](https://realtimevfx.com/t/niagara-4-25-using-splines-for-gpu-particles/13728)  
-- [Spline Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-spline-location-mini-tutorial/15252)  
-- [Rope Physics Mini Tutoria](https://realtimevfx.com/t/niagara-4-25-rope-physics-mini-tutorial/13305)  
-- [Near Surface Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-near-surface-location-mini-tutorial/14247)  
-- [Ribbon Trail Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-ribbon-trail-mini-tutorial/13043)  
-- [UE4 Niagara Audio Visualization (passing data from BP to Niagara)](https://realtimevfx.com/t/ue4-niagara-audio-visualization-passing-data-from-bp-to-niagara/6902)   
-- RTVFX pack https://realtimevfx.com/t/vfextra-resource-pack/14503/6  
+[Particle Location Module Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-particle-location-module-mini-tutorial/13133)    - [Near Surface Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-near-surface-location-mini-tutorial/14247)  - [Using splines for GPU particles](https://realtimevfx.com/t/niagara-4-25-using-splines-for-gpu-particles/13728)  - [Spline Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-spline-location-mini-tutorial/15252)  - [Rope Physics Mini Tutoria](https://realtimevfx.com/t/niagara-4-25-rope-physics-mini-tutorial/13305)  - [Near Surface Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-near-surface-location-mini-tutorial/14247)  - [Ribbon Trail Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-ribbon-trail-mini-tutorial/13043)  - [UE4 Niagara Audio Visualization (passing data from BP to Niagara)](https://realtimevfx.com/t/ue4-niagara-audio-visualization-passing-data-from-bp-to-niagara/6902)   - [RTVFX pack](https://realtimevfx.com/t/vfextra-resource-pack/14503/6)
 
 tuts
 - [Fluid ninja 80](https://80.lv/articles/tutorial-driving-niagara-with-flowmaps-and-baked-fluidsim-data/) / [Fluid ninja pdf](https://drive.google.com/file/d/15IHebBnjuEzYKT8iwVnUQ5Rbzi5h21ws/edit) / [Fluid ninja YT]()
 - [YT BTM series tutki](https://www.youtube.com/channel/UC11aPU7wAuBgvr6srciBpFw/videos)  
-- [creative unreal table](https://youtu.be/3wcTor5rwmE    
+- [creative unreal table](https://youtu.be/3wcTor5rwmE)    
 - [YT BTM series tutki](https://www.youtube.com/c/UnrealSimon/featured)  
+
 
 
 
@@ -155,6 +148,7 @@ particles.Houdini.Velocity  // v@v
 - `NF Transform Vector` (Local to Sim) + `NF Initial Particle Postition` (engine.Owner.Position)
 
 <img align="right" src="/src/ue/niagara/oudinipointupdate.png">
+
 
 ```
 R:

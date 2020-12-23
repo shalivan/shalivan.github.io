@@ -11,7 +11,7 @@ description: Individual vs Collective
 permalink: /personality/
 ---
 
-
+colective vs
 
 Difference in between individual and population level analysis  -  collective action problems.
 
