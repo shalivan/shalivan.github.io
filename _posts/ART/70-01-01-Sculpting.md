@@ -17,6 +17,7 @@ permalink: /sculpting/
 
 
 
+Blend subtools; https://youtu.be/q4oGSuimAMs?t=616  
 
 # Sculpt
 Sculpting is about volume, form and silhouette.  
