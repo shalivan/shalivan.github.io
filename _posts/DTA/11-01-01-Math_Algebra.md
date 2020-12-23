@@ -113,6 +113,7 @@ If you want it to get more interesting rather than your growth weight being just
 
 
 #### Monte-Carlo
+random
 statistical model with random and proportions to calculate ie area
 
 

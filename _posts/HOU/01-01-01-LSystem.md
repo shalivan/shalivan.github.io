@@ -76,6 +76,10 @@ recursively replacing an initial state
 - Rule 1 `F = F--G++F++G--F`  
 - Rule 2 `G = GG`  
 
+
+https://qiita.com/procedural_design/items/a27b38e862bcfcb2f09e
+
+
 https://www.sidefx.com/docs/houdini/nodes/sop/lsystem.html  
 http://www.motionesque.com/beautyoffractals/  
 https://www.toadstorm.com/blog/?p=214  
