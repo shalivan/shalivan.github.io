@@ -21,28 +21,11 @@ Shot of dopamine is not needed,
 
 
 ```
-# Motivation
-
-
-
-- Explicit & Implicit Motives -
-- Autonomus - (self determinate) vs. Controlled - (non self determinate)
-
-
+- Explicit & Implicit Motives -  - Implicit & Biological =
 Unconscious Motivation
 Priming
-
-
-motive disposition theory (MDT
-
-
   needs as moteves (want) , needs as requirementes (need )
 
-- Implicit & Biological =
-
-
-
-  Biological, Social and Personal Motives ...
 ```
 
 
@@ -50,8 +33,8 @@ motive disposition theory (MDT
 # Terms
 
 
-immersion - teleport mind  
-presence - teleport body  
+immersion - teleport mind   
+presence - teleport body    
 engagement - mental or manual effort meets interactivity  (not in books)  
 
 
@@ -94,13 +77,72 @@ things happening > its excitement its entertainment
 
 ---
 
-  Biological, Social and Personal Motives ...
+
+
+#  Biological
+
+`Impulses`, `Power`, `Achievement`, `Affiliation`
+  Biological motives include hunger, thirst, the pursuit of pleasure, and the avoidance of pain
+
+## Neuroscience
+
+- `directional` (such as directed towards a positive stimulus or away from a negative one)
+- `activated` "seeking phase" and consummatory "liking phase."
+
+ Dopamina
+
+## Behavioral
+Behaviorism is theory of motivation focused on how the results we’ve obtained from past behaviors shape our future behaviors (Environmental Shaped & Learned Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
+
+- Positive Reinforcement
+- Negative Reinforcement.
+- Punishment.
+- Extinction.
+d gain. (continous login bonus) (good Dorprate in consumables items)
+
+### Continuous Reinforcement
+All responses are reinforced
+happens when the desired behavior is reinforced each time it is observed. continuous reinforcement is the quickest way to get someone to develop a new behavior.
+
+### Intermittent  Reinforcement
+
+Some responses are reinforced
+
+| |Interval (after time)|Ratio (after action)|
+|--|--|--|
+__Fixed__  Predictable | kill > loot spawn, stamina (building up high peak and quick drop)  | One more turn. clickers,  turn based building time (short post reinforcement pause)
+__Variable__ Unpredictable |  public events (moderate study response pattern) | Gambling. Loot drops, Crit hits  (high stady response pattern, small bumps)
+
+
+### Contingent
+- `Not-Contingent` - not related to behavior (suprice gifts), not controled
+- `Task-Contingent` - rewarding: `engagement`, `completion`, `perdormance`. Sense of progression - task releated motivate more contingent outcomes are not necessary to demonstrate reinforcement, but perceived contingency may increase learning.
+
+
+
+
+### Feadback
+feadback on action is reward  !!!
+reward timeing and (un)certanity - immediate for success progress and choice
+delayed feedback need stronger support
+nitr geting rew u expect could become punishment   
+
+`Representative Heuristic` - Time/Cost/Effort > Up expectation for reward . (Procedural like roguelikes play agianst it sometimes)  balanced economy   
+
+
+
+
+- reward can be demotivating
+- Unexpected reward are motivating
+- Expectations. After bad luck we expect payout (gambling).
+- Representative expectations - (Ngram colors in destiny)
+- Loss Aversion: Something I have > Something I could have
 
 ---
 
 
 
-# Content theories (Personal)
+#  Personal
 
 
 
@@ -115,6 +157,7 @@ Myers-Briggs / 16 Personalities
 
  which categories of goal (needs) motivate people,
 
+Content theories    
  - **Maslow** - `Physiology` (hunger, thirst, sleep, etc.) > `Safety`/`Security`/`Shelter`/`Health` > `Social`/`Love`/`Friendship` > `Self-esteem`/`Recognition`/`Achievement` > `Self actualization`/`achievement of full potential`
  - **Two factors** - job satisfaction (motivators), while others (hygiene factors)
  - **ERG** - existence, relatedness, and growth,
@@ -207,69 +250,6 @@ Stimulation - single/multi   calm/thrill
 
 
 
-
----
-
-
-#  Biological (Implicit)
-`Impulses`, `Power`, `Achievement`, `Affiliation`  
-
-`Impulses`, `Power`, `Achievement`, `Affiliation`
-  Biological motives include hunger, thirst, the pursuit of pleasure, and the avoidance of pain
-
-# Neuroscience
-
-- `directional` (such as directed towards a positive stimulus or away from a negative one)
-- `activated` "seeking phase" and consummatory "liking phase."
-
- Dopamina
-
-# Behavioral
-Behaviorism is theory of motivation focused on how the results we’ve obtained from past behaviors shape our future behaviors (Environmental Shaped & Learned Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
-
-- Positive Reinforcement
-- Negative Reinforcement.
-- Punishment.
-- Extinction.
-d gain. (continous login bonus) (good Dorprate in consumables items)
-
-## Continuous Reinforcement
-All responses are reinforced
-happens when the desired behavior is reinforced each time it is observed. continuous reinforcement is the quickest way to get someone to develop a new behavior.
-
-## Intermittent  Reinforcement
-
-Some responses are reinforced
-
-| |Interval (after time)|Ratio (after action)|
-|--|--|--|
-__Fixed__  Predictable | kill > loot spawn, stamina (building up high peak and quick drop)  | One more turn. clickers,  turn based building time (short post reinforcement pause)
-__Variable__ Unpredictable |  public events (moderate study response pattern) | Gambling. Loot drops, Crit hits  (high stady response pattern, small bumps)
-
-
-## Contingent
-- `Not-Contingent` - not related to behavior (suprice gifts), not controled
-- `Task-Contingent` - rewarding: `engagement`, `completion`, `perdormance`. Sense of progression - task releated motivate more contingent outcomes are not necessary to demonstrate reinforcement, but perceived contingency may increase learning.
-
-
-
-
-## Feadback
-feadback on action is reward  !!!
-reward timeing and (un)certanity - immediate for success progress and choice
-delayed feedback need stronger support
-nitr geting rew u expect could become punishment   
-
-`Representative Heuristic` - Time/Cost/Effort > Up expectation for reward . (Procedural like roguelikes play agianst it sometimes)  balanced economy   
-
-
-
-
-- reward can be demotivating
-- Unexpected reward are motivating
-- Expectations. After bad luck we expect payout (gambling).
-- Representative expectations - (Ngram colors in destiny)
-- Loss Aversion: Something I have > Something I could have
 
 ---
 
