@@ -117,11 +117,14 @@ midi device on windows:
 
 #### Chorus   
 - chorus is great
+
 #### EQ   
 - low mid high for freq and gain
+
 #### distortion
 - `level`  
 - `comp`   
+
 ## Settings
 - portamento -  
 - glide -   
@@ -132,12 +135,12 @@ midi device on windows:
 
 Up to 20 slots
 
-|||||
+|.||||
 |-|-|-|-|
-Source 1
-Source 2 |Perfomrmance, LFO, Envelopes
-Depth
-Destination | Oscilator / Mixer / Filter / LFO / Envelopes
+|Source 1
+|Source 2 |Perfomrmance, LFO, Envelopes
+|Depth
+|Destination | Oscilator / Mixer / Filter / LFO / Envelopes
 
 
 ## Macros  
@@ -164,16 +167,17 @@ Depth, jak duzo zmiany i w ktora strone
 
 #### Macro for synths
 
-|||||
-|-|-|-|-|
-1 | Oscillator|Cutoff EG intensity  |filter cutoff - bring in out
-2 | |Cutoff  |Env2mod - how filter env  / lead arpeggio to softer sound
-3 | Envelope|Resonance / Noise / Overdrive|Amplif and filter env attack
-4 || 50 % is for Attack/ Release|Amplif and filter env release
-5 |  Filter |Vibrato, EFX Dry / wet / also chorus|lfo speed
+||||||
+|-|-|-|-|-|
+1 | Oscillator|Cutoff EG intensity  |filter cutoff - bring in out | filter cutoff
+2 | |Cutoff  |Env2mod - how filter env  / lead arpeggio to softer sound |filter env mod
+3 | Envelope|Resonance / Noise / Overdrive|Amplif and filter env attack |attack
+4 || 50 % is for Attack/ Release|Amplif and filter env release | release
+5 |  Filter |Vibrato, EFX Dry / wet / also chorus|lfo speed |
 6 | |Performance: LFO speed / intensity, OSC Tune|modulation depth
 7 | Modulation and FX parameters|oscillator pitch
 8 | |Morph functions. Wavetable Positions, Oscillator A/B Ratio  |trick (modulate index with LFO)
+
 
 -------
 
@@ -264,8 +268,31 @@ https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Ci
 
 
 
+# Power Supply
+
+1. Voltage must always be the same as that required by the device. (Tick)
+
+2. Amperage on the adaptor must be same or higher than required by device (Tick)
+
+3. Polarity must be the same (Is the power supply Centre Positive? (Tick?) This is the little symbol that looks like a C with a dot in the middle with a + and - on either side. If the Plus is pointing at dot in the middle it is center positive.
+
+4. Power plug size
+
+In regards to the amperage, think of amperage as how much current the power supply can handle safely without burning out. If the supply can deliver 1.5 amps and you only pull 1 amp then it is safe. (Never use a lower amperage power supply, it will probably burn up or catch fire if badly designed)
+
+
+Not all USB cables are the same. The thickness of the wires that supply power to the device can be critical to both audio performance, and its resilience to static electricity. The best way to choose a cable is to look at the markings on the side. These will usually say '2725' and then another set of numbers containing 'AWG': '28AWG/1PR AND 24AWG/2C' or similar. The first number will always be 28AWG, and the second will be a number between 20 and 28. The lower this second number, the thicker the wire. If the printing just says '28AWG', this means 28AWG for both numbers. Focusrite recommends using cables where the second number is 24AWG or lower.
+
+12 v 1250ma usb
 
 ------
+
+
+# My Patches
+
+piano - https://www.youtube.com/watch?v=LXrYyTmkaic
+
+
 
 # Links
 
