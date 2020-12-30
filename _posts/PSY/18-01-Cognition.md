@@ -255,7 +255,7 @@ sys 1 gather simple relation but not combine informations
 Too many people relay on intuition
 
 
-(asociated activation: podobne mysli przychodzą na mysl )
+
 
 
 ## 4.
@@ -273,12 +273,32 @@ habitatual connection - expressions and not unconiously
 
 smile to fell better
 
-## 5. `cognitive izzz`
+
+
+### ASSOTIATIVE MEMORY !!!!
+(asociated activation: podobne mysli przychodzą na mysl )
+links  to categories and other objects  
+causes to effect  
+you think with your body not onlyu brain
+
+Association rule mining is a procedure which aims to observe frequently occurring patterns, correlations, or associations from datasets found in various kinds of databases such as relational databases, transactional databases, and other forms of repositories.
+
+hume reduyced to: resemblence, coausality,m contigiuiti in time and space
+
+
+##### priming effect
+- sth u see before can recall things.
+
+
+
+## 5. cognitive izzz
+2:46
+
 multiple causes which produce illusions of trueth
 if familiar accept -
 produced of amiliarity by sys 1 and sys 2 judge if its true
 
-illusions of rememberigng
+##### illusions of rememberigng
 
 ? straiun and effort (3:00:00)
 
@@ -286,16 +306,23 @@ plesure of cognitive izz > conected with good feelings
 
 `mire exposue efect` - PODOBNO NIE DZIALA ?
 
+!!!!!!!!!!!!!!!  familiarity heve experience of pastness its an illusion
+
+enough  to rememnber fragment of sentense, no need to repeat whole.
 
 
 Coarelational but not causal
 
 
-CLUSTERS:
-good mood intuition cretivety and relaiance on sys 1
-adnes analityc aproach suspicion incresed effort sys 2
+
+
+|CLUSTERS:||
+|-|-|
+good mood intuition cretivety and relaiance on, guard down|sys 1
+adnes analityc aproach suspicion incresed effort, maby thred | sys 2
 
 NORM SPECIFY RANGES IN CATEGORIES
+
 
 
 ## 7. Machine for jumping int o conclusions (3:45)
@@ -317,7 +344,7 @@ Mental shotgun
 
 ## answering easier question
 
-u have intuitive opiniosn for all before u will analyze it
+u have intuitive opinions for all before u will analyze it
 
 
 5:00:00 LISTA !!!!!!!!!!!!!!
@@ -326,6 +353,8 @@ u have intuitive opiniosn for all before u will analyze it
 PART 2 !!!!  HEURISTIC AND BIASSES !!!!!
 
 # 10
+
+
 # 11 anchors
 5:33:00 -   
 
@@ -335,6 +364,8 @@ PART 2 !!!!  HEURISTIC AND BIASSES !!!!!
 
 
 Avaibnelity heuristic
+
+
 
 
 ```
