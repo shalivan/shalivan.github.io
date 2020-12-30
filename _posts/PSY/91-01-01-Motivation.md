@@ -12,6 +12,8 @@ description: raw note ...
 permalink: /motivation/
 ---
 
+Addictions !
+dopamine feadback  - (social media )
 
 needs, wants or desires acquired through influence or may be generally innate.
 most important reasons to move forward
@@ -211,7 +213,7 @@ Relatedness | Connecting, Social grouping, Status feedback  | shared experiences
 ||MDT| SDT|
 |---|---|---|
 Theme of crucial need| Power| Autonomy
-Individual differences | Individual differences in motives (differences in “wanting”)|No differences in need strength (no differences in “needing”)
+Individual differences | Wanting - Individual differences| Needing - No differences in need strength
 Hypotheses about the effects of need satisfaction|Matching hypothesis: Motive × Environment interac-tion predicts motivation and well‐being|Universality hypothesis: Satisfaction of basic needs has similar (positive) effects for everybody
 Implicit vs. explicit | Implicit vs. explicit motives |NA
 Access to needs and measurement|Unconscious, indirect assessment: PSE, OMT |Conscious, direct assessment: self‐reports
@@ -340,6 +342,8 @@ overjustification:
 ---
 
 #  Emotion
+
+
 Psychosomatic evaluative responses based on automatized value-judgements.
 
 
@@ -351,6 +355,9 @@ Psychosomatic evaluative responses based on automatized value-judgements.
 
 People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
 
+### Mood
+
+Affect is nmotr emotion is feeling is everything is ok u fill ok.
 
 
 ##### Toxicity

@@ -13,47 +13,52 @@ permalink: /procedural/
 
 
 
-Computational Geometry: visualisation of math equations
 
-Computational Design
 
-Emergent : egeometry that emerge over time  (growth)    
-Structural : (sim based on structural optimization/analysus)
+
+
+
 
 
 https://bleuje.github.io/tutorials/
 
+Computational Design    
+generative art -  complex systems (ecosystes, cities, cells ect.. )  
+
 
 #### Procedurals
->procedural ;
 - scalability
 - prone to human error
+- parametric
 
-- tiles (procedurally generate world)
-- L-system
-- tracery and templating text (combining text)
-- distribution (hierarchy and clustering and maintain spacing)
-- parametric ()
-- interpretive: noise Perlin, grid/cell (voronoi/delaunay), metaballs
-
+.
+- Computational Geometry - visualisation of math equations
+- Interpretive: noise Perlin, grid/cell (voronoi/delaunay), metaballs
+- Tiles (procedurally generate world) - Wave function collapse
+- L-system - recursive turtle commands
 
 # Patterns
 
 Franz Sales Meyer - A handbook of ornament (1920)
 
 
-# Emergent systems
+# Emergent
 
 https://github.com/jasonwebb/morphogenesis-resources
 
 
-generative art -
-complex systems (ecosystes, cities, cells ect.. )
-
-**cellular automata** - simulation of grid with life/death state
 
 
-#### reaction diffusion
+
+
+## Cellular Automata
+Game of life - simulation of grid with life/death state
+
+...
+Conway and many other methods
+
+## Reaction Diffusion
+Reaction diffusion - blur/sharpen neighbor.
 simple (Gray scott formula):
 - seed like noise
 - feedback:
@@ -70,5 +75,11 @@ black and white spaces
 
 https://youtu.be/VBzIPLh-ECg
 
+
+
+---
+
+
+?? Structural : (sim based on structural optimization/analysus)
 
 ------      

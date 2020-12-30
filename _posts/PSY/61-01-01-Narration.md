@@ -17,6 +17,12 @@ internal goal
 
 
 
+yes, unless
+ what if
+
+
+
+
 
 # Medium
 - Every medium have it own narration style. Linear narrative is not enough for games.  

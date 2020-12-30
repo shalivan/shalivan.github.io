@@ -15,14 +15,13 @@ tags:
 - Digital Asset -
 - Shelf Tool - scripts section to write code Executed after shelf click
 
-
-# Class hou.
+.
 
 - `hou.` is houdini python class. We can drop it in **expressions**:  
 - see what params is passing `kwargs` (pthos dict to see what is avalable)
 
 
-## hou.node
+# hou.node
 node in trees
 
 ```python
@@ -102,7 +101,8 @@ def hipToJob():
             fileJob = node.parm("tex0").rawValue().replace("$HIP","$JOB")
             node.parm("tex0").set(fileJob)
 ```
-## hou.parm
+
+# hou.parm
 behaviour of all parameters
 ```python
 ty = hou.parmTuple('/obj/ball/t')[1]
@@ -137,7 +137,7 @@ for key in ry.keyframes():
 ry.asCode() # will print code
 ```
 
-## hou.objNode
+# hou.objNode
 how is displayed and how manipulate
 ```python
 
@@ -157,8 +157,10 @@ print (product == world) # True
 
 ball.mmoveParmTransformIntoPreTransform()
 
+
 ```
-## hou.geometry
+
+# hou.geometry
 Define 3d geo shape  
 ```python
 geo = hou.node('/obj/ball/AddPointNormal').geometry()

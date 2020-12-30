@@ -325,4 +325,7 @@ https://r-loops.com/
 - slight color difference on sample swap (to know which are uses)
 - Shift duplicate  - move (now its slow)
 - remember sample names in software (bug)
+- szybka kasacja samplke swapów i knobówhere
+- - select aample + shift (change only in this stamp)
+- notes lolonger than 2 patterns length 
 ```

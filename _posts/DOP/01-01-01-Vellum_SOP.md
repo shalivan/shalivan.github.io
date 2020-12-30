@@ -243,11 +243,11 @@ if(inpointgroup(0,"unweld",@ptnum))
 
 # Post Process
 
-###  [Vellum Post Process] SOP
+##  [Vellum Post Process] SOP
 Spply Welds - Weld geometry that have cuts  and in theory should stick together   
 Visualize - !    
 
-###   [Detangle] SOP
+##   [Detangle] SOP
 run in for loop with feedback.   
 - rest position as previous position   
 - pscale   
@@ -265,7 +265,7 @@ You can ad per point `friction` attribute
 ---
 # Drape
 
-###  [Vellum Solver drape] SOP
+##  [Vellum Solver drape] SOP
 To create drape from patches.  
 `welding frame` - where it start to fuse  (maby work on frame 1 ?)   
 `forces` - increase velocity damping and air drag if cloth move to much  
@@ -277,7 +277,7 @@ Drape solver help resolve cloths
 `planar patch` - only simple shapes   
 `planar pleat` - make patterns   
 
-#### Mirroring cloth:
+### Mirroring cloth:
 
 `*_L*`  
 `*_R*`  

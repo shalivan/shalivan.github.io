@@ -11,15 +11,9 @@ permalink: /pyrodense/
 ---
 
 
-
-PYRO SHADING
-- know your max density values !!!
-
-
-# PYRO
 PYRO Dense is not using Sparse!
 
-| Fields |
+| PYRO Fields |
 | --- |
 |Fuel - `fuel`       
 |Burn - (only temporary field) recalc evey frame and if you cut out fuel it desaper.     
@@ -28,37 +22,44 @@ PYRO Dense is not using Sparse!
 |Expantion - `divergence`  dep on: `fuel` `burntrate`, `gas released`    
 |Temperature - `temperature`  dep on: `fuel`, `burnrates`, `flame contribution`, `burn ccontrib` (may exist anywere).     
 
-`pressure` / `confinment` / `pump` / `sink` / `vel`    (dop pyro name of source volume:v, target field: vel)  
+`pressure` / `confinment` / `pump` / `sink` / `vel`    (dop pyro name of source volume:v, target field: vel)    
+
+- know your max density values !!! For shading
+- use open CL (advanced in solver)  
 
 
 
-**OBJECT**    
-**PRE-SOLVE**    
-**VELOCITY**    
-**ADVECTION**    
-**SOURCE**   
+### Combustion:
+
+| Combustion model |
+| - |
+|0 Source emit fuel > which is ignited > produce flames and smoke > expand flames    
+|1 Check if temp is high enough to ignite (shelf will set up) (how fast smoke and flames will rise )        
+|2 Set burn = `fuel * burn rate` (how fast consume 1 is 1sek. have effect in amount of smoke/flames)     
+|3 Generate smoke  = `burn * sooterate`     
+|4 Set heat - `max(heat*burn)`   
+|5 Divergence =  `burn * gad release * burn influence`   gad release - how rapidly smoke expand  
+|6 Increse temp `burn*heatoutput`    
+|7 Reduce fuel by `burn*(1-fuelinneffciency)` fuelinneffciency - how much fuel is actually burned   
 
 ---
 
 
 # Solver
-## [PYRO Solver]
-use open CL (advanced in solver)  
-### Simulation:
-Temperature difusion - how temperature blur  
-Bouyancy  - lift up  
-### Combustion:
+## [PYRO Solver] DOP
 
-| Combustion model |
-| - |
-Source emit fuel > which is ignited > produce flames and smoke > expand flames    
-1 Check if temp is high enough to ignite (shelf wil set up) (how fast smoke and flames will rise )        
-2 Set burn = `fuel * burnrate` (how fast consume 1 is 1sek. have efect in amoun of smoke/flames)     
-3 Generate smoke  = `burn * sooterate`     
-4 Set heat - `max(heat*burn)`   
-5 Divergence =  `burn * gad release * burn influence`   gad release - how rapidly smoke expand  
-6 Increse temp `burn*heatoutput`    
-7 Reduce fuel by `burn*(1-fuelinneffciency)` fuelinneffciency - how much fuel is actualy burned   
+1. OBJECT   
+2. PRE-SOLVE   
+3. VELOCITY   
+4. ADVECTION    
+5. SOURCE   
+
+
+### Simulation:
+`Temperature difusion` - how temperature blur  
+`Bouyancy`  - lift up
+
+
 
 #### Flame
 `Flame height` - Control flame culling (high values bigger flames  
@@ -93,8 +94,8 @@ vortex like sworl motion
 
 
 
-# DOP nodes
-## [Smoke Object]
+#nodes
+## [Smoke Object]  DOP
 - container that stroe volumes  set SOP paths  for vdb (fog) volumes
 
 
@@ -118,26 +119,28 @@ Velocuty
 
 # Microsolvers
 
-## [Gas resize fludi dynamic] 2op
+## [Gas resize fludi dynamic] DOP  
+2op   
 - voxel that have almost 0 will delete and clean / initialisation dynamic when should follow moving source.   
 - automatic sim bounds
 
-## [Gas Dissipation] 3op
-znikanie   
+## [Gas Dissipation]  DOP
+3op - znikanie   
 - diffusion is blur
 - evaporation rate. is: Substarct (1 - remove 100% smoke in a 1sec (0.7 liuve a littlebit ))
 
-## [Gas Disturbance] 3op
+## [Gas Disturbance]  DOP  
+3op  
 take edges of sim and disturb to get granual details.
 - cutoff - how low of density or other reference volume shoud be in value to make it active
 
-
-## [Gas resize fluid dynamic] 2op
-
-
+## [Gas resize fluid dynamic]  DOP
+2op  
 
 
-# SOP Sourcing
+
+
+# Sourcing
 
 
 ## [Pyro Source] SOP

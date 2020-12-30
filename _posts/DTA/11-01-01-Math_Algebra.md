@@ -130,28 +130,15 @@ statistical model with random and proportions to calculate ie area
 \\( \sqrt{\frac{n!}{k!(n-k)!}} \\) or
 this one \\( x^2 + y^2 = r^2 \\).
 
-
 $$a*b$$
 
 $$axxb$$
 
 $$u^^v$$
 
-
-
-
 $$a^2 + b^2 = c^2$$
 
-aaaaaaaaaaaaa
-
 $$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
 
-aaaa
 
-$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
-
-aaaaaaaaaaaaa
-
-$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
-
-sum_(i=1)^n i^3=((n(n+1))/2)^2
+$$sum_(i=1)^n i^3=((n(n+1))/2)^2$$
