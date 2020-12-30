@@ -299,8 +299,8 @@ if familiar accept -
 produced of amiliarity by sys 1 and sys 2 judge if its true
 
 ##### illusions of rememberigng
-
-? straiun and effort (3:00:00)
+? straiun and effort (
+3:00:00
 
 plesure of cognitive izz > conected with good feelings
 
@@ -324,8 +324,20 @@ adnes analityc aproach suspicion incresed effort, maby thred | sys 2
 NORM SPECIFY RANGES IN CATEGORIES
 
 
+familiarity = likeing - mear exposure effect
 
-## 7. Machine for jumping int o conclusions (3:45)
+## 6. norma suprises and causes
+3:22
+
+suprises is essential to understand world
+- activly  expecting sound of dor when wiating - suprice if event not occure
+- passivly  2-3 spootkanie tej samej osoby prze przypadek
+
+slkojarzenia ukladaja w historie i podsuwają przyczyny eventu 
+
+## 7. Machine for jumping int o conclusions
+3:45
+
 RISKI IN UNFAMILIAR SITRUATION
 IUNTUITIVE ERRORS PROBNABLE !   
 CAN BE STOPED BY 2   
@@ -345,7 +357,6 @@ Mental shotgun
 ## answering easier question
 
 u have intuitive opinions for all before u will analyze it
-
 
 5:00:00 LISTA !!!!!!!!!!!!!!
 
