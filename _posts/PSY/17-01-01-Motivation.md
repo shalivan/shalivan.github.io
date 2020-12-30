@@ -12,32 +12,21 @@ description: raw note ...
 permalink: /motivation/
 ---
 
-Addictions !
-dopamine feadback  - (social media )
 
 needs, wants or desires acquired through influence or may be generally innate.
-most important reasons to move forward
+most important reasons to move forward  
+helps them move forward in the decision-making process  
 Shot of dopamine is not needed,
 
-
-
-
-```
-- Explicit & Implicit Motives -  - Implicit & Biological =
-Unconscious Motivation
-Priming
-  needs as moteves (want) , needs as requirementes (need )
-
-```
 
 
 
 # Terms
 
 
-immersion - teleport mind   
-presence - teleport body    
-engagement - mental or manual effort meets interactivity  (not in books)  
+`immersion` - teleport mind   
+`presence` - teleport body    
+`engagement` - mental or manual effort meets interactivity  (not in books)  
 
 
 
@@ -69,12 +58,15 @@ things happening > its excitement its entertainment
 - (ciekawosc?)   
 
 
-###  Flow  
+##  Flow  
 `Game Follow` - is wave zone between anxiety and boredom (sometimes challenge and sometimes powerful)  
 - `Difficulty Curve` - Challenge  
 - `Pacing` Rhythm + Pressure >Manage stress. If there is no stress its not meaningful and you don't care. So pressure is good  
 - `Learning Curve` - Onboarding > tutorials super important   
 
+
+##  Addictions
+dopamine feadback  - (social media )
 
 
 ---
@@ -167,63 +159,66 @@ Content theories
 
 
 
-## SDT
-Self Determination Theory
- Depend on context and not account for all human behavior. Can shift by different framing. OLD: `Intrinsic` -  Personal Gratification. last longer. rate higher! better (autonomy, agency, progression, feedback, opportunity). But can feel bad i.e. if you are obligated to your self vs. `Extrinsic` - External. Rewards shape to do but risk of shifting motivation. Use when needed (money) But! can feel autonomous if enough choices
-
 `Autonomous` - (self determinate) vs. `Controlled` - (non self determinate) Illusion of control is as good as real contr.
 
+## SDT
+**Self Determination Theory**
+basic need for autonomy   
+ Depend on context and not account for all human behavior. Can shift by different framing. OLD:
+ - `Intrinsic` -  Personal Gratification. last longer. rate higher! better (autonomy, agency, progression, feedback, opportunity). But can feel bad i.e. if you are obligated to your self  
+ - `Extrinsic` - External. Rewards shape to do but risk of shifting motivation. Use when needed (money) But! can feel autonomous if enough choices
 
-| SDT | |
+
+| | |
 |--|--|
 Competence  |sense of progression, sense of being in control Interact with activities. everyone want be best
 Autonomy | self expression or meaningful:  choice (not satisfy by chose)
 Relatedness |  cooperation or competition. Rank relation. (knowledge where I fit)
 
-## PENS
-Player Experience of Needed Satisfaction
 
+## MDT
+**Motive disposition theory**
 
-| PENS | ||
+|  | ||
 |--|--|--|
-Competence  | Challenge, Easy to learn difficult to master  | skill: survival, crafting
-Autonomy | Choice, Customization, Agency, Freedom, Control | your world, your creations
-Relatedness | Connecting, Social grouping, Status feedback  | shared experiences, public canvases
+Implicit |  are implied but not directly stated |  wishes
+Explicit |directly stated, leaving no room for uncertainty | desires
 
+Biological  
+Unconscious Motivation  
+Priming  
+implicit power motive (MDT)     
 
-```
-##### Tips  
-- show purpose before giving reward Goals must be `meaningful`! for players     '
-- after meaningful actions clear goals. Why important
-- show value / personalize
-- more effort / time needed, greater reward expected     
-- absence is like a punishment    
-- intermitted intervals for forming habits  
-- fixed ration to sense of mastery   
-- variable ratio for excitement  
-- reward is not an ending but starting point  
-- help player feel being in control
-- Illusion of control is as good as real contr. Loosing control can be mechanic as well: Stanley Parable.
-```
 
 ## SDT vs MDT
+
 
 
 
 ||MDT| SDT|
 |---|---|---|
 Theme of crucial need| Power| Autonomy
-Individual differences | Wanting - Individual differences| Needing - No differences in need strength
-Hypotheses about the effects of need satisfaction|Matching hypothesis: Motive × Environment interac-tion predicts motivation and well‐being|Universality hypothesis: Satisfaction of basic needs has similar (positive) effects for everybody
-Implicit vs. explicit | Implicit vs. explicit motives |NA
-Access to needs and measurement|Unconscious, indirect assessment: PSE, OMT |Conscious, direct assessment: self‐reports
-Evolutionary basis |Variation in motive strength through learning |Basic needs are represented within the genome of every human being
-Neurohormonal basis| Motives are associated with specific hormones| No explicit assumptions about neurohormonal basis of needs
-Hope vs. fear |Differentiation into hope and fear components of implicit motives|NA
+Hypotheses about the effects of need satisfaction | Matching hypothesis:` Motive × Environment` interaction predicts motivation and well‐being | Universality hypothesis: `Satisfaction` of basic needs has similar (positive) effects for everybody
+Individual differences | `Want` - Needs as motive. Individual differences  | `Need` as requirements - No differences
+Access to needs and measurement | `Unconscious`, indirect assessment: PSE, OMT |`Conscious`, direct assessment: self‐reports
+Evolutionary basis | Variation in motive strength through learning | Basic needs are represented within the genome of every human being
+Neurohormonal basis | Motives are associated with specific hormones | No explicit assumptions about neurohormonal basis of needs
+Implicit vs. explicit | `Implicit` vs. `explicit motives` | NA
+Hope vs. fear |Differentiation into `hope` and `fear` components of implicit motives | NA
 
 
 
 ---
+
+## PENS
+Player Experience of Needed Satisfaction
+https://nickballou.com/posts/misunderstandings-of-sdt-in-video-games-part-1-basic-psychological-needs/
+
+| PENS | ||
+|--|--|--|
+Competence  | Challenge, Easy to learn difficult to master  | skill: survival, crafting
+Autonomy | Choice, Customization, Agency, Freedom, Control | your world, your creations
+Relatedness | Connecting, Social grouping, Status feedback  | shared experiences, public canvases
 
 
 ## Gamer motivation profile
@@ -293,7 +288,7 @@ paradox of choice - we can be happier with less choices
 - cost with make decision its why we don't change our minds  (+ sank effort in already chosen path)
 - like is unconscious is therefor likely that is what you want
 
-##### prionciples of how we choose:
+##### principles of how we choose:
 >less about choice more to conform mind in feeling we are in control. we are always in way from A to B. so its ok to be linear
 - choices is not:
 agency - capacity to chose
@@ -303,7 +298,7 @@ autonomy - capacity to make decisions  (multiplayer huge autonomy)
 
 
 # Satisfaction
-1) challange   
+## Challenge   
 - chelenging task
 - flow state > zom  
 release neurotransmiters : `dopamin` `serotonin` `endorphines`
@@ -312,11 +307,12 @@ x
 McGurk effect - takje video of important context of hearing audio
 book: `satisfaction`  Gregory Berns
 
-2) feadback  
+## Feedback  
+nagroda   
 sounds satisfaing because of feadback. even small delay can  estroy effect
 
 
-3) recognize  
+## Recognize  
 if we know the meaning and can recogniz e interpret or understand
 https://youtu.be/qr0JMv2uYxQ
 
@@ -395,3 +391,21 @@ r (left), K (right) strategies.
 central to game design
 - addicted players showed higher intrinsic than extrinsic motivation
 -  motivation gives these players more to look for in the future such as long-lasting experience that they may keep later on in life.
+
+
+```
+##### Tips  
+- show purpose before giving reward Goals must be `meaningful`! for players     '
+- after meaningful actions clear goals. Why important
+- show value / personalize
+- more effort / time needed, greater reward expected     
+- absence is like a punishment    
+- intermitted intervals for forming habits  
+- fixed ration to sense of mastery   
+- variable ratio for excitement  
+- reward is not an ending but starting point  
+- help player feel being in control
+- Illusion of control is as good as real contr. Loosing control can be mechanic as well: Stanley Parable.
+```
+
+https://imarketsmart.com/35-amazing-ways-to-engage-and-involve-your-donors-and-supporters/

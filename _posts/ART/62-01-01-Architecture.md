@@ -127,3 +127,10 @@ Building - ground/horizon relation
 |Private | Spatial empathy - personal space
 |Circulation paths | people criculaTION
 |Detail / distortions - aesthetic
+
+
+##### Architecture in layers
+set of layers operating at different timescales
+
+Shell > Service > Scenery
+[Narration](/narration/)  

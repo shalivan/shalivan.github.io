@@ -86,7 +86,7 @@ Commentator/Interviewer
 
 ---
 
-# Game story vs player story domination
+# Game vs. Player story domination
 scale: narrativ to mechanics driven
 #### dialogues
 Plot Exposition  
@@ -143,6 +143,9 @@ wy we are here what abnout future what are consequences, story about being free
 not how human is but how should bne like
 [] nature is not only good it kills u too. and culture saves u
 
+Post modernism - skepticism tough meta narrative
+no such think as through knowledge all we have is subjecvtiver opinion
+
 ### 4-Layers in games
   1. what am I doing and how
   2. narrative goal (short term) gratifications
@@ -189,8 +192,8 @@ Plant idea ahead and earlier to connect later
 
 ----
 
-##  Motivations
-
+##  Motive
+motivation  
 
 for character
 - inretnal change sth inside person. Overcoming grive / block
@@ -233,6 +236,7 @@ emotions :
 [Human Motivation](/motivation/)  
 
 - do you have power over the world
+
 ---
 
 # Characters
@@ -242,33 +246,24 @@ Driven by external / internal motivations
 
 competence !  
 ## Archetypes
-#### Hero
-protagonist. Atempt to resolve conflict
+
+
+
+
+||||
+|---|---|---|
+| Hero | protagonist. Atempt to resolve conflict
 Audience identification, change growth action risk sacrifice
 Personal, Primal Stakes
-
-#### Herald
-deliver  story-kickstarting message
-
-#### Mentor
-Teachnig/ giving gifts / bad advices /. motivation conscience
+| Herald | deliver  story-kickstarting message
+| Mentor | Teachnig/ giving gifts / bad advices /. motivation conscience
 sometimes short lifespans
-
-
-#### Threshold Guardian/Henchman
-he blocks the progress
-
-#### Trickster / Comic
-f comic relief
-
-####  Shape-Shifter
-Shapeshifting characters are great catalysts for crucial story
+|Threshold Guardian/Henchman | he blocks the progress
+|Trickster / Comic | f comic relief
+|Shape-Shifter | Shapeshifting characters are great catalysts for crucial story
 components such as surprises, plot twists, and red herrings
-
-#### Villain
-generator/defender of the
-main conflict, and that he exists to present the final challenge to the
-Hero
+|Villain | generator/defender of the
+main conflict, and that he exists to present the final challenge to the Hero
 
 
 - Sidekick
@@ -298,18 +293,22 @@ Consistency/e Believability
 
 
 ### Pace layers
-6 layers that function simultaneously at different speeds within society by Stuart Brand   
+6 layers that function simultaneously at different speeds within society by Stuart Brand  and (architect Frank Duffy)
 
 
-|Years|Layer | Function | Home metaphor | Bourdieu|
+|Years|Stuart Brand layer | Function | Frank Duffy | Bourdieu|
 | - | - | - | - | - |
-0|Fashion, Art | Fast , Innovate | Stuff (Sets changes)| Events
-5|Commerce | Differentiation | Space Plan (Furniture changes)|
-15|Infrastructure | | Service (pipes and maintenance )| Economic / Society
+0|Fashion, Art | Innovate (New Ideas, competitive) | Stuff (Sets changes)| Events
+5|Commerce | Differentiation (better ideas, unique process)| Space Plan (Furniture changes)|
+15|Infrastructure | Record (slow, incremental, preservation, efficiency, common ideas) | Service (pipes and maintenance )| Economic / Society
 70|Governance | | Skin, (human)|
-100|Culture | Record | Structure (building )|
-forever|Nature | Slow, Preserve | Site (place, )| environment
+100|Culture |  | Structure (building )|
+forever|Nature |  | Site (place, )| Environment
 
+||||
+| - | - | - |
+Fast|discontionus | absorb shock, learn, innovation, revolution | Has all the attention
+Slow| continuous, integrate shock, constraint, consistency | Has all the power
 
 
 ---

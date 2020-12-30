@@ -35,7 +35,7 @@ mathematical study of optimizing agents strategies in games where outcome depend
 
 
 
-## Cooperative -
+## Cooperative
 **How to be fair.**
 - coalition and benefit and contribution type in coalition
 **Shapley Value** - method of dividing gains  or costs  among players acording to value of individual contribution
