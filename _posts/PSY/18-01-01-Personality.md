@@ -12,13 +12,14 @@ permalink: /personality/
 ---
 
 
+[Characters](/characters/)
 
 Difference in between individual and population level analysis  -  collective action problems.
 
 
 # Individual
 
-### Personality traits
+## Personality traits
 OCEAN - Big Five personality traits OCEAN Change a litle over life. Population norm is only meaningful point of reference for traits and otivations
 
 ||  ||
@@ -31,7 +32,7 @@ Neuroticism | Stability | Worries about many different things vs Emotionally sta
 
 
 
-### Temperament
+## Temperament
 Most of people fall in Average. Like bell curve show . People on edges are hard to deal with  
 
 
@@ -49,8 +50,6 @@ Lifestyle preferences| Judging | Perciving
 
 
 # Collective
-
-Tragedy of commons  
 
 
 [Game Theory](/gametheory/)
