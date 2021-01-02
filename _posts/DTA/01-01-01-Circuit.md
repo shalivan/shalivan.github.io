@@ -327,5 +327,6 @@ https://r-loops.com/
 - remember sample names in software (bug)
 - szybka kasacja samplke swapów i knobówhere
 - - select aample + shift (change only in this stamp)
-- notes lolonger than 2 patterns length 
+- notes lolonger than 2 patterns length
+- MIDI 2.0 
 ```

@@ -39,6 +39,8 @@ permalink: /datapipelines/
 |**KineFx**|
 |FBX Character Export ```$HIP/.... .fbx```
 |FBX Animation Output ```$HIP/.... .fbx```  
+|**Vellum** |
+|Vellum cache - $HIP/cache/heightfield/$OS.bgeo.sc
 |**PDG**|
 |PDG TopGeo - ```$HIP/`opname("../..")`/export/pdg/${OS}_`@wedgeindex`.fbx```
 |PDG cache - ```$HIP/`opname("../..")`/cache/pdg/${OS}/${OS}_`@wedgeindex`.$F4.fbx```

@@ -1,6 +1,6 @@
 ---
 title: Game Theory
-description: raw note ...  gameplay balance, reciprocal altruism, poker
+description: Strategies
 categories:
  - PSY
 tags:
@@ -8,6 +8,7 @@ tags:
 - Science
 - Game Dev
 - Gameplay
+- Math
 
 permalink: /gametheory/
 

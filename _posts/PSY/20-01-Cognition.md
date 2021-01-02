@@ -12,6 +12,10 @@ description: attention, cognition motivation, emotion, choice, satisfaction
 permalink: /cognition/
 ---
 
+
+
+
+
 [//]: # ()
 Emotions vs Logic
 
@@ -333,10 +337,15 @@ suprises is essential to understand world
 - activly  expecting sound of dor when wiating - suprice if event not occure
 - passivly  2-3 spootkanie tej samej osoby prze przypadek
 
-slkojarzenia ukladaja w historie i podsuwają przyczyny eventu 
+slkojarzenia ukladaja w historie i podsuwają przyczyny eventu
 
 ## 7. Machine for jumping int o conclusions
 3:45
+
+
+
+shape ambigues thern context will help
+if no context sys 1 will create
 
 RISKI IN UNFAMILIAR SITRUATION
 IUNTUITIVE ERRORS PROBNABLE !   
@@ -346,9 +355,10 @@ UNCERTATNIT > SYS 2
 
 accept advert when tired hungry ect....
 
-hallo efect . 1 slowo splywa na wydzwiek
+#####  hallo efect .
+1 slowo splywa na wydzwiek
 
-what u see is what there is.
+##### what u see is what there is.
 
 ## 8 how judgement happened
 
@@ -375,7 +385,6 @@ PART 2 !!!!  HEURISTIC AND BIASSES !!!!!
 
 
 Avaibnelity heuristic
-
 
 
 

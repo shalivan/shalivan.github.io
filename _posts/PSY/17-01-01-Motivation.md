@@ -8,7 +8,7 @@ tags:
 - Cognition
 - Gameplay
 
-description: raw note ...
+description: ( Biological , Personal , Social )
 permalink: /motivation/
 ---
 
