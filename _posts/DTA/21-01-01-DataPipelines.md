@@ -1,5 +1,5 @@
 ---
-title: Data Pipelines
+title: Data Pipes
 
 categories:
  - DTA
@@ -8,7 +8,7 @@ tags:
 - CG
 - Configs
 description: .
-permalink: /datapipelines/
+permalink: /pipes/
 ---
 
 
