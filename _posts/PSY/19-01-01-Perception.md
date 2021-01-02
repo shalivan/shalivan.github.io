@@ -9,7 +9,7 @@ tags:
 - Cognition
 - Gameplay
 
-description: Gestalt.
+description: ( Gestalt )
 permalink: /perception/
 ---
 
