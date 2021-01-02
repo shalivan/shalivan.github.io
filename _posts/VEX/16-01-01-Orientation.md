@@ -6,6 +6,7 @@ categories:
 tags:
 - VEX
 - Code
+permalink: /orient/
 ---
 
 
@@ -157,7 +158,7 @@ setprimintrinsic(0, "transform", @primnum, x, "set");
 
 #### Packed Geometry from RDB to copy to object
 https://youtu.be/W9ggbLr6wNY?t=1001
-transform to replace low proxy in RDB. 
+transform to replace low proxy in RDB.
 ```cpp
 matrix m4 = primintrinsic(0,'packedfullytransform', @ptnum);
 matrix3 m3 = matrix3(m4);

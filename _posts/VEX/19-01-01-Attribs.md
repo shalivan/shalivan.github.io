@@ -6,7 +6,7 @@ categories:
 tags:
 - VEX
 - Code
-permalink: /vexattribs/
+permalink: /attribs/
 ---
 [Vexpressions](/vexpressions/)  
 

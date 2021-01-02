@@ -9,6 +9,7 @@ tags:
 - Art
 - Math
 - Procedural
+permalink: /curve/
 ---
 ### Line
 ```cpp
