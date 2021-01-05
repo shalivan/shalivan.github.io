@@ -81,7 +81,7 @@ William Golding
 # Philosophy
 
 Ayn Rand
-- The Fountainhead - novel Philosophy of objectivism  
+- The Fountainhead - novel Philosophy of objectivism. Maybe have no good answers but have good questions.
 
 ---
 

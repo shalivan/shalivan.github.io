@@ -328,5 +328,6 @@ https://r-loops.com/
 - szybka kasacja samplke swapów i knobówhere
 - - select aample + shift (change only in this stamp)
 - notes lolonger than 2 patterns length
-- MIDI 2.0 
+- MIDI 2.0
+- drum page is empty
 ```
