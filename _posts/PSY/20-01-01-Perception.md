@@ -9,7 +9,7 @@ tags:
 - Cognition
 - Gameplay
 
-description: ( Gestalt )
+description: ( Gestalt, Biases )
 permalink: /perception/
 ---
 
@@ -86,3 +86,71 @@ Gestalt law of pragnanz. which means ‘concise and meaningful‘
 
 
 ---
+
+
+
+# Cognitive Biases
+
+Biases and fallacies are not optimal
+
+ bias can be distinguished: information bias, selection bias, and confounding.
+
+
+|Behavioral biases (	Decision-making, belief) |Tendency to:|-|
+|-|-|-|
+|Anchoring | First thing you judge influences your judgment of all that follows | First offer sets an ‘anchor’ price which will influence how counter-offer might seem
+|Priming |  (what u see before )
+|Halo effect | How much you like someone, or how attractive they are, influences your other judgments of them
+|Availability Heuristic |  Judgments are influenced by what springs most easily to mind (something happened in same place)
+|Availability Cascade | media report > public panic
+|In-Group bias | unfairly favor those who belong to your group.
+|Sunk Cost | ... thing that have already cost you something.
+|
+|Framing|
+|Group thinking |social dynamics of a group situation override the best outcomes.
+|Optimism, Pessimism | overestimate the likelihood of positive / negative outcome
+|Placebo|
+|
+|
+|Curse of Knowledge | Presume  that others have same knowledge | Understand something is obvious to everyone get it
+|Dunning-Kruger effect|
+|Confirmation bias  | Favor things that confirm your existing beliefs.  
+|False-Consensus Effect    
+|Belief bias | anything that supports actual believes
+|Self-serving bias |  failures are due to external factors, yet you're responsible for your successes.
+|Backfire effect|
+|Barnum effect|
+|Negativity bias | negative things to disproportionately influence your thinking.
+|Diclinism |
+|Fundamental Attribution error|
+|Just-world hypothesis | preference for justice makes you presume it exists.
+|Bystander effect|
+|Reactance |  is the tendency to do something different from what someone wants you to do in reaction to a perceived attempt to constrain your freedom of choice.
+|Spotlight effect | overestimate how much people notice how you look and act
+|Hindsight Bias | (Rationalize that something happened)
+|Endowment Effect |(perceive effect) (Want to sell item for more)
+|Duration neglect | judgment of painful experiences depend very little on how long those experiences lasted
+|Peak-End rule |people judge an experience mostly on how they felt at its peak or very end (shortcut when thinking how feel about exp. you thing about: 1 highest peaks and at end )
+|Mere Exposure Effect|
+|(More often see more u like it)
+| Blind Spot (other feel different than you)
+|Regency Bias |  is the phenomenon of a person most easily remembering something that has happened recently,
+|Cognitive Ease |  ()
+|law of Small numbers |  (next flip have same chance )
+|Prospect Theory and Loss Aversion |(insurances , 100% money back, bnrutality in tv) (LOSS > gain)
+
+
+
+|Social biases   |Tendency to:|-|
+|-|-|-|
+|a
+
+|Memory errors and biases  |Tendency to:|-|
+|-|-|-|
+|a
+
+
+https://yourbias.is/  
+https://courses.lumenlearning.com/boundless-psychology/chapter/bias-in-psychological-research/  
+https://en.wikipedia.org/wiki/List_of_cognitive_biases  
+https://www.visualcapitalist.com/50-cognitive-biases-in-the-modern-world/  
