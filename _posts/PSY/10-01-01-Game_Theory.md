@@ -109,3 +109,28 @@ Some public good lot of persons contribute noone want to pay cause take a small 
 
 
 r (left), K (right) strategies.
+
+
+# Poker
+
+## Basics
+
+|||
+|-|-|
+Button|
+Small Blind |
+Big Blind | play garbage hands (range advantage)
+Under The Gun | the player to the left of the big blind. the player has to act first.
+
+## GTO
+Game theory optimal - is not enough agressive.
+
+
+
+U MUST EXPLOIT OPPONENTS AND LOOK WEAKNES IN THEM
+kombninatoryka wazna
+
+Optimize decisions and  
+build strategies to put opponents in place where they have hard time with optimization their decisions.
+relation of hands u have to opponent hand
+- your percived range. Whaty they expected u to have

@@ -270,32 +270,6 @@ Cooperation give chance for Positive externalities (benefit for others)
 
 ---
 
-# Choice
-
-**Locus of control** is a psychological concept that refers to how strongly people believe they have control over the situations and experiences that affect their lives.
-
-paradox of choice - we can be happier with less choices
-
-
-- more information player have more meaningful is choice
-- changing decision need effort thou is more difficult with time pass
-- intended `influences` (disneyland/vegas) / not intended `options` (autonomy)
-- make secondary order decisions.
-
-##### availability heuristic  (of memory)
-- more we know (familiarity breeds liking)
-- vivid choice (sth is present is more likely)
-- cost with make decision its why we don't change our minds  (+ sank effort in already chosen path)
-- like is unconscious is therefor likely that is what you want
-
-##### principles of how we choose:
->less about choice more to conform mind in feeling we are in control. we are always in way from A to B. so its ok to be linear
-- choices is not:
-agency - capacity to chose
-autonomy - capacity to make decisions  (multiplayer huge autonomy)
-
-----------
-
 
 # Satisfaction
 ## Challenge   

@@ -61,6 +61,14 @@ sentence is recognized more by `what it is` easily then by its property
 
 
 
+
+
+------------
+
+PRiming ?
+
+reciprical actions in conected systems > mozg ciało  
+
 ## 1. Systems Distinction
 
 

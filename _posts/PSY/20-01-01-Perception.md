@@ -13,6 +13,7 @@ description: ( Gestalt, Biases )
 permalink: /perception/
 ---
 
+
 http://consc.net/papers/c-and-c.html
 
 
@@ -54,11 +55,8 @@ Every living thing before self awareness, is a pure product of natural (or man m
 60 x 2 | head rotation  (console games)  
 95 x 2 | head & eyes  (max viewing area)   
 
-## Gestalt
+## Gestalt Principles
 
-
-
-**Gestalt Principles**
 
 | |Principle |   |
 | - | - |- |
@@ -68,10 +66,9 @@ Every living thing before self awareness, is a pure product of natural (or man m
 ![](/src/gestalt/invariancesmall.png) |Invariance | **Objects recognition** is  independent of rotation, elastic deformations, light, component features
 
 
+## Gestalt law of pragnanz
 
-
-**Law of Perception**  
-Gestalt law of pragnanz. which means ‘concise and meaningful‘
+Law of Perception (pragnanz. which means ‘concise and meaningful)
 
 ||Law |Tend to be perceived as integrated into groups if ... |  |
 | - | - | - |- |
@@ -95,6 +92,7 @@ Biases and fallacies are not optimal
 
  bias can be distinguished: information bias, selection bias, and confounding.
 
+## Behavioral biases
 
 |Behavioral biases (	Decision-making, belief) |Tendency to:|-|
 |-|-|-|

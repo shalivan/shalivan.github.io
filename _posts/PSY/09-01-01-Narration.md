@@ -33,7 +33,7 @@ yes, unless
 #  Plot
 
 Telling stories is in human nature.
-
+Stories define how we consume informations.  
 
 - **Story**  tells who and what.   
   - Series of events recorded in their chronological order,  sequence of events.
@@ -95,7 +95,7 @@ Emotional Exposition
 Gameplay Exposition  
 
 
-# Ludonarrative Harmony
+# Ludo narrative Harmony
 
 ## Structure
 ### Place, Time, Character
@@ -292,7 +292,7 @@ What is about / what thread bind it together
 Consistency/e Believability  
 
 
-### Pace layers
+## Pace layers
 6 layers that function simultaneously at different speeds within society by Stuart Brand  and (architect Frank Duffy)
 
 
@@ -315,9 +315,9 @@ Slow| continuous, integrate shock, constraint, consistency | Has all the power
 
 
 
-# Eastern/Western philosophy
+# Philosophy
 
-
+## Eastern vs. Western
 ||Western |Eastern |
 |---|---|---|
 | | Object | Subject |
