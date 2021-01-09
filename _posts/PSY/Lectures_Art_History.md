@@ -73,3 +73,6 @@ Degenerate art (German: Entartete Kunst) was a term adopted in the 1920s by the 
 
 
 The savannah hypothesis (or savanna hypothesis) is a hypothesis that human bipedalism evolved as a direct result of human ancestors transition from an arboreal lifestyle to one on the savannas.
+
+---
+Bauhaus, moren arch, futurism, abstract dadaism, fauvism, aaneo0impressionism

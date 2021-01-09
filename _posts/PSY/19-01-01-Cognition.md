@@ -12,7 +12,17 @@ description: attention, cognition motivation, emotion, choice, satisfaction
 permalink: /cognition/
 ---
 
+psychology   
+computer science AI    
+linguistics  
+philosophy  
+neuroscience  
+Anthropology  
+
+
 [//]: # ()
+
+
 
 Cognitive effort capacity and mental load  
 Emotions vs Logic
@@ -21,17 +31,67 @@ Emotions vs Logic
 - Humans bad in accepting loses
 
 
+----
+
+
+# Cognitive states
+How you proces sinformation s
+---
+
+Neuro correlate of consciousness
+
+(expanded)
+Ecstasy  
+Hyper Alert
+Stupor  
+
+(ordinary lvl)
+Mystery level of the ego   
+Identity level   
+Mnemonic extended
+Bio eco logical
+Pure biological
+
+(lopwer)
+Lathargic
+Anesthesia
+Coma
+Unconsciousness
+---
+
+Amnesia
+Paramnesia
+
+---
+hi to low awareness
+
+FOcused Selective attention
+Divided attention
+Daydreaming
+Meditative
+Hypnotised
+Asleep
+Anaesthetised
+Unconcious
+
+---
+REM
+vegetative
+
+
+Dream
+Normal
+Delusions
+Mindfulness
+Toxicate
+Brain damage  
+Trip
 
 
 
 
 
-## Cognitive Biases
-
-[Perception](/perception/)
-
-
-## Cognitive Dissonance
+# Cognitive Dissonance
 
 - Free choice  
 - Forbidden Behavior paradigm  
@@ -39,10 +99,13 @@ Emotions vs Logic
 - Belief disconfirmation  
 - Effort justification  
 
+## Cognitive Biases
+
+[Perception](/perception/)
 
 
 
-## Choice
+# Choice
 
 **Locus of control** is a psychological concept that refers to how strongly people believe they have control over the situations and experiences that affect their lives.
 
@@ -72,7 +135,7 @@ autonomy - capacity to make decisions  (multiplayer huge autonomy)
 
 ----
 
-## Brain
+# Brain
 
 Hemispheres
 
@@ -95,7 +158,7 @@ Hemispheres
 
 ----
 
-## Memory
+# Memory
 >in brain:  hypocampus  
 memory  is not stored as plasticity of synapses only. but is one aspect of formation of neuro network as well. therefor can connect with other memories.
 
@@ -110,7 +173,7 @@ memory  is not stored as plasticity of synapses only. but is one aspect of forma
 ----
 
 Engeniging vs design vs analytic, optimisation,
- 
+
 
 # Thinking Fast and Slow (Daniel Kahneman)
 

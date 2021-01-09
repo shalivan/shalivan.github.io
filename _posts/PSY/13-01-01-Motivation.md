@@ -156,6 +156,8 @@ Content theories
  - **Two factors** - job satisfaction (motivators), while others (hygiene factors)
  - **ERG** - existence, relatedness, and growth,
  - **Intrinsic and Extrinsic** `Intrinsic` (internal or inherent) motivation, `Extrinsic` (external) motivation. inspired by outside forces
+ - **Barrett** - on consciousness !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- Lyell's Impediments to Actualization  - Natural / unnatural addictions  & Self-Actualization  
 
 
 
@@ -325,9 +327,30 @@ Psychosomatic evaluative responses based on automatized value-judgements.
 
 People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
 
+
+---
+Emotions @ motivations
+Anxiety - to much
+Apathy - not for me
+Worry motivated
+Arousal motivated
+Boredom
+Relaxation
+Control
+Flow
+
+---
 ### Mood
 
 Affect is nmotr emotion is feeling is everything is ok u fill ok.
+
+
+### .
+Cognitive appraisal: provides an evaluation of events and objects.
+Bodily symptoms: the physiological component of emotional experience.
+Action tendencies: a motivational component for the preparation and direction of motor responses.
+Expression: facial and vocal expression almost always accompanies an emotional state to communicate reaction and intention of actions.
+Feelings: the subjective experience of emotional state once it has occurred.
 
 
 ##### Toxicity

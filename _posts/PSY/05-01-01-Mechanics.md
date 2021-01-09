@@ -11,6 +11,28 @@ permalink: /gamemechanics/
 ---
 
 
+Loading bar
+https://www.psychologyofgames.com/2019/10/loading-when-were-willing-to-wait/
+
+
+
+Elusiveness
+elusiveness. As Mardon and Belk note,4 they offer things like:
+
+Time aristocracy
+
+Artificially limited availability
+Location-based availability
+Social-based availability
+
+
+
+Authenticity
+Letting virtual items develop a “digital patina”
+Surfacing metadata about objects
+Creating unique or special copies of items
+
+
 [Game Design](/gamedesign/)
 
 

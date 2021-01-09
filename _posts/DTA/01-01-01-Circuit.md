@@ -51,6 +51,8 @@ midi device on windows:
 - `PreFX`, `PostFX` -    
 
 ## Filter
+Color and Shape of sound
+
 - Filter out frequencies.
 
 #### Filter
@@ -63,7 +65,7 @@ midi device on windows:
 
 #### Mod
 - `Key Track` 0-127 - change freq depend on how high on keyboard note is (higher keys higher freq) (if playing large range )
-- `Env2 > Freq` +-64 -
+- `Env2 > Freq` +-64 - Add automatically Filter to react  on  Envelope 2 !!!!!!!!!
 
 
 
@@ -73,11 +75,13 @@ midi device on windows:
 
 
 #### Routing
-- `Normal`, `O1 bypas`,  `O1+O2 bypas` - bypass filter in given oscilators
+- `Normal`, `O1 bypas`,  `O1+O2 bypas` - bypass filter in given oscilators !!!!!!!!!!!!!!!! What oscilator will be affected ! bypas will still affect noise and some setings
 
 ## Envelopes
+
 - Set Attack decay sustain release
- 1. Envelope Amplifier  
+
+ 1. Envelope Amplifier  (amplifire allow go sound throu so 1 env will change loudness)
  2. Envelope Filter  
  3. Envelope Extra one  (you can  conreol by macro ) normally attack   
 
@@ -169,15 +173,18 @@ Depth, jak duzo zmiany i w ktora strone
 
 ||||||
 |-|-|-|-|-|
-1 | Oscillator|Cutoff EG intensity  |filter cutoff - bring in out | filter cutoff
-2 | |Cutoff  |Env2mod - how filter env  / lead arpeggio to softer sound |filter env mod
-3 | Envelope|Resonance / Noise / Overdrive|Amplif and filter env attack |attack
-4 || 50 % is for Attack/ Release|Amplif and filter env release | release
-5 |  Filter |Vibrato, EFX Dry / wet / also chorus|lfo speed |
-6 | |Performance: LFO speed / intensity, OSC Tune|modulation depth
-7 | Modulation and FX parameters|oscillator pitch
-8 | |Morph functions. Wavetable Positions, Oscillator A/B Ratio  |trick (modulate index with LFO)
+1 | Oscillator | Cutoff EG intensity  | filter cutoff - bring in out | filter cutoff
+2 |  Oscillator Mod | Cutoff  |Env2mod - how filter env  / lead arpeggio to softer sound |filter env mod
+3 | Amp Envelope | Resonance / Overdrive | Amplif and filter env | attack
+4 | Filter Envelope | 50 % is for Attack/ Release | Amplif and filter env  | release
+5 |  Filter Frequency |Vibrato, EFX Dry / wet / also chorus | lfo speed |
+6 | Resonance | Performance: LFO speed / intensity, OSC Tune | modulation depth
+7 | Modulation | oscillator pitch
+8 | FX|Morph functions. Wavetable Positions, Oscillator A/B Ratio  |
 
+trick
+- modulate index with LFO  
+- Env2mod - how filter env  
 
 -------
 

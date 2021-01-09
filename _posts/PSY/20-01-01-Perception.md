@@ -17,9 +17,9 @@ permalink: /perception/
 http://consc.net/papers/c-and-c.html
 
 
-**Perception** is the interface between external events and sensory receptors.  
-[Cognition](/cognition/) is the transformation of sensory data into concepts.  ((information sorting) and requires at the very least, short term memory.)
-**Consciousness** is the (conflictual) interaction between the most elaborate concepts, which are the images of oneself and the world.  
+- **Perception** is the interface between external events and sensory receptors.  
+- [Cognition](/cognition/) is the transformation of sensory data into concepts.  ((information sorting) and requires at the very least, short term memory.)  
+- **Consciousness** is the (conflictual) interaction between the most elaborate concepts, which are the images of oneself and the world.  
 ability to simulate other systems within itself.
 
 There are discontinuities in the process of neural organization, but they are in much larger number than these 3 steps. Each discontinuity has relative organizational independence. This is what prevents the mental process from being completely chaotic.
@@ -38,9 +38,6 @@ Every living thing before self awareness, is a pure product of natural (or man m
 0.25 | visuals
 0.17 | audio
 0.15 | touch stimulation
-
-
-
 
 
 
@@ -94,48 +91,51 @@ Biases and fallacies are not optimal
 
 ## Behavioral biases
 
-|Behavioral biases (	Decision-making, belief) |Tendency to:|-|
+
+The Primacy/Recency Effect is the observation that information presented at the beginning (Primacy) and end (Recency) of a learning episode tends to be retained better than information presented in the middle
+
+
+|Behavioral biases (	Decision-making, belief) |Judgments are influenced by: ||
 |-|-|-|
-|Anchoring | First thing you judge influences your judgment of all that follows | First offer sets an ‘anchor’ price which will influence how counter-offer might seem
-|Priming |  (what u see before )
-|Halo effect | How much you like someone, or how attractive they are, influences your other judgments of them
-|Availability Heuristic |  Judgments are influenced by what springs most easily to mind (something happened in same place)
-|Availability Cascade | media report > public panic
-|In-Group bias | unfairly favor those who belong to your group.
-|Sunk Cost | ... thing that have already cost you something.
+|Anchoring | first  thing you judge | First thing you judge influences your judgment of all that follows| -
+|Availability Heuristic |   what springs most easily to mind | (something happened in same place)
+|Availability Cascade |  | media report > public panic
+|Sunk Cost | involved capital  |  irrationally cling to things that have already cost you something.
 |
-|Framing|
-|Group thinking |social dynamics of a group situation override the best outcomes.
-|Optimism, Pessimism | overestimate the likelihood of positive / negative outcome
-|Placebo|
+|Framing||You allow yourself to be unduly influenced by context and delivery
+|Halo effect |how much you find attractive | People you like or findattractive influences your other judgments of them
+|In-Group bias |group belonging| unfairly favor those who belong to your group.
+|Group thinking |group thinking |social dynamics of a group situation override the best outcomes.
+|Optimism, Pessimism |  | overestimate the likelihood of positive / negative outcome
+|Negativity bias || negative things to disproportionately influence your thinking.
+|Diclinism | | remember the past as better than it was, and expect the future to be worse than it will likely be.
+|Placebo|||
 |
-|
-|Curse of Knowledge | Presume  that others have same knowledge | Understand something is obvious to everyone get it
-|Dunning-Kruger effect|
-|Confirmation bias  | Favor things that confirm your existing beliefs.  
+|Curse of Knowledge | presumption of others knowledge.  | Presume  that others have same knowledge. | Once you understand something you presume it to be obvious to everyone
+|Dunning-Kruger effect| lack of knowledge.|The more you know, the less confident you're likely to be
+|Confirmation bias  |confirming your existing beliefs. | Favor things that confirm your existing beliefs.  
+|Belief bias | anything that supports actual believes | If a conclusion supports your existing beliefs, you'll rationalize anything that supports it.
 |False-Consensus Effect    
-|Belief bias | anything that supports actual believes
-|Self-serving bias |  failures are due to external factors, yet you're responsible for your successes.
-|Backfire effect|
-|Barnum effect|
-|Negativity bias | negative things to disproportionately influence your thinking.
-|Diclinism |
-|Fundamental Attribution error|
-|Just-world hypothesis | preference for justice makes you presume it exists.
-|Bystander effect|
-|Reactance |  is the tendency to do something different from what someone wants you to do in reaction to a perceived attempt to constrain your freedom of choice.
-|Spotlight effect | overestimate how much people notice how you look and act
-|Hindsight Bias | (Rationalize that something happened)
-|Endowment Effect |(perceive effect) (Want to sell item for more)
-|Duration neglect | judgment of painful experiences depend very little on how long those experiences lasted
-|Peak-End rule |people judge an experience mostly on how they felt at its peak or very end (shortcut when thinking how feel about exp. you thing about: 1 highest peaks and at end )
-|Mere Exposure Effect|
-|(More often see more u like it)
-| Blind Spot (other feel different than you)
-|Regency Bias |  is the phenomenon of a person most easily remembering something that has happened recently,
+|Self-serving bias |  |  failures are due to external factors, yet you're responsible for your successes.
+|Backfire effect||if beliefs is challenged, it can cause you to believe even more strongly.
+|Reactance |seeing other people's intentions. | do something different from what someone wants you to do in reaction to a perceived attempt to constrain your freedom of choice.
+|Bystander effect|| You presume someone else is going to do something in an emergency situation.
+|Fundamental Attribution error||You judge others on their character, but yourself on the situation.
+|Just-world hypothesis || preference for justice makes you presume it exists.
+|Spotlight effect || overestimate how much people notice how you look and act
+|Barnum effect| | You see personal specifics in vague statements by filling in the gaps.
+|Hindsight Bias |  |(Rationalize that something happened)
+|Endowment Effect  ||(perceive effect) (Want to sell item for more)
+|Duration neglect  || judgment of painful experiences depend very little on how long those experiences lasted
+|Peak-End rule | |people judge an experience mostly on how they felt at its peak or very end (shortcut when thinking how feel about exp. you thing about: 1 highest peaks and at end )
+|Regency Bias |  | is the phenomenon of a person most easily remembering something that has happened recently,
+|Priming |exposure to a certain stimulus | Things seen recently impact you more
+|Mere Exposure Effect||(More often see more u like it)
+| Blind Spot|| (other feel different than you)
 |Cognitive Ease |  ()
-|law of Small numbers |  (next flip have same chance )
-|Prospect Theory and Loss Aversion |(insurances , 100% money back, bnrutality in tv) (LOSS > gain)
+|law of Small numbers ||  (next flip have same chance )
+|Prospect Theory and Loss Aversion ||(insurances , 100% money back, bnrutality in tv) (LOSS > gain)
+
 
 
 

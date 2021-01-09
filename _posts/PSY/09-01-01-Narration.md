@@ -146,6 +146,9 @@ not how human is but how should bne like
 Post modernism - skepticism tough meta narrative
 no such think as through knowledge all we have is subjecvtiver opinion
 
+### archetypal events
+: birth, death, separation from parents, initiation, marriage, the union of opposites;
+
 ### 4-Layers in games
   1. what am I doing and how
   2. narrative goal (short term) gratifications
@@ -186,7 +189,6 @@ exposition
 ### payoff
 RESPONCE -
 
-
 ### Foreshadowing
 Plant idea ahead and earlier to connect later
 
@@ -205,9 +207,11 @@ zagrozenie i jak mozena je pokonac (kill it / craft to survive )
 dont give 4 give 2+2 - simple equasion, puzzles  (simple deduction)
 - care about story: imply meaning, to enable discover meaning .
 
-
-
 during the story object can inherit meaning and emotional value
+
+
+### Archetypal motifs
+the apocalypse, the deluge, the creation.
 
 ### Conflict
 - konflikt interesów
@@ -225,7 +229,7 @@ Structure of collective mind shared by all humans. Jung: is populated by instinc
 Universal through shared by all cultures  
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
 
-### Emotion s
+### Emotions
 
 emotions :
 - thrill
@@ -239,16 +243,22 @@ emotions :
 
 ---
 
+
+
+---
+
+
 # Characters
 Driven by external / internal motivations
 
 - name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want accomplished, what afraid, what like to do, hidden talent, deepest secret
 
 competence !  
-## Archetypes
+
+## Archetypal Figures
 
 
-
+[Personalities](/personality/) - jungian archetypes
 
 ||||
 |---|---|---|
@@ -265,7 +275,8 @@ components such as surprises, plot twists, and red herrings
 |Villain | generator/defender of the
 main conflict, and that he exists to present the final challenge to the Hero
 
-
+- great mother, father
+- devil, god
 - Sidekick
 - Maiden
 - Wise Old Man
