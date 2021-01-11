@@ -75,6 +75,10 @@ black and white spaces
 
 https://youtu.be/VBzIPLh-ECg
 
+## Wang tiles
+
+http://www.cr31.co.uk/stagecast/wang/3edge.html
+
 
 
 ---

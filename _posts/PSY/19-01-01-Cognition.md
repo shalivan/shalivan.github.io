@@ -12,12 +12,21 @@ description: attention, cognition motivation, emotion, choice, satisfaction
 permalink: /cognition/
 ---
 
-psychology   
-computer science AI    
-linguistics  
-philosophy  
-neuroscience  
-Anthropology  
+Cognition fields
+- Psychology   
+- AI    
+- Linguistics  
+- Philosophy  
+- Neuroscience  
+- Anthropology  
+
+
+Descadie - mind body problem (res extensa - zew, res cogitans - wew
+
+
+
+
+
 
 
 [//]: # ()
@@ -35,8 +44,7 @@ Emotions vs Logic
 
 
 # Cognitive states
-How you proces sinformation s
----
+How you proces information
 
 Neuro correlate of consciousness
 
@@ -106,6 +114,11 @@ Trip
 
 
 # Choice
+
+https://youtu.be/QZ3TNIPDAd8
+
+### Canonical Theory of Dynamic Decision-Making
+
 
 **Locus of control** is a psychological concept that refers to how strongly people believe they have control over the situations and experiences that affect their lives.
 

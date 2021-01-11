@@ -12,11 +12,14 @@ description: attention, cognition motivation, emotion, choice, satisfaction
 permalink: /cognition/
 ---
 
+Conciopus of sometrhing every experience is diferent than previous.
 
 
 
 
 # Consciousness (hard problem)
+Aware of self and enviroment
+- can be altered by
 
 - addaptive state let us discover
 

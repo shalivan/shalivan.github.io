@@ -23,6 +23,9 @@ https://www.youtube.com/c/Gametheory101/videos
 https://www.youtube.com/c/PrimerLearning/videos  
 
 
+group best efort
+or their best interest - sub optimal solution in the long run
+
 
 # Game Theory
 mathematical study of optimizing agents strategies in games where outcome depend on other agents actions. (payoff is affected by the decisions mede by others)

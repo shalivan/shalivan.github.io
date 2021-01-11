@@ -13,21 +13,16 @@ permalink: /motivation/
 ---
 
 
-needs, wants or desires acquired through influence or may be generally innate.
-most important reasons to move forward  
-helps them move forward in the decision-making process  
-Shot of dopamine is not needed,
 
 
 
+
+- needs, wants or desires acquired through influence or may be generally innate.
+- most important reasons to move forward
+- progression > stimulate brain > keep engaging
+- helps them move forward in the decision-making process  
 
 # Terms
-
-
-`immersion` - teleport mind   
-`presence` - teleport body    
-`engagement` - mental or manual effort meets interactivity  (not in books)  
-
 
 
 ## Attention
@@ -35,8 +30,22 @@ Selective concentration on a discrete stimulus while ignoring other perceivable 
 
 `Area of focus` of brain is like thumb of hand in front of u
 
+
+## immersion  
+- teleport mind   
+
+Immerse : altered time. fully `immersed` with mechanics while challenge and tension in balance  (anxiety vs boredom)
+
+
+
 ## Engagement  
-Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self  `Flow` / the `Zone` / `Immerse`: altered time. fully `immersed` with mechanics while challenge and tension in balance  (anxiety vs boredom)
+mental or manual effort meets interactivity  (not in books)
+
+Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
+
+
+ `Flow` state / the `Zone`
+
 
 - primal forces
 - context depended
@@ -44,6 +53,16 @@ Psychological presence. According to his definition, engagement refers to the st
 - predictable
 
 if you lost a momentum from one moment to next and persist in that state
+
+
+
+
+##  Flow  
+`Game Follow` - is wave zone between anxiety and boredom (sometimes challenge and sometimes powerful)  
+- `Difficulty Curve` - Challenge  
+- `Pacing` Rhythm + Pressure >Manage stress. If there is no stress its not meaningful and you don't care. So pressure is good  
+- `Learning Curve` - Onboarding > tutorials super important   
+
 
 ## Agency
 ????!!!!!
@@ -58,16 +77,13 @@ things happening > its excitement its entertainment
 - (ciekawosc?)   
 
 
-##  Flow  
-`Game Follow` - is wave zone between anxiety and boredom (sometimes challenge and sometimes powerful)  
-- `Difficulty Curve` - Challenge  
-- `Pacing` Rhythm + Pressure >Manage stress. If there is no stress its not meaningful and you don't care. So pressure is good  
-- `Learning Curve` - Onboarding > tutorials super important   
-
 
 ##  Addictions
-dopamine feadback  - (social media )
+dopamine feadback  - (social media )  
+slot machines  
 
+##  presence  
+- teleport body    
 
 ---
 
@@ -78,6 +94,9 @@ dopamine feadback  - (social media )
 `Impulses`, `Power`, `Achievement`, `Affiliation`
   Biological motives include hunger, thirst, the pursuit of pleasure, and the avoidance of pain
 
+- Shot of dopamine is not needed,
+- mind create tolerance for dopamine it recive.
+
 ## Neuroscience
 
 - `directional` (such as directed towards a positive stimulus or away from a negative one)
@@ -86,7 +105,7 @@ dopamine feadback  - (social media )
  Dopamina
 
 ## Behavioral
-Behaviorism is theory of motivation focused on how the results we’ve obtained from past behaviors shape our future behaviors (Environmental Shaped & Learned Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
+Behaviorism is theory of motivation focused on how the results we’ve **obtained from past** behaviors shape our future behaviors (Environmental Shaped & Learned Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
 
 - Positive Reinforcement
 - Negative Reinforcement.
