@@ -14,7 +14,135 @@ tags:
 permalink: /niagaraintrerfaces/
 ---
 
-# Houdini Interface
+
+
+---
+
+# Constraints
+
+
+---
+
+# Ribbons
+`NiagaraRibbonRendererProperties` module.  
+
+##### more ribbons
+
+`SetRibbonIDByExecOrder` - get the particles execution index, make a Niagara ID and assign the execution index to the ID index, and then set Particles.RibbonID in the Map with our new ID.
+
+
+
+
+
+---
+
+# Communication between emitters
+>one emmiter as about partikiel  np: flocking
+
+`newParticleAtributeReader`   
+`get Vector by Index` - get attribute (like Color) by Index (order particle responce)   
+`get by ID` - niagara unique particle qttribute   
+
+
+---
+
+# Events
+push
+Will be 2.0! cause of fixed payloads (could be arbitrary )
+
+---
+
+# Location Event  
+##### Particle update
+`Generate Location Event` - Add to leader  
+
+##### Event Handler  
+`Event Handler Properties` - Add to follower  
+`Recive Locaation Event` - Add to follower
+
+
+
+---
+# Attribute Reader
+Listen to other emitter (events not push, but pull directly) - bats, flock, swarming bugs.
+Flight Orientation
+
+`Get Vector by index` -
+`Get Spawned ID at Index` > `Get Vectro by ID`
+
+you can use it on yourself every particle can ask of neighbour pos (phys line)
+can integrate with otherforces (like cable component in niagara)
+ and
+
+ Is better then events in some way
+
+
+
+
+
+
+
+
+---
+
+# Vector Fields
+.fga  
+add an Acceleration Force module under our Sample Vector Field, and then bind the value `SampleVectorField.SampledVector` to the Acceleration value
+`VectorFieldSize`
+
+http://andy.moonbase.net/archives/1499
+
+---
+
+# Distance Field
+Sample Distance Field
+
+---
+
+
+# Collision
+Collision query
+direction and d buffer sampling
+
+
+---
+
+# Neighbor Grid 3D
+special position cash when a lot of particle need global comunication
+
+
+
+# PBD
+
+
+
+
+
+---
+
+# Mesh Reproduction Static
+
+Set position from static mesh   
+Set UV by Dynamic material  
+
+---
+
+# Mesh Reproduction Skeletal
+`initialize mesh reproduction`
+
+#### Particle Update
+`update mesh reproduction`
+
+#### Material
+- add Niagara mesh reproduce uv's
+
+
+
+---
+
+
+
+# Houdini csv
 files:  
 Houdini niagara - ue plugin   
 Houdini Extras - ue plugin   
@@ -222,72 +350,6 @@ W:
 
 ```
 
-
----
-
-# Mesh Reproduction Static
-
-Set position from static mesh   
-Set UV by Dynamic material  
-
----
-
-# Mesh Reproduction Skeletal
-`initialize mesh reproduction`
-
-#### Particle Update
-`update mesh reproduction`
-
-#### Material
-- add Niagara mesh reproduce uv's
-
-
-
-
----
-
-# Ribbons
-`NiagaraRibbonRendererProperties` module.  
-
-##### more ribbons
-
-`SetRibbonIDByExecOrder` - get the particles execution index, make a Niagara ID and assign the execution index to the ID index, and then set Particles.RibbonID in the Map with our new ID.
-
----
-
-# Constraints
-
-
----
-
-# Communication between emitters
->one emmiter as about partikiel  np: flocking
-
-`newParticleAtributeReader`   
-`get Vector by Index` - get attribute (like Color) by Index (order particle responce)   
-`get by ID` - niagara unique particle qttribute   
-
-
----
-
-# Location Event  
-##### Particle update
-`Generate Location Event` - Add to leader  
-
-##### Event Handler  
-`Event Handler Properties` - Add to follower  
-`Recive Locaation Event` - Add to follower
-
-
----
-
-# Vector Fields
-.fga  
-add an Acceleration Force module under our Sample Vector Field, and then bind the value `SampleVectorField.SampledVector` to the Acceleration value
-`VectorFieldSize`
-
-http://andy.moonbase.net/archives/1499
-
 ---
 
 # Camera Interface
@@ -317,40 +379,8 @@ Occlusion of point in time can do for point ()
 
 ---
 
-# Collision query
-direction and d buffer sampling
-
----
-
-# Sample Distance Field
-
----
-
-# Neighbor Grid 3D
-special position cash when a lot of particle need global comunication
 
 
-# PBD
----
-
-# Flocks
-
-Flight Orientation
-
-# Events
-push
-Will be 2.0! cause of fixed payloads (could be arbitrary )
-# Attribute Reader
-Listen to other emitter (events not push, but pull directly) - bats, flock, swarming bugs.
-
-`Get Vector by index` -
-`Get Spawned ID at Index` > `Get Vectro by ID`
-
-you can use it on yourself every particle can ask of neighbour pos (phys line)
-can integrate with otherforces (like cable component in niagara)
- and
-
- Is better then events in some way
 
 
 
