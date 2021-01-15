@@ -134,3 +134,7 @@ set of layers operating at different timescales
 
 Shell > Service > Scenery
 [Narration](/narration/)  
+
+# Architekture in games and aaneo0impressionism
+https://vol.co/product/anime-architecture/
+https://www.iamag.co/the-art-of-tekkon-kinkreet/

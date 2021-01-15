@@ -106,7 +106,24 @@ balance stratedy
 -humans make a lot errors  exploit mistakes
 
 
-## Tradegy of the Commons
+## Bargaining
+Bargening dynamics get really complicated really quickly.
+
+
+| ||
+| ---| ---|
+| Proposal power |  make offers to the other side (accept/reject position not good)
+| Patience  | no needing a deal (**Tragedy of bargening**) 'rich get richer'
+| Outside options |
+| Monopoly | Unique quality
+| Knowledge | knowledge of the others sides minimum value dont know choose between lesser of two evils
+| Reputation|
+| Credible commitment | contracts good / black market bad
+| Costly signals of higher value |
+
+**Ultimatum** Game Assumptions - single ultimatum, Take or leave it  
+
+## Tragedy of the Commons
 Some public good lot of persons contribute noone want to pay cause take a small parts of contribution only.( there is mat trouh to compensate )   
 
 

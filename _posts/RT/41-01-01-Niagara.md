@@ -20,7 +20,7 @@ permalink: /niagara/
 - Niagara can interact with:  
   - Triangles  - u must point to specific mesh in query  
   - Phys Volumetric  -  
-  - Scene Depth  - niestety: 2d, wiec nie ma info co jest za  
+  - Scene Depth  - 2d buffer, don't penetrate behind first depth  
   - Distance Fields  -
 - Use: Inheritance. You can always reparent  
 - Niagara paradigms:
@@ -29,17 +29,19 @@ permalink: /niagara/
   - Systems - stack and Sequencer timeline
 
 
+
 # Attributes
 
 
 ##  Name Space
+particle attributes vs transient outputs.
 
 | Name Space | R | W | Define | Share within |
 |--- | --- | --- | --- | ---|
 |`Engine` |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
 |`User`| Y | N
 |`Module Input`|Y|N|| Use inside of module for promoted Parameters
-|`Output` |N|Y|transient ?| pay for calculate but not for adding it to emiter (parameter writes)
+|`Output` |N|Y|transient| pay for calculate but not for adding it to emiter (parameter writes)
 |`System` | Yes | System | Persisted f2f | System
 |`Emitter` | Emitter, Particle  | Emitter  | Persisted f2f | Emitter instance / color ect...
 |`Particles` | Particle | Particle |  Persisted f2f  |  Per-particle (@point)
@@ -53,6 +55,16 @@ permalink: /niagara/
   - initial -  initial value of attribute (from eg in particle spawn)
 
 
+`Transient` - variables are local only to a given stack context (Particle Update, for example) and are recalculated from scratch every frame, they do not persisit their value from frame to frame.
+
+`Particle` - payload and persist from frame to frame, which comes at a memory and performance cost.
+
+
+`Output` - Many modules have Outputs. These are useful helpers included in the modules which are not yet written to the particle payload, but are available for use. In this case, we bind our SphereNormal to the Normal Output from the Sphere Location module.
+
+Outputs are transient, and thus not written to the payload, which means they don't cross stack boundaries.
+
+An output in Particle Spawn cannot be accessed in Particle Update, and does not persist from frame to frame.
 
 
 
@@ -143,8 +155,12 @@ FlipBook - `SpriteUVScale`, `SpriteSubimageIndex`
 (in particles.)
 
 
-# Collision
-post soft collision    
+
+##### Mesh
+
+`Orient Mesh To Vector` Module - Can be after solve forcces
+
+
 
 # Physics
 
@@ -178,7 +194,13 @@ Transient PhysiocForce
 
 ```
 
-# Events
+
+
+# Render
+`Particles.VisibilityTag` - Render Visibility - can change renderer dynamicly
+
+
+
 # Dynamic inputs
 
 

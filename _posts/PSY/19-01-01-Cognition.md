@@ -12,7 +12,7 @@ description: attention, cognition motivation, emotion, choice, satisfaction
 permalink: /cognition/
 ---
 
-Cognition fields
+Cognition fields:
 - Psychology   
 - AI    
 - Linguistics  
@@ -22,9 +22,6 @@ Cognition fields
 
 
 Descadie - mind body problem (res extensa - zew, res cogitans - wew
-
-
-
 
 
 
@@ -44,56 +41,45 @@ Emotions vs Logic
 
 
 # Cognitive states
-How you proces information
-
+How you process information  
 Neuro correlate of consciousness
 
-(expanded)
-Ecstasy  
-Hyper Alert
-Stupor  
+naturally or induced by ext factors like drugs or internal factors.
 
-(ordinary lvl)
-Mystery level of the ego   
-Identity level   
-Mnemonic extended
-Bio eco logical
-Pure biological
 
-(lopwer)
-Lathargic
-Anesthesia
-Coma
-Unconsciousness
----
+Wakefulness|Awareness - two major components of conciousness
 
+|State|Wakefulness|Awareness||||
+|----|--|--|--|--|--|
+Focused Selective attention|hi |hi| | flow
+Divided attention|hi|hi
+Locked-In Syndrom |hi|hi
+Daydreaming|
+Meditative|
+Hypnotised |
+Toxicated |
+Lucid dream | low |  hi || sleepwalking
+REM | mid | mid-hi | Rapid eye movement, similar brain activity to wake | dreams
+Light sleep NREM1| mid | mid | some conscious about enviro | Drowsy sleep
+Deep sleep NREM2|  |  | Majority of sleep, unknown purpose |
+Minimally Conscious |hi| mid |visual tracking/fix, command following (no functional communication)
+Vegetative |hi | low |
+Anesthesia |low| low |eye opening
+Coma |lowest | lowest
+
+Confusion delirium lethargy Stupor Delusions Unconsciousness Lathargic
 Amnesia
 Paramnesia
+ insomnia (
+
+
+
+
+
+
+
 
 ---
-hi to low awareness
-
-FOcused Selective attention
-Divided attention
-Daydreaming
-Meditative
-Hypnotised
-Asleep
-Anaesthetised
-Unconcious
-
----
-REM
-vegetative
-
-
-Dream
-Normal
-Delusions
-Mindfulness
-Toxicate
-Brain damage  
-Trip
 
 
 

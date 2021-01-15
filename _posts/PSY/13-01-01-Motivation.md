@@ -229,6 +229,7 @@ Hope vs. fear |Differentiation into `hope` and `fear` components of implicit mot
 
 
 
+
 ---
 
 ## PENS
@@ -333,6 +334,13 @@ overjustification:
 ---
 
 #  Emotion
+
+---
+
+Aroused | not aroused
+negative | positive
+
+---
 
 
 Psychosomatic evaluative responses based on automatized value-judgements.

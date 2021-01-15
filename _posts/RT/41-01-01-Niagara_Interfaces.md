@@ -16,6 +16,11 @@ permalink: /niagaraintrerfaces/
 
 
 
+`The Kill Particles` module at spawn - acts as a form of "Rejection Sampling". We sample the texture and then kill the newly spawned particles on their first frame if the sampled texture alpha equals 0.
+
+Because Interpolated Spawn is unchecked in the emitter properties, newly spawned particles do not run both their spawn and update scripts on the frame they were born, making this technique quite inexpensive.
+
+
 ---
 
 # Constraints
@@ -36,34 +41,31 @@ permalink: /niagaraintrerfaces/
 
 ---
 
-# Communication between emitters
->one emmiter as about partikiel  np: flocking
-
-`newParticleAtributeReader`   
-`get Vector by Index` - get attribute (like Color) by Index (order particle responce)   
-`get by ID` - niagara unique particle qttribute   
 
 
 ---
-
-# Events
-push
-Will be 2.0! cause of fixed payloads (could be arbitrary )
+```
+## Events
+push  
+Will be 2.0! cause of fixed payloads (could be arbitrary )  
+```
 
 ---
 
-# Location Event  
+# Location Event  CPU  
 ##### Particle update
 `Generate Location Event` - Add to leader  
+
 
 ##### Event Handler  
 `Event Handler Properties` - Add to follower  
 `Recive Locaation Event` - Add to follower
 
+Which runs after the event is received. This needs to include a "Receive X Event" Module  to handle the event, and then other modules can be placed inside to have additional effect on the particles which receive events, for example an additional location module to provide an additional offset from the received event position.
 
 
 ---
-# Attribute Reader
+# Attribute Reader GPU
 Listen to other emitter (events not push, but pull directly) - bats, flock, swarming bugs.
 Flight Orientation
 
@@ -77,7 +79,15 @@ can integrate with otherforces (like cable component in niagara)
  Is better then events in some way
 
 
+#### Communication between emitters
+ one emmiter as about partikiel  np: flocking
 
+ `newParticleAtributeReader`   
+ `get Vector by Index` - get attribute (like Color) by Index (order particle responce)   
+ `get by ID` - niagara unique particle qttribute   
+
+
+we do have a Lead/Follower paradigm using the "Spawn Particles From Other Emitter" and "Sample Particles From Other Emitter" modules which utilize the Particle Attribute Reader.
 
 
 
@@ -101,11 +111,38 @@ Sample Distance Field
 
 
 # Collision
-Collision query
+ query
+
+
+## CPU
+quite expensive  should be used sparingly.
+
+- can optionally generate events using the "Generate Event"
+(Recive collision event)
+
+`Collision`- Ray Traced
+`Generate Collision Event `   
+## GPU  
+
+- can sample the scene depth, or the global distance field.
+
+`Collision`- GPU Distance field / GPU Depth Buffer
+
+
+```
+???
 direction and d buffer sampling
+
+```
 
 
 ---
+# Neighbor Grid 2D GPU
+Sampling image -  value to sample the texture as if it were a UV.
+
+`Spawn Particles In Grid` - Emiter up   
+`Grid Location`  
+`Sample Texture`  
 
 # Neighbor Grid 3D
 special position cash when a lot of particle need global comunication
@@ -350,6 +387,7 @@ W:
 
 ```
 
+
 ---
 
 # Camera Interface
@@ -368,6 +406,7 @@ on gpu more control. on cpu only on simulate will work
 `AudioOsciloscope` - Direct access to waveform. high/low freq 1:1 waveform mapping   
 `AudioSpectrum` - Buckets fft
 
+`Play Audio` module
 
 ---
 

@@ -229,6 +229,7 @@ Structure of collective mind shared by all humans. Jung: is populated by instinc
 Universal through shared by all cultures  
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
 
+
 ### Emotions
 
 emotions :
@@ -356,6 +357,9 @@ Slow| continuous, integrate shock, constraint, consistency | Has all the power
 ---
 
 # Mechanics in narration
+
+[Mechanics](/gamemechanics/)  
+
 Earier established gandra
 Try to implement plot in mechanics
 mechanick video storytell:
