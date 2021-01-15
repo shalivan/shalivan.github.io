@@ -14,21 +14,22 @@ tags:
 permalink: /niagara/
 ---
 
+
 - Niagara 16 params can send to material
-- U can accse only depth buffer can read  
-- Niagara can intreract with:  
- - Triangles  - u must point to spoecific mesh in query  
- - Phys Volumetric  -  
- - Scene Depth  - niestety: 2d, wiec nie ma info co jest za  
- - Distance Fields  -
+- U can access only depth buffer can read  
+- Niagara can interact with:  
+  - Triangles  - u must point to specific mesh in query  
+  - Phys Volumetric  -  
+  - Scene Depth  - niestety: 2d, wiec nie ma info co jest za  
+  - Distance Fields  -
 - Use: Inheritance. You can always reparent  
 - Niagara paradigms:
- - Modules - graph paradigm  
- - Emitters - stack paradigm  
- - Systems - stack and Sequencer timeline
+  - Modules - graph paradigm  
+  - Emitters - stack paradigm  
+  - Systems - stack and Sequencer timeline
 
 
-# Parameters, Attributes
+# Attributes
 
 
 ##  Name Space
@@ -132,7 +133,11 @@ Mesh Tri Coordinates > Bary Coords
 
 
 #### Alignment
-Sprite  - `SpriteAlignment` , `SpriteFaceing` , `SpriteRotation`    
+Sprite  - `SpriteAlignment` ,
+
+` Particles.SpriteFaceing` - is the vector variable  which controls which direction a particle faces
+
+`SpriteRotation`    
 Ribbon - `Particles.RibbonFaceing`, `RibbonLinkOrder`, `RibbonTwist`  
 FlipBook - `SpriteUVScale`, `SpriteSubimageIndex`    
 (in particles.)
