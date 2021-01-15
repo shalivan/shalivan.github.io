@@ -31,6 +31,13 @@ Because Interpolated Spawn is unchecked in the emitter properties, newly spawned
 # Ribbons
 `NiagaraRibbonRendererProperties` module.  
 
+
+
+##### Ribbon Render
+
+Ribbon - `Particles.RibbonFaceing`, `RibbonLinkOrder`, `RibbonTwist`  
+
+
 ##### more ribbons
 
 `SetRibbonIDByExecOrder` - get the particles execution index, make a Niagara ID and assign the execution index to the ID index, and then set Particles.RibbonID in the Map with our new ID.

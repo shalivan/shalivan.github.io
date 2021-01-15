@@ -137,34 +137,77 @@ Do what system (optimal to set for multiple emitters) do or define.
 
 
 
-# Coordinates, Space &
+# Coordinates & Space
 Simulation, World, Local   
 Mesh Tri Coordinates > Bary Coords  
 
 
 
 
+
+
+#### Set Orientation
+Inexpensive constant rotation rate. (rotational drag, an option on the drag module) has no effect.
+set: `Particles.MeshOrientation`
+
+
+`Update Mesh Orientation` Module -  
+`Orient Mesh To Vector` Module - Can be after solve forcces  
+
+
+
+
+
+#### Rotational Force
+Paradigm which factors mesh scale, mass, density, and drag into the model.  larger meshes have a tendency to resist rotation  due to their mass, and rotational drag can be used to control the acceleration/deceleration.  `Transient.PhysicsRotationalForce`
+
+
+`"Mesh Rotation Force"` Module in Particle Update -
+`Solve Rotational Forces and Velocity` Solver -    
+`Drag`   
+
+
+Need "Initial Model Dimensions" and mass > "Calculate Size by Mass"
+
+
+
+
+
+#### Rotational Velocity / Drag
+
+Rotational Forces accumulate into a `Particles.RotationalVelocity` variable and persist from frame to frame. Here we give the particles an initial "kick", by applying a Rotational Force and then applying those forces to the Rotational Velocity. We use this method as it factors mass into the initial rotational velocity.
+
+This then gets solved by the solver in update, and rotational  drag eventually slows the particles down.
+
+If you want the initial "kick" to not factor in mass, you can use an "Add Rotational Velocity Module" to directy set a rotation speed.
+
+
+`Mesh Rotation Force` Module in Particle Spawn  -
+`Apply Initial Forces` Module
+
 #### Alignment
-Sprite  - `SpriteAlignment` ,
 
-` Particles.SpriteFaceing` - is the vector variable  which controls which direction a particle faces
 
-`SpriteRotation`    
-Ribbon - `Particles.RibbonFaceing`, `RibbonLinkOrder`, `RibbonTwist`  
-FlipBook - `SpriteUVScale`, `SpriteSubimageIndex`    
+##### Sprite
+
+` Particles.SpriteFaceing` - is the vector variable  which controls which direction a particle faces  
+
+`SpriteAlignment`  
+`SpriteRotation`      
+
+##### FlipBook  
+
+`SpriteUVScale`  
+`SpriteSubimageIndex`      
 (in particles.)
 
 
-
-##### Mesh
-
-`Orient Mesh To Vector` Module - Can be after solve forcces
 
 
 
 # Physics
 
-### Solve Dorces and velocity
+### Solve Forces and velocity
 
 
 
