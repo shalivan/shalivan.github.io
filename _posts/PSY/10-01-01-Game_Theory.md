@@ -14,6 +14,11 @@ permalink: /gametheory/
 
 ---
 
+Very complicated not always everything plays around these lines. (some Exceptions)   
+multiple goals, number of rounds....  In lot of species there is no cognitive strategy  
+
+To work every agent must play with GT rules. But its rational to behave time to ttime irrational
+
 Context for:  
 [Human Behavioral Biology](/humbio1/)   
 [Personality](/personality/)  
@@ -26,6 +31,8 @@ https://www.youtube.com/c/PrimerLearning/videos
 group best efort
 or their best interest - sub optimal solution in the long run
 
+
+SOMETIMES: burning money help to increes payof !!!!!!!!!
 
 # Game Theory
 mathematical study of optimizing agents strategies in games where outcome depend on other agents actions. (payoff is affected by the decisions mede by others)
@@ -58,17 +65,19 @@ Dummy player have 0 value
 (rational play when more then one player. not only define start but always believes)
 Is a concept within game theory where the optimal outcome of a game is where no player have incentives to deviate from initial strategy.
 
-**Poisoner dilemma**
-Very complicated not always everything plays around these lines. (some Exceptions)   
-multiple goals, number of rounds....  In lot of species there is no cognitive strategy  
 
-
-## Zero Sum Game
+### Zero Sum Game
  Interest is not overlapping. `win-lose`
 
 
-## Imperfect information games
+### Imperfect information games
 - depth limited search.
+
+
+# Games
+
+## Poisoner Dilemma
+
 
 
 
@@ -76,6 +85,8 @@ multiple goals, number of rounds....  In lot of species there is no cognitive st
 
 MinMax - minmimize maximum lose. ensure you guarded by worst scenario. (use in zero sum)
 
+Mix Strategy - play only if there are indiferences in few strategies
+Forward Induction Backward Induction
 
 **Tic Tac Toe**  
 
@@ -123,6 +134,7 @@ Bargening dynamics get really complicated really quickly.
 
 **Ultimatum** Game Assumptions - single ultimatum, Take or leave it  
 
+there are certain optimal strategies and no other GT solution
 ## Tragedy of the Commons
 Some public good lot of persons contribute noone want to pay cause take a small parts of contribution only.( there is mat trouh to compensate )   
 

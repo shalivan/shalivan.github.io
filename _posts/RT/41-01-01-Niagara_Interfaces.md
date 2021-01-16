@@ -59,20 +59,28 @@ Will be 2.0! cause of fixed payloads (could be arbitrary )
 
 ---
 
-# Location Event  CPU  
-##### Particle update
-`Generate Location Event` - Add to leader  
+# Location Event  
+CPU  
+
+### Leader emitter
+###### Particle update
+`Generate Location Event`
 
 
-##### Event Handler  
-`Event Handler Properties` - Add to follower  
-`Recive Locaation Event` - Add to follower
+### Follower emitter
+
+###### Event Handler
+`Event Handler Properties` - Event Handler  
+`Recive Locaation Event` - Event Handler
+
 
 Which runs after the event is received. This needs to include a "Receive X Event" Module  to handle the event, and then other modules can be placed inside to have additional effect on the particles which receive events, for example an additional location module to provide an additional offset from the received event position.
 
 
 ---
-# Attribute Reader GPU
+# Attribute Reader
+GPU
+
 Listen to other emitter (events not push, but pull directly) - bats, flock, swarming bugs.
 Flight Orientation
 
@@ -130,15 +138,25 @@ quite expensive  should be used sparingly.
 `Collision`- Ray Traced
 `Generate Collision Event `   
 ## GPU  
+direction and d buffer sampling
 
 - can sample the scene depth, or the global distance field.
 
-`Collision`- GPU Distance field / GPU Depth Buffer
+`Collision`- GPU Distance field / GPU Depth Buffer. Can be used at the end of particle update (before solvere) or special collision module.
+
+##### Collision module  
+
+- Place a Solve Forces and Velocity module at the end of particle update. Ensure that the "Write to Presolve Parameters" checkbox is set to true.
+
+- Place a Collision module in a final simulation stage.
+
+The simulation stage should operate on "particles" and perform 1 iteration.
+
+- A second "Solve Forces and Velocity" module should be placed immediately after the collision module. That module's "Write to Intrinsic Properties" Bool should be driven by [Transient]CollisionValid.
+
 
 
 ```
-???
-direction and d buffer sampling
 
 ```
 

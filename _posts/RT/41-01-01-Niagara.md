@@ -15,56 +15,49 @@ permalink: /niagara/
 ---
 
 
-- Niagara 16 params can send to material
-- U can access only depth buffer can read  
-- Niagara can interact with:  
+
+Niagara interaction
   - Triangles  - u must point to specific mesh in query  
   - Phys Volumetric  -  
   - Scene Depth  - 2d buffer, don't penetrate behind first depth  
   - Distance Fields  -
-- Use: Inheritance. You can always reparent  
-- Niagara paradigms:
-  - Modules - graph paradigm  
-  - Emitters - stack paradigm  
-  - Systems - stack and Sequencer timeline
 
 
+
+
+Tips
+  - Niagara 16 params can send to material
+  - U can access only depth buffer can read  
+  - Use: Inheritance. You can always reparent  
 
 # Attributes
 
+Niagara paradigms:
+  - Modules - graph paradigm  
+  - Emitters - stack paradigm  
+  - Systems - stack and Sequencer timeline
 
 ##  Name Space
 particle attributes vs transient outputs.
 
 | Name Space | R | W | Define | Share within |
 |--- | --- | --- | --- | ---|
-|`Engine` |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
-|`User`| Y | N
-|`Module Input`|Y|N|| Use inside of module for promoted Parameters
-|`Output` |N|Y|transient| pay for calculate but not for adding it to emiter (parameter writes)
-|`System` | Yes | System | Persisted f2f | System
-|`Emitter` | Emitter, Particle  | Emitter  | Persisted f2f | Emitter instance / color ect...
-|`Particles` | Particle | Particle |  Persisted f2f  |  Per-particle (@point)
-|`Module` | Module | Module | Module | expose a module input to the System and Emitter Editor
-|`Module Locals` ??? | Module | Module | not persist f2f, or between stages| Transient values.
-|`Local`|||| Truly local for function ! Transient values.
-|`Transient` | from any module |from any module | dont persist f2f and between stages
+|Particles. | Particle | Particle |  Persisted f2f (memory and performance cost) | Loaded as  payload. Per-particle (@point)
+|Module Input|Y|N|| Use inside of module for promoted Parameters
+|Module | Module | Module | Module | expose a module input to the System and Emitter Editor
+|Module Locals ??? | Module | Module | Don't persist f2f and between stages| Transient values.
+|Emitter | Emitter, Particle  | Emitter  | Persisted f2f (memory and performance cost)  | Emitter instance / color ect...
+|System | Y | System | Persisted f2f (memory and performance cost)  | System
+|Engine|  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
+|User. | Y | N
+|Output |N|Y|Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | pay for calculate but not for adding it to emiter (parameter writes)  useful helpers included in the modules which are not yet written to the particle payload, but are available for use.
+|Transient. | from any module |from any module | Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | Local only to a given stack context (like Particle Update)
+|Local|||| Truly local for function ! Transient values.
 
-####  Name space modifiers:
+###  Name space modifiers:
   - module - insert module name as namespace so if u have x modules u have x different params
   - initial -  initial value of attribute (from eg in particle spawn)
 
-
-`Transient` - variables are local only to a given stack context (Particle Update, for example) and are recalculated from scratch every frame, they do not persisit their value from frame to frame.
-
-`Particle` - payload and persist from frame to frame, which comes at a memory and performance cost.
-
-
-`Output` - Many modules have Outputs. These are useful helpers included in the modules which are not yet written to the particle payload, but are available for use. In this case, we bind our SphereNormal to the Normal Output from the Sphere Location module.
-
-Outputs are transient, and thus not written to the payload, which means they don't cross stack boundaries.
-
-An output in Particle Spawn cannot be accessed in Particle Update, and does not persist from frame to frame.
 
 
 
@@ -135,16 +128,16 @@ Do what system (optimal to set for multiple emitters) do or define.
 
 
 
-
-
-# Coordinates & Space
-Simulation, World, Local   
-Mesh Tri Coordinates > Bary Coords  
+# Dynamic inputs
+----------
 
 
 
 
+# Orientation
 
+
+## Mesh
 
 #### Set Orientation
 Inexpensive constant rotation rate. (rotational drag, an option on the drag module) has no effect.
@@ -185,23 +178,26 @@ If you want the initial "kick" to not factor in mass, you can use an "Add Rotati
 `Mesh Rotation Force` Module in Particle Spawn  -
 `Apply Initial Forces` Module
 
-#### Alignment
+
+## Sprite
 
 
-##### Sprite
+####  Alignment
 
 ` Particles.SpriteFaceing` - is the vector variable  which controls which direction a particle faces  
 
 `SpriteAlignment`  
 `SpriteRotation`      
 
-##### FlipBook  
 
 `SpriteUVScale`  
 `SpriteSubimageIndex`      
 (in particles.)
 
 
+# Coordinates & Space
+Simulation, World, Local   
+Mesh Tri Coordinates > Bary Coords  
 
 
 
@@ -242,9 +238,6 @@ Transient PhysiocForce
 # Render
 `Particles.VisibilityTag` - Render Visibility - can change renderer dynamicly
 
-
-
-# Dynamic inputs
 
 
 ---
