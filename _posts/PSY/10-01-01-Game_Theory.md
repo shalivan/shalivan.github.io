@@ -47,6 +47,7 @@ mathematical study of optimizing agents strategies in games where outcome depend
 
 
 ## Cooperative
+
 **How to be fair.**
 - coalition and benefit and contribution type in coalition
 **Shapley Value** - method of dividing gains  or costs  among players acording to value of individual contribution
@@ -57,13 +58,19 @@ if 2 parties bring same things to coalition, they should have to contribute  the
 
 Dummy player have 0 value
 
+**Pareto efficiency**
+Outcom is Pareto optimal if there is no outcome that makes at least one player better off without making any player worse off.
+
 ## Competitive
 **How to be smart.**
 
 **Nash equilibrium**
+optimal outcome of a game is where no player have incentives to deviate from initial strategy.  
 (decide to be better off no matter what opponent will do)
 (rational play when more then one player. not only define start but always believes)
-Is a concept within game theory where the optimal outcome of a game is where no player have incentives to deviate from initial strategy.
+
+
+Every player play `best response`  strategy  to what other doing. Knowing other strategies and have no insentives to cheat.
 
 
 ### Zero Sum Game
@@ -77,16 +84,56 @@ Is a concept within game theory where the optimal outcome of a game is where no 
 # Games
 
 ## Poisoner Dilemma
+number show years in jail if Cooperate or Defect
+
+||Cooperate|Defect |
+|--|--|--|
+**Cooperate**|-1, -1 |0 , -10
+**Defect** | -10, 0 | 5, 5
+
+Defect strategy dominate cooperate
+Better of Defecting regardless what other player does  
+
+## Stag Hunt
+
+neither player deviate
+
+||Stag|Rabbit|
+|--|--|--|
+**Stag**|3, 3 |  0 , 2
+**Rabbit** | 2, 0 | 1, 1
+
+Stag/Stag (pareto efficient) and Rabit/Rabit (pareto inefficient) are equilibrias.
+
+no lie
+
+## Matching Pennies
+Zero sum game.  No pure strategy nash equilibrium.  
+If no pure nash exist in mix strategies.  
 
 
 
+||Heads|Tails|
+|--|--|--|
+**Heads**|1, -1 |  -1 , 1
+**Tails** | -1, 1 | 1, -1
+
+Coin filps
 
 # Strategies
 
-MinMax - minmimize maximum lose. ensure you guarded by worst scenario. (use in zero sum)
 
-Mix Strategy - play only if there are indiferences in few strategies
-Forward Induction Backward Induction
+**MinMax** - minmimize maximum lose. ensure you guarded by worst scenario. (use in zero sum)
+
+**Mix Strategy** - play only if there are indiferences in few strategies
+
+
+**Forward Induction**
+
+
+**Backward Induction**
+Whenever I'm making move now I should focus on what opponent will do after that. maximizing - not always good
+
 
 **Tic Tac Toe**  
 
@@ -153,6 +200,11 @@ Button|
 Small Blind |
 Big Blind | play garbage hands (range advantage)
 Under The Gun | the player to the left of the big blind. the player has to act first.
+
+## Why Anties
+to force action
+
+## Bounty
 
 ## GTO
 Game theory optimal - is not enough agressive.

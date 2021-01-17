@@ -21,16 +21,15 @@ permalink: /niagaraintrerfaces/
 Because Interpolated Spawn is unchecked in the emitter properties, newly spawned particles do not run both their spawn and update scripts on the frame they were born, making this technique quite inexpensive.
 
 
----
-
-# Constraints
+`Particles.VisibilityTag` - Render Visibility - can change renderer dynamicly
 
 
 ---
 
 # Ribbons
-`NiagaraRibbonRendererProperties` module.  
 
+```
+`NiagaraRibbonRendererProperties` module.  
 
 
 ##### Ribbon Render
@@ -40,15 +39,17 @@ Ribbon - `Particles.RibbonFaceing`, `RibbonLinkOrder`, `RibbonTwist`
 
 ##### more ribbons
 
-`SetRibbonIDByExecOrder` - get the particles execution index, make a Niagara ID and assign the execution index to the ID index, and then set Particles.RibbonID in the Map with our new ID.
+`SetRibbonIDByExecOrder` - get the particles execution index, make a Niagara ID and assign the execution index to the ID index, and then set `Particles.RibbonID` in the Map with our new ID.
 
+-
 
+`Particles.RibbonLinkOrder` is the variable which determines how particles of a given `RibbonID` link up with each other.
 
+The Spawn Beam module establishes the order based on the new particles as they are spawned in a burst, and assigns a new unique `RibbonID` to each new set of particles so they stay as separate beams instead of one large interconnected ribbon between all particles in the emitter.
 
+From there, normal particle simulation takes over, and because the ribbon ID and link order are not changing from frame to frame, the beams stay stable.
 
----
-
-
+```
 
 ---
 ```
@@ -78,31 +79,26 @@ Which runs after the event is received. This needs to include a "Receive X Event
 
 
 ---
+
 # Attribute Reader
-GPU
+GPU - `Spawn Particles From Other Emitter` and `Sample Particles From Other Emitter` modules which utilize the Particle Attribute Reader. Listen to other emitter (events not push, but pull directly) - bats, flock, swarming bugs, Flight Orientation
 
-Listen to other emitter (events not push, but pull directly) - bats, flock, swarming bugs.
-Flight Orientation
 
-`Get Vector by index` -
-`Get Spawned ID at Index` > `Get Vectro by ID`
+`Get by ID` - niagara unique particle qttribute     
+`Get Vector by index` -- get attribute (like Color) by Index (order particle responce)     
+`Get Spawned ID at Index` > `Get Vector by ID`  
 
-you can use it on yourself every particle can ask of neighbour pos (phys line)
-can integrate with otherforces (like cable component in niagara)
+- can use it on yourself every particle can ask of neighbour pos (phys line)
+- can integrate with otherforces (like cable component in niagara)
  and
 
- Is better then events in some way
+`newParticleAtributeReader`   
 
 
-#### Communication between emitters
- one emmiter as about partikiel  np: flocking
-
- `newParticleAtributeReader`   
- `get Vector by Index` - get attribute (like Color) by Index (order particle responce)   
- `get by ID` - niagara unique particle qttribute   
+---
 
 
-we do have a Lead/Follower paradigm using the "Spawn Particles From Other Emitter" and "Sample Particles From Other Emitter" modules which utilize the Particle Attribute Reader.
+# Constraints
 
 
 
