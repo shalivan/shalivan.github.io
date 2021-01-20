@@ -14,10 +14,10 @@ permalink: /gametheory/
 
 ---
 
-Very complicated not always everything plays around these lines. (some Exceptions)   
-multiple goals, number of rounds....  In lot of species there is no cognitive strategy  
+- Very complicated not always everything plays around these lines. (some Exceptions)   
+- In lot of species there is no cognitive strategy  
+- To work every agent must play with GT rules. But its rational to behave time to ttime irrational
 
-To work every agent must play with GT rules. But its rational to behave time to ttime irrational
 
 Context for:  
 [Human Behavioral Biology](/humbio1/)   
@@ -28,27 +28,32 @@ https://www.youtube.com/c/Gametheory101/videos
 https://www.youtube.com/c/PrimerLearning/videos  
 
 
-group best efort
-or their best interest - sub optimal solution in the long run
 
 
 SOMETIMES: burning money help to increes payof !!!!!!!!!
+
 
 # Game Theory
 mathematical study of optimizing agents strategies in games where outcome depend on other agents actions. (payoff is affected by the decisions mede by others)
 
 
+### two player vs more
 
 
-**two player vs more**
+multiple goals, number of rounds....  
+
+### simultaneous move
+
+
+
+# Cooperative
+How to be fair  
+group best effort
 
 
 
 
 
-## Cooperative
-
-**How to be fair.**
 - coalition and benefit and contribution type in coalition
 **Shapley Value** - method of dividing gains  or costs  among players acording to value of individual contribution
 
@@ -61,29 +66,30 @@ Dummy player have 0 value
 **Pareto efficiency**
 Outcom is Pareto optimal if there is no outcome that makes at least one player better off without making any player worse off.
 
-## Competitive
-**How to be smart.**
 
-**Nash equilibrium**
-optimal outcome of a game is where no player have incentives to deviate from initial strategy.  
-(decide to be better off no matter what opponent will do)
-(rational play when more then one player. not only define start but always believes)
+**Risk Aversion**
+how much u willing to pay for insurance
 
-
-Every player play `best response`  strategy  to what other doing. Knowing other strategies and have no insentives to cheat.
-
-
+# Competitive
+How to be smart  
+Actor best interest - sub optimal solution in the long run
 ### Zero Sum Game
  Interest is not overlapping. `win-lose`
 
 
+### Nash equilibrium
+optimal outcome of a game is where no player have incentives to deviate from initial strategy.  
+(decide to be better off no matter what opponent will do) (rational play when more then one player. not only define start but always believes) Every player play `best response`  strategy  to what other doing. Knowing other strategies and have no insentives to cheat. Everyone want to keepe it without policing
+
+Most games have odd number of wquilibria
+
+no player have profitable deviations
 ### Imperfect information games
 - depth limited search.
 
 
-# Games
 
-## Poisoner Dilemma
+#### Poisoner Dilemma
 number show years in jail if Cooperate or Defect
 
 ||Cooperate|Defect |
@@ -94,7 +100,7 @@ number show years in jail if Cooperate or Defect
 Defect strategy dominate cooperate
 Better of Defecting regardless what other player does  
 
-## Stag Hunt
+#### Stag Hunt
 
 neither player deviate
 
@@ -105,9 +111,9 @@ neither player deviate
 
 Stag/Stag (pareto efficient) and Rabit/Rabit (pareto inefficient) are equilibrias.
 
-no lie
+- if no lies
 
-## Matching Pennies
+#### Matching Pennies
 Zero sum game.  No pure strategy nash equilibrium.  
 If no pure nash exist in mix strategies.  
 
@@ -119,6 +125,19 @@ If no pure nash exist in mix strategies.
 **Tails** | -1, 1 | 1, -1
 
 Coin filps
+
+
+#### Batle of sexes
+
+
+||Heads|Tails|
+|--|--|--|
+**Heads**|1, 2 | 0 , 0
+**Tails** | 0, 0 | 2, 1
+
+(1,2) - are nash
+
+
 
 # Strategies
 
@@ -132,10 +151,11 @@ Coin filps
 
 
 **Backward Induction**
-Whenever I'm making move now I should focus on what opponent will do after that. maximizing - not always good
+- Whenever I'm making move now I should focus on what opponent will do after that. maximizing - not always good
 
 
 **Tic Tac Toe**  
+
 
 ##### Pavlov strategy
  - switch if not working (you can exploit)
@@ -218,3 +238,9 @@ Optimize decisions and
 build strategies to put opponents in place where they have hard time with optimization their decisions.
 relation of hands u have to opponent hand
 - your percived range. Whaty they expected u to have
+
+
+--
+jak zapobiegać wojnie.
+- kraje chandlujące ze sobą mniej wojen (world with trade consume more )
+- koszty

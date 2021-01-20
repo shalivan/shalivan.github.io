@@ -81,7 +81,7 @@ Env2 Mode  |  how much filter env modulate filter frequencies
 
 ---
 
-## Envelope
+## Envelope ADSR
 How fast turn on and down. Determine how much envelop impacts settings. U can modulate: filters, pitch, frequencies, pulse with modulation(shape square wave), amplifier.
 
  envelope’s shape with each new note, some aspect of sound

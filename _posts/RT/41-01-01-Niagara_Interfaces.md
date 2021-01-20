@@ -81,7 +81,8 @@ Which runs after the event is received. This needs to include a "Receive X Event
 ---
 
 # Attribute Reader
-GPU - `Spawn Particles From Other Emitter` and `Sample Particles From Other Emitter` modules which utilize the Particle Attribute Reader. Listen to other emitter (events not push, but pull directly) - bats, flock, swarming bugs, Flight Orientation
+GPU  
+`Spawn Particles From Other Emitter` and `Sample Particles From Other Emitter` modules which utilize the Particle Attribute Reader. Listen to other emitter (events not push, but pull directly) - bats, flock, swarming bugs, Flight Orientation
 
 
 `Get by ID` - niagara unique particle qttribute     
@@ -122,14 +123,14 @@ Sample Distance Field
 
 
 # Collision
- query
+
 
 
 ## CPU
 quite expensive  should be used sparingly.
 
 - can optionally generate events using the "Generate Event"
-(Recive collision event)
+(Receive collision event)
 
 `Collision`- Ray Traced
 `Generate Collision Event `   
@@ -187,6 +188,7 @@ Set UV by Dynamic material
 
 # Mesh Reproduction Skeletal
 `initialize mesh reproduction`
+
 
 #### Particle Update
 `update mesh reproduction`

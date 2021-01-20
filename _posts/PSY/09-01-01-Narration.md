@@ -218,6 +218,11 @@ the apocalypse, the deluge, the creation.
 - Wants vs needs
 - Mind (primal mammal) vs Soul (fulfill to have superior existence)
 
+Rational explanations for war (war sis costly and why cant we settle differences at the bargening table)
+- preventive wars - preemptive war
+- asymmetric information and incentives to misrepresent
+- issue indivisibility
+
 ### Mystery
 
 ### Meaning
