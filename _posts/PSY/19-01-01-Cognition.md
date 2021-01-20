@@ -44,8 +44,9 @@ Emotions vs Logic
 How you process information  
 Neuro correlate of consciousness
 
-naturally or induced by ext factors like drugs or internal factors.
+naturally or induced by ext factors like drugs or internal factors.   
 
+Altered states of conciousness    
 
 Wakefulness|Awareness - two major components of conciousness
 

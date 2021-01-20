@@ -40,25 +40,25 @@ particle attributes vs transient outputs.
 
 | Name Space | R | W | Define | Share within |
 |--- | --- | --- | --- | ---|
-|Particles. | Particle | Particle |  Persisted f2f (memory and performance cost) | Loaded as  payload. Per-particle (@point)
-|Input.|Y|N|| Module input. Use inside of module for promoted Parameters
+|PARTICLES. | Particle | Particle |  Persisted f2f (memory and performance cost) | Loaded as  payload. Per-particle (@point)
+|INPUT.|Y|N|| Module input. Use inside of module for promoted Parameters
 |Module | Module | Module | Module | expose a module input to the System and Emitter Editor
 |Module Locals ??? | Module | Module | Don't persist f2f and between stages| Transient values.
-|Emitter | Emitter, Particle  | Emitter  | Persisted f2f (memory and performance cost)  | Emitter instance / color ect...
-|System. | Y | System | Persisted f2f (memory and performance cost)  | System
-|Engine. |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
-|User. | Y | N
-|Output. |N|Y|Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | pay for calculate but not for adding it to emiter (parameter writes)  useful helpers included in the modules which are not yet written to the particle payload, but are available for use.
-|Transient. | from any module |from any module | Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | Local only to a given stack context (like Particle Update)
-|Local.|||| Truly local for function ! Transient values.
+|EMITTER | Emitter, Particle  | Emitter  | Persisted f2f (memory and performance cost)  | Emitter instance / color ect...
+|SYSTEM. | Y | System | Persisted f2f (memory and performance cost)  | System
+|ENGINE. |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
+|USER. | Y | N
+|OUTPUT. |N|Y|Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | pay for calculate but not for adding it to emiter (parameter writes)  useful helpers included in the modules which are not yet written to the particle payload, but are available for use.
+|TRANSIENT. | from any module |from any module | Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | Local only to a given stack context (like Particle Update)
+|LOCAL.|||| Truly local for function ! Transient values.
 
 ###  Name space modifiers:
 
 
 | Name Space | R |
 |--- | --- |
-.Module. | insert module name as namespace so if u have x modules u have x different params
-.Initial. |  initial value of attribute (from eg in particle spawn)
+.MODULE. | insert module name as namespace so if u have x modules u have x different params
+.INITIAL. |  initial value of attribute (from eg in particle spawn)
 
 
 
@@ -205,19 +205,12 @@ Mesh Tri Coordinates > Bary Coords
 
 # Physics
 
+
 ### Solve Forces and velocity
 
-Choose whether or not to write to intrinsic properties.
+### write to intrinsic properties
+Choose whether or not to write to intrinsic properties
 
-If Forces/Drag have been converted to Velocity,
-zero out Transient.PhysicsForce and Transient.PhysicsDrag to allow for post-solve accumulation
-
-
-force1
-
-
-<img  src="/src/ue/niagara/force1.png">  
-<img  src="/src/ue/niagara/force2.png">  
 
 ```
 R:
@@ -228,16 +221,46 @@ Masss Position  Previous.Position, Velocity, Previous.Velocity,
 Transient.PhysicsDeltaTime
 Transient.PhysicsDrag
 Transient.PhysicsForce
+```
 
-
-W:
-Position, Velocity
-Presolve pos, velo
-presolv physic forces
-Transient  Physics Drag
-Transient PhysiocForce
+- (time) Fractional updates based on collision equations
+-  (Init copy:)
+  - `TRANSIENT.PhysicsForce` > `LOCAL.PhysicsForce`, `OUTPUT.MODULE.IncomingPhysicsForce`
+  - `PARTICLE.Velocity` >  `OUTPUT.MODULE.Velocity`
+  - `PARTICLE.Mass` > `LOCAL` /
+  - `PARTICLE.Position` > `OUTPUT.MODULE.Position`
+-  copy to > `PARTICLES.PRESOLVE`
+- (Apply mass  to phys)
+  - (1/`LOCAL.Mass`) * `LOCAL.PhysicsForce` > `LOCAL.PhysicsForce`
+- (Apply forces to velo) (copy drag irrespective of Mass)
+  - `OUTPUT.MODULE.Velocity` * `LOCAL.DelatTime` *  `LOCAL.PhysicsForce` > `OUTPUT.MODULE.Velocity`
+  - `TRANSIENT.PhysicsDrag` >  `OUTPUT.MODULE.IncomingPhys`
+- limit velko and acc
+-  (Apply velo to pos)
+  - `OUTPUT.MODULE.Velocity` * `LOCAL.DelatTime`* `OUTPUT.MODULE.Position`  >  `OUTPUT.MODULE.Position`  
+-  [T] copy
+ - `OUTPUT.MODULE.Position`/ > `PARTICLE.Position`/
+ - `Velocity` >  `Velocity`
+-  [T] 0 >
+ - `TRANSIENT.PhysicsForce` / `PhysicsDrag`
 
 ```
+ W:
+Position, Velocity
+Presolve pos, velo
+Presolv physic forces
+Transient  Physics Drag
+Transient PhysiocForce
+```
+
+
+If Forces/Drag have been converted to Velocity, zero out `Transient.PhysicsForce` and `Transient.PhysicsDrag` to allow for post-solve accumulation
+
+
+
+<img  src="/src/ue/niagara/force1.png">  
+<img  src="/src/ue/niagara/force2.png">  
+
 
 
 
