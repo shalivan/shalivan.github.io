@@ -17,7 +17,7 @@ permalink: /gametheory/
 - Very complicated not always everything plays around these lines. (some Exceptions)   
 - In lot of species there is no cognitive strategy  
 - To work every agent must play with GT rules. But its rational to behave time to ttime irrational
-
+-  multiple goals
 
 Context for:  
 [Human Behavioral Biology](/humbio1/)   
@@ -30,51 +30,54 @@ https://www.youtube.com/c/PrimerLearning/videos
 
 
 
-SOMETIMES: burning money help to increes payof !!!!!!!!!
-
-
 # Game Theory
 mathematical study of optimizing agents strategies in games where outcome depend on other agents actions. (payoff is affected by the decisions mede by others)
 
 
-### two player vs more
+### Two vs. More players
 
 
-multiple goals, number of rounds....  
+### Turn based vs. Simultaneous move    
 
-### simultaneous move
+### Number of Rounds
+- infinite
+- repeated
+
+### Perfect vs. Imperfect information games
+vs. known informations
+- depth limited search.
+
+
+### Zero Sum Game
+ - Interest is not overlapping. `win-lose`
+
+
+
+
 
 
 
 # Cooperative
 How to be fair  
-group best effort
+Group best effort, coalition and benefit and contribution type in coalition
 
+### Shapley Value
+- method of dividing gains  or costs  among players according to value of individual contribution
 
-
-
-
-- coalition and benefit and contribution type in coalition
-**Shapley Value** - method of dividing gains  or costs  among players acording to value of individual contribution
-
-**Marginal Contribution** -  is determined by ehat is gain or lost  by removing them from the game
+### Marginal Contribution
+-  is determined by ehat is gain or lost  by removing them from the game
 
 if 2 parties bring same things to coalition, they should have to contribute  the same amount &  should  be revarded  for their contributions equal.
 
 Dummy player have 0 value
 
-**Pareto efficiency**
+### Pareto efficiency
 Outcom is Pareto optimal if there is no outcome that makes at least one player better off without making any player worse off.
 
-
-**Risk Aversion**
-how much u willing to pay for insurance
 
 # Competitive
 How to be smart  
 Actor best interest - sub optimal solution in the long run
-### Zero Sum Game
- Interest is not overlapping. `win-lose`
 
 
 ### Nash equilibrium
@@ -84,8 +87,104 @@ optimal outcome of a game is where no player have incentives to deviate from ini
 Most games have odd number of wquilibria
 
 no player have profitable deviations
-### Imperfect information games
-- depth limited search.
+
+
+
+# Terms
+
+### Risk Aversion
+how much u willing to pay for insurance
+
+
+
+### Tragedy of the Commons
+Some public good lot of persons contribute noone want to pay cause take a small parts of contribution only.( there is mat trouh to compensate )   
+
+
+there are certain optimal strategies and no other GT solution
+
+
+
+
+
+# Strategies
+
+
+#### MinMax  
+- minmimize maximum lose. ensure you guarded by worst scenario. (use in zero sum)
+
+#### Mix Strategy
+- play only if there are indiferences in few strategies
+
+
+#### Forward Induction
+
+
+
+#### Backward Induction
+- Whenever I'm making move now I should focus on what opponent will do after that. maximizing - not always good
+
+
+#### Tic Tac Toe
+
+
+#### Pavlov strategy
+ - switch if not working (you can exploit)
+
+#### TfT
+-  `Tit for tat` drove other strategies to extinction and formalize optimal strategy  may lose battles but win wars. (Vulnerable of signal error). Start nice cooperating > forgiving > cooperate when you can   
+
+#### FTfT
+- `forgiving tit for tat`  witch is more vulnerable for exploitation TfT -> jezeli zaufanie to switch to forgiven TFTF Trust  
+
+#### Madness
+- possibility of changes   
+Strategies to survive forgiving tic for tat (vulnerable to exploit) > forgiven tic for tat after while  
+- counterintuitive moves could help with strength opponents.
+
+
+#### Game Theory Optimal
+- assumes opponent is always countering with the perfect strategy
+- can have lower yield EV then exploitative play
+
+pkr > fint highest EV lines routes possible for have best formulatetd strategy. + balance it to dont be exploited.
+but can be not profitable as exploit.  
+balance stratedy  
+
+##### Exploitative
+-humans make a lot errors  exploit mistakes
+
+
+# Bargaining
+Bargening dynamics get really complicated really quickly.
+
+
+| ||
+| ---| ---|
+| Proposal power |  make offers to the other side (accept/reject position not good)
+| Patience  | no needing a deal (**Tragedy of bargening**) 'rich get richer'
+| Outside options |
+| Monopoly | Unique quality
+| Knowledge | knowledge of the others sides minimum value dont know choose between lesser of two evils
+| Reputation|
+| Credible commitment | contracts good / black market bad
+| Costly signals of higher value |
+
+**Ultimatum** Game Assumptions - single ultimatum, Take or leave it  
+
+
+
+```
+r/K selection theory
+ trade off between quantity and quality of offspring.
+r (left), K (right) strategies.
+```
+
+
+
+# Games
+
+
 
 
 
@@ -139,77 +238,6 @@ Coin filps
 
 
 
-# Strategies
-
-
-**MinMax** - minmimize maximum lose. ensure you guarded by worst scenario. (use in zero sum)
-
-**Mix Strategy** - play only if there are indiferences in few strategies
-
-
-**Forward Induction**
-
-
-**Backward Induction**
-- Whenever I'm making move now I should focus on what opponent will do after that. maximizing - not always good
-
-
-**Tic Tac Toe**  
-
-
-##### Pavlov strategy
- - switch if not working (you can exploit)
-
-#### TfT
--  `Tit for tat` drove other strategies to extinction and formalize optimal strategy  may lose battles but win wars. (Vulnerable of signal error). Start nice cooperating > forgiving > cooperate when you can   
-
-#### FTfT
-- `forgiving tit for tat`  witch is more vulnerable for exploitation TfT -> jezeli zaufanie to switch to forgiven TFTF Trust  
-
-#### Madness
-- possibility of changes   
-Strategies to survive forgiving tic for tat (vulnerable to exploit) > forgiven tic for tat after while  
-- counterintuitive moves could help with strength opponents.
-
-
-#### Game Theory Optimal
-- assumes opponent is always countering with the perfect strategy
-- can have lower yield EV then exploitative play
-
-pkr > fint highest EV lines routes possible for have best formulatetd strategy. + balance it to dont be exploited.
-but can be not profitable as exploit.  
-balance stratedy  
-
-##### Exploitative
--humans make a lot errors  exploit mistakes
-
-
-## Bargaining
-Bargening dynamics get really complicated really quickly.
-
-
-| ||
-| ---| ---|
-| Proposal power |  make offers to the other side (accept/reject position not good)
-| Patience  | no needing a deal (**Tragedy of bargening**) 'rich get richer'
-| Outside options |
-| Monopoly | Unique quality
-| Knowledge | knowledge of the others sides minimum value dont know choose between lesser of two evils
-| Reputation|
-| Credible commitment | contracts good / black market bad
-| Costly signals of higher value |
-
-**Ultimatum** Game Assumptions - single ultimatum, Take or leave it  
-
-there are certain optimal strategies and no other GT solution
-## Tragedy of the Commons
-Some public good lot of persons contribute noone want to pay cause take a small parts of contribution only.( there is mat trouh to compensate )   
-
-
-
-r (left), K (right) strategies.
-
-
 # Poker
 
 ## Basics
@@ -244,3 +272,8 @@ relation of hands u have to opponent hand
 jak zapobiegać wojnie.
 - kraje chandlujące ze sobą mniej wojen (world with trade consume more )
 - koszty
+
+
+
+
+SOMETIMES: burning money help to increes payof !!!!!!!!!

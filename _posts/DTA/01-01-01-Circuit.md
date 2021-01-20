@@ -79,6 +79,7 @@ Color and Shape of sound
 
 ## Envelopes
 
+
 - Set Attack decay sustain release
 
  1. Envelope Amplifier  (amplifire allow go sound throu so 1 env will change loudness)
