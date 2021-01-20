@@ -23,8 +23,6 @@ Niagara interaction
   - Distance Fields  -
 
 
-
-
 Tips
   - Niagara 16 params can send to material
   - U can access only depth buffer can read  
@@ -43,20 +41,24 @@ particle attributes vs transient outputs.
 | Name Space | R | W | Define | Share within |
 |--- | --- | --- | --- | ---|
 |Particles. | Particle | Particle |  Persisted f2f (memory and performance cost) | Loaded as  payload. Per-particle (@point)
-|Module Input|Y|N|| Use inside of module for promoted Parameters
+|Input.|Y|N|| Module input. Use inside of module for promoted Parameters
 |Module | Module | Module | Module | expose a module input to the System and Emitter Editor
 |Module Locals ??? | Module | Module | Don't persist f2f and between stages| Transient values.
 |Emitter | Emitter, Particle  | Emitter  | Persisted f2f (memory and performance cost)  | Emitter instance / color ect...
-|System | Y | System | Persisted f2f (memory and performance cost)  | System
-|Engine|  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
+|System. | Y | System | Persisted f2f (memory and performance cost)  | System
+|Engine. |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
 |User. | Y | N
-|Output |N|Y|Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | pay for calculate but not for adding it to emiter (parameter writes)  useful helpers included in the modules which are not yet written to the particle payload, but are available for use.
+|Output. |N|Y|Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | pay for calculate but not for adding it to emiter (parameter writes)  useful helpers included in the modules which are not yet written to the particle payload, but are available for use.
 |Transient. | from any module |from any module | Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | Local only to a given stack context (like Particle Update)
-|Local|||| Truly local for function ! Transient values.
+|Local.|||| Truly local for function ! Transient values.
 
 ###  Name space modifiers:
-  - module - insert module name as namespace so if u have x modules u have x different params
-  - initial -  initial value of attribute (from eg in particle spawn)
+
+
+| Name Space | R |
+|--- | --- |
+.Module. | insert module name as namespace so if u have x modules u have x different params
+.Initial. |  initial value of attribute (from eg in particle spawn)
 
 
 
@@ -205,6 +207,10 @@ Mesh Tri Coordinates > Bary Coords
 
 ### Solve Forces and velocity
 
+Choose whether or not to write to intrinsic properties.
+
+If Forces/Drag have been converted to Velocity,
+zero out Transient.PhysicsForce and Transient.PhysicsDrag to allow for post-solve accumulation
 
 
 force1
