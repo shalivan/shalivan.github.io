@@ -58,8 +58,7 @@ vs. known informations
 
 
 # Cooperative
-How to be fair  
-Group best effort, coalition and benefit and contribution type in coalition
+**How to be fair** - Group best effort, coalition and benefit and contribution type in coalition
 
 ### Shapley Value
 - method of dividing gains  or costs  among players according to value of individual contribution
@@ -76,8 +75,7 @@ Outcom is Pareto optimal if there is no outcome that makes at least one player b
 
 
 # Competitive
-How to be smart  
-Actor best interest - sub optimal solution in the long run
+**How to be smart**  - Actor best interest - sub optimal solution in the long run
 
 
 ### Nash equilibrium
