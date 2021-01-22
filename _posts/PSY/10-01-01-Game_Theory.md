@@ -14,49 +14,45 @@ permalink: /gametheory/
 
 ---
 
-- Very complicated not always everything plays around these lines. (some Exceptions)   
-- In lot of species there is no cognitive strategy  
-- To work every agent must play with GT rules. But its rational to behave time to ttime irrational
--  multiple goals
 
-Context for:  
+# Game Theory
+Mathematical study of optimizing agents strategies in games with more than one player where outcome depend on other agents actions. (payoff is affected by the decisions made by others)model as players are perfect  every agent must play with GT rules. (but its rational to behave time to time irrational)
+
+
+1. Make assumptions - thought process came from Assumptions. Can dispute, criticize ect... (Carefully with assumptions)
+2. Do math  - can not dispute
+3. Reach conclusion
+
+
 [Human Behavioral Biology](/humbio1/)   
 [Personality](/personality/)  
 [Game Mechanics](/gamemechanics/)  
 
-https://www.youtube.com/c/Gametheory101/videos  
-https://www.youtube.com/c/PrimerLearning/videos  
 
+- In lot of species there is no cognitive strategy
+- In real live multiple goals and multiple games
 
+### Number of Players  
+- Two
+- More players
 
-
-# Game Theory
-mathematical study of optimizing agents strategies in games where outcome depend on other agents actions. (payoff is affected by the decisions mede by others)
-
-
-### Two vs. More players
-
-
-### Turn based vs. Simultaneous move    
+### Progression
+- Turn based   
+- Simultaneous move    
 
 ### Number of Rounds
-- infinite
-- repeated
+- Infinite
+- Repeated
 
-### Perfect vs. Imperfect information games
-vs. known informations
-- depth limited search.
-
+### Information availability
+- Perfect -  known information
+- Imperfect
+- Depth limited search.
 
 ### Zero Sum Game
  - Interest is not overlapping. `win-lose`
 
-
-
-
-
-
-
+---
 # Cooperative
 **How to be fair** - Group best effort, coalition and benefit and contribution type in coalition
 
@@ -64,14 +60,15 @@ vs. known informations
 - method of dividing gains  or costs  among players according to value of individual contribution
 
 ### Marginal Contribution
--  is determined by ehat is gain or lost  by removing them from the game
+- Determined by what is gain or lost  by removing them from the game
+- Dummy player have 0 value
 
-if 2 parties bring same things to coalition, they should have to contribute  the same amount &  should  be revarded  for their contributions equal.
+If 2 parties bring same things to coalition, they should have to contribute  the same amount &  should  be rewarded  for their contributions equal.
 
-Dummy player have 0 value
+
 
 ### Pareto efficiency
-Outcom is Pareto optimal if there is no outcome that makes at least one player better off without making any player worse off.
+Outcome is Pareto optimal if there is no outcome that makes at least one player better off without making any player worse off.
 
 
 # Competitive
@@ -80,13 +77,13 @@ Outcom is Pareto optimal if there is no outcome that makes at least one player b
 
 ### Nash equilibrium
 optimal outcome of a game is where no player have incentives to deviate from initial strategy.  
-(decide to be better off no matter what opponent will do) (rational play when more then one player. not only define start but always believes) Every player play `best response`  strategy  to what other doing. Knowing other strategies and have no insentives to cheat. Everyone want to keepe it without policing
+(decide to be better off no matter what opponent will do) (rational play when more then one player. not only define start but always believes) Every player play `best response`  strategy  to what other doing. Knowing other strategies and have no incentives to cheat. Everyone want to keep it without policing
 
-Most games have odd number of wquilibria
+Most games have odd number of equilibria
 
 no player have profitable deviations
 
-
+---
 
 # Terms
 
@@ -96,14 +93,23 @@ how much u willing to pay for insurance
 
 
 ### Tragedy of the Commons
-Some public good lot of persons contribute noone want to pay cause take a small parts of contribution only.( there is mat trouh to compensate )   
+Some public good lot of persons contribute no one want to pay cause take a small parts of contribution only.( there is mat trough to compensate )   
 
 
 there are certain optimal strategies and no other GT solution
 
 
+### Commitment problems
+You must commit but not sure what B will chose
 
 
+
+**Ultimatum** Game Assumptions - single ultimatum, Take or leave it  
+
+
+
+
+---
 
 # Strategies
 
@@ -112,15 +118,18 @@ there are certain optimal strategies and no other GT solution
 - minmimize maximum lose. ensure you guarded by worst scenario. (use in zero sum)
 
 #### Mix Strategy
-- play only if there are indiferences in few strategies
+- play only if there are indifferences in few strategies
 
-
-#### Forward Induction
 
 
 
 #### Backward Induction
-- Whenever I'm making move now I should focus on what opponent will do after that. maximizing - not always good
+- Whenever I'm making move now I should focus on what opponent will do after that. maximizing
+- not always good
+
+#### Forward Induction
+
+
 
 
 #### Tic Tac Toe
@@ -168,8 +177,6 @@ Bargening dynamics get really complicated really quickly.
 | Credible commitment | contracts good / black market bad
 | Costly signals of higher value |
 
-**Ultimatum** Game Assumptions - single ultimatum, Take or leave it  
-
 
 
 ```
@@ -178,6 +185,8 @@ r/K selection theory
 r (left), K (right) strategies.
 ```
 
+
+---
 
 
 # Games
@@ -236,6 +245,8 @@ Coin filps
 
 
 
+---
+
 # Poker
 
 ## Basics
@@ -275,3 +286,13 @@ jak zapobiegać wojnie.
 
 
 SOMETIMES: burning money help to increes payof !!!!!!!!!
+
+
+
+
+
+
+
+
+https://www.youtube.com/c/Gametheory101/videos  
+https://www.youtube.com/c/PrimerLearning/videos  

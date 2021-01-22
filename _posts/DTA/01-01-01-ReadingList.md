@@ -83,6 +83,10 @@ William Golding
 Ayn Rand
 - The Fountainhead - novel Philosophy of objectivism. Maybe have no good answers but have good questions.
 
+
+George Lakoff - z polecenia Haddita
+- Don't think of an elephant
+
 ---
 
 

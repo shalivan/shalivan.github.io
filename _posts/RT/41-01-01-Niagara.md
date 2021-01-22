@@ -44,7 +44,7 @@ particle attributes vs transient outputs.
 |INPUT.|Y|N|| Module input. Use inside of module for promoted Parameters
 |Module | Module | Module | Module | expose a module input to the System and Emitter Editor
 |Module Locals ??? | Module | Module | Don't persist f2f and between stages| Transient values.
-|EMITTER | Emitter, Particle  | Emitter  | Persisted f2f (memory and performance cost)  | Emitter instance / color ect...
+|EMITTER. | Emitter, Particle  | Emitter  | Persisted f2f (memory and performance cost)  | Emitter instance / color ect...
 |SYSTEM. | Y | System | Persisted f2f (memory and performance cost)  | System
 |ENGINE. |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
 |USER. | Y | N
@@ -208,19 +208,18 @@ Mesh Tri Coordinates > Bary Coords
 
 ### Solve Forces and velocity
 
-### write to intrinsic properties
+#### Write to intrinsic properties
 Choose whether or not to write to intrinsic properties
 
 
 ```
-R:
-`Engine.DelatTime`    
-`Engine.Owner.Position`    
-`Emitter Local Space`  
+ENGINE.DelatTime    
+ENGINE.OWNER.Position    
+Emitter Local Space  
 Masss Position  Previous.Position, Velocity, Previous.Velocity,
-Transient.PhysicsDeltaTime
-Transient.PhysicsDrag
-Transient.PhysicsForce
+TRANSIENT.PhysicsDeltaTime
+TRANSIENT.PhysicsDrag
+TRANSIENT.PhysicsForce
 ```
 
 - (time) Fractional updates based on collision equations
@@ -241,26 +240,43 @@ Transient.PhysicsForce
 -  [T] copy
  - `OUTPUT.MODULE.Position`/ > `PARTICLE.Position`/
  - `Velocity` >  `Velocity`
--  [T] 0 >
- - `TRANSIENT.PhysicsForce` / `PhysicsDrag`
+-  If Forces/Drag have been converted to Velocity, zero out
+ - [T] 0 > `TRANSIENT.PhysicsForce` / `PhysicsDrag`
 
 ```
- W:
-Position, Velocity
+PARTICLE.Position
+PARTICLE.Velocity
 Presolve pos, velo
-Presolv physic forces
-Transient  Physics Drag
-Transient PhysiocForce
+Presolve physic forces
+TRANSIENT.PhysicsDrag
+TRANSIENT.PhysicsForce
 ```
 
 
-If Forces/Drag have been converted to Velocity, zero out `Transient.PhysicsForce` and `Transient.PhysicsDrag` to allow for post-solve accumulation
 
 
+<img  src="/src/ue/niagara/force1.png" width="350">  
+<img  src="/src/ue/niagara/force2.png" width="350">  
 
-<img  src="/src/ue/niagara/force1.png">  
-<img  src="/src/ue/niagara/force2.png">  
 
+### Houdini Combine Forces
+
+
+```
+...
+```
+- Copy
+ - `PARTICLES.NiagaraForce` > `TRANSIENT.NiagaraForce`
+ - 0 > `TRANSIENT.PhysicsForce`
+- Lerp
+ - Lerp `PARTICLES.Velocity` or (`PARTICLES.HOUDINI.Velocity` or `PARTICLES.HOUDINI.GoalPosition`) > `PARTICLES.Velocity`
+- Apply
+ - `PARTICLES.NiagaraForce` > `TRANSIENT.PhysicsForce`
+```
+PARTICLES.NiagaraForcesMultiplayer
+PARTICLES.Velocity
+TRANSIENT.PhysicsForce
+```
 
 
 
