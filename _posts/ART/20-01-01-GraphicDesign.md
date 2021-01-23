@@ -16,9 +16,9 @@ permalink: /graphicdesign/
 
 # Elements & Principles
 
- **Design Elements**
 
-| |  |  | | |   
+
+| | Design Elements |  | | |   
 | -| - | - |- |- |
 ![](/src/gestalt/point.png)  |  **Point** | 1D
 ![](/src/gestalt/line.png)  |  **Line** | 2D | Shape dynamic, Variations, Single stroke
@@ -46,21 +46,9 @@ permalink: /graphicdesign/
 
 [Perception](/perception/)  
 
-# References  & Design
+# References
 
-
-
- Things not working from memory. Its crucial.    
- Design thinking not generic!   
- The applied arts. Design is a language.
-
-
- - **Brief** `Parti pris` – statement of design goals and constraints
- - **Analysis** – analysis of current design goals **form** and **function**  
- - Choose **key words** for representative things, to get essence.
- - **Research** – Create board. investigating similar design solutions in the field or related topics
- - Order ref. and **make idea clear**, choose and mark part of references you want to use to avoid ambiguity.
- - **design**  Start on easy perspectives like side view
+ Things not working from memory. Its crucial.  
 
  | . | |  |
  | --- | --- |--- |
@@ -73,20 +61,32 @@ permalink: /graphicdesign/
 
 
 
-  (Maked for speed? like motocycles  ) when was made '80 '90. Different character. Curved or quad, weight, level of detail
+
+
+#  Design
+
+The applied arts. Design is a language. Its  thinking not generic!
+
+
+ - **Brief** `Parti pris` – statement of design goals and constraints
+ - **Analysis** – analysis of current design goals **form** and **function**  
+ - Choose **key words** for representative things, to get essence.
+ - **Research** – Create board. investigating similar design solutions in the field or related topics
+ - Order ref. and **make idea clear**, choose and mark part of references you want to use to avoid ambiguity.
+ - **Design**  Start on easy perspectives like side view
+
 
  recognize features ...  
  form follow function  
+-  (Maked for speed? like motocycles  ) when was made '80 '90. Different character. Curved or quad, weight, level of detail
+- Animalistic features. Design base on anture or manufactured items
+- Harmony and dissonance
 
- Animalistic features. Design base on anture or manufactured items
-
- - Harmony and dissonance
-
- ## Design for existing settings
+## Design for existing settings
 
  if u need design something in similar style reverse engenire understand design influences  and intention. Find references they maight use
 
- ## Design from base
+## Design from base
  u know what things are. culturally programed by life.
  Cultural norms
  grounded in cultular aseptence
@@ -96,15 +96,15 @@ permalink: /graphicdesign/
 
 
 
- #### Visual Library
+#### Visual Library
  exposed to visual library
 
 
- #### Subject matter
+#### Subject matter
 
 
 
- #### Subject costs
+#### Subject costs
 
  - Difficulty of subject matter:
  easy: give you large margin of error - organic shapes, subject matters we are not familiar on daily basis, more things are more sophisticated so medieval are easier and manufactured harder, human is hard > faces + dynamics and motion
@@ -127,7 +127,7 @@ permalink: /graphicdesign/
  - if simple sil. harder to fill with detail (may require possing dificult forms )  
 
 
- #### Detail ()
+#### Detail ()
  - sprawdz jaki poziom detalu bedzie widoczny w finalnej produkcji
 
 
