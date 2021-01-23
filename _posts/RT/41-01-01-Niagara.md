@@ -15,7 +15,6 @@ permalink: /niagara/
 ---
 
 
-
 Niagara interaction
   - Triangles  - u must point to specific mesh in query  
   - Phys Volumetric  -  
@@ -23,34 +22,39 @@ Niagara interaction
   - Distance Fields  -
 
 
-Tips
-  - Niagara 16 params can send to material
-  - U can access only depth buffer can read  
-  - Use: Inheritance. You can always reparent  
 
-# Attributes
-
-Niagara paradigms:
+Niagara paradigms:  
   - Modules - graph paradigm  
   - Emitters - stack paradigm  
   - Systems - stack and Sequencer timeline
 
+
+# Attributes
+
+
 ##  Name Space
-particle attributes vs transient outputs.
+
+
+#### Particle attributes vs Transient outputs:
+Transient - Not persist f2f and between stages, **not written to the payload**, which means they don't cross stack boundaries  and are recalculated from scratch every frame  
+Particles -  Persisted f2f (memory and performance cost)
+
+
 
 | Name Space | R | W | Define | Share within |
 |--- | --- | --- | --- | ---|
-|PARTICLES. | Particle | Particle |  Persisted f2f (memory and performance cost) | Loaded as  payload. Per-particle (@point)
+|PARTICLES. | Particle | Particle |  Persisted f2f | Loaded as  payload. Per-particle (@point)
 |INPUT.|Y|N|| Module input. Use inside of module for promoted Parameters
 |Module | Module | Module | Module | expose a module input to the System and Emitter Editor
-|Module Locals ??? | Module | Module | Don't persist f2f and between stages| Transient values.
-|EMITTER. | Emitter, Particle  | Emitter  | Persisted f2f (memory and performance cost)  | Emitter instance / color ect...
-|SYSTEM. | Y | System | Persisted f2f (memory and performance cost)  | System
+|LOCAL. | Module | Module | Not persist f2f | Transient values.  Truly local for function ! Transient values.
+|EMITTER. | Emitter, Particle  | Emitter  | Persisted f2f  | Emitter instance / color ect...
+|SYSTEM. | Y | System | Persisted f2f  | System
 |ENGINE. |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
 |USER. | Y | N
-|OUTPUT. |N|Y|Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | pay for calculate but not for adding it to emiter (parameter writes)  useful helpers included in the modules which are not yet written to the particle payload, but are available for use.
-|TRANSIENT. | from any module |from any module | Don't persist f2f and between stages are recalculated from scratch every frame, not written to the payload, which means they don't cross stack boundaries | Local only to a given stack context (like Particle Update)
-|LOCAL.|||| Truly local for function ! Transient values.
+|OUTPUT. |N|Y|Not persist f2f  | pay for calculate but not for adding it to emiter (parameter writes)  useful helpers included in the modules which are not yet written to the particle payload, but are available for use. (An output in Particle Spawn cannot be accessed in Particle Update)
+|TRANSIENT. | from any module |from any module | Not persist f2f  | Local only to a given stack context (like Particle Update)
+
+
 
 ###  Name space modifiers:
 
@@ -74,33 +78,33 @@ particle attributes vs transient outputs.
 
 
 #### Module Script
-
-
-<img  src="/src/ue/niagara/module.png" width="350" >  
+IN: Map OUT: Module  
 
 You can see read/writes in finished module
 - Module usage flags  
   - `Module` - particle , emitter, system scripts
 
-#### Function Script
+#### Dynamic Input Script
+IN: Map OUT: Module  
 
-<img  src="/src/ue/niagara/script.png" width="350">
+  Dynamic inputs have almost the same power as creating modules, but can be selected and dropped into the stack without actually creating new modules.
+
+  Dynamic inputs are built the same way modules are built.
+  extensibility for inheritance.
+  Instead of acting on a parameter map, dynamic inputs act
+
+  - Module usage flags  
+    - `Dynamic Input` - particle , emitter, system scripts
+
+
+#### Function Script
+IN: Input OUT: Function  
 
 - Module usage flags
   - `Function` - fn to use in modules
 
 
-#### Dynamic Input Script
-Dynamic inputs have almost the same power as creating modules, but can be selected and dropped into the stack without actually creating new modules.
 
-Dynamic inputs are built the same way modules are built.
-extensibility for inheritance.
-Instead of acting on a parameter map, dynamic inputs act on a value type.
-
-<img  src="/src/ue/niagara/dynamic.png" width="350">  
-
-- Module usage flags  
-  - `Dynamic Input` - particle , emitter, system scripts
 
 ## Stages
 #### System
@@ -184,6 +188,8 @@ If you want the initial "kick" to not factor in mass, you can use an "Add Rotati
 ## Sprite
 
 
+#### Orient Mesh along vector
+
 ####  Alignment
 
 ` Particles.SpriteFaceing` - is the vector variable  which controls which direction a particle faces  
@@ -196,17 +202,18 @@ If you want the initial "kick" to not factor in mass, you can use an "Add Rotati
 `SpriteSubimageIndex`      
 (in particles.)
 
+---
 
 # Coordinates & Space
 Simulation, World, Local   
 Mesh Tri Coordinates > Bary Coords  
 
-
+---
 
 # Physics
 
 
-### Solve Forces and velocity
+## Solve Forces and velocity
 
 #### Write to intrinsic properties
 Choose whether or not to write to intrinsic properties
@@ -252,19 +259,53 @@ TRANSIENT.PhysicsDrag
 TRANSIENT.PhysicsForce
 ```
 
-
-
-
-<img  src="/src/ue/niagara/force1.png" width="350">  
-<img  src="/src/ue/niagara/force2.png" width="350">  
-
-
-### Houdini Combine Forces
-
-
+## Point Attraction Force
+```
+EMITTER.LocalSpace
+PARTICLE.Position
+PARTICLE.Velocity
+TRANSIENT.PhysicsForce
 ```
 ...
+
 ```
+TRANSIENT.PhysicsForce
+```
+
+## Point Force 
+
+```
+EMITTER.LocalSpace
+PARTICLE.Position
+TRANSIENT.PhysicsForce
+```
+...
+
+```
+OUTPUT.POINTFORCE.Withinrange
+OUTPUT.POINTFORCE.NormalizedFallof
+OUTPUT.POINTFORCE.NormalizedDistance
+TRANSIENT.PhysicsForce
+```
+
+
+## Limit Force
+
+
+## Drag
+
+
+
+## Acceleration, Avoid, Gravity, Line Attraction, Linear, Mesh Rot, Spring, Vector Noise, Vortex, Wind
+
+
+## Houdini Combine Forces
+
+
+```
+.
+```
+
 - Copy
  - `PARTICLES.NiagaraForce` > `TRANSIENT.NiagaraForce`
  - 0 > `TRANSIENT.PhysicsForce`
@@ -272,6 +313,7 @@ TRANSIENT.PhysicsForce
  - Lerp `PARTICLES.Velocity` or (`PARTICLES.HOUDINI.Velocity` or `PARTICLES.HOUDINI.GoalPosition`) > `PARTICLES.Velocity`
 - Apply
  - `PARTICLES.NiagaraForce` > `TRANSIENT.PhysicsForce`
+
 ```
 PARTICLES.NiagaraForcesMultiplayer
 PARTICLES.Velocity
@@ -367,3 +409,11 @@ Particles.Position.z > Emitter.InitialPosition.z - Emitter.ZOffset
 - `Particles.DynamicMaterialParameter` - Vector 4  
 - `Particles.CameraOffset`  
 - `Particles.UVScale`  
+
+
+
+
+Tips
+  - Niagara 16 params can send to material
+  - U can access only depth buffer can read  
+  - Use: Inheritance. You can always reparent  

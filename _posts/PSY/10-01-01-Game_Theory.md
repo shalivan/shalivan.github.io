@@ -85,6 +85,10 @@ no player have profitable deviations
 
 ---
 
+
+
+
+
 # Terms
 
 ### Risk Aversion
@@ -108,6 +112,8 @@ You must commit but not sure what B will chose
 
 
 
+## Probability distributuin
+- advancced strategies games, more revarding
 
 ---
 
@@ -124,11 +130,10 @@ You must commit but not sure what B will chose
 
 
 #### Backward Induction
-- Whenever I'm making move now I should focus on what opponent will do after that. maximizing
-- not always good
+Base on assumption that all future play will be rational. Whenever I'm making move now I should focus on what opponent will do after that. maximizing
 
 #### Forward Induction
-
+Based on assumption that all past play was rational
 
 
 
@@ -219,6 +224,7 @@ Stag/Stag (pareto efficient) and Rabit/Rabit (pareto inefficient) are equilibria
 
 - if no lies
 
+
 #### Matching Pennies
 Zero sum game.  No pure strategy nash equilibrium.  
 If no pure nash exist in mix strategies.  
@@ -240,6 +246,13 @@ Coin filps
 |--|--|--|
 **Heads**|1, 2 | 0 , 0
 **Tails** | 0, 0 | 2, 1
+
+A>B>C
+
+||Heads|Tails|
+|--|--|--|
+**Heads**|B, a | C, c
+**Tails** | C, c | A, b
 
 (1,2) - are nash
 
