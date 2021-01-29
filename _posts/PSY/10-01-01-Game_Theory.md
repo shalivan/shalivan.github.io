@@ -44,9 +44,11 @@ Mathematical study of optimizing agents strategies in games with more than one p
 - Infinite
 - Repeated
 
+Repeated play increase cooperation
+
 ### Information availability
 - Perfect -  known information
-- Imperfect
+- Incomplite  -> Bayesian Nash equilibrium, perfect Bayesian equilibrium
 - Depth limited search.
 
 ### Zero Sum Game
@@ -167,6 +169,10 @@ balance stratedy
 -humans make a lot errors  exploit mistakes
 
 
+#####  Jeopardy! Strategy
+
+
+
 # Bargaining
 Bargening dynamics get really complicated really quickly.
 
@@ -183,6 +189,9 @@ Bargening dynamics get really complicated really quickly.
 | Costly signals of higher value |
 
 
+# War
+(international relations)
+- war inefficiency puzzle, preverntive war, preemptive war
 
 ```
 r/K selection theory

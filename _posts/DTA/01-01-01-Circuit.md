@@ -172,16 +172,16 @@ Depth, jak duzo zmiany i w ktora strone
 
 #### Macro for synths
 
-||||||
+||Tracks|||Rhythm|
 |-|-|-|-|-|
-1 | Oscillator | Cutoff EG intensity  | filter cutoff - bring in out | filter cutoff
-2 |  Oscillator Mod | Cutoff  |Env2mod - how filter env  / lead arpeggio to softer sound |filter env mod
-3 | Amp Envelope | Resonance / Overdrive | Amplif and filter env | attack
-4 | Filter Envelope | 50 % is for Attack/ Release | Amplif and filter env  | release
-5 |  Filter Frequency |Vibrato, EFX Dry / wet / also chorus | lfo speed |
-6 | Resonance | Performance: LFO speed / intensity, OSC Tune | modulation depth
-7 | Modulation | oscillator pitch
-8 | FX|Morph functions. Wavetable Positions, Oscillator A/B Ratio  |
+1 | Oscillator | Cutoff EG intensity  | filter cutoff - bring in out | Tune
+2 |  Oscillator Mod | Cutoff  |Env2mod - how filter env  / lead arpeggio to softer sound | Start
+3 | Amp Envelope | Resonance / Overdrive | attack | Length
+4 | Filter Envelope | 50 % is for Attack/ Release | release | Slope
+5 |  Filter Frequency |Vibrato, EFX Dry / wet / also chorus | lfo speed | Distortion
+6 | Resonance | Performance: LFO speed / intensity, OSC Tune | modulation depth | HP
+7 | Modulation | oscillator pitch | LP
+8 | FX|Morph functions. Wavetable Positions, Oscillator A/B Ratio  | Resonance
 
 trick
 - modulate index with LFO  

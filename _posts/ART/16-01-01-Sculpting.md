@@ -11,11 +11,14 @@ description:  basics.
 permalink: /sculpting/
 ---
 
-[zBrush]( /zbrush/)  
+
+
+
+[zBrush](/zbrush/)  
 
 [KineFX](/kinefx/)
 
-
+[Characters](/characters/)  
 
 Blend subtools; https://youtu.be/q4oGSuimAMs?t=616  
 

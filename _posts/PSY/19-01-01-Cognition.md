@@ -63,10 +63,19 @@ Paramnesia
 ---
 
 
+Beliefs
+Intentions  
+Desires
+Knowledge
+
+
+Beliefs > Golas > Options > Commitment > Plans > Actrions > Beliefs
 
 
 
 # Choice
+
+
 
 https://youtu.be/QZ3TNIPDAd8
 
@@ -96,6 +105,7 @@ less about choice more to conform mind in feeling we are in control. we are alwa
 - choices is not:
 agency - capacity to chose
 autonomy - capacity to make decisions  (multiplayer huge autonomy)
+
 
 
 ----
