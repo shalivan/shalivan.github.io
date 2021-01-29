@@ -51,7 +51,7 @@ Lumens, its luminous power only applies to the solid angle affected by the light
 - `Source Angle` - **0.5357** Angular Diameter of circle drawn on skybox for Sun   
 - [x] `Atmospheric / Fog Sunlight` - Fog on Hallo & sun location from sky
 
-### Light Shafts & Bloom
+## Light Shafts & Bloom
 - `Light Shafts` -  Max darkness / depth   
 - `Light Bloom` -    Scale / threshold / max bright / color
 
@@ -87,14 +87,14 @@ More directional Interaction of light with larger particles  **Height fog** simu
 - `F` `Anisotropy` - **0.8**   - Halo Distribution.  0 - Uniformly, 1 - More Hallo     
 - `F` `Exponential Distribution` - **1.2**  Z falloff -   0 - on ground, 1 - whole sky.
 
-### Absorption
+## Absorption
 Ozon molecules:
-10 -25 density increase 25-40 decrease
+10 -25km density increase 25-40km decrease.  
 - `■` `Color` - Color to absorb   
 - `x` `Absorption scale` - 0-1 Amount      
 - `z` `Tip Altitude`, `Tip Value`, `Width` -  Distribution    
 
-### Art
+## Art
 - `■` `Sky Luminanse Factor` - Multiply background color  
 - `Aerial Perspedctive View Distance Scale` **1** - Fog Distance 0 less - 2500 more    
 - `Aerial Perspective Start Depth` **0.1 km** - Start dist 0 near - 10 far (performance save )
@@ -133,7 +133,7 @@ Emit light from captured cube map  Require: **Recapture**
 # Sky dome
 Shape of sky dome mesh is important when using some of these expressions since they will drive evaluation of those values. For example, if you use the functions to evaluate lighting on clouds, you can assume the sky dome pixel world position represents the cloud world position in the atmosphere.  
 
-### Using HDR Sky dome
+## Using HDR Sky dome
 
 HDR sky: If exposure is to high (dark) you must multiply a lot HDR. Sky intensity will not work. If HDR have lot of stops wun will have huge values. But you cannot check value of sky in area.  
 
@@ -161,7 +161,8 @@ add smoke
 - `Sky Atmosphere Aerial Perspective` - wide glow tint  
 - `Sky Atmosphere Light Luminance` - intensity/color of sunlight hitting atmosphere  
 
-##### H Fog & Light Material nodes
+## Traditional Syk dome
+(H Fog & Light Material nodes)  
 
 - `Atmosphere Light Vector` - Sun Angle of dir.   
 - `Atmosphere Light Color` -     Old    
@@ -222,8 +223,9 @@ https://gumroad.com/l/sFTCY/Clouds6m52fv
 
 
 ---
+# Setups
 
-# Capture Atmosphere from Photos
+## Capture Atmosphere from Photos
 
 ##### Photo references
 
