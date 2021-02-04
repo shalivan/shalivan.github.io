@@ -126,8 +126,9 @@ https://www.youtube.com/watch?v=ABC7PjrTGFs Cloud Atlas p
 
 
 ---
-
+non combat - combat loop
 # Econotmy and balance
+
 
 
 ### Risk aversion problems:
@@ -156,4 +157,9 @@ doom 2016 forrowrd combad - build forroward momentum from glory kills
   - difficulty
 
 ###### Waves
+
   - increase and manipulate amounts / strength
+
+
+
+### story multiplayer vs multiplayer story

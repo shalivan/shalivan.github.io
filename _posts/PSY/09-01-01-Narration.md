@@ -331,10 +331,24 @@ Slow| continuous, integrate shock, constraint, consistency | Has all the power
 ---
 
 
+# Dialogues
+
 
 # Philosophy
 
+
+## US vs. Europe
+```
+||US |EU |
+|---|---|---|
+Expected to be hiperanimated| Existence is hard
+Expres positiv aspect Everyth is amazing |  
+Supress | Emphesize
+ || Beaauty is linkled to suffering
+```
+
 ## Eastern vs. Western
+
 ||Western |Eastern |
 |---|---|---|
 | | Object | Subject |

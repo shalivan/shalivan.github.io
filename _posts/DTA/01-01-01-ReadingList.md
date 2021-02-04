@@ -87,6 +87,10 @@ Ayn Rand
 George Lakoff - z polecenia Haddita
 - Don't think of an elephant
 
+
+Joscha Bach  
+Bret Weinstein  
+
 ---
 
 

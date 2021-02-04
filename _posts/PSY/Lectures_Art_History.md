@@ -79,3 +79,10 @@ The savannah hypothesis (or savanna hypothesis) is a hypothesis that human biped
 
 ---
 Bauhaus, moren arch, futurism, abstract dadaism, fauvism, aaneo0impressionism
+
+------
+wspolczesna polkska
+
+yerka malczewski dwurnik
+wojciech fangor igor mitoraj
+https://artinfo.pl/katalogi-aukcyjne
