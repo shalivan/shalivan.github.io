@@ -11,8 +11,7 @@ permalink: /vexpressions/
 ---
 
 
-[Vex Attributes](/vexattribs/)  
-
+[Vex Attributes](/vexattribs/)    
 [SOP Vexpression.hiplc](/src/hip/SOP_Vexpression.hiplc)  
 
 
@@ -23,11 +22,11 @@ permalink: /vexpressions/
 
 Backticks ``` ` ``` are for use in a string field: group input, name sop. (when fn inside ??)
 
-## ForLoop Meta Import
+## [ForLoop] Meta Import
 
 - ``` `detail(-1,"iteration",0)` ```
 
-## Name
+## [Name]
 - ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for   
 
 ## Group field in every SOP
@@ -48,7 +47,7 @@ Backticks ``` ` ``` are for use in a string field: group input, name sop. (when 
 
 
 
-## Delete node
+## [Delete] SOP
 
 #### Delete by Pattern   
 - ``` 0-`npoints(0)-10` ``` - Leave last 9 points   
@@ -62,22 +61,22 @@ Backticks ``` ` ``` are for use in a string field: group input, name sop. (when 
 - `@copynum==2` - delete copies after copie node
 
 
-## Blast
+## [Blast] SOP
 - ```@manifoldnumber=`opdigits(".")` ``` - will delete group by digits in node name !!! (from Polydoctor SOP)     
 - `@shop_materialpath="/obj*"` -     
 - `detail(-1,'iteration',0)` -  
 - `if(@primnum==-1)` - points with are not a part of prim.
 
 
-## Partition
+## [Partition] SOP
 #### Rule
 - ```group_`@shop_materialpath` ``` - Make groups from materials  
-- ````@attrib_to_break` ```
+- ``` `@attrib_to_break` ```
 
 
 
 
-## Switch / Transform
+## [Switch] / [Transform] SOP
 
 - `detail(-1,'iteration',0)%4` - loop 4 (spare)    
 
@@ -94,7 +93,7 @@ binary
 
 
 
-## Add
+## [Add] SOP
 
 - `point(-1,0,"P",0)`, `point(-1,0,"P",1)` `point(-1,0,"P",2)`- x,y,z point position from point in spare referenced node  
 
@@ -114,7 +113,7 @@ VExpression
 
 
 
-##  Attrib Create
+##  [Attrib Create] SOP
 Expression field:  
 - `if(@attrib > 1,5,0)`  
 - `if(@attrib > 1,if($ATTR < 4,0,5),0)`  
