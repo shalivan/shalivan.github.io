@@ -36,22 +36,6 @@ Backticks ``` ` ``` are for use in a string field: group input, name sop. (when 
 
 
 
-## [ForLoop] Meta Import
-
-- ``` `detail(-1,"iteration",0)` ```
-
-## [Name] SOP
-- ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for   
-
-
-
-## [Group] / [Split] SOP
-
-- `if(@primnum == -1) @group_disconnected = 1;` - Separate points and geometry   (prims)  
-- `@foo>=0.5`  - by Attribute  
-
-
-
 ## [Delete] SOP
 
 #### Delete by Pattern   
@@ -71,6 +55,17 @@ Backticks ``` ` ``` are for use in a string field: group input, name sop. (when 
 - `@shop_materialpath="/obj*"` -     
 - `detail(-1,'iteration',0)` -  
 - `if(@primnum==-1)` - points with are not a part of prim.
+
+
+
+## [ForLoop] Meta Import
+
+- ``` `detail(-1,"iteration",0)` ```
+
+## [Name] SOP
+- ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for   
+
+
 
 
 ## [Partition] SOP
@@ -98,9 +93,12 @@ binary
 
 
 
-## [Add] SOP
 
-- `point(-1,0,"P",0)`, `point(-1,0,"P",1)` `point(-1,0,"P",2)`- x,y,z point position from point in spare referenced node  
+
+## [Group] / [Split] SOP
+
+- `if(@primnum == -1) @group_disconnected = 1;` - Separate points and geometry   (prims)  
+- `@foo>=0.5`  - by Attribute  
 
 
 ## [Group Expression] SOP
@@ -115,13 +113,15 @@ VExpression
 - `@Cd.x > 0.5 && @Cd.x < 0.8`    
 - ``` @ptnum == `npoints(0)-1` ``` - z bloga jakiegos  (last pt on curve )  
 
-
-
-
 ##  [Attrib Create] SOP
 Expression field:  
 - `if(@attrib > 1,5,0)`  
 - `if(@attrib > 1,if($ATTR < 4,0,5),0)`  
+
+
+## [Add] SOP
+
+- `point(-1,0,"P",0)`, `point(-1,0,"P",1)` `point(-1,0,"P",2)`- x,y,z point position from point in spare referenced node  
 
 
 
