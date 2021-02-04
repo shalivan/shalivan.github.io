@@ -22,12 +22,8 @@ permalink: /vexpressions/
 
 Backticks ``` ` ``` are for use in a string field: group input, name sop. (when fn inside ??)
 
-## [ForLoop] Meta Import
 
-- ``` `detail(-1,"iteration",0)` ```
 
-## [Name]
-- ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for   
 
 ## Group field in every SOP
 - `GroupName` -  work only on group  
@@ -40,7 +36,16 @@ Backticks ``` ` ``` are for use in a string field: group input, name sop. (when 
 
 
 
-## Group / Split
+## [ForLoop] Meta Import
+
+- ``` `detail(-1,"iteration",0)` ```
+
+## [Name] SOP
+- ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for   
+
+
+
+## [Group] / [Split] SOP
 
 - `if(@primnum == -1) @group_disconnected = 1;` - Separate points and geometry   (prims)  
 - `@foo>=0.5`  - by Attribute  
@@ -98,7 +103,7 @@ binary
 - `point(-1,0,"P",0)`, `point(-1,0,"P",1)` `point(-1,0,"P",2)`- x,y,z point position from point in spare referenced node  
 
 
-## Group Expression
+## [Group Expression] SOP
 VExpression  
 - `neighbourcount(0, @ptnum)<=3` - By edges count from point    
 - `rand(@elemnum) > chf("amount")` - Random Amount   
@@ -121,7 +126,7 @@ Expression field:
 
 
 
-## Point
+## [Point] SOP
 
 Vexpression:  
 - `self` - pass Trough    
