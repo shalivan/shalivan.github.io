@@ -169,7 +169,7 @@ https://developer.nvidia.com/gameworksdownload
 
 ---
 
-## UE4 CVars:  
+# UE4 CVars:  
 
 http://www.kosmokleaner.de/ownsoft/UE4CVarBrowser.html // list    
 
@@ -264,7 +264,7 @@ Screen space reflections: Quality `r.SS.MaxRoughness 0.0..1.0` `e.SSR.Quality 0.
 
 ---
 
-## Textures
+# Compression
 
 #### Unreal Compression:
 
