@@ -19,15 +19,18 @@ permalink: /uelight/
 
 [Unreal Rendering Features](/ue_rendering_features/)
 
-
+Sky is black and the sun is white
 
 # Light
+
+
 
 1 cd = 625 unitless
 1 cd = 1 lm/sr
 
 Candelas, it is unaffected by its cone angle.
 Lumens, its luminous power only applies to the solid angle affected by the light, in Steradians (sr).
+
 
 
 ### Units
@@ -73,17 +76,17 @@ Scatter Uniform-ish on the molecules smallest size than 1/10 of photon wave leng
 
 
 - `■` `Color` - Effect color   
-- `x` `Rayleigh Scattering Scale` - **0,0331** for Earth. - 0.0 more like selected color - 1.0 more like opposite to selected  color (shift original toward sun)      
-- `F` `Exponential Distribution` - **8 km** Z falloff - 1 black  - 20 nicer falloff to  see horizon color
+- `x` `Rayleigh Scattering Scale` - **0,0331** for Earth. - 0.0 Black sky, white Sun - 1.0 more like opposite to selected  color
+- `F` `Exponential Distribution` - **8 km** Z falloff - 1 black  - 20 (more intense, caused by thicker layer)
 
 
 ## Mie
 More directional Interaction of light with larger particles  **Height fog** simulation. (Aerosols Scattering; dust, pollen, or air pollution) **absorbs light** causing the clarity of the sky to appear hazy by occluding light.  
 
 - `■` `Scattering Color` - Halo color + Inverted Horizon color   
-- `x` `Scattering Scale` **0.003996** -  Amount of Lightness - 0 - 5   
-- `■` `Absorption Color` -  Color to delete ??
-- `x` `Absorption Scale` **0.000444**  - Amount of Horizon darkens 0 - 5 dark
+- `x` `Scattering Scale` **0.003996** -  Amount of Lightness - 0 - 5  more fog and scatter > shadows less contrast   
+- `■` `Absorption Color` -  Color to remove
+- `x` `Absorption Scale` **0.000444**  - Amount of particles (darkens) 0 - 5 dark
 - `F` `Anisotropy` - **0.8**   - Halo Distribution.  0 - Uniformly, 1 - More Hallo     
 - `F` `Exponential Distribution` - **1.2**  Z falloff -   0 - on ground, 1 - whole sky.
 

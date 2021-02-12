@@ -12,42 +12,44 @@ tags:
 ---
 
 `ToggleAllScreenMessages`
-check:
-- precise uv
-- colision setup
-- affect navmesh
-- shadow distances and turn off for small
+
 
 # Render pipeline  
 
+---
 
+## Forward
+
+---
+
+## Deferred
 
 ##### Game thread
-game logic and transforms movement spawning physics
-ticks !!!
+- game logic and transforms movement spawning physics
+- ticks !!!
 
 ##### Draw thread
-Frustrum culling  - in cam    
-hardware occludion from  scene buffers   
-Too many obj canm hit performance
+- Frustum culling  - in cam    
+- Hardware occlusion from  scene buffers   
+(Too many obj can hit performance)
 
 ##### GPU thread
 
+.
 
----
-Before render: CPU game context   
-Before render: CPU (mostly) what to render  
-Render: GPU  render pixel on screen
+1. Before render: CPU game context   
+2. Before render: CPU (mostly) what to render  
+3. Render: GPU  render pixel on screen
 
 
-1) vertex shader   
-2) tessalation   
-3) geometry shader  
-4) pixel shader  
+1. vertex shader   
+2. tessellation   
+3. geometry shader  
+4. pixel shader  
 
-#### Passes    
+####    
 
-| pass |  | dependences:
+| Render passes |  | dependences
 | -- | -- | -- |
 `LightCompositionTask_PreLighting`| | Decal count, PP AO radious    
 `CompositionAfterLighting` |SS profile | Screan area of SSS   
@@ -65,22 +67,25 @@ Render: GPU  render pixel on screen
 `RenderVelocities` | |Num of moving objects and tri-count!
 `ScreenSpaceReflectiion` ||  (cost increaase with rough),
 
----
-## Light and shacows  
 
+# Bottlenecks
+Workflow
+- Check if time of frame is bigger from CPU or GPU. (cause threads must wait one for another)
 
-# Botlenecks
-1. Check if time of frame is bigger from CPU or GPU. (ause threads must wait one for another)
+Optimization
+- Shader complexity on **Opacity**    
+- **Draw Calls** - command send       
+- Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)    
+- **Shadow Casting** -    
+- **Splits on uvs** add to vertex count - (memory and disk space)    
+- **Too many texture samples** - use bandwidth (compression and texture packing to channels help)   
 
-
-shader complexity on *Opacity* -    
-*Draw Calls* - command send     
-overshading  *Quad Overdraw* - small or thin triangles (because it perform operation in bigger tile)  (watch for tessalarion)    
-*Shadow Casting* -    
-*Splits on uv's* cound on vertex count - (memory and disk space)    
-*Too many texture samples* - use bandwith (compression and texture packing to channels help)   
-affect navmesh   
-tick  
+Assets
+- precise uv
+- colision setup
+- affect navmesh
+- shadow distances and turn off for small
+- tick  
 
 ---
 
@@ -102,7 +107,71 @@ tick
 - extended tonmemaping  EV  w exposure
 - accurate velocity from degormer - have cost, for better foliage anim with Temporal AA  
 
-## Developer Tools
+---
+
+# Tools
+
+
+
+### Textures used
+
+Window > Statistics - Textures used   
+
+###  Session Frontend
+>*CPU* + *GPU* same time, (you can load files from sessions)  
+Window > DevTools > `Session Frontend`     
+
+
+
+### Visual Logger
+
+
+---
+
+## Unreal Insights
+Standalone profiling system
+
+---
+
+## Intel Frame Analyzer   
+
+1. You need to package game
+2. Run Graphic monitor andd click analyse application
+3. Enable in U4: `ToggleDrawEvents`
+4. `Ctrl` + `Shift` + `C` - to capture
+5. Enable in U4: `ToggleDrawEvents`
+
+https://software.intel.com/en-us/gpa/graphics-frame-analyzer
+
+---
+
+## Nvidia Nsight graphic
+
+- frame debuger
+- frame profile (similar but more like profiling than debuging)
+- generate C++ capture - collect frames   
+- gpu trace  
+
+
+`Timeline` API calls as events   
+`Resource view` textures and bufffers in scene (tak buttobn to find)   
+`API inspector` stages : input assembler , VS, PS  
+`API statistic` !!! view. > shaders wiev by comlexity and times      
+`Shader view` ??? Linked ptograms view   
+`Range Profiler` time ing using low lvl metrics (bottleneck) hi lvl overview.   
+
+1. Point to exe file
+2. Run
+
+https://developer.nvidia.com/gameworksdownload    
+
+
+
+---
+
+## UE4 CVars:  
+
+http://www.kosmokleaner.de/ownsoft/UE4CVarBrowser.html // list    
 
 ##### Show commands
 
@@ -191,50 +260,7 @@ Shadow quality (`sg.ShadowQuality 0..4`).
 Screen space reflections: Quality `r.SS.MaxRoughness 0.0..1.0` `e.SSR.Quality 0..4`    
 
 
-##### Textures used
 
-Window > Statistics - Textures used   
-
-#####  Session Frontend
->*CPU* + *GPU* same time, (you can load files from sessions)  
-Window > DevTools > `Session Frontend`     
-
----
-#### Unreal Insights
-Standalone profiling system
-
----
-
-#### Intel Frame Analyzer   
-
-1. You need to package game
-2. Run Graphic monitor andd click analyse application
-3. Enable in U4: `ToggleDrawEvents`
-4. `Ctrl` + `Shift` + `C` - to capture
-5. Enable in U4: `ToggleDrawEvents`
-
-https://software.intel.com/en-us/gpa/graphics-frame-analyzer
-
----
-
-#### Nsight graphic
-
-- frame debuger
-- frame profile (similar but more like profiling than debuging)
-- generate C++ capture - collect frames   
-- gpu trace  
-
-
-`Timeline` API calls as events   
-`Resource view`.: textures and bufffers in scene (tak buttobn to find)   
-`API inspector` stages : input assembler , VS, PS  
-`API statistic` !!! view. > shaders wiev by comlexity and times      
-`Shader view`: ??? Linked ptograms view   
-`Range Profiler`: time ing using low lvl metrics (bottleneck) hi lvl overview.   
-
-
-
-https://developer.nvidia.com/gameworksdownload    
 
 ---
 
@@ -278,13 +304,6 @@ DXT3 | RGBA | Better use 5 alpha channel (only 4 bits)
 DXT5 | RGBA | 8BPP  4:1 uses DXT1 for the color part, but adds another 4 bits per pixel of alpha. This gives you better transparency.
 
 ---
-
-## UE4 CVars:  
-
-http://www.kosmokleaner.de/ownsoft/UE4CVarBrowser.html // list    
-
-
-
 
 
 
