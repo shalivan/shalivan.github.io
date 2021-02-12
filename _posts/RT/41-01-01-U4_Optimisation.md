@@ -11,7 +11,6 @@ tags:
 - Tech Art
 ---
 
-`ToggleAllScreenMessages`
 
 
 # Render pipeline  
@@ -171,7 +170,12 @@ https://developer.nvidia.com/gameworksdownload
 
 # UE4 CVars:  
 
-http://www.kosmokleaner.de/ownsoft/UE4CVarBrowser.html // list    
+
+[CVar list](http://www.kosmokleaner.de/ownsoft/UE4CVarBrowser.html)   
+
+
+`ToggleAllScreenMessages`  
+
 
 ##### Show commands
 
