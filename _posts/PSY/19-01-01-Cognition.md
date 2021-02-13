@@ -248,9 +248,9 @@ Biases and fallacies are not optimal
 The Primacy/Recency Effect is the observation that information presented at the beginning (Primacy) and end (Recency) of a learning episode tends to be retained better than information presented in the middle
 
 
-|Behavioral biases (	Decision-making, belief) |Judgments are influenced by: ||
+|Behavioral biases |Judgments are influenced by: || (	Decision-making, belief)
 |-|-|-|
-|Anchoring | first  thing you judge | First thing you judge influences your judgment of all that follows| -
+|Anchoring | first  thing you judge | First thing you judge influences your judgment of all that follows| U r anchored to stock price you bought
 |Availability Heuristic |   what springs most easily to mind | (something happened in same place)
 |Availability Cascade |  | media report > public panic
 |Sunk Cost | involved capital  |  irrationally cling to things that have already cost you something.
@@ -300,6 +300,8 @@ The Primacy/Recency Effect is the observation that information presented at the 
 |-|-|-|
 |a
 
+
+Disposition effect - Exhibit ris-seeking behaviou bu holding losers and want to lock in gains so exhibit risk averse behaviour by selling winners
 
 https://yourbias.is/  
 https://courses.lumenlearning.com/boundless-psychology/chapter/bias-in-psychological-research/  

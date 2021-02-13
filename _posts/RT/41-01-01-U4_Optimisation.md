@@ -76,7 +76,7 @@ Optimization
 - **Draw Calls** - command send       
 - Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)    
 - **Shadow Casting** -    
-- **Splits on uvs** add to vertex count - (memory and disk space)    
+- **Splits on uvs** adds to vertex count - (memory and disk space)    
 - **Too many texture samples** - use bandwidth (compression and texture packing to channels help)   
 
 Assets
@@ -111,6 +111,7 @@ Assets
 # Tools
 
 
+## Unreal  
 
 ### Textures used
 
@@ -123,7 +124,7 @@ Window > DevTools > `Session Frontend`
 
 
 ### Visual Logger
-
+[VisLog]
 
 ---
 

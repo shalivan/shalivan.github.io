@@ -11,14 +11,6 @@ tags:
 permalink: /narration/
 ---
 
-chase desire to order  !!!
-internal goal
-
-
-
-
-yes, unless
- what if
 
 
 
@@ -33,7 +25,7 @@ yes, unless
 #  Plot
 
 Telling stories is in human nature.
-Stories define how we consume informations.  
+Stories define how we consume information.  
 
 - **Story**  tells who and what.   
   - Series of events recorded in their chronological order,  sequence of events.
@@ -59,7 +51,7 @@ Unique story or have a twist or sth to say.
 - **Explicit** - cutscenes text written  
 - **Implicit** - player must figure out itself  
 - **Emergent** -  
-
+- Environmental narration
 
 ### Point of view
 
@@ -72,16 +64,44 @@ but: restricted to one chatacter, dificult .filter words to show perspopective o
 - **3rd Person** - She/He Her/His.
   - External narrator is telling the story.
 
+### Narrator
+  ||||
+  |---|---|---|
+  Ontology | homodiegetic (within world)| heterodiegetic (outside (commentary/hud))
+  Shapedness | personal | non-personal
+  Knowledge | restricted | omnipotent
+  Story world facts | representing (represents exiting world) | stipulating  (stipulates story through narration)
+
+  Commentator/Interviewer
+
+## Literary genre
+
+#### Poetry (liryka) (podmiot liryczny)
+#### Drama (bohater)
+Na scenie  
+comedy, tragedy, dramat
+#### Fiction/nonfiction (epika) (narrator)
+ nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.
 
 
-||||
-|---|---|---|
-Ontology | homodiegetic (within world)| heterodiegetic (outside (commentary/hud))
-Shapedness | personal | non-personal
-Knowledge | restricted | omnipotent
-Story world facts | representing (represents exiting world) | stipulating  (stipulates story through narration)
+**Przypowieść** (inaczej parabola)    w którym przedstawione postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, lecz mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Mimo że przypowieść często ma rozwiniętą fabułę, to zawsze pozostaje ona z racji swego przykładowego charakteru silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego.
 
-Commentator/Interviewer
+**exemplum** (przykład) - odwołuje się do świata znanego swoim odbiorcom,  
+
+**Mystery** - Fiction story that revolves around discovering secrets or solving crimes
+
+**Folktale** - belie with exaggerated chracters and obstacles that is passed down over  
+- Myth  - sacred and explain how things cam eto be
+- Tall Tale - humorous
+- Fairy Tail  - happy end with magic
+- Fable - teach morals with animals as char.
+- Legend - based on real person but cannot be proven
+
+
+#### Gatunki pograniczne
+ to gatunki z pogranicza literatury, nauki i publicystyki, np. esej, felieton, reportaż. Bio
+
+
 
 
 ---
@@ -97,7 +117,8 @@ Gameplay Exposition
 
 # Ludo narrative Harmony
 
-## Structure
+## Components
+
 ### Place, Time, Character
 Cannot say a story without **Place**, **Time** and **Character**. Or you can :> ?
 - **Premise** -  Meaningful, Promise, announce
@@ -111,7 +132,19 @@ Memorable moments:
 - **Peak** -  (tentpole - most expensive mom)  
 - **End** - brain reference to those experience and have impact to long term memory    
 
-### 3 acts
+## Structure
+
+### Storie Shape
+Ups and downs
+
+###### Tension
+crisis and climax
+dyolemat niejednoznaczne rozwiazanie
+balance between: anxiet  and boredom
+
+
+
+### 3 Acts
 Greek  
 Setup > conflict > resolution
 plot points are between phases
@@ -119,14 +152,10 @@ plot points are between phases
 
 
 
-##### Tension
-crisis and climax
-dyolemat niejednoznaczne rozwiazanie
-balance between: anxiet  and boredom
-
 ### Monomyth
   Heroes Journey: **You**, **Need**, **Go**, **Search**, **Find**, **Take**, **Return**, **Change**  (Joseph Campbell)
   - What with serials and games ? Its less relevant.
+
 
 
 ### Meta
@@ -146,7 +175,7 @@ not how human is but how should bne like
 Post modernism - skepticism tough meta narrative
 no such think as through knowledge all we have is subjecvtiver opinion
 
-### archetypal events
+### Archetypal Events
 : birth, death, separation from parents, initiation, marriage, the union of opposites;
 
 ### 4-Layers in games
@@ -186,7 +215,7 @@ stronger showing
 spreading tiny bits of
 exposition
 
-### payoff
+### Payoff
 RESPONCE -
 
 ### Foreshadowing
@@ -211,7 +240,10 @@ during the story object can inherit meaning and emotional value
 
 
 ### Archetypal motifs
-the apocalypse, the deluge, the creation.
+
+the creation/apocalypse    
+the deluge  
+
 
 ### Conflict
 - konflikt interesów
@@ -246,8 +278,6 @@ emotions :
 [Human Motivation](/motivation/)  
 
 - do you have power over the world
-
----
 
 
 
@@ -333,19 +363,20 @@ Slow| continuous, integrate shock, constraint, consistency | Has all the power
 
 # Dialogues
 
+---
 
 # Philosophy
 
 
-## US vs. Europe
-```
-||US |EU |
+## Old vs. New World
+
+|| New continent  |Old continent |
 |---|---|---|
-Expected to be hiperanimated| Existence is hard
-Expres positiv aspect Everyth is amazing |  
-Supress | Emphesize
- || Beaauty is linkled to suffering
-```
+||Expected to be hiperanimated|
+||Expres positiv aspect Everyth is amazing |  Existence is hard
+||Supress | Emphesize
+||| Beaauty is linkled to suffering
+
 
 ## Eastern vs. Western
 
