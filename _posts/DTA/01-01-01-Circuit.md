@@ -29,7 +29,7 @@ midi device on windows:
 
 ---
 
-# Patches
+# Patch Editor Software
 
 
 ## Oscillator
@@ -138,7 +138,7 @@ Set Attack Decay Sustain Release
 - `level`  
 - `comp`   
 
-## Voice
+#### Voice
 Mono, Auto-Glide, Poly
 - Portamento -  
 - Pre-glide -   
@@ -198,7 +198,7 @@ trick
 
 -------
 
-# Circuit
+# Circuit Hardware
 
 - `notes`- Play  
 - `velocity`-   (how hard is press) nie wszystkie mają głośność   Fixed Velocity is enabled by pressing Velocity 6 while holding down Shift 19 . Fixed Velocity
@@ -225,10 +225,25 @@ https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/novation/dow
 
 ||  |  | |||  | |
 |---|---|---|---|---|---|---|---|
-**17** Natural Minor | **18** Major | **19** Dorian | **20** Phrygian | **21** Mixolyduan  | **22** Melodic Minor | **23**  Harmonic Minor | **24** Bebop Dorian |
- <img src="/src/music/scales/patterns/NaturlMinor.png" width="200"> | <img src="/src/music/scales/patterns/Major.png" width="200">| <img src="/src/music/scales/patterns/Dorian.png" width="200">  | <img src="/src/music/scales/patterns/Phrygian.png" width="200">  |<img src="/src/music/scales/patterns/Mixolyduan.png" width="200">   | <img src="/src/music/scales/patterns/MelodicMinor.png" width="200">| <img src="/src/music/scales/patterns/HarmonicMinor.png" width="200">   | <img src="/src/music/scales/patterns/BebopDorian.png" width="200">
-**25**   Blues  (6)| **26**  Minor Penatotonic  (6)| **27** Hungarian Minor | **28** Ukraninian Dorian | **29** Marva| **30** Todi | **31** Whole Tone  (6) | **32** Chromatic (12 keys)
-| <img src="/src/music/scales/patterns/Blues.png" width="200">   | <img src="/src/music/scales/patterns/MinorPenatotonic.png" width="200">  |<img src="/src/music/scales/patterns/HungarianMinor.png" width="200">| <img src="/src/music/scales/patterns/UkraninianDorian.png" width="200">  | <img src="/src/music/scales/patterns/NaturlMinor.png" width="200">| <img src="/src/music/scales/patterns/Marva.png" width="200"> | <img src="/src/music/scales/patterns/WholeTone.png" width="200">
+**17**| Natural Minor || <img src="/src/music/scales/patterns/NaturlMinor.png" width="200">
+**18**| Major ||  <img src="/src/music/scales/patterns/Major.png" width="200">|
+**19**| Dorian || <img src="/src/music/scales/patterns/Dorian.png" width="200">  |
+**20**| Phrygian ||  <img src="/src/music/scales/patterns/Phrygian.png" width="200">  |
+**21**| Mixolyduan  || <img src="/src/music/scales/patterns/Mixolyduan.png" width="200">   |
+**22**| Melodic Minor| |<img src="/src/music/scales/patterns/MelodicMinor.png" width="200">|
+ **23**|  Harmonic Minor ||<img src="/src/music/scales/patterns/HarmonicMinor.png" width="200">   |
+  **24**| Bebop Dorian ||<img src="/src/music/scales/patterns/BebopDorian.png" width="200">
+||  
+**25** |  Blues  |(6)| <img src="/src/music/scales/patterns/Blues.png" width="200">   |
+**26** | Minor Penatotonic | (6)|  <img src="/src/music/scales/patterns/MinorPenatotonic.png" width="200">  |
+**27** |Hungarian Minor ||  <img src="/src/music/scales/patterns/HungarianMinor.png" width="200">|
+**28**| Ukraninian Dorian| | <img src="/src/music/scales/patterns/UkraninianDorian.png" width="200">  |
+**29**| Marva|| <img src="/src/music/scales/patterns/Marva.png" width="200"> |
+**30** |Todi ||
+**31**|Whole Tone | (6) |  <img src="/src/music/scales/patterns/WholeTone.png" width="200">
+**32** |Chromatic|(12 keys)
+
+
 
 
 
