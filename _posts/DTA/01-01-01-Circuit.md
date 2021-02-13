@@ -33,107 +33,116 @@ midi device on windows:
 
 
 ## Oscillator
-
-#### Oscillators  
 - `Waveform` - wave shape  
-- `index` -  pulse width index ? (can modulate with LFO) [matrix destination name: OSC1 Pulse Width]
-- `Interpolate` -      
-- `Cents` - tune - detune (can detune oscilator 2)    
-- `Semitones` - up or down on octave (have multiple octave playing one note if add to oscilator 2)    
-- `VSync` - depth ?     
-- `Density` - detone ?   
-- `Detune` -   
+- `index` -  (Shift waveform) / (can modulate with LFO) [matrix destination name: OSC1 Pulse Width]
+- `Semitones` - Detune semitones up or down on octave (have multiple octave playing one note if add to oscillator 2)   
+- `Cents` -  Cents detune (can detune oscillator 2)   
+- `Detune` -  Density detune
+- `Density` -  Density   
+- `Interpolate` - Wave interpolate  
+- `VSync` - Virtual Sync depth ?     
 
-#### Mixer  
-- `Osc1` / `Osc2` - Add Oscilators to mix !  > can detune adding second oscillator and mix them on `mixer`  
-- `Noise` -  ASdd little  
+
+
+## Mixer  
+- `Osc1` / `Osc2` - Add Oscillators to mix !  > can detune adding second oscillator and mix them on `mixer`  
+- `Noise` -  Add noise
 - `Ringmode` -    
-- `PreFX`, `PostFX` -    
+- `PreFX` / `PostFX` -  
+
 
 ## Filter
-Color and Shape of sound
-
-- Filter out frequencies.
+Color and Shape of sound. Help filter out certain frequencies.
 
 #### Filter
-- Basic. ‘Frequency’ and ‘Resonance’ controls you can alter the tone of your sound from soft to sharp.  
-- `Frequency` - how much to cut off filter   
-- `Resonance`    
-- `Q norm`  
-- `Lowpass`,  `Highpass`, `Bandpass`  - cut right, cut left, both    
-- `12dB`(more flat) sound is bassy more higher ,  `24dB` (more slope)  - cutoff slope. Greater value sooner cut off  (higher freq pass through)  
+- Filter type
+  - `Lowpass`,  `High pass`, `Bandpass`  - cut right, cut left, both    
+  - `12dB`(more flat) sound is bassy more higher ,  `24dB` (more slope)  - cutoff slope. Greater value sooner cut off  (higher freq pass through)  
+- Filter `Frequency` - How much to cut off filter, alter the tone of your sound from soft to sharp.
+- Filter `Resonance` - End    
+
 
 #### Mod
 - `Key Track` 0-127 - change freq depend on how high on keyboard note is (higher keys higher freq) (if playing large range )
 - `Env2 > Freq` +-64 - Add automatically Filter to react  on  Envelope 2 !!!!!!!!!
-
-
+- `Q norm`
 
 #### Drive
-
+- `Type`
 - `Drive` - distort / amplify going in to filter. dif types  (bit crush, rat reduce)
 
 
-#### Routing
-- `Normal`, `O1 bypas`,  `O1+O2 bypas` - bypass filter in given oscilators !!!!!!!!!!!!!!!! What oscilator will be affected ! bypas will still affect noise and some setings
+#### Bypass
+- `Normal`, `O1 bypass`,  `O1+O2 bypass` - bypass filter in given oscillators !!!!!!!!!!!!!!!! What oscillator will be affected ! bypass will still affect noise and some settings
 
 ## Envelopes
+3 Envelopes
+Set Attack Decay Sustain Release
 
+1. Velocity
+2. Velocity
+3. Delay
 
-- Set Attack decay sustain release
-
- 1. Envelope Amplifier  (amplifire allow go sound throu so 1 env will change loudness)
+```
+ 1. Envelope Amplifier  (amplifier allow go sound through so 1 env will change loudness)
  2. Envelope Filter  
- 3. Envelope Extra one  (you can  conreol by macro ) normally attack   
+ 3. Envelope Extra one  (you can  control by macro ) normally attack   
+```
 
-- Velocity - how much have
 
 
 
 ## LFO
+2 LFOs
 
-1. LFO 1
-2. LFO 2
-
-#### LFO
-- `Slew` (as portamento or glide for LFO wave ) limits how quickly wave can cahcnge value  
-- `Phase` - tels LFO where in the wave to start
+- `Waveform` - Wave shape
+- `Slew` (as portamento or glide for LFO wave ) limits how quickly wave can change value  
+- `Phase` - Shift tells LFO where in the wave to start
+- [ ] `One Shot` -
+- [ ] `Common Sync` -
 
 #### Rate / Delay
-- `Rate` - (can sync to temp )  Spead
+- `Rate` - (can sync to temp )  Speed
+- [ ] `Rate Sync` -
 - `Delay` - (can sync to temp )with fade modes   
+- [ ] `Delay Sync` -
 
-#### Delay Triger
-- `singiel` / `multi` -
 
-#### Sync style
-- `free` - not synced  
-- `Key Sync` - start with new key push
+- Delay Triger
+  - `singiel` -  
+  - `multi` -
 
-#### Settings
-- `One Shot` / `Common`-
+- Sync style
+  - `free` - not synced  
+  - `Key Sync` - start with new key push
 
-#### Fade mode
-- `fadein / out / gate in / out`
+- Fade mode
+  - fade in
+  - out
+  - gate in
+  - out
+
 
 
 ## FX
 
 
-#### Chorus   
+#### Chorus / Phaser
 - chorus is great
+
 
 #### EQ   
 - low mid high for freq and gain
 
-#### distortion
+#### Distortion
 - `level`  
 - `comp`   
 
-## Settings
-- portamento -  
-- glide -   
-
+## Voice
+Mono, Auto-Glide, Poly
+- Portamento -  
+- Pre-glide -   
+- Keyboard Octave -
 
 ## Modulation Matrix
 
@@ -143,9 +152,9 @@ Up to 20 slots
 |.||||
 |-|-|-|-|
 |Source 1
-|Source 2 |Perfomrmance, LFO, Envelopes
+|Source 2 |Performance, LFO, Envelopes
 |Depth
-|Destination | Oscilator / Mixer / Filter / LFO / Envelopes
+|Destination | Oscillator / Mixer / Filter / LFO / Envelopes
 
 
 ## Macros  
@@ -165,10 +174,10 @@ Depth, jak duzo zmiany i w ktora strone
 
 ||fixed drums macro|
 |-|-|
-1/2 | Static pitch
-3/4 | Decay envelope time
-5/6 | Distortion
-7/8 | Filter
+1 | Static pitch
+3 | Decay envelope time
+5 | Distortion
+7 | Filter
 
 #### Macro for synths
 
