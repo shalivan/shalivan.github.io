@@ -122,12 +122,11 @@ Emit light from captured cube map  Require: **Recapture**
 - `x` `Intensity` -  Amount (always 1)   
 - `◻` `Low hemisphere Color` - Lower hemi color     
 
-#### Capture Cube
+##### Capture Cube
 - `Distance threshold` - Near meshes cutoff    
 - `Capture emissive only` - Materials. Skips all lighting making the capture cheaper. (Capture Every Frame)    
 
-
-#### DFAO
+##### DFAO
 
 
 ----
@@ -136,20 +135,22 @@ Emit light from captured cube map  Require: **Recapture**
 # Sky dome
 Shape of sky dome mesh is important when using some of these expressions since they will drive evaluation of those values. For example, if you use the functions to evaluate lighting on clouds, you can assume the sky dome pixel world position represents the cloud world position in the atmosphere.  
 
-## Using HDR Sky dome
 
-HDR sky: If exposure is to high (dark) you must multiply a lot HDR. Sky intensity will not work. If HDR have lot of stops wun will have huge values. But you cannot check value of sky in area.  
 
-Default Auto cam:  Shutter 60 ISO 100 f-stop:4.   30000 -125000 lux sun light. sky luminance: 5000 cd/m2  
+## Traditional Sky dome
 
-## Atmosphere Sky Sky dome
+##### Material
+- `Atmosphere Light Vector` - Sun Angle of dir.   
+- `Atmosphere Light Color` -         
+- `Atmosphere Light Vector` -   
+- `Atmosphere Fog Color` -  
+
+## Atmosphere Sky
 Settings: `Sky Atmosphere Compatible Material` - Enable     
 Material: `Is Sky`, `Opaque`, `Unlit`    
 Skybox: `No Cast Shadow`, `No Distance Field`  
 
-
-##### Atmospheric Material
-
+#####  Material
 Basic material setup: sky + sun
 - `Sky Atmosphere Light Disc Luminance` [0] -  sun ( render sun on skybox as u see it)     
 - `Sky Atmosphere View Luminance` - sky gradient ( rendered sky color effect as u see it)   
@@ -164,13 +165,12 @@ add smoke
 - `Sky Atmosphere Aerial Perspective` - wide glow tint  
 - `Sky Atmosphere Light Luminance` - intensity/color of sunlight hitting atmosphere  
 
-## Traditional Syk dome
-(H Fog & Light Material nodes)  
 
-- `Atmosphere Light Vector` - Sun Angle of dir.   
-- `Atmosphere Light Color` -     Old    
-- `Atmosphere Light Vector` - Old  
-- `Atmosphere Fog Color` - Old   
+## HDR Sky
+
+HDR sky: If exposure is to high (dark) you must multiply a lot HDR. Sky intensity will not work. If HDR have lot of stops wun will have huge values. But you cannot check value of sky in area.  
+
+Default Auto cam:  Shutter 60 ISO 100 f-stop:4.   30000 -125000 lux sun light. sky luminance: 5000 cd/m2  
 
 
 
