@@ -1,5 +1,5 @@
 ---
-title: configs Circuit Novation
+title: configs Circuit Tracks
 description: guide
 categories:
  - DTA
@@ -33,7 +33,7 @@ midi device on windows:
 
 
 ## Oscillator
-- `Waveform` - wave shape  
+- **Waveform** - wave shape  
 - `index` -  (Shift waveform) / (can modulate with LFO) [matrix destination name: OSC1 Pulse Width]
 - `Semitones` - Detune semitones up or down on octave (have multiple octave playing one note if add to oscillator 2)   
 - `Cents` -  Cents detune (can detune oscillator 2)   
@@ -45,6 +45,7 @@ midi device on windows:
 
 
 ## Mixer  
+Mix 2 oscilators
 - `Osc1` / `Osc2` - Add Oscillators to mix !  > can detune adding second oscillator and mix them on `mixer`  
 - `Noise` -  Add noise
 - `Ringmode` -    
@@ -54,69 +55,66 @@ midi device on windows:
 ## Filter
 Color and Shape of sound. Help filter out certain frequencies.
 
-#### Filter
-- Filter type
-  - `Lowpass`,  `High pass`, `Bandpass`  - cut right, cut left, both    
-  - `12dB`(more flat) sound is bassy more higher ,  `24dB` (more slope)  - cutoff slope. Greater value sooner cut off  (higher freq pass through)  
-- Filter `Frequency` - How much to cut off filter, alter the tone of your sound from soft to sharp.
-- Filter `Resonance` - End    
+Filter type
+  - **Lowpass**,  **High pass**, **Bandpass**  - cut right, cut left, both    
+  - **12dB** (flat) sound is bassy higher ,  **24dB** (more slope) cutoff slope. Greater value sooner cut off  (higher freq pass through)    
+
+Filter
+- `Cutoff Frequency` Filter  - How much to cut off filter, alter the tone of your sound from soft to sharp.
+- `Resonance` Filter - End    
 
 
-#### Mod
+Mod
 - `Key Track` 0-127 - change freq depend on how high on keyboard note is (higher keys higher freq) (if playing large range )
 - `Env2 > Freq` +-64 - Add automatically Filter to react  on  Envelope 2 !!!!!!!!!
 - `Q norm`
 
-#### Drive
+Drive
 - `Type`
 - `Drive` - distort / amplify going in to filter. dif types  (bit crush, rat reduce)
 
 
-#### Bypass
+Bypass
 - `Normal`, `O1 bypass`,  `O1+O2 bypass` - bypass filter in given oscillators !!!!!!!!!!!!!!!! What oscillator will be affected ! bypass will still affect noise and some settings
 
 ## Envelopes
-3 Envelopes
-Set Attack Decay Sustain Release
+3 Envelopes: Velocity, Velocity, Delay  
+Set:  **Attack**, **Decay**, **Sustain**, **Release**
 
-1. Velocity
-2. Velocity
-3. Delay
-
-```
  1. Envelope Amplifier  (amplifier allow go sound through so 1 env will change loudness)
  2. Envelope Filter  
  3. Envelope Extra one  (you can  control by macro ) normally attack   
-```
+
 
 
 
 
 ## LFO
 2 LFOs
+LFO require destination to work Apply only in matrix
 
-- `Waveform` - Wave shape
+- **Waveform** - Wave shape
 - `Slew` (as portamento or glide for LFO wave ) limits how quickly wave can change value  
 - `Phase` - Shift tells LFO where in the wave to start
 - [ ] `One Shot` -
 - [ ] `Common Sync` -
 
-#### Rate / Delay
+Rate / Delay
 - `Rate` - (can sync to temp )  Speed
 - [ ] `Rate Sync` -
 - `Delay` - (can sync to temp )with fade modes   
 - [ ] `Delay Sync` -
 
 
-- Delay Triger
+Delay Triger
   - `singiel` -  
   - `multi` -
 
-- Sync style
+Sync style
   - `free` - not synced  
   - `Key Sync` - start with new key push
 
-- Fade mode
+Fade mode
   - fade in
   - out
   - gate in
@@ -124,7 +122,7 @@ Set Attack Decay Sustain Release
 
 
 
-## FX
+## Effects
 
 
 #### Chorus / Phaser
@@ -144,20 +142,40 @@ Mono, Auto-Glide, Poly
 - Pre-glide -   
 - Keyboard Octave -
 
-## Modulation Matrix
+## Modulation
+
+- 4 macros per knob
+- 20 matrix slots
 
 
-Up to 20 slots
+###  Modulation Matrix
+ Depth - how far parameter will be adjusted
 
-|.||||
+|Source ||||
 |-|-|-|-|
-|Source 1
-|Source 2 |Performance, LFO, Envelopes
-|Depth
-|Destination | Oscillator / Mixer / Filter / LFO / Envelopes
+|Performance | Velocity | how hard key pressed
+|Performance | Keyboard
+|LFO|LFO +
+ |LFO|LFO +-
+|Envelopes| Envelopes
 
 
-## Macros  
+
+|Destination ||||
+|-|-|-|-|
+| Oscillator Pitch |
+| Oscillator V sync  |
+| Oscillator Pulse width  |
+Mixer  | Levels / RingMod 1*2 Lvl
+Filter | Drive Amount  / Frequency / Resonance
+LFO  | Rate
+Envelopes | 1 Amp Decay / 2 Filter Decay
+
+
+
+- diff: 2 sources 1 slot on single destination different 2 sources 2 slots on same destination
+
+###  Macros  
 Combine up to 4 settings  in top knobs 1-8 for synths  
 Set up in editor
 - Set destination! WHAT TO CHANGE
@@ -169,15 +187,6 @@ Set up in editor
 Depth, jak duzo zmiany i w ktora strone
 
 
-#### Macro for drums
-
-
-||fixed drums macro|
-|-|-|
-1 | Static pitch
-3 | Decay envelope time
-5 | Distortion
-7 | Filter
 
 #### Macro for synths
 
@@ -195,6 +204,17 @@ Depth, jak duzo zmiany i w ktora strone
 trick
 - modulate index with LFO  
 - Env2mod - how filter env  
+
+
+#### Macro for drums
+
+
+||fixed drums macro|
+|-|-|
+1 | Static pitch
+3 | Decay envelope time
+5 | Distortion
+7 | Filter
 
 -------
 
