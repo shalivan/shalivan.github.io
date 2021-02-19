@@ -323,6 +323,7 @@ right white knefels to more effect cutoff taki
 7 |Hall – long reflection
 8 |Large Hall – long reflection
 
+.
 
 |PRESET| DELAY TYPE| MUSICAL DESCRIPTION|
 |---|---|---|
@@ -342,14 +343,9 @@ right white knefels to more effect cutoff taki
 14 | 4th Triplets|  6 cycles per bar
 15 | 4th dotted Ping Pong Swung | 4 cycles per 3 bars with swing
 16 | 4th Triplets Ping Pong Wide | 6 cycles per bar
+
+
 ---
-
-Drums sample
-
-|||||||||
-|-|-|-|-|-|-|-|-|
-KD | KD | SD | SD | CH | CH | OH | OH
-P|P|P|P|V|V|V|V
 
 
 # MIDI
@@ -400,6 +396,16 @@ https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Ci
 
 
 - you can use wavetables
+
+
+#  Components
+
+Drums sample
+
+|||||||||
+|-|-|-|-|-|-|-|-|
+KD | KD | SD | SD | CH | CH | OH | OH
+P|P|P|P|V|V|V|V
 
 
 
