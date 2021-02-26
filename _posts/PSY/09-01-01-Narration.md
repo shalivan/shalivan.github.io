@@ -24,7 +24,7 @@ Archetypes - are often symbols represented in literature and in art by symbols .
 ---
 
 
-# Key Concept
+## Key Concept
 What is the topic, what are the issue.  
 Unique story or have a twist or sth to say.   
 - Give 2+2 (simple deduction)
