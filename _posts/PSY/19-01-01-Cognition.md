@@ -15,9 +15,9 @@ permalink: /cognition/
 
 
 |Cognition fields||
-|----|--|
+|--|--|
 | Psychology |  
-| AI    |
+| AI |
 | Linguistics  |
 | Philosophy  |
 | Neuroscience  |
@@ -27,9 +27,7 @@ How you process information
 
 ----
 
-
 # Cognitive states
-
 
 Altered states of consciousness  occurs naturally or induced by external factors like drugs or internal factors.   
 

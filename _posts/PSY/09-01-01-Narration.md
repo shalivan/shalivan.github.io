@@ -12,9 +12,10 @@ permalink: /narration/
 ---
 
 
+story is examplles ?
 
 
-
+Archetypes - are often symbols represented in literature and in art by symbols .
 
 # Medium
 - Every medium have it own narration style. Linear narrative is not enough for games.  
@@ -41,8 +42,10 @@ Stories define how we consume information.
 ## Key Concept
 What is the topic, what are the issue.  
 Unique story or have a twist or sth to say.   
-- Give 2+2
+- Give 2+2 (simple deduction)
 - Book is more than one idea.
+- care about story: imply meaning, to enable discover meaning
+- during the story object can inherit meaning and emotional value
 
 ## Narration
 
@@ -76,6 +79,7 @@ but: restricted to one chatacter, dificult .filter words to show perspopective o
 
 ## Literary genre
 
+
 #### Poetry (liryka) (podmiot liryczny)
 #### Drama (bohater)
 Na scenie  
@@ -107,7 +111,8 @@ comedy, tragedy, dramat
 ---
 
 # Game vs. Player story domination
-scale: narrativ to mechanics driven
+scale: narrative to mechanics driven
+
 #### dialogues
 Plot Exposition  
 Character Exposition  
@@ -134,7 +139,7 @@ Memorable moments:
 
 ## Structure
 
-### Storie Shape
+### Stories Shape
 Ups and downs
 
 ###### Tension
@@ -158,7 +163,7 @@ plot points are between phases
 
 
 
-### Meta
+### Meta-plot
 Grand narrative
 Claim to apply to all people (common to everyone.)
 Universal, Natural, Structural,
@@ -185,6 +190,9 @@ no such think as through knowledge all we have is subjecvtiver opinion
   4. Mental Modeling. Sense of mental image of game. that we would like to get.
 
 https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html
+
+
+
 
 ### Scope
 To much stories in witch the fate of the world was at stake
@@ -224,25 +232,93 @@ Plant idea ahead and earlier to connect later
 ----
 
 ##  Motive
-motivation  
-
-for character
+motivation for character
 - inretnal change sth inside person. Overcoming grive / block
 - external: change sth in world outside / travel / fulfill emotions
 
-ryzyko
-zagrozenie i jak mozena je pokonac (kill it / craft to survive )
 
-dont give 4 give 2+2 - simple equasion, puzzles  (simple deduction)
-- care about story: imply meaning, to enable discover meaning .
 
-during the story object can inherit meaning and emotional value
 
 
 ### Archetypal motifs
 
-the creation/apocalypse    
-the deluge  
+##### Creation / Apocalypse   
+- Deluge  
+
+##### Immortality
+- escape from the time   
+- endless death and rebirth
+
+##### Hero Arhetype
+quest / initiationm / sacrafice
+##### Season / Life cycle
+
+||||
+|--|--|--|
+|Dawn | Spring  | Birth phase   
+|Zenith | Summer | Marriage   
+|Sunset | Autumn | Death phase
+|Darkness | Winter | Dissolution phase
+
+
+### The Seven Basic Plots
+theory developed by Christopher Booker
+a Jung-influenced analysis of stories and their psychological meaning.
+
+
+|||
+|--|--|
+Overcoming the Monster | Sets out to defeat an antagonistic force (often evil) which threatens the protagonist and/or protagonist's homeland.   
+Rebirth | An event forces the main character to change their ways and often become a better individual.
+The Quest | Acquire an important object or to get to a location. They face temptations and other obstacles along the way.  
+Voyage and Return | Goes to a strange land and, after overcoming the threats it poses or learning important lessons unique to that location, they return with experience.   
+Rags to Riches | Poor protagonist acquires power, wealth, and/or a mate, loses it all and gains it back, growing as a person as a result
+Tragedy | Fall of fundamentally good character
+Comedy | Dramatic work in which the central motif is the triumph over adverse circumstance, resulting in a successful or happy conclusion.  conflict becomes more and more confusing, but is at last made plain in a single clarifying event.
+
+
+### The 36 situations
+For Genre Analysis by  Georges Polti / Carlo Gozzi
+
+
+|||
+|--|--|
+Supplication|
+Deliverance|
+Crime pursued by vengeance|
+Vengeance taken for kin upon kin|
+Pursuit|
+Disaster|
+Falling prey to cruelty/misfortune|
+Revolt|
+Daring enterprise|
+Abduction|
+The enigma|
+Obtaining|
+Enmity of kin|
+Rivalry of kin|
+Murderous adultery|
+Madness|
+Fatal imprudence|
+Involuntary crimes of love|
+Slaying of kin unrecognized|
+Self-sacrifice for an ideal|
+Self-sacrifice for kin|
+All sacrificed for passion|
+Necessity of sacrificing loved ones|
+Rivalry of superior vs. inferior|
+Adultery|
+Crimes of love|
+Discovery of the dishonour of a loved one|
+Obstacles to love|
+An enemy loved|
+Ambition|
+Conflict with a god|
+Mistaken jealousy|
+Erroneous judgment|
+Remorse|
+Recovery of a lost one|
+Loss of loved ones|
 
 
 ### Conflict
@@ -258,33 +334,30 @@ Rational explanations for war (war sis costly and why cant we settle differences
 ### Mystery
 
 ### Meaning
-
- Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
+Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
 
 #####  collective unconscious
 Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
 Universal through shared by all cultures  
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
 
-
 ### Emotions
 
 emotions :
 - thrill
 - positive
-- interest rythm,
-
+- interest rhythm,
 
 [Human Motivation](/motivation/)  
 
 - do you have power over the world
 
-
-
 ---
 
-
 # Characters
+
+The Art of inventing character book !!!
+
 Driven by external / internal motivations
 
 - name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want accomplished, what afraid, what like to do, hidden talent, deepest secret
@@ -294,22 +367,19 @@ competence !
 ## Archetypal Figures
 
 
-[Personalities](/personality/) - jungian archetypes
+[Personalities](/personality/) - Jungian archetypes
 
-||||
+|.|||
 |---|---|---|
 | Hero | protagonist. Atempt to resolve conflict
-Audience identification, change growth action risk sacrifice
-Personal, Primal Stakes
+|Audience identification, change growth action risk sacrifice
+|Personal, Primal Stakes
 | Herald | deliver  story-kickstarting message
-| Mentor | Teachnig/ giving gifts / bad advices /. motivation conscience
-sometimes short lifespans
+| Mentor | Teachnig/ giving gifts / bad advices /. motivation conscience, sometimes short lifespans
 |Threshold Guardian/Henchman | he blocks the progress
 |Trickster / Comic | f comic relief
-|Shape-Shifter | Shapeshifting characters are great catalysts for crucial story
-components such as surprises, plot twists, and red herrings
-|Villain | generator/defender of the
-main conflict, and that he exists to present the final challenge to the Hero
+|Shape-Shifter | Shapeshifting characters are great catalysts for crucial story components such as surprises, plot twists, and red herrings
+|Villain | generator/defender of themain conflict, and that he exists to present the final challenge to the Hero
 
 - great mother, father
 - devil, god
