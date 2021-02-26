@@ -12,8 +12,8 @@ permalink: /narration/
 ---
 
 
-story is examplles ?
-
+story is examplles ?  
+DUALITY  
 
 Archetypes - are often symbols represented in literature and in art by symbols .
 
@@ -23,23 +23,8 @@ Archetypes - are often symbols represented in literature and in art by symbols .
 
 ---
 
-#  Plot
 
-Telling stories is in human nature.
-Stories define how we consume information.  
-
-- **Story**  tells who and what.   
-  - Series of events recorded in their chronological order,  sequence of events.
-  - Story includes all of the events described that make up a narrative.
-- **Plot** tells how.   
-  - With story in mind, you can decide how to plot it.
-  - Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
-- **Narrative** tells why.   
-  - Interpretation of the events within the story. point of view of the story.
-
-
-
-## Key Concept
+# Key Concept
 What is the topic, what are the issue.  
 Unique story or have a twist or sth to say.   
 - Give 2+2 (simple deduction)
@@ -47,8 +32,30 @@ Unique story or have a twist or sth to say.
 - care about story: imply meaning, to enable discover meaning
 - during the story object can inherit meaning and emotional value
 
-## Narration
 
+Telling stories is in human nature.  
+Stories define how we consume information.    
+
+
+
+#  Story
+
+- **Story**  tells who and what.   
+  - Series of events recorded in their chronological order,  sequence of events.
+  - Story includes all of the events described that make up a narrative.
+
+
+#  Plot
+- **Plot** tells how.   
+  - With story in mind, you can decide how to plot it.
+  - Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
+
+
+
+
+# Narration
+- **Narrative** tells why.   
+  - Interpretation of the events within the story. point of view of the story.
 
 ### Narration types  
 - **Explicit** - cutscenes text written  
@@ -58,13 +65,13 @@ Unique story or have a twist or sth to say.
 
 ### Point of view
 
-- **1st Person** - I Me My.
+- 1st Person - I Me My.
   - Character is telling the story.
 connection,m acces to thoughts. They share emotions. / in vilan shose you can understand vilan. / strong characterisation
 but: restricted to one chatacter, dificult .filter words to show perspopective of character
-- **2nd Person** - You/Your.  
+- 2nd Person - You/Your.  
   - Narrator speak to the reader.
-- **3rd Person** - She/He Her/His.
+- 3rd Person - She/He Her/His.
   - External narrator is telling the story.
 
 ### Narrator
@@ -113,11 +120,7 @@ comedy, tragedy, dramat
 # Game vs. Player story domination
 scale: narrative to mechanics driven
 
-#### dialogues
-Plot Exposition  
-Character Exposition  
-Emotional Exposition  
-Gameplay Exposition  
+
 
 
 # Ludo narrative Harmony
@@ -231,7 +234,7 @@ Plant idea ahead and earlier to connect later
 
 ----
 
-##  Motive
+##  Motifs
 motivation for character
 - inretnal change sth inside person. Overcoming grive / block
 - external: change sth in world outside / travel / fulfill emotions
@@ -309,7 +312,7 @@ Necessity of sacrificing loved ones|
 Rivalry of superior vs. inferior|
 Adultery|
 Crimes of love|
-Discovery of the dishonour of a loved one|
+Discovery of the dishonor of a loved one|
 Obstacles to love|
 An enemy loved|
 Ambition|
@@ -326,7 +329,7 @@ Loss of loved ones|
 - Wants vs needs
 - Mind (primal mammal) vs Soul (fulfill to have superior existence)
 
-Rational explanations for war (war sis costly and why cant we settle differences at the bargening table)
+Rational explanations for war (war sis costly and why cant we settle differences at the bargaining table)
 - preventive wars - preemptive war
 - asymmetric information and incentives to misrepresent
 - issue indivisibility
@@ -371,15 +374,15 @@ competence !
 
 |.|||
 |---|---|---|
-| Hero | protagonist. Atempt to resolve conflict
+| Hero | protagonist. Attempt to resolve conflict
 |Audience identification, change growth action risk sacrifice
 |Personal, Primal Stakes
 | Herald | deliver  story-kickstarting message
-| Mentor | Teachnig/ giving gifts / bad advices /. motivation conscience, sometimes short lifespans
+| Mentor | Teaching / giving gifts / bad advices /. motivation conscience, sometimes short lifespans
 |Threshold Guardian/Henchman | he blocks the progress
 |Trickster / Comic | f comic relief
 |Shape-Shifter | Shapeshifting characters are great catalysts for crucial story components such as surprises, plot twists, and red herrings
-|Villain | generator/defender of themain conflict, and that he exists to present the final challenge to the Hero
+|Villain | generator/defender of the main conflict, and that he exists to present the final challenge to the Hero
 
 - great mother, father
 - devil, god
@@ -432,6 +435,13 @@ Slow| continuous, integrate shock, constraint, consistency | Has all the power
 
 
 # Dialogues
+
+
+Plot Exposition  
+Character Exposition  
+Emotional Exposition  
+Gameplay Exposition  
+
 
 ---
 
