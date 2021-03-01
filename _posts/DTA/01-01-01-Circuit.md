@@ -221,22 +221,16 @@ trick
 # Circuit Hardware
 
 
-**Setup View** -  holding down Shift and pressing Save
+**Setup View** -  `Shift` + `Save`
 
-**Advanced Setup View**
-. -  It is entered by holding down Shift
-while powering the unit on
-
-  - Use the Duplicate button 18 to set the behaviour. When Duplicate is lit bright green, the MIDI Thru
-port will act as a second MIDI Out. W
-
-Advanced Setup View. When the compressor
-is enabled, the FX button lights bright green: when it is disabled, it lights dim red.
-
-To enable **Save Lock**, hold both Shift and Save down while powering the unit on.
+**Advanced Setup View** - `Shift` while `powering on`  
+ - 2 MIDI Out enable:  Duplicate button is green
+ - Enable compressor FX button is green
+ - note:  Easy Start Tool
+**Save Lock** - `Shift` + `Save`  while `powering on`.
 
 
-**Bootloader Mode** - Hold down the Scales 9 , Preset 14 and Note
+**Bootloader Mode** - Hold down the `Scales` , `Preset` and `Note`
 
 Synth 1 and Synth 2 are lit; selecting either of these displays a pattern of illuminated pads; the
 pattern represents the version numbers of the three firmware elements in binary form. You may need
@@ -280,7 +274,7 @@ is confrmed by the Velocity button illuminating white while Shift is held down
  multiplier/divider of the BPM
  1/16 is the default sync rate, where each step corresponds to a 16th note.
 
-|||||defdault||||
+|1/4| |halfstep||1:1||2x||
 |---|---|---|---|---|---|---|---|
 1/4| 1/4 T |1/8| 1/8 T |1/16 |1/16 T| 1/32| 1/32 T
 
@@ -379,6 +373,7 @@ https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Ci
 
 
 
+
 ---
 
 
@@ -452,23 +447,3 @@ https://cymatics.fm/pages/free-download-vault
 https://www.noiiz.com/  
 https://www.looperman.com/  
 https://r-loops.com/  
-
-
-
-```
-- delete pattern not set tempo to 180
-- side chain tab looks unused a lot of space > Arpeggiator
-- abilities to preview last save difference (shift + session)
-- delete all knob manipulation recordings (shift + clear )
-- set start length (not always from 1 note let you nudge notes more ferally)
-- able to nudge one note (there is a place in nudge mode)
-- set gates length not only in record play mode
-- slight color difference on sample swap (to know which are uses)
-- Shift duplicate  - move (now its slow)
-- remember sample names in software (bug)
-- szybka kasacja samplke swapów i knobówhere
-- - select aample + shift (change only in this stamp)
-- notes lolonger than 2 patterns length
-- MIDI 2.0
-- drum page is empty
-```

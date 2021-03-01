@@ -17,11 +17,7 @@ DUALITY
 
 Archetypes - are often symbols represented in literature and in art by symbols .
 
-# Medium
-- Every medium have it own narration style. Linear narrative is not enough for games.  
-- See or listen not as powerful as play themselves
 
----
 
 
 ## Key Concept
@@ -36,6 +32,60 @@ Unique story or have a twist or sth to say.
 Telling stories is in human nature.  
 Stories define how we consume information.    
 
+
+
+---
+
+
+# Medium
+- Every medium have it own narration style. Linear narrative is not enough for games.  
+- See or listen not as powerful as play themselves
+
+
+## Literary genre
+
+
+### Poetry
+(liryka) (podmiot liryczny)
+
+### Drama
+(bohater)
+Na scenie  
+comedy, tragedy, dramat
+
+### Fiction/nonfiction
+(epika) (narrator)
+
+ nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.
+
+
+**Przypowieść** (inaczej parabola)    w którym przedstawione postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, lecz mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Mimo że przypowieść często ma rozwiniętą fabułę, to zawsze pozostaje ona z racji swego przykładowego charakteru silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego.
+
+**exemplum** (przykład) - odwołuje się do świata znanego swoim odbiorcom,  
+
+**Mystery** - Fiction story that revolves around discovering secrets or solving crimes
+
+**Folktale** - belie with exaggerated chracters and obstacles that is passed down over  
+- Myth  - sacred and explain how things cam eto be
+- Tall Tale - humorous
+- Fairy Tail  - happy end with magic
+- Fable - teach morals with animals as char.
+- Legend - based on real person but cannot be proven
+
+
+#### Gatunki pograniczne
+ to gatunki z pogranicza literatury, nauki i publicystyki, np. esej, felieton, reportaż. Bio
+
+
+
+
+## Game vs. Player story domination
+Game vs. Player story domination
+scale: narrative to mechanics driven
+
+
+
+---
 
 
 #  Story
@@ -75,59 +125,24 @@ but: restricted to one chatacter, dificult .filter words to show perspopective o
   - External narrator is telling the story.
 
 ### Narrator
-  ||||
-  |---|---|---|
-  Ontology | homodiegetic (within world)| heterodiegetic (outside (commentary/hud))
-  Shapedness | personal | non-personal
-  Knowledge | restricted | omnipotent
-  Story world facts | representing (represents exiting world) | stipulating  (stipulates story through narration)
+
+||||
+|---|---|---|
+|Ontology | homodiegetic (within world)| heterodiegetic (outside (commentary/hud))
+|Shapedness | personal | non-personal
+|Knowledge | restricted | omnipotent
+|Story world facts | representing (represents exiting world) | stipulating  (stipulates story through narration)
 
   Commentator/Interviewer
-
-## Literary genre
-
-
-#### Poetry (liryka) (podmiot liryczny)
-#### Drama (bohater)
-Na scenie  
-comedy, tragedy, dramat
-#### Fiction/nonfiction (epika) (narrator)
- nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.
-
-
-**Przypowieść** (inaczej parabola)    w którym przedstawione postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, lecz mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Mimo że przypowieść często ma rozwiniętą fabułę, to zawsze pozostaje ona z racji swego przykładowego charakteru silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego.
-
-**exemplum** (przykład) - odwołuje się do świata znanego swoim odbiorcom,  
-
-**Mystery** - Fiction story that revolves around discovering secrets or solving crimes
-
-**Folktale** - belie with exaggerated chracters and obstacles that is passed down over  
-- Myth  - sacred and explain how things cam eto be
-- Tall Tale - humorous
-- Fairy Tail  - happy end with magic
-- Fable - teach morals with animals as char.
-- Legend - based on real person but cannot be proven
-
-
-#### Gatunki pograniczne
- to gatunki z pogranicza literatury, nauki i publicystyki, np. esej, felieton, reportaż. Bio
-
-
 
 
 ---
 
-# Game vs. Player story domination
-scale: narrative to mechanics driven
+# Ludonarrative Harmony
 
 
 
-
-# Ludo narrative Harmony
-
-## Components
-
-### Place, Time, Character
+## Place, Time, Character
 Cannot say a story without **Place**, **Time** and **Character**. Or you can :> ?
 - **Premise** -  Meaningful, Promise, announce
 - **Causality** -  Therefor instead of: Then  (a means to an end)
@@ -140,9 +155,11 @@ Memorable moments:
 - **Peak** -  (tentpole - most expensive mom)  
 - **End** - brain reference to those experience and have impact to long term memory    
 
-## Structure
+---
 
-### Stories Shape
+# Structure
+
+###### Story Shape
 Ups and downs
 
 ###### Tension
@@ -152,22 +169,14 @@ balance between: anxiet  and boredom
 
 
 
-### 3 Acts
-Greek  
-Setup > conflict > resolution
-plot points are between phases
-(opening > crises > up tension > climax > denouement  )
+###### Scope
+To much stories in witch the fate of the world was at stake
+Bigeger stakes not equal more powerfull stories
 
 
 
-### Monomyth
-  Heroes Journey: **You**, **Need**, **Go**, **Search**, **Find**, **Take**, **Return**, **Change**  (Joseph Campbell)
-  - What with serials and games ? Its less relevant.
-
-
-
-### Meta-plot
-Grand narrative
+## Meta
+Meta-plot Grand narrative
 Claim to apply to all people (common to everyone.)
 Universal, Natural, Structural,
 (what really behind story.)
@@ -183,10 +192,25 @@ not how human is but how should bne like
 Post modernism - skepticism tough meta narrative
 no such think as through knowledge all we have is subjecvtiver opinion
 
-### Archetypal Events
-: birth, death, separation from parents, initiation, marriage, the union of opposites;
+#### Archetypal Events
+Birth, Death, Separation from parents, Initiation, Marriage, Union of opposites
 
-### 4-Layers in games
+
+## Three-act structure
+Greek  
+Setup > conflict > resolution  
+plot points are between phases  
+(opening > crises > up tension > climax > denouement)  
+
+
+
+## Monomyth
+  Heroes Journey: **You**, **Need**, **Go**, **Search**, **Find**, **Take**, **Return**, **Change**  (Joseph Campbell)
+  - What with serials and games ? Its less relevant.
+
+
+## Game Layers
+4-Layers in games
   1. what am I doing and how
   2. narrative goal (short term) gratifications
   3. Narrative background. How my knowledge increase
@@ -197,44 +221,37 @@ https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.
 
 
 
-### Scope
-To much stories in witch the fate of the world was at stake
-Bigeger stakes not equal more powerfull stories
+-----------
+
+# Exposition
+Coincidence are bad in story
 
 
-## Exposition
+**Seeding**   
+Spreading tiny bits of exposition
 
-Coincidence are bad in stroy
+**Payoff**   
+Response   
 
-### Show it dont tell it
-show vs tell - showing dramatizes / telling summarize
+**Foreshadowing**   
+Plant idea ahead and earlier to connect later  
 
-“Talk is cheap.” “Actions speak louder than words
 
-Show not tell
-showing dramatize
-tell summarize
+### Show vs Tell
+Showing dramatizes / telling summarize
 
-as long as it character thing its ok,
-stronger showing
+
+###### Stronger showing
+Show it don't tell it “Talk is cheap.” Actions speak louder than words
+
 - use evidence for claims
 - emotions are complex concept and must be shoiwn with details
 
-
-
-###  Seeding
-spreading tiny bits of
-exposition
-
-### Payoff
-RESPONCE -
-
-### Foreshadowing
-Plant idea ahead and earlier to connect later
+(as long as it character think its ok)
 
 ----
 
-##  Motifs
+#  Motifs
 motivation for character
 - inretnal change sth inside person. Overcoming grive / block
 - external: change sth in world outside / travel / fulfill emotions
@@ -243,7 +260,7 @@ motivation for character
 
 
 
-### Archetypal motifs
+## Archetypal motifs
 
 ##### Creation / Apocalypse   
 - Deluge  
@@ -264,8 +281,8 @@ quest / initiationm / sacrafice
 |Darkness | Winter | Dissolution phase
 
 
-### The Seven Basic Plots
-theory developed by Christopher Booker
+## The Seven Basic Plots
+Theory developed by Christopher Booker
 a Jung-influenced analysis of stories and their psychological meaning.
 
 
@@ -280,51 +297,25 @@ Tragedy | Fall of fundamentally good character
 Comedy | Dramatic work in which the central motif is the triumph over adverse circumstance, resulting in a successful or happy conclusion.  conflict becomes more and more confusing, but is at last made plain in a single clarifying event.
 
 
-### The 36 situations
+## The 36 situations
 For Genre Analysis by  Georges Polti / Carlo Gozzi
 
 
 |||
 |--|--|
-Supplication|
-Deliverance|
-Crime pursued by vengeance|
-Vengeance taken for kin upon kin|
-Pursuit|
-Disaster|
-Falling prey to cruelty/misfortune|
-Revolt|
-Daring enterprise|
-Abduction|
-The enigma|
-Obtaining|
-Enmity of kin|
-Rivalry of kin|
-Murderous adultery|
-Madness|
-Fatal imprudence|
-Involuntary crimes of love|
-Slaying of kin unrecognized|
-Self-sacrifice for an ideal|
-Self-sacrifice for kin|
-All sacrificed for passion|
-Necessity of sacrificing loved ones|
-Rivalry of superior vs. inferior|
-Adultery|
-Crimes of love|
-Discovery of the dishonor of a loved one|
-Obstacles to love|
-An enemy loved|
-Ambition|
-Conflict with a god|
-Mistaken jealousy|
-Erroneous judgment|
-Remorse|
-Recovery of a lost one|
-Loss of loved ones|
+||Daring enterprise, Deliverance, The enigma, Obtaining
+|Conflict |Rivalry of superior vs. inferior
+||Adultery ,Disaster,Crime pursued by vengeance, Murderous adultery, Madness,  Remorse
+|| Conflict with a god, Falling prey to cruelty/misfortune
+||Erroneous judgment, Fatal imprudence, Supplication
+Action| Abduction, Revolt, Pursuit
+Sacrifice | Ambition, Self-sacrifice for an ideal ,Self-sacrifice for kin, All sacrificed for passion
+Love | Loss of loved ones, Recovery of a lost one, An enemy loved, Obstacles to love, Discovery of the dishonor of a loved one, Necessity of sacrificing loved ones, Mistaken jealousy, Involuntary crimes of love, Crimes of love
+Kin | Rivalry of kin, Enmity of kin, Vengeance taken for kin upon kin, Slaying of kin unrecognized
 
 
-### Conflict
+
+## Conflict
 - konflikt interesów
 - Wants vs needs
 - Mind (primal mammal) vs Soul (fulfill to have superior existence)
@@ -334,26 +325,77 @@ Rational explanations for war (war sis costly and why cant we settle differences
 - asymmetric information and incentives to misrepresent
 - issue indivisibility
 
-### Mystery
+## Mystery
 
-### Meaning
+## Meaning
 Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
 
-#####  collective unconscious
-Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
-Universal through shared by all cultures  
-- Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
 
-### Emotions
+## Emotions
 
 emotions :
 - thrill
 - positive
 - interest rhythm,
 
+
+
+
+---
+
+#####  collective unconscious
+Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
+Universal through shared by all cultures  
+- Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
+
+
 [Human Motivation](/motivation/)  
 
 - do you have power over the world
+
+
+---
+
+# Mechanics in narration
+
+[Mechanics](/gamemechanics/)  
+
+Earier established gandra
+Try to implement plot in mechanics
+mechanick video storytell:
+- odcinnie ryb
+- nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
+morrals
+attach to charcter
+---
+
+
+# Lore
+Themes / levels /   
+What is about / what thread bind it together
+
+
+Consistency/e Believability  
+
+
+## Pace layers
+6 layers that function simultaneously at different speeds within society by Stuart Brand  and (architect Frank Duffy)
+
+
+|Years|Stuart Brand layer | Function | Frank Duffy | Bourdieu|
+| - | - | - | - | - |
+0|Fashion, Art | Innovate (New Ideas, competitive) | Stuff (Sets changes)| Events
+5|Commerce | Differentiation (better ideas, unique process)| Space Plan (Furniture changes)|
+15|Infrastructure | Record (slow, incremental, preservation, efficiency, common ideas) | Service (pipes and maintenance )| Economic / Society
+70|Governance | | Skin, (human)|
+100|Culture |  | Structure (building )|
+forever|Nature |  | Site (place, )| Environment
+
+||||
+| - | - | - |
+Fast|discontionus | absorb shock, learn, innovation, revolution | Has all the attention
+Slow| continuous, integrate shock, constraint, consistency | Has all the power
+
 
 ---
 
@@ -400,35 +442,6 @@ competence !
 ###  Character Arcs
 change in a
 character and/or his situation is called an arc.
-
-
----
-
-# Lore
-Themes / levels /   
-What is about / what thread bind it together
-
-
-Consistency/e Believability  
-
-
-## Pace layers
-6 layers that function simultaneously at different speeds within society by Stuart Brand  and (architect Frank Duffy)
-
-
-|Years|Stuart Brand layer | Function | Frank Duffy | Bourdieu|
-| - | - | - | - | - |
-0|Fashion, Art | Innovate (New Ideas, competitive) | Stuff (Sets changes)| Events
-5|Commerce | Differentiation (better ideas, unique process)| Space Plan (Furniture changes)|
-15|Infrastructure | Record (slow, incremental, preservation, efficiency, common ideas) | Service (pipes and maintenance )| Economic / Society
-70|Governance | | Skin, (human)|
-100|Culture |  | Structure (building )|
-forever|Nature |  | Site (place, )| Environment
-
-||||
-| - | - | - |
-Fast|discontionus | absorb shock, learn, innovation, revolution | Has all the attention
-Slow| continuous, integrate shock, constraint, consistency | Has all the power
 
 
 ---
@@ -484,19 +497,6 @@ Gameplay Exposition
 || ready for external struggle (object - singular plural nones )
 
 
----
-
-# Mechanics in narration
-
-[Mechanics](/gamemechanics/)  
-
-Earier established gandra
-Try to implement plot in mechanics
-mechanick video storytell:
-- odcinnie ryb
-- nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
-morrals
-attach to charcter
 
 ---
 
