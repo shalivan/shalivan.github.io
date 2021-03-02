@@ -12,11 +12,13 @@ permalink: /narration/
 ---
 
 
-story is examplles ?  
-DUALITY  
 
-Archetypes - are often symbols represented in literature and in art by symbols .
 
+
+
+
+Telling stories is in human nature.  
+Stories define how we consume information.    
 
 
 
@@ -27,10 +29,8 @@ Unique story or have a twist or sth to say.
 - Book is more than one idea.
 - care about story: imply meaning, to enable discover meaning
 - during the story object can inherit meaning and emotional value
-
-
-Telling stories is in human nature.  
-Stories define how we consume information.    
+- story is examplles ?  
+- Archetypes - are often symbols represented in literature and in art by symbols .
 
 
 
@@ -83,6 +83,8 @@ comedy, tragedy, dramat
 Game vs. Player story domination
 scale: narrative to mechanics driven
 
+
+- do you have power over the world
 
 
 ---
@@ -138,8 +140,11 @@ but: restricted to one chatacter, dificult .filter words to show perspopective o
 
 ---
 
-# Ludonarrative Harmony
+Ludonarrative Harmony
 
+---
+
+# Structure
 
 
 ## Place, Time, Character
@@ -155,23 +160,8 @@ Memorable moments:
 - **Peak** -  (tentpole - most expensive mom)  
 - **End** - brain reference to those experience and have impact to long term memory    
 
----
-
-# Structure
-
-###### Story Shape
-Ups and downs
-
-###### Tension
-crisis and climax
-dyolemat niejednoznaczne rozwiazanie
-balance between: anxiet  and boredom
 
 
-
-###### Scope
-To much stories in witch the fate of the world was at stake
-Bigeger stakes not equal more powerfull stories
 
 
 
@@ -195,6 +185,8 @@ no such think as through knowledge all we have is subjecvtiver opinion
 #### Archetypal Events
 Birth, Death, Separation from parents, Initiation, Marriage, Union of opposites
 
+## Story Shape
+Ups and downs
 
 ## Three-act structure
 Greek  
@@ -221,33 +213,6 @@ https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.
 
 
 
------------
-
-# Exposition
-Coincidence are bad in story
-
-
-**Seeding**   
-Spreading tiny bits of exposition
-
-**Payoff**   
-Response   
-
-**Foreshadowing**   
-Plant idea ahead and earlier to connect later  
-
-
-### Show vs Tell
-Showing dramatizes / telling summarize
-
-
-###### Stronger showing
-Show it don't tell it “Talk is cheap.” Actions speak louder than words
-
-- use evidence for claims
-- emotions are complex concept and must be shoiwn with details
-
-(as long as it character think its ok)
 
 ----
 
@@ -255,6 +220,14 @@ Show it don't tell it “Talk is cheap.” Actions speak louder than words
 motivation for character
 - inretnal change sth inside person. Overcoming grive / block
 - external: change sth in world outside / travel / fulfill emotions
+
+
+
+###### Tension
+crisis and climax
+dyolemat niejednoznaczne rozwiazanie
+balance between: anxiet  and boredom
+
 
 
 
@@ -271,6 +244,7 @@ motivation for character
 
 ##### Hero Arhetype
 quest / initiationm / sacrafice
+
 ##### Season / Life cycle
 
 ||||
@@ -305,7 +279,7 @@ For Genre Analysis by  Georges Polti / Carlo Gozzi
 |--|--|
 ||Daring enterprise, Deliverance, The enigma, Obtaining
 |Conflict |Rivalry of superior vs. inferior
-||Adultery ,Disaster,Crime pursued by vengeance, Murderous adultery, Madness,  Remorse
+||Adultery ,Disaster, Crime pursued by vengeance, Murderous adultery, Madness,  Remorse
 || Conflict with a god, Falling prey to cruelty/misfortune
 ||Erroneous judgment, Fatal imprudence, Supplication
 Action| Abduction, Revolt, Pursuit
@@ -339,22 +313,49 @@ emotions :
 - interest rhythm,
 
 
+DUALITY  
 
 
 ---
-
+```
 #####  collective unconscious
 Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
 Universal through shared by all cultures  
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
-
+```
 
 [Human Motivation](/motivation/)  
 
-- do you have power over the world
 
 
 ---
+
+
+# Exposition
+Coincidence are bad in story
+
+
+**Seeding**   
+Spreading tiny bits of exposition
+
+**Payoff**   
+Response   
+
+**Foreshadowing**   
+Plant idea ahead and earlier to connect later  
+
+
+### Show vs Tell
+Showing dramatizes / telling summarize
+
+
+###### Stronger showing
+Show it don't tell it “Talk is cheap.” Actions speak louder than words
+
+- use evidence for claims
+- emotions are complex concept and must be shoiwn with details
+
+(as long as it character think its ok)
 
 # Mechanics in narration
 
@@ -367,7 +368,10 @@ mechanick video storytell:
 - nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
 morrals
 attach to charcter
+
 ---
+
+
 
 
 # Lore
@@ -376,6 +380,10 @@ What is about / what thread bind it together
 
 
 Consistency/e Believability  
+
+###### Scope
+To much stories in witch the fate of the world was at stake
+Bigeger stakes not equal more powerfull stories
 
 
 ## Pace layers
