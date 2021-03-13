@@ -84,17 +84,15 @@ Game is more than one idea.
 
 
 
-# Meta-plot
+# Meta
+**Grand narrative**   - what really behind story.  
 
-Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjecvtiver opinion)
+Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjecvtiver opinion) [Lyotard (postmodern coditoin book)]
 
 #### Archetypal Events
-Grand narrative  - what really behind story.  
+
 - Morals, Universal, Natural, Structural, Claim to apply to all people (common to everyone.)
 - Birth, Death, Separation from parents, Initiation, Marriage, Union of opposites
-
-
-[Lyotard (postmodern coditoin book)]
 
 ####  Collective Unconscious
 Universal through shared by all cultures  
@@ -117,13 +115,13 @@ Structure of collective mind shared by all humans. Jung: is populated by instinc
 
 #### Point of view
 
-- **1st** -  I / Me / My | Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character
-- **2nd** -  You / Your | Narrator speak to the reader.
-- **3rd** -  She / He Her / His | External narrator is telling the story.
+- **1st** -  I / Me / My - Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character
+- **2nd** -  You / Your - Narrator speak to the reader.
+- **3rd** -  She / He Her / His - External narrator is telling the story.
 
 #### Narrator
 
-Commentator/Interviewer
+Commentator / Interviewer
 
 ||||
 |---|---|---|
