@@ -25,16 +25,12 @@ Expand our view of the world
 
 
 # Medium
-Every medium have it own narration style. Linear narrative is not enough for games. See or listen not as powerful as play themselves. And structure in games is not as important.
+Every medium have it own narration styles, variny on genres and format (series, shorts...). Linear narrative is not enough for games. See or listen not as powerful as play themselves. And structure in games is not as important.
 
 
-#### Format
-- Series  
+## Literary
 
-
-
-## Literary genres
-
+#### Genres:
 **Poetry** (liryka) (podmiot liryczny)  
 **Drama** (bohater) Na scenie  comedy, tragedy, dramat  
 **Fiction / Nonfiction** (epika) (narrator)  nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.  
@@ -51,10 +47,11 @@ Every medium have it own narration style. Linear narrative is not enough for gam
 
 
 
-## Games vs Player
-Narrative to mechanics driven  
-**Game story domination**  
-**Player story domination**    
+## Games
+#### Narrative vs mechanics driven:  
+
+**Game story domination**  -   
+**Player story domination** -     
 
 
 
@@ -62,8 +59,12 @@ How much power over the world
 
 ---
 
-elevator pitches - Unique story or have a twist or something to say.    
-Game is more than one idea.  
+# Idea
+Game is more than one idea.
+
+**Elevator pitch**
+- Unique story or have a twist or something to say.    
+
 
 
 #  Story
@@ -80,6 +81,27 @@ Game is more than one idea.
   - Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
 
 **Umbrela plot**  we will do x because core plot of genre
+
+
+
+# Meta-plot
+
+Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjecvtiver opinion)
+
+#### Archetypal Events
+Grand narrative  - what really behind story.  
+- Morals, Universal, Natural, Structural, Claim to apply to all people (common to everyone.)
+- Birth, Death, Separation from parents, Initiation, Marriage, Union of opposites
+
+
+[Lyotard (postmodern coditoin book)]
+
+####  Collective Unconscious
+Universal through shared by all cultures  
+Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
+
+- Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
+
 
 
 # Narration
@@ -113,11 +135,12 @@ Commentator/Interviewer
 
 
 
+
 ---
 
 # Structure
 
-Cannot say a story without **Place**, **Time** and **Character**. Or you can :> ?
+Cannot say a story without **Place**, **Time** and **Character**. Or you can
 
 - plot relevancy - only add essentials that matter. to much - boring, to little - implausible
 - every question brought by the plot is an promise , keep best to keep those promises
@@ -142,8 +165,8 @@ Plot points are between phases
 Narrative arc make  viewer curious how story will end
 
 **Exposition** - settings and places   opening  during the story object can inherit meaning and emotional value    
-**Rising Action** - move plot forward    
-**Climax** - tensest moment of crisis  
+**Rising Action** - move plot forward, establish conflict     
+**Climax** - tensest moment of crisis  , confronataion  
 **Falling Action** - move toward ending   denouement  
 **Resolution**  - back to stability  
 
@@ -154,6 +177,26 @@ Heroes Journey by Joseph Campbell:
 
 Not relevant for series
 
+
+## Other structures ....
+
+- **Causality** -  Therefor instead of: Then  (a means to an end)
+
+#### Introduce motifs
+- roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
+- cold open (start in adventure)
+
+- **Premise** -  Meaningful, Promise, announce (in the end subtle inversion to promise )
+- promise > progress > payoff
+
+#### Twist
+
+#### Payoff
+- payoff should give u everything from premies of begininig
+character how will change    
+
+#### Story Shape
+Ups and downs tension !!!!
 
 
 ## Games structure
@@ -166,89 +209,7 @@ Mechanics should be part of narration - We've now gone from just having a really
 
 Mental Modeling. Sense of mental image of game. that we would like to get.
 
-# Meta-plot
-Grand narrative  - what really behind story.  
-Universal, Natural, Structural, Claim to apply to all people (common to everyone.)
-Morals
-
-
-
-Lyotard (postmodern coditoin book)
-
-```
-[our chices and outtside forces are prepearing and shaping what come next  ]
-wy we are here what abnout future what are consequences, story about being free
-not how human is but how should be like
-[] nature is not only good it kills u too. and culture saves u
-```
-
-```
-Post modernism - skepticism tough meta narrative
-no such think as through knowledge all we have is subjecvtiver opinion
-postmodernism: world is more complicated. Any large claim to be a thrue for all people is outdated  (short termism) not about future
-```
-
-#####  Collective Unconscious
-Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
-Universal through shared by all cultures  
-- Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
-
-#### Archetypal Events
-Birth, Death, Separation from parents, Initiation, Marriage, Union of opposites
-
-
-
-
-
-
-
-
-## Introduce motifs
-- roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
-- cold open (start in adventure)
-- twist
-``
-
-
-
-
-- **Premise** -  Meaningful, Promise, announce (in the end subtle inversion to promise )
-- promise > progress > payoff
-- payoff should give u everything from premies of begininig
-
-
-```
--
-
-
-
-- **Causality** -  Therefor instead of: Then  (a means to an end)
-
--  **Establish conflict**, **Twist**
-
-confronataio
-character how will change /   
-
-```
-
-
-
-```
-**Mystery** - Fiction story that revolves around discovering secrets or solving crimes
-
-known   
-known unknown   
-unknown unknow  
-```
-```
-
-
-#### Story Shape
-Ups and downs tension !!!!
-`
-
-
-----
+---
 
 #  Motifs
 
@@ -365,6 +326,16 @@ Rational explanations for war (war sis costly and why cant we settle differences
 - issue indivisibility
 
 ## Mystery
+
+
+
+**Mystery** - Fiction story that revolves around discovering secrets or solving crimes
+
+known   
+known unknown   
+unknown unknow  
+
+
 
 ## Meaning
 Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
