@@ -87,6 +87,9 @@ Game is more than one idea.
 # Meta
 **Grand narrative**   - what really behind story.  
 
+## Meaning
+Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
+
 Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjecvtiver opinion) [Lyotard (postmodern coditoin book)]
 
 #### Archetypal Events
@@ -113,13 +116,13 @@ Structure of collective mind shared by all humans. Jung: is populated by instinc
 **Emergent** -    
 **Environmental narration** -    
 
-#### Point of view
+### Point of view
 
 - **1st** -  I / Me / My - Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character
 - **2nd** -  You / Your - Narrator speak to the reader.
 - **3rd** -  She / He Her / His - External narrator is telling the story.
 
-#### Narrator
+### Narrator
 
 Commentator / Interviewer
 
@@ -178,14 +181,16 @@ Not relevant for series
 
 ## Other structures ....
 
-- **Causality** -  Therefor instead of: Then  (a means to an end)
 
-#### Introduce motifs
+
+#### Introduction
 - roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
 - cold open (start in adventure)
 
-- **Premise** -  Meaningful, Promise, announce (in the end subtle inversion to promise )
-- promise > progress > payoff
+
+#### Premise
+- Meaningful, Promise, announce (in the end subtle inversion to promise )
+- Promise > Progress > Payoff
 
 #### Twist
 
@@ -193,8 +198,15 @@ Not relevant for series
 - payoff should give u everything from premies of begininig
 character how will change    
 
-#### Story Shape
-Ups and downs tension !!!!
+
+#### Cycles
+- Therefor instead of: Then  (a means to an end)  (Causality)
+- Story Shape Ups and downs tension !!!!
+
+try fail
+   fail and find  new: clue, inspiration, information
+   plot expansion: instead of twist /u get more than promisied not unexpected change  
+   change
 
 
 ## Games structure
@@ -236,6 +248,10 @@ balance between: anxiet  and boredom
 
 ## Archetypal motifs
 - Archetypes - are often symbols represented in literature and in art by symbols .
+
+#### duality
+- black and white reality is simple but .... ??
+contrast: elemental oposites. dobro zło ogien lod
 
 
 ##### Creation / Apocalypse   
@@ -324,19 +340,11 @@ Rational explanations for war (war sis costly and why cant we settle differences
 - issue indivisibility
 
 ## Mystery
-
-
-
-**Mystery** - Fiction story that revolves around discovering secrets or solving crimes
+Fiction story that revolves around discovering secrets or solving crimes
 
 known   
 known unknown   
 unknown unknow  
-
-
-
-## Meaning
-Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
 
 
 ## Emotions
@@ -347,15 +355,7 @@ emotions :
 - interest rhythm,
 
 
-#### DUALITY  
-- black and white reality is simple but .... ??
-contrast: elemental oposites. dobro zło ogien lod
 
-#### cycle
-try fail
-   fail and find  new: clue, inspiration, information
-   plot expansion: instead of twist /u get more than promisied not unexpected change  
-   change
 ---
 
 [Human Motivation](/motivation/)  
@@ -365,9 +365,6 @@ try fail
 
 ---
 
-Ludo narrative Harmony
-
----
 
 
 # Exposition
@@ -398,17 +395,8 @@ Show it don't tell it “Talk is cheap.” Actions speak louder than words
 
 (as long as it character think its ok)
 
-# Mechanics in narration
-
-[Mechanics](/gamemechanics/)  
-
-Earier established gandra
-Try to implement plot in mechanics
-mechanick video storytell:
-- odcinnie ryb
-- nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
-morrals
-attach to charcter
+---
+# Ludo narrative Harmony
 
 ---
 
@@ -508,6 +496,21 @@ Character Exposition
 Emotional Exposition  
 Gameplay Exposition  
 
+
+---
+
+
+# Mechanics in narration
+
+[Mechanics](/gamemechanics/)  
+
+Earier established gandra
+Try to implement plot in mechanics
+mechanick video storytell:
+- odcinnie ryb
+- nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
+morrals
+attach to charcter
 
 ---
 
