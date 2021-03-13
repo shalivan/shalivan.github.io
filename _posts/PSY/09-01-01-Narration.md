@@ -20,113 +20,88 @@ permalink: /narration/
 Telling stories is in human nature.  
 Stories define how we consume information.    
 
-
-
-## Key Concept
-What is the topic, what are the issue.  
-Unique story or have a twist or sth to say.   
-- Give 2+2 (simple deduction)
-- Book is more than one idea.
-- care about story: imply meaning, to enable discover meaning
-- during the story object can inherit meaning and emotional value
-- story is examplles ?  
-- Archetypes - are often symbols represented in literature and in art by symbols .
-
-
-
----
+to create emotional experience   
+Expand our view of the world   
 
 
 # Medium
-- Every medium have it own narration style. Linear narrative is not enough for games.  
-- See or listen not as powerful as play themselves
+Every medium have it own narration style. Linear narrative is not enough for games. See or listen not as powerful as play themselves. And structure in games is not as important.
 
 
-## Literary genre
-
-
-### Poetry
-(liryka) (podmiot liryczny)
-
-### Drama
-(bohater)
-Na scenie  
-comedy, tragedy, dramat
-
-### Fiction/nonfiction
-(epika) (narrator)
-
- nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.
-
-
-**Przypowieść** (inaczej parabola)    w którym przedstawione postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, lecz mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Mimo że przypowieść często ma rozwiniętą fabułę, to zawsze pozostaje ona z racji swego przykładowego charakteru silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego.
-
-**exemplum** (przykład) - odwołuje się do świata znanego swoim odbiorcom,  
-
-**Mystery** - Fiction story that revolves around discovering secrets or solving crimes
-
-**Folktale** - belie with exaggerated chracters and obstacles that is passed down over  
-- Myth  - sacred and explain how things cam eto be
-- Tall Tale - humorous
-- Fairy Tail  - happy end with magic
-- Fable - teach morals with animals as char.
-- Legend - based on real person but cannot be proven
-
-
-#### Gatunki pograniczne
- to gatunki z pogranicza literatury, nauki i publicystyki, np. esej, felieton, reportaż. Bio
+#### Format
+- Series  
 
 
 
+## Literary genres
 
-## Game vs. Player story domination
-Game vs. Player story domination
-scale: narrative to mechanics driven
+**Poetry** (liryka) (podmiot liryczny)  
+**Drama** (bohater) Na scenie  comedy, tragedy, dramat  
+**Fiction / Nonfiction** (epika) (narrator)  nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.  
+
+-  **Parable** (przypowieść)  w którym przedstawione postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, lecz mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Mimo że przypowieść często ma rozwiniętą fabułę, to zawsze pozostaje ona z racji swego przykładowego charakteru silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego.
+-  **Exemplum** (Stories are examples ) odwołuje się do świata znanego swoim odbiorcom    
+-  **Folktale** - belie with exaggerated characters and obstacles that is passed down over  
+  - Myth  - sacred and explain how things cam eto be
+  - Tall Tale - humorous
+  - Fairy Tail  - happy end with magic
+  - Fable - teach morals with animals as char.
+  - Legend - based on real person but cannot be proven
+-  **Science and journalism** (Gatunki pograniczne) to gatunki z pogranicza literatury, nauki i publicystyki, np. esej, felieton, reportaż. Bio
 
 
-- do you have power over the world
 
+## Games vs Player
+Narrative to mechanics driven  
+**Game story domination**  
+**Player story domination**    
+
+
+
+How much power over the world
 
 ---
 
+elevator pitches - Unique story or have a twist or something to say.    
+Game is more than one idea.  
+
 
 #  Story
-
-- **Story**  tells who and what.   
+**Story  tells who and what**  
   - Series of events recorded in their chronological order,  sequence of events.
   - Story includes all of the events described that make up a narrative.
+  - What is the topic, what are the issue.
+
 
 
 #  Plot
-- **Plot** tells how.   
+**Plot tells how**  
   - With story in mind, you can decide how to plot it.
   - Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
 
-
+**Umbrela plot**  we will do x because core plot of genre
 
 
 # Narration
-- **Narrative** tells why.   
+**Narrative tells why**   
   - Interpretation of the events within the story. point of view of the story.
 
-### Narration types  
-- **Explicit** - cutscenes text written  
-- **Implicit** - player must figure out itself  
-- **Emergent** -  
-- Environmental narration
+ gameplay, dialog, notes, setting, graphics
 
-### Point of view
+**Explicit** - cutscenes text written    
+**Implicit** - player must figure out itself    
+**Emergent** -    
+**Environmental narration** -    
 
-- 1st Person - I Me My.
-  - Character is telling the story.
-connection,m acces to thoughts. They share emotions. / in vilan shose you can understand vilan. / strong characterisation
-but: restricted to one chatacter, dificult .filter words to show perspopective of character
-- 2nd Person - You/Your.  
-  - Narrator speak to the reader.
-- 3rd Person - She/He Her/His.
-  - External narrator is telling the story.
+#### Point of view
 
-### Narrator
+- **1st** -  I / Me / My | Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character
+- **2nd** -  You / Your | Narrator speak to the reader.
+- **3rd** -  She / He Her / His | External narrator is telling the story.
+
+#### Narrator
+
+Commentator/Interviewer
 
 ||||
 |---|---|---|
@@ -135,25 +110,21 @@ but: restricted to one chatacter, dificult .filter words to show perspopective o
 |Knowledge | restricted | omnipotent
 |Story world facts | representing (represents exiting world) | stipulating  (stipulates story through narration)
 
-  Commentator/Interviewer
 
 
----
-
-Ludonarrative Harmony
 
 ---
 
 # Structure
 
-
-## Place, Time, Character
 Cannot say a story without **Place**, **Time** and **Character**. Or you can :> ?
-- **Premise** -  Meaningful, Promise, announce
-- **Causality** -  Therefor instead of: Then  (a means to an end)
-- **Character** revile when human characters make choices under pressure
--  **Establish conflict**, **Twist**
-- **Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
+
+- plot relevancy - only add essentials that matter. to much - boring, to little - implausible
+- every question brought by the plot is an promise , keep best to keep those promises
+- every step in journey should bring you little bit to final
+- sense of progress from bbullet point to bullet point > sections.
+- moment gfoal reach storuy is over
+
 
 Memorable moments:
 - **Beginning** - to engage   
@@ -162,65 +133,135 @@ Memorable moments:
 
 
 
+## Three-Act structure
+**Setup** > **Conflict** > **Resolution**  
+Plot points are between phases  
+
+
+## Narrative Arc
+Narrative arc make  viewer curious how story will end
+
+**Exposition** - settings and places   opening  during the story object can inherit meaning and emotional value    
+**Rising Action** - move plot forward    
+**Climax** - tensest moment of crisis  
+**Falling Action** - move toward ending   denouement  
+**Resolution**  - back to stability  
+
+
+## Monomyth
+Heroes Journey by Joseph Campbell:   
+**You** >  **Need** > **Go** > **Search** >  **Find** >  **Take** >  **Return** >  **Change**  
+
+Not relevant for series
 
 
 
-## Meta
-Meta-plot Grand narrative
-Claim to apply to all people (common to everyone.)
-Universal, Natural, Structural,
-(what really behind story.)
-postmodernism: world is more complicated. Any large claim to be a thrue for all people is outdated  (short termism) not about future
+## Games structure
+
+Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
+
+
+[//]: # (https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html)
+
+
+Mental Modeling. Sense of mental image of game. that we would like to get.
+
+# Meta-plot
+Grand narrative  - what really behind story.  
+Universal, Natural, Structural, Claim to apply to all people (common to everyone.)
+Morals
+
+
 
 Lyotard (postmodern coditoin book)
 
+```
 [our chices and outtside forces are prepearing and shaping what come next  ]
 wy we are here what abnout future what are consequences, story about being free
-not how human is but how should bne like
+not how human is but how should be like
 [] nature is not only good it kills u too. and culture saves u
+```
 
+```
 Post modernism - skepticism tough meta narrative
 no such think as through knowledge all we have is subjecvtiver opinion
+postmodernism: world is more complicated. Any large claim to be a thrue for all people is outdated  (short termism) not about future
+```
+
+#####  Collective Unconscious
+Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
+Universal through shared by all cultures  
+- Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
 
 #### Archetypal Events
 Birth, Death, Separation from parents, Initiation, Marriage, Union of opposites
 
-## Story Shape
-Ups and downs
-
-## Three-act structure
-Greek  
-Setup > conflict > resolution  
-plot points are between phases  
-(opening > crises > up tension > climax > denouement)  
 
 
 
-## Monomyth
-  Heroes Journey: **You**, **Need**, **Go**, **Search**, **Find**, **Take**, **Return**, **Change**  (Joseph Campbell)
-  - What with serials and games ? Its less relevant.
-
-
-## Game Layers
-4-Layers in games
-  1. what am I doing and how
-  2. narrative goal (short term) gratifications
-  3. Narrative background. How my knowledge increase
-  4. Mental Modeling. Sense of mental image of game. that we would like to get.
-
-https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html
 
 
 
+
+## Introduce motifs
+- roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
+- cold open (start in adventure)
+- twist
+``
+
+
+
+
+- **Premise** -  Meaningful, Promise, announce (in the end subtle inversion to promise )
+- promise > progress > payoff
+- payoff should give u everything from premies of begininig
+
+
+```
+-
+
+
+
+- **Causality** -  Therefor instead of: Then  (a means to an end)
+
+-  **Establish conflict**, **Twist**
+
+confronataio
+character how will change /   
+
+```
+
+
+
+```
+**Mystery** - Fiction story that revolves around discovering secrets or solving crimes
+
+known   
+known unknown   
+unknown unknow  
+```
+```
+
+
+#### Story Shape
+Ups and downs tension !!!!
+`
 
 
 ----
 
 #  Motifs
+
+
+- care about story: imply meaning, to enable discover meaning
+- Give 2+2 (simple deduction) - Invite Questions!!!
+
 motivation for character
 - inretnal change sth inside person. Overcoming grive / block
 - external: change sth in world outside / travel / fulfill emotions
 
+
+- obsticle, desire
 
 
 ###### Tension
@@ -228,12 +269,15 @@ crisis and climax
 dyolemat niejednoznaczne rozwiazanie
 balance between: anxiet  and boredom
 
+- overpowered to much , no tention
 
 
-
+- **Character** revile when human characters make choices under pressure
 
 
 ## Archetypal motifs
+- Archetypes - are often symbols represented in literature and in art by symbols .
+
 
 ##### Creation / Apocalypse   
 - Deluge  
@@ -253,6 +297,13 @@ quest / initiationm / sacrafice
 |Zenith | Summer | Marriage   
 |Sunset | Autumn | Death phase
 |Darkness | Winter | Dissolution phase
+
+## 4 Mice
+
+**Milieu** - enter exit places, navigate, survive (Gulliver)  
+**Inquiry** - find answer the question (murder mysteries )  
+**Character** - identity shift. Internal Thread   
+**Event** - Action caused of new status quo. External thread
 
 
 ## The Seven Basic Plots
@@ -288,6 +339,20 @@ Love | Loss of loved ones, Recovery of a lost one, An enemy loved, Obstacles to 
 Kin | Rivalry of kin, Enmity of kin, Vengeance taken for kin upon kin, Slaying of kin unrecognized
 
 
+przyklady
+- grab  team , make plan , on piece miss, ll go great (oceans)
+- grab team, explain problems, go throu, you have other problem at end (italian job)
+puzzle
+- murder mistery: whn to know what hppened and see if detective is wizer than us
+- romances: wish fulfilmetns
+- change from inactive to proactive
+
+
+
+- rewrite existing story
+- unexpected solution to mainstream problem
+- a big unexpected question
+
 
 ## Conflict
 - konflikt interesów
@@ -313,20 +378,25 @@ emotions :
 - interest rhythm,
 
 
-DUALITY  
+#### DUALITY  
+- black and white reality is simple but .... ??
+contrast: elemental oposites. dobro zło ogien lod
 
-
+#### cycle
+try fail
+   fail and find  new: clue, inspiration, information
+   plot expansion: instead of twist /u get more than promisied not unexpected change  
+   change
 ---
-```
-#####  collective unconscious
-Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
-Universal through shared by all cultures  
-- Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
-```
 
 [Human Motivation](/motivation/)  
 
 
+
+
+---
+
+Ludo narrative Harmony
 
 ---
 
@@ -347,6 +417,8 @@ Plant idea ahead and earlier to connect later
 
 ### Show vs Tell
 Showing dramatizes / telling summarize
+
+- dont show monseter but causes it makes
 
 
 ###### Stronger showing
@@ -377,7 +449,7 @@ attach to charcter
 # Lore
 Themes / levels /   
 What is about / what thread bind it together
-
+- rules for world for all characters same
 
 Consistency/e Believability  
 
@@ -387,6 +459,9 @@ Bigeger stakes not equal more powerfull stories
 
 
 ## Pace layers
+- **Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
+
+- make story on various level of magnification
 6 layers that function simultaneously at different speeds within society by Stuart Brand  and (architect Frank Duffy)
 
 
@@ -457,6 +532,7 @@ character and/or his situation is called an arc.
 
 # Dialogues
 
+- character asking question  is bad cause its simplest way to introduce plot
 
 Plot Exposition  
 Character Exposition  
@@ -505,91 +581,19 @@ Gameplay Exposition
 || ready for external struggle (object - singular plural nones )
 
 
+----
 
----
-
-
-
-```
-
-- sense of progress from bbullet point to bullet point > sections. and organize them in plot
-
-- change from inactive tro proactive  
-- try fail cycle
-
-- dont show monseter but causes it make
-- roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
-
-- promies > progress > payoff
-
-Mistrust and misdirection  oftren are good narative tools
-
-twist
+when cleache is well executed is not a cliche / clishe is when its not driving us to the point  
 
 
-known   
-known unknown   
-unknown unknow  
 
-
-contrast: elemental oposites. dobro zło ogien lod
-
-
-- cold open (start in adventure)
-- when cleache is well executed is not a cliche (clishe is when its not driving us to the point )
-- premiss proper premies and way to get there
-- obsticle, desire
-- pase
-- overpowered to much , no tention
-- slight differences
-- every step in journey should bring you little bit to final
-
-- fail and find  new: clue, inspiration, information
-- umbrela plot : we will do x because core plot of genre
-- arc (character how will change ) suptle inversion to promies
-- strange attractor (new spin on familiar idea / 2 ideas )
-- plot expansion: instead of twist (u get more than promisied not unexpected change)
-- substitution plot :L give sth elese than what expected (harder to write, )
-- payof should give u everything from premies of begininig +
-- FIRST DRAFT IS OUTLINE
-
-przyklady
-- grb team , make plan , on piece miss, ll go great (oceans)
-- grab team, explain problems, go throu, you have other problem at end (italian job)
-puzzle
-- murder mistery: whn to know what hppened and see if detective is wizer than us
-- romances: wish fulfilmetns
-
-```
-
-
-good
-- rewrite existing
-- unexpected solution to mainstream problem
-- start wit your emotions.
-- a big unexpected question
-- make story on various level of magnification   
-- way it happen must be different than last time
-- plot along motivation  
-- novel, unique, cohesive, meaningful  
-- Structure in games is not as important  
-- (theme and moral)
-- Invite Questions!!!
-- plot relevancy - only add essentials that matter. to much - boring, to little - implausible
-- every question brought by the plot is an promise , keep best to keep those promises
-- rules for world for all characters same
-- black and white reality is simple but .... ??
-
-bad
-- exposition - show story
-- character asking question  
-
----
+[//]: # (
+Mistrust and misdirection  oftren are good narative tools  
+strange attractor /new spin on familiar idea / 2 ideas/
+substitution plot :L give sth elese than what expected /harder to write/ )
 
 
 [//]: # (book: the future of narrative in cyberspace
-to show story:
-elevator pitches  
 peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
 Writing > Editing > Voiceovers, Localization > Cinematics
 'we are telling stories to not feel alone in universe ??? '
