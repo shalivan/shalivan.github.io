@@ -57,13 +57,6 @@ Every medium have it own narration styles, variny on genres and format (series, 
 
 How much power over the world
 
----
-
-# Idea
-Game is more than one idea.
-
-**Elevator pitch**
-- Unique story or have a twist or something to say.    
 
 
 
@@ -72,6 +65,11 @@ Game is more than one idea.
   - Series of events recorded in their chronological order,  sequence of events.
   - Story includes all of the events described that make up a narrative.
   - What is the topic, what are the issue.
+
+
+Story is more than one idea.
+**Elevator pitch**
+  - Unique story or have a twist or something to say.    
 
 
 
@@ -136,8 +134,6 @@ Commentator / Interviewer
 
 
 
-
----
 
 # Structure
 
