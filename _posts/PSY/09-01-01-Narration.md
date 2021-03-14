@@ -57,7 +57,7 @@ Every medium have it own narration styles, variny on genres and format (series, 
 
 How much power over the world
 
-
+---
 
 
 #  Story
@@ -135,6 +135,8 @@ Commentator / Interviewer
 
 
 
+---
+
 # Structure
 
 Cannot say a story without **Place**, **Time** and **Character**. Or you can
@@ -205,6 +207,8 @@ try fail
    change
 
 
+#### Endgame
+
 ## Games structure
 
 Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
@@ -220,23 +224,6 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 #  Motifs
 
 
-- care about story: imply meaning, to enable discover meaning
-- Give 2+2 (simple deduction) - Invite Questions!!!
-
-motivation for character
-- inretnal change sth inside person. Overcoming grive / block
-- external: change sth in world outside / travel / fulfill emotions
-
-
-- obsticle, desire
-
-
-###### Tension
-crisis and climax
-dyolemat niejednoznaczne rozwiazanie
-balance between: anxiet  and boredom
-
-- overpowered to much , no tention
 
 
 - **Character** revile when human characters make choices under pressure
@@ -448,6 +435,7 @@ competence !
 ## Archetypal Figures
 
 
+
 [Personalities](/personality/) - Jungian archetypes
 
 |.|||
@@ -508,7 +496,27 @@ mechanick video storytell:
 morrals
 attach to charcter
 
+```
+--------------------
+# Dramatic elements
+- chellang that require skilz
+
+#### Paradox of controll
+key element of enjoyment
+how to offer miningfull choice  without offering full controll.
+
+##### Experience as an end itself
+
+
+# premies
+# character
+
+
+Dramatic moments happening  on screen (cutscenes) are less dramatic because you just look without a control
+
+---------------
 ---
+```
 
 # Philosophy
 
