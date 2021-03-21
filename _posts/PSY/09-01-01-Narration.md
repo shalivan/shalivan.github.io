@@ -17,15 +17,13 @@ permalink: /narration/
 
 
 
-Telling stories is in human nature.  
-Stories define how we consume information.    
 
-to create emotional experience   
-Expand our view of the world   
+Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.    
 
 
 # Medium
-Every medium have it own narration styles, variny on genres and format (series, shorts...). Linear narrative is not enough for games. See or listen not as powerful as play themselves. And structure in games is not as important.
+Every medium have it own narrations styles, varying on genres and format (series, shorts...). Linear narrative is not enough for games. See or listen not as powerful as play themselves.
+Structure in games is not as important.
 
 
 ## Literary
@@ -45,50 +43,29 @@ Every medium have it own narration styles, variny on genres and format (series, 
   - Legend - based on real person but cannot be proven
 -  **Science and journalism** (Gatunki pograniczne) to gatunki z pogranicza literatury, nauki i publicystyki, np. esej, felieton, reportaż. Bio
 
-
-
 ## Games
-#### Narrative vs mechanics driven:  
-
-**Game story domination**  -   
-**Player story domination** -     
 
 
 
-How much power over the world
+
+
 
 ---
+# Premise
+single core statement. 'Latin words, meaning to put before' the foundation of story,
+- Meaningful, Promise, announce (in the end subtle inversion to promise )
 
+premises tend to express—a premise statement is often a familiar expression or cliché
 
-#  Story
-**Story  tells who and what**  
-  - Series of events recorded in their chronological order,  sequence of events.
-  - Story includes all of the events described that make up a narrative.
-  - What is the topic, what are the issue.
-
-
-Story is more than one idea.
-**Elevator pitch**
-  - Unique story or have a twist or something to say.    
-
-
-
-#  Plot
-**Plot tells how**  
-  - With story in mind, you can decide how to plot it.
-  - Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
-
-**Umbrela plot**  we will do x because core plot of genre
-
+**thematic idea**   drives its structure and delivery   
+**Elevator pitch**  
 
 
 # Meta
-**Grand narrative**   - what really behind story.  
+**Grand narrative behind story**
 
 ## Meaning
 Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
-
-Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjecvtiver opinion) [Lyotard (postmodern coditoin book)]
 
 #### Archetypal Events
 
@@ -101,24 +78,38 @@ Structure of collective mind shared by all humans. Jung: is populated by instinc
 
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
 
+.
 
+
+Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjective opinion) [Lyotard (postmodern condition book)]
+
+
+
+#  Story
+**Story  tells who and what** -  Series of events recorded in their chronological order,  sequence of events. Story includes all of the events described that make up a narrative.  What is the topic, what are the issue. Story is more than one idea.
+
+
+  - Unique story or have a twist or something to say.    
+
+#  Plot
+**Plot tells how** With story in mind, you can decide how to plot it. Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
+
+**Umbrella plot**  we will do x because core plot of genre
+
+Action   
 
 # Narration
-**Narrative tells why**   
-  - Interpretation of the events within the story. point of view of the story.
-
- gameplay, dialog, notes, setting, graphics
+**Narrative tells why** Interpretation of the events within the story. point of view of the story. Gameplay, dialog, notes, setting, graphics
 
 **Explicit** - cutscenes text written    
-**Implicit** - player must figure out itself    
-**Emergent** -    
+**Implicit** - player must figure out itself     
+**Emergent** -  Emerge from system   
 **Environmental narration** -    
 
-### Point of view
-
-- **1st** -  I / Me / My - Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character
-- **2nd** -  You / Your - Narrator speak to the reader.
-- **3rd** -  She / He Her / His - External narrator is telling the story.
+- Point of view
+  - **1st** -  I / Me / My - Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character
+  - **2nd** -  You / Your - Narrator speak to the reader.
+  - **3rd** -  She / He Her / His - External narrator is telling the story.
 
 ### Narrator
 
@@ -133,7 +124,28 @@ Commentator / Interviewer
 
 
 
+### Character vs plot driven story
+Without internal conflict plot have no meaning - why it matters  
+character as agent of change.  
 
+**Character driven story** - inner transformation and relations with other why something matters to character giving his desires and fears  Move story through action and choices
+**Plot is external conflict**  - what's happened. Events of the story move story forward and cause character to react  
+
+
+
+mirror neurons
+
+
+
+
+### Narrative vs mechanics driven:  
+How much power over the world  
+
+**Game story domination**  -   
+**Player story domination** -     
+
+
+# Experience as an end itself
 
 ---
 
@@ -144,14 +156,27 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - plot relevancy - only add essentials that matter. to much - boring, to little - implausible
 - every question brought by the plot is an promise , keep best to keep those promises
 - every step in journey should bring you little bit to final
-- sense of progress from bbullet point to bullet point > sections.
-- moment gfoal reach storuy is over
+- sense of progress from ballet point to bullet point > sections.
+- moment goal reach story is over
 
 
-Memorable moments:
-- **Beginning** - to engage   
-- **Peak** -  (tentpole - most expensive mom)  
-- **End** - brain reference to those experience and have impact to long term memory    
+
+- Promise > Progress > Payoff
+
+###### Introduction / Beginning
+- to engage
+- roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
+- cold open (start in adventure)
+
+
+###### Peak / Twist
+
+- **** -  (tentpole - most expensive mom)  
+
+###### End / Payoff
+- payoff should give u everything from premise of beginning
+character how will change    
+- brain reference to those experience and have impact to long term memory    
 
 
 
@@ -165,7 +190,7 @@ Narrative arc make  viewer curious how story will end
 
 **Exposition** - settings and places   opening  during the story object can inherit meaning and emotional value    
 **Rising Action** - move plot forward, establish conflict     
-**Climax** - tensest moment of crisis  , confronataion  
+**Climax** - tensest moment of crisis  , confrontation  
 **Falling Action** - move toward ending   denouement  
 **Resolution**  - back to stability  
 
@@ -176,40 +201,9 @@ Heroes Journey by Joseph Campbell:
 
 Not relevant for series
 
-
-## Other structures ....
-
-
-
-#### Introduction
-- roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
-- cold open (start in adventure)
-
-
-#### Premise
-- Meaningful, Promise, announce (in the end subtle inversion to promise )
-- Promise > Progress > Payoff
-
-#### Twist
-
-#### Payoff
-- payoff should give u everything from premies of begininig
-character how will change    
-
-
-#### Cycles
-- Therefor instead of: Then  (a means to an end)  (Causality)
-- Story Shape Ups and downs tension !!!!
-
-try fail
-   fail and find  new: clue, inspiration, information
-   plot expansion: instead of twist /u get more than promisied not unexpected change  
-   change
-
-
-#### Endgame
-
 ## Games structure
+
+
 
 Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
 
@@ -219,7 +213,48 @@ Mechanics should be part of narration - We've now gone from just having a really
 
 Mental Modeling. Sense of mental image of game. that we would like to get.
 
+#### Cycles
+- Therefor instead of: Then  (a means to an end)  (Causality)
+- Story Shape Ups and downs tension !!!!
+
+try fail
+   fail and find  new: clue, inspiration, information
+   plot expansion: instead of twist /u get more than promised not unexpected change  
+   change
+
+
+#### Endgame
+
 ---
+
+# Dramatic elements
+
+1) PLOT = What, the main action   
+2) CHARACTER (COMMUNITY) = Who,  
+3) THOUGHT = Why, the psychology  
+4) DICTION = How, the dialogue,  
+5) SPECTACLE = Where,   
+6) SONG = Rhythm of speech   
+
+1. Focus -
+2. Tension -
+3. Timing -
+4. Rhythm - (song)
+5. Contrast
+6. Mood & Atmosphere -
+7. Space - (where)
+8. Language -
+9. Sound -
+10. Symbol -
+
+character ( Who) / relationship / circumstances
+
+
+Dramatic moments happening  on screen (cutscenes) are less dramatic because you just look without a control
+
+
+ ---
+
 
 #  Motifs
 
@@ -234,7 +269,7 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 #### duality
 - black and white reality is simple but .... ??
-contrast: elemental oposites. dobro zło ogien lod
+contrast: elemental opposites. dobro zło ogien lod
 
 
 ##### Creation / Apocalypse   
@@ -245,7 +280,7 @@ contrast: elemental oposites. dobro zło ogien lod
 - endless death and rebirth
 
 ##### Hero Arhetype
-quest / initiationm / sacrafice
+quest / initiation / sacrifice
 
 ##### Season / Life cycle
 
@@ -301,8 +336,8 @@ przyklady
 - grab  team , make plan , on piece miss, ll go great (oceans)
 - grab team, explain problems, go throu, you have other problem at end (italian job)
 puzzle
-- murder mistery: whn to know what hppened and see if detective is wizer than us
-- romances: wish fulfilmetns
+- murder mystery: when to know what happened and see if detective is wiser than us
+- romances: wish fulfillments
 - change from inactive to proactive
 
 
@@ -313,7 +348,7 @@ puzzle
 
 
 ## Conflict
-- konflikt interesów
+- conflict of interests
 - Wants vs needs
 - Mind (primal mammal) vs Soul (fulfill to have superior existence)
 
@@ -352,6 +387,7 @@ emotions :
 
 # Exposition
 Coincidence are bad in story
+- exposition scene - sceny włozone dla wyjasnienie jak jest plot hole
 
 
 **Seeding**   
@@ -367,7 +403,7 @@ Plant idea ahead and earlier to connect later
 ### Show vs Tell
 Showing dramatizes / telling summarize
 
-- dont show monseter but causes it makes
+- don't show monseter but causes it makes
 
 
 ###### Stronger showing
@@ -379,9 +415,7 @@ Show it don't tell it “Talk is cheap.” Actions speak louder than words
 (as long as it character think its ok)
 
 ---
-# Ludo narrative Harmony
 
----
 
 
 
@@ -395,28 +429,29 @@ Consistency/e Believability
 
 ###### Scope
 To much stories in witch the fate of the world was at stake
-Bigeger stakes not equal more powerfull stories
+Bigger stakes not equal more powerful stories
 
 
-## Pace layers
-- **Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
+# Pace
+**Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
 
+### Pace layers
 - make story on various level of magnification
 6 layers that function simultaneously at different speeds within society by Stuart Brand  and (architect Frank Duffy)
 
 
-|Years|Stuart Brand layer | Function | Frank Duffy | Bourdieu|
+|Years | Stuart Brand layer | Function | Frank Duffy | Bourdieu|
 | - | - | - | - | - |
 0|Fashion, Art | Innovate (New Ideas, competitive) | Stuff (Sets changes)| Events
 5|Commerce | Differentiation (better ideas, unique process)| Space Plan (Furniture changes)|
 15|Infrastructure | Record (slow, incremental, preservation, efficiency, common ideas) | Service (pipes and maintenance )| Economic / Society
 70|Governance | | Skin, (human)|
 100|Culture |  | Structure (building )|
-forever|Nature |  | Site (place, )| Environment
+forever | Nature |  | Site (place, )| Environment
 
 ||||
 | - | - | - |
-Fast|discontionus | absorb shock, learn, innovation, revolution | Has all the attention
+Fast | Discontinues | absorb shock, learn, innovation, revolution | Has all the attention
 Slow| continuous, integrate shock, constraint, consistency | Has all the power
 
 
@@ -468,7 +503,6 @@ change in a
 character and/or his situation is called an arc.
 
 
----
 
 
 # Dialogues
@@ -482,12 +516,19 @@ Gameplay Exposition
 
 
 ---
+# Ludo narrative Harmony
+Action fit settings to achieve harmony relation between narration and gameplay
+premise and setting of story make sense with actions you perform
 
+It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
+how themes are communicated through the gameplay
+---
 
 # Mechanics in narration
 
 [Mechanics](/gamemechanics/)  
 
+```
 Earier established gandra
 Try to implement plot in mechanics
 mechanick video storytell:
@@ -495,40 +536,25 @@ mechanick video storytell:
 - nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
 morrals
 attach to charcter
-
 ```
---------------------
-# Dramatic elements
-- chellang that require skilz
 
-#### Paradox of controll
+#### Paradox of control
 key element of enjoyment
-how to offer miningfull choice  without offering full controll.
-
-##### Experience as an end itself
+how to offer meaningful choice  without offering full control.
 
 
-# premies
-# character
+# Cultural context
 
-
-Dramatic moments happening  on screen (cutscenes) are less dramatic because you just look without a control
-
----------------
----
-```
-
-# Philosophy
 
 
 ## Old vs. New World
 
 || New continent  |Old continent |
 |---|---|---|
-||Expected to be hiperanimated|
-||Expres positiv aspect Everyth is amazing |  Existence is hard
-||Supress | Emphesize
-||| Beaauty is linkled to suffering
+||Expected to be hyperanimated|
+||Express positive aspect Everything is amazing |  Existence is hard
+||Suppress | Emphasize
+||| Beauty is linked to suffering
 
 
 ## Eastern vs. Western
@@ -536,9 +562,9 @@ Dramatic moments happening  on screen (cutscenes) are less dramatic because you 
 ||Western |Eastern |
 |---|---|---|
 | | Object | Subject |
-|Being|Stationary existing | Arising |
+|Being | Stationary existing | Arising |
 |Emphases | Individuality | Wholeness, Oneness|
-|Express| Individualnes (nouns) | Interaction (werbs)
+|Express| Individualnes (nouns) | Interaction (verbs)
 ||Object separated in space| Surrounding, background and relationship
 ||Destroyed object > not anymore whole | No notion of whole or part
 ||Brain focus on objects separately |
@@ -550,7 +576,7 @@ Dramatic moments happening  on screen (cutscenes) are less dramatic because you 
 ||Western |Eastern |
 |---|---|---|
 ||External struggle | internal struggle
-||westetn on a centralconflict more agressive (greek tragedy 1 plavce 1 day 1 plot )|east - internal struggle (substance)
+||Westerns on a central conflict more aggressive (greek tragedy 1 place 1 day 1 plot )|east - internal struggle (substance)
 
 |religion|Western|Eastern|
 |---|---|---|

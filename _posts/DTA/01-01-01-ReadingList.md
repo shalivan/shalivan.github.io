@@ -68,7 +68,7 @@ Yuval Noah Harari
 - **21 Lessons for the 21st Century** -
 
 
-Joseph Campbel
+Joseph Campbell
 
 - The Hero's Journey
 - Transformations of Myth Through Time
@@ -90,6 +90,7 @@ George Lakoff - z polecenia Haddita
 
 Joscha Bach  
 Bret Weinstein  
+Nima Arkani-Hamed  
 
 ---
 
@@ -105,6 +106,7 @@ Daniel Kahneman
 
 The Crowd A Study of the Popular Mind by Gustave Le Bon - Audiobook
 
+Dr. Octavio Choi - brain   
 ---
 
 # Art
@@ -121,7 +123,7 @@ Przemyslaw Prusinkiewicz - **The Algorithmic Beauty of Plants**
 
 # Design
 Jessica Helfand - **Reinventing the Wheel**  
-**Data Flow: Visualising Information in Graphic Design**   
+**Data Flow: Visualizing Information in Graphic Design**   
 Jacobson, Max; Silverstein, Murray; Winslow, Barbara - **The Good House: Contrast as a Design Tool**      
 
 

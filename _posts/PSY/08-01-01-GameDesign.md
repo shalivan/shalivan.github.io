@@ -16,6 +16,7 @@ permalink: /gamedesign/
 
 
 
+
 ----
 
 
@@ -45,6 +46,7 @@ story multiplayer vs multiplayer story
 
 
 
+
 ---
 #  Objectives
 Chase, Race, Alignment, Ressource to escape, Forbiden Act , Construction, Exploration, Solution,
@@ -62,6 +64,7 @@ life's, units, scarcity, health, currency, actions(mana),objects, terrain, time,
 
 ---
 # Conflict
+enemies dont need to kill
 
 ## Motivation
 
@@ -91,6 +94,8 @@ Obstacles, Opponents, Dilemmas
 # Outcome
 
 ---
+Mental Modeling
+Now comes the 4th, and final, layer - Mental Modeling. The goal with this layer is to change the way the player perceives and thinks about the game
 
 
 
@@ -135,7 +140,10 @@ thgird person - hardest to design  (fixed angels are easier to make)
 
 
    --------------------
+# UI
 
+**Diedests** - in world
+**non Diagetic** - not in the fiction
 
 
 
