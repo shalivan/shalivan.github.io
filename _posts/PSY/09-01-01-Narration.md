@@ -33,7 +33,7 @@ Structure in games is not as important.
 **Drama** (bohater) Na scenie  comedy, tragedy, dramat  
 **Fiction / Nonfiction** (epika) (narrator)  nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.  
 
--  **Parable** (przypowieść)  w którym przedstawione postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, lecz mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Mimo że przypowieść często ma rozwiniętą fabułę, to zawsze pozostaje ona z racji swego przykładowego charakteru silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego.
+-  **Parable** (przypowieść)  Parabolic novel which touches on many different issues. Inspired  by: metaphysics, language, culture, technology, ethic and the theoretical origins of human consciousness, creates a thought reaction chain.`w którym przedstawione postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, lecz mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Mimo że przypowieść często ma rozwiniętą fabułę, to zawsze pozostaje ona z racji swego przykładowego charakteru silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego.`
 -  **Exemplum** (Stories are examples ) odwołuje się do świata znanego swoim odbiorcom    
 -  **Folktale** - belie with exaggerated characters and obstacles that is passed down over  
   - Myth  - sacred and explain how things cam eto be
@@ -48,6 +48,8 @@ Structure in games is not as important.
 
 
 
+NEED TO ACT. ENGAGE WITH EXTERNAL.
+push to act.
 
 
 ---
@@ -90,6 +92,7 @@ Skepticism tough meta narrative - Post modernism (large claim to be a true for a
 
 
   - Unique story or have a twist or something to say.    
+circumstances
 
 #  Plot
 **Plot tells how** With story in mind, you can decide how to plot it. Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
@@ -128,8 +131,8 @@ Commentator / Interviewer
 Without internal conflict plot have no meaning - why it matters  
 character as agent of change.  
 
-**Character driven story** - inner transformation and relations with other why something matters to character giving his desires and fears  Move story through action and choices
-**Plot is external conflict**  - what's happened. Events of the story move story forward and cause character to react  
+**Character driven story** - inner transformation and relations with other why something matters to character giving his desires and fears  Move story through action and choices  
+**Plot is external conflict**  - what's happened. Events of the story move story forward and cause character to react    
 
 
 
@@ -168,6 +171,7 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
 - cold open (start in adventure)
 
+play with expectation,  
 
 ###### Peak / Twist
 
@@ -225,44 +229,37 @@ try fail
 
 #### Endgame
 
----
 
 # Dramatic elements
 
-1) PLOT = What, the main action   
-2) CHARACTER (COMMUNITY) = Who,  
-3) THOUGHT = Why, the psychology  
-4) DICTION = How, the dialogue,  
-5) SPECTACLE = Where,   
-6) SONG = Rhythm of speech   
 
-1. Focus -
-2. Tension -
-3. Timing -
-4. Rhythm - (song)
-5. Contrast
-6. Mood & Atmosphere -
-7. Space - (where)
-8. Language -
-9. Sound -
-10. Symbol -
-
-character ( Who) / relationship / circumstances
-
+|||
+|--|--|
+Focus |  energies into achieving the given goals or objectives of a character in a scene
+Tension | development of tension usually parallels the advancement of the plot, leading to a crisis or climax. Tension is closely linked with timing
+Timing |  to create contrast in a scene or simply to demonstrate robotic, stylised and non-naturalistic movements. Rhythm and pace are affected
+Rhythm | timing and pace of the drama. It also means the beat or tempo h. Rhythm can follow the emotional state
+Contrast  | Without the careful use of contrast a performance is boring and lacks tension. A manipulating the drama to create a change in setting, use of space or rhythm. The pace of scenes can also be altered, as can various dramatic elements within one small section of a performance
+Mood & Atmosphere|  ambience or aura  
+Space | such as sitting, bending over, lying down or crawling. Of course, using the space around
+Language |
+Sound |  
+Symbol | greater meaning than the literal suggestion. ie Color
 
 Dramatic moments happening  on screen (cutscenes) are less dramatic because you just look without a control
 
 
- ---
 
 
 #  Motifs
 
 
+hope overcome fear
 
 
 - **Character** revile when human characters make choices under pressure
 
+cos co fdziaao przestao dzia
 
 ## Archetypal motifs
 - Archetypes - are often symbols represented in literature and in art by symbols .
@@ -348,9 +345,12 @@ puzzle
 
 
 ## Conflict
+‘No conflict, no drama’
 - conflict of interests
 - Wants vs needs
-- Mind (primal mammal) vs Soul (fulfill to have superior existence)
+- Mind (primal mammal) vs Soul (fulfill to have superior existence)   
+
+inner conflict
 
 Rational explanations for war (war sis costly and why cant we settle differences at the bargaining table)
 - preventive wars - preemptive war
@@ -372,7 +372,7 @@ emotions :
 - positive
 - interest rhythm,
 
-
+ relationship
 
 ---
 
@@ -492,8 +492,8 @@ competence !
 - Wise Old Man
 - Child-like adult
 - Adult-like child
-- Mother
-
+- Mother  
+ "prophets" or "messengers  
 ### Character Appearance
 
 [Characters](/characters/)  
@@ -514,14 +514,16 @@ Character Exposition
 Emotional Exposition  
 Gameplay Exposition  
 
+#### Diction   
+
 
 ---
 # Ludo narrative Harmony
-Action fit settings to achieve harmony relation between narration and gameplay
+- Action fit settings to achieve harmony relation between narration and gameplay
 premise and setting of story make sense with actions you perform
-
-It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
+- It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
 how themes are communicated through the gameplay
+
 ---
 
 # Mechanics in narration
@@ -543,49 +545,64 @@ key element of enjoyment
 how to offer meaningful choice  without offering full control.
 
 
+---
+
+
 # Cultural context
 
-
+fundamental aspect of reasoning
 
 ## Old vs. New World
 
+
+
 || New continent  |Old continent |
 |---|---|---|
-||Expected to be hyperanimated|
-||Express positive aspect Everything is amazing |  Existence is hard
-||Suppress | Emphasize
-||| Beauty is linked to suffering
+|Expected to be | Hyperanimated, Self-inflated |
+|Existence| Amazing |   Hard
+|Problem solving|Suppress | Emphasize
+|Beauty |An end in itself|  Linked to suffering
 
 
 ## Eastern vs. Western
 
-||Western |Eastern |
-|---|---|---|
-| | Object | Subject |
-|Being | Stationary existing | Arising |
-|Emphases | Individuality | Wholeness, Oneness|
-|Express| Individualnes (nouns) | Interaction (verbs)
-||Object separated in space| Surrounding, background and relationship
-||Destroyed object > not anymore whole | No notion of whole or part
-||Brain focus on objects separately |
-||Emphasis on tee | Emphasis on drinking
-||Causality is complex|
-
 
 
 ||Western |Eastern |
 |---|---|---|
-||External struggle | internal struggle
-||Westerns on a central conflict more aggressive (greek tragedy 1 place 1 day 1 plot )|east - internal struggle (substance)
+| Emphasis on| Object (tee) (nouns)| Subject - (drinking) (verbs)|
+|Struggle | External | Internal
+|Success |Material | Spiritual |
+|Existence | Stationary | Arising |
+|Emphases | Individuality | Oneness|
+|Self portrait | Self assure | Humility
+| Reality | Separated physical and spiritual reality | One reality
+| Life Value |Human life above other life | All life may be viewed as sacred
+|The Divine | Apart from material and exists separately  from it |  Part of creation and found it everywhere in it
+|God reveal | Supernatural magic tricks| Through nature, and ideas |
+| Journey of mankind|  Linear |  Cyclical
+|Conflict | Central  conflict good vs evil Cultivate light and destroy dark  | like magnet have 2 sides, interaction of opposites.
+|Goal| To deal with  sin and be reunited with god | deal with ignorance and achieve enlightenment.
+|God |One Purposeful Creator (design)| Many Buddhas (no purpose)
+||Interpretations | Empty mind, Avoid interpretation
+||Word (concept) is real | Fact is real |
 
-|religion|Western|Eastern|
+
+
+
+
+
+||Western |Eastern |
 |---|---|---|
-|| ready for external struggle (object - singular plural nones )
-
-
+Lifestyle | single / family | society
+Newcomer | outlayer | part of group
+Speach | strait ahead | politeness
+Money | Buisness | relationship is important
+Punctuality | On time | not clear
+Leadership | leader part of team (earned respect) (vocal)| Leader above (hierarchy) (silent)
 ----
 
-when cleache is well executed is not a cliche / clishe is when its not driving us to the point  
+when cliché is well executed is not a cliché / cliché is when its not driving us to the point  
 
 
 
