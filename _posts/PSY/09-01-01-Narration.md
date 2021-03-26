@@ -46,10 +46,7 @@ Structure in games is not as important.
 ## Games
 
 
-
-
-NEED TO ACT. ENGAGE WITH EXTERNAL.
-push to act.
+Push to act - Need to act. Engage with external   
 
 
 ---
@@ -570,7 +567,7 @@ fundamental aspect of reasoning
 
 ||Western |Eastern |
 |---|---|---|
-| Emphasis on| Object (tee) (nouns)| Subject - (drinking) (verbs)|
+| Emphasis on| Object (tee) (nouns)| Subject (drinking) (verbs)|
 |Struggle | External | Internal
 |Success |Material | Spiritual |
 |Existence | Stationary | Arising |
@@ -594,12 +591,13 @@ fundamental aspect of reasoning
 
 ||Western |Eastern |
 |---|---|---|
-Lifestyle | single / family | society
+|Lifestyle | single / family | society
 Newcomer | outlayer | part of group
 Speach | strait ahead | politeness
 Money | Buisness | relationship is important
 Punctuality | On time | not clear
 Leadership | leader part of team (earned respect) (vocal)| Leader above (hierarchy) (silent)
+
 ----
 
 when cliché is well executed is not a cliché / cliché is when its not driving us to the point  
