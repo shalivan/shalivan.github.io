@@ -12,12 +12,6 @@ permalink: /narration/
 ---
 
 
-
-
-
-
-
-
 Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.    
 
 
@@ -33,7 +27,7 @@ Structure in games is not as important.
 **Drama** (bohater) Na scenie  comedy, tragedy, dramat  
 **Fiction / Nonfiction** (epika) (narrator)  nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.  
 
--  **Parable** (przypowieść)  Parabolic novel which touches on many different issues. Inspired  by: metaphysics, language, culture, technology, ethic and the theoretical origins of human consciousness, creates a thought reaction chain.`w którym przedstawione postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, lecz mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Mimo że przypowieść często ma rozwiniętą fabułę, to zawsze pozostaje ona z racji swego przykładowego charakteru silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego.`
+-  **Parable** (przypowieść)  Parabolic novel which touches on many different issues. Inspired  by: metaphysics, language, culture, technology, ethic and the theoretical origins of human consciousness, creates a thought reaction chain. Postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Fabuła z racji swego przykładowego charakteru  pozostaje silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego.  
 -  **Exemplum** (Stories are examples ) odwołuje się do świata znanego swoim odbiorcom    
 -  **Folktale** - belie with exaggerated characters and obstacles that is passed down over  
   - Myth  - sacred and explain how things cam eto be
@@ -82,6 +76,7 @@ Structure of collective mind shared by all humans. Jung: is populated by instinc
 
 Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjective opinion) [Lyotard (postmodern condition book)]
 
+but anyway symbolds are anchored in history to ideas
 
 
 #  Story
@@ -145,11 +140,12 @@ How much power over the world
 **Player story domination** -     
 
 
-# Experience as an end itself
+# Experience
+- as an end itself
 
 ---
 
-# Structure
+#  Holistic Structure
 
 Cannot say a story without **Place**, **Time** and **Character**. Or you can
 
@@ -225,6 +221,56 @@ try fail
 
 
 #### Endgame
+
+
+
+
+# Structure II: Elements
+
+Coincidence are bad in story
+
+Show a little details that can paint a greander picture.
+
+
+**Seeding**   
+Spreading tiny bits of exposition
+
+**Payoff**   
+Response   
+
+**Foreshadowing**   
+Plant idea ahead and earlier to connect later  
+
+## Exposition
+
+### Exposition Scene in cinema
+
+- Create a desire to know by arousing curiosity. With hunger for information even most complicated set of dramatized facts will pass smoothly into understanding.
+- Dave the best for last
+- Deliver suprises based on established rules
+[Story by: Robert McKee]
+
+Dialog or action - whitch mopve plot forroward
+Scenes  włozone dla wyjasnienie jak jest plot hole
+exposition by narration  ??
+
+### Show and Tell writing
+
+**Showing** dramatizes - emotions opinions sensations. deeper and details to feel more connecting to experience      
+**Telling** summarize -  “Talk is cheap.” Actions speak louder than words    
+[Craft of Fiction by: Perry Tubbock]
+
+As long as it character think its ok, if it sounds like author butting into explain things you've probably fallen into telling [Understanding Show, Don't Tell by: Janice Hardy]     
+
+
+Stronger showing:
+- Don't show monster but causes it makes u scared
+- Avoid opinion related adjectives like:  beautiful
+- use evidence for claims and let them go to conclusion You want to make. 2+2
+- emotions are complex concept and must be demonstrated with concrete details.  showing with details
+
+
+
 
 
 # Dramatic elements
@@ -371,6 +417,10 @@ emotions :
 
  relationship
 
+## Challenge
+  !! believes that are challenged by external conflict
+
+
 ---
 
 [Human Motivation](/motivation/)  
@@ -381,41 +431,7 @@ emotions :
 ---
 
 
-
-# Exposition
-Coincidence are bad in story
-- exposition scene - sceny włozone dla wyjasnienie jak jest plot hole
-
-
-**Seeding**   
-Spreading tiny bits of exposition
-
-**Payoff**   
-Response   
-
-**Foreshadowing**   
-Plant idea ahead and earlier to connect later  
-
-
-### Show vs Tell
-Showing dramatizes / telling summarize
-
-- don't show monseter but causes it makes
-
-
-###### Stronger showing
-Show it don't tell it “Talk is cheap.” Actions speak louder than words
-
-- use evidence for claims
-- emotions are complex concept and must be shoiwn with details
-
-(as long as it character think its ok)
-
 ---
-
-
-
-
 
 # Lore
 Themes / levels /   

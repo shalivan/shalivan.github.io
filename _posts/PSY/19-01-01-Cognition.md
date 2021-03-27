@@ -13,6 +13,7 @@ permalink: /cognition/
 ---
 
 
+How you process information
 
 |Cognition fields||
 |--|--|
@@ -23,48 +24,56 @@ permalink: /cognition/
 | Neuroscience  |
 | Anthropology  |
 
-How you process information
 
-----
+
 
 # Cognitive states
 
-Altered states of consciousness  occurs naturally or induced by external factors like drugs or internal factors.   
+Altered states of consciousness  occurs naturally or induced by internal or external factors like drugs
 
-Two major components of consciousness: Wakefulness Awareness
+Two major components of consciousness:   
+**Wakefulness** - complex thought processes  / arousal (mind)  
+**Awareness** -  basic reflexes (brain)  
 
-|State|Wakefulness|Awareness||||
-|----|--|--|--|--|--|
-Focused Selective attention|hi |hi| | Flow
-Divided attention|hi|hi
-Locked-In Syndrom |hi|hi
-Daydreaming|
-Meditative|
-Hypnotised |
+| State | Wakefulness | Awareness | Description ||
+|----|--|--|--|--|
+Focused Selective Attention | High |High| | Flow
+Divided Attention | High | High | | Awake
+Daydreaming| || stream of consciousness that detaches from current external tasks when attention drifts to a more personal and internal direction.
+Lethargy |||causes you to feel sleepy or fatigued and sluggish
+|
+Meditative| Mid-high | Mid-high|passive awareness | Drowsiness
+Light sleep| Mid | Mid | Some conscious about enviro | NREM1
+REM | Mid | Mid | Rapid eye movement, similar brain activity to wake | Dreams
+Deep sleep | Low | Low | Majority of sleep, unknown purpose | NREM2
+Lucid dream | Low |  High || Sleepwalking
+|
+Hypnotized |
 Toxicated |
-Lucid dream | low |  hi || Sleepwalking
-REM | mid | mid-hi | Rapid eye movement, similar brain activity to wake | Dreams
-Light sleep NREM1| mid | mid | Some conscious about enviro | Drowsy sleep
-Deep sleep NREM2|  |  | Majority of sleep, unknown purpose |
-Minimally Conscious |hi| mid |Visual tracking/fix, command following (no functional communication)
-Vegetative |hi | low |
-Anesthesia |low| low |Eye opening
-Coma |lowest | lowest
+|
+Locked-In Syndrome |High | High
+Minimally Conscious |High| Mid |Visual tracking/fix, command following (no functional communication)
+Vegetative |High | Low |
+|
+Anesthesia |Low| Low |Eye opening |Unconsciou
+Coma | Lowest | Lowest ||Unconsciou
 
-Confusion delirium lethargy Stupor Delusions Unconsciousness Lathargic
+
+Confusion delirium
+Stupor Delusions
 Amnesia
 Paramnesia
- insomnia
+insomnia
 
 
 
 ---
 
 
-Beliefs
-Intentions  
-Desires
-Knowledge
+Beliefs  
+Intentions    
+Desires  
+Knowledge  
 
 
 Beliefs > Golas > Options > Commitment > Plans > Actrions > Beliefs
@@ -108,6 +117,7 @@ autonomy - capacity to make decisions  (multiplayer huge autonomy)
 
 ----
 
+
 # Brain
 
 Hemispheres
@@ -147,6 +157,8 @@ Hypo campus memory  is not stored as plasticity of synapses only. but is one asp
 
 
 # Thinking Fast and Slow (Daniel Kahneman)
+
+https://medium.com/swlh/every-chapter-of-thinking-fast-and-slow-in-7-minutes-5e6adf89cf39
 
 ## Systems Distinction
 Generally we are using system 1 which have more influence than we think, u cannot stop it. can only learn to detect  
@@ -246,7 +258,7 @@ Biases and fallacies are not optimal
 The Primacy/Recency Effect is the observation that information presented at the beginning (Primacy) and end (Recency) of a learning episode tends to be retained better than information presented in the middle
 
 
-|Behavioral biases |Judgments are influenced by: || (	Decision-making, belief)
+|Behavioral biases |Judgments are influenced by: | (	Decision-making, belief)|
 |-|-|-|
 |Anchoring | first  thing you judge | First thing you judge influences your judgment of all that follows| U r anchored to stock price you bought
 |Availability Heuristic |   what springs most easily to mind | (something happened in same place)
@@ -318,7 +330,6 @@ https://www.visualcapitalist.com/50-cognitive-biases-in-the-modern-world/
 ```
 
 
-Descadie - mind body problem (res extensa - zew, res cogitans - wew
 
   Neuro correlate of consciousness
 

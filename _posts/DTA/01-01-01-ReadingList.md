@@ -92,6 +92,11 @@ Joscha Bach
 Bret Weinstein  
 Nima Arkani-Hamed  
 
+
+Simulacra and simulation - Jean Baudrillard
+Paul Bloom | Psycholinguistics, Developmental Psychology
+Dan Ariely | Behavioral Economics
+
 ---
 
 
