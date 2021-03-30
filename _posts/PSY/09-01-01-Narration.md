@@ -12,12 +12,14 @@ permalink: /narration/
 ---
 
 
-Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.    
 
 
 # Medium
+Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.    
+
 Every medium have it own narrations styles, varying on genres and format (series, shorts...). Linear narrative is not enough for games. See or listen not as powerful as play themselves.
 Structure in games is not as important.
+
 
 
 ## Literary
@@ -55,10 +57,9 @@ premises tend to express—a premise statement is often a familiar expression or
 
 
 # Meta
-**Grand narrative behind story**
 
 ## Meaning
-Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
+**Grand narrative behind story** Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
 
 #### Archetypal Events
 
@@ -73,10 +74,10 @@ Structure of collective mind shared by all humans. Jung: is populated by instinc
 
 .
 
-
+#### Post-modern Criticism
 Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjective opinion) [Lyotard (postmodern condition book)]
 
-but anyway symbolds are anchored in history to ideas
+but anyway symbols are anchored in history to ideas
 
 
 #  Story
@@ -154,23 +155,20 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - every step in journey should bring you little bit to final
 - sense of progress from ballet point to bullet point > sections.
 - moment goal reach story is over
-
-
-
 - Promise > Progress > Payoff
 
-###### Introduction / Beginning
+##### Introduction / Beginning
 - to engage
 - roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
 - cold open (start in adventure)
 
 play with expectation,  
 
-###### Peak / Twist
+##### Peak / Twist
 
 - **** -  (tentpole - most expensive mom)  
 
-###### End / Payoff
+##### End / Payoff
 - payoff should give u everything from premise of beginning
 character how will change    
 - brain reference to those experience and have impact to long term memory    
