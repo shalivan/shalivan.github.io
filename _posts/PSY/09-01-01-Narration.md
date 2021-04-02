@@ -10,16 +10,23 @@ tags:
 - Cognition
 permalink: /narration/
 ---
+Everything should fit
+Martin Heidegger
 
 
-
-
+You cant derive odd from is - no matter how much information u have .
 # Medium
 Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.    
 
 Every medium have it own narrations styles, varying on genres and format (series, shorts...). Linear narrative is not enough for games. See or listen not as powerful as play themselves.
 Structure in games is not as important.
 
+
+
+Stories emerge from our consciousness and observing ourselves and understand what is what we are doing.
+Successful life when you family, survive and thrive
+
+Games and stories share a lot in common
 
 
 ## Literary
@@ -167,23 +174,12 @@ Narrative arc make  viewer curious how story will end
 **Resolution**  - back to stability  
 
 
-## Monomyth
-Heroes Journey by Joseph Campbell:   
-**You** >  Establish hero ion ordinary world    
-**Need** > Call to adventure.  resistance > meeting the mentor >  
-**Go** > Crossing threshold  
-**Search** >  test   
-**Find** >  aproach   
-**Take** >  defeat external > reward   
-**Return** >  more must be done.   
-**Change** > death > resurection > change   
-
-
-Not relevant for series ie.
 
 ## Games structure
 
-
+Second to second   
+Minute to minute   
+Hour to Hour   
 
 Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
 
@@ -280,6 +276,10 @@ Dramatic moments happening  on screen (cutscenes) are less dramatic because you 
 
 # Meta
 
+## Fenomenology
+World is build from what matter not matter. > meaning is primary >
+
+
 ## Meaning
 **Grand narrative behind story**. Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
 Model form which other typews are copied.  
@@ -295,18 +295,31 @@ Structure of collective mind shared by all humans. Jung: is populated by instinc
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
 
 
+## Monomyth
+Heroes Journey by Joseph Campbell:   
+**You** >  Establish hero ion ordinary world    
+**Need** > Call to adventure.  resistance > meeting the mentor >  
+**Go** > Crossing threshold  
+**Search** >  test   
+**Find** >  aproach   
+**Take** >  defeat external > reward   
+**Return** >  more must be done.   
+**Change** > death > resurection > change   
+
+Call to noble action
+
 ## Archetypal Events
 
-Claim to apply to all people Common to everyone. Help to understand the world, human behaviour, and life's big questions  Universal Morals
+Claim to apply to all people Common to everyone. Help to understand the world, human behavior, and life's big questions  Universal Morals
+Regardles s of cultural origin or when they where created
 
-
-|||
-|--|--|
-Initiation |  Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Oposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genoius
+||||
+|--|--|--|
+Initiation |  Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius
 Journey |
 Rise Up |  
 Birth |
-Fall |
+Fall | Fall into underworld
 Death and rebirth |
 Supernatural Intervention |
 Natural vs technology  |
@@ -317,33 +330,13 @@ Union of opposites
 
 
 
+
+
+Not relevant for series ie.
+
+
+
 [by Michael Meade] https://www.youtube.com/watch?v=OEPg-rw2Flg&list=OLAK5uy_ngJaXe_-6TCDVCCo_8iclaEIrBJEiEvAI&ab_channel=MichaelMeade-Topic
-
-
-## Archetypal Symbols
-Object color items emojis, familiar in daily life, yet that possesses specific connotations in addition to its conventional and obvious meaning
-Symbols that occur over and over in different versions of a story.
-Add to depth of understanding of stories.
-
--  More than apparent meaning--an inherent multiplicity of meanings
--  A larger "unconscious" aspect
--  Can be analyzed, but cannot be fully explained
-
-but anyway symbols are anchored in history to ideas
-
-|||
-|--|--|
-Light vs Dark | Black & White
-Heaven vs Wilderness |
-Weather | Storm, fog,
-Unhealable wound | sometimes mental
-Crosssing Treshold |
-
-|||
-|--|--|
-Apples |
-Skulls |
-Masks | hide identity
 
 
 >Post-modern Criticism Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjective opinion)
@@ -358,39 +351,49 @@ Masks | hide identity
 #  Motifs
 
 
-hope overcome fear
+- hope overcome fear
+- cos co dzialao przestalo dzialac
 
 
-- **Character** revile when human characters make choices under pressure
-
-cos co fdziaao przestao dzia
-
-
-
-#### Scope
-To much stories in witch the fate of the world was at stake
-Bigger stakes not equal more powerful stories
-
+## Archetypal Symbols
+Object color items emojis, familiar in daily life, yet that possesses specific connotations in addition to its conventional and obvious meaning
+Symbols that occur over and over in different versions of a story.
+Add to depth of understanding of stories.
+symbols are anchored in history to ideas
+-  More than apparent meaning--an inherent multiplicity of meanings
+-  A larger "unconscious" aspect
+-  Can be analyzed, but cannot be fully explained
 
 
-## Archetypal motifs
-- Archetypes - are often symbols represented in literature and in art by symbols .
+|||
+|--|--|
+Weather | Storm, fog,
+Unhealable wound | sometimes mental
+Crossing Threshold |
+Immortality | - escape from the time  / endless death and rebirth
+Pain
 
-#### duality
-- black and white reality is simple but .... ??
-contrast: elemental opposites. dobro zło ogien lod
+#### Dualities
+by contrast: elemental opposites.
+
+|||
+|--|--|
+Light vs Dark | Black & White
+Heaven vs Wilderness |
+Creation / Apocalypse  | Deluge (flood) how to conduct yourself if sth bad happen (prepper)
+Chaos & Order | positive and negative.  but new things come from unknown
 
 
-##### Creation / Apocalypse   
-- Deluge  
+#### Objects
 
-##### Immortality
-- escape from the time   
-- endless death and rebirth
+|||
+|--|--|
+Apples |
+Skulls |
+Masks | hide identity
 
-##### Hero Archetype
-quest / initiation / sacrifice
-share certain haracteristics
+
+
 
 
 ##### Season / Life cycle
@@ -402,7 +405,7 @@ share certain haracteristics
 |Sunset | Autumn | Death phase
 |Darkness | Winter | Dissolution phase
 
-## 4 Mice
+## Four Mice
 
 **Milieu** - enter exit places, navigate, survive (Gulliver)  
 **Inquiry** - find answer the question (murder mysteries )  
@@ -523,6 +526,14 @@ Fast | Discontinues | absorb shock, learn, innovation, revolution | Has all the 
 Slow| continuous, integrate shock, constraint, consistency | Has all the power
 
 
+
+
+
+### Scope
+To much stories in witch the fate of the world was at stake
+Bigger stakes not equal more powerful stories
+
+
 ---
 
 # Characters
@@ -533,16 +544,23 @@ Driven by external / internal motivations
 
 - name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want accomplished, what afraid, what like to do, hidden talent, deepest secret, motto, desire, goal, fear, strategy, talent  , competence
 
+
+- **Character** revile when human characters make choices under pressure
+
+
+
 ## Archetypal Figures
 
 
+Fundamental problem of life is how to ack. Archetypes hep to find a meaning and sustain tragedy of life.
 
 
 [Personalities](/personality/) - Jungian archetypes
 
-|Jungian|Purpose|Trait|?|
-|---|---|---|---|
-| Hero | Leave A Mark (becoming)| Mastery | Mastery
+
+| Jungian | Purpose | Trait |?||
+|---|---|---|---|---|
+| Hero | Leave A Mark (becoming)| Mastery | Mastery | quest / initiation / sacrifice
 | Magician |  | Power | Mastery Belonging
 | Outlaw | | Liberation | Mastery Independence
 | Explorer | Yearn For Paradise / Explore spirituality (being) | Freedom | Independence
@@ -556,14 +574,12 @@ Driven by external / internal motivations
 | Lover | | Intimacy | Belonging Stability
 
 
-Jungian Archetypes
-
 ||
 |--|--|
-Anima/animus
-self
-shadow
-persona
+|Anima/animus|
+|self|
+|shadow|
+|persona|
 
 
 
@@ -577,6 +593,11 @@ Herald |  Prophets or messengers. don't need to be person (dark clouds above) | 
 Shape Shifter |  On edge of good and bad   | catalysts for crucial story components such as surprises, plot twists, and red herrings
 Trickster | |  Show absurdity of situation, comic relief
 Allies | sidekicks
+
+
+
+- Mother nature. unknow  give born to new things      
+- Great father great king . Patriarchy opress and crushes you but simul  develop you and  protect.    Its masculine bout it soes not make him a male.   
 
 
 
@@ -601,7 +622,7 @@ character and/or his situation is called an arc.
 
 
 
-# Dialogues
+##  Dialogues
 
 - character asking question  is bad cause its simplest way to introduce plot
 
