@@ -56,29 +56,6 @@ premises tend to express—a premise statement is often a familiar expression or
 **Elevator pitch**  
 
 
-# Meta
-
-## Meaning
-**Grand narrative behind story** Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
-
-#### Archetypal Events
-
-- Morals, Universal, Natural, Structural, Claim to apply to all people (common to everyone.)
-- Birth, Death, Separation from parents, Initiation, Marriage, Union of opposites
-
-####  Collective Unconscious
-Universal through shared by all cultures  
-Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
-
-- Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
-
-.
-
-#### Post-modern Criticism
-Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjective opinion) [Lyotard (postmodern condition book)]
-
-but anyway symbols are anchored in history to ideas
-
 
 #  Story
 **Story  tells who and what** -  Series of events recorded in their chronological order,  sequence of events. Story includes all of the events described that make up a narrative.  What is the topic, what are the issue. Story is more than one idea.
@@ -192,9 +169,17 @@ Narrative arc make  viewer curious how story will end
 
 ## Monomyth
 Heroes Journey by Joseph Campbell:   
-**You** >  **Need** > **Go** > **Search** >  **Find** >  **Take** >  **Return** >  **Change**  
+**You** >  Establish hero ion ordinary world    
+**Need** > Call to adventure.  resistance > meeting the mentor >  
+**Go** > Crossing threshold  
+**Search** >  test   
+**Find** >  aproach   
+**Take** >  defeat external > reward   
+**Return** >  more must be done.   
+**Change** > death > resurection > change   
 
-Not relevant for series
+
+Not relevant for series ie.
 
 ## Games structure
 
@@ -270,6 +255,7 @@ Stronger showing:
 
 
 
+---
 
 # Dramatic elements
 
@@ -290,6 +276,83 @@ Symbol | greater meaning than the literal suggestion. ie Color
 Dramatic moments happening  on screen (cutscenes) are less dramatic because you just look without a control
 
 
+---
+
+# Meta
+
+## Meaning
+**Grand narrative behind story**. Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
+Model form which other typews are copied.  
+
+
+transformation > caterpillar to butterfly
+
+
+####  Collective Unconscious
+Universal through shared by all cultures  
+Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
+
+- Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
+
+
+## Archetypal Events
+
+Claim to apply to all people Common to everyone. Help to understand the world, human behaviour, and life's big questions  Universal Morals
+
+
+|||
+|--|--|
+Initiation |  Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Oposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genoius
+Journey |
+Rise Up |  
+Birth |
+Fall |
+Death and rebirth |
+Supernatural Intervention |
+Natural vs technology  |
+Battle between good and evil  | Obvious forces representing good and evil
+Belly of beast | Swallow to unknow ie. Enemy headquarter
+Union of opposites
+
+
+
+
+[by Michael Meade] https://www.youtube.com/watch?v=OEPg-rw2Flg&list=OLAK5uy_ngJaXe_-6TCDVCCo_8iclaEIrBJEiEvAI&ab_channel=MichaelMeade-Topic
+
+
+## Archetypal Symbols
+Object color items emojis, familiar in daily life, yet that possesses specific connotations in addition to its conventional and obvious meaning
+Symbols that occur over and over in different versions of a story.
+Add to depth of understanding of stories.
+
+-  More than apparent meaning--an inherent multiplicity of meanings
+-  A larger "unconscious" aspect
+-  Can be analyzed, but cannot be fully explained
+
+but anyway symbols are anchored in history to ideas
+
+|||
+|--|--|
+Light vs Dark | Black & White
+Heaven vs Wilderness |
+Weather | Storm, fog,
+Unhealable wound | sometimes mental
+Crosssing Treshold |
+
+|||
+|--|--|
+Apples |
+Skulls |
+Masks | hide identity
+
+
+>Post-modern Criticism Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjective opinion)
+ [Lyotard (postmodern condition book)]
+
+
+
+
+---
 
 
 #  Motifs
@@ -301,6 +364,14 @@ hope overcome fear
 - **Character** revile when human characters make choices under pressure
 
 cos co fdziaao przestao dzia
+
+
+
+#### Scope
+To much stories in witch the fate of the world was at stake
+Bigger stakes not equal more powerful stories
+
+
 
 ## Archetypal motifs
 - Archetypes - are often symbols represented in literature and in art by symbols .
@@ -317,8 +388,10 @@ contrast: elemental opposites. dobro zło ogien lod
 - escape from the time   
 - endless death and rebirth
 
-##### Hero Arhetype
+##### Hero Archetype
 quest / initiation / sacrifice
+share certain haracteristics
+
 
 ##### Season / Life cycle
 
@@ -419,7 +492,6 @@ emotions :
   !! believes that are challenged by external conflict
 
 
----
 
 [Human Motivation](/motivation/)  
 
@@ -427,21 +499,6 @@ emotions :
 
 
 ---
-
-
----
-
-# Lore
-Themes / levels /   
-What is about / what thread bind it together
-- rules for world for all characters same
-
-Consistency/e Believability  
-
-###### Scope
-To much stories in witch the fate of the world was at stake
-Bigger stakes not equal more powerful stories
-
 
 # Pace
 **Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
@@ -470,41 +527,69 @@ Slow| continuous, integrate shock, constraint, consistency | Has all the power
 
 # Characters
 
-The Art of inventing character book !!!
+
 
 Driven by external / internal motivations
 
-- name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want accomplished, what afraid, what like to do, hidden talent, deepest secret
-
-competence !  
+- name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want accomplished, what afraid, what like to do, hidden talent, deepest secret, motto, desire, goal, fear, strategy, talent  , competence
 
 ## Archetypal Figures
 
 
 
+
 [Personalities](/personality/) - Jungian archetypes
 
-|.|||
-|---|---|---|
-| Hero | protagonist. Attempt to resolve conflict
-|Audience identification, change growth action risk sacrifice
-|Personal, Primal Stakes
-| Herald | deliver  story-kickstarting message
-| Mentor | Teaching / giving gifts / bad advices /. motivation conscience, sometimes short lifespans
-|Threshold Guardian/Henchman | he blocks the progress
-|Trickster / Comic | f comic relief
-|Shape-Shifter | Shapeshifting characters are great catalysts for crucial story components such as surprises, plot twists, and red herrings
-|Villain | generator/defender of the main conflict, and that he exists to present the final challenge to the Hero
+|Jungian|Purpose|Trait|?|
+|---|---|---|---|
+| Hero | Leave A Mark (becoming)| Mastery | Mastery
+| Magician |  | Power | Mastery Belonging
+| Outlaw | | Liberation | Mastery Independence
+| Explorer | Yearn For Paradise / Explore spirituality (being) | Freedom | Independence
+| Sage | | Understanding / Empathy | Independence Stability
+| Innocent || Safety  | Independence Mastery
+| Creator | Provide structure (doing)| Innovation |  Stability  Independence
+| Ruler | | Control | Stability
+| Caregiver | | Service | Social | Stability Belonging
+| Everyman | Purpose Connection (belonging) | Belonging | Belonging
+| Jester | | Enjoyment |  Belonging Mastery
+| Lover | | Intimacy | Belonging Stability
+
+
+Jungian Archetypes
+
+||
+|--|--|
+Anima/animus
+self
+shadow
+persona
+
+
+
+|Campbell|||?|
+|---|---|---|---|
+Hero |  Protagonist |  Attempt to resolve conflict
+Shadow | Opposite of hero | not always a villain
+Mentor | Motivation, inside,  Teaching / giving gifts / bad advices /. motivation conscience, sometimes short lifespans
+Threshold Guardian  | Henchman, guard of special world, check if hero is fully committed  | blocks the progress
+Herald |  Prophets or messengers. don't need to be person (dark clouds above) |  Announce change, deliver  story-kickstarting message,
+Shape Shifter |  On edge of good and bad   | catalysts for crucial story components such as surprises, plot twists, and red herrings
+Trickster | |  Show absurdity of situation, comic relief
+Allies | sidekicks
+
+
 
 - great mother, father
 - devil, god
-- Sidekick
 - Maiden
 - Wise Old Man
 - Child-like adult
 - Adult-like child
-- Mother  
- "prophets" or "messengers  
+
+
+
+
 ### Character Appearance
 
 [Characters](/characters/)  
@@ -527,39 +612,27 @@ Gameplay Exposition
 
 #### Diction   
 
+[The Art of inventing character] book !!!
 
----
-# Ludo narrative Harmony
-- Action fit settings to achieve harmony relation between narration and gameplay
-premise and setting of story make sense with actions you perform
-- It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
-how themes are communicated through the gameplay
 
----
-
-# Mechanics in narration
-
-[Mechanics](/gamemechanics/)  
-
-```
-Earier established gandra
-Try to implement plot in mechanics
-mechanick video storytell:
-- odcinnie ryb
-- nawyki (zajbijasz normalnie w grach a tu moze byc pod zapytaniem ładna muza jak nie zabijasz > enforce in gameplay )
-morrals
-attach to charcter
-```
-
-#### Paradox of control
-key element of enjoyment
-how to offer meaningful choice  without offering full control.
 
 
 ---
 
 
-# Cultural context
+
+
+# Lore
+Themes / levels /   
+What is about / what thread bind it together
+- rules for world for all characters same
+
+Consistency/e Believability  
+
+
+
+
+## Cultural context
 
 fundamental aspect of reasoning
 
@@ -629,3 +702,26 @@ peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
 Writing > Editing > Voiceovers, Localization > Cinematics
 'we are telling stories to not feel alone in universe ??? '
 )
+
+
+
+
+---
+
+
+
+# Mechanics in narration
+
+implement plot in mechanics
+
+## Ludo narrative Harmony
+- Action fit settings to achieve harmony relation between narration and gameplay
+premise and setting of story make sense with actions you perform
+- It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
+how themes are communicated through the gameplay
+
+## Paradox of control
+key element of enjoyment
+how to offer meaningful choice  without offering full control.
+
+[Mechanics](/gamemechanics/)  
