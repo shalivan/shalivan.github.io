@@ -346,10 +346,8 @@ Regardles s of cultural origin or when they where created
 |.|||
 |--|--|--|
 | Initiation |  Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius
-| Journey |
-| Rise Up |  
-| Birth |
-| Fall | Fall into underworld
+| The Journey |
+| The Fall | Fall into underworld loss of innocence and bliss, expulsion from a kind of paradise (Adam  & Eve)
 | Death and rebirth |
 | Supernatural Intervention |
 | Natural vs technology  |
@@ -357,14 +355,20 @@ Regardles s of cultural origin or when they where created
 | Belly of beast | Swallow to unknow ie. Enemy headquarter
 | Union of opposites
 | Rebirth | transformation > caterpillar to butterfly
+| The Ritual |
 
+| Rise Up |  
+| Birth |
 
 Call to noble action
 
 [//]: # ([by Michael Meade] https://www.youtube.com/watch?v=OEPg-rw2Flg&list=OLAK5uy_ngJaXe_-6TCDVCCo_8iclaEIrBJEiEvAI&ab_channel=MichaelMeade-Topic)
 
 
-## Archetypal Symbols
+http://www.gcschools.net/gms/sandel/dates/SYMBOLS%20AND%20ARCHETYPES.htm
+
+
+## Archetypal Symbolic
 Object color items emojis, familiar in daily life, yet that possesses specific connotations in addition to its conventional and obvious meaning
 Symbols that occur over and over in different versions of a story.
 Add to depth of understanding of stories.
@@ -375,12 +379,12 @@ symbols are anchored in history to ideas
 
 
 |||
-|--|--|--|
-Weather | Storm, fog,
-Unhealable wound | sometimes mental
-Crossing Threshold |
-Immortality | - escape from the time  / endless death and rebirth
-Pain
+|---|---|
+|Weather | Storm, fog,
+|Unhealable wound | sometimes mental
+|Crossing Threshold |
+|Immortality | escape from the time  / endless death and rebirth
+|Pain
 
 
 
@@ -392,6 +396,8 @@ Light vs Dark | Black & White
 Heaven vs Wilderness |
 Creation / Apocalypse  | Deluge (flood) how to conduct yourself if sth bad happen (prepper)
 Chaos & Order | positive and negative.  but new things come from unknown
+Water & Desert |
+Innate Wisdom  & Educated Stupidity
 
 
 
@@ -402,6 +408,10 @@ Objects
 Apples |
 Skulls |
 Masks | hide identity
+
+
+
+The Natural Cycle
 
 Season / Life cycle
 
