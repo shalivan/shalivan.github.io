@@ -53,6 +53,9 @@ Push to act - Need to act. Engage with external
 
 
 ---
+
+# Storytelling
+
 ## Premise
 **Thematic idea** - drives its structure and delivery   
 single core statement. 'Latin words, meaning to put before' the foundation of story,
@@ -123,7 +126,7 @@ Experience as an end itself
 
 ---
 
-#  Holistic Structure
+# Structure Holistic
 
 Cannot say a story without **Place**, **Time** and **Character**. Or you can
 
@@ -209,14 +212,14 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 
 
-# Structure II: Elements
+# Structure Elements
 
-Coincidence are bad in story
+- Coincidence are bad in story
+- Show a little details that can paint a grander picture.
+- Explanation is not as fun as phenomena itself.
 
-Show a little details that can paint a greander picture.
 
-explanation is not as fun as phenomena itself.
-
+## Elements
 
 **Seeding**   
 Spreading tiny bits of exposition
@@ -260,7 +263,7 @@ Stronger showing:
 
 ---
 
-# Dramatic elements
+# Dramatic Elements
 
 
 |||
@@ -283,8 +286,6 @@ Dramatic moments happening  on screen (cutscenes) are less dramatic because you 
 
 # Meta
 
-
-
 ## Meaning
 **Grand narrative behind story**. Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
 Model form which other typews are copied.  
@@ -293,15 +294,34 @@ Model form which other typews are copied.
 World is build from what matter not matter. > meaning is primary >
 
 
+# Archetypes
 
 
-## Archetype
+
+####   Archetypes
+
+
+an original model after which other similar things are patterned; from the Greek word arkhetupos meaning “exemplary.”
+
+In literature an image, story-pattern, or character type that recurs frequently and evokes strong, often unconscious, associations in the reader.
+
+Idea of recurring patterns of situation, character, or symbol they are the common themes that show up in every culture of the world. Archetypes are recurrent, appearing in slightly altered forms to take present day situations and relate them to the past to find meaning in contemporary world.
+
+
+
+####  Symbols
+ term, name, or even a picture - possesses specific connotations in addition to its conventional and obvious meaning.  More than apparent meaning an inherent multiplicity of meanings with larger "unconscious" aspect Can be analyzed, but cannot be fully explained
+
 
 ####  Collective Unconscious
 Universal through shared by all cultures  
 Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
 
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
+
+
+
+
 
 
 ## Monomyth
@@ -314,9 +334,6 @@ Heroes Journey by Joseph Campbell:
 **Take** >  defeat external > reward   
 **Return** >  more must be done.   
 **Change** > death > resurection > change   
-
-Call to noble action
-
 
 
 
@@ -340,31 +357,9 @@ Belly of beast | Swallow to unknow ie. Enemy headquarter
 Union of opposites
 Rebirth | transformation > caterpillar to butterfly
 
+Call to noble action
 
-
-
-
-Not relevant for series ie.
-
-
-
-[by Michael Meade] https://www.youtube.com/watch?v=OEPg-rw2Flg&list=OLAK5uy_ngJaXe_-6TCDVCCo_8iclaEIrBJEiEvAI&ab_channel=MichaelMeade-Topic
-
-
->Post-modern Criticism Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjective opinion)
- [Lyotard (postmodern condition book)]
-
-
-
-
----
-
-
-#  Motifs
-
-
-- hope overcome fear
-- cos co dzialao przestalo dzialac
+[//]: # ([by Michael Meade] https://www.youtube.com/watch?v=OEPg-rw2Flg&list=OLAK5uy_ngJaXe_-6TCDVCCo_8iclaEIrBJEiEvAI&ab_channel=MichaelMeade-Topic)
 
 
 ## Archetypal Symbols
@@ -416,6 +411,38 @@ Season / Life cycle
 
 
 
+>Post-modern Criticism Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjective opinion)
+ [Lyotard (postmodern condition book)]
+
+
+
+
+---
+
+
+#  Motifs
+
+
+- hope overcome fear
+- cos co dzialao przestalo dzialac
+
+
+
+
+## Conflict
+‘No conflict, no drama’
+- conflict of interests
+- Wants vs needs
+- Mind (primal mammal) vs Soul (fulfill to have superior existence)   
+
+inner conflict
+
+Rational explanations for war (war sis costly and why cant we settle differences at the bargaining table)
+- preventive wars - preemptive war
+- asymmetric information and incentives to misrepresent
+- issue indivisibility
+
+
 ## The Seven Basic Plots
 Theory developed by Christopher Booker
 a Jung-influenced analysis of stories and their psychological meaning.
@@ -449,9 +476,8 @@ Love | Loss of loved ones, Recovery of a lost one, An enemy loved, Obstacles to 
 Kin | Rivalry of kin, Enmity of kin, Vengeance taken for kin upon kin, Slaying of kin unrecognized
 
 
-przyklady
 - grab  team , make plan , on piece miss, ll go great (oceans)
-- grab team, explain problems, go throu, you have other problem at end (italian job)
+- grab team, explain problems, go through, you have other problem at end (Italian job)
 puzzle
 - murder mystery: when to know what happened and see if detective is wiser than us
 - romances: wish fulfillments
@@ -464,38 +490,21 @@ puzzle
 - a big unexpected question
 
 
-## Conflict
-‘No conflict, no drama’
-- conflict of interests
-- Wants vs needs
-- Mind (primal mammal) vs Soul (fulfill to have superior existence)   
-
-inner conflict
-
-Rational explanations for war (war sis costly and why cant we settle differences at the bargaining table)
-- preventive wars - preemptive war
-- asymmetric information and incentives to misrepresent
-- issue indivisibility
-
 ## Mystery
 Fiction story that revolves around discovering secrets or solving crimes
-
-known   
-known unknown   
-unknown unknow  
+- known, known unknown, unknown unknow  
 
 
 ## Emotions
 
-emotions :
+
 - thrill
 - positive
 - interest rhythm,
-
- relationship
+- relationship
 
 ## Challenge
-  !! believes that are challenged by external conflict
+-  believes that are challenged by external conflict
 
 
 
@@ -509,7 +518,9 @@ emotions :
 # Pace
 **Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
 
-### Pace layers
+
+
+## Pace layers
 - make story on various level of magnification
 6 layers that function simultaneously at different speeds within society by Stuart Brand  and (architect Frank Duffy)
 
@@ -532,7 +543,7 @@ Slow| continuous, integrate shock, constraint, consistency | Has all the power
 
 
 
-### Scope
+## Scope
 To much stories in witch the fate of the world was at stake
 Bigger stakes not equal more powerful stories
 
