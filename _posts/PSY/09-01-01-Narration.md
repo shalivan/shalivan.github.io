@@ -160,8 +160,20 @@ character how will change
 
 
 ## Three-Act structure
-**Setup** > **Conflict** > **Resolution**  
-Plot points are between phases  
+**Setup** >  
+**Conflict** >  
+**Resolution**  >  
+with plot points are between phases  
+
+## MICE
+a way to categorize stories, but also a loose guideline on where to start and end a story based on how it’s categorized
+
+When do multiple stories: nest one inside other.
+**Milieu** (Setting)- enter new places > navigate, strugle to exit survive > return or exit (Gulliver, Alice in Wonderland, The Hobbit)  
+**Inquiry** (Idea) -  Ask question > dead end answer > process of finding information or question (murder mysteries, The Da Vinci Code.)  
+**Character** - Internal Thread  that identity shift. Unhappy about self > Tries to change ways, attempt to break out >  Change
+**Event** - Action. Sth disturb status quo.> chases, fight > Status q External thread
+
 
 
 ## Narrative Arc
@@ -276,7 +288,7 @@ Dramatic moments happening  on screen (cutscenes) are less dramatic because you 
 
 # Meta
 
-## Fenomenology
+## Phenomenology
 World is build from what matter not matter. > meaning is primary >
 
 
@@ -373,8 +385,9 @@ Crossing Threshold |
 Immortality | - escape from the time  / endless death and rebirth
 Pain
 
-#### Dualities
-by contrast: elemental opposites.
+
+
+Dualities by contrast: elemental opposites.
 
 |||
 |--|--|
@@ -384,7 +397,7 @@ Creation / Apocalypse  | Deluge (flood) how to conduct yourself if sth bad happe
 Chaos & Order | positive and negative.  but new things come from unknown
 
 
-#### Objects
+Objects
 
 |||
 |--|--|
@@ -392,11 +405,7 @@ Apples |
 Skulls |
 Masks | hide identity
 
-
-
-
-
-##### Season / Life cycle
+Season / Life cycle
 
 ||||
 |--|--|--|
@@ -405,12 +414,6 @@ Masks | hide identity
 |Sunset | Autumn | Death phase
 |Darkness | Winter | Dissolution phase
 
-## Four Mice
-
-**Milieu** - enter exit places, navigate, survive (Gulliver)  
-**Inquiry** - find answer the question (murder mysteries )  
-**Character** - identity shift. Internal Thread   
-**Event** - Action caused of new status quo. External thread
 
 
 ## The Seven Basic Plots
