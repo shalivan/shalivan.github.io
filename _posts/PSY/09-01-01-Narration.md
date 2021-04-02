@@ -53,32 +53,28 @@ Push to act - Need to act. Engage with external
 
 
 ---
-# Premise
+## Premise
+**Thematic idea** - drives its structure and delivery   
 single core statement. 'Latin words, meaning to put before' the foundation of story,
 - Meaningful, Promise, announce (in the end subtle inversion to promise )
 
 premises tend to express—a premise statement is often a familiar expression or cliché
 
-**thematic idea**   drives its structure and delivery   
-**Elevator pitch**  
-
-
-
-#  Story
+##  Story
 **Story  tells who and what** -  Series of events recorded in their chronological order,  sequence of events. Story includes all of the events described that make up a narrative.  What is the topic, what are the issue. Story is more than one idea.
 
 
   - Unique story or have a twist or something to say.    
 circumstances
 
-#  Plot
-**Plot tells how** With story in mind, you can decide how to plot it. Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
+##  Plot
+**Plot tells how** - With story in mind, you can decide how to plot it. Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
 
 **Umbrella plot**  we will do x because core plot of genre
 
 Action   
 
-# Narration
+## Narration
 **Narrative tells why** Interpretation of the events within the story. point of view of the story. Gameplay, dialog, notes, setting, graphics
 
 **Explicit** - cutscenes text written    
@@ -104,7 +100,7 @@ Commentator / Interviewer
 
 
 
-### Character vs plot driven story
+### Character vs plot driven
 Without internal conflict plot have no meaning - why it matters  
 character as agent of change.  
 
@@ -113,12 +109,9 @@ character as agent of change.
 
 
 
-mirror neurons
 
 
-
-
-### Narrative vs mechanics driven:  
+### Narrative vs mechanics driven  
 How much power over the world  
 
 **Game story domination**  -   
@@ -126,7 +119,7 @@ How much power over the world
 
 
 # Experience
-- as an end itself
+Experience as an end itself
 
 ---
 
@@ -145,12 +138,10 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - to engage
 - roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
 - cold open (start in adventure)
-
-play with expectation,  
+- play with expectation,  
 
 ##### Peak / Twist
-
-- **** -  (tentpole - most expensive mom)  
+- (tentpole - most expensive mom)  
 
 ##### End / Payoff
 - payoff should give u everything from premise of beginning
@@ -166,13 +157,14 @@ character how will change
 with plot points are between phases  
 
 ## MICE
-a way to categorize stories, but also a loose guideline on where to start and end a story based on how it’s categorized
+A way to categorize stories, but also a loose guideline on where to start and end a story based on how it’s categorized  
 
-When do multiple stories: nest one inside other.
-**Milieu** (Setting)- enter new places > navigate, strugle to exit survive > return or exit (Gulliver, Alice in Wonderland, The Hobbit)  
-**Inquiry** (Idea) -  Ask question > dead end answer > process of finding information or question (murder mysteries, The Da Vinci Code.)  
-**Character** - Internal Thread  that identity shift. Unhappy about self > Tries to change ways, attempt to break out >  Change
-**Event** - Action. Sth disturb status quo.> chases, fight > Status q External thread
+When do multiple stories: nest one inside other.   
+**Milieu** (Setting)- enter new places > navigate, strugle to exit survive > return or exit (Gulliver, Alice in Wonderland, The Hobbit)    
+**Inquiry** (Idea) -  Ask question > dead end answer > process of finding information or question (murder mysteries, The Da Vinci Code.)    
+**Character** - Internal Thread  that identity shift. Unhappy about self > Tries to change ways, attempt to break out >  Change  
+**Event** - Action. Sth disturb status quo.> chases, fight > Status q External thread  
+
 
 
 
@@ -189,30 +181,31 @@ Narrative arc make  viewer curious how story will end
 
 ## Games structure
 
-Second to second   
-Minute to minute   
-Hour to Hour   
-
 Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
 
 
-[//]: # (https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html)
-
-
-Mental Modeling. Sense of mental image of game. that we would like to get.
-
 #### Cycles
-- Therefor instead of: Then  (a means to an end)  (Causality)
-- Story Shape Ups and downs tension !!!!
 
-try fail
-   fail and find  new: clue, inspiration, information
+**Second to second**     
+**Minute to minute**     
+**Hour to Hour**  
+
+- Story Shape Ups and downs tension !!!!
+- Therefor instead of: Then  (a means to an end)  (Causality)
+- Try and fail. Fail and find  new: clue, inspiration, information
    plot expansion: instead of twist /u get more than promised not unexpected change  
    change
 
 
 #### Endgame
 
+.
+
+
+
+Mental Modeling. Sense of mental image of game. that we would like to get.
+
+[//]: # (https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html)
 
 
 
@@ -221,6 +214,8 @@ try fail
 Coincidence are bad in story
 
 Show a little details that can paint a greander picture.
+
+explanation is not as fun as phenomena itself.
 
 
 **Seeding**   
@@ -288,17 +283,19 @@ Dramatic moments happening  on screen (cutscenes) are less dramatic because you 
 
 # Meta
 
-## Phenomenology
-World is build from what matter not matter. > meaning is primary >
 
 
 ## Meaning
 **Grand narrative behind story**. Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
 Model form which other typews are copied.  
 
+### Phenomenology
+World is build from what matter not matter. > meaning is primary >
 
-transformation > caterpillar to butterfly
 
+
+
+## Archetype
 
 ####  Collective Unconscious
 Universal through shared by all cultures  
@@ -320,6 +317,9 @@ Heroes Journey by Joseph Campbell:
 
 Call to noble action
 
+
+
+
 ## Archetypal Events
 
 Claim to apply to all people Common to everyone. Help to understand the world, human behavior, and life's big questions  Universal Morals
@@ -338,7 +338,7 @@ Natural vs technology  |
 Battle between good and evil  | Obvious forces representing good and evil
 Belly of beast | Swallow to unknow ie. Enemy headquarter
 Union of opposites
-
+Rebirth | transformation > caterpillar to butterfly
 
 
 
