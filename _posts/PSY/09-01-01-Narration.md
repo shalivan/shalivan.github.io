@@ -342,20 +342,22 @@ Heroes Journey by Joseph Campbell:
 Claim to apply to all people Common to everyone. Help to understand the world, human behavior, and life's big questions  Universal Morals
 Regardles s of cultural origin or when they where created
 
-||||
+
+|.|||
 |--|--|--|
-Initiation |  Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius
-Journey |
-Rise Up |  
-Birth |
-Fall | Fall into underworld
-Death and rebirth |
-Supernatural Intervention |
-Natural vs technology  |
-Battle between good and evil  | Obvious forces representing good and evil
-Belly of beast | Swallow to unknow ie. Enemy headquarter
-Union of opposites
-Rebirth | transformation > caterpillar to butterfly
+| Initiation |  Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius
+| Journey |
+| Rise Up |  
+| Birth |
+| Fall | Fall into underworld
+| Death and rebirth |
+| Supernatural Intervention |
+| Natural vs technology  |
+| Battle between good and evil  | Obvious forces representing good and evil
+| Belly of beast | Swallow to unknow ie. Enemy headquarter
+| Union of opposites
+| Rebirth | transformation > caterpillar to butterfly
+
 
 Call to noble action
 
@@ -373,7 +375,7 @@ symbols are anchored in history to ideas
 
 
 |||
-|--|--|
+|--|--|--|
 Weather | Storm, fog,
 Unhealable wound | sometimes mental
 Crossing Threshold |
@@ -390,6 +392,7 @@ Light vs Dark | Black & White
 Heaven vs Wilderness |
 Creation / Apocalypse  | Deluge (flood) how to conduct yourself if sth bad happen (prepper)
 Chaos & Order | positive and negative.  but new things come from unknown
+
 
 
 Objects
