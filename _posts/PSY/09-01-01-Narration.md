@@ -299,8 +299,6 @@ World is build from what matter not matter. > meaning is primary >
 
 
 ####   Archetypes
-
-
 an original model after which other similar things are patterned; from the Greek word arkhetupos meaning “exemplary.”
 
 In literature an image, story-pattern, or character type that recurs frequently and evokes strong, often unconscious, associations in the reader.
@@ -390,14 +388,15 @@ symbols are anchored in history to ideas
 
 Dualities by contrast: elemental opposites.
 
+
 |||
-|--|--|
-Light vs Dark | Black & White
-Heaven vs Wilderness |
-Creation / Apocalypse  | Deluge (flood) how to conduct yourself if sth bad happen (prepper)
-Chaos & Order | positive and negative.  but new things come from unknown
-Water & Desert |
-Innate Wisdom  & Educated Stupidity
+|---|---|
+| Light vs Dark | Black & White
+| Heaven vs Wilderness |
+| Creation / Apocalypse  | Deluge (flood) how to conduct yourself if sth bad happen (prepper)
+| Chaos & Order | positive and negative.  but new things come from unknown
+| Water & Desert |
+| Innate Wisdom  & Educated Stupidity
 
 
 
