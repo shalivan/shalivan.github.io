@@ -1,6 +1,6 @@
 ---
 title: Narrative Experience
-description: Plot
+description:
 categories:
  - PSY
 tags:
@@ -10,11 +10,7 @@ tags:
 - Cognition
 permalink: /narration/
 ---
-Everything should fit
-Martin Heidegger
 
-
-You cant derive odd from is - no matter how much information u have .
 # Medium
 Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.    
 
@@ -51,10 +47,11 @@ Games and stories share a lot in common
 
 Push to act - Need to act. Engage with external   
 
+Free movement and actions   
 
 ---
 
-# Storytelling
+# Paradigm
 
 ## Premise
 **Thematic idea** - drives its structure and delivery   
@@ -163,7 +160,7 @@ with plot points are between phases
 A way to categorize stories, but also a loose guideline on where to start and end a story based on how it’s categorized  
 
 When do multiple stories: nest one inside other.   
-**Milieu** (Setting)- enter new places > navigate, strugle to exit survive > return or exit (Gulliver, Alice in Wonderland, The Hobbit)    
+**Milieu** (Setting)- enter new places > navigate, struggle to exit survive > return or exit (Gulliver, Alice in Wonderland, The Hobbit)    
 **Inquiry** (Idea) -  Ask question > dead end answer > process of finding information or question (murder mysteries, The Da Vinci Code.)    
 **Character** - Internal Thread  that identity shift. Unhappy about self > Tries to change ways, attempt to break out >  Change  
 **Event** - Action. Sth disturb status quo.> chases, fight > Status q External thread  
@@ -236,14 +233,14 @@ Plant idea ahead and earlier to connect later
 
 - Create a desire to know by arousing curiosity. With hunger for information even most complicated set of dramatized facts will pass smoothly into understanding.
 - Dave the best for last
-- Deliver suprises based on established rules
+- Deliver surprises based on established rules
 [Story by: Robert McKee]
 
-Dialog or action - whitch mopve plot forroward
+Dialog or action - which move plot forward
 Scenes  włozone dla wyjasnienie jak jest plot hole
 exposition by narration  ??
 
-### Show and Tell writing
+### Show and Tell in writing
 
 **Showing** dramatizes - emotions opinions sensations. deeper and details to feel more connecting to experience      
 **Telling** summarize -  “Talk is cheap.” Actions speak louder than words    
@@ -441,7 +438,7 @@ Season / Life cycle
 
 
 
-## Conflict
+### Conflict
 ‘No conflict, no drama’
 - conflict of interests
 - Wants vs needs
@@ -453,6 +450,26 @@ Rational explanations for war (war sis costly and why cant we settle differences
 - preventive wars - preemptive war
 - asymmetric information and incentives to misrepresent
 - issue indivisibility
+
+
+
+### Mystery
+Fiction story that revolves around discovering secrets or solving crimes
+- known, known unknown, unknown unknow  
+
+
+### Emotions
+
+
+- thrill
+- positive
+- interest rhythm,
+- relationship
+
+### Challenge
+-  believes that are challenged by external conflict
+
+
 
 
 ## The Seven Basic Plots
@@ -500,24 +517,6 @@ puzzle
 - rewrite existing story
 - unexpected solution to mainstream problem
 - a big unexpected question
-
-
-## Mystery
-Fiction story that revolves around discovering secrets or solving crimes
-- known, known unknown, unknown unknow  
-
-
-## Emotions
-
-
-- thrill
-- positive
-- interest rhythm,
-- relationship
-
-## Challenge
--  believes that are challenged by external conflict
-
 
 
 [Human Motivation](/motivation/)  
@@ -574,6 +573,15 @@ Driven by external / internal motivations
 - **Character** revile when human characters make choices under pressure
 
 
+##  Character Arcs
+change in a
+character and/or his situation is called an arc.
+
+### Character Appearance
+
+[Characters](/characters/)  
+
+
 
 ## Archetypal Figures
 
@@ -599,13 +607,6 @@ Fundamental problem of life is how to ack. Archetypes hep to find a meaning and 
 | Jester | | Enjoyment |  Belonging Mastery
 | Lover | | Intimacy | Belonging Stability
 
-
-||
-|--|--|
-|Anima/animus|
-|self|
-|shadow|
-|persona|
 
 
 
@@ -637,13 +638,6 @@ Allies | sidekicks
 
 
 
-### Character Appearance
-
-[Characters](/characters/)  
-
-###  Character Arcs
-change in a
-character and/or his situation is called an arc.
 
 
 
@@ -772,3 +766,8 @@ key element of enjoyment
 how to offer meaningful choice  without offering full control.
 
 [Mechanics](/gamemechanics/)  
+
+
+
+
+https://inspirassion.com/en/metaphor/sand
