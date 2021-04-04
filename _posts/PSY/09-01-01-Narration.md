@@ -98,7 +98,7 @@ Commentator / Interviewer
 |Knowledge | restricted | omnipotent
 |Story world facts | representing (represents exiting world) | stipulating  (stipulates story through narration)
 
-
+Omniscient
 
 ### Character vs plot driven
 Without internal conflict plot have no meaning - why it matters  
@@ -256,7 +256,7 @@ Stronger showing:
 - emotions are complex concept and must be demonstrated with concrete details.  showing with details
 
 
-
+https://www.laphamsquarterly.org/roundtable/ups-and-downs
 
 ---
 
@@ -766,6 +766,14 @@ key element of enjoyment
 how to offer meaningful choice  without offering full control.
 
 [Mechanics](/gamemechanics/)  
+
+
+# Procedural storyteling
+
+https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf
+
+
+https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?id=4RamDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false
 
 
 
