@@ -25,9 +25,9 @@ Successful life when you family, survive and thrive
 Games and stories share a lot in common
 
 
-## Literary
+# Genres
 
-#### Genres:
+## Literary
 **Poetry** (liryka) (podmiot liryczny)  
 **Drama** (bohater) Na scenie  comedy, tragedy, dramat  
 **Fiction / Nonfiction** (epika) (narrator)  nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.  
@@ -59,6 +59,9 @@ single core statement. 'Latin words, meaning to put before' the foundation of st
 - Meaningful, Promise, announce (in the end subtle inversion to promise )
 
 premises tend to express—a premise statement is often a familiar expression or cliché
+
+
+
 
 ##  Story
 **Story  tells who and what** -  Series of events recorded in their chronological order,  sequence of events. Story includes all of the events described that make up a narrative.  What is the topic, what are the issue. Story is more than one idea.
@@ -117,13 +120,14 @@ How much power over the world
 **Game story domination**  -   
 **Player story domination** -     
 
+---
 
 # Experience
 Experience as an end itself
 
 ---
 
-# Structure Holistic
+# Holistic Structure
 
 Cannot say a story without **Place**, **Time** and **Character**. Or you can
 
@@ -147,7 +151,6 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - payoff should give u everything from premise of beginning
 character how will change    
 - brain reference to those experience and have impact to long term memory    
-
 
 
 ## Three-Act structure
@@ -209,14 +212,12 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 
 
-# Structure Elements
+# Elements
 
 - Coincidence are bad in story
 - Show a little details that can paint a grander picture.
 - Explanation is not as fun as phenomena itself.
 
-
-## Elements
 
 **Seeding**   
 Spreading tiny bits of exposition
