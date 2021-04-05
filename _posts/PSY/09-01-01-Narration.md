@@ -32,7 +32,7 @@ Games and stories share a lot in common
 **Drama** (bohater) Na scenie  comedy, tragedy, dramat  
 **Fiction / Nonfiction** (epika) (narrator)  nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.  
 
--  **Parable** (przypowieść)  Parabolic novel which touches on many different issues. Inspired  by: metaphysics, language, culture, technology, ethic and the theoretical origins of human consciousness, creates a thought reaction chain. Postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Fabuła z racji swego przykładowego charakteru  pozostaje silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego.  
+-  **Parable** (przypowieść)  Parabolic novel which touches on many different issues. Inspired  by: metaphysics, language, culture, technology, ethic and the theoretical origins of human consciousness, creates a thought reaction chain. Postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Fabuła z racji swego przykładowego charakteru  pozostaje silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego. (allegorical moral story)  
 -  **Exemplum** (Stories are examples ) odwołuje się do świata znanego swoim odbiorcom    
 -  **Folktale** - belie with exaggerated characters and obstacles that is passed down over  
   - Myth  - sacred and explain how things cam eto be
@@ -49,6 +49,7 @@ Push to act - Need to act. Engage with external
 
 Free movement and actions   
 
+np: bioshock, soulsy,
 ---
 
 # Paradigm
@@ -769,7 +770,12 @@ how to offer meaningful choice  without offering full control.
 [Mechanics](/gamemechanics/)  
 
 
-# Procedural storyteling
+mechanick video storytell:
+- Edit finth, fish gameplay
+- Half Life2, can to trash tutorial
+
+
+# Procedural storytelling
 
 https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf
 
