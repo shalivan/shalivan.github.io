@@ -1,5 +1,5 @@
 ---
-title: Narrative Experience
+title: Narratology
 description:   Plot, Motifs  
 categories:
  - PSY
@@ -10,6 +10,8 @@ tags:
 - Cognition
 permalink: /narration/
 ---
+
+Narrative Experience
 
 
 # Medium
@@ -55,7 +57,7 @@ Free movement and actions
 
 ---
 
-# Paradigm
+# Storytelling Paradigm
 
 ## Premise
 **Premise is single core statement**, the foundation of story. premise statement is often a familiar expression or cliché. 'Latin words, meaning to put before'   
@@ -118,9 +120,10 @@ She / He Her / His - External narrator is telling the story.    Commentator / In
 | Nature of narrator's utterance act with regards to story world facts | **Representing** (represents already exiting story and world) | **Stipulating**  (stipulates story through narrating)
 
 
+# Storytelling in games
 
 
-### Explicit Narration
+## Explicit Narration
 Cutscenes text written narrator    
 
 
@@ -130,7 +133,7 @@ Cutscenes text written narrator
 In literature: An explicit narrator is a narrator or character in a story that is the one telling the story. First person narrators are by definition explicit narrators.
 
 
-###  Implied Narration
+##  Implied Narration
 Implicit
 
 An implied narrative arises from visual cues that create the barest impression of a story in the minds of viewers. It is the act of withholding the whole story, rather than the attempt to visually illustrate the story, that defines these images
@@ -142,22 +145,56 @@ a reliable character telling their own story, a character telling another charac
 
 Mistrust and misdirection  oftren are good narative tools    
 
-###  Emergent Narration
-Emerge from system   
+##  Emergent Narration
+Emerge from system     
+Mechanics in narration - implement plot in mechanics  
 
-
-#### Narrative vs mechanics driven  
-How much power over the world  
+###  Narrative vs Mechanics Driven
+How much power over the world
 
 **Game story domination**  -   
-**Player story domination** -     
+**Player story domination** -   
 
 
-###  Environmental Narration
+mechanick video storytell:
+- Edit finth, fish gameplay
+- Half Life2, can to trash tutorial
+
+
+### Ludo narrative Harmony
+- Action fit settings to achieve harmony relation between narration and gameplay
+premise and setting of story make sense with actions you perform
+- It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
+how themes are communicated through the gameplay
+
+[Mechanics](/gamemechanics/)  
+
+
+
+
+
+### Procedural storytelling
+
+[link a](https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf)  
+[link b](https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?id=4RamDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)  
+
+
+
+
+
+
+##  Environmental Narration
 
 
 ## Experience
 Experience as an end itself
+
+
+### Paradox of control
+key element of enjoyment
+how to offer meaningful choice  without offering full control.
+
+
 
 ---
 
@@ -684,35 +721,6 @@ Gameplay Exposition
 ---
 
 
-
-# Mechanics in narration
-
-implement plot in mechanics
-
-## Ludo narrative Harmony
-- Action fit settings to achieve harmony relation between narration and gameplay
-premise and setting of story make sense with actions you perform
-- It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
-how themes are communicated through the gameplay
-
-## Paradox of control
-key element of enjoyment
-how to offer meaningful choice  without offering full control.
-
-[Mechanics](/gamemechanics/)  
-
-
-mechanick video storytell:
-- Edit finth, fish gameplay
-- Half Life2, can to trash tutorial
-
-
-# Procedural storytelling
-
-https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf
-
-
-https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?id=4RamDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false
 
 
 

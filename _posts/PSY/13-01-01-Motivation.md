@@ -16,13 +16,14 @@ permalink: /motivation/
 
 
 
-
-- needs, wants or desires acquired through influence or may be generally innate.
-- most important reasons to move forward
+- needs, wants or desires acquired through influence or may be generally innate. Conscious or unconscious
+- most important reasons for actions or move forward in the decision-making process
 - progression > stimulate brain > keep engaging
-- helps them move forward in the decision-making process  
+
 
 # Terms
+
+
 
 
 ## Attention
@@ -31,10 +32,18 @@ Selective concentration on a discrete stimulus while ignoring other perceivable 
 `Area of focus` of brain is like thumb of hand in front of u
 
 
-## immersion  
+
+
+
+## Immersion  
 - teleport mind   
+deep mental involvement
 
 Immerse : altered time. fully `immersed` with mechanics while challenge and tension in balance  (anxiety vs boredom)
+
+
+##  Presence  
+- teleport body    
 
 
 
@@ -62,13 +71,6 @@ enthusiasm, absorption, focused effort, zeal, dedication, and energy.
 
 
 
-##  Flow  
-`Game Follow` - is wave zone between anxiety and boredom (sometimes challenge and sometimes powerful)  
-- `Difficulty Curve` - Challenge  
-- `Pacing` Rhythm + Pressure >Manage stress. If there is no stress its not meaningful and you don't care. So pressure is good  
-- `Learning Curve` - Onboarding > tutorials super important   
-
-
 ## Agency
 ????!!!!!
 
@@ -77,18 +79,28 @@ enthusiasm, absorption, focused effort, zeal, dedication, and energy.
 things happening > its excitement its entertainment
 
 
+
+
+---
+
+
+##  Flow  
+`Game Follow` - is wave zone between anxiety and boredom (sometimes challenge and sometimes powerful)  
+- `Difficulty Curve` - Challenge  
+- `Pacing` Rhythm + Pressure >Manage stress. If there is no stress its not meaningful and you don't care. So pressure is good  
+- `Learning Curve` - Onboarding > tutorials super important   
+
+
+
 ## Drive
 
 - (ciekawosc?)   
 
 
 
-##  Addictions
-dopamine feadback  - (social media )  
-slot machines  
 
-##  presence  
-- teleport body    
+## Self Control and inhibitory control
+
 
 ---
 
@@ -148,6 +160,10 @@ nitr geting rew u expect could become punishment
 `Representative Heuristic` - Time/Cost/Effort > Up expectation for reward . (Procedural like roguelikes play agianst it sometimes)  balanced economy   
 
 
+##  Addictions
+dopamine feadback  - (social media )  
+slot machines  
+
 
 
 - reward can be demotivating
@@ -155,6 +171,8 @@ nitr geting rew u expect could become punishment
 - Expectations. After bad luck we expect payout (gambling).
 - Representative expectations - (Ngram colors in destiny)
 - Loss Aversion: Something I have > Something I could have
+
+
 
 ---
 
@@ -179,7 +197,6 @@ Content theories
  - **Maslow** - `Physiology` (hunger, thirst, sleep, etc.) > `Safety`/`Security`/`Shelter`/`Health` > `Social`/`Love`/`Friendship` > `Self-esteem`/`Recognition`/`Achievement` > `Self actualization`/`achievement of full potential`
  - **Two factors** - job satisfaction (motivators), while others (hygiene factors)
  - **ERG** - existence, relatedness, and growth,
- - **Intrinsic and Extrinsic** `Intrinsic` (internal or inherent) motivation, `Extrinsic` (external) motivation. inspired by outside forces
  - **Barrett** - on consciousness !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 - Lyell's Impediments to Actualization  - Natural / unnatural addictions  & Self-Actualization  
 
@@ -191,9 +208,8 @@ Content theories
 **Self Determination Theory**
 basic need for autonomy   
  Depend on context and not account for all human behavior. Can shift by different framing. OLD:
- - `Intrinsic` -  Personal Gratification. last longer. rate higher! better (autonomy, agency, progression, feedback, opportunity). But can feel bad i.e. if you are obligated to your self  
- - `Extrinsic` - External. Rewards shape to do but risk of shifting motivation. Use when needed (money) But! can feel autonomous if enough choices
-
+ - `Intrinsic` -  (internal or inherent) motivation, Personal Gratification. last longer. rate higher! better (autonomy, agency, progression, feedback, opportunity). But can feel bad i.e. if you are obligated to your self  
+ - `Extrinsic` - External. inspired by outside forces Rewards shape to do but risk of shifting motivation. Use when needed (money) But! can feel autonomous if enough choices. Goal oriented
 
 | | |
 |--|--|
@@ -201,6 +217,9 @@ Competence  |sense of progression, sense of being in control Interact with activ
 Autonomy | self expression or meaningful:  choice (not satisfy by chose)
 Relatedness |  cooperation or competition. Rank relation. (knowledge where I fit)
 
+
+
+ goal u set for yourself are stronger than goals set by someone else  extr / intrinsing
 
 ## MDT
 **Motive disposition theory**
@@ -210,10 +229,6 @@ Relatedness |  cooperation or competition. Rank relation. (knowledge where I fit
 Implicit |  are implied but not directly stated |  wishes
 Explicit |directly stated, leaving no room for uncertainty | desires
 
-Biological  
-Unconscious Motivation  
-Priming  
-implicit power motive (MDT)     
 
 
 ## SDT vs MDT
@@ -285,8 +300,10 @@ Stimulation - single/multi   calm/thrill
 # Social
 
 ## Cultural
-### FOMO
 
+### FOMO
+### Ikigai
+- role in society
 
 
 
@@ -328,7 +345,6 @@ framing priming
 prospect theroy  
 
 
-gole u set for yourself are strongetrr than gols set by someone else  extr / intrinsing
 rewards can be demotivated:
 
 overjustification:  
