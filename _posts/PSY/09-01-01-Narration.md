@@ -1,6 +1,6 @@
 ---
 title: Narrative Experience
-description: - Plot, Motifs, Lore 
+description:   Plot, Motifs, Lore 
 categories:
  - PSY
 tags:

@@ -7,7 +7,7 @@ tags:
 - Science
 - Cognition
 
-description: - Individual, Collective
+description:    Individual, Collective
 permalink: /personality/
 ---
 
