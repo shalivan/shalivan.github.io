@@ -341,7 +341,7 @@ Regardles s of cultural origin or when they where created
 
 |.|||
 |--|--|--|
-| Initiation |  Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius
+| Initiation |  Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius  The Dynamics of Transformation in the Human Psyche
 | The Journey |
 | The Fall | Fall into underworld loss of innocence and bliss, expulsion from a kind of paradise (Adam  & Eve)
 | Death and rebirth |
@@ -387,15 +387,15 @@ symbols are anchored in history to ideas
 Dualities by contrast: elemental opposites.
 
 
-|||
+|.||
 |---|---|
 | Light vs Dark | Black & White
 | Heaven vs Wilderness |
-| Creation / Apocalypse  | Deluge (flood) how to conduct yourself if sth bad happen (prepper)
+| Creation, Apocalypse  | Deluge (flood) how to conduct yourself if sth. bad happen (prepper)
 | Chaos & Order | positive and negative.  but new things come from unknown
 | Water & Desert |
-| Innate Wisdom  & Educated Stupidity
-culture vs nature
+| Innate Wisdom & Educated Stupidity
+| culture vs nature
 
 
 Objects

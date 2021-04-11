@@ -74,8 +74,6 @@ Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Por
 ![](/src/arch/court.png) |Negative | Negative space, in art, is the space around and between the subject(s)
 
 
-
-
 - court
 - horizon height- separation and connections
 
@@ -138,3 +136,8 @@ Shell > Service > Scenery
 # Architekture in games and aaneo0impressionism
 https://vol.co/product/anime-architecture/
 https://www.iamag.co/the-art-of-tekkon-kinkreet/
+
+
+---
+
+[book: Notes on the Synthesis of Form by:  Christopher Alexander ]     
