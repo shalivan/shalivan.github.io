@@ -1,6 +1,6 @@
 ---
 title: Narrative Experience
-description:
+description: .
 categories:
  - PSY
 tags:
