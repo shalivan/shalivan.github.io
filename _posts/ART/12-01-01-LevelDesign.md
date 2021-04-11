@@ -285,3 +285,6 @@ mastery mapy vs nowa mapa .
 dieter rams: minimalist product design  
 (book: design of normal things don norman)  
 (roberto rengel: shaping interior space)    
+
+  
+https://www.psychologyofgames.com/2020/01/podcast-55-the-psychology-of-level-design/   

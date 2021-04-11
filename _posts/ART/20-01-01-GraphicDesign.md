@@ -11,6 +11,16 @@ permalink: /graphicdesign/
 ---
 
 
+```
+
+THE MAP IS NOT THE TERRITORY
+Alexander warns about the hazards of "self-consciousness" when considering the key factors influencing a design.
+
+FORM AND CONTEXT
+
+https://www.core77.com/posts/69273/Book-Review-Notes-on-the-Synthesis-of-Form   
+
+```
 
 [Art](/art/)  
 

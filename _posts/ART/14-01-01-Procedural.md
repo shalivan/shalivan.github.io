@@ -39,7 +39,10 @@ generative art -  complex systems (ecosystes, cities, cells ect.. )
 
 # Patterns
 
-Franz Sales Meyer - A handbook of ornament (1920)
+[book: Franz Sales Meyer - A handbook of ornament (1920)]  
+
+
+
 
 
 # Emergent

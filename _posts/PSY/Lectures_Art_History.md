@@ -86,3 +86,37 @@ wspolczesna polkska
 yerka malczewski dwurnik
 wojciech fangor igor mitoraj
 https://artinfo.pl/katalogi-aukcyjne
+
+
+1950 -60 postmodernism
+phylo/art/ literature
+moral relativity cynicism irony
+dumb art like tv series bylo traktowane jako 'ironia' jak sluchanie rapsów ironicznie
+nie rozwiazuje problemów   
+ironi reasure us
+
+
+
+
+
+## horror
+born from romantic > enlightment > human being rational and objectiv (whitch convert to science)
+romantycyzm - feature of humanity
+frankenstein (ghotic horror) -lack of boundries for science
+hyper rational world of enlightmenet
+
+po fakcie jak cos zobaczymy dopiero ? zmienia .. cos ? empiricyzm
+
+
+rational vs beast irrational
+
+
+
+------------
+lovetraft > so superoor powers > other have power under us
+
+fire theft >
+olimpiada > bringing fire
+
+
+--------------

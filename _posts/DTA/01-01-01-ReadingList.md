@@ -97,6 +97,13 @@ Simulacra and simulation - Jean Baudrillard
 Paul Bloom | Psycholinguistics, Developmental Psychology
 Dan Ariely | Behavioral Economics
 
+
+ Michael Meade https://youtu.be/h6Dasa5kIS8
+
+ - doors of perception
+ - 101 prison of mind from 1790
+
+ 
 ---
 
 
