@@ -7,7 +7,7 @@ tags:
 - Science
 - Cognition
 
-description: ( Individual , Collective )
+description: - Individual, Collective
 permalink: /personality/
 ---
 
@@ -72,6 +72,9 @@ Superego
 ID   
 
 # Collective
+
+culture is between individual an d community
+
 
 
 [Game Theory](/gametheory/)
