@@ -55,73 +55,102 @@ Free movement and actions
 # Paradigm
 
 ## Premise
+**Premise is single core statement**, the foundation of story. premise statement is often a familiar expression or cliché. 'Latin words, meaning to put before'   
 **Thematic idea** - drives its structure and delivery   
-single core statement. 'Latin words, meaning to put before' the foundation of story,
-- Meaningful, Promise, announce (in the end subtle inversion to promise )
-
-premises tend to express—a premise statement is often a familiar expression or cliché
-
-
 
 
 ##  Story
-**Story  tells who and what** -  Series of events recorded in their chronological order,  sequence of events. Story includes all of the events described that make up a narrative.  What is the topic, what are the issue. Story is more than one idea.
+**Story  tells who and what** - (Circumstances) - Series of events recorded in their chronological order,  sequence of events. Story includes all of the events described that make up a narrative.  What is the topic, what are the issue. Story is more than one idea.
 
 
   - Unique story or have a twist or something to say.    
-circumstances
+  - To what extent do circumstances affect the nature of actions?
 
 ##  Plot
-**Plot tells how** - With story in mind, you can decide how to plot it. Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.  
+**Plot tells how** - (Action) -  With story in mind, you can decide how to plot it. Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.
 
-**Umbrella plot**  we will do x because core plot of genre
+- **Umbrella plot**  we will do x because core plot of genre
 
-Action   
-
-## Narration
-**Narrative tells why** Interpretation of the events within the story. point of view of the story. Gameplay, dialog, notes, setting, graphics
-
-**Explicit** - cutscenes text written    
-**Implicit** - player must figure out itself     
-**Emergent** -  Emerge from system   
-**Environmental narration** -    
-
-- Point of view
-  - **1st** -  I / Me / My - Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character
-  - **2nd** -  You / Your - Narrator speak to the reader.
-  - **3rd** -  She / He Her / His - External narrator is telling the story.
-
-### Narrator
-
-Commentator / Interviewer
-
-||||
-|---|---|---|
-|Ontology | homodiegetic (within world)| heterodiegetic (outside (commentary/hud))
-|Shapedness | personal | non-personal
-|Knowledge | restricted | omnipotent
-|Story world facts | representing (represents exiting world) | stipulating  (stipulates story through narration)
-
-Omniscient  
-
-Mistrust and misdirection  oftren are good narative tools    
-
-### Character vs plot driven
+### Character vs plot driven story
 Without internal conflict plot have no meaning - why it matters  
-character as agent of change.  
 
-**Character driven story** - inner transformation and relations with other why something matters to character giving his desires and fears  Move story through action and choices  
+
+**Character driven story** - inner transformation and relations with other why something matters to character giving his desires and fears  Move story through action and choices. Character as agent of change.  
 **Plot is external conflict**  - what's happened. Events of the story move story forward and cause character to react    
 
 
 
 
+## Narration
+**Narrative tells why** - (Description) - Interpretation of the events within the story. point of view of the story. Gameplay, dialog, notes, setting, graphics
 
-### Narrative vs mechanics driven  
+Linear, non linear
+
+### Point of view
+
+||Past|	Present|	Future|
+|---|---|---|---|
+First|	autobiographies|	wills|		shopping lists
+Second	|letters|	adventure books	|ransom notes
+Third|	novels|	plays (theater)	|instructions
+
+#### First-person narrator
+
+I / Me / My - Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character  
+
+– występuje w gatunkach epickich.
+
+Może on być jednym z uczestników opowiadanych wydarzeń, ich świadkiem, kronikarzem lub osobą rekonstruującą minione wypadki. Jego wiedza jest ograniczona – wie jedynie to, czego sam doświadczył, albo co przekazali mu inni.
+
+Opowieść narratora pierwszoosobowego może przyjmować m.in. takie formy jak ustna relacja, autobiografia, pamiętnik, dziennik, listy czy monolog wewnętrzny.
+
+#### Third-person narrator  
+She / He Her / His - External narrator is telling the story.    Commentator / Interviewer
+
+||||
+|---|---|---|
+|Ontological status | **Homodiegetic** (within world, part of story) interviewer | **Heterodiegetic** (outside (commentary / HUD)) detached observer
+| Shapedness of narrator | **Personal** (we know a characteristic of narrator and can picture narrator) | **Non-personal** (Only story is narrated)
+|Knowledge | **Restricted** | **All-Knowing** - Omnipotent / Omniscient
+| Nature of narrator's utterance act with regards to story world facts | **Representing** (represents already exiting story and world) | **Stipulating**  (stipulates story through narrating)
+
+
+
+
+### Explicit Narration
+Cutscenes text written narrator    
+
+
+
+
+
+In literature: An explicit narrator is a narrator or character in a story that is the one telling the story. First person narrators are by definition explicit narrators.
+
+
+###  Implied Narration
+Implicit
+
+An implied narrative arises from visual cues that create the barest impression of a story in the minds of viewers. It is the act of withholding the whole story, rather than the attempt to visually illustrate the story, that defines these images
+
+player must figure out itself   
+implicit refers to something that is suggested or implied but not ever clearly said.
+
+a reliable character telling their own story, a character telling another character's story, and an unreliable character telling the story.
+
+Mistrust and misdirection  oftren are good narative tools    
+
+###  Emergent Narration
+Emerge from system   
+
+
+#### Narrative vs mechanics driven  
 How much power over the world  
 
 **Game story domination**  -   
 **Player story domination** -     
+
+
+###  Environmental Narration
 
 
 ## Experience
