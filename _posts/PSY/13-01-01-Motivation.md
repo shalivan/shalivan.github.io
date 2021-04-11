@@ -8,7 +8,7 @@ tags:
 - Cognition
 - Gameplay
 
-description: ( Biological , Personal , Social )
+description:   Biological , Personal , Social   
 permalink: /motivation/
 ---
 
@@ -54,6 +54,11 @@ Psychological presence. According to his definition, engagement refers to the st
 
 if you lost a momentum from one moment to next and persist in that state
 
+
+Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
+
+involvement, commitment, passion,
+enthusiasm, absorption, focused effort, zeal, dedication, and energy.
 
 
 
