@@ -67,6 +67,13 @@ insomnia
 
 
 
+|||
+|--|--|
+dejavu  
+mirraże   
+hallucynacje
+
+
 ---
 
 

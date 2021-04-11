@@ -1,6 +1,6 @@
 ---
 title: Narrative Experience
-description:   Plot, Motifs, Lore 
+description:   Plot, Motifs, Lore
 categories:
  - PSY
 tags:
@@ -10,6 +10,7 @@ tags:
 - Cognition
 permalink: /narration/
 ---
+
 
 # Medium
 Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe?)    
