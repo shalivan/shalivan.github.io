@@ -50,6 +50,9 @@ Push to act - Need to act. Engage with external
 Free movement and actions   
 
 
+
+
+
 ---
 
 # Paradigm
@@ -248,12 +251,19 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 # Structure Elements
 
+
+
 - Coincidence are bad in story
 - Show a little details that can paint a grander picture.
 - **Strange attractor** new spin on familiar idea or 2 ideas
 - **Seeding** Spreading tiny bits of exposition
 - **Payoff** Response   
 - **Foreshadowing** Plant idea ahead and earlier to connect later  
+
+## Scope
+To much stories in witch the fate of the world was at stake
+Bigger stakes not equal more powerful stories
+
 
 ## Exposition
 
