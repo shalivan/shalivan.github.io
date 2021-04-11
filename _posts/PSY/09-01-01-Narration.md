@@ -12,11 +12,10 @@ permalink: /narration/
 ---
 
 # Medium
-Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.    
+Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe?)    
 
 Every medium have it own narrations styles, varying on genres and format (series, shorts...). Linear narrative is not enough for games. See or listen not as powerful as play themselves.
 Structure in games is not as important.
-
 
 
 Stories emerge from our consciousness and observing ourselves and understand what is what we are doing.
@@ -49,7 +48,7 @@ Push to act - Need to act. Engage with external
 
 Free movement and actions   
 
-np: bioshock, soulsy,
+
 ---
 
 # Paradigm
@@ -102,7 +101,9 @@ Commentator / Interviewer
 |Knowledge | restricted | omnipotent
 |Story world facts | representing (represents exiting world) | stipulating  (stipulates story through narration)
 
-Omniscient
+Omniscient  
+
+Mistrust and misdirection  oftren are good narative tools    
 
 ### Character vs plot driven
 Without internal conflict plot have no meaning - why it matters  
@@ -121,14 +122,13 @@ How much power over the world
 **Game story domination**  -   
 **Player story domination** -     
 
----
 
-# Experience
+## Experience
 Experience as an end itself
 
 ---
 
-# Holistic Structure
+# Structure
 
 Cannot say a story without **Place**, **Time** and **Character**. Or you can
 
@@ -138,6 +138,7 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - sense of progress from ballet point to bullet point > sections.
 - moment goal reach story is over
 - Promise > Progress > Payoff
+- Substitution plot :L give sth else than what expected /harder to write/
 
 ##### Introduction / Beginning
 - to engage
@@ -213,23 +214,20 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 
 
-# Elements
+
+
+# Structure Elements
 
 - Coincidence are bad in story
 - Show a little details that can paint a grander picture.
-- Explanation is not as fun as phenomena itself.
-
-
-**Seeding**   
-Spreading tiny bits of exposition
-
-**Payoff**   
-Response   
-
-**Foreshadowing**   
-Plant idea ahead and earlier to connect later  
+- **Strange attractor** new spin on familiar idea or 2 ideas
+- **Seeding** Spreading tiny bits of exposition
+- **Payoff** Response   
+- **Foreshadowing** Plant idea ahead and earlier to connect later  
 
 ## Exposition
+
+- Explanation is not as fun as phenomena itself.
 
 ### Exposition Scene in cinema
 
@@ -293,7 +291,7 @@ Model form which other typews are copied.
 World is build from what matter not matter. > meaning is primary >
 
 
-# Archetypes
+## Archetypes
 
 
 
@@ -396,7 +394,7 @@ Dualities by contrast: elemental opposites.
 | Chaos & Order | positive and negative.  but new things come from unknown
 | Water & Desert |
 | Innate Wisdom  & Educated Stupidity
-
+culture vs nature
 
 
 Objects
@@ -436,6 +434,7 @@ Season / Life cycle
 
 - hope overcome fear
 - cos co dzialao przestalo dzialac
+- when cliché is well executed is not a cliché / cliché is when its not driving us to the point  
 
 
 
@@ -525,40 +524,23 @@ puzzle
 
 
 
+#### Ex
 
----
+- bioshock(utopian tragedy),
+- soulsy (myths),,
+- stanley,
+- To the Moon,
+- deus ex(future),  
+- Metal Gear Solid (fake news)
+- Nier:automata(life after god (nitche,
+   endings at mininglesness by philosophy automatas:
+   - jean-paul(sad),
+   - pascal(peace)
+   - simone de beauvoir(love)
+   - kierkengaard(pray)
 
-# Pace
-**Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
-
-
-
-## Pace layers
-- make story on various level of magnification
-6 layers that function simultaneously at different speeds within society by Stuart Brand  and (architect Frank Duffy)
-
-
-|Years | Stuart Brand layer | Function | Frank Duffy | Bourdieu|
-| - | - | - | - | - |
-0|Fashion, Art | Innovate (New Ideas, competitive) | Stuff (Sets changes)| Events
-5|Commerce | Differentiation (better ideas, unique process)| Space Plan (Furniture changes)|
-15|Infrastructure | Record (slow, incremental, preservation, efficiency, common ideas) | Service (pipes and maintenance )| Economic / Society
-70|Governance | | Skin, (human)|
-100|Culture |  | Structure (building )|
-forever | Nature |  | Site (place, )| Environment
-
-||||
-| - | - | - |
-Fast | Discontinues | absorb shock, learn, innovation, revolution | Has all the attention
-Slow| continuous, integrate shock, constraint, consistency | Has all the power
-
-
-
-
-
-## Scope
-To much stories in witch the fate of the world was at stake
-Bigger stakes not equal more powerful stories
+- The Last Guardian (story enough to be satisfy not enough to explane )> shadow of colosus > ico
+https://youtu.be/UiOTSKBy6ME
 
 
 ---
@@ -730,22 +712,43 @@ Leadership | leader part of team (earned respect) (vocal)| Leader above (hierarc
 
 ----
 
-when cliché is well executed is not a cliché / cliché is when its not driving us to the point  
 
 
 
-[//]: # (
-Mistrust and misdirection  oftren are good narative tools  
-strange attractor /new spin on familiar idea / 2 ideas/
-substitution plot :L give sth elese than what expected /harder to write/ )
+
+---
+
+# Pace
+**Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
 
 
-[//]: # (book: the future of narrative in cyberspace
-peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
-Writing > Editing > Voiceovers, Localization > Cinematics
-'we are telling stories to not feel alone in universe ??? '
-)
 
+## Pace layers
+- make story on various level of magnification
+6 layers that function simultaneously at different speeds within society by Stuart Brand  and (architect Frank Duffy)
+
+
+|Years | Stuart Brand layer | Function | Frank Duffy | Bourdieu|
+| - | - | - | - | - |
+0|Fashion, Art | Innovate (New Ideas, competitive) | Stuff (Sets changes)| Events
+5|Commerce | Differentiation (better ideas, unique process)| Space Plan (Furniture changes)|
+15|Infrastructure | Record (slow, incremental, preservation, efficiency, common ideas) | Service (pipes and maintenance )| Economic / Society
+70|Governance | | Skin, (human)|
+100|Culture |  | Structure (building )|
+forever | Nature |  | Site (place, )| Environment
+
+||||
+| - | - | - |
+Fast | Discontinues | absorb shock, learn, innovation, revolution | Has all the attention
+Slow| continuous, integrate shock, constraint, consistency | Has all the power
+
+
+
+
+
+## Scope
+To much stories in witch the fate of the world was at stake
+Bigger stakes not equal more powerful stories
 
 
 
@@ -786,3 +789,15 @@ https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?
 
 
 https://inspirassion.com/en/metaphor/sand
+
+
+
+
+----
+
+
+
+
+
+
+[book: the future of narrative in cyberspace]
