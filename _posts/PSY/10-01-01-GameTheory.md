@@ -1,6 +1,6 @@
 ---
 title: Game Theory
-description: Strategies
+description: Rules, Strategies
 categories:
  - PSY
 tags:

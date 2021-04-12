@@ -1,6 +1,6 @@
 ---
 title: Ludology
-description:   
+description: Explicit, Implied, Emergent, Harmony  
 categories:
  - PSY
 tags:
