@@ -7,7 +7,7 @@ tags:
 - Art
 - Animation
 - VFX
-description: principles.
+description:  Paradigm
 permalink: /animation/
 ---
 

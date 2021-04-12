@@ -7,7 +7,7 @@ tags:
 - CG
 - zBrush
 
-description:  basics.
+description:  Paradigm
 permalink: /characters/
 ---
 

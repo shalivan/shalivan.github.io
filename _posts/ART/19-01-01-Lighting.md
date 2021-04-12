@@ -6,7 +6,7 @@ categories:
 tags:
 - Light
 - Art
-description: setups.
+description: Setups
 permalink: /lighting/
 ---
 
