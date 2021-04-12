@@ -8,7 +8,7 @@ tags:
 - Cognition
 - Gameplay
 
-description: attention, cognition motivation, emotion, choice, satisfaction
+description: States, Imagination, Memory, Biases , Choice,
 permalink: /cognition/
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Cognition
 - Gameplay
 
-description:   Biological , Personal , Social   
+description:   Biological , Personal , Social, Satisfaction, Emotions    
 permalink: /motivation/
 ---
 
