@@ -14,17 +14,16 @@ permalink: /narratology/
 Narrative Experience
 
 
+[Ludology](/ludology/)
+[Game Design](/gamedesign/)  
+[Game Mechanics](/gamemechanics/)  
+
+
 # Medium
 Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe?)    
 
-Every medium have it own narrations styles, varying on genres and format (series, shorts...). Linear narrative is not enough for games. See or listen not as powerful as play themselves.
-Structure in games is not as important.
-
-
 Stories emerge from our consciousness and observing ourselves and understand what is what we are doing.
 Successful life when you family, survive and thrive
-
-Games and stories share a lot in common
 
 
 # Genres
@@ -44,12 +43,6 @@ Games and stories share a lot in common
   - Legend - based on real person but cannot be proven
 -  **Science and journalism** (Gatunki pograniczne) to gatunki z pogranicza literatury, nauki i publicystyki, np. esej, felieton, reportaż. Bio
 
-## Games
-
-
-Push to act - Need to act. Engage with external   
-
-Free movement and actions   
 
 
 
@@ -126,80 +119,6 @@ She / He Her / His - External narrator is telling the story.    Commentator / In
 | Nature of narrator's utterance act with regards to story world facts | **Representing** (represents already exiting story and world) | **Stipulating**  (stipulates story through narrating)
 
 
-# Storytelling in games
-
-
-## Explicit Narration
-Cutscenes text written narrator    
-
-
-
-
-
-In literature: An explicit narrator is a narrator or character in a story that is the one telling the story. First person narrators are by definition explicit narrators.
-
-
-##  Implied Narration
-Implicit
-
-An implied narrative arises from visual cues that create the barest impression of a story in the minds of viewers. It is the act of withholding the whole story, rather than the attempt to visually illustrate the story, that defines these images
-
-player must figure out itself   
-implicit refers to something that is suggested or implied but not ever clearly said.
-
-a reliable character telling their own story, a character telling another character's story, and an unreliable character telling the story.
-
-Mistrust and misdirection  oftren are good narative tools    
-
-##  Emergent Narration
-Emerge from system     
-Mechanics in narration - implement plot in mechanics  
-
-###  Narrative vs Mechanics Driven
-How much power over the world
-
-**Game story domination**  -   
-**Player story domination** -   
-
-
-mechanick video storytell:
-- Edit finth, fish gameplay
-- Half Life2, can to trash tutorial
-
-
-### Ludo narrative Harmony
-- Action fit settings to achieve harmony relation between narration and gameplay
-premise and setting of story make sense with actions you perform
-- It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
-how themes are communicated through the gameplay
-
-[Mechanics](/gamemechanics/)  
-
-
-
-
-
-### Procedural storytelling
-
-[link a](https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf)  
-[link b](https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?id=4RamDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)  
-
-
-
-
-
-
-##  Environmental Narration
-
-
-## Experience
-Experience as an end itself
-
-
-### Paradox of control
-key element of enjoyment
-how to offer meaningful choice  without offering full control.
-
 
 
 ---
@@ -257,12 +176,6 @@ Narrative arc make  viewer curious how story will end
 **Climax** - tensest moment of crisis  , confrontation  
 **Falling Action** - move toward ending   denouement  
 **Resolution**  - back to stability  
-
-
-
-## Games structure
-
-Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
 
 
 #### Cycles
@@ -605,25 +518,6 @@ puzzle
 
 [Human Motivation](/motivation/)  
 
-
-
-#### Ex
-
-- bioshock(utopian tragedy),
-- soulsy (myths),,
-- stanley,
-- To the Moon,
-- deus ex(future),  
-- Metal Gear Solid (fake news)
-- Nier:automata(life after god (nitche,
-   endings at mininglesness by philosophy automatas:
-   - jean-paul(sad),
-   - pascal(peace)
-   - simone de beauvoir(love)
-   - kierkengaard(pray)
-
-- The Last Guardian (story enough to be satisfy not enough to explane )> shadow of colosus > ico
-https://youtu.be/UiOTSKBy6ME
 
 
 ---

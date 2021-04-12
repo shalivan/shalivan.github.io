@@ -10,10 +10,14 @@ tags:
 permalink: /gamedesign/
 ---
 
+ludology (etymologically 'game logic'), is the study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
+
+
 
 [Game Mechanics](/gamemechanics/)
 
-
+ Notes on the Synthesis of Form, Christopher Alexander  -
+‘Unselfconscious design’ (or ‘craft-based’ design) concerns the use of traditional building methods, in which the designer works directly on the form (so, if you were a wheelwright, the wheel) unselfconsciously, through a complex two-directional interaction between the context and the form, in the world itself. The design rules and solutions are largely unwritten, and are learnt informally. The same form is made over and over again with no need to question why; designers need only learn the patterns.
 
 
 
@@ -105,6 +109,7 @@ Now comes the 4th, and final, layer - Mental Modeling. The goal with this layer 
 
 >Mirrors Edge, Spiderman, Tony Hawk, Mario
 
+https://www.youtube.com/watch?v=tAE2H5qJ8A8
 
 ## Camera (Gamatography)
 (user think in euler look up down or on sides)
@@ -149,6 +154,14 @@ thgird person - hardest to design  (fixed angels are easier to make)
 
 # .
 - tutorials
+
+
+s “PICK UP THAT CAN.” If you do, he lets you go. If you don’t, he beats you. This accomplishes two things at once. It establishes story: you’re living in an oppressive society and must do what this cop says for fear of death. Second, on a more basic level it teaches you the basic mechanics of picking objects up and throwing them in the game..
+.#gamasutra.
+
 - rewards
 - accesalbility
 - gamification
+
+
+peer review:  https://youtu.be/Gsh-aYdFWws?t=1376

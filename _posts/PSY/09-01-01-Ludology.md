@@ -15,16 +15,12 @@ Narrative Experience
 
 
 # Medium
-Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe?)    
-
 Every medium have it own narrations styles, varying on genres and format (series, shorts...). Linear narrative is not enough for games. See or listen not as powerful as play themselves.
-Structure in games is not as important.
+Games and stories share a lot in common but Narratology in games can be not as important.
 
-
-Stories emerge from our consciousness and observing ourselves and understand what is what we are doing.
-Successful life when you family, survive and thrive
-
-Games and stories share a lot in common
+[Narratology](/narratology/)  
+[Game Design](/gamedesign/)  
+[Game Mechanics](/gamemechanics/)  
 
 
 # Genres
@@ -126,6 +122,9 @@ how to offer meaningful choice  without offering full control.
 ## Games structure
 
 Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
+
+
+
 
 
 #### Cycles

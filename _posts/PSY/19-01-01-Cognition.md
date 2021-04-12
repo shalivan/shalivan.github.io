@@ -26,6 +26,16 @@ How you process information
 
 
 
+- wrazenia zmysłowe
+- myśli
+- emocje
+
+
+- swiadomosc na jawie
+- sen
+- suszupti .... sen głęboki bez marzen sennych
+- teurya (suszupti pozytuywna wersja) (mosza wyzwolenie)
+
 
 # Cognitive states
 
@@ -121,6 +131,10 @@ agency - capacity to chose
 autonomy - capacity to make decisions  (multiplayer huge autonomy)
 
 
+
+# Imagination
+
+https://youtu.be/OpeCrf-RzHU?list=OLAK5uy_ngJaXe_-6TCDVCCo_8iclaEIrBJEiEvAI&t=241
 
 ----
 

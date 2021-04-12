@@ -100,6 +100,7 @@ non combat - combat loop
 
 
 
+  bullet points
 
 -----------
 
