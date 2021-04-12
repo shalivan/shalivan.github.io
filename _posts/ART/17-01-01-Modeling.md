@@ -6,7 +6,7 @@ categories:
 tags:
 - Art
 
-description: RAW.
+description: RAW
 
 permalink: /modeling/
 ---

@@ -23,6 +23,9 @@ Games and stories share a lot in common but Narratology in games can be not as i
 [Game Mechanics](/gamemechanics/)  
 
 
+
+
+
 # Genres
 
 
@@ -102,6 +105,8 @@ how themes are communicated through the gameplay
 
 
 ##  Environmental Narration
+
+[Level Design](/leveldesign/)  
 
 
 ## Experience
