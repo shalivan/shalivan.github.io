@@ -23,14 +23,30 @@ Games and stories share a lot in common but Narratology in games can be not as i
 [Game Mechanics](/gamemechanics/)  
 
 
+As nebulous, holistic, and abstract forms, paradigms are
+sometimes difficult to reveal. We can, despite this
+deficiency, look at these groups’ community structures,
+commitment networks, shared examples, tacit knowledge
+and intuition, and incommensurability
 
 
+|Paradigm Characteristics | Narratology |Ludology
+|---|---|---|
+Community structures | Mostly pedagogy, limited number of non-pedagogy researchers | Non-pedagogical game studies, although some thematic overlap with pedagogy
+Group commitment networks |Wide range of disciplines, including drama & literature, education, cognition, management | Narrow range of allegiances, limited to non-pedagogy - one central research center, one peer-reviewed journal, and between one and two dozen primary investigators
+Shared examples | Computer simulation, noncomputer simulation, role play, experiential learning, drama, literature, film | Videogame, virtual reality, hypertext, television, and emergent forms of computer play
+Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning and cognition | Non-pedagogical side of experience - i.e., play
+
+Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking
+
+file:///G:/546-Article%20Text-644-1-10-20140224.pdf
 
 # Genres
 
 
 ## Games
 
+Games as Rules + fictional Content
 
 Push to act - Need to act. Engage with external   
 
