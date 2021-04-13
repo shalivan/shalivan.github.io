@@ -11,24 +11,17 @@ tags:
 permalink: /ludology/
 ---
 
-Narrative Experience
-
-
 # Medium
-Every medium have it own narrations styles, varying on genres and format (series, shorts...). Linear narrative is not enough for games. See or listen not as powerful as play themselves.
+Every medium have it own narrations styles, varying on genres and format. Linear narrative is not enough for games.
+
+- Games as Rules + fictional Content
+- Free movement and actions   
+- See or listen not as powerful as play themselves
+- Need to act. Engage with external   
+
+
+
 Games and stories share a lot in common but Narratology in games can be not as important.
-
-[Narratology](/narratology/)  
-[Game Design](/gamedesign/)  
-[Game Mechanics](/gamemechanics/)  
-
-
-As nebulous, holistic, and abstract forms, paradigms are
-sometimes difficult to reveal. We can, despite this
-deficiency, look at these groups’ community structures,
-commitment networks, shared examples, tacit knowledge
-and intuition, and incommensurability
-
 
 |Paradigm Characteristics | Narratology |Ludology
 |---|---|---|
@@ -37,20 +30,16 @@ Group commitment networks |Wide range of disciplines, including drama & literatu
 Shared examples | Computer simulation, noncomputer simulation, role play, experiential learning, drama, literature, film | Videogame, virtual reality, hypertext, television, and emergent forms of computer play
 Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning and cognition | Non-pedagogical side of experience - i.e., play
 
-Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking
+| Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking
 
-file:///G:/546-Article%20Text-644-1-10-20140224.pdf
+[Narratology](/narratology/)
+
+[Pdf Source](file:///G:/546-Article%20Text-644-1-10-20140224.pdf)
 
 # Genres
 
 
-## Games
 
-Games as Rules + fictional Content
-
-Push to act - Need to act. Engage with external   
-
-Free movement and actions   
 
 
 ---
@@ -104,9 +93,6 @@ premise and setting of story make sense with actions you perform
 - It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
 how themes are communicated through the gameplay
 
-[Mechanics](/gamemechanics/)  
-
-
 
 
 
@@ -119,13 +105,13 @@ how themes are communicated through the gameplay
 
 
 
-
 ##  Environmental Narration
 
 [Level Design](/leveldesign/)  
 
 
-## Experience
+
+# Experience
 Experience as an end itself
 
 
@@ -140,7 +126,14 @@ how to offer meaningful choice  without offering full control.
 
 
 
-## Games structure
+# Structure
+
+
+
+[Game Design](/gamedesign/)  
+[Game Mechanics](/gamemechanics/)  
+
+
 
 Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
 
@@ -174,63 +167,10 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 
 
-```
-# Structure Elements
 
 
 
-- Coincidence are bad in story
-- Show a little details that can paint a grander picture.
-- **Strange attractor** new spin on familiar idea or 2 ideas
-- **Seeding** Spreading tiny bits of exposition
-- **Payoff** Response   
-- **Foreshadowing** Plant idea ahead and earlier to connect later  
-
-## Scope
-To much stories in witch the fate of the world was at stake
-Bigger stakes not equal more powerful stories
-
-
-## Exposition
-
-- Explanation is not as fun as phenomena itself.
-
-### Exposition Scene in cinema
-
-- Create a desire to know by arousing curiosity. With hunger for information even most complicated set of dramatized facts will pass smoothly into understanding.
-- Dave the best for last
-- Deliver surprises based on established rules
-[Story by: Robert McKee]
-
-Dialog or action - which move plot forward
-Scenes  włozone dla wyjasnienie jak jest plot hole
-exposition by narration  ??
-
-### Show and Tell in writing
-
-**Showing** dramatizes - emotions opinions sensations. deeper and details to feel more connecting to experience      
-**Telling** summarize -  “Talk is cheap.” Actions speak louder than words    
-[Craft of Fiction by: Perry Tubbock]
-
-As long as it character think its ok, if it sounds like author butting into explain things you've probably fallen into telling [Understanding Show, Don't Tell by: Janice Hardy]     
-
-
-Stronger showing:
-- Don't show monster but causes it makes u scared
-- Avoid opinion related adjectives like:  beautiful
-- use evidence for claims and let them go to conclusion You want to make. 2+2
-- emotions are complex concept and must be demonstrated with concrete details.  showing with details
-
-
-https://www.laphamsquarterly.org/roundtable/ups-and-downs
-```
-
-
-[Human Motivation](/motivation/)  
-
-
-
-#### Ex
+# Examples
 
 - bioshock(utopian tragedy),
 - soulsy (myths),,
