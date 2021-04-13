@@ -46,10 +46,10 @@ Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning 
 
 
 
-# Storytelling in games
+# Narration
 
 
-## Explicit Narration
+## Explicit
 Cutscenes text written narrator    
 
 
@@ -59,7 +59,7 @@ Cutscenes text written narrator
 In literature: An explicit narrator is a narrator or character in a story that is the one telling the story. First person narrators are by definition explicit narrators.
 
 
-##  Implied Narration
+##  Implied
 Implicit
 
 An implied narrative arises from visual cues that create the barest impression of a story in the minds of viewers. It is the act of withholding the whole story, rather than the attempt to visually illustrate the story, that defines these images
@@ -71,7 +71,7 @@ a reliable character telling their own story, a character telling another charac
 
 Mistrust and misdirection  oftren are good narative tools    
 
-##  Emergent Narration
+##  Emergent
 Emerge from system     
 Mechanics in narration - implement plot in mechanics  
 
@@ -105,7 +105,7 @@ how themes are communicated through the gameplay
 
 
 
-##  Environmental Narration
+##  Environmental
 
 [Level Design](/leveldesign/)  
 
