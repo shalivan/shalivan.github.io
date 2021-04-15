@@ -183,6 +183,10 @@ https://www.youtube.com/watch?v=ABC7PjrTGFs Cloud Atlas p
 
 
 ```
+
+Beacons - random dice rolles for multiplayer.  posted publicy over time for later verification + link to previous number (like posting time&date)
+
+
 Achievements
 
 ---

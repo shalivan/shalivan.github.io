@@ -8,7 +8,7 @@ tags:
 - Cognition
 - Gameplay
 
-description: States, Imagination, Memory, Biases , Choice,
+description: States, Imagination, Memory, Biases , Choice, Emotions
 permalink: /cognition/
 ---
 
@@ -344,6 +344,52 @@ https://www.visualcapitalist.com/50-cognitive-biases-in-the-modern-world/
 
 
 ---
+
+
+
+#  Emotions
+
+
+Emotions are biological states associated with all of the nerve systems
+
+
+There is currently no scientific consensus on a definition. Emotions are often intertwined with mood, temperament, personality, disposition, creativity, and motivation.
+
+
+Emotions produce different physiological, behavioral and cognitive changes
+The original role of emotions was to motivate adaptive behaviors that in the past would have contributed to the passing on of genes through survival, reproduction, and kin selection.
+
+
+n the one hand, the physiology of emotion is closely linked to arousal of the nervous system. Emotion is also linked to behavioral tendency.
+
+## Theories
+
+https://en.wikipedia.org/wiki/Emotion
+
+## Formation
+
+
+Aroused | not aroused
+negative | positive
+
+
+
+
+Psychosomatic evaluative responses based on automatized value-judgements.
+
+
+>Emotions are motivations by `Discovery, novelty, surprises`
+
+
+
+
+### .
+Cognitive appraisal: provides an evaluation of events and objects.
+Bodily symptoms: the physiological component of emotional experience.
+Action tendencies: a motivational component for the preparation and direction of motor responses.
+Expression: facial and vocal expression almost always accompanies an emotional state to communicate reaction and intention of actions.
+Feelings: the subjective experience of emotional state once it has occurred.
+
 
 
 

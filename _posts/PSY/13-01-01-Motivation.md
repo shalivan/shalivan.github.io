@@ -8,7 +8,7 @@ tags:
 - Cognition
 - Gameplay
 
-description:   Biological , Personal , Social, Satisfaction, Emotions    
+description:   Biological , Personal , Social, Satisfaction   
 permalink: /motivation/
 ---
 
@@ -251,6 +251,15 @@ Hope vs. fear |Differentiation into `hope` and `fear` components of implicit mot
 
 
 ---
+## Bartls
+Richard Bartle 1996
+
+| | Acting | Interacting |
+|--|--|--|
+Players | Killers | Socializers  
+World | Achievers |  Explorers
+
+---
 
 ## PENS
 Player Experience of Needed Satisfaction
@@ -288,6 +297,46 @@ Harmony -  mechanics/context   cooperation/conflict
 Stimulation - single/multi   calm/thrill   
 
 
+
+##  Emotion
+
+Emotions @ motivations
+Anxiety - to much
+Apathy - not for me
+Worry motivated
+Arousal motivated
+Boredom
+Relaxation
+Control
+Flow
+
+
+### Mood
+
+Affect is nmotr emotion is feeling is everything is ok u fill ok.
+
+
+##### Toxicity
+- Anonymity
+- Significant time involved
+- Latch opportunities by teammates mistakes
+- Dunning-Kruger Effect
+
+
+TOXICITY IN HUM BIO II
+
+
+https://www.google.com/search?q=emotion+wheel&sxsrf=ALeKk01LnyPDVP1QuPfYyQXYOeT_Co6y6Q:1606525739378&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjrhpLghqTtAhXloosKHcSdDBQQ_AUoAXoECAwQAw&biw=1536&bih=758
+
+`Game Feel` - is it seem real, does mechanics allow us to do sth. feeling of competence and growth mastery   
+`Interaction` - is positive
+
+
+People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
+
+
+
+---
 
 
 ---
@@ -354,69 +403,7 @@ overjustification:
 
 ---
 
-#  Emotion
 
----
-
-Aroused | not aroused
-negative | positive
-
----
-
-
-Psychosomatic evaluative responses based on automatized value-judgements.
-
-
->Emotions are motivations by `Discovery, novelty, surprises`
-
-`Game Feel` - is it seem real, does mechanics allow us to do sth. feeling of competence and growth mastery   
-`Interaction` - is positive
-
-
-People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
-
-
----
-Emotions @ motivations
-Anxiety - to much
-Apathy - not for me
-Worry motivated
-Arousal motivated
-Boredom
-Relaxation
-Control
-Flow
-
----
-### Mood
-
-Affect is nmotr emotion is feeling is everything is ok u fill ok.
-
-
-### .
-Cognitive appraisal: provides an evaluation of events and objects.
-Bodily symptoms: the physiological component of emotional experience.
-Action tendencies: a motivational component for the preparation and direction of motor responses.
-Expression: facial and vocal expression almost always accompanies an emotional state to communicate reaction and intention of actions.
-Feelings: the subjective experience of emotional state once it has occurred.
-
-
-##### Toxicity
-- Anonymity
-- Significant time involved
-- Latch opportunities by teammates mistakes
-- Dunning-Kruger Effect
-
-
-TOXICITY IN HUM BIO II
-
-
-https://www.google.com/search?q=emotion+wheel&sxsrf=ALeKk01LnyPDVP1QuPfYyQXYOeT_Co6y6Q:1606525739378&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjrhpLghqTtAhXloosKHcSdDBQQ_AUoAXoECAwQAw&biw=1536&bih=758
-
-
-
-
----
 
 
 ### Others

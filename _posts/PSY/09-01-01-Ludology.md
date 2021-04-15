@@ -11,6 +11,47 @@ tags:
 permalink: /ludology/
 ---
 
+
+game design - mechanis an rules
+behaviour  design -  pavlov
+design thinking -  
+
+```
+Horror can easly do away with character and plot. tension, shock, monsters.  
+Plot and characters are things VG find verry difficult to deal .
+```
+
+movie can create knowledge difference easy . game blend protagonist and player.
+
+open worlds
+
+#### Connect controls with feelings
+
+##### Accessibility , easy of use
+
+
+---
+tetris - escape to order
+NO CHARACTER IN TETRIS
+
+---
+
+##### Suspension of Disbelief
+- accepting unrealistic situations
+- audience scram on movies
+- Rules of game established reality that become a game norm
+- susp of dispb is necessery only when we failed to create secondaty belief.
+- inconsistence can break immersion
+
+# Psychology
+illusion only when authentic (coherent and consistent )
+
+Belief - fiction is not real
+Alife - suspend true believe for a moment
+
+we know how feelings are - experience taking. match own emotions with fictional characters. experience taking is harder in front of mirror so it can be relkeated with ego supress.
+
+
 # Medium
 Every medium have it own narrations styles, varying on genres and format. Linear narrative is not enough for games.
 
@@ -43,11 +84,14 @@ Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning 
 
 
 ---
-
+exposition is ok in games smtimes
 
 
 # Narration
 
+- game premise goal. why where
+- events  
+- micronarrative
 
 ## Explicit
 Cutscenes text written narrator    
@@ -109,6 +153,9 @@ how themes are communicated through the gameplay
 
 [Level Design](/leveldesign/)  
 
+most immersive
+it s the world speak and player will find their own story
+
 
 
 # Experience
@@ -136,6 +183,7 @@ how to offer meaningful choice  without offering full control.
 
 
 Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
+
 
 
 

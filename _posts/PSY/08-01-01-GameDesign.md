@@ -25,6 +25,13 @@ ludology (etymologically 'game logic'), is the study of games, the act of playin
 ----
 
 
+Victory condition
+1 winner - else looses
+
+Traither mechanics.   
+working toghether towards one goal and smiultaniously win (not enough hairs when music stops) Semicoop    
+
+high scores
 # Players
 
 [Motivation](/motivation/), [Characters](/characters/), [Personality](/personality/)
@@ -57,6 +64,7 @@ story multiplayer vs multiplayer story
 Chase, Race, Alignment, Ressource to escape, Forbiden Act , Construction, Exploration, Solution,
 
 
+
 ---
 # Rules
 - defining objects and concepts
@@ -66,6 +74,11 @@ Chase, Race, Alignment, Ressource to escape, Forbiden Act , Construction, Explor
 ---
 # Resources
 life's, units, scarcity, health, currency, actions(mana),objects, terrain, time,
+
+health    
+mana - spiritual or magical energy.   non renevable / renevable
+karma   
+
 
 ---
 # Conflict
@@ -151,6 +164,7 @@ thgird person - hardest to design  (fixed angels are easier to make)
 **Diedests** - in world
 **non Diagetic** - not in the fiction
 
+#
 
 
 # .
