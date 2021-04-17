@@ -1,6 +1,6 @@
 ---
-title: Unreal Niagara Paradigm
-description: Unreal Niagara.
+title: Niagara
+description: Paradigm
 categories:
  - RT
 tags:
@@ -13,6 +13,8 @@ tags:
 - Niagara
 permalink: /niagara/
 ---
+
+
 
 
 Niagara interaction
@@ -272,7 +274,7 @@ TRANSIENT.PhysicsForce
 TRANSIENT.PhysicsForce
 ```
 
-## Point Force 
+## Point Force
 
 ```
 EMITTER.LocalSpace

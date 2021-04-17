@@ -1,6 +1,6 @@
 ---
-title: Unreal Niagara Modules
-description: Unreal Niagara.
+title: Niagara Modules
+description: Modules
 categories:
  - RT
 tags:

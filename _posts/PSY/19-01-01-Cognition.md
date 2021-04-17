@@ -347,7 +347,7 @@ https://www.visualcapitalist.com/50-cognitive-biases-in-the-modern-world/
 
 
 
-#  Emotions
+#  Emotions & Mood
 
 
 Emotions are biological states associated with all of the nerve systems
@@ -380,7 +380,7 @@ Psychosomatic evaluative responses based on automatized value-judgements.
 
 >Emotions are motivations by `Discovery, novelty, surprises`
 
-
+Satisfaction -  well-being assessed in terms of mood, satisfaction with relationships, achieved goals, self-concepts
 
 
 ### .

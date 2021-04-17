@@ -1,6 +1,6 @@
 ---
-title: Unreal Niagara Data Interfaces
-description: Unreal Niagara.
+title: Niagara Data Interfaces
+description:  Data Interfaces
 categories:
  - RT
 tags:
