@@ -7,7 +7,7 @@ categories:
 tags:
 - CG
 - Configs
-description: .
+description: Pipelines
 permalink: /pipes/
 ---
 

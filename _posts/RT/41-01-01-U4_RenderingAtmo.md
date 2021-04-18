@@ -1,6 +1,6 @@
 ---
 title: Unreal Light & Atmosphere
-description: settings.
+description: Settings
 categories:
  - RT
 tags:

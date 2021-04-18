@@ -1,6 +1,6 @@
 ---
 title: Unreal Animation
-description: RAW NOTE.
+description: RAW
 categories:
  - RT
 tags:

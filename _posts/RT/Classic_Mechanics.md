@@ -1,6 +1,6 @@
 ---
 title: Game Design
-description: Mechanics.
+description: Mechanics
 categories:
  - RT
 tags:
@@ -10,4 +10,4 @@ tags:
 ---
 
 
-Papier Kamien nozyce 
+Papier Kamien nozyce

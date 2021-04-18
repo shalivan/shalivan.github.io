@@ -1,6 +1,6 @@
 ---
 title: Python hou.
-description: Houdini class.
+description: Houdini class
 categories:
  - RT
 tags:

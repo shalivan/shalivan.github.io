@@ -1,6 +1,6 @@
 ---
 title: Unreal Rendering Features
-description: RAW NOTE.
+description: RAW
 categories:
  - RT
 tags:

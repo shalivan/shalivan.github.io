@@ -1,6 +1,6 @@
 ---
 title: Algebra
-description: Math basic concepts
+description: Math
 categories:
 - DTA
 tags:
