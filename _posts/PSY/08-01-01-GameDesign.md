@@ -1,6 +1,7 @@
 ---
 title: Game Design
-description: RAW NOTES !!!
+description: Players, Objectives, Rules, Resources, Conflict, Outcome, Controls, UI
+
 categories:
  - PSY
 tags:
@@ -9,6 +10,10 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
+
+
+
+
 
 ludology (etymologically 'game logic'), is the study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
