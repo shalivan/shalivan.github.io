@@ -1,6 +1,6 @@
 ---
 title: L-system
-description: Turtle commands for L system
+description: Turtle commands
 categories:
 - HOU
 tags:
