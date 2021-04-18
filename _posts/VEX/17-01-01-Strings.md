@@ -1,6 +1,6 @@
 ---
 title: Vex Strings
-description:
+description: RAW
 categories:
  - VEX
 tags:

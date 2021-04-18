@@ -1,6 +1,6 @@
 ---
 title: Vex Orient
-description: VEX Transform, orientation and rotation.
+description: Transform, Orientation, Rotation.
 categories:
  - VEX
 tags:
@@ -79,7 +79,7 @@ vector axis = @N;
 v@up = chv("up_vector"); // create a 3x3 orientation matrix using N and up as  
 float eulerAngle = radians(ch("angle")); // or instead of angle: rand(@ptnum)*360  
 
-matrix3 m = maketransform(@N, v@up); // instead of ident()  (with starting matrix) 
+matrix3 m = maketransform(@N, v@up); // instead of ident()  (with starting matrix)
 rotate(m, eulerAngle, axis);  
 p@orient = quaternion(m); // make the quaternion  
 ```
