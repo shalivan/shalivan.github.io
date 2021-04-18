@@ -1,6 +1,6 @@
 ---
 title: Game Mechanics
-description: FPX
+description: Progression, Economy, Balance
 categories:
  - PSY
 tags:
