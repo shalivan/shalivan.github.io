@@ -1,5 +1,5 @@
 ---
-title: configs Houdini
+title: Houdini
 
 categories:
  - DTA
@@ -8,7 +8,7 @@ tags:
 - Houdini
 - Shortcuts
 - Configs
-description: .
+description: Configs
 permalink: /houdiniconfigs/
 ---
 

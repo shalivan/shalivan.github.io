@@ -1,6 +1,6 @@
 ---
-title: configs Circuit Tracks
-description: guide
+title: Circuit Tracks
+description: Configs, Patch Editor  
 categories:
  - DTA
 tags:
@@ -9,6 +9,8 @@ tags:
 
 permalink: /circuit/
 ---
+
+https://isotonikstudios.com/wp-content/uploads/Circuit-Editor-Manual-ShiftSynth1.pdf
 
 2 mininova oscillator engines. Circuit is not FM  synth. It does analog modeling  and wavetable synthesis.
 
@@ -34,19 +36,24 @@ midi device on windows:
 
 ## Oscillator
 - **Waveform** - wave shape  
-- `index` -  (Shift waveform) / (can modulate with LFO) [matrix destination name: OSC1 Pulse Width]
-- `Semitones` - Detune semitones up or down on octave (have multiple octave playing one note if add to oscillator 2)   
-- `Cents` -  Cents detune (can detune oscillator 2)   
-- `Detune` -  Density detune
-- `Density` -  Density   
-- `Interpolate` - Wave interpolate  
-- `VSync` - Virtual Sync depth ?     
+- `index` (OSC Pulse Width) -  Shift waveform.  
+- `Semitones` - Multiple octave playing one note. Detune semitones up or down on octave.  setting it to +12 effectively shifts the oscillator tuning up one octave.
+- `Cents` -  Cents detune. (1/100 of a semitone), ±50 tunes the oscillator to a quartertone
+midway between two semitones.
+- `Density` -  Density.   adds copies of the oscillator waveform to itself. Up to
+eight additional virtual oscillators are used for this, depending on the value of the parameter.
+This produces a “thicker” sound at low to medium values, but if the virtual oscillators are
+detuned slightly (see Density Detune below), a more interesting effect is obtained.
+- `Detune` -  Density detune. This parameter should be used in conjunction with the Density control
+- `Interpolate` - Wave interpolate.  (value of 127 will create a very smooth transition, with the adjacent
+waveforms blending together. With a value of zero the transitions will be abrupt and obvious)
+- `VSync` - Virtual Sync depth?     
 
 
 
 ## Mixer  
-Mix 2 oscilators
-- `Osc1` / `Osc2` - Add Oscillators to mix !  > can detune adding second oscillator and mix them on `mixer`  
+Mix oscillators
+- `Osc1` / `Osc2` - Add Oscillators to mix. Can detune adding second oscillator and mix them on mixer.  
 - `Noise` -  Add noise
 - `Ringmode` -    
 - `PreFX` / `PostFX` -  
@@ -57,7 +64,10 @@ Color and Shape of sound. Help filter out certain frequencies.
 
 Filter type
   - **Lowpass**,  **High pass**, **Bandpass**  - cut right, cut left, both    
-  - **12dB** (flat) sound is bassy higher ,  **24dB** (more slope) cutoff slope. Greater value sooner cut off  (higher freq pass through)    
+  - **12dB** (flat) sound is bassy higher   more higher freq with 12 bd,  **24dB** (more slope) cutoff slope. Greater value sooner cut off  (higher freq pass through)    
+
+
+
 
 Filter
 - `Cutoff Frequency` Filter  - How much to cut off filter, alter the tone of your sound from soft to sharp.
@@ -65,13 +75,18 @@ Filter
 
 
 Mod
-- `Key Track` 0-127 - change freq depend on how high on keyboard note is (higher keys higher freq) (if playing large range )
+- `Key Track` 0-127 - change freq depend on how high on keyboard note is (higher keys higher freq) (usefull if playing large range )
 - `Env2 > Freq` +-64 - Add automatically Filter to react  on  Envelope 2 !!!!!!!!!
-- `Q norm`
+- `Q norm` - : This parameter alters the bandwidth of the peak created by the resonance control. The
+value of filter res has to be set to something other than zero for this parameter to have any
+effect. This feature enables the Filter section to emulate many of the filter responses found on
+various classic analogue and digital synths
 
 Drive
 - `Type`
 - `Drive` - distort / amplify going in to filter. dif types  (bit crush, rat reduce)
+
+Same as EFFECTS > DISTORTION
 
 
 Bypass
@@ -94,32 +109,44 @@ Set:  **Attack**, **Decay**, **Sustain**, **Release**
 LFO require destination to work Apply only in matrix
 
 - **Waveform** - Wave shape
-- `Slew` (as portamento or glide for LFO wave ) limits how quickly wave can change value  
+- `Slew` (as portamento or glide for LFO wave ) limits how quickly wave can change value  shape of the LFO waveform. Sharp edges become less sharp as Slew is increased.
 - `Phase` - Shift tells LFO where in the wave to start
-- [ ] `One Shot` -
-- [ ] `Common Sync` -
+- [ ] `One Shot` - o generate just a
+single cycle of its waveform.
+- [ ] `Common Sync` - LFOs are in use for pitch modulation (their most common application),
+Common Sync is only applicable to polyphonic voices. It ensures that the phase of the LFO
+waveform is synchronized for every note being played. When to set Off, there is no such
+synchronization, and playing a second note while one is already pressed will result in an
+unsynchronized sound as the modulations will be out of time
 
 Rate / Delay
-- `Rate` - (can sync to temp )  Speed
-- [ ] `Rate Sync` -
+- `Rate` - (can sync to temp )  Speed /  LFO’s frequency. A value of zero stops the LFO, and most musical effects are
+likely to use values in the 40~70 range,
+- [ ] `Rate Sync` -e synchronized to an
+internal/external MIDI clock. When set to Off, the LFOs run at a frequency set by the Rate
+parameter
 - `Delay` - (can sync to temp )with fade modes   
 - [ ] `Delay Sync` -
 
 
-Delay Triger
-  - `singiel` -  
-  - `multi` -
 
 Sync style
-  - `free` - not synced  
-  - `Key Sync` - start with new key push
+  - `Key Sync` / `free` - start with new key push s Off, there is
+no way of predicting where the waveform will be when a key is pressed.
+
 
 Fade mode
-  - fade in
-  - out
-  - gate in
-  - out
+  - `Fade In` - gradually increased over the time period set by the
+Delay parameter
+  - `Fade Out` gradually... , leaving the note with no LFO modulation.
+  - `Gate In` - onset of the LFO’s modulation is delayed by the time period set by Delay
+parameter, and then starts immediately at full level.
+  - `Gate Out` - The note is fully modulated by the LFO for the time period set by the Delay. At
+this time, the modulation stops abruptly.
 
+Delay Triger  
+  - `singiel` / `multi` - Fade/Gate parameters set by Fade
+  Mode
 
 
 ## Effects
@@ -136,6 +163,21 @@ Fade mode
 - `level`  
 - `comp`   
 
+
+
+||||
+|-|-|-|
+Diode | Simulation of analogue Circuitry producing distortion | progressively “squared-off” as the amount of distortion is increased.
+Valve | Simulation of analogue Circuitry producing distortion | similar to Diode, but atextreme settings alternate half-cycles of the waveform are inverted.
+Clipper | Simulation of a | digital overload.
+Cross-Over | Simulation of the |  crossover distortion generated by bi-polar analogue Circuitry, (e.g., amplifier output stages)
+Rectify |  All negative-going half-cycles are inverted  | simulating the effect of rectification.
+Bit-Reducer | | Reproduces the “grainy” quality associated with lower bit rates, as found in older digital devices.
+Rate-Reducer | |  Gives the effect of reduced definition and HF loss, similar to the use of a low sample rate.
+
+
+
+
 #### Voice
 Mono, Auto-Glide, Poly
 - Portamento -  
@@ -151,25 +193,30 @@ Mono, Auto-Glide, Poly
 ###  Modulation Matrix
  Depth - how far parameter will be adjusted
 
-|Source ||||
-|-|-|-|-|
-|Performance | Velocity | how hard key pressed
+|Source |||
+|-|-|-|
+|Performance | Velocity | How hard key pressed
 |Performance | Keyboard
 |LFO|LFO +
- |LFO|LFO +-
+|LFO|LFO +-
 |Envelopes| Envelopes
 
 
 
-|Destination ||||
-|-|-|-|-|
-| Oscillator Pitch |
-| Oscillator V sync  |
-| Oscillator Pulse width  |
-Mixer  | Levels / RingMod 1*2 Lvl
-Filter | Drive Amount  / Frequency / Resonance
-LFO  | Rate
-Envelopes | 1 Amp Decay / 2 Filter Decay
+
+|Destination |||
+|-|-|-|
+| Oscillator | Pitch | Modulate Pitch
+| Oscillator| V sync  |
+| Oscillator | Pulse width  | Modulate wavetable index
+Mixer  | Levels |
+Mixer  | RingMod 1*2 Lvl |
+Filter | Drive Amount |
+Filter | Frequency |
+Filter | Resonance |
+LFO  | Rate |
+Envelopes | 1 Amp Decay |
+Envelopes |  2 Filter Decay |
 
 
 
@@ -201,9 +248,6 @@ Depth, jak duzo zmiany i w ktora strone
 7 | Modulation | oscillator pitch | LP
 8 | FX|Morph functions. Wavetable Positions, Oscillator A/B Ratio  | Resonance
 
-trick
-- modulate index with LFO  
-- Env2mod - how filter env  
 
 
 #### Macro for drums
@@ -386,6 +430,24 @@ https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Ci
   - depth 30 > interval of octve  (destinantion 1/2pitch)
 - source: velo > destination LFO rate. give random
 - LFO change another LFO: LFO 2 +/- , destination: LFO 1 rate destination2: Osc 1 Pulse Width   
+
+
+
+
+
+
+TRIX:
+- Modulate index with LFO !!
+ - LFO 1+ > OSC1 Pulse Width
+- ?
+    - LFO 1+ > Frequency ()
+    - Env2mod - how filter env  
+-  Tremelo  (lfo  modulating volu o amplifire)
+    - LFO 1+ > mix: Osc 1 Lvevl
+    - LFO 1+ > mix: Osc 2 Lvevl
+    - LFO 1+ > noise level
+
+
 ```
 
 

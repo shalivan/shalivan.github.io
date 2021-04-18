@@ -1,6 +1,6 @@
 ---
-title: configs Keystep Arturia
-description: guide
+title: Arturia Keystep
+description: Configs
 categories:
  - DTA
 tags:
