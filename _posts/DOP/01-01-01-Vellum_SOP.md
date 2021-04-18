@@ -6,7 +6,7 @@ categories:
 tags:
 - DOP
 - Houdini
-description:  Houdini solver in SOP's.
+description: SOP's Solver 
 permalink: /vellumsop/
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Curves equations
-description: VEX equations for curves drawing.
+description: VEX curves drawing
 categories:
  - VEX
 

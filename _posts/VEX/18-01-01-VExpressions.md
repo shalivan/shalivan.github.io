@@ -1,6 +1,6 @@
 ---
 title: Vexpressions
-description: patterns, expressions, Op()
+description: Patterns, Expressions, Op()
 categories:
  - VEX
 tags:

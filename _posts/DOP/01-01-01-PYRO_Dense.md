@@ -6,7 +6,7 @@ categories:
 tags:
 - DOP
 - Houdini
-description:  Houdini solver.
+description:  Solver
 permalink: /pyrodense/
 ---
 
