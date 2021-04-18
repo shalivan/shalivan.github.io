@@ -1,5 +1,5 @@
 ---
-title: Vex Orient
+title: VEX Orient
 description: Transform, Orientation, Rotation.
 categories:
  - VEX

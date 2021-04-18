@@ -1,5 +1,5 @@
 ---
-title: Vex Strings
+title: VEX Strings
 description: RAW
 categories:
  - VEX
