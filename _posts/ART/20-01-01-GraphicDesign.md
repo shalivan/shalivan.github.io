@@ -58,6 +58,8 @@ permalink: /graphicdesign/
 
 [Perception](/perception/)  
 
+----
+
 # References
 
  Things not working from memory. Its crucial.  
@@ -73,6 +75,37 @@ permalink: /graphicdesign/
 
 
 
+
+# Conception
+
+ Concept is communication form. Can help in further development if references are insufficient. Can be in various forms, sketch of design
+
+ - Exploration: `variations` and `iterations` (make 3 options and hybridize  based on feedback) Options, not variations. Variations are for finished concept.
+ - Concept should be usable
+ - Form perspective to be able `to translate` directly to 3d
+ - Draw additional `side views` and important elements.
+ - Don't limit yourself. Use 3d, textures, kit bash, references, photo bash
+
+
+## Scale
+   - `proportions` are critical. If sth to thick > like a toy can change perception!  
+   - Refer to `human scale` and show `relations` with other objects     
+   - lot of fog make enviro bigger
+
+## Silhouettes
+
+ ---
+
+ [Graphic Design](/graphicdesign/)
+
+ ```
+ Engeniging vs design (human centric)prototypes  
+ design thinking is methodology   
+ engeniers check if it work correctly  
+ prototypes - ask question expose asumptions and sneek to the future
+ ```
+
+ ## Harmony vs Chaos
 
 
 #  Design
