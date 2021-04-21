@@ -41,6 +41,8 @@ deep mental involvement
 
 Immerse : altered time. fully `immersed` with mechanics while challenge and tension in balance  (anxiety vs boredom)
 
+spatial (envo), genual sence of space
+
 
 ##  Presence  
 - teleport body    

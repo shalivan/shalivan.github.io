@@ -7,7 +7,7 @@ tags:
 - Art
 - Math
 - Procedural
-description: RAW
+description: Patterns, Computed, Emergent
 permalink: /procedural/
 ---
 
@@ -37,13 +37,26 @@ generative art -  complex systems (ecosystes, cities, cells ect.. )
 - Tiles (procedurally generate world) - Wave function collapse
 - L-system - recursive turtle commands
 
+
+
+# Computed
+
+Fractals
+
 # Patterns
 
+
+
+- spiral - flowers,
+- branching - foliage,
+- central - stars,  
+- tiles - symmetry, polygons with contact - honeycomb, pavement, islamic star patterns
+- nested - mandalas,
+
+
 [book: Franz Sales Meyer - A handbook of ornament (1920)]  
-
-
-
-
+[book: A Pattern Language Complete (architecture)]
+https://youtu.be/FBn6VgoF3fE  
 
 # Emergent
 
@@ -54,13 +67,13 @@ https://github.com/jasonwebb/morphogenesis-resources
 
 
 
-## Cellular Automata
+### Cellular Automata
 Game of life - simulation of grid with life/death state
 
 ...
 Conway and many other methods
 
-## Reaction Diffusion
+### Reaction Diffusion
 Reaction diffusion - blur/sharpen neighbor.
 simple (Gray scott formula):
 - seed like noise
@@ -78,7 +91,7 @@ black and white spaces
 
 https://youtu.be/VBzIPLh-ECg
 
-## Wang tiles
+### Wang tiles
 
 http://www.cr31.co.uk/stagecast/wang/3edge.html
 

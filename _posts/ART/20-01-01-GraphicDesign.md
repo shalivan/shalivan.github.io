@@ -11,16 +11,20 @@ permalink: /graphicdesign/
 ---
 
 
-```
 
-THE MAP IS NOT THE TERRITORY
-Alexander warns about the hazards of "self-consciousness" when considering the key factors influencing a design.
 
-FORM AND CONTEXT
 
-https://www.core77.com/posts/69273/Book-Review-Notes-on-the-Synthesis-of-Form   
 
-```
+
+
+
+
+
+
+
+
+
+
 
 [Art](/art/)  
 
@@ -49,7 +53,7 @@ https://www.core77.com/posts/69273/Book-Review-Notes-on-the-Synthesis-of-Form
  |  |  **Contrast** | **Juxtaposition** of elements with oposite attributes to emphasis or attract attention
  |  |  **Proportion**  | Scaling elements as they relay to each other. **Relative Size** or ammount
  |  |  **Movement** | Lines, edge, color or path that imply **Direction** (flying birds, road)
- |  |  **Repetition** | Similar elements in **Sequence**. Create **Rhythm** or **Pattern**. **Pacing**
+ |  |  **Repetition** | Similar elements in **Sequence**. Create **Rhythm** or **Pattern**. **Pacing**, interlock (zagniezdzanie), echos
  |  |  **Unity** | all elements together create **Harmony**
  |  |  **Variety** | hold viewer attention
 
@@ -75,8 +79,7 @@ https://www.core77.com/posts/69273/Book-Review-Notes-on-the-Synthesis-of-Form
 
 #  Design
 
-The applied arts. Design is a language. Its  thinking not generic!
-
+The applied arts. Design is a language. Its thinking, never generic! It work as a **form in the context**.
 
  - **Brief** `Parti pris` – statement of design goals and constraints
  - **Analysis** – analysis of current design goals **form** and **function**  
@@ -92,11 +95,23 @@ The applied arts. Design is a language. Its  thinking not generic!
 - Animalistic features. Design base on anture or manufactured items
 - Harmony and dissonance
 
-## Design for existing settings
+### Patterns
 
- if u need design something in similar style reverse engenire understand design influences  and intention. Find references they maight use
+- general design that addresses a recurring design problem in object oriented system 
+- general arrangement of objects and classes
+harmony
 
-## Design from base
+[book: Notes on the Synthesis of Form] Ryan Singer, “Designing with Forces: How to Apply Christopher Alexander in Everyday Work ”
+ - explain why
+ - draw line between form and context. found boundary
+ - identify forces that make demands on the form (form of crownsplash show all forces that influence the splash),
+ - resolve forces to diagrams, so there is no friction or conflict. (workflow, hierarhy)
+ - improve existing design  Look at existing design in usefull way.
+
+[a pattern language]
+
+
+### Design from base
  u know what things are. culturally programed by life.
  Cultural norms
  grounded in cultular aseptence
@@ -104,6 +119,10 @@ The applied arts. Design is a language. Its  thinking not generic!
  strong visual language help identify patterns
 
 
+#### Anchors
+##### Design for existing settings
+
+  if u need design something in similar style reverse engenire understand design influences  and intention. Find references they maight use
 
 
 #### Visual Library
@@ -168,3 +187,6 @@ The applied arts. Design is a language. Its  thinking not generic!
 
  Iconography - construction grid, smallest point   
  Typograpth -    
+
+
+---

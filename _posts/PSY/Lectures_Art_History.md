@@ -1,3 +1,31 @@
+# 2m -250k Homo Erectus
+Acheulian stone axes
+
+# 100 000 Cognitive revolution
+Jump in inventions. If > And > Then logic
+
+
+
+Empathy
+- Cognitive. take of someone intentions
+- Affected. Emotional kresponce to somebody thoutghts nad feelings
+ Cooperation, treaching, self reflection, referential communication 
+
+# 40 000  FIrst Paintings
+ - firsdt fluet from bird bone
+ - neckles
+ - first paintings
+
+
+
+# 25 k
+sculptures
+needles (23)
+
+# 13 k
+Agriculture
+
+
 
 # What is Art:
 ```
