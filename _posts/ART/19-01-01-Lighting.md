@@ -6,14 +6,14 @@ categories:
 tags:
 - Light
 - Art
-description: Setups
+description: Properties of Material and Light, Natural, Studio, Stage, Virtual setups
 permalink: /lighting/
 ---
 
 
 
 
-# Light Source Properties
+# Properties of Light Source
 
 
 
@@ -93,7 +93,7 @@ polarize before it reflect on surface and second time after  to secure color wit
 
 
 
-# Material  Properties
+#  Properties of Material
 **Specular**     Highlights and reflection important,  
 **Translucent**      
 **Refraction**      

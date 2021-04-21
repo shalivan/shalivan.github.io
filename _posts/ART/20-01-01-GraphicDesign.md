@@ -6,7 +6,7 @@ categories:
 tags:
 - Art
 - Design
-description: Paradigm
+description: Elements, Principles, Rederences, Design
 permalink: /graphicdesign/
 ---
 
@@ -26,11 +26,9 @@ permalink: /graphicdesign/
 
 
 
-[Art](/art/)  
+ Approach to [Art](/art/) note.  
 
 # Elements & Principles
-
-
 
 | | Design Elements |  | | |   
 | -| - | - |- |- |
@@ -97,7 +95,7 @@ The applied arts. Design is a language. Its thinking, never generic! It work as 
 
 ### Patterns
 
-- general design that addresses a recurring design problem in object oriented system 
+- general design that addresses a recurring design problem in object oriented system
 - general arrangement of objects and classes
 harmony
 

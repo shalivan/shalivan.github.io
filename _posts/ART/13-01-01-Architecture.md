@@ -9,7 +9,7 @@ tags:
 - Game Dev
 - Gameplay
 - Architecture
-description: Paradigm
+description: Form, Space, Arrangement
 permalink: /arch/
 ---
 
