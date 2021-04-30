@@ -12,6 +12,10 @@ description: States, Imagination, Memory, Biases , Choice, Emotions
 permalink: /cognition/
 ---
 
+
+https://www.quantamagazine.org/the-brain-rotates-memories-to-save-them-from-new-sensations-20210415/
+
+
 # Academic fields
 
 |Cognition fields||

@@ -212,8 +212,10 @@ Optimisation: 8 bit (halfmemory) / compress: les mem but hitches on sream decomp
 
 # Material
 
-POM vs Tessalation:
+## POM vs Tessalation:
 
+
+## Translucent in Deffered problems
 
 
 ## Motion Blur

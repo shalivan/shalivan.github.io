@@ -119,6 +119,14 @@ Mistrust and misdirection  oftren are good narative tools
 Emerge from system     
 Mechanics in narration - implement plot in mechanics  
 
+## Random
+
+randomnes
+- (pre luck) input (before player make decidion): levels
+- (post luck) output  (after action, hit chances in x com, lutbox) (more anger and res not for competence but bad luck undercuts strategy )
+
+
+
 ###  Narrative vs Mechanics Driven
 How much power over the world
 

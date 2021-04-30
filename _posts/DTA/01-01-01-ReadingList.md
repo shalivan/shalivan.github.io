@@ -103,7 +103,7 @@ Dan Ariely | Behavioral Economics
  - doors of perception
  - 101 prison of mind from 1790
 
- 
+
 ---
 
 
@@ -182,4 +182,6 @@ The Experience Economy, Updated Edition
 
 # Fun
 
-john marco allegro, the sacred mushroom and the cross    
+john marco allegro, the sacred mushroom and the cross      
+
+Stulecie chirurgów Thorwald Jurgen  

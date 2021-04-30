@@ -7,7 +7,7 @@ tags:
 - Art
 - Animation
 - VFX
-description:  Paradigm
+description:  Principles, VFX
 permalink: /animation/
 ---
 
@@ -37,14 +37,14 @@ permalink: /animation/
 
 # Principles of animation
 
-| . | |less|more|
+| Name | | Less| More|
 | --- | --- |--- | ----|
 Squash & Stretch | (for VFX), emphasize speed, momentum, weight  and mass | solid stiff | soft, characters, face | try to preserve volume
 Anticipation |  (for VFX) prepare for action clue what hapen next and focus action. can be multiple layers ||face |if you have time for build up do it
 Staging |make idea clear: wher to look what i happenieng |
-strait ahead and pose to pose |character pose to pose but hairs frame to fram  |frame by frame for unpredictable like simulations | better in most actions
+Strait Ahead vs. pose to pose |character pose to pose but hairs frame to fram  |frame by frame for unpredictable like simulations | better in most actions
 Follow through, overlaping action, drag| continoue after main body stop, ofset created by drag, drag=delay main body and tips and end wchch must follow > forearm drag elbow > drag hand | TV antena | feather  
-Slow In & Out |  (for VFX) ! Most efect have slow in and out | robots | all rest
+Easing |  Slow In & Out (for VFX) ! Most efect have slow in and out | robots | all rest
 Arcs | living reatures move with arcs |
 Secondary Actions |  (for VFX) Add more dimention lik other hand (not in focus but iomportant ) additional things that Exaturate primal effect
 Timing |sometime draw on 2 afarmes (less gitter slower action) |hit| look around  
@@ -89,3 +89,6 @@ https://youtu.be/WLMVpcK0WvA?list=PLQD_sA-R5qVKVYw3EVuRT7fSJsVukLEhD
 |peak |
 |repeated | light blink
 |wave |  
+
+
+[book: Illusion of Life: Disney Animation]

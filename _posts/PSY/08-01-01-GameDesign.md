@@ -15,6 +15,13 @@ permalink: /gamedesign/
 
 
 
+
+
+IDLE GAMES - IDLE Clickers games that play themselds
+
+
+
+
 ludology (etymologically 'game logic'), is the study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
 
@@ -70,19 +77,36 @@ Chase, Race, Alignment, Ressource to escape, Forbiden Act , Construction, Explor
 
 
 
+aim
+run chaise
+solve
+hide
+skilsy skakania
+
+
+
+
+
+
 ---
 # Rules
+
 - defining objects and concepts
 - restricting actions
 - determinig effects
 
+
 ---
 # Resources
-life's, units, scarcity, health, currency, actions(mana),objects, terrain, time,
+Scarcity
+- units, currency, objects,time,
+- life's,  health, ,
 
-health    
-mana - spiritual or magical energy.   non renevable / renevable
+
+mana (actions) - spiritual or magical energy.   Non renevable / renevable
 karma   
+
+terrain,
 
 
 ---
@@ -122,7 +146,7 @@ Now comes the 4th, and final, layer - Mental Modeling. The goal with this layer 
 
 
 
-# Controls and UI
+# Controls
 
 ## Movement
 
