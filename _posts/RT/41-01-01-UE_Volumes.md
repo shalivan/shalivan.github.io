@@ -127,9 +127,15 @@ Volume advanced output: volumetric adv input >>> extinction
 
 http://asher.gg/
 
+ VOLUME GFAKE 6 point lightmap 
 
+Cool! You can also output these directional lightmaps automatically in ue4 using the Volumetrics plugin along with the motion vectors. I have been meaning to post about that.
+https://twitter.com/Vuthric/status/1286796950214307840
 
 ------
+
+
+## Niagara
 
 
 

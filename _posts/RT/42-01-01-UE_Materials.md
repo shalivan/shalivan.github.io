@@ -1,6 +1,6 @@
 ---
-title: PBR
-description: Unreal Materials 
+title: UE Materials
+description: PBR
 categories:
  - RT
 tags:
@@ -10,8 +10,18 @@ tags:
 - Shaders
 - Game Dev
 
-permalink: /pbr/
+permalink: /ue_mat/
 ---
+
+####### Motion Vectors
+
+https://www.sidefx.com/tutorials/create-motion-vectors-for-time-warping-image-sequences/
+
+####### Biplanar projection:    
+
+https://www.shadertoy.com/view/ws3Bzf     
+https://iquilezles.org/www/articles/biplanar/biplanar.htm   
+
 
 IOR: most dielectrics 1.5.
 
