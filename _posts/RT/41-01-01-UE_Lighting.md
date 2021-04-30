@@ -1,6 +1,6 @@
 ---
-title: Unreal Light & Atmosphere
-description: Settings
+title: UE Lighting
+description: Settings,  Atmosphere
 categories:
  - RT
 tags:
@@ -214,15 +214,6 @@ With Atmosphere are ADDITIVE So basic setup black
 
 https://shaderbits.com/blog/ue4-volumetric-fog-techniques  
 
-
----
-
-
-
-# Clouds
-https://sergeneren.com/2019/08/21/creating-low-altitude-clouds/
-
-https://gumroad.com/l/sFTCY/Clouds6m52fv
 
 
 ---

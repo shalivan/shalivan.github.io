@@ -1,5 +1,5 @@
 ---
-title: Unreal Volume
+title:  UE Volume
 description: Fluid Ninja, Clouds
 categories:
  - RT
@@ -148,6 +148,12 @@ by tracing multiple octaves (or steps) of light transmittance in the volume mate
 
 IN MATERIAL
 Contribution and low Occlusion values on the Volumetric Advanced Material expression in your cloud material to similar effect without impact to performance.
+
+
+
+https://sergeneren.com/2019/08/21/creating-low-altitude-clouds/
+
+https://gumroad.com/l/sFTCY/Clouds6m52fv
 
 
 ### Volume Ray Marching and Shadow Maps
