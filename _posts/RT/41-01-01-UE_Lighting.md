@@ -251,3 +251,8 @@ Automatic Exposure Bracketing examples:
 
 Old setup
  - `Sky box` > `Exp fog` > `Sky Light` > `Directional Light` > `Secondary lights` > `Cam Post` > `Color Grading`
+
+
+
+ -------------
+ # Baked light

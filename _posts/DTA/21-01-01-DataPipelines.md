@@ -20,30 +20,35 @@ permalink: /pipes/
 
 ### Paths
 
-|Exports, Cache|
-|---|
-| Mesh  Export - ```$HIP/`opname("..")`/export/$OS.fbx``` |  
-| Mesh  Cache -```$HIP/`opname("..")`/cache/$OS.bgeo```  |     
-| Simulation   Cache - ```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` |  
+|Exports, Cache||
+|---|---|
+| Export | ```$HIP/`opname("..")`/export/$OS.fbx``` |  
+| Cache Static |```$HIP/`opname("..")`/cache/$OS.bgeo```  |     
+| Cache Simulation | ```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` |  
 |**Bake**|
-| Maps Bake -```$HIP/`opname("..")`/export/bake/${OS}/${OS}_$(CHANNEL).tif``` |    
-|Maps Bake PDG  - ```$HIP/`opname("..")`/pdg/bake/${OS}/${OS}_`@wedgeindex`_$(CHANNEL).tif```  
+| Maps Bake |```$HIP/`opname("..")`/export/bake/${OS}/${OS}_$(CHANNEL).tif``` |    
+|Maps Bake PDG  | ```$HIP/`opname("..")`/pdg/bake/${OS}/${OS}_`@wedgeindex`_$(CHANNEL).tif```  
 |**Game**|
-|TextureSheet / MorionVector seqence - ```$HIP/`opname("..")`/export/bake/${OS}_sequence``` |      
-|TextureSheet / MorionVector - ```$HIP/`opname("..")`/export/bake``` |  
-|Heightfields - $HIP/`opname("..")`/export/heightfields/$OS|
-|Vertex Anims  -```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` |       
-|Vertex Anims  -``` $HIP/export/`chs("_component")`_vat```   |
-|Vertex Anims  -``` `chs("_project")`/`chs("_component")`_xxx.fbx```  |
-|Niagara -``` $HIP/`opname("..")`/export/niagara/$OS.hbjson ``` |
+|TextureSheet / MorionVector seqence | ```$HIP/`opname("..")`/export/bake/${OS}_sequence/``` |      
+|TextureSheet / MorionVector | ```$HIP/`opname("..")`/export/bake/``` |  
+|Heightfields | ```$HIP/`opname("..")`/export/heightfields/$OS/``` |
+|Vertex Anims  |```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` |       
+|Vertex Anims  |``` $HIP/export/`chs("_component")`_vat```   |
+|Vertex Anims  |``` `chs("_project")`/`chs("_component")`_xxx.fbx```  |
+|Niagara | ``` $HIP/`opname("..")`/export/niagara/$OS.hbjson ``` |
+|Impostors| ```$HIP/`opname("..")`/export/${OS}_impostor/sequence/${OS}.$F4.exr``` |
+|Impostors| ```$HIP/`opname("..")`/export/${OS}_impostor/${OS}_beauty.exr``` |
 |**KineFx**|
-|FBX Character Export ```$HIP/.... .fbx```
-|FBX Animation Output ```$HIP/.... .fbx```  
+|FBX Character Export | ```$HIP/.... .fbx```
+|FBX Animation Output | ```$HIP/.... .fbx```  
 |**Vellum** |
-|Vellum cache - $HIP/cache/heightfield/$OS.bgeo.sc
+|Vellum cache | ```$HIP/cache/heightfield/$OS.bgeo.sc```
 |**PDG**|
-|PDG TopGeo - ```$HIP/`opname("../..")`/export/pdg/${OS}_`@wedgeindex`.fbx```
-|PDG cache - ```$HIP/`opname("../..")`/cache/pdg/${OS}/${OS}_`@wedgeindex`.$F4.fbx```
+|PDG TopGeo | ```$HIP/`opname("../..")`/export/pdg/${OS}_`@wedgeindex`.fbx```
+|PDG cache | ```$HIP/`opname("../..")`/cache/pdg/${OS}/${OS}_`@wedgeindex`.$F4.fbx```
+|**COP**|
+|COP image | ```$HIP/`opname("..")`_cop/${OS}/${OS}.exr```
+
 
 
 $HIP/`opname("..")`/export/bake/`@top_name`/`opname("..")``@top_name``@lod_name``@bake_set`_$(CHANNEL).tif

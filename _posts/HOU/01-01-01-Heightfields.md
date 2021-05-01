@@ -11,7 +11,14 @@ permalink: /heightfields/
 ---
 
 
+#Export to Unreal:
 
+middle point:  149, 149, 149  #959595
+- 16-bits
+- grayscale
+- png or raw
+
+landscape ize; unreal docs  
 
 [Lanscape.hiplc](/src/hip/SOP Lanscape.hiplc)
 

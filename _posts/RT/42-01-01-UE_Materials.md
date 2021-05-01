@@ -13,11 +13,24 @@ tags:
 permalink: /ue_mat/
 ---
 
-####### Motion Vectors
+
+
+## Shading modes
+
+
+|Lighting Mode | PS VS | Cost |  Usage|
+|-- | -- | -- | -- |
+|.
+
+
+###### Motion Vectors
 
 https://www.sidefx.com/tutorials/create-motion-vectors-for-time-warping-image-sequences/
 
-####### Biplanar projection:    
+
+###### 6D Lightmaps.
+
+###### Biplanar projection:    
 
 https://www.shadertoy.com/view/ws3Bzf     
 https://iquilezles.org/www/articles/biplanar/biplanar.htm   
@@ -115,10 +128,3 @@ https://youtu.be/kxsQ5m2IAXs
 
 
 https://marmoset.co/posts/physically-based-rendering-and-you-can-too/
-
-
-## Shading modes
-
-
-|Lighting Mode | Ps/Vs | Cost |  Usage|
-|-- | -- | -- | -- |

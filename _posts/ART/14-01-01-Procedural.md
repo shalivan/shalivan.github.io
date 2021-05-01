@@ -58,6 +58,7 @@ Fractals
 [book: A Pattern Language Complete (architecture)]
 https://youtu.be/FBn6VgoF3fE  
 
+
 # Emergent
 
 https://github.com/jasonwebb/morphogenesis-resources

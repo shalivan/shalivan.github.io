@@ -185,3 +185,8 @@ The Experience Economy, Updated Edition
 john marco allegro, the sacred mushroom and the cross      
 
 Stulecie chirurgów Thorwald Jurgen  
+
+
+# Economy
+The Dao of Capital: Austrian Investing in a Distorted World
+Book by Mark Spitznagel  
