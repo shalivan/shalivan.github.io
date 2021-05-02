@@ -269,7 +269,7 @@ emitter.Houdini.ASpawnParticlesFromHoudiniPoinCache.SpawnData
 - `GetPoint...AtTime` -   
 - `Transform...` - Local to sim for: P, N, v
 
-<img align="right" src="/src/ue/niagara/houdiniparticlespawn.png">   
+<img align="right" src="/src/ue/niagara/houdiniparticlespawn.png"> .  
 
 ```
 R:
