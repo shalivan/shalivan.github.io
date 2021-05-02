@@ -224,6 +224,8 @@ hardcoded attributes -
 
 <img align="right" src="/src/ue/niagara/houdiniinit.png">
 
+.
+
 ```
 W:  
 emitter.Houdini.LastSpawnTime - 0.0  
@@ -239,6 +241,8 @@ emitter.Houdini.RestSpawnState - [V]
 - `GetPointIDTospawnAtTime` - create spawn data: deltaTime, InterpStart, Delat, Count
 
 <img align="right" src="/src/ue/niagara/houdinispaenfrompointcloud.png">
+
+.
 
 ```
 R:    
