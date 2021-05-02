@@ -197,21 +197,18 @@ Set UV by Dynamic material
 
 
 
-# Houdini csv
-
-
-
+# Houdini Point Clouds
 
 
 ## Houdini
 
 #### Niagara ROP
-- Export pointcloud as: **.hjson**, **.hbjson** - bin quicker  
+
+Export pointcloud as: **.hjson**, **.hbjson** - bin quicker    
  - `i@id`  per particle  same for one particle   
  - `f@time` of pop-up / arrival time // just normalize time before export!  check length from a to b and set time  
  - `@type` group   
  - `@life` Life set for first point
- .    
  - `i@dead = 1`  
  -  `NID` - niagara id attrib CREATED BY SAMPLE MODULES  
 no `Force` ?
