@@ -17,6 +17,12 @@ x, y
 Rene Descartes
 
 
+TILES:
+- trix
+- squares
+- hex 
+
+
 #### Polar Coordinates
 2d. where x, y >> angle, radius  
 
@@ -43,11 +49,21 @@ is specified as the center of mass, or barycenter,
 - even if not changing direction you will get accumulated rotation
 
 #### Euclidean
+geomery  
 - in Euclidian parallel will stay parallels
 
+
 #### Hyperbolic coordinates
+(2d plane circle)
 - parallels will diverge (Opposite to spherical)
 - even if not changing direction you will get accumulated rotation
+
+
+
+
+https://youtu.be/FBn6VgoF3fE - patterns  
+
+
 
 #### Mesh Uv's
 

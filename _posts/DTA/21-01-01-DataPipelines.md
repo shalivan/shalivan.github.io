@@ -47,7 +47,7 @@ permalink: /pipes/
 |PDG TopGeo | ```$HIP/`opname("../..")`/export/pdg/${OS}_`@wedgeindex`.fbx```
 |PDG cache | ```$HIP/`opname("../..")`/cache/pdg/${OS}/${OS}_`@wedgeindex`.$F4.fbx```
 |**COP**|
-|COP image | ```$HIP/`opname("..")`_cop/${OS}/${OS}.exr```
+|COP image | ```$HIP/`opname("..")`_cop/${OS}.exr```
 
 
 

@@ -134,6 +134,10 @@ balance between: anxiet  and boredom
 
 Obstacles, Opponents, Dilemmas
 
+###### Relationships
+all vs player
+all for all 
+
 ---
 # Boundaries
 

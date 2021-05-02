@@ -10,6 +10,14 @@ description: Houdini solver.
 permalink: /pop/
 ---
 
+```
+FEM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+https://youtu.be/GHjopp47vvQ
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+```
+
+
+
 Vex based solver.  green inputs have wired into them POP microsolvers.  
 Multisolver is for POP and rigids.    
 Order in dops: from solver upward to each end of stream from left to right and then throu each streams from up to solver.  

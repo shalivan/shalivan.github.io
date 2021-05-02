@@ -15,14 +15,16 @@ permalink: /ue_mat/
 
 
 
-## Shading modes
+# Shading models
 
 
 |Lighting Mode | PS VS | Cost |  Usage|
 |-- | -- | -- | -- |
-|.
+|lit
 
 
+
+# Features
 ###### Motion Vectors
 
 https://www.sidefx.com/tutorials/create-motion-vectors-for-time-warping-image-sequences/
@@ -41,7 +43,16 @@ IOR: most dielectrics 1.5.
 Unreal simplified disney model
 
 
-# Material
+
+## paralax / wpo
+
+https://youtu.be/kxsQ5m2IAXs
+
+
+
+----
+
+# PBR
 
 Material models:
 
@@ -119,11 +130,6 @@ Surface forward Shading| forward |most expensive. Each light per pixel| glass, w
 
 **Thin Transparent** shading model and material expression, you are able to accurately represent tinted and colored transparent material
 
-
-
-## paralax / wpo
-
-https://youtu.be/kxsQ5m2IAXs
 
 
 

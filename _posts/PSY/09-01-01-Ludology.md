@@ -253,3 +253,9 @@ https://youtu.be/UiOTSKBy6ME
 
 
 https://inspirassion.com/en/metaphor/sand
+
+
+---------------
+game podcasts
+https://www.psychologyofgames.com/  
+https://ludology.libsyn.com/  

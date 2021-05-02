@@ -95,6 +95,7 @@ Nima Arkani-Hamed
 
 Simulacra and simulation - Jean Baudrillard
 Paul Bloom | Psycholinguistics, Developmental Psychology
+Paul Bloom | How Pleasure Works: The New Science of Why We Like What We Like
 Dan Ariely | Behavioral Economics
 
 

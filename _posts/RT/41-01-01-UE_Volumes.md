@@ -12,8 +12,96 @@ tags:
 permalink: /ue_volume/
 ---
 
+------------
+
+
+
+# Unreal Volume
+
+
+
+`r.VolumetricFog.GridPixelSize 8`   
+`r.VolumetricFog.GridSizeZ 128`   
+`r.VolumetricFog.TemporalReprojection 1`   
+`r.VolumetricFog.Jitter 1`   
+`r.VolumetricFog.HistoryWeight`   
+
+## Volume material
+Volume, Additive
+
+
+
+Volume texture: VectoreDisplacementmap(RGBA8)
+
+Volume advanced output: volumetric adv input >>> extinction
+- optimize vonservatriveDensity
+
+
+
+[ Inside Unreal (Expand Your World With Volumetric Effects)](https://www.youtube.com/watch?v=R2RQm_Bu81I) - [forum thread ](https://forums.unrealengine.com/t/inside-unreal-expand-your-world-with-volumetric-effects/148624)
+
+
+
+http://asher.gg/
+
+ VOLUME GFAKE 6 point lightmap
+
+Cool! You can also output these directional lightmaps automatically in ue4 using the Volumetrics plugin along with the motion vectors. I have been meaning to post about that.
+https://twitter.com/Vuthric/status/1286796950214307840
+
+------
+
+
+
+## Niagara
+
+
+
+
+## Volumetric Clouds
+
+When you near could be repleaced with vol fog
+
+[Unreal Docs](https://docs.unrealengine.com/en-US/BuildingWorlds/LightingAndShadows/VolumetricClouds/index.html)
+
+three-dimensional volume texture that is ray-marched
+This effect of light is called multiple scattering, and it is what defines the distinct appearance of clouds. In a cloud, the droplets that make up the cloud usually lead to an albedo that is close to a value of 1, meaning that light is almost never absorbed within the volume. Light that is not absorbed passes through the volume making the scattering effect very complex in the process.
+
+OCTAVES  (for games 1 )
+by tracing multiple octaves (or steps) of light transmittance in the volume material. The Volumetric Advanced Material Output expression enables you to set the number of octaves used along with the amount of multiple scattering contribution, occlusion, and eccentricity that happens.
+
+IN MATERIAL
+Contribution and low Occlusion values on the Volumetric Advanced Material expression in your cloud material to similar effect without impact to performance.
+
+
+
+https://sergeneren.com/2019/08/21/creating-low-altitude-clouds/
+
+https://gumroad.com/l/sFTCY/Clouds6m52fv
+
+
+### Volume Ray Marching and Shadow Maps
+
+
+ Ray Marched     
+ Beer Shadow Maps (BSM)   
+
+### Directional Light Interactions and Shadowing
+
+
+
+
+-------
+
+
+
 # Fluid Ninja
 
+- bake flipbook
+- vector fields
+- flow maps
+
+In:  bmp, particles, draws   
 # Fluid Ninja Live
 
 
@@ -94,78 +182,3 @@ SkeletalMeshes, PhysicsBodies, Destrucbles)
 
 
  custom GUI,Memory Manager, and Interface Controller.
-
-------------
-
-
-
-# Unreal Volume
-
-
-
-`r.VolumetricFog.GridPixelSize 8`   
-`r.VolumetricFog.GridSizeZ 128`   
-`r.VolumetricFog.TemporalReprojection 1`   
-`r.VolumetricFog.Jitter 1`   
-`r.VolumetricFog.HistoryWeight`   
-
-## Volume material
-Volume, Additive
-
-
-
-Volume texture: VectoreDisplacementmap(RGBA8)
-
-Volume advanced output: volumetric adv input >>> extinction
-- optimize vonservatriveDensity
-
-
-
-[ Inside Unreal (Expand Your World With Volumetric Effects)](https://www.youtube.com/watch?v=R2RQm_Bu81I) - [forum thread ](https://forums.unrealengine.com/t/inside-unreal-expand-your-world-with-volumetric-effects/148624)
-
-
-
-http://asher.gg/
-
- VOLUME GFAKE 6 point lightmap 
-
-Cool! You can also output these directional lightmaps automatically in ue4 using the Volumetrics plugin along with the motion vectors. I have been meaning to post about that.
-https://twitter.com/Vuthric/status/1286796950214307840
-
-------
-
-
-## Niagara
-
-
-
-
-## Volumetric Clouds
-
-When you near could be repleaced with vol fog
-
-[Unreal Docs](https://docs.unrealengine.com/en-US/BuildingWorlds/LightingAndShadows/VolumetricClouds/index.html)
-
-three-dimensional volume texture that is ray-marched
-This effect of light is called multiple scattering, and it is what defines the distinct appearance of clouds. In a cloud, the droplets that make up the cloud usually lead to an albedo that is close to a value of 1, meaning that light is almost never absorbed within the volume. Light that is not absorbed passes through the volume making the scattering effect very complex in the process.
-
-OCTAVES  (for games 1 )
-by tracing multiple octaves (or steps) of light transmittance in the volume material. The Volumetric Advanced Material Output expression enables you to set the number of octaves used along with the amount of multiple scattering contribution, occlusion, and eccentricity that happens.
-
-IN MATERIAL
-Contribution and low Occlusion values on the Volumetric Advanced Material expression in your cloud material to similar effect without impact to performance.
-
-
-
-https://sergeneren.com/2019/08/21/creating-low-altitude-clouds/
-
-https://gumroad.com/l/sFTCY/Clouds6m52fv
-
-
-### Volume Ray Marching and Shadow Maps
-
-
- Ray Marched     
- Beer Shadow Maps (BSM)   
-
-### Directional Light Interactions and Shadowing

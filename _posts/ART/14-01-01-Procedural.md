@@ -58,6 +58,8 @@ Fractals
 [book: A Pattern Language Complete (architecture)]
 https://youtu.be/FBn6VgoF3fE  
 
+http://pcgbook.com/
+
 
 # Emergent
 

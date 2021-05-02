@@ -13,7 +13,7 @@ permalink: /cognition/
 ---
 
 
-
+"cognitive fluency upgrades" - 70-40k years BCE 
 
 # Thinking
 ## Fast and Slow (Daniel Kahneman)
