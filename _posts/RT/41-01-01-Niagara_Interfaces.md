@@ -127,7 +127,7 @@ Sample Distance Field
 
 
 ## CPU
-quite expensive  should be used sparingly.
+Expensive, should be used sparingly.
 
 - can optionally generate events using the "Generate Event"
 (Receive collision event)
@@ -135,7 +135,7 @@ quite expensive  should be used sparingly.
 `Collision`- Ray Traced
 `Generate Collision Event `   
 ## GPU  
-direction and d buffer sampling
+Direction and D-buffer sampling
 
 - can sample the scene depth, or the global distance field.
 
@@ -151,11 +151,6 @@ The simulation stage should operate on "particles" and perform 1 iteration.
 
 - A second "Solve Forces and Velocity" module should be placed immediately after the collision module. That module's "Write to Intrinsic Properties" Bool should be driven by [Transient]CollisionValid.
 
-
-
-```
-
-```
 
 
 ---
@@ -203,40 +198,14 @@ Set UV by Dynamic material
 
 
 # Houdini csv
-files:  
-Houdini niagara - ue plugin   
-Houdini Extras - ue plugin   
-[UNREAL FOR ALL CREATORS zobacz](https://youtu.be/3wcTor5rwmE) -
-SideFx  
-[2020 04 SideFx Niagara(frompluginContent) / Demo2020](https://www.sidefx.com/tutorials/houdini-to-ue4s-niagara/)  (water Paul)   
-[2020 11 SideFx](https://www.sidefx.com/tutorials/realtime-fx-with-niagara-ue4/)  -  [2020 11 SideFx YT - to samo co wyzej](https://www.youtube.com/watch?v=jA3uAxT5FhM)  
-Unreal  
-[2018 11](https://youtu.be/GIzwxwrM9Mk)  
-[2020 04 Inside Unreal - Houdini workflows](https://www.youtube.com/watch?v=LHFN8ccf_8o&t=3449s)  / paul / crowd / chains   
-[2020 05 Unreal - Building advanced effects in Niagara Unreal Engine](https://youtu.be/syVSRDQxrZU)    character   
-[2020 05 Unreal  talk](https://www.youtube.com/watch?v=tMPwXotnl5I)      Wyeth  
-[2020 08 Unreal Fest Online 2020](https://youtu.be/oX6uiPWXJDY) dek kart  
-[2020 11 Advanced Niagara Effects  Inside Unreal](https://youtu.be/31GXFW-MgQk) - popcorn    
-
-
-
-RTVFX  
-[Particle Location Module Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-particle-location-module-mini-tutorial/13133)    - [Near Surface Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-near-surface-location-mini-tutorial/14247)  - [Using splines for GPU particles](https://realtimevfx.com/t/niagara-4-25-using-splines-for-gpu-particles/13728)  - [Spline Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-spline-location-mini-tutorial/15252)  - [Rope Physics Mini Tutoria](https://realtimevfx.com/t/niagara-4-25-rope-physics-mini-tutorial/13305)  - [Near Surface Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-near-surface-location-mini-tutorial/14247)  - [Ribbon Trail Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-ribbon-trail-mini-tutorial/13043)  - [UE4 Niagara Audio Visualization (passing data from BP to Niagara)](https://realtimevfx.com/t/ue4-niagara-audio-visualization-passing-data-from-bp-to-niagara/6902)   - [RTVFX pack](https://realtimevfx.com/t/vfextra-resource-pack/14503/6)
-
-tuts
-- [Fluid ninja 80](https://80.lv/articles/tutorial-driving-niagara-with-flowmaps-and-baked-fluidsim-data/) / [Fluid ninja pdf](https://drive.google.com/file/d/15IHebBnjuEzYKT8iwVnUQ5Rbzi5h21ws/edit) / [Fluid ninja YT]()
-- [YT BTM series tutki](https://www.youtube.com/channel/UC11aPU7wAuBgvr6srciBpFw/videos)  
-- [creative unreal table](https://youtu.be/3wcTor5rwmE)    
-- [YT BTM series tutki](https://www.youtube.com/c/UnrealSimon/featured)  
 
 
 
 
 
+## Houdini
 
-
-## Niagara ROP
-
+#### Niagara ROP
 - Export pointcloud as: **.hjson**, **.hbjson** - bin quicker  
  - `i@id`  per particle  same for one particle   
  - `f@time` of pop-up / arrival time // just normalize time before export!  check length from a to b and set time  
@@ -249,11 +218,15 @@ no `Force` ?
 
 hardcoded attributes -
 
+
 ## Unreal
-### Emitter Spawn  - `InitHoudiniPointCache`  
-Initialize  
+
+### Emitter Spawn
+`InitHoudiniPointCache`  - Initialize  
+
 
 <img align="right" src="/src/ue/niagara/houdiniinit.png">
+
 ```
 W:  
 emitter.Houdini.LastSpawnTime - 0.0  
@@ -263,14 +236,12 @@ emitter.Houdini.RestSpawnState - [V]
 ```
 
 
-### Emitter Update - `SpawnParticleFromHoudiniPointCache`
-Spawn only   
+### Emitter Update
+`SpawnParticleFromHoudiniPointCache` - Spawn only   
 
 - `GetPointIDTospawnAtTime` - create spawn data: deltaTime, InterpStart, Delat, Count
 
 <img align="right" src="/src/ue/niagara/houdinispaenfrompointcloud.png">
-
-
 
 ```
 R:    
@@ -291,8 +262,8 @@ emitter.Houdini.ASpawnParticlesFromHoudiniPoinCache.SpawnData
 
 
 
-### Particle Spawn - `SampleSpawnHoudiniPointCache`
-sample data not set! (similar to sample niagara mofules )
+### Particle Spawn
+`SampleSpawnHoudiniPointCache` - sample data not set! (similar to sample niagara mofules )
 
 
 - Creat `NID` - Particles.Houdini.NID: This is not the same value as the original ID attribute. This is the persistent Niagara ID that should be used for attribute lookups.  
@@ -329,7 +300,8 @@ particles.Houdini.Type  // type
 particles.Houdini.Velocity  // v@v  
 ```
 
-### Particle Update  - `SampleHoudiniPointCachce`
+### Particle Update  
+`SampleHoudiniPointCachce`
 
 - `GetSampleIndexesForPointAtTime` - get sample index and BlendAlpha
 - `Get... ` - and LERP
@@ -409,6 +381,34 @@ W:
 `emmiter.TriggerSomething`
 
 ```
+
+
+## Sources   
+Houdini niagara - ue plugin   
+Houdini Extras - ue plugin   
+[UNREAL FOR ALL CREATORS zobacz](https://youtu.be/3wcTor5rwmE) -
+SideFx  
+[2020 04 SideFx Niagara(frompluginContent) / Demo2020](https://www.sidefx.com/tutorials/houdini-to-ue4s-niagara/)  (water Paul)   
+[2020 11 SideFx](https://www.sidefx.com/tutorials/realtime-fx-with-niagara-ue4/)  -  [2020 11 SideFx YT - to samo co wyzej](https://www.youtube.com/watch?v=jA3uAxT5FhM)  
+Unreal  
+[2018 11](https://youtu.be/GIzwxwrM9Mk)  
+[2020 04 Inside Unreal - Houdini workflows](https://www.youtube.com/watch?v=LHFN8ccf_8o&t=3449s)  / paul / crowd / chains   
+[2020 05 Unreal - Building advanced effects in Niagara Unreal Engine](https://youtu.be/syVSRDQxrZU)    character   
+[2020 05 Unreal  talk](https://www.youtube.com/watch?v=tMPwXotnl5I)      Wyeth  
+[2020 08 Unreal Fest Online 2020](https://youtu.be/oX6uiPWXJDY) dek kart  
+[2020 11 Advanced Niagara Effects  Inside Unreal](https://youtu.be/31GXFW-MgQk) - popcorn    
+
+
+
+RTVFX  
+[Particle Location Module Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-particle-location-module-mini-tutorial/13133)    - [Near Surface Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-near-surface-location-mini-tutorial/14247)  - [Using splines for GPU particles](https://realtimevfx.com/t/niagara-4-25-using-splines-for-gpu-particles/13728)  - [Spline Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-spline-location-mini-tutorial/15252)  - [Rope Physics Mini Tutoria](https://realtimevfx.com/t/niagara-4-25-rope-physics-mini-tutorial/13305)  - [Near Surface Location Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-near-surface-location-mini-tutorial/14247)  - [Ribbon Trail Mini Tutorial](https://realtimevfx.com/t/niagara-4-25-ribbon-trail-mini-tutorial/13043)  - [UE4 Niagara Audio Visualization (passing data from BP to Niagara)](https://realtimevfx.com/t/ue4-niagara-audio-visualization-passing-data-from-bp-to-niagara/6902)   - [RTVFX pack](https://realtimevfx.com/t/vfextra-resource-pack/14503/6)
+
+tuts
+- [Fluid ninja 80](https://80.lv/articles/tutorial-driving-niagara-with-flowmaps-and-baked-fluidsim-data/) / [Fluid ninja pdf](https://drive.google.com/file/d/15IHebBnjuEzYKT8iwVnUQ5Rbzi5h21ws/edit) / [Fluid ninja YT]()
+- [YT BTM series tutki](https://www.youtube.com/channel/UC11aPU7wAuBgvr6srciBpFw/videos)  
+- [creative unreal table](https://youtu.be/3wcTor5rwmE)    
+- [YT BTM series tutki](https://www.youtube.com/c/UnrealSimon/featured)  
+
 
 
 ---
