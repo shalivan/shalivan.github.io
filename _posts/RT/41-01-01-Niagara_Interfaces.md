@@ -225,7 +225,6 @@ hardcoded attributes -
 <img align="right" src="/src/ue/niagara/houdiniinit.png">
 
 .
-
 ```
 W:  
 emitter.Houdini.LastSpawnTime - 0.0  
@@ -240,8 +239,7 @@ emitter.Houdini.RestSpawnState - [V]
 
 - `GetPointIDTospawnAtTime` - create spawn data: deltaTime, InterpStart, Delat, Count
 
-<img align="right" src="/src/ue/niagara/houdinispaenfrompointcloud.png">
-
+<img align="right" src="/src/ue/niagara/houdinispaenfrompointcloud.png">  
 .
 
 ```
@@ -271,8 +269,7 @@ emitter.Houdini.ASpawnParticlesFromHoudiniPoinCache.SpawnData
 - `GetPoint...AtTime` -   
 - `Transform...` - Local to sim for: P, N, v
 
-<img align="right" src="/src/ue/niagara/houdiniparticlespawn.png">
-
+<img align="right" src="/src/ue/niagara/houdiniparticlespawn.png">   
 
 ```
 R:
@@ -308,7 +305,7 @@ particles.Houdini.Velocity  // v@v
 - `Get... ` - and LERP
 - `NF Transform Vector` (Local to Sim) + `NF Initial Particle Postition` (engine.Owner.Position)
 
-<img align="right" src="/src/ue/niagara/oudinipointupdate.png">
+<img align="right" src="/src/ue/niagara/oudinipointupdate.png">.
 
 
 ```
