@@ -72,7 +72,7 @@ Particles -  Persisted f2f (memory and performance cost)
 ----
 
 
-# Script
+# Scripts
 
 
 
@@ -80,14 +80,14 @@ Particles -  Persisted f2f (memory and performance cost)
 
 
 #### Module Script
-IN: Map OUT: Module  
+IN: `Map` OUT: `Module`  
 
 You can see read/writes in finished module
 - Module usage flags  
   - `Module` - particle , emitter, system scripts
 
 #### Dynamic Input Script
-IN: Map OUT: Module  
+IN: `Map` OUT: `Module`  
 
   Dynamic inputs have almost the same power as creating modules, but can be selected and dropped into the stack without actually creating new modules.
 
@@ -100,7 +100,7 @@ IN: Map OUT: Module
 
 
 #### Function Script
-IN: Input OUT: Function  
+IN: `Input` OUT: `Function`  
 
 - Module usage flags
   - `Function` - fn to use in modules

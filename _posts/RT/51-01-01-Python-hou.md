@@ -8,6 +8,7 @@ tags:
 - Game Dev
 - Code
 ---
+you could dowload a py3 release of houdini, install python 3.7.4 separately with pytorch somewhere on your machine  and then define a the PYTHONPATH variable pointing to the site-package folder. Houdini will be able to use any libs installed here.
 
 
 - Python Shell - Live code
