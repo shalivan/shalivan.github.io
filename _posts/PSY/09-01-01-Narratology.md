@@ -379,21 +379,9 @@ symbols are anchored in history to ideas
 
 
 
-Dualities by contrast: elemental opposites.
 
 
-|.||
-|---|---|
-| Light vs Dark | Black & White
-| Heaven vs Wilderness |
-| Creation, Apocalypse  | Deluge (flood) how to conduct yourself if sth. bad happen (prepper)
-| Chaos & Order | positive and negative.  but new things come from unknown
-| Water & Desert |
-| Innate Wisdom & Educated Stupidity
-| culture vs nature
-
-
-Objects
+####  Objects
 
 |||
 |--|--|
@@ -405,7 +393,7 @@ Masks | hide identity
 
 The Natural Cycle
 
-Season / Life cycle
+####  Season / Life cycle
 
 ||||
 |--|--|--|
@@ -420,6 +408,49 @@ Season / Life cycle
  [Lyotard (postmodern condition book)]
 
 
+
+
+#### Dualities (Polarities, Dialectics)
+
+
+###### Yin Yang
+
+Not static but dynamic opposites. relative - 2 sides of same thing growth&decline, cycle. (kropki potencał zła w dobrze)
+**Dao** - way between - live simple
+
+ | Yin | Yang |
+ |---|---|
+ |Black Dark Shadow |White Light Sunny Side |
+ |Moon Night Hot Summer |Sun Day Cold Winter   
+ |Male  Female |
+ |Compete Action| Calm |
+ |man grow gas pedal  (brighter faster stronger)|back and person top start action  |
+ Inward | Outward |
+ Receiving | Giving
+ Listening | Talking
+ Connected to whole | Individualized Self
+
+Growth: up, Decline down
+
+ |.||
+ |---|---|
+ | Heaven vs Wilderness |
+ | Creation, Apocalypse  | Deluge (flood) how to conduct yourself if sth. bad happen (prepper)
+ | Chaos & Order | positive and negative.  but new things come from unknown
+ | Water & Desert |
+ | Innate Wisdom & Educated Stupidity
+ | culture vs nature
+
+- static binary vs flux (yin yang)
+- Linear or cyclical
+- chronos time vs Kairos Time
+- monochronic vs polychronic (meny cycles in diff time scale)
+- waterfall vs agile
+
+
+
+Hegelian dialectic: Thesis, Antithesis, Synthesis.
+then synthesis become a new thesis
 
 
 ---

@@ -12,6 +12,21 @@ permalink: /ludology/
 ---
 
 
+Authored vs. Generative
+Authored no impact on story
+gen: agency & expression of will
+
+
+Linear or cyclical
+
+
+
+
+
+---
+
+
+
 game design - mechanis an rules
 behaviour  design -  pavlov
 design thinking -  
@@ -93,6 +108,8 @@ exposition is ok in games smtimes
 - events  
 - micronarrative
 
+
+
 ## Explicit
 Cutscenes text written narrator    
 
@@ -165,14 +182,97 @@ most immersive
 it s the world speak and player will find their own story
 
 
+---
 
 # Experience
 Experience as an end itself
 
 
+Albert winehed : reality is experience.
+real world experience have additional fidelity
+
+#### Virtual vs real experience
+
+
+
+## Agency
+the abstract principle that autonomous beings, agents, are capable of acting by themselves; see autonomy  
+From a game design perspective, Player Agency is the player's ability to impact the story through the game design or gameplay1
+
+
+
+
+####
+
+1. Quality
+ - Active presence - expressing agency and will taking actions and locomotive. Extorting will into expression - video games
+ - Mental & Social -  communicationg with abstraction of language -literature, podcasting, consuming information, internet
+ - Embodied & Environmental - cinematic storyteling of film, music lighting rythm (fiulm, build and release narrative tension) give sense of time  - music
+ - Emotional - site touch smell, haptics. we are trying to digitalize those inputs - theather architecture (VR)
+2. Context
+3. Character
+4. Story
+
+
+base of life: substance or dynamics of processes  
+
+Outward Inward / Individual Bonding
+
+##  Presence  
+- teleport body   
+
+
+## Immersion  
+- teleport mind   
+deep mental involvement
+
+Immerse : altered time. fully `immersed` with mechanics while challenge and tension in balance  (anxiety vs boredom)
+
+spatial (envo), genual sence of space
+
+
+
+
+
+
+## Engagement  
+mental or manual effort meets interactivity  (not in books)
+
+Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
+
+
+ `Flow` state / the `Zone`
+
+
+- primal forces
+- context depended
+- expose things to promote them
+- predictable
+
+if you lost a momentum from one moment to next and persist in that state
+
+
+Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
+
+involvement, commitment, passion,
+enthusiasm, absorption, focused effort, zeal, dedication, and energy.
+
+
+
+
+
+
+
+
+
 ### Paradox of control
 key element of enjoyment
 how to offer meaningful choice  without offering full control.
+
+
+
+### Entertain
+things happening > its excitement its entertainment
 
 
 
@@ -221,7 +321,8 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 [//]: # (https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html)
 
 
-
+#### Path
+Skill Smart
 
 
 

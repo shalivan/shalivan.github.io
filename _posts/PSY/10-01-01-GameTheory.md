@@ -273,12 +273,15 @@ A>B>C
 
 ## Basics
 
-|||
-|-|-|
-Button|
-Small Blind |
-Big Blind | play garbage hands (range advantage)
-Under The Gun | the player to the left of the big blind. the player has to act first.
+||||
+|-|-|-|
+Button| late position
+Small Blind || blind
+Big Blind | play garbage hands (range advantage) |
+Under The Gun | the player to the left of the big blind. the player has to act first.  early position 
+
+
+A player "has position" on opponents acting before him and is "out of position" to opponents acting after him.  
 
 ## Why Anties
 to force action

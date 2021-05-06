@@ -50,7 +50,7 @@ Fractals
 - spiral - flowers,
 - branching - foliage,
 - central - stars,  
-- tiles - symmetry, polygons with contact - honeycomb, pavement, islamic star patterns
+- tiles - symmetry, polygons with contact - honeycomb, pavement, Girih Tiles islamic star patterns (one 10-way symetry and smaller )
 - nested - mandalas,
 
 

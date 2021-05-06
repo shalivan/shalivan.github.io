@@ -15,6 +15,17 @@ permalink: /cognition/
 
 https://www.quantamagazine.org/the-brain-rotates-memories-to-save-them-from-new-sensations-20210415/
 
+ .> Mental models > Sensory Experiences >   
+Learn loop     
+ .> Active Engagement  (play, explore, answers fail adopt) > Error Feedback > Consolidation (sleep)> Attention >
+## Attention
+Selective concentration on a discrete stimulus while ignoring other perceivable stimuli. Affect Cognitive load: (amount of mental effort being used)
+
+`Area of focus` of brain is like thumb of hand in front of u
+
+
+
+
 
 # Academic fields
 
@@ -26,6 +37,11 @@ https://www.quantamagazine.org/the-brain-rotates-memories-to-save-them-from-new-
 | Philosophy  |
 | Neuroscience  |
 | Anthropology  |
+
+
+
+
+
 
 
 

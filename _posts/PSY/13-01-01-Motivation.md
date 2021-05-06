@@ -26,60 +26,6 @@ permalink: /motivation/
 
 
 
-## Attention
-Selective concentration on a discrete stimulus while ignoring other perceivable stimuli. Affect Cognitive load: (amount of mental effort being used)
-
-`Area of focus` of brain is like thumb of hand in front of u
-
-
-
-
-
-## Immersion  
-- teleport mind   
-deep mental involvement
-
-Immerse : altered time. fully `immersed` with mechanics while challenge and tension in balance  (anxiety vs boredom)
-
-spatial (envo), genual sence of space
-
-
-##  Presence  
-- teleport body    
-
-
-
-## Engagement  
-mental or manual effort meets interactivity  (not in books)
-
-Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
-
-
- `Flow` state / the `Zone`
-
-
-- primal forces
-- context depended
-- expose things to promote them
-- predictable
-
-if you lost a momentum from one moment to next and persist in that state
-
-
-Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
-
-involvement, commitment, passion,
-enthusiasm, absorption, focused effort, zeal, dedication, and energy.
-
-
-
-## Agency
-????!!!!!
-
-
-## Entertain
-things happening > its excitement its entertainment
-
 
 
 

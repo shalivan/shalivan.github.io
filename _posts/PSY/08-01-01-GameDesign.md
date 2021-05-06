@@ -12,6 +12,9 @@ permalink: /gamedesign/
 ---
 
 
+qualia (/ˈkwɑːliə/ or /ˈkweɪliə/; singular form: quale) are defined as individual instances of subjective, conscious experience.
+
+You can imagine what it may be like but you never gonna know untill you actually experience it. match expectation with embodied experience. > Iterative process.
 
 
 
@@ -136,7 +139,7 @@ Obstacles, Opponents, Dilemmas
 
 ###### Relationships
 all vs player
-all for all 
+all for all
 
 ---
 # Boundaries
