@@ -15,7 +15,6 @@ permalink: /motivation/
 
 
 
-
 - needs, wants or desires acquired through influence or may be generally innate. Conscious or unconscious
 - most important reasons for actions or move forward in the decision-making process
 - progression > stimulate brain > keep engaging
@@ -32,11 +31,25 @@ permalink: /motivation/
 ---
 
 
+Emotions and Engagement ?
+
+
 ##  Flow  
+
 `Game Follow` - is wave zone between anxiety and boredom (sometimes challenge and sometimes powerful)  
 - `Difficulty Curve` - Challenge  
 - `Pacing` Rhythm + Pressure >Manage stress. If there is no stress its not meaningful and you don't care. So pressure is good  
 - `Learning Curve` - Onboarding > tutorials super important   
+
+
+Challenges vs Abilities
+
+
+|Challenges/Abilities |Low  || High  |
+|--|--|--|--|
+High |Anxiety (stressed, Alert) | Arousal (Alert Focused) | Flow (Focused, Happy)
+ | | Worry (Sad, Stressed) || Control (Happy, Confident)
+Low | Apathy (Sad, Depressed) |Boredom (Depressed, Contented)|Relaxation (Confident, Contented)
 
 
 
@@ -258,29 +271,8 @@ Relaxation
 Control
 Flow
 
-
-### Mood
-
-Affect is nmotr emotion is feeling is everything is ok u fill ok.
-
-
-##### Toxicity
-- Anonymity
-- Significant time involved
-- Latch opportunities by teammates mistakes
-- Dunning-Kruger Effect
-
-
-TOXICITY IN HUM BIO II
-
-
-https://www.google.com/search?q=emotion+wheel&sxsrf=ALeKk01LnyPDVP1QuPfYyQXYOeT_Co6y6Q:1606525739378&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjrhpLghqTtAhXloosKHcSdDBQQ_AUoAXoECAwQAw&biw=1536&bih=758
-
 `Game Feel` - is it seem real, does mechanics allow us to do sth. feeling of competence and growth mastery   
 `Interaction` - is positive
-
-
-People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
 
 
 

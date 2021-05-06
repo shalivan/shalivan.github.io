@@ -12,14 +12,21 @@ permalink: /ludology/
 ---
 
 
-Authored vs. Generative
+Authored <> Generative
 Authored no impact on story
 gen: agency & expression of will
 
 
+
+
 Linear or cyclical
 
+- Film: Pre, Pro, Post  (alex mcdowell world building)
+- Arch: Pre Design, Schematic, Design, Construction
+- In changing env: Observe > Orient > Decide(feedback) > Act (feedback) () OODA Loop )
+- General design process: Empathize > Define > Ideate > Prototype > test
 
+Game iterative> Greater level of complexity
 
 
 
@@ -276,6 +283,13 @@ things happening > its excitement its entertainment
 
 
 
+
+People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
+
+
+
+
+
 ---
 
 
@@ -358,5 +372,6 @@ https://inspirassion.com/en/metaphor/sand
 
 ---------------
 game podcasts
-https://www.psychologyofgames.com/  
-https://ludology.libsyn.com/  
+https://www.psychologyofgames.com/   
+https://ludology.libsyn.com/    
+voicess of VR  

@@ -13,6 +13,8 @@ permalink: /cognition/
 ---
 
 
+
+
 https://www.quantamagazine.org/the-brain-rotates-memories-to-save-them-from-new-sensations-20210415/
 
  .> Mental models > Sensory Experiences >   
@@ -443,6 +445,29 @@ Feelings: the subjective experience of emotional state once it has occurred.
 
 
 
+## Emphathy
+
+Emphaty fileguide circle
+
+
+
+
+### Mood
+
+Affect is nmotr emotion is feeling is everything is ok u fill ok.
+
+
+##### Toxicity
+- Anonymity
+- Significant time involved
+- Latch opportunities by teammates mistakes
+- Dunning-Kruger Effect
+
+
+TOXICITY IN HUM BIO II
+
+
+https://www.google.com/search?q=emotion+wheel&sxsrf=ALeKk01LnyPDVP1QuPfYyQXYOeT_Co6y6Q:1606525739378&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjrhpLghqTtAhXloosKHcSdDBQQ_AUoAXoECAwQAw&biw=1536&bih=758
 
 
 ```

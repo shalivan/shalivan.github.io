@@ -16,6 +16,11 @@ permalink: /personality/
 
 Difference in between individual and population level analysis  -  collective action problems.
 
+||Public (career) |Private (home)|
+|--|--|--|
+**Self** (Identity)|||
+**Other** (partners)|||
+
 
 # Individual
 

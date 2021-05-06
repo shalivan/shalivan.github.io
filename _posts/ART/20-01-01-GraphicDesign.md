@@ -192,6 +192,11 @@ harmony
 
 
 
+###  aristotle's four causes
+four causes are, of course, the material, formal, final, and efficient causes.
+The four causes signify ways in which a thing is indebted for its existence.
+
+
 ---
 # UX/UI
 

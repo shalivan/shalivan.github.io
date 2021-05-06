@@ -200,8 +200,9 @@ thgird person - hardest to design  (fixed angels are easier to make)
 **Diedests** - in world
 **non Diagetic** - not in the fiction
 
-#
+## Inputs
 
+Mouse, suit, brain sencores 
 
 # .
 - tutorials
