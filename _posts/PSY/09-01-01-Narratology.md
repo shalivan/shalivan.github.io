@@ -18,6 +18,8 @@ Narrative Experience
 [Game Design](/gamedesign/)  
 [Game Mechanics](/gamemechanics/)  
 
+stories round campfire > myths > printing press: linearise > Post linear: World building
+
 
 # Medium
 Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe?)    
@@ -629,6 +631,9 @@ Allies | sidekicks
 
 
 
+## story impact
+- ghost / character
+- impact / no impact
 
 
 

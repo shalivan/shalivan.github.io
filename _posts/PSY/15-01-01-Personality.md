@@ -76,6 +76,29 @@ Ego
 Superego  
 ID   
 
+
+## Moral Virtue
+in Aristoteles Nicomachean Ethics
+
+| | |
+|--|--|
+Courage  |
+Temperance  |
+Generosity | Giving and receiving money
+Magnificence  | Giving and receiving money on a large scale
+.- | Honor
+Greatness of soul | Honor on a large scale
+Even temper | Anger
+Frienfliness | Social relations
+Trythfullness | Honesty about oneself
+Wlt | Conversation
+Justice | Distribution
+Friendship | Personal relarions
+
+
+Virtue Continuum
+Deficency <> Excess
+
 # Collective
 
 culture is between individual an d community

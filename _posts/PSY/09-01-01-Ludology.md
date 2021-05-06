@@ -12,6 +12,9 @@ permalink: /ludology/
 ---
 
 
+
+### Autorship
+
 Authored <> Generative
 Authored no impact on story
 gen: agency & expression of will
@@ -19,7 +22,11 @@ gen: agency & expression of will
 
 
 
-Linear or cyclical
+Linear <> cyclical
+
+Traditionsl > Interactive Traditional >  multi ending >  branching path > open ended > fully player driven
+
+
 
 - Film: Pre, Pro, Post  (alex mcdowell world building)
 - Arch: Pre Design, Schematic, Design, Construction
