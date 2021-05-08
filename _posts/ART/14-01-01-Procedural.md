@@ -39,19 +39,22 @@ generative art -  complex systems (ecosystes, cities, cells ect.. )
 
 
 
-# Computed
-
-Fractals
 
 # Patterns
 
 
 
-- spiral - flowers,
-- branching - foliage,
-- central - stars,  
-- tiles - symmetry, polygons with contact - honeycomb, pavement, Girih Tiles islamic star patterns (one 10-way symetry and smaller )
-- nested - mandalas,
+- Spiral - (flowers, golden spiral)
+- Branching - (foliage)
+- Central - (stars)
+- Symmetry
+- Tiles (polygons with contact) -  (pavement)
+    - squares
+    - trix
+    - hex (honeycomb)
+- Penrose tiling - (2 polygonal arrows in simple version ) (u can get illusion of forbiden symetry i.e. pentagonal (releated by golden ratio) dont repeat... - quazicrystals )
+- Girih Tiles Islamic star patterns (one 10-way symmetry and smaller )
+- Nested - (mandalas)
 
 
 [book: Franz Sales Meyer - A handbook of ornament (1920)]  
@@ -60,6 +63,13 @@ https://youtu.be/FBn6VgoF3fE
 
 http://pcgbook.com/
 
+3d geometry
+
+
+
+# Computed
+
+Fractals
 
 # Emergent
 

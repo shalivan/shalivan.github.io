@@ -86,12 +86,6 @@ exposition is ok in games smtimes
 
 [Pdf Source](file:///G:/546-Article%20Text-644-1-10-20140224.pdf)  
 
-# Genres
-
-
-tetris - escape to order
-NO CHARACTER IN TETRIS
-
 
 
 ---

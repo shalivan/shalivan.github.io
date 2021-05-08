@@ -52,6 +52,27 @@ Traither mechanics.
 working toghether towards one goal and smiultaniously win (not enough hairs when music stops) Semicoop    
 
 high scores
+
+
+
+
+# Genre taxonomy
+is flexible
+
+
+Casual - puzzle, sims , location based
+Midore - shooters rpg , card, strategies
+Casino
+Sports - sport, driving
+
+
+
+tetris - escape to order
+NO CHARACTER IN TETRIS
+
+
+
+
 # Players
 
 [Motivation](/motivation/), [Characters](/characters/), [Personality](/personality/)
