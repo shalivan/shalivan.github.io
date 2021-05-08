@@ -16,13 +16,14 @@ permalink: /personality/
 
 Difference in between individual and population level analysis  -  collective action problems.
 
-||Public (career) |Private (home)|
+| Ken Wilber's Integral Theory | Private |Public |
 |--|--|--|
-**Self** (Identity)|||
-**Other** (partners)|||
+**Self** |I Psychological Spiritual |It Physiological Behavioural|
+**Other** |We Relational Cultural| Its Structural Social |
 
 
 # Individual
+(Identity)
 
 ## Personality traits
 OCEAN - Big Five personality traits OCEAN Change a litle over life. Population norm is only meaningful point of reference for traits and otivations

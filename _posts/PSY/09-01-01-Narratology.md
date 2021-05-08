@@ -1,6 +1,6 @@
 ---
 title: Narratology
-description:   Plot, Motifs  
+description:  Linear structure, Plot, Motifs  
 categories:
  - PSY
 tags:

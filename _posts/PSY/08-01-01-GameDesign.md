@@ -12,6 +12,11 @@ permalink: /gamedesign/
 ---
 
 
+Game iterative > Greater level of complexity
+
+
+
+
 qualia (/ˈkwɑːliə/ or /ˈkweɪliə/; singular form: quale) are defined as individual instances of subjective, conscious experience.
 
 You can imagine what it may be like but you never gonna know untill you actually experience it. match expectation with embodied experience. > Iterative process.
@@ -202,7 +207,7 @@ thgird person - hardest to design  (fixed angels are easier to make)
 
 ## Inputs
 
-Mouse, suit, brain sencores 
+Mouse, suit, brain sencores
 
 # .
 - tutorials

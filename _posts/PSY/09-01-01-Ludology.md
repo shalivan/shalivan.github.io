@@ -1,6 +1,6 @@
 ---
 title: Ludology
-description: Explicit, Implied, Emergent narration, Ludo-narrative Harmony  
+description: Cyclical structure, Explicit, Implied, Emergent narration, Ludo-narrative Harmony  
 categories:
  - PSY
 tags:
@@ -11,29 +11,6 @@ tags:
 permalink: /ludology/
 ---
 
-
-
-### Autorship
-
-Authored <> Generative
-Authored no impact on story
-gen: agency & expression of will
-
-
-
-
-Linear <> cyclical
-
-Traditionsl > Interactive Traditional >  multi ending >  branching path > open ended > fully player driven
-
-
-
-- Film: Pre, Pro, Post  (alex mcdowell world building)
-- Arch: Pre Design, Schematic, Design, Construction
-- In changing env: Observe > Orient > Decide(feedback) > Act (feedback) () OODA Loop )
-- General design process: Empathize > Define > Ideate > Prototype > test
-
-Game iterative> Greater level of complexity
 
 
 
@@ -54,16 +31,17 @@ movie can create knowledge difference easy . game blend protagonist and player.
 
 open worlds
 
+
 #### Connect controls with feelings
 
 ##### Accessibility , easy of use
 
 
 ---
-tetris - escape to order
-NO CHARACTER IN TETRIS
 
 ---
+# Psychology
+
 
 ##### Suspension of Disbelief
 - accepting unrealistic situations
@@ -72,7 +50,7 @@ NO CHARACTER IN TETRIS
 - susp of dispb is necessery only when we failed to create secondaty belief.
 - inconsistence can break immersion
 
-# Psychology
+
 illusion only when authentic (coherent and consistent )
 
 Belief - fiction is not real
@@ -102,18 +80,22 @@ Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning 
 
 | Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking
 
-[Narratology](/narratology/)
+[Narratology](/narratology/)  
 
-[Pdf Source](file:///G:/546-Article%20Text-644-1-10-20140224.pdf)
+exposition is ok in games smtimes  
+
+[Pdf Source](file:///G:/546-Article%20Text-644-1-10-20140224.pdf)  
 
 # Genres
 
 
+tetris - escape to order
+NO CHARACTER IN TETRIS
 
 
 
 ---
-exposition is ok in games smtimes
+
 
 
 # Narration
@@ -121,6 +103,35 @@ exposition is ok in games smtimes
 - game premise goal. why where
 - events  
 - micronarrative
+
+
+### Authorship
+Narrative vs Mechanics. Driven How much power over the world.  
+Traditionsl > Interactive Traditional >  multi ending >  branching path > open ended > fully player driven.
+
+**Game story domination**  -   Authored - no impact on story - Linear
+**Player story domination** -  Generative - agency & expression of will - cyclical
+
+
+- Film: Pre, Pro, Post  (alex mcdowell world building)
+- Arch: Pre Design, Schematic, Design, Construction
+- In changing env: Observe > Orient > Decide(feedback) > Act (feedback) () OODA Loop )
+- General design process: Empathize > Define > Ideate > Prototype > test
+
+
+mechanick video storytell:
+- Edit finth, fish gameplay
+- Half Life2, can to trash tutorial
+
+
+
+
+### Ludo narrative Harmony
+- Action fit settings to achieve harmony relation between narration and gameplay
+premise and setting of story make sense with actions you perform
+- It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
+how themes are communicated through the gameplay
+
 
 
 
@@ -150,7 +161,7 @@ Mistrust and misdirection  oftren are good narative tools
 Emerge from system     
 Mechanics in narration - implement plot in mechanics  
 
-## Random
+### Random
 
 randomnes
 - (pre luck) input (before player make decidion): levels
@@ -158,31 +169,14 @@ randomnes
 
 
 
-###  Narrative vs Mechanics Driven
-How much power over the world
-
-**Game story domination**  -   
-**Player story domination** -   
-
-
-mechanick video storytell:
-- Edit finth, fish gameplay
-- Half Life2, can to trash tutorial
-
-
-### Ludo narrative Harmony
-- Action fit settings to achieve harmony relation between narration and gameplay
-premise and setting of story make sense with actions you perform
-- It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
-how themes are communicated through the gameplay
-
-
-
-
 ### Procedural storytelling
 
 [link a](https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf)  
 [link b](https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?id=4RamDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)  
+
+
+
+
 
 
 
@@ -232,6 +226,12 @@ base of life: substance or dynamics of processes
 
 Outward Inward / Individual Bonding
 
+
+
+People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
+
+
+
 ##  Presence  
 - teleport body   
 
@@ -249,13 +249,42 @@ spatial (envo), genual sence of space
 
 
 
+
+## Entertainment
+- Entertainment is an escape from problems
+
+things happening > its excitement its entertainment
+
+
+
 ## Engagement  
+- Engagement involves solving problems
+
 mental or manual effort meets interactivity  (not in books)
 
 Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
 
 
- `Flow` state / the `Zone`
+
+###  Flow  
+`Flow` state / the `Zone`
+`Game Follow` - is wave zone between anxiety and boredom (sometimes challenge and sometimes powerful)  
+- `Difficulty Curve` - Challenge  
+- `Pacing` Rhythm + Pressure >Manage stress. If there is no stress its not meaningful and you don't care. So pressure is good  
+- `Learning Curve` - Onboarding > tutorials super important   
+
+
+Challenges vs Abilities
+
+
+|Challenges/Abilities |Low  || High  |
+|--|--|--|--|
+High |Anxiety (stressed, Alert) | Arousal (Alert Focused) | Flow (Focused, Happy)
+ | | Worry (Sad, Stressed) || Control (Happy, Confident)
+Low | Apathy (Sad, Depressed) |Boredom (Depressed, Contented)|Relaxation (Confident, Contented)
+
+
+
 
 
 - primal forces
@@ -265,8 +294,6 @@ Psychological presence. According to his definition, engagement refers to the st
 
 if you lost a momentum from one moment to next and persist in that state
 
-
-Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
 
 involvement, commitment, passion,
 enthusiasm, absorption, focused effort, zeal, dedication, and energy.
@@ -285,15 +312,11 @@ how to offer meaningful choice  without offering full control.
 
 
 
-### Entertain
-things happening > its excitement its entertainment
 
 
 
 
-People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
-
-
+[Motivation](/motivation/)
 
 
 

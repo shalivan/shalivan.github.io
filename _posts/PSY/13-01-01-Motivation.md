@@ -33,29 +33,15 @@ permalink: /motivation/
 
 Emotions and Engagement ?
 
+Flow ?
 
-##  Flow  
-
-`Game Follow` - is wave zone between anxiety and boredom (sometimes challenge and sometimes powerful)  
-- `Difficulty Curve` - Challenge  
-- `Pacing` Rhythm + Pressure >Manage stress. If there is no stress its not meaningful and you don't care. So pressure is good  
-- `Learning Curve` - Onboarding > tutorials super important   
-
-
-Challenges vs Abilities
-
-
-|Challenges/Abilities |Low  || High  |
-|--|--|--|--|
-High |Anxiety (stressed, Alert) | Arousal (Alert Focused) | Flow (Focused, Happy)
- | | Worry (Sad, Stressed) || Control (Happy, Confident)
-Low | Apathy (Sad, Depressed) |Boredom (Depressed, Contented)|Relaxation (Confident, Contented)
-
-
+[Flow](/ludology/)
 
 ## Drive
 
 - (ciekawosc?)   
+
+Drive, in psychology, an urgent basic need pressing for satisfaction, usually rooted in some physiological tension, deficiency, or imbalance (e.g., hunger and thirst) and impelling the organism to action.
 
 
 
