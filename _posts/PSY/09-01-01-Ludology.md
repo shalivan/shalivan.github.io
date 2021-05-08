@@ -1,6 +1,6 @@
 ---
 title: Ludology
-description: Cyclical structure, Explicit, Implied, Emergent narration, Ludo-narrative Harmony  
+description: Cyclical structure, Authorship, Experience, Ludo-narrative Harmony  
 categories:
  - PSY
 tags:
@@ -15,6 +15,7 @@ permalink: /ludology/
 
 
 ---
+
 
 
 

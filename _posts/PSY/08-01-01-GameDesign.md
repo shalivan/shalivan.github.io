@@ -1,6 +1,6 @@
 ---
 title: Game Design
-description: Players, Objectives, Rules, Resources, Conflict, Outcome, Controls, UI
+description: Genre, Players, Objectives, Rules, Resources, Conflict, Controls, UI
 
 categories:
  - PSY
