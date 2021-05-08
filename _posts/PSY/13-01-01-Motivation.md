@@ -37,11 +37,6 @@ Flow ?
 
 [Flow](/ludology/)
 
-## Drive
-
-- (ciekawosc?)   
-
-Drive, in psychology, an urgent basic need pressing for satisfaction, usually rooted in some physiological tension, deficiency, or imbalance (e.g., hunger and thirst) and impelling the organism to action.
 
 
 
@@ -51,6 +46,8 @@ Drive, in psychology, an urgent basic need pressing for satisfaction, usually ro
 
 ---
 
+
+https://www.britannica.com/topic/motivation/Observational-learning
 
 
 #  Biological
@@ -76,6 +73,14 @@ Behaviorism is theory of motivation focused on how the results we’ve **obtaine
 - Punishment.
 - Extinction.
 d gain. (continous login bonus) (good Dorprate in consumables items)
+
+## Drive
+
+- (ciekawosc?)   
+
+Drive, in psychology, an urgent basic need pressing for satisfaction, usually rooted in some physiological tension, deficiency, or imbalance (e.g., hunger and thirst) and impelling the organism to action.
+
+
 
 ### Continuous Reinforcement
 All responses are reinforced

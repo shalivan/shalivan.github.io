@@ -12,25 +12,11 @@ permalink: /gamedesign/
 ---
 
 
-Game iterative > Greater level of complexity
 
 
 
 
 qualia (/ˈkwɑːliə/ or /ˈkweɪliə/; singular form: quale) are defined as individual instances of subjective, conscious experience.
-
-You can imagine what it may be like but you never gonna know untill you actually experience it. match expectation with embodied experience. > Iterative process.
-
-
-
-
-
-IDLE GAMES - IDLE Clickers games that play themselds
-
-
-
-
-ludology (etymologically 'game logic'), is the study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
 
 
@@ -60,10 +46,25 @@ high scores
 is flexible
 
 
-Casual - puzzle, sims , location based
-Midore - shooters rpg , card, strategies
+Casual
+- Puzzle - Action, Match3, Trivia, WorldGames, Coloring, Hidden Object, Solitude
+- Simulation - Adventure, Tycoon/Crafting, Sandbox, time management  
+- Location Based -  
+- Arcade - Platformer, Idler, Shoot/Beat'em Up, Tower defense, Board Games, Rouglike  
+- Haptic - Tap, Steer, Swipe/Drag, AR
+
+Midore
+- Shooters - Battle Royale, FPS/TPS, tactical
+- RPG -  Action, Turn-Based, Fighting, MMORPG, Puzzle Idle Survival
+- Card -
+- Strategies - 4x, Build&Battle MOBA, Tatical
+
 Casino
-Sports - sport, driving
+- Bingo, Poker, Slots
+
+Sports
+- Sport - Arcade, realistic
+- Driving
 
 
 
@@ -71,6 +72,7 @@ tetris - escape to order
 NO CHARACTER IN TETRIS
 
 
+----
 
 
 # Players
@@ -243,3 +245,10 @@ s “PICK UP THAT CAN.” If you do, he lets you go. If you don’t, he beats yo
 
 
 peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
+
+# Making games
+
+
+Game iterative > Greater level of complexity  
+
+You can imagine what it may be like but you never gonna know until you actually experience it. match expectation with embodied experience. > Iterative process.

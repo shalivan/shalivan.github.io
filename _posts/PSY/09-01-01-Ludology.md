@@ -32,6 +32,9 @@ movie can create knowledge difference easy . game blend protagonist and player.
 open worlds
 
 
+
+ludology (etymologically 'game logic'), is the study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
+
 #### Connect controls with feelings
 
 ##### Accessibility , easy of use
