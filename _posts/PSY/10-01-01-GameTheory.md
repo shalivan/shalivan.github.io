@@ -271,22 +271,29 @@ A>B>C
 
 # Poker
 
+
 ## Basics
 
-||||
+
+
+||Letter to act - better.||
 |-|-|-|
-Button| late position
-Small Blind || blind
-Big Blind | play garbage hands (range advantage) |
-Under The Gun | the player to the left of the big blind. the player has to act first.  early position 
+Small Blind | "out of position" | Early position
+Big Blind | defending range calling range 40%  (no AA KK QQ - because it wuld be rerange )  play garbage hands (range advantage) | Early position
+Under The Gun | | Act first  
+Mid | | Mid positions
+Cutoff  |  second-best position in a hand of poker. |  Late Positions
+Button / Dealer | strongest - 50% opening range / button river betting range (only 57 combos) |  Act last
+
+Bet   
+Check   
+Fold    
+Call  
+Check-raise
 
 
-A player "has position" on opponents acting before him and is "out of position" to opponents acting after him.  
-
-## Why Anties
-to force action
-
-## Bounty
+- **Ante** - Ante and Blinds are forced bets
+- **Bounty** -
 
 ## GTO
 Game theory optimal - is not enough agressive.

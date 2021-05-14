@@ -6,7 +6,7 @@ categories:
 tags:
 - Audio
 - Music
-- Data
+- Physical data
 
 permalink: /synth/
 ---
