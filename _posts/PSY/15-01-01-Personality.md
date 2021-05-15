@@ -18,8 +18,8 @@ Difference in between individual and population level analysis  -  collective ac
 
 | Ken Wilber's Integral Theory | Private |Public |
 |--|--|--|
-**Self** |I Psychological Spiritual |It Physiological Behavioural|
-**Other** |We Relational Cultural| Its Structural Social |
+**Self** | **I** Psychological Spiritual | **It** Physiological Behavioural|
+**Other** | **We** Relational Cultural| **Its** Structural Social |
 
 
 # Individual
