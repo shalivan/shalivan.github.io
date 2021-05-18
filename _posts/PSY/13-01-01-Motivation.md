@@ -13,7 +13,7 @@ permalink: /motivation/
 ---
 
 
-
+https://www.britannica.com/topic/motivation/Behavioristic-approaches-to-motivation
 
 - needs, wants or desires acquired through influence or may be generally innate. Conscious or unconscious
 - most important reasons for actions or move forward in the decision-making process

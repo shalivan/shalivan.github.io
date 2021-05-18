@@ -50,7 +50,7 @@ Casual
 - Puzzle - Action, Match3, Trivia, WorldGames, Coloring, Hidden Object, Solitude
 - Simulation - Adventure, Tycoon/Crafting, Sandbox, time management  
 - Location Based -  
-- Arcade - Platformer, Idler, Shoot/Beat'em Up, Tower defense, Board Games, Rouglike  
+- Arcade - Platformer, Idler, Shoot/Beat'em Up, Tower defense, Board Games, Rouglike (permadeath, no save of progress) 
 - Haptic - Tap, Steer, Swipe/Drag, AR
 
 Midore

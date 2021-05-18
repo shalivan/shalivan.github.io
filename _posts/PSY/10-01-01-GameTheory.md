@@ -319,9 +319,26 @@ jak zapobiegać wojnie.
 
 SOMETIMES: burning money help to increes payof !!!!!!!!!
 
+## Limping
+comon blind vs blind action
+Limper is calling in Big Blind
 
+Playing minimum bet when u  last to act.
 
+button klimpoing (specific)
+## Tels
 
+- How much `Engagement` in cards
+- protect valuable things, close to you vs prefold (away)
+- eyes,
+   - quick glance on chip, thinking about value  legs
+subconcious tels
+concious tell> playing .. overacting > opposit what trying to convey
+- feet forrward > `confidence` `strengths`
+- stop chewing gum if scary , exiced chue
+- disconnect
+  - bad cards  from the game .
+  - good cards just no focs on cards , watch for chit chat
 
 
 
