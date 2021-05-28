@@ -5,9 +5,14 @@ categories:
 - RT
 tags:
 - Math
+permalink: /coords/
 ---
 
 
+
+[Orient](/orient/)   
+
+https://www.andre-gaschler.com/rotationconverter/
 
 # Coordinate Systems
 
@@ -20,7 +25,7 @@ Rene Descartes
 TILES:
 - trix
 - squares
-- hex 
+- hex
 
 
 #### Polar Coordinates

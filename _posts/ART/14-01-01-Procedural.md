@@ -73,6 +73,8 @@ http://pcgbook.com/
 
 Fractals
 
+[Algorithmic Botany](http://algorithmicbotany.org/papers/)
+
 # Emergent
 
 https://github.com/jasonwebb/morphogenesis-resources

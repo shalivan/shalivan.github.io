@@ -2,7 +2,7 @@
 title: Python hou.
 description: Houdini class
 categories:
- - RT
+ - VEX
 tags:
 - Python
 - Game Dev

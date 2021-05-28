@@ -10,6 +10,10 @@ permalink: /orient/
 ---
 
 
+[Coords](/coords/)   
+
+
+
 <!-- more -->
 
 
@@ -87,6 +91,7 @@ p@orient = quaternion(m); // make the quaternion
 
 #### Rotate Matrix about axis
 (Run over points)
+
 ```cpp
 vector axis = normalize(chv("axies")); //  Axies to rotate
 float eulerAngle = radians(chf('rotateAmount')*360); // 0-1 amount *360 degree to radians
@@ -102,6 +107,10 @@ translate(translate_matrix, set(0,chf("transY"),0));
 translate_matrix*=m;
 @P*=translate_matrix;
 ```
+
+
+https://forum.patagames.com/posts/t501-What-Is-Transformation-Matrix-and-How-to-Use-It
+
 
 ##### Roatate Matrix Normal Along Tangent
 (Run over points)

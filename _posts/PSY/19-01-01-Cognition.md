@@ -99,6 +99,8 @@ Mirraże
 Hallucynacje
 
 
+Test lustra - małpy człekokształtne psy, delfiny (papugi nie ale kumaja lustro ), (koty nie)
+swiadomosc lustra - człowiek 2 lata a szympans 4 ale tylko wychowany w stadzie
 
 
 # Processing information's

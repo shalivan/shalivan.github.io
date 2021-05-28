@@ -276,12 +276,14 @@ A>B>C
 
 
 
-||Letter to act - better.||
-|-|-|-|
-Small Blind | "out of position" | Early position
+||Letter to act - better.|||
+|-|-|-|-|
+Small Blind | "out of position" | Early position | wide open-rise range. all figures, all suited and sudoconnectors  
 Big Blind | defending range calling range 40%  (no AA KK QQ - because it wuld be rerange )  play garbage hands (range advantage) | Early position
 Under The Gun | | Act first  
-Mid | | Mid positions
+Under The Gun +1  | | Mid positions
+LoJack ||| Tide pairs and Figure + high
+HiJack
 Cutoff  |  second-best position in a hand of poker. |  Late Positions
 Button / Dealer | strongest - 50% opening range / button river betting range (only 57 combos) |  Act last
 
