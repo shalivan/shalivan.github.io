@@ -16,6 +16,9 @@ permalink: /perception/
 
 http://consc.net/papers/c-and-c.html
 
+perception is ambiguous bistable
+
+
 
 - **Perception** is the interface between external events and sensory receptors.  
 - [Cognition](/cognition/) is the transformation of sensory data into concepts.  ((information sorting) and requires at the very least, short term memory.)  

@@ -279,6 +279,23 @@ https://www.unrealengine.com/en-US/tech-blog/how-epic-games-is-handling-auto-exp
 
 ---
 
+# Nanite
+new format of representing datat. (less data)   
+- no need of lod's    
+- store everything as image so mipmap  automated   
+- mesh stored in clusters   
+- classic pipeline is skiped
+
+ograniczenia
+- only uv0
+- no morphs and wpo no splines
+- no custom depth , vertex paint (on instances only import)
+- transform only general matrix
+- no custom uvs
+- only solid
+
+
+---
 # Virtual texturing  streaming
 New aproach to mips.  Divided in to tiles
 - memory optimisation where we pay a small amount in performance.  

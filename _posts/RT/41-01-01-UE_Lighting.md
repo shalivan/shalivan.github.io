@@ -216,6 +216,11 @@ https://shaderbits.com/blog/ue4-volumetric-fog-techniques
 
 
 
+# Lumen
+- realtime gi  no rtx.   
+- reflection on lumen. -  scren space  from lods ???
+- emissive object works
+
 ---
 # Setups
 
