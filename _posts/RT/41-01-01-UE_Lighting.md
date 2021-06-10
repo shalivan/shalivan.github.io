@@ -221,6 +221,14 @@ https://shaderbits.com/blog/ue4-volumetric-fog-techniques
 - reflection on lumen. -  scren space  from lods ???
 - emissive object works
 
+
+shadows quality for lumen:
+`r.Shadow.Virtual.SMRT.RayCountLocal 8`
+
+
+- not good in nanite tree.
+- nanite not working with thin meshes
+
 ---
 # Setups
 

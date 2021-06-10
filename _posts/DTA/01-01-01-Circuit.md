@@ -31,6 +31,17 @@ midi device on windows:
 
 ---
 
+#  Components
+
+Drums sample
+
+|||||||||
+|-|-|-|-|-|-|-|-|
+KK | KK | SD | SD | CH | CH | OH | OH
+TT|TT|P|P|V|V|V|V
+
+
+
 # Patch Editor Software
 
 
@@ -455,16 +466,7 @@ TRIX:
 - you can use wavetables
 
 
-#  Components
-
-Drums sample
-
-|||||||||
-|-|-|-|-|-|-|-|-|
-KD | KD | SD | SD | CH | CH | OH | OH
-P|P|P|P|V|V|V|V
-
-
+---------------
 
 # Power Supply
 

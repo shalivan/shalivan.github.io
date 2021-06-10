@@ -8,34 +8,94 @@ tags:
 - Game Dev
 - Code
 ---
-you could dowload a py3 release of houdini, install python 3.7.4 separately with pytorch somewhere on your machine  and then define a the PYTHONPATH variable pointing to the site-package folder. Houdini will be able to use any libs installed here.
 
 
-- Python Shell - Live code
-- Python Source Editor - you can save  code and function / hou.session.myDefinedFunction()
-- Digital Asset -
-- Shelf Tool - scripts section to write code Executed after shelf click
+Install:  
+1. Dowload a py3 release of houdini,
+2. Install python 3.7.9 separately with pytorch somewhere on your machine (+add pythoin to PATH))
+3. Define a the PYTHONPATH variable pointing to the site-package folder. Houdini will be able to use any libs installed here.
+4. Instal additional libraries by pip
+   - [Scipy](https://www.scipy.org/install.html) library - `python -m pip install numpy scipy ` will instal scipy library in : `Phyton/Lib/sire-packages/...`
+5. Edit system enviroment variables > Environment Variables... > New...
+ - Variable name" PYTHONPATH
+ - VariableValue: `C:\Users... Lib/site-packages`
 
-.
+---
 
-- `hou.` is houdini python class. We can drop it in **expressions**:  
-- see what params is passing `kwargs` (pthos dict to see what is avalable)
+`hou.` is houdini python class. We can drop it in **expressions**:    
+see what params is passing `kwargs` (pthos dict to see what is avalable)  
+
+
+## Python Shell
+Live code:  Windows>PythonShell
+```python
+ Python 2.7.15 (default, Dec  2 2020, 15:50:44) [MSC v.1916 64 bit (AMD64)] on wi
+ n32
+ Houdini 18.5.518 hou module imported.
+ Type "help", "copyright", "credits" or "license" for more information.
+ ```
+
+
+Create geo container
+```python
+>>> obj = hou.node("obj")
+>>> obj.createNode("geo", "My_geo")
+<hou.ObjNode of type geo at /obj/My_geo>
+>>>
+```
+Store Value as variable
+```python
+>>> foo = obj.createNode("geo", "My_geo")
+```
+Create Box inside   
+```python
+>>> foo.createNode("box", "My_box")
+<hou.foo of type box at /obj/My_geo/My_box>
+   ```
+
+
+
+## Python Source Editor
+Embeded in hip file. Can save  code and function, and call by: hou.session.myDefinedFunction()  
+
+```python
+def createSomeNodes():
+   obj = hou.node("/obj")
+   foo =  obj.createNode("geo", "My_Geo")
+   box = foo.createNode("box", "My_Box")
+```
+
+Call fn from SourceEditro in Python Shell:
+```python
+>>> hou.session.createSomeNodes()
+```
+
+
+
+## Script node
+ -
+
+##  Shelf Tool
+ - scripts section to write code Executed after shelf click
+
 
 
 # hou.node
-node in trees
+
+[Hou.node documentation](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
+
+## Operations on nodes  
 
 ```python
 foo = hou.node('/path')
 foo.name #return name of object.
 
-ball = hou.node('/obj/ball')
-
-ball = setSelected(True) # select ball node
-ball = isSelected() # give you a bool
+ball = hou.node('/obj/ball') # Set ball as variable / getting a reference to the current node
+ball = setSelected(True) # Select ball node
+ball = isSelected() # return bool. Check if selected  
 ball = type().name() # geo
-ballTx = ball.parm("tx") # get val of parameter
-ball.evalParm("tx") # give you val of parameter  in particular moment
+ballTx = ball.parm("tx") # Get val of parameter
+ball.evalParm("tx") # Get val of parameter in particular moment
 ball.setParms({"tx":3, "tx":2, "tx":1})
 
 # get all parameters names in ball obj
@@ -55,22 +115,21 @@ for output in mynode.outputs():
 # change which node input node
 hou.node('/obj/nodetochange').setInput(0, hou.node('/obj.newnode'))
 
-box = hou.node('/obj/ball').createNode("box","NewBoxName") # create node conected to parrent
+box = hou.node('/obj/ball').createNode("box","NewBoxName")
+
+# create node conected to parrent
 box = ball.createNode("box","NewBoxName")
 box.destroy
 ```
 
-`node = hou.node('.')` - getting a reference to the current node  
-`hou.node('/path')` - object in class hou  
-`geo = node.geometry()` - grabs the geometry data that is being fed into this node by calling its geometry() method    
-
-Reference to this Python SOP via the node variable, we can use **evalParm(path)** to access each parameter  
+**evalParm(path)** to access each parameter / Reference to this Python SOP via the node variable, we can use  
 ```python
 seed = node.evalParm('seed')
 threshold = node.evalParm('threshold')
 ```
 
-Create function (define)
+### Create function
+#### (define)
 ```python
 def childrenOfNode(node):
 	result = []
@@ -79,6 +138,8 @@ def childrenOfNode(node):
 		result += childrenOfNode(c)
 	return result
 ```
+
+#### Call
 Call defined fn by calling var: n with (node):
 ```python
 childrenOfNode(n)
@@ -103,7 +164,14 @@ def hipToJob():
             node.parm("tex0").set(fileJob)
 ```
 
+
+## geometry method
+`geo = node.geometry()` - grabs the geometry data that is being fed into this node by calling its geometry() method    
+
+
+
 # hou.parm
+
 behaviour of all parameters
 ```python
 ty = hou.parmTuple('/obj/ball/t')[1]
@@ -221,16 +289,12 @@ for pos in (0,0,0),(1,0,0),(0,1,0):
 
 
 ---
-
 ---
 ---
-
 ---
 ---
-
 ---
 ---
-
 ---
 
 

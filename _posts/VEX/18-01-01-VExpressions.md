@@ -1,5 +1,5 @@
 ---
-title: Vexpressions
+title: VEX expressions
 description: Patterns, Expressions, Op()
 categories:
  - VEX
