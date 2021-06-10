@@ -15,6 +15,9 @@ permalink: /gamemechanics/
 
 
 
+## Rouglikes 
+https://www.youtube.com/channel/UCKv_QzXft4mD6TXmQBZtzIA/videos
+
 
 # Mechanics   
 Gameplay loop  

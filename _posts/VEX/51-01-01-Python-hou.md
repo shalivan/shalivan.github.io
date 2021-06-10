@@ -22,8 +22,7 @@ Install:
 
 ---
 
-`hou.` is houdini python class. We can drop it in **expressions**:    
-see what params is passing `kwargs` (pthos dict to see what is avalable)  
+
 
 
 ## Python Shell
@@ -58,6 +57,9 @@ Create Box inside
 ## Python Source Editor
 Embeded in hip file. Can save  code and function, and call by: hou.session.myDefinedFunction()  
 
+
+
+
 ```python
 def createSomeNodes():
    obj = hou.node("/obj")
@@ -66,18 +68,52 @@ def createSomeNodes():
 ```
 
 Call fn from SourceEditro in Python Shell:
+
 ```python
 >>> hou.session.createSomeNodes()
 ```
 
 
 
-## Script node
- -
 
 ##  Shelf Tool
- - scripts section to write code Executed after shelf click
+Scripts section to write code Executed after shelf click
 
+
+
+## Script node
+
+
+# hou.
+
+`hou.` is houdini python class. We can drop it in **expressions**:    
+see what params is passing `kwargs` (pthos dict to see what is avalable)  
+
+
+
+### Create function
+#### (define)
+```python
+def childrenOfNode(node):
+	result = []
+	for c in node.children():
+		result.appnd(c)
+		result += childrenOfNode(c)
+	return result
+```
+
+#### Call
+Call defined fn by calling var: n with (node):
+```python
+childrenOfNode(n)
+childrenOfNode(hou.node('/obj/adress'))
+```
+
+```python
+def examplereturn(name):
+   return name.upper()
+print examplereturn("houdini") # will print HOUDINI with all big captions
+```
 
 
 # hou.node
@@ -122,35 +158,12 @@ box = ball.createNode("box","NewBoxName")
 box.destroy
 ```
 
-**evalParm(path)** to access each parameter / Reference to this Python SOP via the node variable, we can use  
+evalParm(path) - to access each parameter / Reference to this Python SOP via the node variable, we can use  
 ```python
 seed = node.evalParm('seed')
 threshold = node.evalParm('threshold')
 ```
 
-### Create function
-#### (define)
-```python
-def childrenOfNode(node):
-	result = []
-	for c in node.children():
-		result.appnd(c)
-		result += childrenOfNode(c)
-	return result
-```
-
-#### Call
-Call defined fn by calling var: n with (node):
-```python
-childrenOfNode(n)
-childrenOfNode(hou.node('/obj/adress'))
-```
-
-```python
-def examplereturn(name):
-   return name.upper()
-print examplereturn("houdini") # will print HOUDINI with all big captions
-```
 
 
 #### swap HIP to JOB
@@ -163,10 +176,6 @@ def hipToJob():
             fileJob = node.parm("tex0").rawValue().replace("$HIP","$JOB")
             node.parm("tex0").set(fileJob)
 ```
-
-
-## geometry method
-`geo = node.geometry()` - grabs the geometry data that is being fed into this node by calling its geometry() method    
 
 
 
@@ -285,6 +294,12 @@ for pos in (0,0,0),(1,0,0),(0,1,0):
 	poly.addVertex(point)  
 
 ```
+
+
+
+## geometry method
+`geo = node.geometry()` - grabs the geometry data that is being fed into this node by calling its geometry() method    
+
 
 
 
