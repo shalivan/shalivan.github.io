@@ -280,7 +280,7 @@ https://www.unrealengine.com/en-US/tech-blog/how-epic-games-is-handling-auto-exp
 ---
 
 # Nanite
-new format of representing datat. (less data)   
+new format of representing datat. (less data) with custom rasterizer (multiview)
 - no need of lod's    
 - store everything as image so mipmap  automated   
 - mesh stored in clusters   

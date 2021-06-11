@@ -146,6 +146,10 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 ##### Peak / Twist
 - (tentpole - most expensive mom)  
 
+##### Scenes
+- Plot: what happens > the consequences  
+- Story (internal): why it matters > realization > what leading to next enevable and so?
+
 ##### End / Payoff
 - payoff should give u everything from premise of beginning
 character how will change    
