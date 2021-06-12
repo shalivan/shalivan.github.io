@@ -221,12 +221,39 @@ https://shaderbits.com/blog/ue4-volumetric-fog-techniques
 Realtime gi  no rtx.   Reflection (with gi)   
 - lighting sim: input: light settings, material, exposure  
 - limitation: mesh need have simple interiors that mean every wall of building separated.
-
+- base color need to be bright
+dont overlap meshes to much   !!!  
 ##### Pipeline
 Hybrid traced pipeline  
 - Trace against the depth  buffer (screen trace)
-- Trace against Signed distance fields in compute shader (mesh & global distance trace)
+- Trace against Signed distance fields in compute shader: ( for close (up to 2m) mesh &  (over 2) global distance trace)
 - Lighting take traced ray hits and apply lighting with surface cache  (capture mesh at low, faster with nanite )
+
+**Softwaee traceing**  
+ is limited,  
+- support limitet geo  
+- any hardware
+- dx11
+distance field   
+ not enough quality for reflections   
+
+
+**hardware trace**   
+ 50% slower than software one   
+ hi quality, cost most   
+ limit: rtx cards,  dx12  
+ required for mirro like reflections   
+
+
+ **final gather**   
+
+ with gi, because there is no list of lights, all scene is bouncing liughting so proper gi need 200 rays for pixel... (realtime can aford 1/2)  
+
+ solutions:   
+ - irradiance filed (probes), slowl update but generaly great for performence, not good quality
+ - screen space denoiser
+ - screen space radiance caching - LUMEN - trace from set of pos + interpolate
+ - world space raidiance cache - probes in world *(only for distance lighting )
 
 ##### Settings
 (enabled by default)
@@ -236,14 +263,34 @@ Hybrid traced pipeline
 - hardware ray traceing in hardware 'ray traceing' and 'lumen'  
 can change settings in post process
 
-.
+###### Debug
+Show>Visualize>LumenScene
 
+
+##### Features and limitattions
 - emissive object works (limited)
 - shadowed skylight
 - on translucent and volume fog lowe quality
-outdors can be lowe quality
-indora> small one dir light in
+outdors can be lowe quality  
+indora> small one dir light in  
 
+
+```
+
+screen trace can trace anything but distance field only for statics
+
+
+
+nanaiate help with lumen. but traced not directly via high res, but lower 'nanite proxy geo' (+ help of screen traces, traces against full nanite )
+
+
+
+```
+
+**reflections**
+- trace extra for roughs <.4
+- use surface cache
+- quality on 4 will use high mesh
 
 
 shadows quality for lumen:
