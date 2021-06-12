@@ -2,7 +2,7 @@
 title: Unreal Lighting
 description: Atmosphere, Fog, Sun, Sky, Lumen
 categories:
- - RT
+ - PXL
 tags:
 - Unreal
 - Rendering
@@ -11,7 +11,7 @@ tags:
 - Art
 - Game Dev
 
-permalink: /uelight/
+permalink: /ulight/
 
 ---
 

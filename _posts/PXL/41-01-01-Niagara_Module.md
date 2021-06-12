@@ -2,7 +2,7 @@
 title: Niagara Modules
 description: Modules
 categories:
- - RT
+ - PXL
 tags:
 - Unreal
 - VFX

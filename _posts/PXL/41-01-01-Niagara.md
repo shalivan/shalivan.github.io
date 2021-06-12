@@ -2,7 +2,7 @@
 title: Niagara
 description: Paradigm
 categories:
- - RT
+ - PXL
 tags:
 - Unreal
 - VFX

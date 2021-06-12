@@ -2,13 +2,14 @@
 title: Unreal Optimization
 description: RAW
 categories:
- - RT
+ - PXL
 tags:
 - Rendering
 - Real Time
 - Unreal
 - Game Dev
 - Tech Art
+permalink: /uoptimization/
 ---
 
 

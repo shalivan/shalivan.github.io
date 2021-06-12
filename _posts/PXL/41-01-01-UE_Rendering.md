@@ -2,14 +2,14 @@
 title: Unreal Rendering Features
 description: RAW
 categories:
- - RT
+ - PXL
 tags:
 - Unreal
 - Rendering
 - Real Time
 - Game Dev
 - Tech Art
-permalink: /ue_rendering_features/
+permalink: /urendering/
 ---
 
 

@@ -2,13 +2,14 @@
 title: Unreal Animation
 description: RAW
 categories:
- - RT
+ - PXL
 tags:
 - Real Time
 - Unreal
 - Game Dev
 - Tech Art
 - Animation
+permalink: /uanim/
 ---
 
 

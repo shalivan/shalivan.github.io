@@ -2,14 +2,14 @@
 title: Unreal Volume
 description: Fluid Ninja, Clouds
 categories:
- - RT
+ - PXL
 tags:
 - Unreal
 - Rendering
 - Real Time
 - Game Dev
 - Tech Art
-permalink: /ue_volume/
+permalink: /uvolume/
 ---
 
 ------------

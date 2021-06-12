@@ -2,7 +2,7 @@
 title: Unreal Materials
 description: PBR
 categories:
- - RT
+ - PXL
 tags:
 - Unreal
 - Rendering
@@ -10,7 +10,7 @@ tags:
 - Shaders
 - Game Dev
 
-permalink: /ue_mat/
+permalink: /umat/
 ---
 
 

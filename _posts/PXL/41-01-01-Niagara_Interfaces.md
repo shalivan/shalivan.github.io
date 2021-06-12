@@ -2,7 +2,7 @@
 title: Niagara Data Interfaces
 description:  Data Interfaces
 categories:
- - RT
+ - PXL
 tags:
 - Unreal
 - VFX
