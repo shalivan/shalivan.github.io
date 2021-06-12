@@ -1,5 +1,5 @@
 ---
-title: UE Materials
+title: Unreal Materials
 description: PBR
 categories:
  - RT
@@ -49,6 +49,7 @@ Unreal simplified disney model
 https://youtu.be/kxsQ5m2IAXs
 
 
+.997 < brightest wall. never one !
 
 ----
 

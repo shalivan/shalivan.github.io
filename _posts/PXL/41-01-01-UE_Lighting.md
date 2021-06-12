@@ -1,6 +1,6 @@
 ---
-title: UE Lighting
-description: Settings,  Atmosphere
+title: Unreal Lighting
+description: Atmosphere, Fog, Sun, Sky, Lumen
 categories:
  - RT
 tags:
@@ -14,7 +14,6 @@ tags:
 permalink: /uelight/
 
 ---
-
 
 
 [Unreal Rendering Features](/ue_rendering_features/)
@@ -223,6 +222,8 @@ Realtime gi  no rtx.   Reflection (with gi)
 - limitation: mesh need have simple interiors that mean every wall of building separated.
 - base color need to be bright
 dont overlap meshes to much   !!!  
+most lumen cost is screen depending   
+
 ##### Pipeline
 Hybrid traced pipeline  
 - Trace against the depth  buffer (screen trace)
@@ -238,14 +239,14 @@ distance field
  not enough quality for reflections   
 
 
-**hardware trace**   
+**Hardware trace**   
  50% slower than software one   
  hi quality, cost most   
  limit: rtx cards,  dx12  
  required for mirro like reflections   
 
 
- **final gather**   
+ **Final gather**   
 
  with gi, because there is no list of lights, all scene is bouncing liughting so proper gi need 200 rays for pixel... (realtime can aford 1/2)  
 
@@ -254,6 +255,13 @@ distance field
  - screen space denoiser
  - screen space radiance caching - LUMEN - trace from set of pos + interpolate
  - world space raidiance cache - probes in world *(only for distance lighting )
+
+
+
+.
+
+nanaiate help with lumen. but traced not directly via high res, but lower 'nanite proxy geo' (+ help of screen traces, traces against full nanite )  
+Cannot exclude emmissive  because of screentrace
 
 ##### Settings
 (enabled by default)
@@ -275,19 +283,8 @@ outdors can be lowe quality
 indora> small one dir light in  
 
 
-```
 
-screen trace can trace anything but distance field only for statics
-
-
-
-nanaiate help with lumen. but traced not directly via high res, but lower 'nanite proxy geo' (+ help of screen traces, traces against full nanite )
-
-
-
-```
-
-**reflections**
+######  Reflections
 - trace extra for roughs <.4
 - use surface cache
 - quality on 4 will use high mesh
