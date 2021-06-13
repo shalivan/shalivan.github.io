@@ -12,20 +12,20 @@ tags:
 permalink: /uanim/
 ---
 
+[Houdini KineFX](/kinefx/)     
+[Principles of animation](/animation/)  
 
-
-
-##### Blendspace
+### Blendspace
 - to mix anim with variable
 - can blend between static poses
 
 
 
-##### Animation Blueprint
-##### Retarget
+### Animation Blueprint
+### Retarget
 
-##### Aniomatiuon Montage
-##### Animation Composite
+### Aniomatiuon Montage
+### Animation Composite
 
 
 

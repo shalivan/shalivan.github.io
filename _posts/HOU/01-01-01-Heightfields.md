@@ -6,6 +6,9 @@ categories:
 tags:
 - Houdini
 - SOP
+- Simulation
+
+
 description: Landscape 2d fields
 permalink: /heightfields/
 ---

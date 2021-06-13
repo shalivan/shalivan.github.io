@@ -11,6 +11,10 @@ description:  Principles, VFX
 permalink: /animation/
 ---
 
+
+[Unreal Animation](/uanim/)
+[Houdini KineFX](/kinefx/)   
+
 # Animation types
 
 - by expression or keys
@@ -20,10 +24,6 @@ permalink: /animation/
 `reactive`  
 `dynamic`  
 `mocap data`  
-
-
-[KineFX](/kinefx/)
-
 
 
 

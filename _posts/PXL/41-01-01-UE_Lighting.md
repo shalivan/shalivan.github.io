@@ -223,12 +223,12 @@ Realtime gi  no rtx.   Reflection (with gi)
 - base color need to be bright
 dont overlap meshes to much   !!!  
 most lumen cost is screen depending   
-
+- limited in distance (because surface cache show near you only, further go to screen cache)
 ##### Pipeline
 Hybrid traced pipeline  
 - Trace against the depth  buffer (screen trace)
 - Trace against Signed distance fields in compute shader: ( for close (up to 2m) mesh &  (over 2) global distance trace)
-- Lighting take traced ray hits and apply lighting with surface cache  (capture mesh at low, faster with nanite )
+- Lighting take traced ray hits and apply lighting with surface cache  (capture mesh at low, faster with nanite)
 
 **Softwaee traceing**  
  is limited,  

@@ -1,6 +1,6 @@
 ---
 title: Synths
-description: Data 
+description: Data
 categories:
  - DTA
 tags:
@@ -12,6 +12,12 @@ permalink: /synth/
 ---
 
 [Music](/music/)  
+
+
+## Drum mechines
+
+RT-808 - define hip hop   
+RT-909 - define techno   
 
 
 ## Synthesizers
