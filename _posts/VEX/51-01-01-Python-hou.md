@@ -102,20 +102,22 @@ print examplereturn("houdini")
 
 `hou.node("obj")` - object directory
 
-`obj.createNode("geo", "foo_geo")`  
-<img src="/src/python/hou/a0.png" width="350">      
+`obj.createNode("geo", "foo_geo")`    
+<img src="/src/python/hou/a0.png" width="350" >      
 
-`foo.createNode("box", "foo_box")` - Create Box inside
 
-<img src="/src/python/hou/a1.png" width="350">
 
-`fooBox.setInput(0, fooSphere,0)` - connect inputs  
-<img src="/src/python/hou/aconnect.png" width="350">
+`foo.createNode("box", "foo_box")` - Create Box inside  
+<img src="/src/python/hou/a1.png" width="350" >
 
-`fooSphere.setDisplayFlag(1)`  
-`fooSphere.setRenderFlag(1)`  
 
-<img src="/src/python/hou/aconnectflags.png" width="350">
+`fooBox.setInput(0, fooSphere,0)` - Connect inputs    
+<img src="/src/python/hou/aconnect.png" width="350" style="left">
+
+
+`fooSphere.setDisplayFlag(1)`    
+`fooSphere.setRenderFlag(1)`    
+<img src="/src/python/hou/aconnectflags.png" width="350" >
 
 `fooBox.destroy`
 
