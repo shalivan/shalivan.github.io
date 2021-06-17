@@ -97,23 +97,27 @@ print examplereturn("houdini")
 
 # hou.node
 
+### Create and connect nodes
 [Hou.node documentation](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
 
-```python
-hou.node('/path')
-hou.node("obj") # object directory
+`hou.node("obj")` - object directory
 
-```
-
-
+`obj.createNode("geo", "foo_geo")`  
 <img src="/src/python/hou/a0.png" width="350">      
 
-```python
->>> foo.createNode("box", "foo_box") # Create Box inside
+`foo.createNode("box", "foo_box")` - Create Box inside
 
-```
 <img src="/src/python/hou/a1.png" width="350">
 
+`fooBox.setInput(0, fooSphere,0)` - connect inputs  
+<img src="/src/python/hou/aconnect.png" width="350">
+
+`fooSphere.setDisplayFlag(1)`  
+`fooSphere.setRenderFlag(1)`  
+
+<img src="/src/python/hou/aconnectflags.png" width="350">
+
+`fooBox.destroy`
 
 ```python
 def fooFunction():
@@ -122,18 +126,10 @@ def fooFunction():
      fooBox = fooGeo.createNode("box", "foo_box")
      fooSphere = fooGeo.createNode("sphere", "foo_sphere")
      fooBox.setInput(0, fooSphere,0) # connect inputs
+     fooSphere.setDisplayFlag(1)
+     fooSphere.setRenderFlag(1)
 ```
-<img src="/src/python/hou/aconnect.png" width="350">
 
-```python
-fooSphere.setDisplayFlag(1)
-fooSphere.setRenderFlag(1)
-```
-<img src="/src/python/hou/aconnectflags.png" width="350">
-
-```python
-fooBox.destroy
-```
 
 
 ## Operations on nodes  
@@ -147,6 +143,16 @@ fooBox.destroy
 `foo = setSelected(True)` # Select ball node  
 `foo = isSelected()` # return bool. Check if selected    
 
+
+
+---
+---
+---
+---
+---
+---
+---
+---
 
 
 ```
@@ -187,6 +193,9 @@ seed = node.evalParm('seed')
 threshold = node.evalParm('threshold')
 ```
 
+```
+evalParmTuple('t')
+```
 
 
 #### swap HIP to JOB
@@ -325,16 +334,6 @@ for pos in (0,0,0),(1,0,0),(0,1,0):
 `geo = node.geometry()` - grabs the geometry data that is being fed into this node by calling its geometry() method    
 
 
-
-
----
----
----
----
----
----
----
----
 
 
 # RAW NOTES
