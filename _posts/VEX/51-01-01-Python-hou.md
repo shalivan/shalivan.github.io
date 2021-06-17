@@ -35,19 +35,22 @@ Live code:  Windows>PythonShell
  ```
 
 
-Create geo container
+
 ```python
+# Create geo container
 >>> obj = hou.node("obj")
 >>> obj.createNode("geo", "My_geo")
 <hou.ObjNode of type geo at /obj/My_geo>
 >>>
 ```
-Store Value as variable
+
 ```python
+# Store Value as variable
 >>> foo = obj.createNode("geo", "My_geo")
 ```
-Create Box inside   
+
 ```python
+# Create Box inside
 >>> foo.createNode("box", "My_box")
 <hou.foo of type box at /obj/My_geo/My_box>
    ```
@@ -67,7 +70,7 @@ def createSomeNodes():
    box = foo.createNode("box", "My_Box")
 ```
 
-Call fn from SourceEditro in Python Shell:
+Call fn from Source Editor in Python Shell:
 
 ```python
 >>> hou.session.createSomeNodes()
@@ -92,27 +95,28 @@ see what params is passing `kwargs` (pthos dict to see what is avalable)
 
 
 ### Create function
-#### (define)
+
 ```python
+# Define fn.
 def childrenOfNode(node):
 	result = []
 	for c in node.children():
 		result.appnd(c)
 		result += childrenOfNode(c)
 	return result
+
+# Call defined fn by calling var: n with (node):
+childrenOfNode(n)
+childrenOfNode(hou.node('/obj/adress'))  
 ```
 
-#### Call
-Call defined fn by calling var: n with (node):
-```python
-childrenOfNode(n)
-childrenOfNode(hou.node('/obj/adress'))
-```
 
 ```python
 def examplereturn(name):
    return name.upper()
-print examplereturn("houdini") # will print HOUDINI with all big captions
+
+# will print HOUDINI with all big captions   
+print examplereturn("houdini")
 ```
 
 
@@ -134,17 +138,17 @@ ballTx = ball.parm("tx") # Get val of parameter
 ball.evalParm("tx") # Get val of parameter in particular moment
 ball.setParms({"tx":3, "tx":2, "tx":1})
 
-# get all parameters names in ball obj
-for parm in ball.parms():
+
+for parm in ball.parms(): # get all parameters names in ball obj
      print parm.name()
 
-# print all inputs of node
-mynode = hou.node('/obj/ball')
+
+mynode = hou.node('/obj/ball') # print all inputs of node
 for input in mynode.inputs():
      print input
 
-# print all outputs of node
-mynode = hou.node('/obj/ball')
+
+mynode = hou.node('/obj/ball') # print all outputs of node
 for output in mynode.outputs():
      print output
 
@@ -168,13 +172,14 @@ threshold = node.evalParm('threshold')
 
 #### swap HIP to JOB
 
-NickD
+
 ```python
 def hipToJob():
     for node in hou.node("/").allSubChildren():
         if node.type().name()=="redshift::TextureSampler":
             fileJob = node.parm("tex0").rawValue().replace("$HIP","$JOB")
             node.parm("tex0").set(fileJob)
+# by NickD
 ```
 
 
@@ -193,7 +198,7 @@ t = ty.tuple() # list of all params
 len(t) # how many params have list
 
 for parm in t:
-		print parm.name() # tx, ty, tz
+  print parm.name() # tx, ty, tz
 
 ry.hou.paramTuple('/obj/ball/r')[1]
 ry.deleteAllKeyFrames()
@@ -204,12 +209,12 @@ ry.expression() # will give you: '2*frame()'
 rx = hou.parmTuple('/obj/ball/r')[0]
 keys = rx.keyframes()
 
-# print keys
-for key in keys:
-	print key  
 
-# will print expression animation we set earlier
-for key in ry.keyframes():
+for key in keys: # print keys
+  print key  
+
+
+for key in ry.keyframes(): # print expression anims we set earlier
 	print key
 
 ry.asCode() # will print code
