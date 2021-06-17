@@ -9,92 +9,67 @@ tags:
 - Code
 ---
 
+## Setup
 
-Install:  
-1. Dowload a py3 release of houdini,
+1. Install Houdini py3 release
 2. Install python 3.7.9 separately with pytorch somewhere on your machine (+add pythoin to PATH))
 3. Define a the PYTHONPATH variable pointing to the site-package folder. Houdini will be able to use any libs installed here.
-4. Instal additional libraries by pip
+4. Additional libraries: instal by pip
    - [Scipy](https://www.scipy.org/install.html) library - `python -m pip install numpy scipy ` will instal scipy library in : `Phyton/Lib/sire-packages/...`
-5. Edit system enviroment variables > Environment Variables... > New...
+5. Edit windows paths: system enviroment variables > Environment Variables... > New...
  - Variable name" PYTHONPATH
  - VariableValue: `C:\Users... Lib/site-packages`
 
----
+## Usage
 
-
-
-
-## Python Shell
-Live code:  Windows>PythonShell
-```python
- Python 2.7.15 (default, Dec  2 2020, 15:50:44) [MSC v.1916 64 bit (AMD64)] on wi
- n32
- Houdini 18.5.518 hou module imported.
- Type "help", "copyright", "credits" or "license" for more information.
- ```
-
-
-
-```python
-# Create geo container
->>> obj = hou.node("obj")
->>> obj.createNode("geo", "My_geo")
-<hou.ObjNode of type geo at /obj/My_geo>
->>>
-```
-
-```python
-# Store Value as variable
->>> foo = obj.createNode("geo", "My_geo")
-```
-
-```python
-# Create Box inside
->>> foo.createNode("box", "My_box")
-<hou.foo of type box at /obj/My_geo/My_box>
-   ```
-
-
-
-## Python Source Editor
-Embeded in hip file. Can save  code and function, and call by: hou.session.myDefinedFunction()  
+### Python Source Editor
+Embeded in hip file:  `Windows>Python Source Editor` .   
+Can save  code and function, and call by: hou.session.myDefinedFunction()  
 
 
 
 
 ```python
-def createSomeNodes():
-   obj = hou.node("/obj")
-   foo =  obj.createNode("geo", "My_Geo")
-   box = foo.createNode("box", "My_Box")
-```
-
-Call fn from Source Editor in Python Shell:
-
-```python
->>> hou.session.createSomeNodes()
+def foo():
+   obj = hou.node("/obj") # go to directory
+   foo = obj.createNode("geo", "foo_geo") # create container
+   box = foo.createNode("box", "foo_box") # create box
 ```
 
 
 
 
-##  Shelf Tool
-Scripts section to write code Executed after shelf click
+
+### Python Shell
+Live code:  `Windows>Python Shell`
+```python
+Python 2.7.15 (default, Dec  2 2020, 15:50:44) [MSC v.1916 64 bit (AMD64)] on win32
+Houdini 18.5.518 hou module imported.
+Type "help", "copyright", "credits" or "license" for more information.
+
+
+# Call fn from Source Editor in Python Shell:
+>>> hou.session.foo()
+```
 
 
 
-## Script node
+###  Shelf Tool
+Click on shelf click:  `RMB > New Tool`
+Scripts section to write code Executed
+- name, label
+- script will execute ....
+- can call from: `hou.session.foo()`
+
+
+### Script node
 
 
 # hou.
 
-`hou.` is houdini python class. We can drop it in **expressions**:    
-see what params is passing `kwargs` (pthos dict to see what is avalable)  
+`hou.` is houdini python class. We can drop it in expressions.      
 
 
-
-### Create function
 
 ```python
 # Define fn.
@@ -124,22 +99,58 @@ print examplereturn("houdini")
 
 [Hou.node documentation](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
 
+```python
+hou.node('/path')
+hou.node("obj") # object directory
+
+```
+
+
+<img src="/src/python/hou/a0.png" width="350">      
+
+```python
+>>> foo.createNode("box", "foo_box") # Create Box inside
+
+```
+<img src="/src/python/hou/a1.png" width="350">
+
+
+```python
+def fooFunction():
+     obj = hou.node("/obj")
+     fooGeo = obj.createNode("geo", "foo_geo")
+     fooBox = fooGeo.createNode("box", "foo_box")
+     fooSphere = fooGeo.createNode("sphere", "foo_sphere")
+     fooBox.setInput(0, fooSphere,0) # connect inputs
+```
+<img src="/src/python/hou/aconnect.png" width="350">
+
+```python
+fooSphere.setDisplayFlag(1)
+fooSphere.setRenderFlag(1)
+```
+<img src="/src/python/hou/aconnectflags.png" width="350">
+
+```python
+fooBox.destroy
+```
+
+
 ## Operations on nodes  
 
 ```python
-foo = hou.node('/path')
-foo.name #return name of object.
+>>> foo.name #return name of object
+<bound method ObjNode.name of <hou.ObjNode of type geo at /obj/foo_geo>>
+```
 
-ball = hou.node('/obj/ball') # Set ball as variable / getting a reference to the current node
-ball = setSelected(True) # Select ball node
-ball = isSelected() # return bool. Check if selected  
-ball = type().name() # geo
-ballTx = ball.parm("tx") # Get val of parameter
-ball.evalParm("tx") # Get val of parameter in particular moment
-ball.setParms({"tx":3, "tx":2, "tx":1})
+`foo = type().name()` #return name of object  
+`foo = setSelected(True)` # Select ball node  
+`foo = isSelected()` # return bool. Check if selected    
 
 
-for parm in ball.parms(): # get all parameters names in ball obj
+
+```
+for parm in foo.parms(): # get all parameters names in ball obj
      print parm.name()
 
 
@@ -159,11 +170,19 @@ box = hou.node('/obj/ball').createNode("box","NewBoxName")
 
 # create node conected to parrent
 box = ball.createNode("box","NewBoxName")
-box.destroy
+
 ```
 
-evalParm(path) - to access each parameter / Reference to this Python SOP via the node variable, we can use  
+
 ```python
+fooTx = foo.parm("tx") # Get val of parameter  
+foo.setParms({"tx":3, "tx":2, "tx":1})  
+```
+
+
+```python
+`foo.evalParm("tx")` # Get val of parameter in particular moment  
+# evalParm(path) - to access each parameter / Reference to this Python SOP via the node variable, we can use
 seed = node.evalParm('seed')
 threshold = node.evalParm('threshold')
 ```
@@ -445,3 +464,8 @@ https://www.artstation.com/siver/blog/W9PL/houdini-blog-38-viewer-states
 https://youtu.be/iMb8W2dH4hs  
 
 https://github.com/kiryha/Houdini/wiki/python-snippets
+
+
+---
+
+See what params is passing `kwargs` (pthos dict to see what is avalable)  
