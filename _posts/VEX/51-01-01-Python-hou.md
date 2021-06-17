@@ -100,9 +100,9 @@ print examplereturn("houdini")
 ### Create and connect nodes
 [Hou.node documentation](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
 
-`hou.node("obj")` - object directory
+`hou.node("obj")` - Object directory
 
-`obj.createNode("geo", "foo_geo")`    
+`obj.createNode("geo", "foo_geo")`  - Cretate geo container   
 <img src="/src/python/hou/a0.png" width="350" >      
 
 
@@ -115,8 +115,8 @@ print examplereturn("houdini")
 <img src="/src/python/hou/aconnect.png" width="350" style="left">
 
 
-`fooSphere.setDisplayFlag(1)`    
-`fooSphere.setRenderFlag(1)`    
+`fooSphere.setDisplayFlag(1)` - Set Display Flag   
+`fooSphere.setRenderFlag(1)` - Set Render Flag  
 <img src="/src/python/hou/aconnectflags.png" width="350" >
 
 `fooBox.destroy`
