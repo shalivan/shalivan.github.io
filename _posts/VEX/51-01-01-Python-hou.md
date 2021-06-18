@@ -119,7 +119,7 @@ print examplereturn("houdini")
 `fooSphere.setRenderFlag(1)` - Set Render Flag  
 <img src="/src/python/hou/aconnectflags.png" width="350" >
 
-`fooBox.destroy`
+`fooBox.destroy` - Delete
 
 ```python
 def fooFunction():
@@ -132,55 +132,37 @@ def fooFunction():
      fooSphere.setRenderFlag(1)
 ```
 
+---
 
-
-## Operations on nodes  
-
-```python
->>> foo.name #return name of object
-<bound method ObjNode.name of <hou.ObjNode of type geo at /obj/foo_geo>>
-```
-
-`foo = type().name()` #return name of object  
+Node Selection:   
 `foo = setSelected(True)` # Select ball node  
 `foo = isSelected()` # return bool. Check if selected    
 
 
 
----
----
----
----
----
----
----
----
+Get names:   
+```python
+foo.name # `foo = type().name()` - return name of object
+<bound method ObjNode.name of <hou.ObjNode of type geo at /obj/foo_geo>>
 
-
-```
 for parm in foo.parms(): # get all parameters names in ball obj
      print parm.name()
-
-
-mynode = hou.node('/obj/ball') # print all inputs of node
-for input in mynode.inputs():
-     print input
-
-
-mynode = hou.node('/obj/ball') # print all outputs of node
-for output in mynode.outputs():
-     print output
-
-# change which node input node
-hou.node('/obj/nodetochange').setInput(0, hou.node('/obj.newnode'))
-
-box = hou.node('/obj/ball').createNode("box","NewBoxName")
-
-# create node conected to parrent
-box = ball.createNode("box","NewBoxName")
-
 ```
 
+
+Get inputs outputs:  
+```python
+fooBox = hou.node('/obj/foo_box') # print all inputs of node
+for input in fooBox.inputs():
+     print input
+
+for output in fooBox.outputs():
+     print output
+```
+
+
+
+# hou.parm
 
 ```python
 fooTx = foo.parm("tx") # Get val of parameter  
@@ -198,23 +180,6 @@ threshold = node.evalParm('threshold')
 ```
 evalParmTuple('t')
 ```
-
-
-#### swap HIP to JOB
-
-
-```python
-def hipToJob():
-    for node in hou.node("/").allSubChildren():
-        if node.type().name()=="redshift::TextureSampler":
-            fileJob = node.parm("tex0").rawValue().replace("$HIP","$JOB")
-            node.parm("tex0").set(fileJob)
-# by NickD
-```
-
-
-
-# hou.parm
 
 behaviour of all parameters
 ```python
@@ -274,7 +239,8 @@ ball.mmoveParmTransformIntoPreTransform()
 ```
 
 # hou.geometry
-Define 3d geo shape  
+Define 3d geo shape  `geo = node.geometry()` - grabs the geometry data that is being fed into this node by calling its geometry() method    
+
 ```python
 geo = hou.node('/obj/ball/AddPointNormal').geometry()
 
@@ -329,11 +295,6 @@ for pos in (0,0,0),(1,0,0),(0,1,0):
 	poly.addVertex(point)  
 
 ```
-
-
-
-## geometry method
-`geo = node.geometry()` - grabs the geometry data that is being fed into this node by calling its geometry() method    
 
 
 
@@ -440,6 +401,22 @@ for shali in geo.points():
     shali.setPosition(pos)
     shali.setAttribValue("rot", rot)
 ```
+
+
+
+#### swap HIP to JOB
+
+
+```python
+def hipToJob():
+    for node in hou.node("/").allSubChildren():
+        if node.type().name()=="redshift::TextureSampler":
+            fileJob = node.parm("tex0").rawValue().replace("$HIP","$JOB")
+            node.parm("tex0").set(fileJob)
+# by NickD
+```
+
+
 
 ### Import
 
