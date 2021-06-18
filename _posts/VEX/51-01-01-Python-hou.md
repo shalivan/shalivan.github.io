@@ -15,15 +15,15 @@ tags:
 2. Install python 3.7.9 separately with pytorch somewhere on your machine (+add pythoin to PATH))
 3. Define a the PYTHONPATH variable pointing to the site-package folder. Houdini will be able to use any libs installed here.
 4. Additional libraries: instal by pip
-   - [Scipy](https://www.scipy.org/install.html) library - `python -m pip install numpy scipy ` will instal scipy library in : `Phyton/Lib/sire-packages/...`
+   - [Scipy](https://www.scipy.org/install.html) library - `python -m pip install numpy scipy`  will instal scipy library in : **Phyton/Lib/sire-packages/...**
 5. Edit windows paths: system enviroment variables > Environment Variables... > New...
  - Variable name" PYTHONPATH
- - VariableValue: `C:\Users... Lib/site-packages`
+ - VariableValue: **C:\Users... Lib/site-packages**
 
 ## Usage
 
 ### Python Source Editor
-Embeded in hip file:  `Windows>Python Source Editor` .   
+Embeded in hip file:  Windows > Python Source Editor.   
 Can save  code and function, and call by: hou.session.myDefinedFunction()  
 
 
@@ -41,7 +41,7 @@ def foo():
 
 
 ### Python Shell
-Live code:  `Windows>Python Shell`
+Live code:  Windows > Python Shell
 ```python
 Python 2.7.15 (default, Dec  2 2020, 15:50:44) [MSC v.1916 64 bit (AMD64)] on win32
 Houdini 18.5.518 hou module imported.
@@ -55,7 +55,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 
 ###  Shelf Tool
-Click on shelf click:  `RMB > New Tool`
+Click on shelf click:  RMB > New Tool
 Scripts section to write code Executed
 - name, label
 - script will execute ....
@@ -66,8 +66,7 @@ Scripts section to write code Executed
 
 
 # hou.
-
-`hou.` is houdini python class. We can drop it in expressions.      
+hou. is houdini python class. We can drop it in expressions.      
 
 
 
