@@ -32,8 +32,8 @@ Can save  code and function, and call by: hou.session.myDefinedFunction()
 ```python
 def foo():
    obj = hou.node("/obj") # go to directory
-   foo = obj.createNode("geo", "foo_geo") # create container
-   box = foo.createNode("box", "foo_box") # create box
+   fooGeo = obj.createNode("geo", "foo_geo") # create container
+   fooBox = foo.createNode("box", "foo_box") # create box
 ```
 
 
@@ -100,7 +100,8 @@ print examplereturn("houdini")
 ### Create and connect nodes
 [Hou.node documentation](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
 
-`hou.node("obj")` - Object directory
+`hou.node("obj")` - Object directory    
+`foo = hou.node("/obj/fooBox")` # creates hou.ObjNode of type geo at /obj/ball    
 
 `obj.createNode("geo", "foo_geo")`  - Cretate geo container   
 <img src="/src/python/hou/a0.png" width="350" >      
@@ -115,8 +116,11 @@ print examplereturn("houdini")
 <img src="/src/python/hou/aconnect.png" width="350" style="left">
 
 
-`fooSphere.setDisplayFlag(1)` - Set Display Flag   
-`fooSphere.setRenderFlag(1)` - Set Render Flag  
+`fooSphere.setDisplayFlag(1)` - Set Display Flag     
+`fooSphere.setRenderFlag(False)` - Set Render Flag    
+`fooSphere.isDisplayFlagSet()` - False   
+`fooSphere.isObjectDisplayed()` -    
+`fooSphere.setSelectableInViewport(False)` -   
 <img src="/src/python/hou/aconnectflags.png" width="350" >
 
 `fooBox.destroy` - Delete
@@ -134,13 +138,13 @@ def fooFunction():
 
 ---
 
-Node Selection:   
-`foo = setSelected(True)` # Select ball node  
-`foo = isSelected()` # return bool. Check if selected    
+#### Node Selection:   
+`foo = setSelected(True)` - Select ball node  
+`foo = isSelected()` - Return bool. Check if selected    
 
 
 
-Get names:   
+#### Get names:   
 ```python
 foo.name # `foo = type().name()` - return name of object
 <bound method ObjNode.name of <hou.ObjNode of type geo at /obj/foo_geo>>
@@ -150,7 +154,7 @@ for parm in foo.parms(): # get all parameters names in ball obj
 ```
 
 
-Get inputs outputs:  
+#### Get inputs outputs:  
 ```python
 fooBox = hou.node('/obj/foo_box') # print all inputs of node
 for input in fooBox.inputs():
@@ -160,7 +164,21 @@ for output in fooBox.outputs():
      print output
 ```
 
+# hou.objNode
+[Hou.objNode documentation](https://www.sidefx.com/docs/houdini/hom/hou/ObjNode.html)
+how is displayed and how manipulate
 
+#### Transforms
+```python
+parent = fooBox.parentTransform()
+pre = fooBox.preTransform()
+parm = fooBox.parmTransform()
+world = fooBox.worldTransform()
+product = parent * pre * parm
+print (product == world) # True
+
+fooBox.mmoveParmTransformIntoPreTransform()
+```
 
 # hou.parm
 
@@ -215,28 +233,20 @@ for key in ry.keyframes(): # print expression anims we set earlier
 ry.asCode() # will print code
 ```
 
-# hou.objNode
-how is displayed and how manipulate
-```python
 
-ball = hou.node("/obj/ball") # creates hou.ObjNode of type geo at /obj/ball
+#### Attributes:
 
-ball.setDisplayFlag(False)
-ball.isDisplayFlagSet() # False
-ball.isObjectDisplayed()
-ball.setSelectableInViewport(False)
+`points[index].setAttribValue("Cd",(1.0,1.0,1.0))` - Set attribute  
+`redVal=point.attribValue("Cd")[0]` - Get attribute   
 
-parent = ball.parentTransform()
-pre = ball.preTransform()
-parm = ball.parmTransform()
-world = ball.worldTransform()
-product = parent * pre * parm
-print (product == world) # True
-
-ball.mmoveParmTransformIntoPreTransform()
-
-
+#### setattrib
 ```
+geo.addAttrib(hou.attribType.Point, "PointFoo", 14)
+geo.addAttrib(hou.attribType.Vertes, "VertFoo", 15)
+geo.addAttrib(hou.attribType.Prim, "PrimFoo", 44)
+geo.setPrimIntAttribValues("PrimFoo", (11))
+```
+
 
 # hou.geometry
 Define 3d geo shape  `geo = node.geometry()` - grabs the geometry data that is being fed into this node by calling its geometry() method    
@@ -299,8 +309,7 @@ for pos in (0,0,0),(1,0,0),(0,1,0):
 
 
 
-# RAW NOTES
-### Groups:
+# Groups:
 
 `myGrp=geo.createPrimGroup('name')` - Create group   
 `group.destroy()` - Delete group, leaving contents intact  
@@ -319,10 +328,17 @@ for group in groups:
     print group.name
 ```
 
-### Attributes:
+# I/O
 
-`points[index].setAttribValue("Cd",(1.0,1.0,1.0))` - Set attribute  
-`redVal=point.attribValue("Cd")[0]` - Get attribute   
+
+### import geo
+`geo.loadFromFile("C:/Temp/red.geo")``
+
+
+
+# RAW NOTES
+
+
 
 ###  Delete primitives
 ```
@@ -360,17 +376,6 @@ key4.setExpression("spline()",exprLanguage.Python)
 key4.setValue(400) #
 rz.setKeyFrame(key4) # here change in wievport
 ```
-
-### setattrib
-```
-geo.addAttrib(hou.attribType.Point, "PointFoo", 14)
-geo.addAttrib(hou.attribType.Vertes, "VertFoo", 15)
-geo.addAttrib(hou.attribType.Prim, "PrimFoo", 44)
-geo.setPrimIntAttribValues("PrimFoo", (11))
-```
-### import geo
-
-geo.loadFromFile("C:/Temp/red.geo")
 
 `param = hou.ch("param")` - Read node parameter
 `xBoundSize=lvar('SIZEX')` - Read local variables    
