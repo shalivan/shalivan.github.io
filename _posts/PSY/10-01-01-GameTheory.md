@@ -24,6 +24,8 @@ Mathematical study of optimizing agents strategies in games with more than one p
 3. Reach conclusion
 
 
+Game theory to work need rational actors 
+
 [Human Behavioral Biology](/humbio1/)   
 [Personality](/personality/)  
 [Game Mechanics](/gamemechanics/)  

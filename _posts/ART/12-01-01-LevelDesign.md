@@ -45,66 +45,61 @@ what to do but not how to do it
 
 # Navigation
 
+Players action loop: Typicaly in a vantage point area, where we can survey, orient ourselfs  and plan our approach.
 
-1. observe
+1. Observe
 2. Plan
 3. Act
 4. React
 
+
+
+
 ## Guidance
-- ui
-- in game visuals
-- narrative (AI)
+- UI - UI, Maps, ...
+- In game visuals - signs, light,....  
+- Narrative - Narrator, AI, ...
 
 
 ## Saliency
-**Where to look** -  Attention garbing - control where player and cam look
+**Where to look** - Attention garbing. Control where player and cam look.  
 
-  - **Bottom up Saliency**- Contrast, movement  (Stronger in cinema cause we are chilling)
-  - **Top-Down Saliency**- Humans (meaning), NowSilent (We care now) (Stronger in goal/task orient mode) Human faces, people, things associated with our current task/goal (attentional goals).  
+  - **Bottom up Saliency** - Contrast, movement  (Stronger in cinema cause we are chilling)
+  - **Top-Down Saliency** - Humans (meaning), NowSilent (We care now) (Stronger in goal/task orient mode) Human faces, people, things associated with our current task/goal (attentional goals).  
 
-**attentional goals**  help players notice and pay attention to things  - (which can mean you become more ‘blind’ to other things). a locked gate they might assume the goal forward is to open the gate (even though the solution is to climb out a window).It’s also worth noting that if players are already focused on something  else
+**Attentional goals**  help players notice and pay attention to things  - (which can mean you become more ‘blind’ to other things). a locked gate they might assume the goal forward is to open the gate (even though the solution is to climb out a window).It’s also worth noting that if players are already focused on something  else
 
 
 ## Affordances
-**Where to go**  Window affordance looking through.  Door afford enter ...  You can design way player will know how to use things. Show clear way a possibility    
+**Where to go** Show clear way a possibilities. Control what players believe is usable -  Windows afford to looking through.  Doors afford to enter ...     
 
 
+.
 
-- **Positive** affordance: affords to be used   
-- **Negative** affordance: doesn’t afford to be used and can’t be  / Nope zone
-- **False** affordance: ! looks like it affords to be used but can’t
+- **Positive** - Afford to be used   
+- **Negative** - Doesn’t afford to be used and can’t be  / Nope zone
+- **False** - ! looks like it affords to be used but can’t
 
-**Types**
+.
 
-
-- Affordable **Objects** - Machines, doors...
-- Affordable **Surface**  - floor. we walk to affordance surface to walk. along longest sight lights. (or somewhere else if there could be price)
-
-
-
-**Prospect & Refuge**
+- **Objects** - Machines, doors...
+- **Surface**  - floor. we walk to affordance surface to walk. along longest sight lights. (or somewhere else if there could be price)
 
 
-- **Prospect** -  View
-- **Refuge**  - Safety places. This kept our ancestors safe from enemies/predators and the elements, meet basic human psychological needs.  (evolutionary heritage). provide people with the capacity to observe (prospect)
-
+### Prospect & Refuge
+**Prospect** is a view, and **Refuge** is Safety place. This kept our ancestors safe from enemies/predators and the elements, meet basic human psychological needs.  (evolutionary heritage). provide people with the capacity to observe (prospect)
 
 - **Primary**  - you have now both
 - **Secondary** - we have only one and see second far away is only promise)
 
-**Encourage**
+### Encourage
+
+- **Mystery** - If there is information to learn `Wniees` - landmark with mystery element
+- **Teasing** - Show what you can get yet.
+- high level long term goals. not pull a leaver.
 
 
-- **Mystery** - If there is information to learn
-- **Teasing** - Show what you can get
-
-
-high level long term goals. not pull a leaver.
-
-
-
-## Secrets
+### Secrets
 
 - **Breadcrumbing** -  sending brief and sporadic messages. Trail of something (usually pickups or information) that leads the player in the right direction or towards  
 - **Hints** - Slight or indirect indication or suggestion. (notes on paper, maps, signs)
@@ -116,6 +111,21 @@ high level long term goals. not pull a leaver.
 
 
 
+[Architecture](/arch/)
+
+
+
+
+
+
+## Composition
+Composing 3d to view in 2d (flat monitor) like composition rules  
+
+- Clarity and flow vs confusion
+- Vary silhouettes of the skyline  
+- Lines of sight  
+- Depth perception vs. real space
+
 ## Orientation
 
 **where I am**  In games Perceptual pattern to create Orientation  
@@ -123,27 +133,14 @@ high level long term goals. not pull a leaver.
 - Divide to district / zroznicuj areny (to distinc in map and mind )
 
 
-Way finding elements:
-dont lead player where to go but how move through space
-
-- `Landmarks` - individual object - `Wniees` - mystery element + landmark
+- `Landmarks` - individual objects
 - `District` - with unique fulvous
 - `Linear elements` - Path, rivers.
 - `Edges` - Walls, rivers (temporary / depended)  
 - `Nodes` - moments of decisions - train station
 
-
-
-[Architecture](/arch/)
-
-
-## Composition
-Composing 3d to view in 2d (flat monitor) like composition rules
-
-- clarity and flow vs confusion
--  Vary silhouettes of the skyline  
-- lines of sight  
--depth perception vs. real space
+Way finding elements:
+dont lead player where to go but how move through space
 
 
 
@@ -151,22 +148,27 @@ Composing 3d to view in 2d (flat monitor) like composition rules
 ---
 
 # Visuals
-generally more effective when it makes contextual narrative sense
+- Generally more effective when it makes contextual narrative sense  
+- Must be part of gameplay mechanics
 
 
-### Usable Visual
-- usable elements
-
-### Visual Language
+## Visual Language
 - develop & maintain visual language consistency in style: aesthetic.
-- `Optimum complexity`
-- modular
+- `Optimum complexity` - redability
+
 
 .
+
 - gradient of visual complexity where the play space has less visual complexity and then as the space transitions to where players/enemies can no longer traverse (or where something visually important is) we increase it.
 
+.
 
-### Visual story telling
+##### Atmosphere
+- `Depth`  - Atmosphere, Repeating same elements in space
+- `Light` - but we not evolve to going directly to light.
+
+
+## Visual Storytelling
 let content of story to draw image  (not style ! )
 evaluating story:
 - what matter from the story point of view (no details)
@@ -175,32 +177,29 @@ evaluating story:
 
 ### Environmental narrative (mise-en-scene)
 - universal themes understood by all cultures > honor freedom lib injustice vengin survival
-- `Symbolism` (ascending desc.)> stairs up (create narrative),
+- `Symbolism` (ascending desc.) > stairs up (create narrative),
 - `Expression`. world; Historical and cultural, inhabitant (znaki zamieszkania)
 - `Mystery` (scene enrichment)
 - `Novelty`
 - `Foreshadowing` - showing goals
-- emotions and history
-
-
-## Scene Setup   
-
-- `Depth`  - Atmosphere, Repeating same elements in space
-- `Light` - but we not evolve to going directly to light
-
-
+- Emotions and history
 
 ### Architecture
 https://vol.co/product/anime-architecture/
 
+
+# Production Constraints & Direction   
+(ograniczenia wynikajće z pipelinów)
+
 ### Pattern analysis
-oprocz dunkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w girsach auromatycznym skinem. obvious.
+- grid base props (modular) vs. oprocz funkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w girsach auromatycznym skinem. obvious.
 
 
 ---
 
 
 # Gameplay
+
 
 
 #### Physics,  usable & reactivity
@@ -215,7 +214,10 @@ oprocz dunkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w
 ```
 
 ##### Signifiers
-Gameplay (signals that help find that sth is usable (signs/ colors)) (BRAK 4-th wall)
+Gameplay (signals that help find that sth is usable (signs/ colors)) (BRAK 4-th wall) AFORDANCE !!!
+
+
+
 
 gamification
 
@@ -247,6 +249,9 @@ Power shift / Reversal
 Playing the level backwards  
 Revisit
 
+
+### Procedural
+[Procedural](/procedural/)
 
 # Combat
 
@@ -282,7 +287,7 @@ mastery mapy vs nowa mapa .
 ---------
 
 
-dieter rams: minimalist product design  
+(dieter rams: minimalist product design)  
 (book: design of normal things don norman)  
 (roberto rengel: shaping interior space)    
 

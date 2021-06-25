@@ -12,6 +12,9 @@ permalink: /uaudio/
 ---
 
 
+LOD for audio  files  
+
+
 
   - `send fx` - are those who work only on part of eg: send in a fn of distance (reverbm delay)
   - `bin` : quantize a spectrum to buckets cause cannot have continuous data
@@ -26,9 +29,9 @@ permalink: /uaudio/
   Can drag and drop `waves`
 
 
-#### Cues
-  <img align="right" src="/src/ue/audio/cue.png">
-  For simple mix (can mix with same pitched sound with offset )  (mixer to mix , modulator to pitch, envelope)  
+#### Meta sounds
+<img align="right" src="/src/ue/audio/cue.png">  
+(Cue - legacy system)  Mixer.
 
 
 
@@ -200,6 +203,7 @@ for musical timing
 
 framerate and callback freq
 update rat must be smaller (callboacks in buffering syst )
+
 
 
 ---

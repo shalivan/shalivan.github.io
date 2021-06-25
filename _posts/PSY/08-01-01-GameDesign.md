@@ -27,6 +27,34 @@ qualia (/ˈkwɑːliə/ or /ˈkweɪliə/; singular form: quale) are defined as in
 
 
 [Level Design](/leveldesign/)  
+```
+
+structure of game   
+emergent narrative - interlocking mechanics , consistant, allow to investigate and came bacek.    
+replayabliity   
+novelity   
+exploration  
+roleplay  
+mastery  
+
+rpg
+strategy - fiield
+
+dynamic organisation building and repairing   
+villains withg procedural goals
+
+player-facing:
+- exposition
+- iinverstigaiton
+- saction
+- reaction / reprisal
+
+difficulti   
+- not only hp or strenght but also what u see on screen   
+
+guiding by AI - have high saliency
+```
+
 
 ----
 
@@ -50,7 +78,7 @@ Casual
 - Puzzle - Action, Match3, Trivia, WorldGames, Coloring, Hidden Object, Solitude
 - Simulation - Adventure, Tycoon/Crafting, Sandbox, time management  
 - Location Based -  
-- Arcade - Platformer, Idler, Shoot/Beat'em Up, Tower defense, Board Games, Rouglike (permadeath, no save of progress) 
+- Arcade - Platformer, Idler, Shoot/Beat'em Up, Tower defense, Board Games, Rouglike (permadeath, no save of progress)
 - Haptic - Tap, Steer, Swipe/Drag, AR
 
 Midore
