@@ -41,6 +41,13 @@ Afford present player options and goals > formulate plan > act with intentionali
 Linearity feels bad could be caused by week intentionality
 what to do but not how to do it
 
+
+## Production Constraints & Direction   
+(ograniczenia wynikajće z pipelinów)
+
+### Pattern analysis
+- grid base props (modular) vs. oprocz funkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w girsach auromatycznym skinem. obvious.
+
 ---
 
 # Navigation
@@ -152,6 +159,7 @@ dont lead player where to go but how move through space
 - Must be part of gameplay mechanics
 
 
+
 ## Visual Language
 - develop & maintain visual language consistency in style: aesthetic.
 - `Optimum complexity` - redability
@@ -183,16 +191,10 @@ evaluating story:
 - `Novelty`
 - `Foreshadowing` - showing goals
 - Emotions and history
+- Architecture  https://vol.co/product/anime-architecture/
 
-### Architecture
-https://vol.co/product/anime-architecture/
+[Lore](/lore/)
 
-
-# Production Constraints & Direction   
-(ograniczenia wynikajće z pipelinów)
-
-### Pattern analysis
-- grid base props (modular) vs. oprocz funkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w girsach auromatycznym skinem. obvious.
 
 
 ---
@@ -252,6 +254,12 @@ Revisit
 
 ### Procedural
 [Procedural](/procedural/)
+
+
+
+---------------------------
+
+
 
 # Combat
 

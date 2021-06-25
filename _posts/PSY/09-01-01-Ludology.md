@@ -62,6 +62,8 @@ Alife - suspend true believe for a moment
 
 we know how feelings are - experience taking. match own emotions with fictional characters. experience taking is harder in front of mirror so it can be relkeated with ego supress.
 
+#### Emotions
+
 
 # Medium
 Every medium have it own narrations styles, varying on genres and format. Linear narrative is not enough for games.
@@ -90,6 +92,8 @@ exposition is ok in games smtimes
 
 [Pdf Source](file:///G:/546-Article%20Text-644-1-10-20140224.pdf)  
 
+#### Reactivity
+#### Exploration
 
 
 ---
