@@ -78,7 +78,7 @@ Players action loop: Typicaly in a vantage point area, where we can survey, orie
 
 
 ## Affordances
-**Where to go / what are possible actions** provide strong clues to the operations of things. Control what players believe is usable -  Windows afford to looking through.  Doors for enter, slots for inserting, knobs for turning      
+**Where to go / what are possible actions** provide strong clues to the operations of things. Control what players believe is usable -  Windows afford to looking through.  Doors for enter, slots for inserting, knobs for turning, buton for press, flips for switch.      
 
 .
 
@@ -103,12 +103,6 @@ Players action loop: Typicaly in a vantage point area, where we can survey, orie
 
 
 # Space
-
-
-
-
-
-
 
 ## Composition
 Composing 3d to view in 2d (flat monitor) like composition rules  
