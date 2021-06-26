@@ -20,9 +20,10 @@ permalink: /graphicdesign/
 
 
 
+What is a purpose of the design.   
 
 
-
+UI; use existing mental models and make to be more intuitive
 
 
 
@@ -225,4 +226,5 @@ The four causes signify ways in which a thing is indebted for its existence.
  Typograpth -    
 
 
+- światło, równowaga optyczna patternu
 ---

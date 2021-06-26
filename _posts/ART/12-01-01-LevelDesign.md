@@ -48,6 +48,10 @@ what to do but not how to do it
 ### Pattern analysis
 - grid base props (modular) vs. oprocz funkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w girsach auromatycznym skinem. obvious.
 
+### Recycling
+Power shift / Reversal  
+Playing the level backwards  
+Revisit
 ---
 
 # Navigation
@@ -96,6 +100,7 @@ Players action loop: Typicaly in a vantage point area, where we can survey, orie
 
 - **Mystery** - If there is information to learn `Wniees` - landmark with mystery element
 - **Teasing** - Show what you can get yet.
+- **Colectables/**
 - high level long term goals. not pull a leaver.
 
 
@@ -124,7 +129,7 @@ Composing 3d to view in 2d (flat monitor) like composition rules
 - `Linear elements` - Path, rivers.
 - `Edges` - Walls, rivers (temporary / depended)  
 - `Nodes` - moments of decisions - train station
-
+- `Point of interest` -  
 Way finding elements:
 dont lead player where to go but how move through space
 
@@ -142,6 +147,15 @@ dont lead player where to go but how move through space
 - beginning and end
 
 
+### Pacing
+
+linear vs. non-linear ### non linear - Pacing    
+ moving through a level more fluid and intuitive
+- intensity  
+- variety  
+- time  
+
+
 ### Prospect & Refuge
 **Prospect** is a view, and **Refuge** is Safety place. This kept our ancestors safe from enemies/predators and the elements, meet basic human psychological needs.  (evolutionary heritage). provide people with the capacity to observe (prospect)
 
@@ -155,25 +169,67 @@ dont lead player where to go but how move through space
 - **Breadcrumbing** -  sending brief and sporadic messages. Trail of something (usually pickups or information) that leads the player in the right direction or towards  
 - **Hints** - Slight or indirect indication or suggestion. (notes on paper, maps, signs)
 
+## Traversing  Action Space > is skill based ?  
 
+
+## Combat Spaces
+Design for multiple options and strategies. viable/intended ranges of the combat space. pieces of cover should be available to the player at the start of combat Preventing teams from being able to spawn camp
+- Vintage point - Show off the combat space (or area the player needs to sneak through),
+- Fronts
+- Flanks (he bridge(s) in the neutral zone between the combating sides)
+- No man’s land. Hard to defence (can add colectable at center)
+- Entrances (Enemy reinforcements enter from different positions or in new ways)
+- Covers Can
+  - durability:
+    - Static - Hard cover
+    - Moveable / Dynamic - can be moved / destroyed  . temporary
+    - Moving - have a predictable movement
+    - Concealment - no ptrotection like bush.  Soft cover  
+  -  high 2m+ / low ~1m (you don’t want to make Low cover look like High cover and potentially mess up things)
+  -  block
+    - vision
+    - damage
+- Line of sight
+- Vertical arangement
+
+### Level arangement
+- Flow in general is about keeping players forward momentum going. (not to hardcor cornes )
+- Conmnectivity
+- Clash points - places wher efight (Double Clash)
+- Tug of War  - liner teams oposite sites. (vartiation with 2 paths )
+types: For 'Capture the flag' CTF / therytory take over   
+Offence / defence differencess      
+
+### Line of sight
+- Horizontal LoS
+- Vertical LoS
+- Tight angles
+- Ramps
+- Corner angles & verticality
+
+
+
+### Multiplayer
+
+mastery mapy vs nowa mapa .
+- balance
+- asymetry  
 ---
 
 # Visuals
 - Generally more effective when it makes contextual narrative sense  
 - Must be part of gameplay mechanics
 
+## Signifiers
+**Clues to how to use/discover** - Gameplay related. Physics, usable & reactivity. show Affordances (signals that help find that sth is usable (signs / colors))
+Apply signifires to reflect affordances.
 
 
 ## Visual Language
+Gradient of visual complexity where the play space has less visual complexity and then as the space transitions to where players/enemies can no longer traverse (or where something visually important is) we increase it.
 - develop & maintain visual language consistency in style: aesthetic.
 - `Optimum complexity` - redability
 
-
-.
-
-- gradient of visual complexity where the play space has less visual complexity and then as the space transitions to where players/enemies can no longer traverse (or where something visually important is) we increase it.
-
-.
 
 ##### Atmosphere
 - `Depth`  - Atmosphere, Repeating same elements in space
@@ -200,28 +256,16 @@ evaluating story:
 [Lore](/lore/)
 
 
-## Signifiers
-**Clues to how to use/discover** - Physics, usable & reactivity. show Affordances (signals that help find that sth is usable (signs / colors))
-Apply signifires to reflect affordances.
-
-
-
 ---
-
 
 # Gameplay
 
+[Game Design](/gamemechanics/)   
+[Game Mechanics](/gamemechanics/)   
 
-
-## Pacing
-
-linear vs. non-linear ### non linear - Pacing    
- moving through a level more fluid and intuitive
-- intensity  
-- variety  
-- time  
 
 ### Gating
+Revealing level slowly, in tiers.
 
 |  |  |
 | ---|  ---|
@@ -229,53 +273,17 @@ gates hard | Halts progress until something is completed,
 gates soft | Intended to briefly slow the player down.   
 valves | one way,  keep pushing players forward  
 
-- Revealing level slowly, in tiers.
 
 
 
 
+---------
 
 
-
-## Procedural
+# Procedural
 [Procedural](/procedural/)
 
 
-
----------------------------
-
-
-
-# Combat
-
-### Vantage point
-show off the combat space (or area the player needs to sneak through), including possibly showing off enemies. Have reinforcements that spawn in a position that makes the vantage point a bad place to fight from.
-Don’t make it possible to kill all enemies from this sp
-
-### Combat Spaces
-  - You then try and shape your combat spaces so it enables these different playstyles.design for multiple options and strategies
-  - Enemy reinforcements enter from different positions or in new ways
-  -  fronts, flanks, No man’s land.
-  - blocking line of sight
-  - covers high/low
-    - Static
-    - Moveable
-    - Moving
-    - Dynamic
-    - Concealment - no ptrotection like bush
-
-### Line of sight
-
-- Vertical LoS
-- Tight angles
-- Ramps
-- Corner angles & verticality
-
-https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/preview?pru=AAABcubYTrs*65ZuXXMNJriddYR6IXE8Ag#
-
-### Multiplayer
-
-mastery mapy vs nowa mapa .
 
 ---------
 
@@ -283,18 +291,4 @@ mastery mapy vs nowa mapa .
 (dieter rams: minimalist product design)  
 (book: design of normal things don norman)  
 (roberto rengel: shaping interior space)    
-
-
-https://www.psychologyofgames.com/2020/01/podcast-55-the-psychology-of-level-design/   
-
-
-
-
-
-
------------- TO LORE :?
-
-### Recycling levels
-Power shift / Reversal  
-Playing the level backwards  
-Revisit
+[doc](https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/preview?pru=AAABcubYTrs*65ZuXXMNJriddYR6IXE8Ag#), [pod](https://www.psychologyofgames.com/2020/01/podcast-55-the-psychology-of-level-design/)   

@@ -13,7 +13,7 @@ permalink: /gamemechanics/
 
 
 
-
+[Level Design](/leveldesign/)  
 
 ## Rouglikes
 https://www.youtube.com/channel/UCKv_QzXft4mD6TXmQBZtzIA/videos
@@ -37,6 +37,7 @@ Gameplay loop
 
 
 
+
 ---
 
 
@@ -48,7 +49,7 @@ Gameplay loop
 
 ### Progression
 progression ssytem
-a-b mission Endgame [Narration](/narration/) / sandbox / vechicle /  
+a-b mission Endgame [Ludology](/ludology/) / sandbox / vechicle /  
 
 ### Victory condition
 
@@ -191,7 +192,7 @@ https://www.youtube.com/watch?v=ABC7PjrTGFs Cloud Atlas p
 
 - find clues with key parts
 - puzle
-- 
+-
 
 Beacons - random dice rolles for multiplayer.  posted publicy over time for later verification + link to previous number (like posting time&date)
 
