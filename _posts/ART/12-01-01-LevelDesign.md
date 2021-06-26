@@ -64,7 +64,7 @@ Players action loop: Typicaly in a vantage point area, where we can survey, orie
 
 ## Guidance
 - UI - UI, Maps, ...
-- In game visuals - signs, light,....  
+- In game visuals - Signifires, Signs, Lighting,.... (not beraking fourth wall)  
 - Narrative - Narrator, AI, ...
 
 
@@ -118,9 +118,6 @@ Players action loop: Typicaly in a vantage point area, where we can survey, orie
 
 
 
-[Architecture](/arch/)
-
-
 
 
 
@@ -149,6 +146,18 @@ Composing 3d to view in 2d (flat monitor) like composition rules
 Way finding elements:
 dont lead player where to go but how move through space
 
+
+
+
+
+## Function
+
+[Architecture](/arch/)
+
+- Differentiate by usage: `stelth` / `combat` / `traversal` / public `interaction` (opportunities for different playstyles  )
+- `public space` / `purpose spaces`
+- `primary target` (no deadends) vs. `illusory targets` vs. `escalating` (everywhere), vs `bonus missions`
+- beginning and end
 
 
 
@@ -195,6 +204,8 @@ evaluating story:
 
 [Lore](/lore/)
 
+## Visual Systems Understanding
+- **Signifiers** - Physics, usable & reactivity. show Affordances (signals that help find that sth is usable (signs / colors))
 
 
 ---
@@ -204,29 +215,12 @@ evaluating story:
 
 
 
-#### Physics,  usable & reactivity
-
-```
-- differentiate by usage
-- type; stelth / combat / traversal / public
-- public space / purpose spaces
-- primary target (no deadends) vs. illusory targets vs. escalating (everywhere), vs bonus missions << structure
-- opportunities for different playstyles  
-- beginning and end
-```
-
-##### Signifiers
-Gameplay (signals that help find that sth is usable (signs/ colors)) (BRAK 4-th wall) AFORDANCE !!!
 
 
 
 
-gamification
 
-
-
-
-### Pacing
+## Pacing
 
 linear vs. non-linear
  moving through a level more fluid and intuitive
@@ -234,7 +228,7 @@ linear vs. non-linear
 - variety  
 - time  
 
-##### Gating
+### Gating
 
 |  |  |
 | ---|  ---|
@@ -246,13 +240,11 @@ valves | one way,  keep pushing players forward
 
 ### non linear - Pacing
 
-### Recycling levels
-Power shift / Reversal  
-Playing the level backwards  
-Revisit
 
 
-### Procedural
+
+
+## Procedural
 [Procedural](/procedural/)
 
 
@@ -301,3 +293,15 @@ mastery mapy vs nowa mapa .
 
 
 https://www.psychologyofgames.com/2020/01/podcast-55-the-psychology-of-level-design/   
+
+
+
+
+
+
+------------ TO LORE :?
+
+### Recycling levels
+Power shift / Reversal  
+Playing the level backwards  
+Revisit
