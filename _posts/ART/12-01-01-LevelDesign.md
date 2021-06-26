@@ -78,8 +78,7 @@ Players action loop: Typicaly in a vantage point area, where we can survey, orie
 
 
 ## Affordances
-**Where to go** Show clear way a possibilities. Control what players believe is usable -  Windows afford to looking through.  Doors afford to enter ...     
-
+**Where to go / what are possible actions** provide strong clues to the operations of things. Control what players believe is usable -  Windows afford to looking through.  Doors for enter, slots for inserting, knobs for turning      
 
 .
 
@@ -93,23 +92,12 @@ Players action loop: Typicaly in a vantage point area, where we can survey, orie
 - **Surface**  - floor. we walk to affordance surface to walk. along longest sight lights. (or somewhere else if there could be price)
 
 
-### Prospect & Refuge
-**Prospect** is a view, and **Refuge** is Safety place. This kept our ancestors safe from enemies/predators and the elements, meet basic human psychological needs.  (evolutionary heritage). provide people with the capacity to observe (prospect)
-
-- **Primary**  - you have now both
-- **Secondary** - we have only one and see second far away is only promise)
-
 ### Encourage
 
 - **Mystery** - If there is information to learn `Wniees` - landmark with mystery element
 - **Teasing** - Show what you can get yet.
 - high level long term goals. not pull a leaver.
 
-
-### Secrets
-
-- **Breadcrumbing** -  sending brief and sporadic messages. Trail of something (usually pickups or information) that leads the player in the right direction or towards  
-- **Hints** - Slight or indirect indication or suggestion. (notes on paper, maps, signs)
 
 ---
 
@@ -160,6 +148,19 @@ dont lead player where to go but how move through space
 - beginning and end
 
 
+### Prospect & Refuge
+**Prospect** is a view, and **Refuge** is Safety place. This kept our ancestors safe from enemies/predators and the elements, meet basic human psychological needs.  (evolutionary heritage). provide people with the capacity to observe (prospect)
+
+- **Primary**  - you have now both
+- **Secondary** - we have only one and see second far away is only promise)
+
+
+
+### Secrets
+
+- **Breadcrumbing** -  sending brief and sporadic messages. Trail of something (usually pickups or information) that leads the player in the right direction or towards  
+- **Hints** - Slight or indirect indication or suggestion. (notes on paper, maps, signs)
+
 
 ---
 
@@ -204,8 +205,11 @@ evaluating story:
 
 [Lore](/lore/)
 
-## Visual Systems Understanding
-- **Signifiers** - Physics, usable & reactivity. show Affordances (signals that help find that sth is usable (signs / colors))
+
+## Signifiers
+**Clues to how to use/discover** - Physics, usable & reactivity. show Affordances (signals that help find that sth is usable (signs / colors))
+Apply signifires to reflect affordances.
+
 
 
 ---
@@ -215,14 +219,9 @@ evaluating story:
 
 
 
-
-
-
-
-
 ## Pacing
 
-linear vs. non-linear
+linear vs. non-linear ### non linear - Pacing    
  moving through a level more fluid and intuitive
 - intensity  
 - variety  
@@ -238,7 +237,7 @@ valves | one way,  keep pushing players forward
 
 - Revealing level slowly, in tiers.
 
-### non linear - Pacing
+
 
 
 
