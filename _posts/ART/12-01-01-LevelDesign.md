@@ -214,6 +214,8 @@ Offence / defence differencess
 mastery mapy vs nowa mapa .
 - balance
 - asymetry  
+
+
 ---
 
 # Visuals
