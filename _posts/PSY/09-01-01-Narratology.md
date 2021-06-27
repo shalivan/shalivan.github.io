@@ -27,6 +27,7 @@ Stories define how we consume information,  create emotional experience, expand 
 Stories emerge from our consciousness and observing ourselves and understand what is what we are doing.
 Successful life when you family, survive and thrive
 
+Film is based on emphaty 
 
 # Genres
 
@@ -684,5 +685,5 @@ https://inspirassion.com/en/metaphor/sand
 
 
 
-
+[Cloud Atlas](https://www.youtube.com/watch?v=ABC7PjrTGFs)   
 [book: the future of narrative in cyberspace]

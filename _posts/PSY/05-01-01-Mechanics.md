@@ -28,9 +28,39 @@ Gameplay loop
 [Game Design](/gamedesign/)
 
 
-upgrejdy:
-- chwilowe
-- zbierane na lvlu / wypadają
+
+- life cycle of agents in simulation . Dynamicly changing agets  
+
+..
+
+
+
+# Game as system
+- interaction with system
+- control
+- feadback
+
+
+```
+Elusiveness  As Mardon and Belk note, 4 they offer things like:
+
+Time aristocracy
+
+Artificially limited availability
+Location-based availability
+Social-based availability
+
+Authenticity
+Letting virtual items develop a “digital patina”
+Surfacing metadata about objects
+Creating unique or special copies of items
+
+
+- meta economy -
+
+
+```
+
 
 
 
@@ -39,35 +69,52 @@ upgrejdy:
 EMERGENCE - phenomena where Entirity of system egsibit properties thet parts of system dont have.
 emerg arise from complexity   Whole is better than parts.   WORLD IS BUILD UPON TIS EMERGENCE
 
+modeling techniques:
+- calculation is linear > linera story  
+- simulation paraler > paraller gameplay
+
+ explicitly pre-determined vs emergent Systems.
+
 systemic emergent: - wehen rules of system can be combbined in novel ouitcomes  
 narrative emergence -  sequence of event .
 
 
+emergent enable larger possibilities with simpler components
+
 Structure dynamics:
 
 Topologies (how elements are connetcted. relationship between objects. Linear, tree, network, )
-- **Agents** (very flexible, sims)
-- **Network** (longer time boundaries - sims online, or structures like city)
-- **Layers** (simcity)
+- **Agents** - (very flexible, sims)
+- **Network** - (longer time boundaries - sims online, or structures like city)
+- **Layers** - (simcity). Physics, Chemistry, Biology, Mind
 
 Dynamics:  
-- **Propagation**  - flow: material(people cargo), indformation (comunication), pattern(compression of trafic). propagate throu space and time. Vector fields. Wave. (farther is less amplitude but longer wave) wwertical propagation. (like corporate delegation, if actor cannot resolve ask up node), propagation throu agents (bees & flowers)
-- **Growth** (in size or numbre, more links, network,) s-curve is natural. Faster growth until lack of resources
-- **Group** - cooperation driven by competition. Depend on econoies of scale, enabled by comunication and control, encourage specialization (when efficiency of group is better than beeing alone, breeds network (compiting interdependent balanced with cooperation)). Groups of similar items is clasification. Group soldiers if to many decision on lower level. / Attraction tend to create groups. Flocks, Gravity/ Group  have boundries (Go)
-- **Order**
-- **Allocation** - allocation of time, how to spend time. (game of prioritues)
-- **Mapping** - forming temporary networks, (tetris), fighting game (what weapon use against sth,..). State machinses have inside mapping. Map correct responce,  
-- **Specialization** -like town districts.  need enough components, strategic allocation of rsources,  
-- **Nesting**
+- **Propagation**  - Flow: material(people cargo), indformation (comunication), pattern(compression of trafic). propagate throu space and time. Vector fields. Wave. (farther is less amplitude but longer wave) wwertical propagation. (like corporate delegation, if actor cannot resolve ask up node), propagation throu agents (bees & flowers)
+- **Growth** - (in size or numbre, more links, network,) s-curve is natural. Faster growth until lack of resources
+- **Group** - Cooperation driven by competition. Depend on econoies of scale, enabled by comunication and control, encourage specialization (when efficiency of group is better than beeing alone, breeds network (compiting interdependent balanced with cooperation)). Groups of similar items is clasification. Group soldiers if to many decision on lower level. / Attraction tend to create groups. Flocks, Gravity/ Group  have boundries (Go)
+- **Order** -
+- **Allocation** - Allocation of time, how to spend time. (game of prioritues)
+- **Mapping** - Forming temporary networks, (tetris), fighting game (what weapon use against sth,..). State machinses have inside mapping. Map correct responce,  
+- **Specialization** - Like town districts.  need enough components, strategic allocation of rsources,  
+- **Nesting** -
 
 Paradigms (ways topologies are maped on dynamics)
-- **Natwork Theory**
-- **Adaptive system**
-- **Chaos Theroy**
-- **Cellura automata**
-- **System Dynamics**
+- **Natwork Theory** -
+- **Adaptive system** - Complex systems like biological (watch not adaptive). Machine learning
+- **Chaos Theroy** - Small change in initial condition will have vast change in system.
+- **Cellura automata** - Highly emergent. Conway's Game of Life
+- **System Dynamics** -
 
-(Will Wright's Dynamics for Designers 2003 GDC)
+Competitions > growth > Grouping > specializsation > propagation > alocation > network > boundaries >nesting, level up (can start competition again on higher level)
+
+
+[Will Wright's Dynamics for Designers 2003 GDC](https://youtu.be/JBcfiiulw-8)
+
+
+##### Stock to Flow
+Population is stock  
+Births  rate is flow
+
 
 ---
 
@@ -161,55 +208,11 @@ non combat - combat loop
 
 
 
-  bullet points
 
 -----------
 
- explicitly pre-determined vs emergent Systems.
-
 ---
 
-emergent enable larger possibilities with simpler components
-
-- life cycle of agents in simulation . Dynamicly changing agets  
-
-..
-
-modeling techniques:
-- calculation is linear > linera story  
-- simulation paraler > paraller gameplay
-
-```
-# Game as system
-- meta economy -
-
-- interaction with system
-- control
-- feadback
-
-Elusiveness  As Mardon and Belk note, 4 they offer things like:
-
-Time aristocracy
-
-Artificially limited availability
-Location-based availability
-Social-based availability
-
-Authenticity
-Letting virtual items develop a “digital patina”
-Surfacing metadata about objects
-Creating unique or special copies of items
-```
-
-
-
-
-```
-https://www.youtube.com/watch?v=fwVPh9KtKh4  Video Games Don't Need to Be Fun -GameSpot    
-https://www.youtube.com/watch?v=ABC7PjrTGFs Cloud Atlas p  
-
-
-```
 
 # Puzzles
 
@@ -226,3 +229,15 @@ Achievements
 
 Loading bar
 https://www.psychologyofgames.com/2019/10/loading-when-were-willing-to-wait/
+
+---
+game eg. with simple rules with costs. of building :
+offence - 2
+defence - 1
+production - 5
+maping decisions how to play (what build next).
+- short / long term
+- hi risk hi reward / lo risk
+- order (productopn, missions, what to build first)
+- Allocation suplay network
+- Boudries

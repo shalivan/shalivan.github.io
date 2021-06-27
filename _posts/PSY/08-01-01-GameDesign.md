@@ -175,7 +175,9 @@ karma
 
 terrain,
 
-
+upgrejdy:
+- chwilowe
+- zbierane na lvlu / wypadają
 ---
 # Conflict
 enemies dont need to kill
@@ -220,6 +222,13 @@ Victory condition:
 - highest scores after time
 
 win loose state is important or just engagement is ok too ..
+
+
+
+[Video Games Don't Need to Be Fun -GameSpot](https://www.youtube.com/watch?v=fwVPh9KtKh4)      
+
+
+
 ---
 
 
