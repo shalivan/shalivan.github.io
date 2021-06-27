@@ -23,22 +23,14 @@ game design - mechanis an rules
 behaviour  design -  pavlov
 design thinking -  
 
-```
-Horror can easly do away with character and plot. tension, shock, monsters.  
-Plot and characters are things VG find verry difficult to deal .
-```
 
-movie can create knowledge difference easy . game blend protagonist and player.
 
-open worlds
 
 
 
 ludology (etymologically 'game logic'), is the study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
-#### Connect controls with feelings
-
-##### Accessibility , easy of use
+movie can create knowledge difference easy . game blend protagonist and player.  
 
 
 ---
@@ -95,7 +87,68 @@ exposition is ok in games smtimes
 #### Reactivity
 #### Exploration
 
+# Genre taxonomy
+is flexible
 
+
+Casual
+- Puzzle - Action, Match3, Trivia, WorldGames, Coloring, Hidden Object, Solitude
+- Simulation - Adventure, Tycoon/Crafting, Sandbox, time management  
+- Location Based -  
+- Arcade - Platformer, Idler, Shoot/Beat'em Up, Tower defense, Board Games, Rouglike (permadeath, no save of progress)
+- Haptic - Tap, Steer, Swipe/Drag, AR
+
+Midore
+- Shooters - Battle Royale, FPS/TPS, tactical
+- RPG -  Action, Turn-Based, Fighting, MMORPG, Puzzle Idle Survival
+- Card -
+- Strategies - 4x, Build&Battle MOBA, Tatical
+
+Casino
+- Bingo, Poker, Slots
+
+Sports
+- Sport - Arcade, realistic
+- Driving
+
+
+
+tetris - escape to order
+NO CHARACTER IN TETRIS
+
+
+## Multiplayer
+
+[Game Theory](/gametheory/)
+
+|.||
+|---|---|
+|taktyki | 4x Management Economy
+|RPG |  C J S ..
+|Simulators | Building
+|FPS | battle royal  
+|Puzzle|
+|zrecznosciowki|Skill base
+|Rouglike |
+|rywalizacja | sportowa/ wyscigi
+|sandbox|
+survival|
+|||
+|---|---|
+singiel | stroy
+multi | PvP / PvE  
+
+|.||
+|---|---|
+|turn|
+|realtime|
+|timelimits|
+|keys and bariers > progress|
+rpg - freedom  > expand network  / models for ai behaviour and dyplomacy,
+strategy - field (resource alocation > use )
+match 4 dynamics in strategy games.
+strategies - Managing points to use to win
+----
 ---
 
 
@@ -106,6 +159,10 @@ exposition is ok in games smtimes
 - events  
 - micronarrative
 
+```
+Horror can easly do away with character and plot. tension, shock, monsters.  
+Plot and characters are things VG find verry difficult to deal .
+```
 
 ### Authorship
 Narrative vs Mechanics. Driven How much power over the world.  
@@ -135,7 +192,10 @@ premise and setting of story make sense with actions you perform
 how themes are communicated through the gameplay
 
 
+#### Connect controls with feelings
 
+#### NARRATIVE WITH BRANCHES
+multi choice but not emergent
 
 ## Explicit
 Cutscenes text written narrator    
@@ -178,12 +238,6 @@ randomnes
 
 
 
-
-
-
-
-
-
 ##  Environmental
 
 [Level Design](/leveldesign/)  
@@ -191,7 +245,10 @@ randomnes
 most immersive
 it s the world speak and player will find their own story
 
+###### narator
 
+silent protagonist - to feel easy to slip in his role . (silence and concient is like agree)
+add to agency
 ---
 
 # Experience

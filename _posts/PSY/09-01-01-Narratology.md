@@ -52,7 +52,7 @@ Successful life when you family, survive and thrive
 
 ---
 
-# Storytelling Paradigm
+# Paradigm
 
 ## Premise
 **Premise is single core statement**, the foundation of story. premise statement is often a familiar expression or cliché. 'Latin words, meaning to put before'   
@@ -458,6 +458,14 @@ Growth: up, Decline down
 Hegelian dialectic: Thesis, Antithesis, Synthesis.
 then synthesis become a new thesis
 
+Thought | Feeling
+Intelect | Emotion
+Rationality | Intuition
+Science, logic | Art, Morality
+Reducing | Irreducible
+Explaning | Inesplicable
+Meaduring | Immeasurable
+Objective Truth | Subjective Truth
 
 ---
 

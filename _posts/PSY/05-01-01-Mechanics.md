@@ -28,20 +28,74 @@ Gameplay loop
 [Game Design](/gamedesign/)
 
 
-
-
-`explicit` vs. `emergence`   
-- emergent Systems
-
-
+upgrejdy:
+- chwilowe
+- zbierane na lvlu / wypadają
 
 
 
+# Emergent systems
+
+EMERGENCE - phenomena where Entirity of system egsibit properties thet parts of system dont have.
+emerg arise from complexity   Whole is better than parts.   WORLD IS BUILD UPON TIS EMERGENCE
+
+systemic emergent: - wehen rules of system can be combbined in novel ouitcomes  
+narrative emergence -  sequence of event .
+
+
+Structure dynamics:
+
+Topologies (how elements are connetcted. relationship between objects. Linear, tree, network, )
+- **Agents** (very flexible, sims)
+- **Network** (longer time boundaries - sims online, or structures like city)
+- **Layers** (simcity)
+
+Dynamics:  
+- **Propagation**  - flow: material(people cargo), indformation (comunication), pattern(compression of trafic). propagate throu space and time. Vector fields. Wave. (farther is less amplitude but longer wave) wwertical propagation. (like corporate delegation, if actor cannot resolve ask up node), propagation throu agents (bees & flowers)
+- **Growth** (in size or numbre, more links, network,) s-curve is natural. Faster growth until lack of resources
+- **Group** - cooperation driven by competition. Depend on econoies of scale, enabled by comunication and control, encourage specialization (when efficiency of group is better than beeing alone, breeds network (compiting interdependent balanced with cooperation)). Groups of similar items is clasification. Group soldiers if to many decision on lower level. / Attraction tend to create groups. Flocks, Gravity/ Group  have boundries (Go)
+- **Order**
+- **Allocation** - allocation of time, how to spend time. (game of prioritues)
+- **Mapping** - forming temporary networks, (tetris), fighting game (what weapon use against sth,..). State machinses have inside mapping. Map correct responce,  
+- **Specialization** -like town districts.  need enough components, strategic allocation of rsources,  
+- **Nesting**
+
+Paradigms (ways topologies are maped on dynamics)
+- **Natwork Theory**
+- **Adaptive system**
+- **Chaos Theroy**
+- **Cellura automata**
+- **System Dynamics**
+
+(Will Wright's Dynamics for Designers 2003 GDC)
 
 ---
 
 
+#### EMERGENT NARRATIVE
+own story (with autor rules) not direct writer expression : DWARF FORTRESS
+need building blocks :
+- resonant theme - as universal as practial if desired for sharing
+- meshes narratively with existing mechanics - test against sample story or patch existinh holes
+- mechanics <support> presentation
+- inveolves user in state
 
+give you
+
+rouglike games , minecrafts, sandboxes
+
+enable make own story with tools we get
+
+
+# GENERATIVE DESIGN
+
+map:
+- culture, impact of weather ...
+
+pootential of generative stories depend on chow elements of mechanics are connected toghether
+
+
+ecosystem:
 
 ### Structure
 
@@ -59,7 +113,7 @@ a-b mission Endgame [Ludology](/ludology/) / sandbox / vechicle /
 ---
 
 
-# Econotmy and balance
+# Econotmy and
 
 - economy
 - market
@@ -81,6 +135,9 @@ doom 2016 forrowrd combad - build forroward momentum from glory kills
 ### Bargaining
 
 
+# Balance
+difficulti   
+- not only hp or strenght but also what u see on screen   
 
 
 
@@ -108,25 +165,19 @@ non combat - combat loop
 
 -----------
 
-```
-# players:
-####  Type of players:
-  - Rusher
-  - Sniper
-  - Ninja
-  - Opportunist
+ explicitly pre-determined vs emergent Systems.
 
-#### Players 'senses':  
-
-  - See  
-  - Move  
-  - Shoot/Attack  
-  - Take cover  
-  - Hear  
-  - Get Hurt  
-```
 ---
 
+emergent enable larger possibilities with simpler components
+
+- life cycle of agents in simulation . Dynamicly changing agets  
+
+..
+
+modeling techniques:
+- calculation is linear > linera story  
+- simulation paraler > paraller gameplay
 
 ```
 # Game as system
@@ -154,34 +205,6 @@ Creating unique or special copies of items
 
 
 ```
-# Multiplayer
-
-[Game Theory](/gametheory/)
-
-|.||
-|---|---|
-|taktyki | 4x Management Economy
-|RPG |  C J S ..
-|Simulators | Building
-|FPS | battle royal  
-|Puzzle|
-|zrecznosciowki|Skill base
-|Rouglike |
-|rywalizacja | sportowa/ wyscigi
-|sandbox|
-survival|
-|||
-|---|---|
-singiel | stroy
-multi | PvP / PvE  
-
-|.||
-|---|---|
-|turn|
-|realtime|
-|timelimits|
-|keys and bariers > progress|
-
 https://www.youtube.com/watch?v=fwVPh9KtKh4  Video Games Don't Need to Be Fun -GameSpot    
 https://www.youtube.com/watch?v=ABC7PjrTGFs Cloud Atlas p  
 

@@ -195,6 +195,10 @@ Design for multiple options and strategies. viable/intended ranges of the combat
 ### Level arangement
 - Flow in general is about keeping players forward momentum going. (not to hardcor cornes )
 - Conmnectivity
+
+E.g.
+- circle (ring)
+- 8 (2 circles)
 - Clash points - places wher efight (Double Clash)
 - Tug of War  - liner teams oposite sites. (vartiation with 2 paths )
 types: For 'Capture the flag' CTF / therytory take over   
@@ -226,6 +230,7 @@ mastery mapy vs nowa mapa .
 **Clues to how to use/discover** - Gameplay related. Physics, usable & reactivity. show Affordances (signals that help find that sth is usable (signs / colors))
 Apply signifires to reflect affordances.
 
+[Design](/graphicdesign/)
 
 ## Visual Language
 Gradient of visual complexity where the play space has less visual complexity and then as the space transitions to where players/enemies can no longer traverse (or where something visually important is) we increase it.

@@ -26,7 +26,12 @@ qualia (/ˈkwɑːliə/ or /ˈkweɪliə/; singular form: quale) are defined as in
 ‘Unselfconscious design’ (or ‘craft-based’ design) concerns the use of traditional building methods, in which the designer works directly on the form (so, if you were a wheelwright, the wheel) unselfconsciously, through a complex two-directional interaction between the context and the form, in the world itself. The design rules and solutions are largely unwritten, and are learnt informally. The same form is made over and over again with no need to question why; designers need only learn the patterns.
 
 
-[Level Design](/leveldesign/)  
+[Level Design](/leveldesign/)   
+
+
+
+[Ludology](/ludology/)  
+
 ```
 
 structure of game   
@@ -36,10 +41,9 @@ novelity
 exploration  
 roleplay  
 mastery  
+```
 
-rpg
-strategy - fiield
-
+```
 dynamic organisation building and repairing   
 villains withg procedural goals
 
@@ -49,58 +53,38 @@ player-facing:
 - saction
 - reaction / reprisal
 
-difficulti   
-- not only hp or strenght but also what u see on screen   
 
+game styles:
 guiding by AI - have high saliency
+
+
+---------------
+ Procedural Narrative Generation:
+
+Prioritizes agent spontniety (all imporvisation and simulation ) (Dwarf Fortress) <> Priotitize authorial structure (Adventures )
+- simulation crntric approach  
+- plot centric approach  
+
+- where is locus of controll... play character directly or just give direction or control one character at a time in team
+[Cognition (choices)](/cognition/)
+
+more emergent if character can suprise you ? .>
+
 ```
 
 
+beting mechanics.   
+Gamble ???    
 ----
 
 
-Victory condition
-1 winner - else looses
-
-Traither mechanics.   
-working toghether towards one goal and smiultaniously win (not enough hairs when music stops) Semicoop    
-
-high scores
 
 
 
 
-# Genre taxonomy
-is flexible
+##### Accessibility , easy of use
 
 
-Casual
-- Puzzle - Action, Match3, Trivia, WorldGames, Coloring, Hidden Object, Solitude
-- Simulation - Adventure, Tycoon/Crafting, Sandbox, time management  
-- Location Based -  
-- Arcade - Platformer, Idler, Shoot/Beat'em Up, Tower defense, Board Games, Rouglike (permadeath, no save of progress)
-- Haptic - Tap, Steer, Swipe/Drag, AR
-
-Midore
-- Shooters - Battle Royale, FPS/TPS, tactical
-- RPG -  Action, Turn-Based, Fighting, MMORPG, Puzzle Idle Survival
-- Card -
-- Strategies - 4x, Build&Battle MOBA, Tatical
-
-Casino
-- Bingo, Poker, Slots
-
-Sports
-- Sport - Arcade, realistic
-- Driving
-
-
-
-tetris - escape to order
-NO CHARACTER IN TETRIS
-
-
-----
 
 
 # Players
@@ -123,12 +107,35 @@ Interaction patterns
 story multiplayer vs multiplayer story
 
 
+####  Type of players:
+  - Rusher
+  - Sniper
+  - Ninja
+  - Opportunist
 
-#### NPC's
+#### Players 'senses':  
+
+  - See  
+  - Move  
+  - Shoot/Attack  
+  - Take cover  
+  - Hear  
+  - Get Hurt  
+
+
+## NPC's
 - brign stisfaction, dont stole moments from player or be burden u must cary on.
 
+OUD - Orthoigonal unit differentiation
 
+|||
+|--|--|--|
+|Projectiles|stayback|
+|Hitscan|charging|
 
+to make dynamic playspace   
+
+villans - what mean to be offended by villan force
 
 ---
 #  Objectives
@@ -145,6 +152,7 @@ skilsy skakania
 
 
 
+ bonus missions  vs main plot   
 
 
 ---
@@ -203,10 +211,16 @@ all for all
 ---
 # Outcome
 
----
-Mental Modeling
-Now comes the 4th, and final, layer - Mental Modeling. The goal with this layer is to change the way the player perceives and thinks about the game
+Victory condition:
+- 1 winner - else looses
+- no explicit win conditions - sandboxes
 
+- Traither mechanics.   
+- working toghether towards one goal and smiultaniously win (not enough hairs when music stops) Semicoop    
+- highest scores after time
+
+win loose state is important or just engagement is ok too ..
+---
 
 
 # Controls
@@ -276,7 +290,22 @@ peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
 
 # Making games
 
+ which can happen if they don’t ‘announce’ their entry if they spawn from out of sight
+
 
 Game iterative > Greater level of complexity  
 
 You can imagine what it may be like but you never gonna know until you actually experience it. match expectation with embodied experience. > Iterative process.
+
+
+
+Mental Modeling
+Now comes the 4th, and final, layer - Mental Modeling. The goal with this layer is to change the way the player perceives and thinks about the game
+
+
+-----------
+gmes   
+bioshoco p- objectivism
+mnotywy
+drzwi do innego swiata (bioshock)
+isolated places / unplesent
