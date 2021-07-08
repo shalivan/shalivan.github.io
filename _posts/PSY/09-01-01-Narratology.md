@@ -27,7 +27,7 @@ Stories define how we consume information,  create emotional experience, expand 
 Stories emerge from our consciousness and observing ourselves and understand what is what we are doing.
 Successful life when you family, survive and thrive
 
-Film is based on emphaty 
+Film is based on emphaty
 
 # Genres
 
@@ -58,6 +58,7 @@ Film is based on emphaty
 ## Premise
 **Premise is single core statement**, the foundation of story. premise statement is often a familiar expression or cliché. 'Latin words, meaning to put before'   
 **Thematic idea** - drives its structure and delivery   
+**logline** -    
 
 Every story has one premise. Only one. This premise is the underlying idea of your story-the foundation that supports your entire plot.
 
@@ -668,20 +669,6 @@ Gameplay Exposition
 
 
 ---
-
-
-
-
-
-
-https://inspirassion.com/en/metaphor/sand
-
-
-
-
-----
-
-
 
 
 

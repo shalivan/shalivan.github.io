@@ -11,70 +11,20 @@ tags:
 permalink: /gamedesign/
 ---
 
+[Level Design](/leveldesign/), [Ludology](/ludology/), [Game Mechanics](/gamemechanics/)       
 
+What is desired experience ?
 
+**qualia** - are defined as individual instances of subjective, conscious experience.
 
-
-
-qualia (/ˈkwɑːliə/ or /ˈkweɪliə/; singular form: quale) are defined as individual instances of subjective, conscious experience.
-
-
-
-[Game Mechanics](/gamemechanics/)
 
  Notes on the Synthesis of Form, Christopher Alexander  -
 ‘Unselfconscious design’ (or ‘craft-based’ design) concerns the use of traditional building methods, in which the designer works directly on the form (so, if you were a wheelwright, the wheel) unselfconsciously, through a complex two-directional interaction between the context and the form, in the world itself. The design rules and solutions are largely unwritten, and are learnt informally. The same form is made over and over again with no need to question why; designers need only learn the patterns.
 
 
-[Level Design](/leveldesign/)   
 
 
 
-[Ludology](/ludology/)  
-
-```
-
-structure of game   
-emergent narrative - interlocking mechanics , consistant, allow to investigate and came bacek.    
-replayabliity   
-novelity   
-exploration  
-roleplay  
-mastery  
-```
-
-```
-dynamic organisation building and repairing   
-villains withg procedural goals
-
-player-facing:
-- exposition
-- iinverstigaiton
-- saction
-- reaction / reprisal
-
-
-game styles:
-guiding by AI - have high saliency
-
-
----------------
- Procedural Narrative Generation:
-
-Prioritizes agent spontniety (all imporvisation and simulation ) (Dwarf Fortress) <> Priotitize authorial structure (Adventures )
-- simulation crntric approach  
-- plot centric approach  
-
-- where is locus of controll... play character directly or just give direction or control one character at a time in team
-[Cognition (choices)](/cognition/)
-
-more emergent if character can suprise you ? .>
-
-```
-
-
-beting mechanics.   
-Gamble ???    
 ----
 
 
@@ -154,6 +104,16 @@ skilsy skakania
 
  bonus missions  vs main plot   
 
+ |.||
+ |---|---|
+ |turn|
+ |realtime|
+ |timelimits|
+ |keys and bariers > progress|
+ rpg - freedom  > expand network  / models for ai behaviour and dyplomacy,
+ strategy - field (resource alocation > use )
+ match 4 dynamics in strategy games.
+ strategies - Managing points to use to win
 
 ---
 # Rules
@@ -178,7 +138,9 @@ terrain,
 upgrejdy:
 - chwilowe
 - zbierane na lvlu / wypadają
+
 ---
+
 # Conflict
 enemies dont need to kill
 
@@ -312,9 +274,162 @@ Mental Modeling
 Now comes the 4th, and final, layer - Mental Modeling. The goal with this layer is to change the way the player perceives and thinks about the game
 
 
+```
+structure of game   
+emergent narrative - interlocking mechanics , consistant, allow to investigate and came bacek.    
+replayabliity   
+novelity   
+exploration  
+roleplay  
+mastery  
+```
+
+```
+dynamic organisation building and repairing   
+villains withg procedural goals
+
+player-facing:
+- exposition
+- iinverstigaiton
+- saction
+- reaction / reprisal
+
+
+game styles:
+guiding by AI - have high saliency
+
+
+---------------
+ Procedural Narrative Generation:
+
+Prioritizes agent spontniety (all imporvisation and simulation ) (Dwarf Fortress) <> Priotitize authorial structure (Adventures )
+- simulation crntric approach  
+- plot centric approach  
+
+- where is locus of controll... play character directly or just give direction or control one character at a time in team
+[Cognition (choices)](/cognition/)
+
+more emergent if character can suprise you ? .>
+
+```
+
+
+```
+strategic
+systematic
+narrative
+emergent
+
+
+reinforce throu mechanics, incentivizse throu game systems
+
+enviromental reconcilation
+design by theming.
+
+
+#### Path
+
+Skill, Smart
+
+
+---
+
+beting mechanics.   
+Gamble ???    
+
+
+game design - mechanis an rules
+behaviour  design -  pavlov
+design thinking -  
+repeated constens (non procedural) is where you cannot do otherwise
+
+```
+
+if you generating ther whole story your mechanics must include loss and recovery
+
+Twin Stick
+
+
+strategies:
+- dyplomatic
+- stelf  - omijanie wrogów ktorzy maja rozne zmysły
+- action
+
+important is to: empower player to action
+need: choice, motivation, informationm, time
+
+to use systems
+-----
+use mechanics as metaphore !
+enable narrative throu systems
+
+--------------
+persuasive games ian bogost book
+
+-----
+
+poker , chest , go
+
+```
+Long/sort term decisions  
+risk averse  reward
+
+fighhting games are rock paper scisors (advanced with reading opponents pre anims to read next move )   
+stratedy games - mapping puzles   
+
+game theroy cofifig that preclude domininat  solutions - non nash equilibrium games
+
+
+-----
+https://youtu.be/OrmyLaLCaIo
+brade & whitnes
+
+
+dynamical meaning - vs - story meaning
+
+
+-----
+MDA  framework
+
+|a||
+|--|--|--|
+Mechanics | dynamics | estetic
+strategic | systemic | narratic  
+
+
+zelda : chemistry engine
+
+---------------
+
+Agents (flex)
+Network - social
+Layers (rigid)
+
+synergy - every element compliment eachother
+
+
+---
+feedback loops
+
 -----------
-gmes   
-bioshoco p- objectivism
-mnotywy
-drzwi do innego swiata (bioshock)
-isolated places / unplesent
+game mechanics advanced game design BOOK !!!!!!!!!!!!!!!!!!!!!!!! ernest adams joris dormans :
+
+
+
+------------------
+a systemic approach advanced game design BOOK:L!!!!!!!!!!!!!!!!! michael selers
+core loops in games;
+- low level loops and engagement and so on but;--
+Engines - active reinforce of same resource.  exchanging resources ( Store or use now bust. )
+Economies -
+Ecologies - balance not reinforce eachother . balance in dynnamic universe.
+
+to get meta paterns.
+
+```
+
+
+What is a purpose of the design.   
+
+
+UI; use existing mental models and make to be more intuitive

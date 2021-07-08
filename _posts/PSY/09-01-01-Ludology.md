@@ -1,6 +1,6 @@
 ---
 title: Ludology
-description: Cyclical structure, Authorship, Experience, Ludo-narrative Harmony  
+description:  Authorship, Experience, Harmony  
 categories:
  - PSY
 tags:
@@ -35,6 +35,8 @@ Games and stories share a lot in common but Narratology in games can be not as i
 - Free movement and actions   
 - See or listen not as powerful as play themselves
 - Need to act. Engage with external   
+
+Cyclical structure,
 
 
 exposition is ok in games sometimes  
@@ -119,7 +121,7 @@ Traditionsl > Interactive Traditional >  multi ending >  branching path > open e
 **Player story domination** -  Generative - agency & expression of will - cyclical
 
 
-- Film: Pre, Pro, Post  (alex mcdowell world building)
+- Film: Pre, Pro, Post  (Alex McDowell - world building)
 - Arch: Pre Design, Schematic, Design, Construction
 - In changing env: Observe > Orient > Decide(feedback) > Act (feedback) () OODA Loop )
 - General design process: Empathize > Define > Ideate > Prototype > test
@@ -137,6 +139,12 @@ mechanick video storytell:
 premise and setting of story make sense with actions you perform
 - It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
 how themes are communicated through the gameplay
+
+
+https://youtu.be/KkdPxZbUNSw
+mechanics follow narration :
+restricted movement - is narration
+cyclical naure  
 
 
 #### Connect controls with feelings
@@ -164,7 +172,7 @@ implicit refers to something that is suggested or implied but not ever clearly s
 
 a reliable character telling their own story, a character telling another character's story, and an unreliable character telling the story.
 
-Mistrust and misdirection  oftren are good narative tools    
+Mistrust and misdirection  often are good narrative tools    
 
 ##  Emergent
 Emerge from system     
@@ -172,8 +180,8 @@ Mechanics in narration - implement plot in mechanics
 
 ### Random
 
-randomnes
-- (pre luck) input (before player make decidion): levels
+randomness
+- (pre luck) input (before player make decision): levels
 - (post luck) output  (after action, hit chances in x com, lutbox) (more anger and res not for competence but bad luck undercuts strategy )
 
 
@@ -192,16 +200,25 @@ randomnes
 most immersive
 it s the world speak and player will find their own story
 
-###### narator
+###### Narrator
 
 silent protagonist - to feel easy to slip in his role . (silence and concient is like agree)
 add to agency
 
-
 ---
 
 
-# Psychology
+# Experience
+Experience as an end itself
+
+Alfred North Whitehead (known as the defining figure of the philosophical school known as process philosophy) reality is experience.  
+
+
+#### Virtual vs real experience
+
+real world experience have additional fidelity  
+
+## Psychology
 
 
 ##### Suspension of Disbelief
@@ -212,6 +229,11 @@ add to agency
 - inconsistence can break immersion
 
 
+### Paradox of control
+key element of enjoyment
+how to offer meaningful choice  without offering full control.
+
+
 ##### Illusion
 Only when authentic (coherent and consistent )
 
@@ -220,21 +242,22 @@ Alife - Suspend true believe for a moment
 
 we know how feelings are - experience taking. match own emotions with fictional characters. experience taking is harder in front of mirror so it can be related with ego suppress.
 
+
+
+
+
 #### Emotions
+Revarding or Aversive
 
-
----
-
-
-# Experience
-Experience as an end itself
-
-
-Albert winehed : reality is experience.
-real world experience have additional fidelity
-
-#### Virtual vs real experience
-
+|Primal Emtion|Affective Feeling|
+|--|--|
+Seeking | Enthousiastic
+Rage | Pissed-off
+Fear | Anxious
+Lust | Horny
+Care | Tender & Loving
+Panic | Lonley & Sad
+Play | Joyous
 
 
 ## Agency
@@ -260,10 +283,7 @@ base of life: substance or dynamics of processes
 
 Outward Inward / Individual Bonding
 
-
-
 People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
-
 
 
 ##  Presence  
@@ -340,12 +360,6 @@ enthusiasm, absorption, focused effort, zeal, dedication, and energy.
 
 
 
-### Paradox of control
-key element of enjoyment
-how to offer meaningful choice  without offering full control.
-
-
-
 
 
 
@@ -363,9 +377,9 @@ how to offer meaningful choice  without offering full control.
 
 
 
-[Game Design](/gamedesign/)  
-[Game Mechanics](/gamemechanics/)  
-
+[Game Design](/gamedesign/)   
+[Game Mechanics](/gamemechanics/)   
+[Game Theory](/gametheory/)   
 
 
 Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
@@ -403,11 +417,11 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 
 
-# Examples
+# Games
 
-- bioshock(utopian tragedy),
+- bioshock (utopian tragedy), drzwi do innego swiata (bioshock) - objectivism
 - soulsy (myths),,
-- stanley,
+- stanley, - question of free will.
 - To the Moon,
 - deus ex(future),  
 - Metal Gear Solid (fake news)
@@ -417,18 +431,17 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
    - pascal(peace)
    - simone de beauvoir(love)
    - kierkengaard(pray)
-
-- The Last Guardian (story enough to be satisfy not enough to explane )> shadow of colosus > ico
+- The Last Guardian (story enough to be satisfy not enough to explane ) creat bond with hico. > shadow of colosus > ico
 https://youtu.be/UiOTSKBy6ME
-
-[Game Theory](/gametheory/)
-
-tetris - escape to order
-journey - Campbell
-
-
+- Tetris - escape to order
+- thomas was alone - block with shapes colors and abilities. Jungian integration of pssyche  
+- journey - Campbell
+- never alone - coop with spirit animal showing ideas of
+- brothers tales of two sons - controling 2 brothers. Coming toghether while learning brothers coopearte more and easier
+- rez - game music
 
 ---------------
+
 game podcasts
 https://www.psychologyofgames.com/   
 https://ludology.libsyn.com/    
