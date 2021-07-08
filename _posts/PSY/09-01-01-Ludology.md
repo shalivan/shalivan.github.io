@@ -10,76 +10,17 @@ tags:
 - Cognition
 permalink: /ludology/
 ---
-strategic
-systematic
-narrative
-emergent
-
-
-reinforce throu mechanics, incentivizse throu game systems
-
-enviromental reconcilation
-design by theming.
 
 
 
----
+**Ludology** (etymologically 'game logic'), is the study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
 
-
-
-game design - mechanis an rules
-behaviour  design -  pavlov
-design thinking -  
-repeated constens (non procedural) is where you cannot do otherwise
-
-
-
-
-
-ludology (etymologically 'game logic'), is the study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
-
-
-
----
-
----
-# Psychology
-
-
-##### Suspension of Disbelief
-- accepting unrealistic situations
-- audience scram on movies
-- Rules of game established reality that become a game norm
-- susp of dispb is necessery only when we failed to create secondaty belief.
-- inconsistence can break immersion
-
-
-illusion only when authentic (coherent and consistent )
-
-Belief - fiction is not real
-Alife - suspend true believe for a moment
-
-we know how feelings are - experience taking. match own emotions with fictional characters. experience taking is harder in front of mirror so it can be relkeated with ego supress.
-
-#### Emotions
-
-
-# Medium
 Every medium have it own narrations styles, varying on genres and format. Linear narrative is not enough for games.
 movie can create knowledge difference easy . game blend protagonist and player.  
 
 
-- Games as Rules + fictional Content
-- Free movement and actions   
-- See or listen not as powerful as play themselves
-- Need to act. Engage with external   
-
-
-
-Games and stories share a lot in common but Narratology in games can be not as important.
-
-|Paradigm Characteristics | Narratology |Ludology
+|Paradigm Characteristics |  [Narratology](/narratology/) |Ludology
 |---|---|---|
 Community structures | Mostly pedagogy, limited number of non-pedagogy researchers | Non-pedagogical game studies, although some thematic overlap with pedagogy
 Group commitment networks |Wide range of disciplines, including drama & literature, education, cognition, management | Narrow range of allegiances, limited to non-pedagogy - one central research center, one peer-reviewed journal, and between one and two dozen primary investigators
@@ -88,9 +29,15 @@ Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning 
 
 | Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking
 
-[Narratology](/narratology/)  
+Games and stories share a lot in common but Narratology in games can be not as important.
 
-exposition is ok in games smtimes  
+- Games as Rules + fictional Content
+- Free movement and actions   
+- See or listen not as powerful as play themselves
+- Need to act. Engage with external   
+
+
+exposition is ok in games sometimes  
 
 [Pdf Source](file:///G:/546-Article%20Text-644-1-10-20140224.pdf)  
 
@@ -109,8 +56,8 @@ Casual
   - Sandbox
   - Time management  
 - Arcade
-  - Platformer, Idler, Shoot/Beat'em Up, Tower defense, Board Games,
-  - Rouglike (permadeath, no save of progress)
+  - Platformer, Idler, Shoot / Beat'em Up, Tower defense, Board Games,
+  - Roguelike (permadeath, no save of progress)
 - Haptic - Tap, Steer, Swipe/Drag, AR
 - Location Based / AR -  
 
@@ -148,15 +95,10 @@ Sports
 
 
 
-## Multiplayer
-
-
-
-
 ---
 
 
-tetris - escape to order
+
 
 # Narration
 
@@ -254,7 +196,35 @@ it s the world speak and player will find their own story
 
 silent protagonist - to feel easy to slip in his role . (silence and concient is like agree)
 add to agency
+
+
 ---
+
+
+# Psychology
+
+
+##### Suspension of Disbelief
+- accepting unrealistic situations
+- audience scram on movies
+- Rules of game established reality that become a game norm
+- Suspension of disbelief is necessary only when we failed to create secondary belief.
+- inconsistence can break immersion
+
+
+##### Illusion
+Only when authentic (coherent and consistent )
+
+Belief - Fiction is not real    
+Alife - Suspend true believe for a moment   
+
+we know how feelings are - experience taking. match own emotions with fictional characters. experience taking is harder in front of mirror so it can be related with ego suppress.
+
+#### Emotions
+
+
+---
+
 
 # Experience
 Experience as an end itself
@@ -429,8 +399,6 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 [//]: # (https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html)
 
 
-#### Path
-Skill Smart
 
 
 
@@ -454,6 +422,9 @@ Skill Smart
 https://youtu.be/UiOTSKBy6ME
 
 [Game Theory](/gametheory/)
+
+tetris - escape to order
+journey - Campbell
 
 
 
