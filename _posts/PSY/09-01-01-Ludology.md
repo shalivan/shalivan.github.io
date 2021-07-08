@@ -10,7 +10,16 @@ tags:
 - Cognition
 permalink: /ludology/
 ---
+strategic
+systematic
+narrative
+emergent
 
+
+reinforce throu mechanics, incentivizse throu game systems
+
+enviromental reconcilation
+design by theming.
 
 
 
@@ -22,7 +31,7 @@ permalink: /ludology/
 game design - mechanis an rules
 behaviour  design -  pavlov
 design thinking -  
-
+repeated constens (non procedural) is where you cannot do otherwise
 
 
 
@@ -30,7 +39,6 @@ design thinking -
 
 ludology (etymologically 'game logic'), is the study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
-movie can create knowledge difference easy . game blend protagonist and player.  
 
 
 ---
@@ -59,6 +67,8 @@ we know how feelings are - experience taking. match own emotions with fictional 
 
 # Medium
 Every medium have it own narrations styles, varying on genres and format. Linear narrative is not enough for games.
+movie can create knowledge difference easy . game blend protagonist and player.  
+
 
 - Games as Rules + fictional Content
 - Free movement and actions   
@@ -88,70 +98,65 @@ exposition is ok in games smtimes
 #### Exploration
 
 # Genre taxonomy
-is flexible
-
+Is flexible.
 
 Casual
-- Puzzle - Action, Match3, Trivia, WorldGames, Coloring, Hidden Object, Solitude
-- Simulation - Adventure, Tycoon/Crafting, Sandbox, time management  
-- Location Based -  
-- Arcade - Platformer, Idler, Shoot/Beat'em Up, Tower defense, Board Games, Rouglike (permadeath, no save of progress)
+- Puzzle
+  - Action, Match3, Trivia, Word Games, Coloring, Hidden Object, Solitude
+- Simulation
+  - Adventure
+  - Tycoon/Crafting
+  - Sandbox
+  - Time management  
+- Arcade
+  - Platformer, Idler, Shoot/Beat'em Up, Tower defense, Board Games,
+  - Rouglike (permadeath, no save of progress)
 - Haptic - Tap, Steer, Swipe/Drag, AR
+- Location Based / AR -  
 
 Midore
-- Shooters - Battle Royale, FPS/TPS, tactical
-- RPG -  Action, Turn-Based, Fighting, MMORPG, Puzzle Idle Survival
+- Shooters
+  - Battle Royale
+  - FPS/TPS
+  - tactical
+  - PvP
+  - PvE  
+- RPG
+  - Action
+  - Turn-Based
+  - Fighting
+  - MMORPG
+  - Puzzle
+  - Idle
+  - Survival
 - Card -
-- Strategies - 4x, Build&Battle MOBA, Tatical
+- Strategies
+  - 4x
+  - Build&Battle
+  - MOBA
+  - Tatical
+- Traversal
 
 Casino
 - Bingo, Poker, Slots
 
 Sports
-- Sport - Arcade, realistic
+- Sport - Arcade/realistic
 - Driving
 
 
 
-tetris - escape to order
-NO CHARACTER IN TETRIS
 
 
 ## Multiplayer
 
-[Game Theory](/gametheory/)
 
-|.||
-|---|---|
-|taktyki | 4x Management Economy
-|RPG |  C J S ..
-|Simulators | Building
-|FPS | battle royal  
-|Puzzle|
-|zrecznosciowki|Skill base
-|Rouglike |
-|rywalizacja | sportowa/ wyscigi
-|sandbox|
-survival|
-|||
-|---|---|
-singiel | stroy
-multi | PvP / PvE  
 
-|.||
-|---|---|
-|turn|
-|realtime|
-|timelimits|
-|keys and bariers > progress|
-rpg - freedom  > expand network  / models for ai behaviour and dyplomacy,
-strategy - field (resource alocation > use )
-match 4 dynamics in strategy games.
-strategies - Managing points to use to win
-----
+
 ---
 
 
+tetris - escape to order
 
 # Narration
 
@@ -266,7 +271,7 @@ real world experience have additional fidelity
 the abstract principle that autonomous beings, agents, are capable of acting by themselves; see autonomy  
 From a game design perspective, Player Agency is the player's ability to impact the story through the game design or gameplay1
 
-
+create problem not puzzle - agency
 
 
 ####
@@ -448,15 +453,8 @@ Skill Smart
 - The Last Guardian (story enough to be satisfy not enough to explane )> shadow of colosus > ico
 https://youtu.be/UiOTSKBy6ME
 
+[Game Theory](/gametheory/)
 
----
-
-
-
-
-
-
-https://inspirassion.com/en/metaphor/sand
 
 
 ---------------
