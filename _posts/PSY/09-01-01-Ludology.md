@@ -15,7 +15,7 @@ permalink: /ludology/
 
 **Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
-Every medium has its own narration styles, varying on genres and format. Linear narrative is not enough for games and can be less important. Movies can create 'knowledge differences' easier than games which blend protagonist and player.  
+Every medium has its own narration styles, varying on genres and format. Linear narrative is not enough for games and can be less important. Movies can create 'knowledge differences' easier than games which blend protagonist and player.  Plot and characters are things VG find verry difficult to deal .
 
 |Paradigm Characteristics |  [Narratology](/narratology/) |Ludology
 |---|---|---|
@@ -40,92 +40,21 @@ Respond to your actions
 Exposition is ok in games sometimes  
 
 
-# Genre taxonomy
-Is flexible.
-
-Casual
-- Puzzle
-  - Action, Match3, Trivia, Word Games, Coloring, Hidden Object, Solitude
-- Simulation
-  - Adventure
-  - Tycoon/Crafting
-  - Sandbox
-  - Time management  
-- Arcade
-  - Platformer, Idler, Shoot / Beat'em Up, Tower defense, Board Games,
-  - Roguelike (permadeath, no save of progress)
-- Haptic - Tap, Steer, Swipe/Drag, AR
-- Location Based / AR -  
-
-Midore
-- Shooters
-  - Battle Royale
-  - FPS/TPS
-  - tactical
-  - PvP
-  - PvE  
-- RPG
-  - Action
-  - Turn-Based
-  - Fighting
-  - MMORPG
-  - Puzzle
-  - Idle
-  - Survival
-- Card -
-- Strategies
-  - 4x
-  - Build&Battle
-  - MOBA
-  - Tactical
-- Traversal
-
-Casino
-- Bingo, Poker, Slots
-
-Sports
-- Sport - Arcade/realistic
-- Driving
-
-
-
-
 
 ---
 
-
-
-
-# Narration
-
-- game premise goal. why where
-- events  
-- micronarrative
-
-```
-Horror can easly do away with character and plot. tension, shock, monsters.  
-Plot and characters are things VG find verry difficult to deal .
-```
-
-### Authorship
+# Authorship
 Narrative vs Mechanics. Driven How much power over the world.  
-Traditionsl > Interactive Traditional >  multi ending >  branching path > open ended > fully player driven.
+Linear > Interactive Linear >  Multi ending >  Branching path (multi choice but not emergent) > Open ended > Fully player driven (cyclical).
 
-**Game story domination**  -   Authored - no impact on story - Linear
-**Player story domination** -  Generative - agency & expression of will - cyclical
+**Game story domination**  -   Authored - no impact on story - Linear  
+**Player story domination** -  Generative - agency & expression of will - Cyclical  
 
 
 - Film: Pre, Pro, Post  (Alex McDowell - world building)
 - Arch: Pre Design, Schematic, Design, Construction
 - In changing env: Observe > Orient > Decide(feedback) > Act (feedback) () OODA Loop )
 - General design process: Empathize > Define > Ideate > Prototype > test
-
-
-mechanick video storytell:
-- Edit finth, fish gameplay
-- Half Life2, can to trash tutorial
-
-
 
 
 ### Ludo narrative Harmony
@@ -135,26 +64,33 @@ premise and setting of story make sense with actions you perform
 how themes are communicated through the gameplay
 
 
-https://youtu.be/KkdPxZbUNSw
+[YT - Meaningful Mechanics](https://youtu.be/KkdPxZbUNSw)  
 mechanics follow narration :
 restricted movement - is narration
 cyclical naure  
 
 
-#### Connect controls with feelings
+**Connect controls/mechnic with feelings**
 
-#### NARRATIVE WITH BRANCHES
-multi choice but not emergent
+---
+
+# Narration
+
+
+
+
+
+
 
 ## Explicit
 Cutscenes text written narrator    
 
-
-
-
-
 In literature: An explicit narrator is a narrator or character in a story that is the one telling the story. First person narrators are by definition explicit narrators.
 
+###### Narrator
+
+silent protagonist - to feel easy to slip in his role . (silence and concient is like agree)
+add to agency
 
 ##  Implied
 Implicit
@@ -194,10 +130,7 @@ randomness
 most immersive
 it s the world speak and player will find their own story
 
-###### Narrator
 
-silent protagonist - to feel easy to slip in his role . (silence and concient is like agree)
-add to agency
 
 ---
 
@@ -381,13 +314,11 @@ Mechanics should be part of narration - We've now gone from just having a really
 
 
 
-
-
 #### Cycles
 
-**Second to second**     
-**Minute to minute**     
-**Hour to Hour**  
+**Second to second**  -   micronarrative  
+**Minute to minute**  -   events   
+**Hour to Hour**  - game premise goal. why where  
 
 - Story Shape Ups and downs tension !!!!
 - Therefor instead of: Then  (a means to an end)  (Causality)
@@ -409,9 +340,59 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 
 
+# Genre taxonomy
+Is flexible.
+
+Casual
+- Puzzle
+  - Action, Match3, Trivia, Word Games, Coloring, Hidden Object, Solitude
+- Simulation
+  - Adventure
+  - Tycoon/Crafting
+  - Sandbox
+  - Time management  
+- Arcade
+  - Platformer, Idler, Shoot / Beat'em Up, Tower defense, Board Games,
+  - Roguelike (permadeath, no save of progress)
+- Haptic - Tap, Steer, Swipe/Drag, AR
+- Location Based / AR -  
+
+Midore
+- Shooters
+  - Battle Royale
+  - FPS/TPS
+  - tactical
+  - PvP
+  - PvE  
+- RPG
+  - Action
+  - Turn-Based
+  - Fighting
+  - MMORPG
+  - Puzzle
+  - Idle
+  - Survival
+- Card -
+- Strategies
+  - 4x
+  - Build&Battle
+  - MOBA
+  - Tactical
+- Traversal
+- Story driven
+  - Horror (easly do away with character and plot. tension, shock, monsters)  
+
+Casino
+- Bingo, Poker, Slots
+
+Sports
+- Sport - Arcade/realistic
+- Driving
 
 
-# Games
+
+
+## Games
 
 - bioshock (utopian tragedy), drzwi do innego swiata (bioshock) - objectivism
 - soulsy (myths),,
@@ -433,6 +414,9 @@ https://youtu.be/UiOTSKBy6ME
 - never alone - coop with spirit animal showing ideas of
 - brothers tales of two sons - controling 2 brothers. Coming toghether while learning brothers coopearte more and easier
 - rez - game music
+- Edit finth, fish gameplay
+- Half Life2, can to trash tutorial
+
 
 ---------------
 
