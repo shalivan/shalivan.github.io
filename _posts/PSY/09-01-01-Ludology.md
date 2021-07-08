@@ -13,38 +13,32 @@ permalink: /ludology/
 
 
 
-**Ludology** (etymologically 'game logic'), is the study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
+**Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
-
-Every medium have it own narrations styles, varying on genres and format. Linear narrative is not enough for games.
-movie can create knowledge difference easy . game blend protagonist and player.  
-
+Every medium has its own narration styles, varying on genres and format. Linear narrative is not enough for games and can be less important. Movies can create 'knowledge differences' easier than games which blend protagonist and player.  
 
 |Paradigm Characteristics |  [Narratology](/narratology/) |Ludology
 |---|---|---|
 Community structures | Mostly pedagogy, limited number of non-pedagogy researchers | Non-pedagogical game studies, although some thematic overlap with pedagogy
 Group commitment networks |Wide range of disciplines, including drama & literature, education, cognition, management | Narrow range of allegiances, limited to non-pedagogy - one central research center, one peer-reviewed journal, and between one and two dozen primary investigators
-Shared examples | Computer simulation, noncomputer simulation, role play, experiential learning, drama, literature, film | Videogame, virtual reality, hypertext, television, and emergent forms of computer play
+Shared examples | Computer simulation, non computer simulation, role play, experiential learning, drama, literature, film | Videogame, virtual reality, hypertext, television, and emergent forms of computer play
 Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning and cognition | Non-pedagogical side of experience - i.e., play
+| | Cyclical nature | Linear Nature
 
 | Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking
-
-Games and stories share a lot in common but Narratology in games can be not as important.
 
 - Games as Rules + fictional Content
 - Free movement and actions   
 - See or listen not as powerful as play themselves
 - Need to act. Engage with external   
 
-Cyclical structure,
 
+##### Reactivity
+Respond to your actions
 
-exposition is ok in games sometimes  
+##### Exploration
+Exposition is ok in games sometimes  
 
-[Pdf Source](file:///G:/546-Article%20Text-644-1-10-20140224.pdf)  
-
-#### Reactivity
-#### Exploration
 
 # Genre taxonomy
 Is flexible.
@@ -83,7 +77,7 @@ Midore
   - 4x
   - Build&Battle
   - MOBA
-  - Tatical
+  - Tactical
 - Traversal
 
 Casino
