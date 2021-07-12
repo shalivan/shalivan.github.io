@@ -15,7 +15,7 @@ permalink: /lighting/
 
 # Properties of Light Source
 
-
+[Light](/light/)
 
 |||
 |---|---|
@@ -32,18 +32,18 @@ Secondary | Indirect
 
 
 ## Distance
-- **Close** moze miec mnimejsza intensity i ma fallof wiekszy (szybciej i wyrazniej zanikanie widać z odległością) (Soft shadows, Less contrst, less edge definition ) rembrant more
-- **Far** zwiekszyc intensywnosc ale wtedy fallofu nie widać bo jest na wiekszych odleglosciach cien jest mniejszy i im dalej od swiatła tym ostrzejsze cienie zzeby oswietlic. rembrant raczej blisko  gradienty (Hard shadow, deep contrast, sharper edge) less intymate more tention. Background brighter.   
+- **Close** moze miec mniejsza intensity i ma fall of większy (szybciej i wyraźniej zanikanie widać z odległością) (Soft shadows, Less contrast, less edge definition ) rembrandt more
+- **Far** zwiększyć intensywność ale wtedy falloff nie widać bo jest na wiekszych odleglosciach cień jest mniejszy i im dalej od światła tym ostrzejsze cienie żeby oświetlić. rembrandt raczej blisko  gradienty (Hard shadow, deep contrast, sharper edge) less intimate more tension. Background brighter.  
 
 ## Scale
-Wielkosc swiatła nie zmienia fallofa  tylko ostrosc cieni.
-- **Big** swiatła da wieksze gradienty cienia ale nie ma gradientu jasnosci
+Wielkość światła nie zmienia falloff  tylko ostrość cieni.
+- **Big** światła da większe gradienty cienia ale nie ma gradientu jasności
 
 SOFTNESS  ! of shadow -
 
 ## Direction
   front / top / back .  
-  have impact on shadow.
+  have an impact on shadow.
 
 ## Shape
 
@@ -53,9 +53,9 @@ SOFTNESS  ! of shadow -
 **light temperature**  
 
  for natural light sources
-(light RGB primes. Addative )
+(light RGB primes. Additive )
 
-can transfor enviroment  
+can transform environment  
 
 [Color](/color/)  
 
@@ -77,11 +77,11 @@ can transfor enviroment
 
 
 ##### Partially
-  - Reflection (water,.. ) therfore can be partially clamped by filter
-  - Sky - can be used to darken the sky in photographs, increasing the contrast. (due to sunlight scattered by aerosols)
-  - Punkt neutralny nieba - sa 4 punkty. wszystkie leza na lini (pod nad słoncem, i 3 po przeciwnej stronie na wysokosci slonca, 4 punkt pod horyzontem(punkt antysloneczny (tylko na duzej wysoikosci jak slonce jest nisko))) wzorzec polaryzacyjny nawet jak słonce za chmurami.
-  - crystal -  frozen ice crystals, which are seen here beginning to form as the water freezes. Under polarized light the ice appears to have many colors within it. The colors are due to the ice crystals being birefringent in polarized light.
-  - tensions on translucent materials
+- Reflection (water,.. ) therefore can be partially clamped by filter
+- Sky - can be used to darken the sky in photographs, increasing the contrast. (due to sunlight scattered by aerosols)
+- Punkt neutralny nieba - są 4 punkty. wszystkie leżą na linii (pod nad słońcem, i 3 po przeciwnej stronie na wysokości słońca, 4 punkt pod horyzontem(punkt antysłoneczny (tylko na dużej wysokości jak słońce jest nisko))) wzorzec polaryzacyjny nawet jak słońce za chmurami.
+- crystal -  frozen ice crystals, which are seen here beginning to form as the water freezes. Under polarized light the ice appears to have many colors within it. The colors are due to the ice crystals being birefringent in polarized light.
+- tensions on translucent materials
 
 ##### Cross Polarization  
 polarize before it reflect on surface and second time after  to secure color without any reflections  
@@ -129,9 +129,22 @@ Bounced  | Indirect moon ( fog and snow, lot of bounce)
 
 # Natural Light Setup
 
-**Mid day** - 8 am - 3-4 pm most dificult short shadows high caontrast.  
-**Golden hour** -  
-**Night** - in cinematography we are threating night as is a day so background still lighter than foreground , (in reality farther darker cause is dark)  
+
+
+
+## Daylight
+
+- **Daytime** (above 6°) - 8 am - 3-4 pm most difficult short shadows high contrast.    harsh lighting that produces high contrast between light and shadow.
+- **Golden hour** (from 6° to -4°) - because lighting is soft, diffused, and warm. doesn't produce strong shadows and harsh lighting, it's ideal for landscape photography.
+- **Twilights** (from 0° to -18°) - Twilights are the time intervals happening between night and day, before sunrise and after sunset. The sun is below the horizon, but its light is visible because it illuminates the upper layers of the atmosphere.
+  - Civil twilight (from 0° to -6°) - still enough natural light to see and distinguish objects perfectly. Sky is very bright, with colorful clouds. It's just after sunset, the colors of the sky change most rapidly. (0-30 min After sunset)  at the end of the civil twilight, drivers begin to turn on the headlights, and street lights start illuminating our cities. The horizon is clearly defined and some stars like Sirius or bright planets like Venus start to be visible.  ideal for portrait and landscape photography.
+  - **Blue hour** (from -4° to -6°) -because lighting is soft, diffused, and warm.   sky has a deep blue hue
+  - Nautical Twilight  (from -6° to -12°) - ideal for urban and city photography. Taking advantage of the artificial lights
+  - Astronomical Twilight  (from -12° to -18°)
+- **Nighttime** (below -18°)  - in cinematography we are threatening night as is a day so background still lighter than foreground , (in reality farther darker cause is dark)  
+
+
+- Moon: , look for days when the full moon rises or sets when the sun is at an elevation between 0.5° and -6°. . If the sun is above 0.5°, the moon will be less visible
 
 
 #### Atmosphere
@@ -148,7 +161,7 @@ Light - Radius and intensity keep both together. Mini roughness light without re
 |~3:1 |sunrise/sunset  
 |~2:1 |overcast
 
-You can measure that by looking at a white surface with sun on it, and adding a shadow casting object then comparing the brightness of the lit to the shadowed areas. Modify skylight until its around 25% the value of the sun. Convert to linear space if comparing in screens photoshop. (adjustment->levels and set the midpoint to 0.4545).
+You can measure that by looking at a white surface with sun on it, and adding a shadow casting object then comparing the brightness of the lit to the shadowed areas. Modify the skylight until it's around 25% the value of the sun. Convert to linear space if comparing in screens photoshop. (adjustment->levels and set the midpoint to 0.4545).
 
 #### Shafts
 
@@ -156,9 +169,8 @@ You can measure that by looking at a white surface with sun on it, and adding a 
 
 # Studio Light Setup
 ### Light types
-- Flesh in camera: electric discharg lamp . tube of gas high voltage short time . high CRI  and: ~5500K. lik day light..
+- Flesh in camera: electric discharge lamp . tube of gas high voltage short time . high CRI  and: ~5500K. lik daylight..
 - IES. profiles
-
 
 
 
@@ -174,13 +186,13 @@ You can measure that by looking at a white surface with sun on it, and adding a 
 
 Light | Where |How |Effect|
 -- | -- |-- |-- |
-Flat | Sit-coms, passport, news | Lack personality. One straight
+Flat | Sit-coms, passport, news | Lack of personality. One straight
 Butterfly | | front top. Highlight chic bones Small shadow under nose | Women
 Frankenstein | Horrors | from bottom - unnatural (or to much butterfly from top ) |Not natural
 Split | Caravaggio  |upper Side: One side black, other in light | Dramatic
 |Rembrandt | Side but: nose shadow touch chick and eye make light triangle.(eyes more to the light than carrav)
 Loop  || Side but:  nose shadow almost touch chicks shadow.
-Back side | | Subject z boku swiatło z boku z tyłu
+Back side | | Subject z boku światło z boku z tyłu
 Broad side | | looks more 3d z przedniej storny jak patrzysz na bok
 Checkerboard | | on face from right background left  
 Background ||
@@ -202,10 +214,10 @@ three-point lighting was abandoned,
 # Stage Light Setup
 
 #### DMX
-- Multiplexing Data Transmision  
+- Multiplexing Data Transmission  
   - 1 dmx - 512 channels (dmx universe)  
-  - 1 controler can controll multiple universes  
-- **Dip Switch** or **Digital Readout** - to set adress of light  
+  - 1 controller can control multiple universes  
+- **Dip Switch** or **Digital Readout** - to set address of light  
 
 ---
 
@@ -217,9 +229,9 @@ three-point lighting was abandoned,
 ##  Scenarios
 
 scenarios:
-- like cyberpunk lot of small and colors
+- like cyberpunk, lots of small colors
 - visible (practical) and invisible (for fill)
-- hard direct / rozproszony. Shiluetes instead of shadow
-- help to emphesise shiluetes, movements and focus
-- usualy warm colors near and cold away
-- more light u have lkess color saturation
+- hard direct / rozproszony. Silhouettes instead of shadow
+- help to emphasise silhouettes, movements and focus
+- usually warm colors near and cold away
+- more light u have less color saturation

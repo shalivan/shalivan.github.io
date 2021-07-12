@@ -8,7 +8,7 @@ tags:
 - CG
 - Configs
 - Pipelines
-- Data 
+- Data
 description: Pipelines
 permalink: /pipes/
 ---
@@ -34,9 +34,7 @@ permalink: /pipes/
 |TextureSheet / MorionVector seqence | ```$HIP/`opname("..")`/export/bake/${OS}_sequence/``` |      
 |TextureSheet / MorionVector | ```$HIP/`opname("..")`/export/bake/``` |  
 |Heightfields | ```$HIP/`opname("..")`/export/heightfields/$OS/``` |
-|Vertex Anims  |```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` |       
-|Vertex Anims  |``` $HIP/export/`chs("_component")`_vat```   |
-|Vertex Anims  |``` `chs("_project")`/`chs("_component")`_xxx.fbx```  |
+|Vertex Anims  |```$HIP/`opname("..")`/export/vat_$OS``` |       
 |Niagara | ``` $HIP/`opname("..")`/export/niagara/$OS.hbjson ``` |
 |Impostors| ```$HIP/`opname("..")`/export/${OS}_impostor/sequence/${OS}.$F4.exr``` |
 |Impostors| ```$HIP/`opname("..")`/export/${OS}_impostor/${OS}_beauty.exr``` |
@@ -51,6 +49,12 @@ permalink: /pipes/
 |**COP**|
 |COP image | ```$HIP/`opname("..")`_cop/${OS}.exr```
 
+```
+OLD
+|Vertex Anims  |```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` |  
+|Vertex Anims  |``` $HIP/export/`chs("_component")`_vat```   |
+|Vertex Anims  |``` `chs("_project")`/`chs("_component")`_xxx.fbx```  |
+```
 
 
 $HIP/`opname("..")`/export/bake/`@top_name`/`opname("..")``@top_name``@lod_name``@bake_set`_$(CHANNEL).tif
@@ -108,7 +112,38 @@ Uv
 e
 
 ---
+# Unreal Import
 
+||VA|SM|SK||
+|---|---|---|---|---|
+Skeletal Mesh | |
+Generate Missing Collision | |
+Staticm MeshLODGroup | |
+Vert Color | Repleace |
+Remove Degenerates | | x
+Building Adjacency Buffer | | x
+Building Reversed Index Buffer |  | x
+Generate Lightmap UVs | |
+One Convex Hull per UCX | | x
+Combine Meshes | | x
+Transform Vertex to Absolut | | x
+Import Mesh LOD's | |
+Normal Import | Import Nm & Tang | Import Nm
+Normal Generation | | Mikk TSpace
+Compute Weighted Normal | | x
+.
+Transform| 1 | |
+.
+Convert Scene | On | x
+Force Front XAxis  | |
+Convert Scene to Unit | |
+Override Full Name | | x
+.
+Material | |
+Reorder mat to fbx | On |
+
+
+---
 # Modeling
 Houdini 1 U = 1m Zbrush - scale * 100  obj rotation ?    
 

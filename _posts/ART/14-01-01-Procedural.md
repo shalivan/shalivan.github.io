@@ -25,7 +25,7 @@ http://teres4enko.blogspot.com/
 https://bleuje.github.io/tutorials/
 
 Computational Design    
-generative art -  complex systems (ecosystes, cities, cells ect.. )  
+generative art -  complex systems (ecosystem, cities, cells ect.. )  
 
 
 #### Procedurals
@@ -34,7 +34,7 @@ generative art -  complex systems (ecosystes, cities, cells ect.. )
 - parametric
 
 .
-- Computational Geometry - visualisation of math equations
+- Computational Geometry - visualization of math equations
 - Interpretive: noise Perlin, grid/cell (voronoi/delaunay), metaballs
 - Tiles (procedurally generate world) - Wave function collapse
 - L-system - recursive turtle commands
@@ -54,7 +54,7 @@ generative art -  complex systems (ecosystes, cities, cells ect.. )
     - squares
     - trix
     - hex (honeycomb)
-- Penrose tiling - (2 polygonal arrows in simple version ) (u can get illusion of forbiden symetry i.e. pentagonal (releated by golden ratio) dont repeat... - quazicrystals )
+- Penrose tiling - (2 polygonal arrows in simple version ) (u can get the illusion of forbidden symmetry i.e. pentagonal (related by golden ratio) don't repeat... - quasicrystals )
 - Girih Tiles Islamic star patterns (one 10-way symmetry and smaller )
 - Nested - (mandalas)
 
@@ -104,8 +104,8 @@ https://youtu.be/VBzIPLh-ECg
 
 
 black and white spaces
-- blur > guasian blur 2
-- chemicla raction > edge detection:  duplicate and blur 4x > subtract.
+- blur > gaussian blur 2
+- chemical reaction > edge detection:  duplicate and blur 4x > subtract.
 
 https://youtu.be/VBzIPLh-ECg
 
@@ -118,6 +118,6 @@ http://www.cr31.co.uk/stagecast/wang/3edge.html
 ---
 
 
-?? Structural : (sim based on structural optimization/analysus)
+?? Structural : (sim based on structural optimization/analysis)
 
 ------      

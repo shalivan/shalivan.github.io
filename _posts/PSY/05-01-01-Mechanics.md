@@ -1,6 +1,6 @@
 ---
 title: Game Mechanics
-description: Progression, Economy, Balance
+description: Systems, Progression, Economy, Balance
 categories:
  - PSY
 tags:
@@ -15,21 +15,50 @@ permalink: /gamemechanics/
 
 [Level Design](/leveldesign/)  
 
-## Rouglikes
-https://www.youtube.com/channel/UCKv_QzXft4mD6TXmQBZtzIA/videos
+
 
 
 # Mechanics   
-Gameplay loop  
-`sec to sec` (momentary)  core mechanics   
-`min to min` tactics and problem-solving puzzles  
-`h to h` (structural)   narrative  
+
+
+
+
+# Structure
+
+
+
+[Game Design](/gamedesign/)   
+[Game Mechanics](/gamemechanics/)   
+[Game Theory](/gametheory/)   
+
+
+Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
+
+
+
+
+#### Cycles (gameplay loop )
+
+**Second to second**  -   micronarrative  (momentary)  core mechanics  
+**Minute to minute**  -   events, tactics and problem-solving puzzles  
+**Hour to Hour**  - (structural)  game premise goal. why where  
+
+- Story Shape Ups and downs tension !!!!
+- Therefor instead of: Then  (a means to an end)  (Causality)
+- Try and fail. Fail and find  new: clue, inspiration, information
+   plot expansion: instead of twist /u get more than promised not unexpected change  
+   change
+
+.
+- life cycle of agents in simulation . Dynamicly changing agets  
+
+
+#### Endgame
+
 
 [Game Design](/gamedesign/)
 
 
-
-- life cycle of agents in simulation . Dynamicly changing agets  
 
 ..
 
@@ -81,7 +110,7 @@ narrative emergence -  sequence of event .
 
 emergent enable larger possibilities with simpler components
 
-Structure dynamics:
+#### Structure dynamics:
 
 Topologies (how elements are connetcted. relationship between objects. Linear, tree, network, )
 - **Agents** - (very flexible, sims)
@@ -112,26 +141,14 @@ Competitions > growth > Grouping > specializsation > propagation > alocation > n
 
 
 ##### Stock to Flow
-Population is stock  
-Births  rate is flow
+Population - is stock  
+Births rate - is flow
 
 
 ---
 
 
-#### EMERGENT NARRATIVE
-own story (with autor rules) not direct writer expression : DWARF FORTRESS
-need building blocks :
-- resonant theme - as universal as practial if desired for sharing
-- meshes narratively with existing mechanics - test against sample story or patch existinh holes
-- mechanics <support> presentation
-- inveolves user in state
 
-give you
-
-rouglike games , minecrafts, sandboxes
-
-enable make own story with tools we get
 
 
 # GENERATIVE DESIGN
@@ -194,6 +211,18 @@ difficulti
 
 # Combat
 non combat - combat loop
+
+mele shooting   
+
+Hitscan vs projectile
+
+
+ ||||
+ |--|--|--|
+ |Projectiles|stayback|
+ |Hitscan|charging|
+
+
 ## Encounters
 
 
@@ -208,7 +237,7 @@ non combat - combat loop
 
 
 
-
+## Aiming And shooting
 -----------
 
 ---
@@ -227,9 +256,6 @@ Achievements
 
 ---
 
-Loading bar
-https://www.psychologyofgames.com/2019/10/loading-when-were-willing-to-wait/
-
 ---
 game eg. with simple rules with costs. of building :
 offence - 2
@@ -241,3 +267,84 @@ maping decisions how to play (what build next).
 - order (productopn, missions, what to build first)
 - Allocation suplay network
 - Boudries
+
+
+
+
+# Genre taxonomy
+Is flexible.
+
+Casual
+- Puzzle
+  - Action, Match3, Trivia, Word Games, Coloring, Hidden Object, Solitude
+- Simulation
+  - Adventure
+  - Tycoon/Crafting
+  - Sandbox
+  - Time management  
+- Arcade
+  - Platformer, Idler, Shoot / Beat'em Up, Tower defense, Board Games,
+  - Roguelike (permadeath, no save of progress) [YT](https://www.youtube.com/channel/UCKv_QzXft4mD6TXmQBZtzIA/videos)
+- Haptic - Tap, Steer, Swipe/Drag, AR
+- Location Based / AR -  
+
+Midore
+- Shooters
+  - Battle Royale
+  - FPS/TPS
+  - tactical
+  - PvP
+  - PvE  
+- RPG
+  - Action
+  - Turn-Based
+  - Fighting
+  - MMORPG
+  - Puzzle
+  - Idle
+  - Survival
+- Card -
+- Strategies
+  - 4x
+  - Build&Battle
+  - MOBA
+  - Tactical
+- Traversal
+- Story driven
+  - Horror (easly do away with character and plot. tension, shock, monsters)  
+
+Casino
+- Bingo, Poker, Slots
+
+Sports
+- Sport - Arcade/realistic
+- Driving
+
+
+
+
+
+## Games
+
+- bioshock (utopian tragedy), drzwi do innego swiata (bioshock) - objectivism
+- soulsy (myths),,
+- stanley, - question of free will.
+- To the Moon,
+- deus ex(future),  
+- Metal Gear Solid (fake news)
+- Nier:automata(life after god (nitche,
+   endings at mininglesness by philosophy automatas:
+   - jean-paul(sad),
+   - pascal(peace)
+   - simone de beauvoir(love)
+   - kierkengaard(pray)
+- The Last Guardian (story enough to be satisfy not enough to explane ) creat bond with hico. > shadow of colosus > ico
+https://youtu.be/UiOTSKBy6ME
+- Tetris - escape to order
+- thomas was alone - block with shapes colors and abilities. Jungian integration of pssyche  
+- journey - Campbell
+- never alone - coop with spirit animal showing ideas of
+- brothers tales of two sons - controling 2 brothers. Coming toghether while learning brothers coopearte more and easier
+- rez - game music
+- Edit finth, fish gameplay
+- Half Life2, can to trash tutorial

@@ -32,6 +32,8 @@ What is desired experience ?
 
 
 
+
+
 ##### Accessibility , easy of use
 
 
@@ -76,16 +78,15 @@ story multiplayer vs multiplayer story
 ## NPC's
 - brign stisfaction, dont stole moments from player or be burden u must cary on.
 
-OUD - Orthoigonal unit differentiation
+OUD - Orthoigonal unit differentiation to make dynamic playspace     
+villans - what mean to be offended by villan force  
 
-|||
-|--|--|--|
-|Projectiles|stayback|
-|Hitscan|charging|
 
-to make dynamic playspace   
 
-villans - what mean to be offended by villan force
+
+
+
+
 
 ---
 #  Objectives
@@ -258,6 +259,10 @@ s “PICK UP THAT CAN.” If you do, he lets you go. If you don’t, he beats yo
 
 
 peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
+
+Loading bar
+https://www.psychologyofgames.com/2019/10/loading-when-were-willing-to-wait/
+
 
 # Making games
 

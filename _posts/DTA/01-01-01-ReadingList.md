@@ -105,6 +105,9 @@ Dan Ariely | Behavioral Economics
  - 101 prison of mind from 1790
 
 
+# Psychology  
+- Influence: The Psychology of Persuasion
+
 ---
 
 

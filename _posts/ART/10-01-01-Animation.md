@@ -53,10 +53,22 @@ Solid drawing | volume weight drawing on solid spheres. Avoid twinning (mirror)
 Appeal | chrismatic aspects > dynamic design. (varietyu of shapes on dif characters), play with proportions.
 
 
+Dynamic of body: inna dystrybucja ciezaru cia la przy biegnieciu i zakretach - kladziemy sie
+
 ## Simulation & procedural   
    - Normalize - Fit parameters to 0-1  
 
+## Skeletal anim
 
+
+retarget  
+ik  
+root motion - wyciagnac z animacji. ale ciezkie do zreplikowania online. (wykorzystywane czesciowo) / animacje w miejscu nawigacja też musi byc inna jak jest root motion.  
+motion matching  
+
+
+layering  
+ik rig - zeby wydobyc info   
 # VFX
 
 https://youtu.be/WLMVpcK0WvA?list=PLQD_sA-R5qVKVYw3EVuRT7fSJsVukLEhD
@@ -92,3 +104,24 @@ https://youtu.be/WLMVpcK0WvA?list=PLQD_sA-R5qVKVYw3EVuRT7fSJsVukLEhD
 
 
 [book: Illusion of Life: Disney Animation]
+
+
+
+
+----------------------------
+
+
+
+pose / motion matching z https://www.youtube.com/watch?v=KSTn3ePDt50&t=1649s
+
+
+https://www.youtube.com/watch?v=KSTn3ePDt50&t=1649s
+
+https://www.youtube.com/watch?v=KLjTU0yKS00
+
+https://www.youtube.com/watch?v=o-QLSjSSyVk
+
+
+https://advances.realtimerendering.com/destiny/siggraph2014/animation/index.html
+
+ https://www.youtube.com/watch?v=KLjTU0yKS00 https://www.youtube.com/watch?v=SQo9pTQ14Jk Motion matching: https://www.youtube.com/watch?v=KSTn3ePDt50 Fullbody animation in Doom: https://www.youtube.com/watch?v=3lO1q8mQrrg Animation tricks for the trade: https://www.youtube.com/watch?v=zEYITZUHpo4

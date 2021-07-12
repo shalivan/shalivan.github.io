@@ -57,21 +57,19 @@ Linear > Interactive Linear >  Multi ending >  Branching path (multi choice but 
 - General design process: Empathize > Define > Ideate > Prototype > test
 
 
-### Ludo narrative Harmony
-- Action fit settings to achieve harmony relation between narration and gameplay
-premise and setting of story make sense with actions you perform
-- It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
-how themes are communicated through the gameplay
+#### EMERGENT NARRATIVE
+own story (with autor rules) not direct writer expression : DWARF FORTRESS
+need building blocks :
+- resonant theme - as universal as practial if desired for sharing
+- meshes narratively with existing mechanics - test against sample story or patch existinh holes
+- mechanics <support> presentation
+- inveolves user in state
 
+give you
 
-[YT - Meaningful Mechanics](https://youtu.be/KkdPxZbUNSw)  
-mechanics follow narration :
-restricted movement - is narration
-cyclical naure  
+rouglike games , minecrafts, sandboxes
 
-
-**Connect controls/mechnic with feelings**
-
+enable make own story with tools we get
 ---
 
 # Narration
@@ -238,6 +236,7 @@ things happening > its excitement its entertainment
 
 
 
+
 ## Engagement  
 - Engagement involves solving problems
 
@@ -285,6 +284,23 @@ enthusiasm, absorption, focused effort, zeal, dedication, and energy.
 
 
 
+# Ludo narrative
+
+Harmony & Disonance
+- Action fit settings to achieve harmony relation between narration and gameplay
+premise and setting of story make sense with actions you perform
+- It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
+how themes are communicated through the gameplay
+
+
+[YT - Meaningful Mechanics](https://youtu.be/KkdPxZbUNSw)  
+mechanics follow narration :
+restricted movement - is narration
+cyclical naure  
+
+
+**Connect controls/mechnic with feelings**
+
 
 
 
@@ -293,43 +309,13 @@ enthusiasm, absorption, focused effort, zeal, dedication, and energy.
 
 [Motivation](/motivation/)
 
+Fun enable learning   
+
 
 
 ---
 
 
-
-
-# Structure
-
-
-
-[Game Design](/gamedesign/)   
-[Game Mechanics](/gamemechanics/)   
-[Game Theory](/gametheory/)   
-
-
-Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
-
-
-
-
-#### Cycles
-
-**Second to second**  -   micronarrative  
-**Minute to minute**  -   events   
-**Hour to Hour**  - game premise goal. why where  
-
-- Story Shape Ups and downs tension !!!!
-- Therefor instead of: Then  (a means to an end)  (Causality)
-- Try and fail. Fail and find  new: clue, inspiration, information
-   plot expansion: instead of twist /u get more than promised not unexpected change  
-   change
-
-
-#### Endgame
-
-.
 
 
 
@@ -339,83 +325,6 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 
 
-
-# Genre taxonomy
-Is flexible.
-
-Casual
-- Puzzle
-  - Action, Match3, Trivia, Word Games, Coloring, Hidden Object, Solitude
-- Simulation
-  - Adventure
-  - Tycoon/Crafting
-  - Sandbox
-  - Time management  
-- Arcade
-  - Platformer, Idler, Shoot / Beat'em Up, Tower defense, Board Games,
-  - Roguelike (permadeath, no save of progress)
-- Haptic - Tap, Steer, Swipe/Drag, AR
-- Location Based / AR -  
-
-Midore
-- Shooters
-  - Battle Royale
-  - FPS/TPS
-  - tactical
-  - PvP
-  - PvE  
-- RPG
-  - Action
-  - Turn-Based
-  - Fighting
-  - MMORPG
-  - Puzzle
-  - Idle
-  - Survival
-- Card -
-- Strategies
-  - 4x
-  - Build&Battle
-  - MOBA
-  - Tactical
-- Traversal
-- Story driven
-  - Horror (easly do away with character and plot. tension, shock, monsters)  
-
-Casino
-- Bingo, Poker, Slots
-
-Sports
-- Sport - Arcade/realistic
-- Driving
-
-
-
-
-## Games
-
-- bioshock (utopian tragedy), drzwi do innego swiata (bioshock) - objectivism
-- soulsy (myths),,
-- stanley, - question of free will.
-- To the Moon,
-- deus ex(future),  
-- Metal Gear Solid (fake news)
-- Nier:automata(life after god (nitche,
-   endings at mininglesness by philosophy automatas:
-   - jean-paul(sad),
-   - pascal(peace)
-   - simone de beauvoir(love)
-   - kierkengaard(pray)
-- The Last Guardian (story enough to be satisfy not enough to explane ) creat bond with hico. > shadow of colosus > ico
-https://youtu.be/UiOTSKBy6ME
-- Tetris - escape to order
-- thomas was alone - block with shapes colors and abilities. Jungian integration of pssyche  
-- journey - Campbell
-- never alone - coop with spirit animal showing ideas of
-- brothers tales of two sons - controling 2 brothers. Coming toghether while learning brothers coopearte more and easier
-- rez - game music
-- Edit finth, fish gameplay
-- Half Life2, can to trash tutorial
 
 
 ---------------

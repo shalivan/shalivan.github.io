@@ -14,7 +14,7 @@ permalink: /fractals/
 
 
 ## Fractals
-Simple euqasion bring infinite patterns
+Simple equation bring infinite patterns
 
 https://orangejellies.booth.pm/
 

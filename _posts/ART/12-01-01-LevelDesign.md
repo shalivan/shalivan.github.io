@@ -204,6 +204,11 @@ E.g.
 types: For 'Capture the flag' CTF / therytory take over   
 Offence / defence differencess      
 
+### Graph theory
+for multiplayers
+
+
+https://www.raphkoster.com/games/presentations/small-worlds-competitive-and-cooperative-structures-in-online-worlds/
 ### Line of sight
 - Horizontal LoS
 - Vertical LoS

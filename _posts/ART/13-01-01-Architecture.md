@@ -28,17 +28,17 @@ Point of contact between mass and space
 | | |
 |--|--|
 ![](/src/arch/add.png)  | Additive | picturesque, full of movement,
-![](/src/arch/sub.png)  |Subtractive   | generous, When regular form mising volume peart but retain identity
+![](/src/arch/sub.png)  |Subtractive   | generous, When regular form missing volume peart but retain identity
 
 
 
 
-#### Imposible Figure
+#### Impossible Figure
 M.C. Escher
 
 
 # Space
- Space is formed by relationship to object within. Literal space define scene by Degree of enclosure.
+ Space is formed by relationship to object within. Literal space defines the scene by Degree of enclosure.
 
 ## Standard Types
 
@@ -47,9 +47,9 @@ M.C. Escher
  ![](/src/arch/floor.png) | Floor | topology / architecture Man made / natural, Unmodulated / Modulated, Ground stability, Balcony
  ![](/src/arch/columns.png) |Columns | Obelisk, Column (europeans order), Pier, Pilaster. (Rhythm > directionality) (forming subspaces, fasades)
  ![](/src/arch/wall.png) |Walls |
- ![](/src/arch/door.png) |Doors | Point of acces, Treshold, Guide to movement- determin the rdirection and scheme of circulation within room
+ ![](/src/arch/door.png) |Doors | Point of access, Threshold, Guide to movement- determine the direction and scheme of circulation within room
  ![](/src/arch/windows.png) |Windows | Air, Light, View, modulation of facade, as scaling element
- ![](/src/arch/stairs.png) |Staircase | As step, As seat, Physical link, Storage, Escalator Ladder Ramp Elevator Straight Spiral Staiecase.  
+ ![](/src/arch/stairs.png) |Staircase | As step, As seat, Physical link, Storage, Escalator Ladder Ramp Elevator Straight Spiral Staircase.  
  ![](/src/arch/roof.png) |Roofs | Spatial Enclosure, Volume modulator. Folded, Curved, Membrane, Frame
 
 Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Portico, Anteroom, Gallery
@@ -64,7 +64,7 @@ Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Por
 - implied by shadow (shadow space )
 - half-roofing
 - platform Schodki (sugerowana),
-- open colonnade   
+- open colonnade  
 
 ## Negative Space
 
@@ -85,7 +85,7 @@ Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Por
 is both the physical and material solid-stuff of the built environment and its void-space. It is meant to capture the relationship between solid form and void-form
 
 - **Plane Layout** - indoor, outdoor, connection
-- **Pace** - change frequency over time by density over sopace (close spaceing make illusion of fast movement) Repetiton and Rythm
+- **Pace** - change frequency over time by density over space (close spacing make illusion of fast movement) Repetition and Rhythm
 
 
 | | |
@@ -123,7 +123,7 @@ Building - ground/horizon relation
 |--|--|
 |Public   |
 |Private | Spatial empathy - personal space
-|Circulation paths | people criculaTION
+|Circulation paths | people circulation
 |Detail / distortions - aesthetic
 
 
@@ -133,7 +133,7 @@ set of layers operating at different timescales
 Shell > Service > Scenery
 [Narration](/narration/)  
 
-# Architekture in games and aaneo0impressionism
+# Architecture in games and  neo impressionism
 https://vol.co/product/anime-architecture/
 https://www.iamag.co/the-art-of-tekkon-kinkreet/
 
