@@ -23,11 +23,6 @@ https://www.britannica.com/topic/motivation/Behavioristic-approaches-to-motivati
 # Terms
 
 
-
-
-
-
-
 ---
 
 
@@ -375,4 +370,4 @@ https://imarketsmart.com/35-amazing-ways-to-engage-and-involve-your-donors-and-s
 
 -------------------
 
-NEW NOT WACHED: 
+NEW NOT WACHED:

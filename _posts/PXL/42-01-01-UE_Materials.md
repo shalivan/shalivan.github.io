@@ -14,6 +14,11 @@ permalink: /umat/
 ---
 
 
+# Blend models
+
+
+- alpha composite
+- alpha holdcut
 
 # Shading models
 
@@ -22,45 +27,29 @@ permalink: /umat/
 |-- | -- | -- | -- |
 |lit
 
+ Subsurface scattering model that works well for skin or thicker surfaces.  
+**sss** -  You can think of this as the color of the matter just beneath the surface of the object, such that when light scatters through the surface, this color will be seen.   
+**Preintegrated Skin** -   cheaper to render than the Subsurface method
+**Subsurface Profile** - is geared towards higher-end skin rendering.
+.
+**2SidedFoliage+** - simulate transmision, for cloath(non solid materials) Materials
+**Hair** - multiple specular highlights: one representing the color of light, and another representing a mix of hair and light color.
 
 
-# Features
-###### Motion Vectors
-
-https://www.sidefx.com/tutorials/create-motion-vectors-for-time-warping-image-sequences/
-
-
-###### 6D Lightmaps.
-
-###### Biplanar projection:    
-
-https://www.shadertoy.com/view/ws3Bzf     
-https://iquilezles.org/www/articles/biplanar/biplanar.htm   
-
-
-IOR: most dielectrics 1.5.
-
-Unreal simplified disney model
-
-
-
-## paralax / wpo
-
-https://youtu.be/kxsQ5m2IAXs
-
-
-.997 < brightest wall. never one !
-
+**cloth** - "fuzz" layer
+**Single Layer Water** - translucent in opaque mode
+**Thin Translucent** - colored glass (background) white specular highlight and the tinted background are needed
 ----
 
 # PBR
 
-Material models:
-
-Metallic / Specular setups
+Material models:  
+- Metallic  
+- Specular setups
 
 
 ## Albedo
+sRGB
 
 Mat | Albedo int U4 | Lagarde tut (linear space)| Control Game |
 -- | -- | -- |-- |
@@ -111,6 +100,11 @@ Diamond | | 2.42
 
 https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/
 
+
+## Refraction
+-  physical model of **Index of Refraction** - but you will have an offset that reads from off screen, shift material glitches can occure.   
+- **Pixel Normal Offset** enables refraction for these large flat surfaces, like water,
+
 ## SSS
 To use this feature, enable Burley in the Subsurface Profile and set the Editor Preview Level to Cinematic. If you're already using Separable SSS profile, minimal changes are required to switch to this method. Note that Burley SSS requires Temporal Anti-Aliasing to work properly.
 
@@ -135,3 +129,34 @@ Surface forward Shading| forward |most expensive. Each light per pixel| glass, w
 
 
 https://marmoset.co/posts/physically-based-rendering-and-you-can-too/
+
+
+# Features
+###### Motion Vectors
+
+https://www.sidefx.com/tutorials/create-motion-vectors-for-time-warping-image-sequences/
+
+
+###### 6D Lightmaps.
+
+###### Biplanar projection:    
+
+https://www.shadertoy.com/view/ws3Bzf     
+https://iquilezles.org/www/articles/biplanar/biplanar.htm   
+
+
+IOR: most dielectrics 1.5.
+
+Unreal simplified disney model
+
+
+
+## paralax / wpo
+
+https://youtu.be/kxsQ5m2IAXs
+
+#### Decals
+
+
+
+.997 < brightest wall. never one !

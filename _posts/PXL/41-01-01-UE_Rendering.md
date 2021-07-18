@@ -348,7 +348,7 @@ reflections (bounces 1)
 
 ---
 
-## Staic Bake
+## Static Bake
 Fog:  
 `Static Light Scatter Intensity`  - intensity of scattered static lighting in the Volumetric Fog.
 Sun:   

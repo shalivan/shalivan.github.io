@@ -126,7 +126,9 @@ NIE OPISANE: z liści high składamy zbrushowa roslinke
   - wygiac przy playerze cardsy troche do kamery  
   - scale anim and size on distance to betere disappear LOD
   - scale grass down on last lod
-  - how fast move depend on sale smooth ramp =x*(in+1))/(x-in)  
+  - how fast move depend on sale `smooth ramp =x*(in+1))/(x-in)`
+- sss
+  -  
 - engine **optimization**
   - cluster foliage, procedural placement system
   - early z pass   

@@ -348,3 +348,7 @@ https://youtu.be/UiOTSKBy6ME
 - rez - game music
 - Edit finth, fish gameplay
 - Half Life2, can to trash tutorial
+
+
+
+https://www.gamasutra.com/view/feature/131508/bsp_collision_detection_as_used_in_.php?print=1

@@ -252,20 +252,21 @@ Hypo campus memory  is not stored as plasticity of synapses only. but is one asp
 
 ## Cone of experience
 
+
 ||Degree of abstraction| remembrance |
 |---|---|---|
-Verbal symbols (Read)| Throu Abstraction (Informations)|  10%   
-Visual Symbols |
-Recordings, Radio and Still Picture (Hear) | Throu Observations (Cognitive)| 20%
-Motion Picture (See& hear) | |40%
-Educational Television |
-Exhibits |
-Field Trip |
-Demonstrations |
-(participate in discussions )
-Dramatized Experience | Learning by doing (motor skills & Attitudes)
-Contrived Experience |
-Direct, Purposeful Experience |Low level of abstraction - concrete and most intensive experience|  90%  
+|Verbal symbols (Read)| Throu Abstraction (Informations)|  10%   
+|Visual Symbols |
+|Recordings, Radio and Still Picture (Hear) | Throu Observations (Cognitive)| 20%
+|Motion Picture (See& hear) | |40%
+|Educational Television |
+|Exhibits |
+|Field Trip |
+|Demonstrations |
+|(participate in discussions )
+|Dramatized Experience | Learning by doing (motor skills & Attitudes)
+|Contrived Experience |
+|Direct, Purposeful Experience |Low level of abstraction - concrete and most intensive experience|  90%  
 
 
 ----
@@ -343,8 +344,6 @@ and biases
 
 
 ---
-
-
 
 
 

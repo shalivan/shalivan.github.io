@@ -13,16 +13,14 @@ permalink: /procedural/
 
 
 
-VFX
-http://teres4enko.blogspot.com/
 
 
 
 
+[GenerativeArtistry.com](https://generativeartistry.com/tutorials/)
 
 
-
-https://bleuje.github.io/tutorials/
+[Processing software](https://bleuje.github.io/tutorials/)
 
 Computational Design    
 generative art -  complex systems (ecosystem, cities, cells ect.. )  
