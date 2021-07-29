@@ -285,6 +285,7 @@ Casual
 - Arcade
   - Platformer, Idler, Shoot / Beat'em Up, Tower defense, Board Games,
   - Roguelike (permadeath, no save of progress) [YT](https://www.youtube.com/channel/UCKv_QzXft4mD6TXmQBZtzIA/videos)
+  - Hack'n'slash ??
 - Haptic - Tap, Steer, Swipe/Drag, AR
 - Location Based / AR -  
 

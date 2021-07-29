@@ -13,33 +13,65 @@ permalink: /uoptimization/
 ---
 
 
-
 # Render pipeline  
+1000 ms in 1 sek = 1000/30 = 33,3 ms to render frame
 
 ---
 
 ## Forward
 
+...
+
+
+
+
+
 ---
 
 ## Deferred
 
-##### Game thread
-- game logic and transforms movement spawning physics
-- ticks !!!
-
-##### Draw thread
-- Frustum culling  - in cam    
-- Hardware occlusion from  scene buffers   
-(Too many obj can hit performance)
-
-##### GPU thread
-
-.
 
 1. Before render: CPU game context   
 2. Before render: CPU (mostly) what to render  
 3. Render: GPU  render pixel on screen
+
+Check if time of frame is bigger from CPU or GPU. (cause threads must wait one for another)
+
+`StartFPSChart` / `StopFPSChart`    
+`Stat fps` / `Stat Unit` / `Stat UnitGraph`    
+
+
+### Game thread  - CPU code
+- Game logic , Tick and transforms movement spawning physics
+
+`stat game` - generally how things ticks on CPU
+
+### Draw thread - CPU graphic
+- Frustum culling  - in cam    
+- Hardware occlusion from  scene buffers   
+(Too many obj can hit performance)
+
+SceneRendering - Call count and ms table with: *Draw calls*, *Triangle count*, *Light count*, *Translucency*
+
+`Stat SceneRendering`     
+ - RenderViewFamily -
+ - GatherRayTracingWorldInstances -  
+ - InitViewa -
+ - DynamicShadow -  
+ - RenderQuery Resoult -   
+
+`Stat SceneUpdate `  
+ - UpdatePrimitive -  
+  
+`Stat SceneMemory`    
+ - PrimitiveMemory -  
+ - SceneMemory -
+ - Rendering Mem stack memory -
+
+
+
+### GPU thread - GPU usage  
+
 
 
 1. vertex shader   
@@ -47,7 +79,24 @@ permalink: /uoptimization/
 3. geometry shader  
 4. pixel shader  
 
-####    
+
+
+`ProfileGPU` -  
+
+
+`Ctrl` + `Shift` + `,` -  GPU Visualizer window (Single frame on gpu)  you can dump it to log      
+`Stat GPU` -  split rendering to passes Basepass, Translucency, Lights, Prepass.... Slate HZB ... Fog [Oskar, fix stat gpu](https://youtu.be/SXLYy6D1y80?t=603)   
+
+RHI - memory and so on...   affected by editor!    
+
+`Stat RHI`   
+`r.rhicmdbypass 1`   
+`r.rhithread.enable 0`   
+`r.showmaterialdrawevents -1`   
+
+
+
+###  Render passes  
 
 | Render passes |  | dependences
 | -- | -- | -- |
@@ -60,20 +109,17 @@ permalink: /uoptimization/
 `ShadowProjection`|
 `PrePass_DDM` opaque Early depth| AO, culling, DBuffers.| Tricount of opaque, early-z settings   
 `HZB` hierarchical Z-buffer|   Culling and SSRT (refl, AO)  | huge in editor cost !!
-`Base pass` G-buffers (compo) | Fog, Dbuff-decals| Trixcount + Shader complexity, num of mats.  
-`Translucency` | | Area of translucy, overdraw, (in FSR: light count)  
-`PartilceSimulation / Injection` | Scene depth collisions.| num of particles  
+`Base pass` G-buffers (compo) | Fog, Dbuff-decals| Trixcount + Shader complexity, number of mats.  
+`Translucency` | | Area of translucency, overdraw, (in FSR: light count)  
+`PartilceSimulation / Injection` | Scene depth collisions.| number of particles  
 `PostProcessing` | Temporal, Exposure ..| PP features, and  blendables   
 `RenderVelocities` | |Num of moving objects and tri-count!
 `ScreenSpaceReflectiion` ||  (cost increaase with rough),
 
 
 # Bottlenecks
-Workflow
-- Check if time of frame is bigger from CPU or GPU. (cause threads must wait one for another)
 
-Optimization
-- Shader complexity on **Opacity**    
+- Shaders complexity on **Opacity**    
 - **Draw Calls** - command send       
 - Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)    
 - **Shadow Casting** -    
@@ -203,60 +249,6 @@ r.defaultfeature.antialiasing 0
 freezrendering
 show bounds
 show collisions
-```
-
-
-##### Stat unit
-
-Frame (FPS)  
-Game - CPU code
-Draw - CPU graphic   
-GPU - GPU usage  
-
-```
-Stat fps
-StartFPSChart / StopFPSChart
-Stat Unit
-Stat UnitGraph
-```
-
-
-##### CPU
-
-```
-stat game -- generaly how things rticks on CPU
-```
-
-##### GPU
-`Ctrl` + `Shift` + `,` -  GPU Visualiser window (Single frame on gpu)  you can dump it to log  
-```
-ProfileGPU
-```
-
-GPU - Small table     If not working (https://youtu.be/SXLYy6D1y80?t=603).       
-
-
-```
-Stat GPU
-
-```
-RHI - memory and so on...   affected by editor!    
-
-```
-Stat RHI
-r.rhicmdbypass 1
-r.rhithread.enable 0
-r.showmaterialdrawevents -1
-```
-
-
-
-##### Stats
-SceneRendering - Call count and ms table with: *Draw calls*, *Triangle count*, *Light count*, *Translucency*
-```   
-Stat SceneRendering    
-Stat SceneUpdate  
-Stat SceneMemory   
 ```
 
 

@@ -68,14 +68,14 @@ That's because the fundamental concept you create in advance will drive the acti
 
 
 ##  Story
-**Story  tells who and what** - (Circumstances) - Series of events recorded in their chronological order,  sequence of events. Story includes all of the events described that make up a narrative.  What is the topic, what are the issue. Story is more than one idea.
+**Story  tells who and what** - (Internal conflict why it matters, why it matters how change the character ) (Circumstances) - Series of events recorded in their chronological order,  sequence of events. Story includes all of the events described that make up a narrative.  What is the topic, what are the issue. Story is more than one idea.
 
 
   - Unique story or have a twist or something to say.    
   - To what extent do circumstances affect the nature of actions?
 
 ##  Plot
-**Plot tells how** - (Action) -  With story in mind, you can decide how to plot it. Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.
+**Plot tells how** -  (External, what happened) (Action) -  With story in mind, you can decide how to plot it. Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.
 
 - **Umbrella plot**  we will do x because core plot of genre
 
@@ -474,11 +474,11 @@ Objective Truth | Subjective Truth
 
 #  Motifs
 
+When cliché is well executed is not a cliché / cliché is when its not driving us to the point  
 
-- hope overcome fear
+
+- Desire vs Fear - hope overcome fear
 - cos co dzialao przestalo dzialac
-- when cliché is well executed is not a cliché / cliché is when its not driving us to the point  
-
 
 
 
@@ -564,7 +564,6 @@ puzzle
 
 
 [Human Motivation](/motivation/)  
-
 
 
 ---

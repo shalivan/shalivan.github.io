@@ -24,7 +24,7 @@ Mathematical study of optimizing agents strategies in games with more than one p
 3. Reach conclusion
 
 
-Game theory to work need rational actors 
+Game theory to work need rational actors
 
 [Human Behavioral Biology](/humbio1/)   
 [Personality](/personality/)  
@@ -280,7 +280,7 @@ A>B>C
 
 ||Letter to act - better.|||
 |-|-|-|-|
-Small Blind | "out of position" | Early position | wide open-rise range. all figures, all suited and sudoconnectors  
+Small Blind | "out of position" | Early position | wide open-rise range. all figures, all suited and sudoconnectors  (tight is right)
 Big Blind | defending range calling range 40%  (no AA KK QQ - because it wuld be rerange )  play garbage hands (range advantage) | Early position
 Under The Gun | | Act first  
 Under The Gun +1  | | Mid positions
