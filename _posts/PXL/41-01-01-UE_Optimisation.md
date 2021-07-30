@@ -12,23 +12,20 @@ tags:
 permalink: /uoptimization/
 ---
 
+Separate translucency
 
-# Render pipeline  
 1000 ms in 1 sek = 1000/30 = 33,3 ms to render frame
 
 ---
 
-## Forward
+# Forward Render pipeline  
 
 ...
 
 
-
-
-
 ---
 
-## Deferred
+# Deferred Render pipeline  
 
 
 1. Before render: CPU game context   
@@ -40,18 +37,26 @@ Check if time of frame is bigger from CPU or GPU. (cause threads must wait one f
 `StartFPSChart` / `StopFPSChart`    
 `Stat fps` / `Stat Unit` / `Stat UnitGraph`    
 
+---
 
-### Game thread  - CPU code
+## Game thread (code)
+CPU code
 - Game logic , Tick and transforms movement spawning physics
 
-`stat game` - generally how things ticks on CPU
+`Stat game` - generally how things ticks on CPU
+ - World Tick
+ - Blueprints
 
-### Draw thread - CPU graphic
+---
+
+## Draw thread (graphics)
+CPU graphic
+(Too many obj can hit performance)  
 - Frustum culling  - in cam    
 - Hardware occlusion from  scene buffers   
-(Too many obj can hit performance)
 
-SceneRendering - Call count and ms table with: *Draw calls*, *Triangle count*, *Light count*, *Translucency*
+
+Call count and ms table with: *Draw calls*, *Triangle count*, *Light count*, *Translucency*
 
 `Stat SceneRendering`     
  - RenderViewFamily -
@@ -62,15 +67,16 @@ SceneRendering - Call count and ms table with: *Draw calls*, *Triangle count*, *
 
 `Stat SceneUpdate `  
  - UpdatePrimitive -  
-  
+
 `Stat SceneMemory`    
  - PrimitiveMemory -  
  - SceneMemory -
  - Rendering Mem stack memory -
 
+---
 
-
-### GPU thread - GPU usage  
+## GPU thread
+GPU usage  
 
 
 
@@ -79,22 +85,51 @@ SceneRendering - Call count and ms table with: *Draw calls*, *Triangle count*, *
 3. geometry shader  
 4. pixel shader  
 
+`Stat GPU`
+ - Basepass  
+ - Translucency  
+ - Lights
+ - Prepass
+ - Slate HZB
+ - Fog [Oskar, fix stat gpu](https://youtu.be/SXLYy6D1y80?t=603)   
 
 
-`ProfileGPU` -  
+ RHI - memory and so on...   affected by editor!    
+
+ `Stat RHI`   
+ `r.rhicmdbypass 1`   
+ `r.rhithread.enable 0`   
+ `r.showmaterialdrawevents -1`   
 
 
-`Ctrl` + `Shift` + `,` -  GPU Visualizer window (Single frame on gpu)  you can dump it to log      
-`Stat GPU` -  split rendering to passes Basepass, Translucency, Lights, Prepass.... Slate HZB ... Fog [Oskar, fix stat gpu](https://youtu.be/SXLYy6D1y80?t=603)   
-
-RHI - memory and so on...   affected by editor!    
-
-`Stat RHI`   
-`r.rhicmdbypass 1`   
-`r.rhithread.enable 0`   
-`r.showmaterialdrawevents -1`   
 
 
+
+`ProfileGPU` -  `Ctrl` + `Shift` + `,` -  GPU Visualizer window (Single frame on gpu)  you can dump it to log      
+
+You can adjust r.EarlyZPass to see if your scene would benefit from a full early Z pass (more draw calls, less overdraw during base pass).
+
+- EarlyZPass: By default we use a partial z pass. DBuffer decals require a full Z Pass. This can be customized with r.EarlyZPass and r.EarlyZPassMovable.
+
+- Base Pass: When using deferred, simple materials can be bandwidth bound. Actual vertex and pixel shader is defined in the material graph. There is an additional cost for indirect lighting on dynamic objects.
+
+- Shadow map rendering: Actual vertex and pixel shader is defined in the material graph. The pixel shader is only used for masked or translucent materials.
+
+- Shadow projection/filtering: Adjust the shader cost with r.ShadowQuality.Disable shadow casting on most lights. Consider static or stationary lights.
+
+- Occlusion culling: HZB occlusion has a high constant cost but a smaller per object cost. Toggle r.HZBOcclusion to see if you do better without it on.
+
+- Deferred lighting: This scales with the pixels touched, and is more expensive with light functions, IES profiles, shadow receiving, area lights, and complex shading models.
+
+- Tiled deferred lighting: Toggle r.TiledDeferredShading to disable GPU lights, or use r.TiledDeferredShading.MinimumCount to define when to use the tiled method or the non-deferred method.
+
+- Environment reflections: Toggle r.NoTiledReflections to use the non-tiled method which is usually slower unless you have very few probes.
+
+- Ambient occlusion: Quality can be adjusted, and you can use multiple passes for efficient large effects.
+
+- Post processing: Some passes are shared, so toggle show flags to see if the effect is worth the performance.
+
+---
 
 ###  Render passes  
 
@@ -227,19 +262,30 @@ https://developer.nvidia.com/gameworksdownload
 
 ##### Show commands
 
+|||
+|--|--|
+`Show StaticMeshes` |
+`Show SkeletalMeshes` |
+`Show Particles` |
+`Show Lighting` |
+`Show Translucency` |
+`Show ReflectionEnvironment` |
+`Show InstancedStaticMeshes` |
+`Show Landscape` |
+`Show Fog` |
+`Show MotionBlur` |
+`Show ScreenSpaceReflections` | Toggles screen space reflections, can cost a lot of performance, only affects pixels up to a certain roughness (adjusted with r.SSR.MaxRoughness or in postprocess settings).
+`Show AmbientOcclusion` |
+`Show DirectionalLights PointLights SpotLights` |
+`Show DynamicShadows` |
+`Show GlobalIllumination` |
+`Show LightFunctions` |
+`Show PostProcessing` |
+`Show ReflectionEnvironment` |
+`Show Rendering` |
+`Show Tessellation` |
 
-```
-ShowFlag.StaticMeshes
-ShowFlag.SkeletalMeshes
-ShowFlag.Particles
-ShowFlag.Lighting
-ShowFlag.Translucency
-ShowFlag.ReflectionEnvironment
-ShowFlag.InstancedStaticMeshes
-show landscape
-show fog
-show MotionBlur
-```
+
 ```
 r.screenPercentage
 r.SetRes 1920x1080f
