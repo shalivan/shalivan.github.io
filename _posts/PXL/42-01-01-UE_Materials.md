@@ -130,6 +130,35 @@ Surface forward Shading| forward |most expensive. Each light per pixel| glass, w
 
 https://marmoset.co/posts/physically-based-rendering-and-you-can-too/
 
+# Decals
+
+There are 11 blend modes that decals can use:
+
+Translucent - Can use Diffuse, Metallic, Specular, Roughness, Emissive, Opacity, and Normal.
+
+Stain - Is a modulate type blend with Diffuse and Opacity.
+
+Normal - Uses the Opacity and Normal channels and only affects the Normal map layer it is projecting on.
+
+Emissive - Uses Emissive and Opacity only.
+
+Volumetric Distance Function - Use the output of signed distance in Opacity depending on Light Vector.
+
+The DBuffer decals can be used with lighting. These are not on by default and must be enabled in the Project Settings > Rendering section.
+
+DBuffer Translucent Color, Normal, Roughness - This is non-metallic and will use the Color, Opacity, Roughness, and Normal to work with baked lighting.
+
+DBuffer Translucent Color - This is non-metallic and will use only the Color and Opacity to work with baked lighting.
+
+DBuffer Translucent Color, Normal - This is non-metallic and will use the Color and Normal to work with baked lighting.
+
+DBuffer Translucent Color, Roughness - This is non-metallic and will use the Color and Roughness to work with baked lighting.
+
+DBuffer Translucent Normal - This will only use the Opacity and Normal channels to work with baked lighting.
+
+DBuffer Translucent Normal, Roughness - This will only use the Roughness, Opacity, and Normal to work with baked lighting.
+
+DBuffer Translucent Roughness - This will only use the Roughness and Opacity to work with baked lighting.
 
 # Features
 ###### Motion Vectors

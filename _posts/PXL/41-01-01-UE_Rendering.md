@@ -331,7 +331,9 @@ r.VT.borders 1
 ---
 
 
-
+DFAO, HFGI, Raytraced Soft
+Distance Field Soft Shadows
+Distance Field Ambient Occlusion
 
 
 # Ray trace light

@@ -200,6 +200,6 @@ Book by Mark Spitznagel
 
 
 
-
+rywkin - 3 rewolucja przemysłowa
 
 Christopher Booker    

@@ -11,7 +11,7 @@ permalink: /lighting/
 ---
 
 
-
+one of the most important and influential elements i
 
 # Properties of Light Source
 

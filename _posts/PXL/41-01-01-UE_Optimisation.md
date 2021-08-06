@@ -185,7 +185,7 @@ basepass. canvasDrawTile, Post, Shadow Depths. Prepass< DLSS  Global DistanceFie
  `Show Tessellation` |
 
 
-### Shader Complexity 
+### Shader Complexity
 
 ### Light Complexity
 
@@ -218,23 +218,32 @@ steraming pool
 
 # Bottlenecks
 
+
+https://zhuanlan.zhihu.com/p/36851846  
+
+
+Game thread:    
+- more complicated construction script more expensive to spawn!
+- Animation fast path,. more lighting icons in anim BPO better.
+
+Draw Thread:   
+- **Draw Calls** - command send , combine models, not too big cause: occlusion, collision, memory  
+- number of obj  (10-15+ k obj can cause problem)      
+
+GPU:  
+- Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)  
 - Shaders complexity on **Opacity**    
-- Draw Thread: **Draw Calls** - command send , combine models, not too big cause: occlusion, collision, memory   
-- GPU: Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)    
-- **Shadow Casting** -    
-- **Splits on uvs** adds to vertex count - (memory and disk space)    
+- **Shadow Casting** -  
 - **Too many texture samples** - use bandwidth (compression and texture packing to channels help)   
+
+Assets:  
+- **Splits on uvs** adds to vertex count - (memory and disk space)
 - **Too many vertex attributes** - (extra UV channels)
-Assets
 - precise uv
 - colision setup
 - affect navmesh
 - shadow distances and turn off for small
 - tick  
-Game thr:  
-- more complicated construction script more expensive to spawn!
-- Animation fast path,. more lighting icons in anim BPO better.
-- number of obj  (10-15+ k obj can cause problem)    
 ---
 
 # Debug

@@ -62,6 +62,8 @@ Backticks ``` ` ``` are for use in a string field: group input, name sop. (when 
 
 - ``` `detail(-1,"iteration",0)` ```
 
+- `i@index = (int)fit01(rand(detail(1,"iteration",0)*1234),0,11);` - randomise int in range. in prim wrangle (1 in: flow, 2 in metadata) (in switch: `prim(0,0,"index",0)`)
+
 ## [Name] SOP
 - ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for   
 
