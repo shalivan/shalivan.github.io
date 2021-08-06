@@ -16,6 +16,10 @@ Separate translucency
 
 1000 ms in 1 sek = 1000/30 = 33,3 ms to render frame
 
+
+[Unreal Optimisation Guide](https://unrealartoptimization.github.io/book/pipelines/forward-vs-deferred)
+
+
 ---
 
 # Forward Render pipeline  
@@ -28,6 +32,8 @@ Separate translucency
 # Deferred Render pipeline  
 
 
+All lights are applied deferred in Unreal Engine 4, as opposed to the forward lighting path used in Unreal Engine 3. Materials write out their attributes into the GBuffers, and lighting passes read in the per-pixel material properties and perform lighting with them.
+
 1. Before render: CPU game context   
 2. Before render: CPU (mostly) what to render  
 3. Render: GPU  render pixel on screen
@@ -38,107 +44,6 @@ Check if time of frame is bigger from CPU or GPU. (cause threads must wait one f
 `Stat fps` / `Stat Unit` / `Stat UnitGraph`    
 
 Garbage Collector
-
-## Game thread
-CPU code
-- Game logic , Tick and transforms movement spawning physics
-
-`Stat game` - generally how things ticks on CPU
- - World Tick
- - Blueprints
-
-
-## Draw thread
-CPU graphic thread
-(Too many obj can hit performance)  
-- Frustum culling  - in cam    
-- Hardware occlusion from  scene buffers   
-
-### Draw calls
-
-Instancing a mesh provides performance benefits even if the total number of draw calls does not reflect that
-
-Using Instances bring up the Stat UNIT and watch the DRAW versus GPU (CPU vGPU) and notice when you instance a mesh the CPU time remains fairly consistent depending on the additional information you are wanting to pass to each instance, while the GPU will increase. All of these numbers are still dependent on the size of your mesh and the type of material setup and the ultimate limitations of your CPU and GPU. [src](https://answers.unrealengine.com/questions/127435/using-instanced-meshes-doesnt-reduce-draw-calls.html)  
-Instanced meshes will reduce the draw call overhead on the CPU but will not reduce the GPU cost.
-- only way to group meshes into one draw call is by using instanced meshes
-- Meshes using the same material/instance will still take one draw call each
- - 3 meshes using the same material: set shader, draw mesh #1, draw mesh #2, draw mesh #3  
- - 3 meshes using a different material each: set shader #1, draw mesh #1, set shader #2, draw mesh #2, set shader #3, draw mesh #3  
-
-
-
-> Instancing being a special case of batching. With a scene rendered with many small or simple objects each with only a few triangles, the performance is entirely CPU-bound by the API; the GPU has no ability to increase it. More precisely, "the processing time on the CPU for the draw call is greater than the amount of time the GPU takes to actually draw the mesh, so the GPU is starved." [Moeller, Real Time Rendering, 708]. So Batching attempts to allow the CPU to combine a number of objects into a single API call. In the case of Instancing it is the one mesh and the number of times you are drawing with a separate data structure for holding information about each separate mesh.
-
-
-
-
-### Light count
-
-### Triangle count
-
-### Translucency
-
-### Resolution
-
-`Stat SceneRendering`     
- - RenderViewFamily -
- - GatherRayTracingWorldInstances -  
- - InitViewa -
- - DynamicShadow -  
- - RenderQuery Resoult -   
-
-`Stat SceneUpdate `  
- - UpdatePrimitive -  
-
-`Stat SceneMemory`    
- - PrimitiveMemory -  
- - SceneMemory -
- - Rendering Mem stack memory -
-
-
-## GPU thread
-
-
-1. vertex shader   
-2. tessellation   
-3. geometry shader  
-4. pixel shader  
-
-`Stat GPU`
- - Base pass  
- - Translucency  
- - Lights
- - Pre pass
- - Slate HZB
- - Fog [Oskar, fix stat gpu](https://youtu.be/SXLYy6D1y80?t=603)   
-
-
- RHI - memory and so on...   affected by editor!    
-
- `Stat RHI`   
- `r.rhicmdbypass 1`   
- `r.rhithread.enable 0`   
- `r.showmaterialdrawevents -1`   
-
-
-
-
-
-`ProfileGPU` -  `Ctrl` + `Shift` + `,` -  GPU Visualizer window (Single frame on gpu)  you can dump it to log      
-
-- **EarlyZPass** - (default: partial z pass). DBuffer decals require a full Z Pass `r.EarlyZPass` (more draw calls, less overdraw during base pass).
-- **Base Pass** - When using deferred, simple materials can be bandwidth bound. Actual vertex and pixel shader is defined in the material graph. There is an additional cost for indirect lighting on dynamic objects.
-- **Shadow map** -  Actual vertex and pixel shader is defined in the material graph. The pixel shader is only used for masked or translucent materials.
-- **Shadow projection/filtering** - Adjust the shader cost with r.ShadowQuality.Disable shadow casting on most lights. Consider static or stationary lights.
-- **Occlusion culling** - `HZB` occlusion has a high constant cost but a smaller per object cost. Toggle `r.HZBOcclusion` to see if you do better without it on.
-- **Deferred lighting** - This scales with the pixels touched, and is more expensive with light functions, IES profiles, shadow receiving, area lights, and complex shading models.
-- **Tiled deferred lighting** - Toggle `r.TiledDeferredShading` to disable GPU lights, or use `r.TiledDeferredShading.MinimumCount` to define when to use the tiled method or the non-deferred method.
-- **Environment reflections** - Toggle `r.NoTiledReflections` to use the non-tiled method which is usually slower unless you have very few probes.
-- **Ambient occlusion** - Quality can be adjusted, and you can use multiple passes for efficient large effects.
-- **Post processing** - Some passes are shared, so toggle show flags to see if the effect is worth the performance.
-
-
----
 
 ###  Render passes  
 
@@ -161,27 +66,180 @@ Instanced meshes will reduce the draw call overhead on the CPU but will not redu
 `ScreenSpaceReflectiion` ||  (cost increaase with rough),
 
 
+
+## Game thread
+CPU code - Game logic , Tick and transforms movement spawning physics, positions, AI.
+
+`Stat game` - generally how things ticks on CPU
+ - World Tick - check actors ticking in scene  consider timers, toggling, reduce intervals, use dispatchers. Move to C++
+ - Blueprints - construction script > longer time to spawn
+
+`dumpticks` - command to show detailed tick list
+
+
+
+## Draw thread
+CPU graphic render thread. Will cull things not in cam,  create list. critical in open enviros.
+(10-15+ k obj can cause problem)   
+- Frustum culling  - in cam
+- Hardware occlusion from  scene buffers   
+
+`Stat SceneRendering`     
+ - RenderViewFamily -
+ - GatherRayTracingWorldInstances -  
+ - InitViewa -
+ - DynamicShadow -  
+ - RenderQuery Resoult -   
+
+`Stat SceneUpdate `  
+ - UpdatePrimitive -  
+
+`Stat SceneMemory`    
+ - PrimitiveMemory -  
+ - SceneMemory -
+ - Rendering Mem stack memory -
+
+### Draw calls
+Fixed cost per call. bigger then polycount.
+
+Instancing a mesh provides performance benefits even if the total number of draw calls does not reflect that
+
+Using Instances bring up the Stat UNIT and watch the DRAW versus GPU (CPU vGPU) and notice when you instance a mesh the CPU time remains fairly consistent depending on the additional information you are wanting to pass to each instance, while the GPU will increase. All of these numbers are still dependent on the size of your mesh and the type of material setup and the ultimate limitations of your CPU and GPU. [src](https://answers.unrealengine.com/questions/127435/using-instanced-meshes-doesnt-reduce-draw-calls.html)  
+Instanced meshes will reduce the draw call overhead on the CPU but will not reduce the GPU cost.
+- only way to group meshes into one draw call is by using instanced meshes
+- Meshes using the same material/instance will still take one draw call each
+ - 3 meshes using the same material: set shader, draw mesh #1, draw mesh #2, draw mesh #3  
+ - 3 meshes using a different material each: set shader #1, draw mesh #1, set shader #2, draw mesh #2, set shader #3, draw mesh #3  
+
+
+
+> Instancing being a special case of batching. With a scene rendered with many small or simple objects each with only a few triangles, the performance is entirely CPU-bound by the API; the GPU has no ability to increase it. More precisely, "the processing time on the CPU for the draw call is greater than the amount of time the GPU takes to actually draw the mesh, so the GPU is starved." [Moeller, Real Time Rendering, 708]. So Batching attempts to allow the CPU to combine a number of objects into a single API call. In the case of Instancing it is the one mesh and the number of times you are drawing with a separate data structure for holding information about each separate mesh.
+
+
+
+
+
+
+
+## GPU thread
+GPU graphic render thread. Draw final frame.
+
+1. vertex shader   
+2. tessellation   
+3. geometry shader  
+4. pixel shader  
+
+
+`Stat GPU`
+
+basepass. canvasDrawTile, Post, Shadow Depths. Prepass< DLSS  Global DistanceFieldUpdate, Volumetric Fog, DOF, Translucency, Lights, Comp Prelight,
+
+
+`ProfileGPU` -  `Ctrl` + `Shift` + `,` -  GPU Visualizer window (Single frame on gpu)  you can dump it to log      
+
+- Pre pass
+- **EarlyZPass** - (default: partial z pass). DBuffer decals require a full Z Pass `r.EarlyZPass` (more draw calls, less overdraw during base pass).
+- **Base Pass** - When using deferred, simple materials can be bandwidth bound. Actual vertex and pixel shader is defined in the material graph. There is an additional cost for indirect lighting on dynamic objects.
+   - StaticOpaqueNoLightmap - Cost of rendering meshes with Opaque material and dynamic light.
+   - StaticMaskedNoLightmap - Cost of rendering meshes with Masked material and dynamic light.
+   - StaticOpaqueLightmapped - Cost of rendering meshes with Opaque material and static lightmap textures.
+   - StaticMaskedLightmapped - Cost of rendering meshes with Masked material and static lightmap textures.  
+- **Shadow map** -  Actual vertex and pixel shader is defined in the material graph. The pixel shader is only used for masked or translucent materials.
+- **Shadow projection/filtering** - Adjust the shader cost with r.ShadowQuality.Disable shadow casting on most lights. Consider static or stationary lights.
+- **HZB** - Occlusion culling occlusion has a high constant cost but a smaller per object cost. Toggle `r.HZBOcclusion` to see if you do better without it on.
+- **Deferred lighting** - This scales with the pixels touched, and is more expensive with light functions, IES profiles, shadow receiving, area lights, and complex shading models.
+- **Tiled deferred lighting** - Toggle `r.TiledDeferredShading` to disable GPU lights, or use `r.TiledDeferredShading.MinimumCount` to define when to use the tiled method or the non-deferred method.
+- **Environment reflections** - Toggle `r.NoTiledReflections` to use the non-tiled method which is usually slower unless you have very few probes.
+- **Ambient occlusion** - Quality can be adjusted, and you can use multiple passes for efficient large effects.
+- **Post processing** - Some passes are shared, so toggle show flags to see if the effect is worth the performance.
+- Translucency  
+- Lights
+- Fog [Oskar, fix stat gpu](https://youtu.be/SXLYy6D1y80?t=603)   
+
+
+
+
+ Turn off features to profile:
+
+ |||
+ |--|--|
+ `Show StaticMeshes` |
+ `Show SkeletalMeshes` |
+ `Show Particles` |
+ `Show Lighting` |
+ `Show Translucency` |
+ `Show ReflectionEnvironment` |
+ `Show InstancedStaticMeshes` |
+ `Show Landscape` |
+ `Show Fog` |
+ `Show MotionBlur` |
+ `Show ScreenSpaceReflections` | Toggles screen space reflections, can cost a lot of performance, only affects pixels up to a certain roughness (adjusted with r.SSR.MaxRoughness or in postprocess settings).
+ `Show AmbientOcclusion` |
+ `Show DirectionalLights PointLights SpotLights` |
+ `Show DynamicShadows` |
+ `Show GlobalIllumination` |
+ `Show LightFunctions` |
+ `Show PostProcessing` |
+ `Show ReflectionEnvironment` |
+ `Show Rendering` |
+ `Show Tessellation` |
+
+
+### Shader Complexity 
+
+### Light Complexity
+
+`ShowFlag.LightComplexity` -
+minimize radii
+Watch stationary light overlap
+- Cull lights and shadows
+
+## Memory
+
+
+ RHI - memory and so on...   affected by editor!    
+
+ `Stat RHI`   
+ `r.rhicmdbypass 1`   
+ `r.rhithread.enable 0`   
+ `r.showmaterialdrawevents -1`   
+
+
+cache   
+cpu upload mem  
+disk  
+steraming pool    
+
+
+
+---
+
+
+
 # Bottlenecks
 
 - Shaders complexity on **Opacity**    
-- **Draw Calls** - command send       
-- Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)    
+- Draw Thread: **Draw Calls** - command send , combine models, not too big cause: occlusion, collision, memory   
+- GPU: Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)    
 - **Shadow Casting** -    
 - **Splits on uvs** adds to vertex count - (memory and disk space)    
 - **Too many texture samples** - use bandwidth (compression and texture packing to channels help)   
-
+- **Too many vertex attributes** - (extra UV channels)
 Assets
 - precise uv
 - colision setup
 - affect navmesh
 - shadow distances and turn off for small
 - tick  
-
+Game thr:  
+- more complicated construction script more expensive to spawn!
+- Animation fast path,. more lighting icons in anim BPO better.
+- number of obj  (10-15+ k obj can cause problem)    
 ---
 
 # Debug
 
-####  Prepear for Drbug
+####  Prepper for Debug
 
 - Measure performance in **ms**    
 - project settings > disable **smooth framerate**
@@ -209,18 +267,19 @@ Assets
 Window > Statistics - Textures used   
 
 ###  Session Frontend
->*CPU* + *GPU* same time, (you can load files from sessions)  
+*CPU* + *GPU* same time, (you can load files from sessions `stat Startfile`, `stat Stopfile`)  
 Window > DevTools > `Session Frontend`     
 
 
 
 ### Visual Logger
-[VisLog]
+[VisLog](https://docs.unrealengine.com/4.26/en-US/TestingAndOptimization/VisualLogger/)
 
 ---
 
 ## Unreal Insights
-Standalone profiling system
+Standalone profiling system. Smaler impact on execution.
+
 
 ---
 
@@ -271,28 +330,6 @@ https://developer.nvidia.com/gameworksdownload
 
 ##### Show commands
 
-|||
-|--|--|
-`Show StaticMeshes` |
-`Show SkeletalMeshes` |
-`Show Particles` |
-`Show Lighting` |
-`Show Translucency` |
-`Show ReflectionEnvironment` |
-`Show InstancedStaticMeshes` |
-`Show Landscape` |
-`Show Fog` |
-`Show MotionBlur` |
-`Show ScreenSpaceReflections` | Toggles screen space reflections, can cost a lot of performance, only affects pixels up to a certain roughness (adjusted with r.SSR.MaxRoughness or in postprocess settings).
-`Show AmbientOcclusion` |
-`Show DirectionalLights PointLights SpotLights` |
-`Show DynamicShadows` |
-`Show GlobalIllumination` |
-`Show LightFunctions` |
-`Show PostProcessing` |
-`Show ReflectionEnvironment` |
-`Show Rendering` |
-`Show Tessellation` |
 
 
 ```
