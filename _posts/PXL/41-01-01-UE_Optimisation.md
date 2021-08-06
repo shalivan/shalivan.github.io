@@ -37,9 +37,9 @@ Check if time of frame is bigger from CPU or GPU. (cause threads must wait one f
 `StartFPSChart` / `StopFPSChart`    
 `Stat fps` / `Stat Unit` / `Stat UnitGraph`    
 
----
+Garbage Collector
 
-## Game thread (code)
+## Game thread
 CPU code
 - Game logic , Tick and transforms movement spawning physics
 
@@ -47,16 +47,38 @@ CPU code
  - World Tick
  - Blueprints
 
----
 
-## Draw thread (graphics)
-CPU graphic
+## Draw thread
+CPU graphic thread
 (Too many obj can hit performance)  
 - Frustum culling  - in cam    
 - Hardware occlusion from  scene buffers   
 
+### Draw calls
 
-Call count and ms table with: *Draw calls*, *Triangle count*, *Light count*, *Translucency*
+Instancing a mesh provides performance benefits even if the total number of draw calls does not reflect that
+
+Using Instances bring up the Stat UNIT and watch the DRAW versus GPU (CPU vGPU) and notice when you instance a mesh the CPU time remains fairly consistent depending on the additional information you are wanting to pass to each instance, while the GPU will increase. All of these numbers are still dependent on the size of your mesh and the type of material setup and the ultimate limitations of your CPU and GPU. [src](https://answers.unrealengine.com/questions/127435/using-instanced-meshes-doesnt-reduce-draw-calls.html)  
+Instanced meshes will reduce the draw call overhead on the CPU but will not reduce the GPU cost.
+- only way to group meshes into one draw call is by using instanced meshes
+- Meshes using the same material/instance will still take one draw call each
+ - 3 meshes using the same material: set shader, draw mesh #1, draw mesh #2, draw mesh #3  
+ - 3 meshes using a different material each: set shader #1, draw mesh #1, set shader #2, draw mesh #2, set shader #3, draw mesh #3  
+
+
+
+> Instancing being a special case of batching. With a scene rendered with many small or simple objects each with only a few triangles, the performance is entirely CPU-bound by the API; the GPU has no ability to increase it. More precisely, "the processing time on the CPU for the draw call is greater than the amount of time the GPU takes to actually draw the mesh, so the GPU is starved." [Moeller, Real Time Rendering, 708]. So Batching attempts to allow the CPU to combine a number of objects into a single API call. In the case of Instancing it is the one mesh and the number of times you are drawing with a separate data structure for holding information about each separate mesh.
+
+
+
+
+### Light count
+
+### Triangle count
+
+### Translucency
+
+### Resolution
 
 `Stat SceneRendering`     
  - RenderViewFamily -
@@ -73,11 +95,8 @@ Call count and ms table with: *Draw calls*, *Triangle count*, *Light count*, *Tr
  - SceneMemory -
  - Rendering Mem stack memory -
 
----
 
 ## GPU thread
-GPU usage  
-
 
 
 1. vertex shader   
@@ -86,10 +105,10 @@ GPU usage
 4. pixel shader  
 
 `Stat GPU`
- - Basepass  
+ - Base pass  
  - Translucency  
  - Lights
- - Prepass
+ - Pre pass
  - Slate HZB
  - Fog [Oskar, fix stat gpu](https://youtu.be/SXLYy6D1y80?t=603)   
 
@@ -107,27 +126,17 @@ GPU usage
 
 `ProfileGPU` -  `Ctrl` + `Shift` + `,` -  GPU Visualizer window (Single frame on gpu)  you can dump it to log      
 
-You can adjust r.EarlyZPass to see if your scene would benefit from a full early Z pass (more draw calls, less overdraw during base pass).
+- **EarlyZPass** - (default: partial z pass). DBuffer decals require a full Z Pass `r.EarlyZPass` (more draw calls, less overdraw during base pass).
+- **Base Pass** - When using deferred, simple materials can be bandwidth bound. Actual vertex and pixel shader is defined in the material graph. There is an additional cost for indirect lighting on dynamic objects.
+- **Shadow map** -  Actual vertex and pixel shader is defined in the material graph. The pixel shader is only used for masked or translucent materials.
+- **Shadow projection/filtering** - Adjust the shader cost with r.ShadowQuality.Disable shadow casting on most lights. Consider static or stationary lights.
+- **Occlusion culling** - `HZB` occlusion has a high constant cost but a smaller per object cost. Toggle `r.HZBOcclusion` to see if you do better without it on.
+- **Deferred lighting** - This scales with the pixels touched, and is more expensive with light functions, IES profiles, shadow receiving, area lights, and complex shading models.
+- **Tiled deferred lighting** - Toggle `r.TiledDeferredShading` to disable GPU lights, or use `r.TiledDeferredShading.MinimumCount` to define when to use the tiled method or the non-deferred method.
+- **Environment reflections** - Toggle `r.NoTiledReflections` to use the non-tiled method which is usually slower unless you have very few probes.
+- **Ambient occlusion** - Quality can be adjusted, and you can use multiple passes for efficient large effects.
+- **Post processing** - Some passes are shared, so toggle show flags to see if the effect is worth the performance.
 
-- EarlyZPass: By default we use a partial z pass. DBuffer decals require a full Z Pass. This can be customized with r.EarlyZPass and r.EarlyZPassMovable.
-
-- Base Pass: When using deferred, simple materials can be bandwidth bound. Actual vertex and pixel shader is defined in the material graph. There is an additional cost for indirect lighting on dynamic objects.
-
-- Shadow map rendering: Actual vertex and pixel shader is defined in the material graph. The pixel shader is only used for masked or translucent materials.
-
-- Shadow projection/filtering: Adjust the shader cost with r.ShadowQuality.Disable shadow casting on most lights. Consider static or stationary lights.
-
-- Occlusion culling: HZB occlusion has a high constant cost but a smaller per object cost. Toggle r.HZBOcclusion to see if you do better without it on.
-
-- Deferred lighting: This scales with the pixels touched, and is more expensive with light functions, IES profiles, shadow receiving, area lights, and complex shading models.
-
-- Tiled deferred lighting: Toggle r.TiledDeferredShading to disable GPU lights, or use r.TiledDeferredShading.MinimumCount to define when to use the tiled method or the non-deferred method.
-
-- Environment reflections: Toggle r.NoTiledReflections to use the non-tiled method which is usually slower unless you have very few probes.
-
-- Ambient occlusion: Quality can be adjusted, and you can use multiple passes for efficient large effects.
-
-- Post processing: Some passes are shared, so toggle show flags to see if the effect is worth the performance.
 
 ---
 
@@ -347,32 +356,12 @@ DXT1 | RGB + A(1bit)| 4BPP bits per pixel, and has a maximum color resolution of
 DXT3 | RGBA | Better use 5 alpha channel (only 4 bits)
 DXT5 | RGBA | 8BPP  4:1 uses DXT1 for the color part, but adds another 4 bits per pixel of alpha. This gives you better transparency.
 
----
-
-
-
-### Notes:
-------  
->The only way to group meshes into one draw call is by using instanced meshes. Meshes using the same material/instance will still take one draw call each. However, they are drawn in an order that is grouped by material/instance, to reduce the number of render state changes, kinda like this:
-- 3 meshes using the same material: set shader, draw mesh #1, draw mesh #2, draw mesh #3
-- 3 meshes using a different material each: set shader #1, draw mesh #1, set shader #2, draw mesh #2, set shader #3, draw mesh #3
-From Eric Ketchum https://answers.unrealengine.com/questions/127435/using-instanced-meshes-doesnt-reduce-draw-calls.html:
-
->Instanced meshes will reduce the draw call overhead on the CPU but will not reduce the GPU cost. In fact the GPU time can increase when using instancing. Allow me to get a little technical for a moment: This process has to do with the limitations of the CPU vs. GPU and how the API (OpenGL or DirectX) tries to maximize this limitation through batching. Instancing being a special case of batching. With a scene rendered with many small or simple objects each with only a few triangles, the performance is entirely CPU-bound by the API; the GPU has no ability to increase it. More precisely, "the processing time on the CPU for the draw call is greater than the amount of time the GPU takes to actually draw the mesh, so the GPU is starved." [Moeller, Real Time Rendering, 708]. So Batching attempts to allow the CPU to combine a number of objects into a single API call. In the case of Instancing it is the one mesh and the number of times you are drawing with a separate data structure for holding information about each separate mesh.
-
-From a Rendering Engineerer:
->"On meshes and material IDs, let me present a hypothetical situation to try to explain the situation more clearly. Let's say you have a mesh that has three materials: wood, chrome, and leather. Now let's say you place 100 of these meshes in your level. Ignoring other passes (shadow, depth only), this will result in 300 draw calls: one per-ID, per-instance. You can see this by looking at the section counts in the primitive stats window.
-
->First thing to keep in mind: some draw calls are more expensive than others. The renderer sorts by material. So in this hypothetical scene we will draw the 100 wood elements first, the 100 chrome elements next, and the 100 leather elements last. Once we draw a wood element, the cost of drawing another wood element is not so high because we are rendering using the same shader and with mostly the same textures. But once we switch materials to draw the chrome we incur a high cost. That's why the renderer sorts by material.
-
->Compare that situation to another scene where you have the same mesh instanced 100 times but each mesh has its own unique material. The scene is still 300 draw calls but the renderer incurs the material switch cost for every draw call. Instancing a mesh provides performance benefits even if the total number of draw calls does not reflect that"
-
->To really see the performance boost in using Instances bring up the Stat UNIT and watch the DRAW versus GPU (CPU vGPU) and notice when you instance a mesh the CPU time remains fairly consistent depending on the additional information you are wanting to pass to each instance, while the GPU will increase. All of these numbers are still dependent on the size of your mesh and the type of material setup and the ultimate limitations of your CPU and GPU.
-
->Check - Garbage Collector times in options  
 
 -------------
-Tech Art Aid  
+
+Sources  
+Tech Art Aid   
+
 https://youtu.be/UZH4vZ0NDAw  
 
 
