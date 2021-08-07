@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SpaceSnifferConfig>
+    <refreshDelayMs>50</refreshDelayMs>
+    <zoomTimeMs>5</zoomTimeMs>
+    <minElementSizePx>9</minElementSizePx>
+    <showFreeSpace>true</showFreeSpace>
+    <showUnknownSpace>true</showUnknownSpace>
+    <initialStyle>fileClasses</initialStyle>
+    <showFileTooltipDateTime>false</showFileTooltipDateTime>
+    <showFileTooltipAge>true</showFileTooltipAge>
+    <useRealZoom>false</useRealZoom>
+    <useDynaSmooth>true</useDynaSmooth>
+    <useSorting>true</useSorting>
+    <scanADS>false</scanADS>
+    <watchDog>true</watchDog>
+    <logPopup>false</logPopup>
+    <logWarning>false</logWarning>
+    <flashWindow>true</flashWindow>
+    <keepTooltip>true</keepTooltip>
+    <proportions>15</proportions>
+    <initialDetailLevel>15</initialDetailLevel>
+    <fontSize>7</fontSize>
+    <colors>
+        <driveColor>0x0000ACFF</driveColor>
+        <folderColor>0x008CA8AE</folderColor>
+        <fileColor>0x00FFCC99</fileColor>
+        <freeColor>0x0036E9AA</freeColor>
+        <unknownColor>0x00808080</unknownColor>
+        <levelContrast>9</levelContrast>
+        <borderContrast>28</borderContrast>
+        <mouseHover>true</mouseHover>
+        <mouseTrail>true</mouseTrail>
+        <hilightShadow>true</hilightShadow>
+        <hilightHaloLevels>1</hilightHaloLevels>
+    </colors>
+    <exportConfigs>
+        <exportConfig version="2">
+            <description>First level folders</description>
+            <preferredFileName>First level</preferredFileName>
+            <preferredFileExtension>Text file (*.txt)|*.txt</preferredFileExtension>
+            <headerFormat></headerFormat>
+            <detailFormat>e3NjcmlwdH0NCnsgICBpZiB7PCVuZXN0aW5nbGV2ZWwlPn0gPT0gezF9DQogID8geyAgIGlm&#x0D;&#x0A;IHs8JWlzZm9sZGVyJT59ID09IHt0cnVlfQ0KICAgICAgPyB7eyZicn08JXBhdGhmaWxlJT4g&#x0D;&#x0A;WzwlZGlza3NpemUlPl17JmJyfX0NCiAgICB9DQp9</detailFormat>
+            <footerFormat></footerFormat>
+            <blockSorting>folders</blockSorting>
+            <fineSorting>size</fineSorting>
+            <fineSortingDirection>desc</fineSortingDirection>
+        </exportConfig>
+        <exportConfig version="2">
+            <description>Grouped by folder</description>
+            <preferredFileName>File report</preferredFileName>
+            <preferredFileExtension>Text file (*.txt)|*.txt</preferredFileExtension>
+            <headerFormat></headerFormat>
+            <detailFormat>e3NjcmlwdH0NCnsgICBpZiB7PCVpc2ZpbGUlPn0gPT0ge3RydWV9DQogID8geyAgW3tsZWZ0&#x0D;&#x0A;cGFkezwlZGlza3NpemUlPn17IH17OH19XSA8JWZpbGUlPnsmYnJ9fQ0KICA6IHsgICBpZiB7&#x0D;&#x0A;PCVjb250YWluc2ZpbGVzJT59ID09IHt0cnVlfQ0KICAgICAgPyB7eyZicn08JXBhdGhmaWxl&#x0D;&#x0A;JT4gWzwlZGlza3NpemUlPl17JmJyfX0NCiAgICB9DQp9&#x0D;&#x0A;</detailFormat>
+            <footerFormat></footerFormat>
+            <blockSorting>files</blockSorting>
+            <fineSorting>size</fineSorting>
+            <fineSortingDirection>desc</fineSortingDirection>
+        </exportConfig>
+        <exportConfig version="2">
+            <description>Simple file list</description>
+            <preferredFileName>File list</preferredFileName>
+            <preferredFileExtension>Text file (*.txt)|*.txt</preferredFileExtension>
+            <headerFormat></headerFormat>
+            <detailFormat>eyBpZiB7PCVpc2ZpbGUlPn0gPT0ge3RydWV9ID8gezwlcGF0aGZpbGUlPnsmYnJ9fX0=</detailFormat>
+            <footerFormat></footerFormat>
+            <blockSorting>files</blockSorting>
+            <fineSorting>size</fineSorting>
+            <fineSortingDirection>desc</fineSortingDirection>
+        </exportConfig>
+        <exportConfig version="2">
+            <description>Summary</description>
+            <preferredFileName>Summary</preferredFileName>
+            <preferredFileExtension>Text file (*.txt)|*.txt</preferredFileExtension>
+            <headerFormat></headerFormat>
+            <detailFormat></detailFormat>
+            <footerFormat>VG90YWwgc2l6ZTogPCVkaXNrc2l6ZSU+DQpGb2xkZXJzICAgOiA8JWZvbGRlcmNvdW50JT4N&#x0D;&#x0A;CkZpbGVzICAgICA6IDwlZmlsZWNvdW50JT4NCg==&#x0D;&#x0A;</footerFormat>
+            <blockSorting>files</blockSorting>
+            <fineSorting>size</fineSorting>
+            <fineSortingDirection>desc</fineSortingDirection>
+        </exportConfig>
+    </exportConfigs>
+    <fileGroups>
+        <fileGroup>
+            <name>Video/Movies</name>
+            <extensions>qt;mov;mpeg;mpg;mpe;m1s;mp4;avi;mts;vob;wmv;rm;3gp;mkv</extensions>
+            <color>0x00F77909</color>
+        </fileGroup>
+        <fileGroup>
+            <name>Executables/System files</name>
+            <extensions>exe;dll;sys;ini;msi;log</extensions>
+            <color>0x002F2F2F</color>
+        </fileGroup>
+        <fileGroup>
+            <name>Archives/Disk images</name>
+            <extensions>zip;7zip;rar;iso</extensions>
+            <color>0x006D43BC</color>
+        </fileGroup>
+        <fileGroup>
+            <name>Pictures/Images</name>
+            <extensions>jpg;jpeg;gif;png;tif;tiff;nef;raw;rw2;cr2;bmp;psd;tga;exr;afphoto</extensions>
+            <color>0x00FDEDCC</color>
+        </fileGroup>
+        <fileGroup>
+            <name>Audio/Music</name>
+            <extensions>mp2;mp3;wav;ogg;aif;alp;au;3gp;ac3;amr;aac;m4a;wma;aiff;flac;m4a;voc</extensions>
+            <color>0x008DEE46</color>
+        </fileGroup>
+        <fileGroup>
+            <name>Cache</name>
+            <extensions>geo;bgeo;bgeo.sc;obj;ply;sim</extensions>
+            <color>0x0057D8FD</color>
+        </fileGroup>
+        <fileGroup>
+            <name>CG</name>
+            <extensions>spp;hip;hiplc;</extensions>
+            <color>0x0046A4F9</color>
+        </fileGroup>
+        <fileGroup>
+            <name>New file group</name>
+            <extensions>fbx;ztl</extensions>
+            <color>0x005778FD</color>
+        </fileGroup>
+    </fileGroups>
+</SpaceSnifferConfig>
