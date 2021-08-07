@@ -131,14 +131,14 @@ Import Mesh LOD's | |
 Normal Import | Import Nm & Tang | Import Nm
 Normal Generation | | Mikk TSpace
 Compute Weighted Normal | | x
-.
+|.|
 Transform| 1 | |
-.
+|.|
 Convert Scene | On | x
 Force Front XAxis  | |
 Convert Scene to Unit | |
 Override Full Name | | x
-.
+|.|
 Material | |
 Reorder mat to fbx | On |
 
@@ -151,7 +151,9 @@ Houdini 1 U = 1m Zbrush - scale * 100  obj rotation ?
 
 
 
+# Digital assets
 
+Adress to 'digital asset' embeded assets: opdef:/Sop/...
 
 
 
