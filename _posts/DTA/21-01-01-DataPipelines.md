@@ -57,7 +57,15 @@ OLD
 ```
 
 
-$HIP/`opname("..")`/export/bake/`@top_name`/`opname("..")``@top_name``@lod_name``@bake_set`_$(CHANNEL).tif
+$HIP/`opname("..")`/export/bake/`@top_name`/`opname("..")``@top_name``@lod_name``@bake_set`_$(CHANNEL).tif   
+$HIP/name.$F4.png   
+$HIP/name.`padzero(4,$F-10)`.png - offset 0010-0260   
+$HIP/name.`padzero(4,$F%251)`.png - range loop 0000-0250    
+$HIP/name.`padzero(4,($F-50)%251+50)`.png - range loop 0050-0300    
+$HIP/name.`padzero(4,min($F,250)`.png - hold first   
+$HIP/name.`padzero(4,max($F,1)`.png - hold last     
+$HIP/name.`padzero(4,clamp($F,1,250))`.png - clamp   
+
 
 ### Folders
 
