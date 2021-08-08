@@ -333,3 +333,9 @@ game podcasts
 https://www.psychologyofgames.com/   
 https://ludology.libsyn.com/    
 voicess of VR  
+
+
+chase desire to order     
+internal goal   
+yes, unless   
+what if   
