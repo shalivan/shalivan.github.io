@@ -243,12 +243,12 @@ Pattern may be a numeric pattern, attribute pattern, or group name pattern.
 
 
 
-```$HIP/`opname("..")`/cache/sim_`opinput(".", 0)`/`opinput(".", 0)`.`$F+1`.bgeo```  -  name from upstream node input0 with previous frame  
+``` $HIP/`opname("..")`/cache/sim_`opinput(".", 0)`/`opinput(".", 0)`.`$F+1`.bgeo ```  -  name from upstream node input0 with previous frame  
 
 
 
 
---
+---
 
 # H script
 

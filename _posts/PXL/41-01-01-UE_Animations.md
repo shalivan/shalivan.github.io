@@ -15,18 +15,36 @@ permalink: /uanim/
 [Houdini KineFX](/kinefx/)     
 [Principles of animation](/animation/)  
 
-### Blendspace
+### Blend space
 - to mix anim with variable
 - can blend between static poses
 
-
-
-### Animation Blueprint
 ### Retarget
 
-### Aniomatiuon Montage
-### Animation Composite
+
+
+
+# Full Body IK  
+
+
+
+
+# Animation Blueprint
+
+# Animation Montage
+
+## Motion Warping
+- adjust motion to contact with world
+
+
+
+# Animation Composite
 
 
 
 ptak flaping to the music: https://youtu.be/TBiepo5ZQhY
+
+
+-----------------
+
+[VFX unreal](http://teres4enko.blogspot.com/)

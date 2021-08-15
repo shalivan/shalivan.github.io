@@ -9,20 +9,26 @@ ddgi -dynamic direct gi -  proby
 https://www.youtube.com/watch?v=ZefvmV1pdP8&t=121s
 
 
-
+https://www.pbr-book.org/3ed-2018/contents
 
 -----------------
 
 
-
-# rendering
 aproximation on physic lighting
 
 
-## realtime on line
+sampling is costly    
+combinig textures to one help with streaming  
+
+### assembly
+https://interplayoflight.wordpress.com/2021/04/18/how-to-read-shader-assembly/
 
 
+## Real Time /online
 
+### Rasterization
+
+https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/
 ### Ray trace
 - trace from camera
 - if hit surface shoot ray to lightsource and evaluate shadow and reflections  and refractions
