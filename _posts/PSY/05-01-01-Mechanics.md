@@ -177,7 +177,7 @@ a-b mission Endgame [Ludology](/ludology/) / sandbox / vechicle /
 ---
 
 
-# Econotmy and
+# Economy and
 
 - economy
 - market
@@ -212,10 +212,13 @@ difficulti
 # Combat
 non combat - combat loop
 
-mele shooting   
+## Mele  
 
-Hitscan vs projectile
+https://threadreaderapp.com/thread/1358654321303277568.html
 
+## Shooting  
+Recoil    
+Hitscan vs projectile   
 
  ||||
  |--|--|--|
@@ -223,21 +226,27 @@ Hitscan vs projectile
  |Hitscan|charging|
 
 
-## Encounters
+
+### Aiming
+
+auto aim   
 
 
-##### Enemies
+# Enemies
   types and classes .
   - short long distance and speed
   - difficulty
 
+## Encounters
+Events with NPCs
+
 ###### Waves
-
-  - increase and manipulate amounts / strength
-
+Increase and manipulate amounts / strength
 
 
-## Aiming And shooting
+
+
+
 -----------
 
 ---
