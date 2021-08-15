@@ -5,9 +5,7 @@ categories:
  - ART
 tags:
 - Art
-
 description: RAW
-
 permalink: /modeling/
 ---
 
@@ -80,7 +78,7 @@ Best simulated
 
 
 ---
-
+https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4
 
 # Vegetation
 rośliny - kawałki z których składamy całość i do tego dodajemy na całość atrybuty  
