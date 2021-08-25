@@ -334,6 +334,7 @@ https://www.psychologyofgames.com/
 https://ludology.libsyn.com/    
 voicess of VR  
 
+[Shadow of colosus symbols](https://youtu.be/Z7BShVPNpAU)
 
 chase desire to order     
 internal goal   

@@ -30,8 +30,11 @@ LOD for audio  files
 
 
 #### Meta sounds
+
 <img align="right" src="/src/ue/audio/cue.png">  
-(Cue - legacy system)  Mixer.
+
+(Cue - legacy system)  
+MetaSound - Mixer, ESP node graph.  Every metasound In background async task.
 
 
 
@@ -159,7 +162,10 @@ Time Synth Clip
 
 
 ## Quartz
+Quartz clock - synchronization mechanism  (line up to beat or bar)
+
 Time Synth is a 'sample accurate clip sequencer' that is being utilized heavily for interactive music. However, it is lacking many features, so our plan to resolve this need is to bring the ability to "sample accurately" sequence clips to all sounds in the audio engine.
+
 
 time synth > quartz
 
@@ -168,6 +174,7 @@ subsystem that handle and allow acces and recive dleegats from clocks (can multi
 
 - timesync is old version
 
+[Quartz Docs](https://docs.unrealengine.com/4.26/en-US/WorkingWithAudio/Quartz/)
 
 ##### [Create new clock]
 name

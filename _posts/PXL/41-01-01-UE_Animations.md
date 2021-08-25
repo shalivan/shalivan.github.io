@@ -45,6 +45,10 @@ permalink: /uanim/
 ptak flaping to the music: https://youtu.be/TBiepo5ZQhY
 
 
+# Controll Rig 
+
+https://www.youtube.com/watch?v=y2WzNvJZk0E
+
 -----------------
 
 [VFX unreal](http://teres4enko.blogspot.com/)

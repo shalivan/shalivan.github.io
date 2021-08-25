@@ -14,7 +14,6 @@ permalink: /vellumsop/
 
 
 
-
 [Vellum SOP.hiplc](/src/hip/DOP_VellumSOP.hiplc)  
 
 
@@ -293,3 +292,5 @@ Drape solver help resolve cloths
 
 
 ---
+https://www.youtube.com/watch?v=km2uXhfvWvk
+https://www.sidefx.com/tutorials/vellum-nodes/  

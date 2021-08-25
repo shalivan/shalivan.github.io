@@ -22,9 +22,10 @@ What is desired experience ?
 ‘Unselfconscious design’ (or ‘craft-based’ design) concerns the use of traditional building methods, in which the designer works directly on the form (so, if you were a wheelwright, the wheel) unselfconsciously, through a complex two-directional interaction between the context and the form, in the world itself. The design rules and solutions are largely unwritten, and are learnt informally. The same form is made over and over again with no need to question why; designers need only learn the patterns.
 
 
-
-
-
+Psychology in games:
+[Sid Meier's Psychology of Game Design](https://www.youtube.com/watch?v=MtzCLd93SyU&ab_channel=GDC)  
+Mike Ambinder - Principal Experimental Psychologist   
+raction to action (payof/ info )
 ----
 
 
