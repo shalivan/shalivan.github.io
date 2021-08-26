@@ -33,3 +33,10 @@ in algebra
 
 
 https://www.youtube.com/watch?v=loCBvaj4eSg
+
+
+# Soft
+
+## Mandelbulder
+- newer
+-
