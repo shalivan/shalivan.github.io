@@ -15,23 +15,7 @@ permalink: /animation/
 [Unreal Animation](/uanim/)
 [Houdini KineFX](/kinefx/)   
 
-# Animation types
 
-- by expression or keys
-- physic  simulations
-- chop
-`Keyframe`   
-`reactive`  
-`dynamic`  
-`mocap data`  
-
-
-
-## Animation
-
-   - Timing FPS
-   - Easing curves  
-   - Reaction time 0.2 for see 0.1 for hear and less for touch (go / no go time decision)
 
 
 
@@ -53,10 +37,26 @@ Solid drawing | volume weight drawing on solid spheres. Avoid twinning (mirror)
 Appeal | chrismatic aspects > dynamic design. (varietyu of shapes on dif characters), play with proportions.
 
 
-Dynamic of body: inna dystrybucja ciezaru cia la przy biegnieciu i zakretach - kladziemy sie
+#### Dynamic of body
+Inna dystrybucja ciezaru cia la przy biegnieciu i zakretach - kladziemy sie
 
-## Simulation & procedural   
-   - Normalize - Fit parameters to 0-1  
+## Manual
+
+`Keyframe`
+- by expression or keys
+- chop
+
+
+## Procedural
+
+`reactive` "reactive animation" is one involving discrete changes, due to events
+
+## Dynamic
+ Simulation / Physics   
+   - Normalize - Fit parameters to 0- 1  
+
+
+
 
 ## Skeletal anim
 
@@ -69,6 +69,9 @@ motion matching
 
 layering  
 ik rig - zeby wydobyc info   
+
+## Mocap data
+
 # VFX
 
 https://youtu.be/WLMVpcK0WvA?list=PLQD_sA-R5qVKVYw3EVuRT7fSJsVukLEhD
@@ -91,6 +94,7 @@ https://youtu.be/WLMVpcK0WvA?list=PLQD_sA-R5qVKVYw3EVuRT7fSJsVukLEhD
   - color harmonizing
   - tempo (beats)
   - intensity over time.
+  - Reaction time 0.2 for see 0.1 for hear and less for touch (go / no go time decision)
 
 
 | intensity over time | |||
@@ -125,3 +129,4 @@ https://www.youtube.com/watch?v=o-QLSjSSyVk
 https://advances.realtimerendering.com/destiny/siggraph2014/animation/index.html
 
  https://www.youtube.com/watch?v=KLjTU0yKS00 https://www.youtube.com/watch?v=SQo9pTQ14Jk Motion matching: https://www.youtube.com/watch?v=KSTn3ePDt50 Fullbody animation in Doom: https://www.youtube.com/watch?v=3lO1q8mQrrg Animation tricks for the trade: https://www.youtube.com/watch?v=zEYITZUHpo4
+https://advances.realtimerendering.com/destiny/siggraph2014/animation/index.html

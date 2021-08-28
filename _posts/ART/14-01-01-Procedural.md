@@ -12,10 +12,10 @@ permalink: /procedural/
 ---
 
 
-Build tools not features 
+Build tools not features
 
 
-
+https://generativeartistry.com/tutorials/
 
 [GenerativeArtistry.com](https://generativeartistry.com/tutorials/)
 

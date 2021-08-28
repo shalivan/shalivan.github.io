@@ -9,6 +9,7 @@ tags:
 - Unreal
 - Game Dev
 - Tech Art
+- Rendering
 permalink: /uoptimization/
 ---
 

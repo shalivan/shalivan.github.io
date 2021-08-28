@@ -11,7 +11,14 @@ permalink: /lighting/
 ---
 
 
-one of the most important and influential elements i
+
+CIR / color temperature /
+
+If illuminated point  is 5x times away from light source is ok to use point light  
+
+
+
+One of the most important and influential elements. Give viewer idea about shape geo depth and texture
 
 # Properties of Light Source
 
@@ -104,12 +111,16 @@ polarize before it reflect on surface and second time after  to secure color wit
 
 # Shadows
 
+shadow add 3d and show shape   
+
+
 
 ------------
 
 
 
 # Light Setup Phraseology
+
 
 ||||
 |---|---|---|
@@ -121,7 +132,8 @@ Ambient  | Indirect  | diffused
 Bounced  | Indirect moon ( fog and snow, lot of bounce)
 
 
-   - High-key (light), Low-key (dark)
+   - High-key (light),
+   - Low-key (dark)
    - Unmotivated Light - Support light that doesn't have a physical representation.
    - one eye must be stronger
 
@@ -172,8 +184,14 @@ You can measure that by looking at a white surface with sun on it, and adding a 
 - Flesh in camera: electric discharge lamp . tube of gas high voltage short time . high CRI  and: ~5500K. lik daylight..
 - IES. profiles
 
+Softboxes - have diffusers.               
+Strip light - softbosx to light characters from side or behind to get rimlight.
+Beauty dish - bounced 2x . larger area of light but keep dir.  
+Umbrelas. White shoot throu, not as good cause not stoping light in other dir.
+Silver - keep directionality, hard contrast
+Gold to make warm, in portraits  
 
-
+Area & directionality
 ### Light scenarios
 
 
@@ -208,6 +226,7 @@ subject, which is used to pick out
 edges and highlight form. larger, softer lights the technique of
 three-point lighting was abandoned,
 
+Americen tv look
 
 ---
 
@@ -223,8 +242,8 @@ three-point lighting was abandoned,
 
 # Virtual Light Setup
 
-[Unreal Lighting](/u4light/)  
-
+[Unreal Lighting](/ulight/)  
+Sky is black and the sun is white
 
 ##  Scenarios
 
@@ -235,3 +254,4 @@ scenarios:
 - help to emphasise silhouettes, movements and focus
 - usually warm colors near and cold away
 - more light u have less color saturation
+- High key - superbright

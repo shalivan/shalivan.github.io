@@ -12,7 +12,9 @@ tags:
 
 permalink: /umat/
 ---
-
+[Camera](/camera/)    
+[Algebra](/algebra/)
+[Rendering](/rendering/)
 
 # Blend models
 
@@ -74,8 +76,17 @@ Ocean Ice | 0.56 | 0.5–0.7
 
 
 ## Spec / Refraction
-
+- **Microfacets models** how rough (in microscale)  mat is (amp & freq of bumps in material ) tiny imperfections in mat  & angle of incoming light
 - Dielectric F0 Reflectance `Value = ( (1 - IOR) / (1 + IOR) )²` (0.08 = UE4 Specular Reflectivity Value)
+
+Water:
+Total internal refl - speed of light in mat to speed of light oudisde.....   IRO
+- from top only go inside
+- low light reflect
+AIR speed of light > 1.0 iro
+speed of light in water slower
+so AIR to water 1.33
+
 
 
 Mat | specular U4 | Index of Refraction (IOR) |  
@@ -91,6 +102,8 @@ Plastic | 0.5 | 1.460
 Quartz | 0.57 | 1.544 - 1.644
 Diamond | | 2.42
 
+## Metal
+-
 
 
 ## Roughness

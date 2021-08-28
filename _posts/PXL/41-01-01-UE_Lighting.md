@@ -15,11 +15,9 @@ permalink: /ulight/
 
 ---
 
-
 [Unreal Rendering Features](/ue_rendering_features/)
 
 Sky is black and the sun is white
-
 # Light
 
 

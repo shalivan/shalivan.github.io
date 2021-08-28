@@ -5,7 +5,7 @@ categories:
 - DTA
 tags:
 - Math
-permalink: /mathalgebra/
+permalink: /algebra/
 ---
 
 
@@ -115,7 +115,7 @@ If you want it to get more interesting rather than your growth weight being just
 
 #### Monte-Carlo
 random
-statistical model with random and proportions to calculate ie area
+statistical model with random and proportions to calculate values by takeing random samples.  (ie area )
 
 
 
