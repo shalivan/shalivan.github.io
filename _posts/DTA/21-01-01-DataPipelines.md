@@ -16,6 +16,7 @@ permalink: /pipes/
 
 TOP cacahe
 $HIP/`opname("../..")`/cache/`opname("../..")`/$OS.$F.bgeo
+$HIP/`opname("../..")`/cache/`opname("..")`/$OS/$OS.$F.bgeo.sc
 
 # Paths
 
