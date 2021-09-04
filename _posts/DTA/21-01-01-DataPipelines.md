@@ -13,11 +13,22 @@ description: Pipelines
 permalink: /pipes/
 ---
 
+4k normal map at 80% UV usage can contain normal data from ~13.5m triangles at a density of one triangle per pixel.
+$HIP/`opname("../../..")`/cache/pdg/`opname("../..")`/`opname("..")`/`@wedgenum.0`.`@wedgenum.1`/$OS.$F.jpg
+$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/`@wedgenum.0`.`@wedgenum.1`/$OS.$F.bgeo.sc
+$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/`@wedgenum.0`.`@wedgenum.1`/`@pdg_index`.png
+$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/`@wedgenum.0`.`@wedgenum.1`/`@pdg_index`.mp4
 
 TOP cacahe
-$HIP/`opname("../..")`/cache/`opname("../..")`/$OS.$F.bgeo
-$HIP/`opname("../..")`/cache/`opname("..")`/$OS/$OS.$F.bgeo.sc
+$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/$OS.$F.bgeo.sc
+$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/$OS.`@wedgenum.0`.`@wegdenum.1`.$F.bgeo.sc
+$HIP/`opname("../..")`/resave/`@filename`.obj
+$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/$OS.`@wedgenum.0`.`@wedgenum.1`.$F.bgeo.sc
+$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/`@wedgenum.0`.`@wedgenum.1`/$OS.$F.bgeo.sc - every wedge in different folder
 
+$HIP/ContianerName/pdg/TopNodeName/ExeNodeName.Wedge.bgeo.sc
+
+Frames per batch w zakładce ROP Fetch jak są lekkie
 # Paths
 
 

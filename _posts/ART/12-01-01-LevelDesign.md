@@ -146,6 +146,12 @@ dont lead player where to go but how move through space
 - `primary target` (no deadends) vs. `illusory targets` vs. `escalating` (everywhere), vs `bonus missions`
 - beginning and end
 
+.
+
+- primary circulation routes . connect primary nodes of activitiy
+- secondary roots to increase mobility  
+- no dead ends
+- only pedestrian rootes
 
 ### Pacing
 

@@ -55,7 +55,7 @@ generative art -  complex systems (ecosystem, cities, cells ect.. )
 - Penrose tiling - (2 polygonal arrows in simple version ) (u can get the illusion of forbidden symmetry i.e. pentagonal (related by golden ratio) don't repeat... - quasicrystals )
 - Girih Tiles Islamic star patterns (one 10-way symmetry and smaller )
 - Nested - (mandalas)
-
+- Truchet Patterns https://archive.bridgesmathart.org/2018/bridges2018-39.pdf
 
 [book: Franz Sales Meyer - A handbook of ornament (1920)]  
 [book: A Pattern Language Complete (architecture)]
@@ -112,7 +112,9 @@ https://youtu.be/VBzIPLh-ECg
 http://www.cr31.co.uk/stagecast/wang/3edge.html
 
 
-
+### Slime pattern
+https://sagejenson.com/physarum
+https://www.youtube.com/watch?v=X-iSQQgOd1A
 ---
 
 
