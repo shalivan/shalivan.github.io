@@ -17,7 +17,8 @@ permalink: /animation/
 
 
 
-
+# FPS
+24-60
 
 # Principles of animation
 

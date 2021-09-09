@@ -193,8 +193,11 @@ Unreal simplified disney model
 
 
 
-## paralax / wpo
+## Dense details Landscape
 
+- Paralax / wpo /
+- Tessal / vs
+- Virtual texture - runtime Vertual Texture
 https://youtu.be/kxsQ5m2IAXs
 
 #### Decals
