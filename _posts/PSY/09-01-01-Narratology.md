@@ -59,7 +59,7 @@ Film is based on emphaty
 **Premise is single core statement**, the foundation of story. premise statement is often a familiar expression or cliché. 'Latin words, meaning to put before'   
 **Thematic idea** - drives its structure and delivery   
 **logline** -    
-
+**synopsis** - 
 Every story has one premise. Only one. This premise is the underlying idea of your story-the foundation that supports your entire plot.
 
 Converting a premise into a story isn’t as straightforward as it might seem. The premise can easily become an end in itself, or at least an excuse for why the writer hasn’t included a clear protagonist, a meaningful crisis, or a powerful plot line.

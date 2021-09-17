@@ -126,6 +126,8 @@ Building - ground/horizon relation
 |Circulation paths | people circulation
 |Detail / distortions - aesthetic
 
+#### Light
+- Windows vs directions 
 
 ##### Architecture in layers
 set of layers operating at different timescales
