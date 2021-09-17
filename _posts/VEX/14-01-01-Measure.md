@@ -16,13 +16,13 @@ permalink: /pc/
 
 
 
-## A
-measure when point not connected to geometry
 
 
 
-### Distance
+## Distance
 [`distance()`](https://www.sidefx.com/docs/houdini/vex/functions/distance.html) - Distence between 2 points  
+[`surfacedist()`](https://www.sidefx.com/docs/houdini/vex/functions/surfacedist.html) -  Distance of a point to a group of points along the surface of a geometry   
+
 [Distance From Geometry SOP](https://www.sidefx.com/docs/houdini/nodes/sop/distancefromgeometry.html)
 
 
@@ -51,10 +51,8 @@ float r = distance(p1,p2);
 ```
 
 
-### SurfaceDist
-[`surfacedist()`](https://www.sidefx.com/docs/houdini/vex/functions/surfacedist.html) -  Distance of a point to a group of points along the surface of a geometry   
 
-### XYZdist
+## XYZ Dist
 `[xyzdist()](https://www.sidefx.com/docs/houdini/vex/functions/xyzdist.html) / [PrimUV](https://www.sidefx.com/docs/houdini/vex/functions/primuv.html)` - need to know the nearest @primnum and uv   
 `primuv()` - interpolated value of an attribute over the parametric surface of the primitive `primuv(2, "P", posprim, primuv)`
 
@@ -77,7 +75,7 @@ vector pos = primuv(2, "P", posprim, primuv);
 
 
 
-### Nearpoints
+## Nearpoints
 `nearpoint()` -   
 [`nearpoints()`](https://www.sidefx.com/docs/houdini/vex/functions/nearpoints.html) -   
 
@@ -88,9 +86,7 @@ Closest point in a geometry
 
 
 
-## B
-
-### Neighbours
+## Neighbours
 points that share an edge with a given point  
 `Group Expand SOP` - Attribute is spread to its connected neighbors    
 
@@ -119,7 +115,7 @@ Distance to line   (defined by 2 points)
 
 
 
-### MinPos
+## MinPos
 [`minpos()`](https://www.sidefx.com/docs/houdini/vex/functions/minpos.html) -    stuff to “stick” stuff to an object.
 Closest position on the surface of a geometry     
 position of the closest point on the target geo  
