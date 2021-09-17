@@ -12,39 +12,24 @@ permalink: /pc/
 
 # Measure
 
-
 `if (primvertexcount(0, @primnum) > 4)` -  test by by n-gons   **Find N-gones** /// UZUPEŁNIC   
 
-### nearpoint() / nearpoints()
-Closest point in a geometry
-
-###### All the closest point in a geometry (not self)  
-`i@nearpt = nearpoints(0, @P, 1e34, 2)[1:][0];`
-
-### neighbour() / neighbours()
-Return @ptnum or array of @ptnums of the next point connected to a given point  
-
-` .... neighbour()` -    
-`i[]@pts = neighbours(0, @ptnum);` - Array of Connected Points @ptnum's        
-
-### neighbourcount()
-How Many points connected
-
-`i@count = neighbourcount(0,@ptnum);` - How Many Edges from point     
-`if (neighbourcount(0,@ptnum)<3) removepoint(0, @ptnum);` - Delete inline points with only 2 edges      
 
 
-### distance()
-Distence between 2 points  
-`f@distance_to_pt = distance({0,0,0},@P);`
+## A
+measure when point not connected to geometry
 
-##### Spherical Mask  
 
-```cpp
-@mask = 1-clamp(pow(distance(@P*{1,0,1},{0,0,0}),ch("pow"))*ch("multi"),0,1);
-```   
-##### Spherical Mask between points  
 
+### [Distance](https://www.sidefx.com/docs/houdini/vex/functions/distance.html)
+`distance()` - Distence between 2 points  
+[Distance From Geometry SOP](https://www.sidefx.com/docs/houdini/nodes/sop/distancefromgeometry.html)
+
+
+`@dist = distance({0,0,0},@P);` -   
+`@mask = 1-clamp(pow(distance(@P*{1,0,1},{0,0,0}),ch("pow"))*ch("multi"),0,1);` -   
+
+**Spherical Mask between points**  
 ```cpp
 vector p1 = point(1,'P',0);
 vector p2 = point(1,'P',1);
@@ -52,9 +37,7 @@ vector p2 = point(1,'P',1);
 float r = distance(p1,p2);
 @Cd = (r-distance(@P, p1))/r;
 ```
-
-##### Linear Gradient  
-
+**Linear Gradient**  
 ```cpp
 vector p1, p2, v1, v2;
 p1 = point(1,'P',0);
@@ -66,11 +49,67 @@ v2 = normalize(p2-p1);
 float r = distance(p1,p2);
 @Cd = dot(v1,v2)/r;
 ```
-http://www.tokeru.com/cgwiki/index.php?title=HoudiniVex
 
 
-###  surfacedist()
-Distance of a point to a group of points along the surface of a geometry   
+### [SurfaceDist](https://www.sidefx.com/docs/houdini/vex/functions/surfacedist.html)
+`surfacedist()` -  Distance of a point to a group of points along the surface of a geometry   
+
+### [XYZdist](https://www.sidefx.com/docs/houdini/vex/functions/xyzdist.html) / [PrimUV](https://www.sidefx.com/docs/houdini/vex/functions/primuv.html)
+`xyzdist()` - need to know the nearest @primnum and uv   
+`primuv()` - interpolated value of an attribute over the parametric surface of the primitive `primuv(2, "P", posprim, primuv)`
+
+
+
+**Fix points on a moving object**  
+Input0: the scattered points in a static   position (init frame)  
+Input1:  geometry at rest position  
+Input2:- moving object  
+
+```cpp
+int posprim;
+vector primuv;
+float maxdist = 10;
+float dist = xyzdist(1, @P, posprim, primuv, maxdist);
+vector pos = primuv(2, "P", posprim, primuv);
+@P = pos;
+```
+
+
+
+
+### [Nearpoints](https://www.sidefx.com/docs/houdini/vex/functions/nearpoints.html)
+`nearpoint()` -   
+`nearpoints()` -   
+
+Closest point in a geometry
+
+`i@nearpt = nearpoints(0, @P, 1e34, 2)[1:][0];` - All the closest point in a geometry (not self)    
+
+
+
+
+## B
+
+### [Neighbours](https://www.sidefx.com/docs/houdini/vex/functions/neighbours.html)
+points that share an edge with a given point  
+`Group Expand` SOP - Attribute is spread to its connected neighbors    
+
+`neighbour()` -      
+`neighbours()` -   
+`polyneighbours()` - same for shared edge in prims  
+
+Return @ptnum or array of @ptnums of the next point connected to a given point  
+
+` .... neighbour()` -    
+`i[]@pts = neighbours(0, @ptnum);` - Array of Connected Points @ptnum's        
+
+### [Neighbourcount](https://www.sidefx.com/docs/houdini/vex/functions/neighbourcount.html)
+`neighbourcount()` - How Many points connected
+
+`i@count = neighbourcount(0,@ptnum);` - How Many Edges from point     
+`if (neighbourcount(0,@ptnum)<3) removepoint(0, @ptnum);` - Delete inline points with only 2 edges      
+
+
 
 
 ### ptlined
@@ -79,23 +118,14 @@ Distance to line   (defined by 2 points)
 `f@dist_to_line =   ptlined({0,0,0}, {0,1,0}, @P);`
 
 
-### getbbox()
-Bounds  
-`v@bbox_size = getbbox_size(0, "string_primgroup");` - Bound size   
-`v@centroid =  getbbox_center(0, "string_primgroup");` - Relative Bbox     
-`v@Cd = relbbox(0, @P);` Color from bbox    
 
-```cpp
-vector min, max;
-getbbox(min, max); // old
-vector center = (min+max)/2;
-```
-### minpos()
-Closest position on the surface of a geometry   
+### [MinPos](https://www.sidefx.com/docs/houdini/vex/functions/minpos.html)
+`minpos()` -    stuff to “stick” stuff to an object.
+Closest position on the surface of a geometry     
+position of the closest point on the target geo  
 
 
-##### Closest point on geo to line
-(RunOver:Prims)  
+**Closest point on geo to line** (RunOver:Prims)  
 Input0: point or spline  
 Input1: geometry or spline to find closest point  
 ```cpp
@@ -118,25 +148,24 @@ setpointgroup(0, "closest", count, 1, "set" );
 
 ```
 
-### xyzdist() / primuv()
-Distance of a point to a geometry  / prim uvs
-
-`primuv(2, "P", posprim, primuv)` -  
 
 
-#####  Fix points on a moving object
-Input0: the scattered points in a static   position (init frame)  
-Input1:  geometry at rest position  
-Input2:- moving object  
+###  [Find Shortest Path](https://www.sidefx.com/docs/houdini/nodes/sop/findshortestpath.html)
+
+### getbbox()
+Bounds  
+`v@bbox_size = getbbox_size(0, "string_primgroup");` - Bound size   
+`v@centroid =  getbbox_center(0, "string_primgroup");` - Relative Bbox     
+`v@Cd = relbbox(0, @P);` Color from bbox    
 
 ```cpp
-int posprim;
-vector primuv;
-float maxdist = 10;
-float dist = xyzdist(1, @P, posprim, primuv, maxdist);
-vector pos = primuv(2, "P", posprim, primuv);
-@P = pos;
+vector min, max;
+getbbox(min, max); // old
+vector center = (min+max)/2;
 ```
+
+https://www.tokeru.com/cgwiki/index.php?title=JoyOfVex7    
+https://voxelpixel.xyz/2020/05/27/houdini-vex-distance-and-neighbours/   
 
 ---
 
@@ -151,35 +180,35 @@ vector pos = primuv(2, "P", posprim, primuv);
 `pcopen()` - the points are ordered from closest to farthest. (Returns a handle to a point cloud file)      
 `pcclose(handle)` Na koniec zamykamy uchwyt, aby uzyskać dostęp do bazy danych punktu      
 `pcfilter()` - Filters points found by pcopen using a simple reconstruction filter      
-`pcfind(1,'P',@P,ch('d'),25);` - [] List of closest points   (nearpoints)   
+[`pcfind`](https://www.sidefx.com/docs/houdini/vex/functions/pcfind.html) - [] List of closest points (nearpoints) `pcfind(1,'P',@P,ch('d'),25);`   
 `pcfind_radius(1,"P","pscale", 1.0, @P, maxdist, maxpts);` - [] List of closest points taking into account their radius      
 `pcfarthest()` Returns the distance to the farthest point found in the search performed by pcopen.   
 
 
-##### Blur Attributes
+**Blur Attributes**
 ```cpp
 int pc = pcopen(0, "P", @P, ch("rad"), chi("num"));
 v@Cd = pcfilter( pc, "Cd");
 ```
-##### Points Density
+**Points Density**
 ```cpp
 int handle = pcopen(0, "P", @P, ch("rad"), chi("num"));
 int count = pcnumfound(handle);
 f@density = float(count)/float(chi("num"));
 ```
 
-##### Points Density
+**Points Density**
 ```cpp
 int pc[] = pcfind(0,'P',@P,ch('maxdist'),ch('maxpt'));
 @Cd = float(len(pc))/ch('maxpt');
 ```
 
-##### Transfer Attributes
+**Transfer Attributes**
 ```cpp
 int handle = pcopen(1,"P", @P, ch("rad"), chi("num"));
 @`chs("attribute")` =  pcfilter(handle,chs("attribute"));
 ```
-#####  Iterate
+**Iterate**
 ```cpp
 int handle = pcopen(0,"P", @P, ch('rad'), 2);
 vector close_pt;
@@ -191,7 +220,7 @@ while(pciterate(handle)){
 
 ---
 
-##### Remove overlaped prims
+**Remove overlaped prims**
 
 ```cpp
 int prim_points[] = primpoints( geoself(), @primnum );
