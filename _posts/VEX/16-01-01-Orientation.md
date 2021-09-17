@@ -228,6 +228,8 @@ vector target = chv("target");
 vector4 q = dihedral({0,1,0}, target);
 @P = qrotate(q,@P);
 ```
+
+
 ---
 
 # Direction
@@ -254,6 +256,8 @@ vector4 q = dihedral({0,1,0}, target);
 https://vimeo.com/226167508
 
 
+### Direction to surface (double cross)
+https://voxelpixel.xyz/2020/06/05/vectors-double-cross-product/  
 ---
 
 #### Wave on plane (Points)

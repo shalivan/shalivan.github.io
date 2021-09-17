@@ -21,8 +21,8 @@ measure when point not connected to geometry
 
 
 
-### [Distance](https://www.sidefx.com/docs/houdini/vex/functions/distance.html)
-`distance()` - Distence between 2 points  
+### Distance
+[`distance()`](https://www.sidefx.com/docs/houdini/vex/functions/distance.html) - Distence between 2 points  
 [Distance From Geometry SOP](https://www.sidefx.com/docs/houdini/nodes/sop/distancefromgeometry.html)
 
 
@@ -51,11 +51,11 @@ float r = distance(p1,p2);
 ```
 
 
-### [SurfaceDist](https://www.sidefx.com/docs/houdini/vex/functions/surfacedist.html)
-`surfacedist()` -  Distance of a point to a group of points along the surface of a geometry   
+### SurfaceDist
+[`surfacedist()`](https://www.sidefx.com/docs/houdini/vex/functions/surfacedist.html) -  Distance of a point to a group of points along the surface of a geometry   
 
-### [XYZdist](https://www.sidefx.com/docs/houdini/vex/functions/xyzdist.html) / [PrimUV](https://www.sidefx.com/docs/houdini/vex/functions/primuv.html)
-`xyzdist()` - need to know the nearest @primnum and uv   
+### XYZdist
+`[xyzdist()](https://www.sidefx.com/docs/houdini/vex/functions/xyzdist.html) / [PrimUV](https://www.sidefx.com/docs/houdini/vex/functions/primuv.html)` - need to know the nearest @primnum and uv   
 `primuv()` - interpolated value of an attribute over the parametric surface of the primitive `primuv(2, "P", posprim, primuv)`
 
 
@@ -77,9 +77,9 @@ vector pos = primuv(2, "P", posprim, primuv);
 
 
 
-### [Nearpoints](https://www.sidefx.com/docs/houdini/vex/functions/nearpoints.html)
+### Nearpoints
 `nearpoint()` -   
-`nearpoints()` -   
+[`nearpoints()`](https://www.sidefx.com/docs/houdini/vex/functions/nearpoints.html) -   
 
 Closest point in a geometry
 
@@ -90,11 +90,11 @@ Closest point in a geometry
 
 ## B
 
-### [Neighbours](https://www.sidefx.com/docs/houdini/vex/functions/neighbours.html)
+### Neighbours
 points that share an edge with a given point  
-`Group Expand` SOP - Attribute is spread to its connected neighbors    
+`Group Expand SOP` - Attribute is spread to its connected neighbors    
 
-`neighbour()` -      
+[`neighbour()`](https://www.sidefx.com/docs/houdini/vex/functions/neighbours.html) -      
 `neighbours()` -   
 `polyneighbours()` - same for shared edge in prims  
 
@@ -103,8 +103,8 @@ Return @ptnum or array of @ptnums of the next point connected to a given point
 ` .... neighbour()` -    
 `i[]@pts = neighbours(0, @ptnum);` - Array of Connected Points @ptnum's        
 
-### [Neighbourcount](https://www.sidefx.com/docs/houdini/vex/functions/neighbourcount.html)
-`neighbourcount()` - How Many points connected
+### Neighbourcount
+[`neighbourcount()`](https://www.sidefx.com/docs/houdini/vex/functions/neighbourcount.html) - How Many points connected
 
 `i@count = neighbourcount(0,@ptnum);` - How Many Edges from point     
 `if (neighbourcount(0,@ptnum)<3) removepoint(0, @ptnum);` - Delete inline points with only 2 edges      
@@ -119,8 +119,8 @@ Distance to line   (defined by 2 points)
 
 
 
-### [MinPos](https://www.sidefx.com/docs/houdini/vex/functions/minpos.html)
-`minpos()` -    stuff to “stick” stuff to an object.
+### MinPos
+[`minpos()`](https://www.sidefx.com/docs/houdini/vex/functions/minpos.html) -    stuff to “stick” stuff to an object.
 Closest position on the surface of a geometry     
 position of the closest point on the target geo  
 
@@ -150,7 +150,8 @@ setpointgroup(0, "closest", count, 1, "set" );
 
 
 
-###  [Find Shortest Path](https://www.sidefx.com/docs/houdini/nodes/sop/findshortestpath.html)
+###  Find Shortest Path
+[Find Shortest Path](https://www.sidefx.com/docs/houdini/nodes/sop/findshortestpath.html)
 
 ### getbbox()
 Bounds  
