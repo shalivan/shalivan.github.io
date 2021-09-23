@@ -19,6 +19,8 @@ permalink: /orient/
 
 
 ##  Nomenclature
+**Houdini operate in radians**    
+
 `revolution` rev 0-1 - 1 full circle = 1 rev = 1 turn = 1 rot = 360°   
 `degrees` 0-360°  - measure angles by how far we tilted our heads- observer viewpoint   
 `radians` 2πr ~6.283.. - measure angles by distance traveled - movers viewpoint   
@@ -50,51 +52,55 @@ Use one transform at a time by priority:
 
 
 # Rotations
-(Houdini operate in radians)   
-
-Rot types:  
-- Matrices (v3= rot, v4= full transform)
-- Vector (N and up, Euler)
-- Quaternions (V4)   
 
 
-`f@angleInDeg = degrees(@angleInRad)` - Convert 0-1 > 0-360 radians to degrees       
-`f@angleInRad = radians(@angleInDeg) ` - Convert 0-360 > 0-1 degree to radians  
-`v@eulerAngle = set(@angleInRad,0,0)` - Direction by vector      
-`p@quat = eulertoquaternion(@eulerAngle, 0)` - Convert Euler to Quat  
-`3@rot_m = qconvert(@quat)` - Rotate `matrix3` by Quat   
-`4@m = set(@rot_m)` - Convert to full transform `matrix`   
-`v@P *= m` - Apply rotation matrix  
-`p@orient = quaternion(maketransform(@N,@up));` - make orient from N & up    
-`p@orient = quaternion(f@angle,v@axies);` - Angle and Vector to Quat    
+Rotation types:  
+- Matrices (`3@` = rot, `4@` = full transform)
+- Vector (`v@N` and `v@up`, `v@EulerAngle`)
+- Quaternions (`p@`)   
 
-`slerp()` - easy blend 2 quats    
+
+`f@Degrees = degrees(@Radians)` - 0-1 to: 0-360 (radians to degrees)       
+`f@Radians = radians(@Degrees) ` - 0-360 to: 0-1 (degree to radians)  
+`@EulerAngle = set(@Radians,0,0)` - (direction by vector)      
+`@orient = eulertoquaternion(@EulerAngle, 0)` - (euler to quat)  
+`@RotMartix = qconvert(@oreint)` - (rotation matrix3 by quat)   
+`4@m = set(@RotMatrix)` - (convert to full transform `matrix` )       
+`v@P *= m` - (apply rotation matrix)     
+
+.
+
+
+`@orient = quaternion(maketransform(@N,@up));` - (make orient from **N** & **up** )      
+`@orient = quaternion(f@angle, normalize(v@axies));` - ( make orient from **Angle** and **Vector** )     
+`@orient = quaternion(normalize(axis)*@AmountOfTot);` - scale axis vec to get amount    
+`@orient = quaternion(m);` - by matrix (matrix3 m = ident();)    
+`@orient = slerp(a, b, ch('blend') );` - blend oreints   
+`@orient = qmultiply(@orient, extrarot);` -
+
 `cracktransform()` -  returns value of rotation scale or translate from a matrix  
 
-### Copy To Points  (oreint Quaternion)
+### Copy To Points  
+- Z-axis points towards N (Objects must be oriented to +Z)
+- @orient (Quaternion)   
 
-- Objects going into a copy SOP must be oriented to +Z. (Z-axis points towards N)    
-- @orient - copy sop (or other things that are instance attribute rotation operate on matrices where orient is a quaternion   
-- use quaternions for orientation. Note how the copies are much more stable.  
 
-#### Rotate Individual Points (@orient)
+**Rotate Individual Points**
 ```cpp
 vector axis = @N;  
-v@up = chv("up_vector"); // create a 3x3 orientation matrix using N and up as  
-float eulerAngle = radians(ch("angle")); // or instead of angle: rand(@ptnum)*360  
+float eulerAngle = radians(ch("angle"));  
+vector up = chv('up');
 
-matrix3 m = maketransform(@N, v@up); // instead of ident()  (with starting matrix)
+matrix3 m = maketransform(@N, v@up);
 rotate(m, eulerAngle, axis);  
-p@orient = quaternion(m); // make the quaternion  
+@orient = quaternion(m);
 ```
 
 
-#### Rotate Matrix about axis
-(Run over points)
-
+**Rotate Matrix about axis**
 ```cpp
-vector axis = normalize(chv("axies")); //  Axies to rotate
-float eulerAngle = radians(chf('rotateAmount')*360); // 0-1 amount *360 degree to radians
+vector axis = normalize(chv("axies"));
+float eulerAngle = radians(chf('rotateAmount')*360);
 matrix3 m = ident();  // empty transform matrix
 
 rotate(m, eulerAngle, axis);  // rotate matrix
@@ -112,7 +118,7 @@ translate_matrix*=m;
 https://forum.patagames.com/posts/t501-What-Is-Transformation-Matrix-and-How-to-Use-It
 
 
-##### Roatate Matrix Normal Along Tangent
+**Roatate Matrix Normal Along Tangent**
 (Run over points)
 OpInput0: polyframe with `tangent`   
 ```cpp
@@ -123,7 +129,7 @@ rotate(rot, eulerAngle, @tangent); // matrix to rotate, angle, vector to rotate 
 @N= @N*rot;
 ```
 
-#### Rotate Quaternion in local space
+**Rotate Quaternion in local space**
 (Run over points)
 ```cpp
 vector eulerAngle = radians(chv("rot"));  // angle  in degrees  converted to radians
@@ -151,8 +157,8 @@ Store xform in Attribute to return it to the original position
 @P *= invert(4@xform_matrix);
 ```
 
-
-#### Packed Geometry  Rotate
+## Packed geometry
+**Packed Geometry  Rotate**
 (Run over Prims)  
 OpInput0:  packed geo
 ```cpp
@@ -165,7 +171,7 @@ setprimintrinsic(0, "transform", @primnum, x, "set");
 ```
 
 
-#### Packed Geometry from RDB to copy to object
+**Packed Geometry from RDB to copy to object**
 https://youtu.be/W9ggbLr6wNY?t=1001
 transform to replace low proxy in RDB.
 ```cpp

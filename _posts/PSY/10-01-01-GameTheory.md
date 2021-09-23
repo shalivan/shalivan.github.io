@@ -14,6 +14,7 @@ permalink: /gametheory/
 
 ---
 
+TCG - traiding card games
 
 # Game Theory
 Mathematical study of optimizing agents strategies in games with more than one player where outcome depend on other agents actions. (payoff is affected by the decisions made by others)model as players are perfect  every agent must play with GT rules. (but its rational to behave time to time irrational)
@@ -88,7 +89,7 @@ Most games have odd number of equilibria
 no player have profitable deviations
 
 ---
-
+transitivity-in-game-theory
 
 
 

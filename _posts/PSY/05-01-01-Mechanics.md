@@ -15,6 +15,10 @@ permalink: /gamemechanics/
 
 [Level Design](/leveldesign/)  
 
+system , pace, posit. negative feadback
+, solvable, deterministic ....
+symetry
+
 
 
 
@@ -200,10 +204,79 @@ doom 2016 forrowrd combad - build forroward momentum from glory kills
 
 
 # Balance
-difficulti   
-- not only hp or strenght but also what u see on screen   
+Aperance of balance in experience. Math + sys + psychology
+methods:
+- designre intuition and experience
+- playtesting (and changes on exploits)
+- analytyc (data from game and drawing tdstitical conclusion )
+- mat modeling (model and choose proper One)
+
+trade danger for time for advancemetn ... and more
+
+https://youtu.be/F_1YcCcBVfY
+[Three Statistical Tests Every Game Developer Should Know](https://youtu.be/fl9V0U2SGeI)
+
+[YT GDC 2016](https://www.youtube.com/watch?v=tR-9oXiytsk)
+[old prospect](https://gamebalanceconcepts.wordpress.com/)
+[YT GDC 2018 Power Curve ](https://youtu.be/ul1MSQ8aW00)
+### Numeric relationship Between Resources
+linear and identity
+triangular  and polinomial
+exp and log
+chains of relationships
+
+#### Economic system
+#### Creating/deriving a cost Curve
+balance on skill
+Balance between  benefit and cost
+#### Probability
+balance on chance
+**Dieces**
+**Cards**
+##### Probability  Fallacies and failures
+human intuition get probability wrong
+
+##### Situational balance
+##### Probability recursion
+`monte carlo` + avarage    
+`markov chains`   - A Markov chain or Markov process is a stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event. ..
+
+https://datagenetics.com/blog.html !!!!,
 
 
+##### Mertics
+
+##### Statistical analysis
+how to calculate when have probability
+... you are threat it as probability
+
+statistics is revert probability  
+
+mean, mediana
+standard deviation
+z test
+statistic significance
+
+
+
+#### Progression & Rewars Curves
+also by probability with advancement in progression and pacing
+
+leveling curves  
+
+etics !
+
+#### Intransitive mechanics. game theory
+Payoff matrices
+
+transitivity-in-game-theory
+https://www.belloflostsouls.net/2019/10/the-math-of-games-what-is-transitivity-in-game-theory.html
+
+difficulty   
+- not only HP or strength but also what u see on screen   
+
+
+https://datagenetics.com/blog.html
 
 
 ----

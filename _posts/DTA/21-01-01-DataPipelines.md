@@ -134,33 +134,33 @@ e
 ---
 # Unreal Import
 
-|||VA3|SM|SK|
-|---|---|---|---|---|
-Skeletal Mesh | | | |x
-Generate Missing Collision | ||
-Staticm MeshLODGroup | ||
-Vert Color |  |Repleace|
-Remove Degenerates || | x
-Building Adjacency Buffer | || x
-Building Reversed Index Buffer | | | x
-Generate Lightmap UVs | ||
-One Convex Hull per UCX | || x
-Combine Meshes | || x
-Transform Vertex to Absolut | |On| x
-Import Mesh LOD's || depending on Houdini |
-Normal Import |  |Import Nm & Tang| Import Nm
-Normal Generation | || Mikk TSpace
-Compute Weighted Normal || | x
+|||VA3|SM|SK|PP2|
+|---|---|---|---|---|---|
+Skeletal Mesh | | | |x| -
+Generate Missing Collision | ||||-
+Staticm MeshLODGroup | ||||-
+Vert Color |  |Repleace|||Repleace|
+Remove Degenerates || | x|| -
+Building Adjacency Buffer | || x|| -
+Building Reversed Index Buffer | | | x|| -
+Generate Lightmap UVs | ||||-
+One Convex Hull per UCX | || x||-
+Combine Meshes | || x||-
+Transform Vertex to Absolut | |On| x||-
+Import Mesh LOD's || depending on Houdini |||-
+Normal Import |  |Import Nm & Tang| Import Nm || ImportNm
+Normal Generation | || Mikk TSpace||-
+Compute Weighted Normal || | x || -
 |.|
-Transform|  |1| |
+Transform|  |1| ||-
 |.|
-Convert Scene |  |On| x
-Force Front XAxis  | ||
-Convert Scene to Unit | ||
-Override Full Name | |On| x
+Convert Scene |  |On| x || v
+Force Front XAxis  | || ||-
+Convert Scene to Unit | ||||-
+Override Full Name | |On| x||-
 |.|
-Material | |
-Reorder mat to fbx |  | On
+Material | ||||-
+Reorder mat to fbx |  | On|||-
 
 
 ---
