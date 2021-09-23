@@ -60,13 +60,13 @@ Rotation types:
 - Quaternions (`p@`)   
 
 
-`f@Degrees = degrees(@Radians)` - 0-1 to: 0-360 (radians to degrees)       
-`f@Radians = radians(@Degrees) ` - 0-360 to: 0-1 (degree to radians)  
-`@EulerAngle = set(@Radians,0,0)` - (direction by vector)      
+`@Degrees = degrees(@Radians)` - 0-1 to: 0-360 (radians to degrees) `f@`       
+`@Radians = radians(@Degrees) ` - 0-360 to: 0-1 (degree to radians) `f@`     
+`@Angle = set(@Radians,0,0)` - Euler angle (direction by vector `v@`)      
 `@orient = eulertoquaternion(@EulerAngle, 0)` - (euler to quat)  
 `@RotMartix = qconvert(@oreint)` - (rotation matrix3 by quat)   
-`4@m = set(@RotMatrix)` - (convert to full transform `matrix` )       
-`v@P *= m` - (apply rotation matrix)     
+`@m = set(@RotMatrix)` - (convert to full transform `matrix` )  `4@`     
+`@P *= m` - (apply rotation matrix)     
 
 .
 
@@ -85,25 +85,28 @@ Rotation types:
 - @orient (Quaternion)   
 
 
+## orient
+
 **Rotate Individual Points**
 ```cpp
 vector axis = @N;  
-float eulerAngle = radians(ch("angle"));  
+float angle = radians(ch("angle"));  
 vector up = chv('up');
 
 matrix3 m = maketransform(@N, v@up);
-rotate(m, eulerAngle, axis);  
+rotate(m, angle, axis);  
 @orient = quaternion(m);
 ```
 
+## matrix3
 
 **Rotate Matrix about axis**
 ```cpp
 vector axis = normalize(chv("axies"));
-float eulerAngle = radians(chf('rotateAmount')*360);
-matrix3 m = ident();  // empty transform matrix
+float angle = radians(chf('rotateAmount')*360); /// euler angle 
+matrix3 m = ident();  
 
-rotate(m, eulerAngle, axis);  // rotate matrix
+rotate(m, angle, axis);  // rotate matrix
 @P *= m;  
 
 // rotate back matrix
@@ -122,10 +125,10 @@ https://forum.patagames.com/posts/t501-What-Is-Transformation-Matrix-and-How-to-
 (Run over points)
 OpInput0: polyframe with `tangent`   
 ```cpp
-float eulerAngle = radians(ch("angle"));
+float angle = radians(ch("angle"));
 matrix rot = ident();
 
-rotate(rot, eulerAngle, @tangent); // matrix to rotate, angle, vector to rotate about
+rotate(rot, angle, @tangent); // matrix to rotate, angle, vector to rotate about
 @N= @N*rot;
 ```
 
