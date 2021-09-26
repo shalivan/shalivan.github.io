@@ -278,51 +278,44 @@ A>B>C
 ## Basics
 
 
-
-||Letter to act - better.|||
+### Betting rounds & Positions 
+|||||
 |-|-|-|-|
-Small Blind | "out of position" | Early position | wide open-rise range. all figures, all suited and sudoconnectors  (tight is right)
-Big Blind | defending range calling range 40%  (no AA KK QQ - because it wuld be rerange )  play garbage hands (range advantage) | Early position
-Under The Gun | | Act first  
-Under The Gun +1  | | Mid positions
-LoJack ||| Tide pairs and Figure + high
-HiJack
-Cutoff  |  second-best position in a hand of poker. |  Late Positions
-Button / Dealer | strongest - 50% opening range / button river betting range (only 57 combos) |  Act last
+|Button / Dealer | strongest - 50% opening range / button river betting range (only 57 combos) | **In position** (Act last)
+|Cutoff  |  second-best position in a hand of poker. |  Late Positions
+|HiJack
+|LoJack |Tide pairs and Figure + high||
+|Under The Gun +1  | | Mid positions
+|Under The Gun | | (left to the BB Act first Before the flop)
+|BB | defending range calling range 40%  (no AA KK QQ - because it wuld be rerange )  play garbage hands (range advantage) | Early position
+|SB | tight is right |  **Out of position** Act first (After flop)  |
 
+
+### Moves
 Bet   
 Check   
 Fold    
 Call  
 Check-raise
 
+### Chips
+Chips to start: 20-40 BB for shallow tables to 250+ for deep game  
 
+
+### Other rules
 - **Ante** - Ante and Blinds are forced bets
 - **Bounty** -
 
-## GTO
-Game theory optimal - is not enough agressive.
 
 
-
-U MUST EXPLOIT OPPONENTS AND LOOK WEAKNES IN THEM
-kombninatoryka wazna
-
-Optimize decisions and  
-build strategies to put opponents in place where they have hard time with optimization their decisions.
-relation of hands u have to opponent hand
+## Strategies
+kombninatoryka wazna  
+- relation of hands u have to opponent hand
 - your percived range. Whaty they expected u to have
 
+### GTO
+Game theory optimal - is not enough agressive. Optimize decisions and  build strategies to put opponents in place where they have hard time with optimization their decisions (look for weaknes).
 
---
-jak zapobiegać wojnie.
-- kraje chandlujące ze sobą mniej wojen (world with trade consume more )
-- koszty
-
-
-
-
-SOMETIMES: burning money help to increes payof !!!!!!!!!
 
 ## Limping
 comon blind vs blind action
@@ -331,8 +324,8 @@ Limper is calling in Big Blind
 Playing minimum bet when u  last to act.
 
 button klimpoing (specific)
-## Tels
 
+## Tells
 - How much `Engagement` in cards
 - protect valuable things, close to you vs prefold (away)
 - eyes,
@@ -345,8 +338,17 @@ concious tell> playing .. overacting > opposit what trying to convey
   - bad cards  from the game .
   - good cards just no focs on cards , watch for chit chat
 
-
-
-
 https://www.youtube.com/c/Gametheory101/videos  
 https://www.youtube.com/c/PrimerLearning/videos  
+
+
+
+--
+
+# WAR
+
+jak zapobiegać wojnie.
+- kraje handlujące ze sobą mniej wojen (world with trade consume more )
+- koszty
+
+SOMETIMES: burning money help to increes payof !!!!!!!!!
