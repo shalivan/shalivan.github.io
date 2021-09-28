@@ -85,52 +85,94 @@ https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4
 rośliny - kawałki z których składamy całość i do tego dodajemy na całość atrybuty  
 NIE OPISANE: z liści high składamy zbrushowa roslinke
 
-- **ref** and different sizes and shapes  (grass, plants, bush , tree)
-  - silhouette
-  - characteristic: leaf band, beginning, grouping (higher leafs more vertical change shape) gravitation
-  - growth to the sun, moss growth in shadows  because is not"vascular" plants (to not dry out (mostly 'N' in North hemisphere)
-- **model low** poly (parts)
-  - parts (leafs, stamp)
-  - symmetry
-  - direct leaf to create planes good for view
-- **early uv** unvrap on low
-  - 2 sided leaf  for detail u can apply different textures (2 sided nodes) ie U can move uv have (right and left part on uv). (or have 2 geometries)
-  - test in engine with distance gradient alpha and check how big cutoff could be to get optimal visible part and leaf area
-- **sculpt** think before sculpt if its what u need
-  - make thickness and smooth to low poly
-  - material id's for parts
+- **Reference**
+  - Silhouettes - different sizes and shapes  (grass, plants, bush , tree)
+  - Characteristic elements: Leaf band, Beginning, Gravity, Grouping (higher leafs more vertical change shape)
+  - Characteristic behaviour: Growth towards the sun, Not vascular plants growth in shadows  (to not dry out). Moss mostly 'N' in North hemisphere.
+
+
+- **Low poly model** (parts)
+  - Parts (leafs, stamp)
+  - Symmetry
+  - Direct leaf to create planes good for view
+
+- **Low poly cards** (for more optimised or lods)
+
+- **Early uv** unvrap on low
+  - 2 sided leaf  for detail u can apply different textures (shifted on backside)
+
+
+- **Sculpt** think before sculpt if its what u need
+  - Derive thickened and subdivided model from low poly.
+  - Material id's for parts
   - sculpt
-- **refine low** poly
-  - minimize places with alfa to not have overdraw
-  - triangulation sometimes needs to changed
-- **bake**
-  - by uv
-- **compose** plants: arrange and deform  
-  - use **simulation** to refine final shape
-- set per object attributes
-  - vertex color for movement  (main branch, leafs and thin edges ) / physical properties
-  - normal. On bush:  `Custom Vertex normals` - transfer normal from vdb tree form.
-- **painting**
-  - spots with color variations (some blurry)
-  - use also sharp lines
-  - paint masks: sss,
-  - veins and celular patterns
-  - vines to subsurface mask!
-- **material**
-  - instances 2levels deep to global control
-  - bend grass near player
-- vertex anim **movement**  - wind and interaction
-  - Tree bend, branches, leafs
-  - wind for grass and branches pivoted  
-  - wygiac przy playerze cardsy troche do kamery  
-  - scale anim and size on distance to betere disappear LOD
-  - scale grass down on last lod
-  - how fast move depend on sale `smooth ramp =x*(in+1))/(x-in)`
-- sss
-  -  
-- engine **optimization**
-  - cluster foliage, procedural placement system
-  - early z pass   
+
+
+- **Low poly refine**
+  - Check how big cutoff could be to get optimal visible part without alpha, and avoid overdraw
+  - Triangulation sometimes needs to be refine.
+
+
+- **Bake**
+  - Bake by uv's (like cloths).
+
+
+- **Compose** plants. Arrange and deform  
+  - ... >?
+  - Simulate to refine final shape
+  - Set per object attributes
+
+
+- **Export**
+  - Prepare Vertex Anim. (Vertex color for movement  (main branch, leafs and thin edges ))
+  - ... >?  Normals. On bush:  Custom Vertex normals - transfer normal from vdb tree form.
+
+
+- **Painting**
+  - Spots with color variations (some blurry)
+  - Use also sharp lines
+  - Paint masks: sss,
+  - Veins and celular patterns
+  - Vines to subsurface mask!
+
+
+- **Material**
+  - options
+
+  - color
+    - fuzzy shading
+  - normal
+    - to camera ? bottom up ?  
+    - rotating normals towards camera instead of pointing them up, is a good supplement to unify grass shading, while not causing uniform ugly white sheen
+    - if tangent space normals are enabled in material, your normal will be flipped for backface. While it is desired behavior for grass cards with default normals,
+    - if you are using foliage with edited normals, the backfaces will have incorrect normals. Using foliage with edited normals implies disabling disabling tangent space normals and handling normals yourself in the material using two-sided sign.
+    - You’d want every grass blade to have some sort of distinct specular highlights, preferably corresponding to grass blade orientation, supported by normal map. (not pointing grass normals straight up)
+    - normal map is in use, it also helps if its intensity is high enough to shift surface-subsurface balance from card level to grass blade level.
+  - vertex anim **movement**  
+    - wind and interaction, bend grass near player
+    - wygiac przy playerze cardsy troche do kamery  
+    - scale anim and size on distance to betere disappear LOD
+    - scale grass down on last lod
+    - how fast move depend on scale `smooth ramp =x*(in+1))/(x-in)`
+  - sss
+    - SSS color should not differ considerably from albedo.
+    -  SSS is obtained by sampling environment cubemap in the direction, opposite of the normal. If your grass cluster normals are pointing upwards, they will sample the skylight from bottom part. Needless to say, that if skylight is set to use black for lower hemisphere, you won’t get any subsurface from indirect light.
+  - shadows ... ?
+
+- **Placement**
+  - cluster foliage, procedural placement system
+ 
+- **Engine optimization**
+  - 2 sided foliage option
+  - Early z pass   
+
+- **Lighting**
+
+-  balance between skylight and directional light intensity. In case, when latter is overly strong, there will be distinct separation between zones of dominant subsurface and surface It feels that tweaking subsurface intensity separately for direct and indirect light we pretty good thing to have, but this one would be only tweakable per light, not per material.
+
+
+
+
 
 
 ## Subdivision
