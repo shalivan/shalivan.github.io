@@ -121,3 +121,7 @@ https://www.youtube.com/watch?v=X-iSQQgOd1A
 ?? Structural : (sim based on structural optimization/analysis)
 
 ------      
+
+####### Soft
+https://visualprogramming.net/
+https://www.thefuselab.io/

@@ -278,6 +278,15 @@ difficulty
 
 https://datagenetics.com/blog.html
 
+----
+#### statistics
+- avarage can be different when sample is small, and sensitive to outliers  
+- p - chance of being wrong `false positive`
+- mediana - half
+- corelation and association is not causation: direction of causality may be unclear ot there may be a hidden confounding variable.
+
+t-test -
+mann-whitney test -
 
 ----
 

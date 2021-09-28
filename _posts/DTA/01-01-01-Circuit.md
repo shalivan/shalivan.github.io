@@ -202,7 +202,7 @@ Mono, Auto-Glide, Poly
 
 
 ###  Modulation Matrix
- Depth - how far parameter will be adjusted
+
 
 |Source |||
 |-|-|-|
@@ -213,7 +213,7 @@ Mono, Auto-Glide, Poly
 |Envelopes| Envelopes
 
 
-
+Depth | how far parameter will be adjusted |
 
 |Destination |||
 |-|-|-|

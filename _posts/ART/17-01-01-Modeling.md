@@ -1,14 +1,15 @@
 ---
 title: Modeling
-
 categories:
- - ART
+- ART
 tags:
 - Art
 description: RAW
 permalink: /modeling/
 ---
 
+
+.
 
 
 ### Mesh  
@@ -130,3 +131,8 @@ NIE OPISANE: z liści high składamy zbrushowa roslinke
 - engine **optimization**
   - cluster foliage, procedural placement system
   - early z pass   
+
+
+## Subdivision
+
+[Catmull–Clark subdivision surface](https://www.sidefx.com/tutorials/pragmatic-vex-1-limit-surface-sampling-introduction-opensubdiv-patches/) - using Quads casue it can optimize

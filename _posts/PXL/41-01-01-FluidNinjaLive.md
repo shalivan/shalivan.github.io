@@ -22,6 +22,7 @@ permalink: /fluidninjalive/
 
 
 setup:
+```
 1. project settings: new trace channel set to ignore withname: `FluidTrace`. Must be nr 1
 2. Set up UV for hit collision
 3. enable apex destruction
@@ -30,3 +31,7 @@ if we have a trace channel:
 delete it
 add fluid trace
 and readd old trace channel
+```
+
+6 buffers
+diverg pressure velo density  paint 

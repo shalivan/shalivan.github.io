@@ -134,9 +134,9 @@ e
 ---
 # Unreal Import
 
-|||VA3|SM|SK|PP2|
+||SM (def)|VA3||SK|PP2|
 |---|---|---|---|---|---|
-Skeletal Mesh | | | |x| -
+Skeletal Mesh | | | |On| -
 Generate Missing Collision | ||||-
 Staticm MeshLODGroup | ||||-
 Vert Color |  |Repleace|||Repleace|
@@ -154,8 +154,8 @@ Compute Weighted Normal || | x || -
 |.|
 Transform|  |1| ||-
 |.|
-Convert Scene |  |On| x || v
-Force Front XAxis  | || ||-
+Convert Scene |  |On| x || On
+Force Front XAxis  | || || x
 Convert Scene to Unit | ||||-
 Override Full Name | |On| x||-
 |.|

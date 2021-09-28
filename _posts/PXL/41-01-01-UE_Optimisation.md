@@ -327,7 +327,18 @@ https://developer.nvidia.com/gameworksdownload
 
 ## RenderDoc
 
+## Intel GPA
+Graphic performance analyzing
+Tools for doebug:
+- 'Graphic frame analyzer' is fro unreal can capture fragment of stream.
+  - download from github
+  - copy to plugins to ue install
+  - enable in project
 
+
+
+
+https://youtu.be/KuF4OTH9WjA
 ---
 
 # UE4 CVars:  
