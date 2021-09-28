@@ -84,7 +84,7 @@ For cloths, curves or constraints (like attach)
 
 ||low |high ||
 |-|-|-|-|
-**Stiffness** | stretchy (spandex) | 1e +10 rigid (leather)   | How stretchy material is (default infinite)  
+**Stiffness** | 1 - stretchy (spandex) | 1e +10 rigid (leather)   | How stretchy material is (default infinite)  
 **Rest Lenght Scale** |0 - to snap all points in one | 1.1 - 10% larger after sim | Rest of edges (default 1)  
 **Compression Stiffness** | 10 - paper remain curled | 1000 - rubber (hi resistance )| How much can compress material (lower distance between points)  
 **Stiffnes Dropoff** ||Stop bounce|  On distance (m) or angle
@@ -92,6 +92,9 @@ For cloths, curves or constraints (like attach)
 **Plsticity** ||| Will return to rest pos.   
 
 - wrinkliness (with low res sim lower param help to remove jagginess) / (if compress how likley it stay compressed)  more is more likely stay  (decrease more smooth look and dont enforce wrinkles)  
+
+`f@restlength = f@restlengthorig + fit(f@mask,1,2);` - restlength by param.
+`i@group_pin = @mask < chf("mask");` and add to 'constraints stream (op2)' by copy attribute > promote point to prim
 
 ### Bend
 

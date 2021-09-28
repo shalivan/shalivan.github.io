@@ -77,6 +77,7 @@ Ego
 Superego  
 ID   
 
+cien(represje wrzucone do podswiadomoci),  persona(maska), anime animus
 
 ## Moral Virtue
 in Aristoteles Nicomachean Ethics
