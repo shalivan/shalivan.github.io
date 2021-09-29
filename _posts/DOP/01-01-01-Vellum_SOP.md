@@ -93,7 +93,7 @@ For cloths, curves or constraints (like attach)
 
 - wrinkliness (with low res sim lower param help to remove jagginess) / (if compress how likley it stay compressed)  more is more likely stay  (decrease more smooth look and dont enforce wrinkles)  
 
-`f@restlength = f@restlengthorig + fit(f@mask,1,2);` - restlength by param.
+`f@restlength = f@restlengthorig + fit(f@mask,1,2);` - restlength by param.   
 `i@group_pin = @mask < chf("mask");` and add to 'constraints stream (op2)' by copy attribute > promote point to prim
 
 ### Bend
@@ -129,64 +129,57 @@ Different types by: Stress or Ratio  (sensitive, low values)
 normalize stress on solver -  to normalizes for sub steps change
 
 
+## Constraint setups
 
-
-### SET TARGET
+### Set Target
 
 **Avoid time dependences** - set  when pining top not fetch animation to solver  
 ![](/src/vellum/vellumtargetsmall.png)
 
 
-
-
-```
-EXISTING SETUPS
-### `[Vellum Configure Cloth]`
-
-### `[Vellum Configure Baloon]`
-= cloth Constraint + Pressure Constraint     
-- anim stretch on pressre   
-- change volume by - rest length scale    
+### Balloon
+- [Vellum Configure Baloon] = cloth Constraint + Pressure Constraint     
+- anim stretch on pressure constraint
+- change volume setup: - `rest length scale`    
+ - `Stretch Stiffness` on Cloth  and pressure.  low - jellow , high stiff ,
+ - `Bend Stiffness` - Cloth  more bandy soft bodies,
+ - `Damping ratio` - cloth stretch section  
 
 Expose output group in pressure  `@pstretch` - @VellumsconstraintProperty inside solver forces
 `cluster points` - to glue constrain
 
-
-
-### `[Vellum Configure Soft Body]`
-= cloth + struts     
-
-### `[Vellum Configure Grain]`
+### Grain
+- [Vellum Configure Grain]
 Increase substeps 5+   
 `@breaktreshold` / `@isgrain = 1` / `@mass` / `@pscale` / `@v` -   
-```
-animating constraints:  
-```
-https://youtu.be/NwabG-znu9Y?t=5745 - H 17 advanced wath end
-https://www.youtube.com/watch?v=zPQZ8KJTjzo - H 18
-https://www.youtube.com/watch?v=iHtdex9kM-A - grab constr
-https://youtu.be/qAraO2E-v84 - megaplex part 1 (part 2 on gum)
-https://www.youtube.com/watch?v=8ge2W7KKwf8&t=163s - entagma stitches
-https://youtu.be/rQw2UZGWP-0 - rozwijanie płachty
-```
+
+### Soft Body
+`[Vellum Configure Soft Body]`
+= cloth + struts     
+
+### Hair / Grass
+!!!!!!!!
+
+
+
 
 
 ---
 
-# Solver Forces
+# Solver (DOP Forces)
 
 
 1. OBJECT
 2. CONSTRAINT
 3. COLLISION
 
-
+## [Velum Constraint Properties] DOP
+Change constraints properties  (can animate here )
+- use groop to affect only one
 
 ## [Velum Constrains] DOP
 Set constraints here (change from 1'st to each frame creation)  
 
-## [Velum Constraint Properties] DOP
-Change constraints properties  (can animate here )
 
 #### Remove Pin Constraint
 Unpin for soft constraints
@@ -291,7 +284,16 @@ Drape solver help resolve cloths
 `Name_LB` -   Left Back  
 `Name_LF` -   Left Front  
 
+---------------
 
+
+https://www.sidefx.com/tutorials/vellum-nodes/ - quick tuts
+https://youtu.be/NwabG-znu9Y?t=5745 - H 17 advanced wath end
+https://www.youtube.com/watch?v=zPQZ8KJTjzo - H 18
+https://www.youtube.com/watch?v=iHtdex9kM-A - grab constr
+https://youtu.be/qAraO2E-v84 - megaplex part 1 (part 2 on gum)
+https://www.youtube.com/watch?v=8ge2W7KKwf8&t=163s - entagma stitches
+https://youtu.be/rQw2UZGWP-0 - rozwijanie płachty
 
 
 ---
