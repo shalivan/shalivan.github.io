@@ -46,8 +46,8 @@ TT|TT|P|P|V|V|V|V
 
 
 ## Oscillator
-- **Waveform** - wave shape  
-- `index` (OSC Pulse Width) -  Shift waveform.  
+- [ ] **Waveform** - wave shape
+- `Index` (OSC Pulse Width) -  Shift waveform.  
 - `Semitones` - Multiple octave playing one note. Detune semitones up or down on octave.  setting it to +12 effectively shifts the oscillator tuning up one octave.
 - `Cents` -  Cents detune. (1/100 of a semitone), ±50 tunes the oscillator to a quartertone
 midway between two semitones.
@@ -63,119 +63,100 @@ waveforms blending together. With a value of zero the transitions will be abrupt
 
 
 ## Mixer  
-Mix oscillators
-- `Osc1` / `Osc2` - Add Oscillators to mix. Can detune adding second oscillator and mix them on mixer.  
+Mix oscillator 1 and 2
+- `Osc` - Add Oscillators to mix. Can detune adding second oscillator and mix them on mixer.  
 - `Noise` -  Add noise
 - `Ringmode` -    
-- `PreFX` / `PostFX` -  
+- **PreFX** -
+- `PostFX` -  
 
 
 ## Filter
-Color and Shape of sound. Help filter out certain frequencies.
+Filter out certain frequencies. (Color and Shape of sound)
 
-Filter type
-  - **Lowpass**,  **High pass**, **Bandpass**  - cut right, cut left, both    
-  - **12dB** (flat) sound is bassy higher   more higher freq with 12 bd,  **24dB** (more slope) cutoff slope. Greater value sooner cut off  (higher freq pass through)    
-
-
-
-
-Filter
+- [ ] **Filter type**: What to cutoff.  **Lowpass**  - cut right,  **High pass** - cut left, **Bandpass** - both / **12dB** (flat) sound is bassy (more higher freq), **24dB** (more slope) cutoff slope. Greater value sooner cut off.    
+- [ ] **Bypass**: Which oscillator will be affected. **Normal**, **O1 bypass**,  **O1+O2 bypass**(will still affect noise and some settings)
 - `Cutoff Frequency` Filter  - How much to cut off filter, alter the tone of your sound from soft to sharp.
 - `Resonance` Filter - End    
-
-
-Mod
 - `Key Track` 0-127 - change freq depend on how high on keyboard note is (higher keys higher freq) (usefull if playing large range )
 - `Env2 > Freq` +-64 - Add automatically Filter to react  on  Envelope 2 !!!!!!!!!
-- `Q norm` - : This parameter alters the bandwidth of the peak created by the resonance control. The
+- **Q norm** - : This parameter alters the bandwidth of the peak created by the resonance control. The
 value of filter res has to be set to something other than zero for this parameter to have any
 effect. This feature enables the Filter section to emulate many of the filter responses found on
 various classic analogue and digital synths
-
-Drive
-- `Type`
 - `Drive` - distort / amplify going in to filter. dif types  (bit crush, rat reduce)
-
-Same as EFFECTS > DISTORTION
-
-
-Bypass
-- `Normal`, `O1 bypass`,  `O1+O2 bypass` - bypass filter in given oscillators !!!!!!!!!!!!!!!! What oscillator will be affected ! bypass will still affect noise and some settings
+- [ ] **Drive Type** - Same as EFFECTS > DISTORTION
 
 ## Envelopes
-3 Envelopes: Velocity, Velocity, Delay  
-Set:  **Attack**, **Decay**, **Sustain**, **Release**
+3 Envelopes: **Velocity**, **Velocity**, `Delay`  
 
+- `Attack`   
+- `Decay`  
+- `Sustain`   
+- `Release`  
+
+```
+.
  1. Envelope Amplifier  (amplifier allow go sound through so 1 env will change loudness)
  2. Envelope Filter  
  3. Envelope Extra one  (you can  control by macro ) normally attack   
 
-
+```
 
 
 
 ## LFO
-2 LFOs
-LFO require destination to work Apply only in matrix
+LFO require destination to work. (Apply only in matrix)
 
 - **Waveform** - Wave shape
 - `Slew` (as portamento or glide for LFO wave ) limits how quickly wave can change value  shape of the LFO waveform. Sharp edges become less sharp as Slew is increased.
-- `Phase` - Shift tells LFO where in the wave to start
-- [ ] `One Shot` - o generate just a
+- **Phase** - Shift tells LFO where in the wave to start
+- [ ] **One Shot** - o generate just a
 single cycle of its waveform.
-- [ ] `Common Sync` - LFOs are in use for pitch modulation (their most common application),
+- [ ] **Common Sync** - LFOs are in use for pitch modulation (their most common application),
 Common Sync is only applicable to polyphonic voices. It ensures that the phase of the LFO
 waveform is synchronized for every note being played. When to set Off, there is no such
 synchronization, and playing a second note while one is already pressed will result in an
 unsynchronized sound as the modulations will be out of time
-
-Rate / Delay
 - `Rate` - (can sync to temp )  Speed /  LFO’s frequency. A value of zero stops the LFO, and most musical effects are
 likely to use values in the 40~70 range,
-- [ ] `Rate Sync` -e synchronized to an
-internal/external MIDI clock. When set to Off, the LFOs run at a frequency set by the Rate
+ - [ ] **Rate Sync** - synchronized to aninternal/external MIDI clock. When set to Off, the LFOs run at a frequency set by the Rate
 parameter
-- `Delay` - (can sync to temp )with fade modes   
-- [ ] `Delay Sync` -
-
-
-
-Sync style
-  - `Key Sync` / `free` - start with new key push s Off, there is
+- **Delay** - (can sync to temp )with fade modes   
+ - [ ] **Delay Sync** -
+- [ ]  **Sync Style** - **Key Sync** / **Free** - start with new key push s Off, there is
 no way of predicting where the waveform will be when a key is pressed.
-
-
-Fade mode
-  - `Fade In` - gradually increased over the time period set by the
-Delay parameter
-  - `Fade Out` gradually... , leaving the note with no LFO modulation.
-  - `Gate In` - onset of the LFO’s modulation is delayed by the time period set by Delay
+- [ ] **Delay Triger** - **Singiel** / **Multi** - Fade/Gate parameters set by Fade
+- [ ] **Fade mode**
+  - **Fade In** - gradually increased over the time period set by the Delay parameter
+  - **Fade Out** gradually... , leaving the note with no LFO modulation.
+  - **Gate In** - onset of the LFO’s modulation is delayed by the time period set by Delay
 parameter, and then starts immediately at full level.
-  - `Gate Out` - The note is fully modulated by the LFO for the time period set by the Delay. At
+  - **Gate Out** - The note is fully modulated by the LFO for the time period set by the Delay. At
 this time, the modulation stops abruptly.
 
-Delay Triger  
-  - `singiel` / `multi` - Fade/Gate parameters set by Fade
-  Mode
 
 
 ## Effects
 
 
-#### Chorus / Phaser
-- chorus is great
+### Chorus / Phaser
+- [ ] **Chorus / Phaser** chorus is great
+- `Rate`
+ - Sync
+- `Feedback`
+- `Depth`
+- `Delay`
+- `Level`
 
 
-#### Equalizer   
-- low mid high for freq and gain
+### Equalizer   
+- **low** **mid** **high** for freq and gain
 
 #### Distortion
-- `level`  
-- `comp`   
-
-
-
+- `Level`  
+- **Comp**   
+- **Type**
 ||||
 |-|-|-|
 Diode | Simulation of analogue Circuitry producing distortion | progressively “squared-off” as the amount of distortion is increased.
@@ -190,19 +171,15 @@ Rate-Reducer | |  Gives the effect of reduced definition and HF loss, similar to
 
 
 #### Voice
-Mono, Auto-Glide, Poly
-- Portamento -  
-- Pre-glide -   
-- Keyboard Octave -
+- [ ] **Voice** - **Mono**, **Auto-Glide**, **Poly**
+- `Portamento` -  
+- **Pre-glide** -   
+- **Keyboard Octave** -
 
 ## Modulation
-
-- 4 macros per knob
-- 20 matrix slots
-
+4 macros per knob, 20 matrix slots
 
 ###  Modulation Matrix
-
 
 |Source |||
 |-|-|-|

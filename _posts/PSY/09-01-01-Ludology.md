@@ -329,6 +329,8 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 ---------------
 
+[ YT - How Video Games Create Empathy | Hellblade , Nier:Automata and Empathy in Game Design ](https://youtu.be/9IBhHRFfhm0) -
+
 game podcasts
 https://www.psychologyofgames.com/   
 https://ludology.libsyn.com/    

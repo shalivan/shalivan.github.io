@@ -146,7 +146,7 @@ Building Reversed Index Buffer | | | x|| -
 Generate Lightmap UVs | ||||-
 One Convex Hull per UCX | || x||-
 Combine Meshes | || x||-
-Transform Vertex to Absolut | |On| x||-
+Transform Vertex to Absolut | |On| x|| ?
 Import Mesh LOD's || depending on Houdini |||-
 Normal Import |  |Import Nm & Tang| Import Nm || ImportNm
 Normal Generation | || Mikk TSpace||-
