@@ -157,6 +157,7 @@ this time, the modulation stops abruptly.
 - `Level`  
 - **Comp**   
 - **Type**
+
 ||||
 |-|-|-|
 Diode | Simulation of analogue Circuitry producing distortion | progressively “squared-off” as the amount of distortion is increased.
@@ -245,7 +246,7 @@ Depth, jak duzo zmiany i w ktora strone
 - Vibrato, EFX Dry / wet / also chorus | lfo speed
 
 Performance:
-- LFO speed / intensity, OSC Tune 
+- LFO speed / intensity, OSC Tune
 - modulation depth
 - Morph functions. Wavetable Positions, Oscillator A/B Ratio
 
