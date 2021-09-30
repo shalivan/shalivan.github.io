@@ -225,30 +225,31 @@ Depth, jak duzo zmiany i w ktora strone
 
 #### Macro for synths
 
-||Tracks|||Rhythm|
-|-|-|-|-|-|
-1 | Oscillator | Cutoff EG intensity  | filter cutoff - bring in out | Tune
-2 |  Oscillator Mod | Cutoff  |Env2mod - how filter env  / lead arpeggio to softer sound | Start
-3 | Amp Envelope | Resonance / Overdrive | attack | Length
-4 | Filter Envelope | 50 % is for Attack/ Release | release | Slope
-5 |  Filter Frequency |Vibrato, EFX Dry / wet / also chorus | lfo speed | Distortion
-6 | Resonance | Performance: LFO speed / intensity, OSC Tune | modulation depth | HP
-7 | Modulation | oscillator pitch | LP
-8 | FX|Morph functions. Wavetable Positions, Oscillator A/B Ratio  | Resonance
+||Tracks|Rhythm| Track Drums|
+|-|-|-|-|
+1 | Oscillator |  Tune | Static pitch
+2 |  Oscillator Mod |  Start |
+3 | Amp Envelope |  Length | Decay envelope time
+4 | Filter Envelope | Slope |
+5 |  Filter Frequency  | Distortion | Distortion
+6 | Resonance | HP | -
+7 | Modulation | LP |  Filter
+8 | FX| Resonance | -
 
 
+---
 
-#### Macro for drums
+- Env2mod - how filter env  / lead arpeggio to softer sound   
+- 50 % is for Attack/ Release  
+- Resonance / Overdrive
+- Vibrato, EFX Dry / wet / also chorus | lfo speed
+
+Performance:
+- LFO speed / intensity, OSC Tune 
+- modulation depth
+- Morph functions. Wavetable Positions, Oscillator A/B Ratio
 
 
-||fixed drums macro|
-|-|-|
-1 | Static pitch
-3 | Decay envelope time
-5 | Distortion
-7 | Filter
-
--------
 
 # Circuit Hardware
 
