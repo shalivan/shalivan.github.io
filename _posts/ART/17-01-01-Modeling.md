@@ -12,25 +12,14 @@ permalink: /modeling/
 .
 
 
-### Mesh  
-`*.obj` - no vertex color and 2-uvs standardised, no attribs    
-`*.fbx` -    
-`*.gltf`-    Create an unwanted catalog in UE4, no Vert Color?    
-`*.bgeo.sc` - cache    
-`*.sim` - more expensive H cache (eg in output node in dop)    
 
 
-
-## Props
-    - elements should be `grounded` in scene  
-    - barnacling small things around,
-    - footing - awareness of  intersecting,
-    - greebling materialing
 
 
 
 # Basics
 - General meshes with equal triangles behave better: rendering performance (overdraw) / simulations (`Delanunay` max minimal angle (tend to 60) ! - smoothes interpolation but less approximation of surface when long trix better define edges)
+- 4k normal map at 80% UV usage can contain normal data from ~13.5m triangles at a density of one triangle per pixel.
 - scale is important
 - zastosowanie. games/subdivs.
 
@@ -58,6 +47,12 @@ permalink: /modeling/
 - pivots        
 ---        
 # Hard surface
+
+## Props
+    - elements should be `grounded` in scene  
+    - barnacling small things around,
+    - footing - awareness of  intersecting,
+    - greebling materialing
 
 ---
 
@@ -172,7 +167,7 @@ NIE OPISANE: z liści high składamy zbrushowa roslinke
 
 
 
-## Subdivision
+# Subdivision
 
 [Catmull–Clark subdivision surface](https://www.sidefx.com/tutorials/pragmatic-vex-1-limit-surface-sampling-introduction-opensubdiv-patches/) - using Quads casue it can optimize
 Loop - work with triangles (remesh)

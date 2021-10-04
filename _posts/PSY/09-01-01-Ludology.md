@@ -11,7 +11,14 @@ tags:
 permalink: /ludology/
 ---
 
+```
+FUNDAMENTAL
+progres is key. Getting better learning.
+More that feels earn, more satisfiyng - potential of things going wrong  
+one of key https://youtu.be/MtzCLd93SyU?t=3884
 
+Center of gravity in game should be in one place 
+```
 
 **Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 

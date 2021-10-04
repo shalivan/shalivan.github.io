@@ -13,24 +13,15 @@ description: Pipelines
 permalink: /pipes/
 ---
 
-4k normal map at 80% UV usage can contain normal data from ~13.5m triangles at a density of one triangle per pixel.
-$HIP/`opname("../../..")`/cache/pdg/`opname("../..")`/`opname("..")`/`@wedgenum.0`.`@wedgenum.1`/$OS.$F.jpg
-$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/`@wedgenum.0`.`@wedgenum.1`/$OS.$F.bgeo.sc
-$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/`@wedgenum.0`.`@wedgenum.1`/`@pdg_index`.png
-$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/`@wedgenum.0`.`@wedgenum.1`/`@pdg_index`.mp4
 
-TOP cacahe
-$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/$OS.$F.bgeo.sc
-$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/$OS.`@wedgenum.0`.`@wegdenum.1`.$F.bgeo.sc
-$HIP/`opname("../..")`/resave/`@filename`.obj
-$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/$OS.`@wedgenum.0`.`@wedgenum.1`.$F.bgeo.sc
-$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/`@wedgenum.0`.`@wedgenum.1`/$OS.$F.bgeo.sc - every wedge in different folder
 
-$HIP/ContianerName/pdg/TopNodeName/ExeNodeName.Wedge.bgeo.sc
 
-Frames per batch w zakładce ROP Fetch jak są lekkie
+
 # Paths
 
+- niezmienna nazwa noda-contenera
+- modelowaną geometrie trzymaj w innym nodzie !!!  
+- TOP net nie zmieni wedgeparamsa po zmianie nazwy noda
 
 ### Paths
 
@@ -40,8 +31,7 @@ Frames per batch w zakładce ROP Fetch jak są lekkie
 | Cache Static |```$HIP/`opname("..")`/cache/$OS.bgeo```  |     
 | Cache Simulation | ```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` |  
 |**Bake**|
-| Maps Bake |```$HIP/`opname("..")`/export/bake/${OS}/${OS}_$(CHANNEL).tif``` |    
-|Maps Bake PDG  | ```$HIP/`opname("..")`/pdg/bake/${OS}/${OS}_`@wedgeindex`_$(CHANNEL).tif```  
+| Maps Bake |```$HIP/`opname("..")`/export/bake/${OS}/${OS}_$(CHANNEL).tif``` |   
 |**Game**|
 |TextureSheet / MorionVector seqence | ```$HIP/`opname("..")`/export/bake/${OS}_sequence/``` |      
 |TextureSheet / MorionVector | ```$HIP/`opname("..")`/export/bake/``` |  
@@ -54,29 +44,26 @@ Frames per batch w zakładce ROP Fetch jak są lekkie
 |FBX Character Export | ```$HIP/.... .fbx```
 |FBX Animation Output | ```$HIP/.... .fbx```  
 |**Vellum** |
-|Vellum cache | ```$HIP/cache/heightfield/$OS.bgeo.sc```
+|Vellum cache | ```$HIP/cache/...```
 |**PDG**|
-|PDG TopGeo | ```$HIP/`opname("../..")`/export/pdg/${OS}_`@wedgeindex`.fbx```
-|PDG cache | ```$HIP/`opname("../..")`/cache/pdg/${OS}/${OS}_`@wedgeindex`.$F4.fbx```
+|PDG cache TOP |$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/ - direct topnet ??   
+|PDG cache SOP TOP |$HIP/`opname("../../..")`/cache/pdg/`opname("../..")`/`opname("..")`/ - topnet in object ??   
+|PDG export TOP |$HIP/`opname("../..")`/export/pdg/`opname("..")`/$OS/ - direct topnet ??   
+|PDG export SOP TOP |$HIP/`opname("../../..")`/export/pdg/`opname("../..")`/`opname("..")`/ - topnet in object ??  
 |**COP**|
 |COP image | ```$HIP/`opname("..")`_cop/${OS}.exr```
+|Embeded assets| opdef:/Sop/...
 
-```
-OLD
-|Vertex Anims  |```$HIP/`opname("..")`/export/vat_$OS/$OS_$(CHANNEL).exr``` |  
-|Vertex Anims  |``` $HIP/export/`chs("_component")`_vat```   |
-|Vertex Anims  |``` `chs("_project")`/`chs("_component")`_xxx.fbx```  |
-```
+|||
+|---|---|
+|Name from attribute|$HIP/`details("../filecache1","attribute1")`.fbx
+|offset 0010-0260  |$HIP/name.`padzero(4,$F-10)`.png  
+|range loop 0000-0250 |$HIP/name.`padzero(4,$F%251)`.png    
+|range loop 0050-0300 |$HIP/name.`padzero(4,($F-50)%251+50)`.png    
+|hold first |$HIP/name.`padzero(4,min($F,250)`.png   
+|hold last|$HIP/name.`padzero(4,max($F,1)`.png      
+|clamp|$HIP/name.`padzero(4,clamp($F,1,250))`.png  
 
-
-$HIP/`opname("..")`/export/bake/`@top_name`/`opname("..")``@top_name``@lod_name``@bake_set`_$(CHANNEL).tif   
-$HIP/name.$F4.png   
-$HIP/name.`padzero(4,$F-10)`.png - offset 0010-0260   
-$HIP/name.`padzero(4,$F%251)`.png - range loop 0000-0250    
-$HIP/name.`padzero(4,($F-50)%251+50)`.png - range loop 0050-0300    
-$HIP/name.`padzero(4,min($F,250)`.png - hold first   
-$HIP/name.`padzero(4,max($F,1)`.png - hold last     
-$HIP/name.`padzero(4,clamp($F,1,250))`.png - clamp   
 
 
 ### Folders
@@ -97,13 +84,22 @@ $HIP/name.`padzero(4,clamp($F,1,250))`.png - clamp
   - `/material/fileA.png` - Export    / in same folder as  spp/sbs   
 
 
----
+### Files
 
-# Rules
+##### Sufixes
 
-- niezmienna nazwa noda-contenera
-- modelowaną geometrie trzymaj w innym nodzie !!!  
-- TOP net nie zmieni wedgeparamsa po zmianie nazwy noda
+- **Mesh Parts** - A B C D
+- **Maps Channels**
+  - `cd` - Color
+  - `rg` - Roughness  
+  - `ao` - Ambient
+  - `cv` - Curvature
+  - `th` - Thickness
+  - `fb`
+  - `h`
+  - `a`
+  - `p`
+  - `nm`/`wn` - world normal  ,`bn` bent normal, `wp` - world position va
 
 #### Attributes
 
@@ -125,11 +121,7 @@ Uv
 - `i@udim=1001;` - (prims)
 - `i@island=3;` - (prim)  
 
-#### Sufixes
 
-- **Mesh Parts** - oznaczenia czesci A B C D jak jest policzalna ilosc, jak nie to liczby  
-- **Maps Channels** - `cd` color, `rg` roughness,  `ao` ambient, `cv` curvature, `th` thickness,`fb` ,`h` ,`a` ,`p` `nm`, `wn`world normal  ,`bn` bent normal, `wp` - world position (WD - WPO VA )
-e
 
 ---
 # Unreal Import
@@ -164,16 +156,12 @@ Reorder mat to fbx |  | On|||-
 
 
 ---
-# Modeling
-Houdini 1 U = 1m Zbrush - scale * 100  obj rotation ?    
+
+# Collision
 
 - `UCX_*` - from houdini need to be in separated containers  named UCX_nameOfGeoContainer. - object level  (make container !!! and ROPnet > fbx)  
 
 
-
-# Digital assets
-
-Adress to 'digital asset' embeded assets: opdef:/Sop/...
 
 
 

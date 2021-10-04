@@ -77,7 +77,17 @@ Ego
 Superego  
 ID   
 
-cien(represje wrzucone do podswiadomoci),  persona(maska), anime animus
+jungina model of psyche:
+True self is balance Ego + shadow   
+
+Concious outer world
+- Persona - Mask designed to make different impression. Idealized depiction of your personality (like ego)
+
+Colective uncioncious, inner world
+- Shadow - Dark side of once personalty. But if you integrate shadow it give a profit.
+- Anime -
+- Animus -
+
 
 ## Moral Virtue
 in Aristoteles Nicomachean Ethics
