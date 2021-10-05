@@ -10,35 +10,16 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
+**reinforce throu mechanics, incentivizse throu game systems**
 
 [Level Design](/leveldesign/), [Ludology](/ludology/), [Game Mechanics](/gamemechanics/)       
 
-What is desired experience ?
-
-**qualia** - are defined as individual instances of subjective, conscious experience.
-
-
- Notes on the Synthesis of Form, Christopher Alexander  -
-‘Unselfconscious design’ (or ‘craft-based’ design) concerns the use of traditional building methods, in which the designer works directly on the form (so, if you were a wheelwright, the wheel) unselfconsciously, through a complex two-directional interaction between the context and the form, in the world itself. The design rules and solutions are largely unwritten, and are learnt informally. The same form is made over and over again with no need to question why; designers need only learn the patterns.
-
-
-Psychology in games:
-[Sid Meier's Psychology of Game Design](https://www.youtube.com/watch?v=MtzCLd93SyU&ab_channel=GDC)  
-Mike Ambinder - Principal Experimental Psychologist   
-raction to action (payof/ info )
-----
-
-
-
-
-
-
-
-
-##### Accessibility , easy of use
-
-
-
+Gameplay Form a desired experience   
+**Qualia** - are defined as individual instances of subjective, conscious experience  
+How to deal with problem: functionally, narratively and thematically  (What is a purpose of the design.   )
+Why system is imporant and not a secondary value:     
+Raction to action (payof get new gear / get new info )      
+synergy - every element compliment eachother  
 
 # Players
 
@@ -46,6 +27,10 @@ raction to action (payof/ info )
 
 
 
+- where is locus of controll... play character directly or just give direction or control one character at a time in team
+[Cognition (choices)](/cognition/)
+
+more emergent if character can suprise you ? .>
 
 Nuimber of players
 roles
@@ -94,7 +79,7 @@ villans - what mean to be offended by villan force
 Chase, Race, Alignment, Ressource to escape, Forbiden Act , Construction, Exploration, Solution,
 
 
-
+to get meta paterns.  
 aim
 run chaise
 solve
@@ -117,6 +102,13 @@ skilsy skakania
  match 4 dynamics in strategy games.
  strategies - Managing points to use to win
 
+#### Path/ strategies
+ Skill, Smart
+
+ strategies:
+ - dyplomatic
+ - stelf  - omijanie wrogów ktorzy maja rozne zmysły
+ - action
 ---
 # Rules
 
@@ -127,19 +119,37 @@ skilsy skakania
 
 ---
 # Resources
-Scarcity
-- units, currency, objects,time,
-- life's,  health, ,
+## Scarcity
+- units, currency, objects,time,terrain,
+
+#### Health Systems
+Pool of points that get subtracted from, eventually it reaches zero, and that initializes a game-over function or increments a death counter ( **life's** ) and restarts a section of gameplay),
+
+How much punished for mistakes
+
+- **regenerating** -  > reward for hiding!!  and not rewarding good play. but get forroward momentum.  (it equal chances before next encounter). Cannot hurt player a little as punishment, enemies must be able to kill you
+- **health packs**
+ - boxes with stuff. if u have health u get ammo. Or coins to spend not always on health
+- **glory kill** reward >> offensive system and encourage to play
+
+- mixed:
+  - regen last few %
+  - regen when other conditions. Only if the second variable influenced by ie food is at a certain point  (minecraft)
+
+#### Action Points
+mana (actions) - spiritual or magical energy / karma / stamina  -   Non renevable / renevable
 
 
-mana (actions) - spiritual or magical energy.   Non renevable / renevable
-karma   
 
-terrain,
 
-upgrejdy:
-- chwilowe
-- zbierane na lvlu / wypadają
+#### Upgres
+- Temporal -
+- Permament - tree.
+
+#### How to get
+
+- Loot
+- Hidden in enviro  
 
 ---
 
@@ -237,7 +247,11 @@ thgird person - hardest to design  (fixed angels are easier to make)
 
 
 
-   --------------------
+##### Accessibility , easy of use
+   Degree of representation vs abstracion
+
+--------------------
+
 # UI
 
 **Diedests** - in world
@@ -258,26 +272,28 @@ s “PICK UP THAT CAN.” If you do, he lets you go. If you don’t, he beats yo
 - accesalbility
 - gamification
 
+---
 
-peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
+
+
 
 Loading bar
 https://www.psychologyofgames.com/2019/10/loading-when-were-willing-to-wait/
 
 
+
 # Making games
+peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
 
  which can happen if they don’t ‘announce’ their entry if they spawn from out of sight
 
+ Game iterative > Greater level of complexity  
 
-Game iterative > Greater level of complexity  
 
 You can imagine what it may be like but you never gonna know until you actually experience it. match expectation with embodied experience. > Iterative process.
 
 
 
-Mental Modeling
-Now comes the 4th, and final, layer - Mental Modeling. The goal with this layer is to change the way the player perceives and thinks about the game
 
 
 ```
@@ -303,6 +319,10 @@ player-facing:
 
 game styles:
 guiding by AI - have high saliency
+run
+find
+fight   
+
 
 
 ---------------
@@ -312,13 +332,8 @@ Prioritizes agent spontniety (all imporvisation and simulation ) (Dwarf Fortress
 - simulation crntric approach  
 - plot centric approach  
 
-- where is locus of controll... play character directly or just give direction or control one character at a time in team
-[Cognition (choices)](/cognition/)
-
-more emergent if character can suprise you ? .>
 
 ```
-
 
 ```
 strategic
@@ -326,55 +341,16 @@ systematic
 narrative
 emergent
 
-
-reinforce throu mechanics, incentivizse throu game systems
-
 enviromental reconcilation
 design by theming.
 
-
-#### Path
-
-Skill, Smart
-
-
 ---
-
-beting mechanics.   
-Gamble ???    
-
-
 game design - mechanis an rules
 behaviour  design -  pavlov
 design thinking -  
 repeated constens (non procedural) is where you cannot do otherwise
 
 ```
-
-if you generating ther whole story your mechanics must include loss and recovery
-
-Twin Stick
-
-
-strategies:
-- dyplomatic
-- stelf  - omijanie wrogów ktorzy maja rozne zmysły
-- action
-
-important is to: empower player to action
-need: choice, motivation, informationm, time
-
-to use systems
------
-use mechanics as metaphore !
-enable narrative throu systems
-
---------------
-persuasive games ian bogost book
-
------
-
-poker , chest , go
 
 ```
 Long/sort term decisions  
@@ -387,14 +363,6 @@ game theroy cofifig that preclude domininat  solutions - non nash equilibrium ga
 
 
 -----
-https://youtu.be/OrmyLaLCaIo
-brade & whitnes
-
-
-dynamical meaning - vs - story meaning
-
-
------
 MDA  framework
 
 |a||
@@ -402,40 +370,30 @@ MDA  framework
 Mechanics | dynamics | estetic
 strategic | systemic | narratic  
 
-
-zelda : chemistry engine
-
 ---------------
 
 Agents (flex)
 Network - social
 Layers (rigid)
 
-synergy - every element compliment eachother
 
-
----
-feedback loops
-
------------
-game mechanics advanced game design BOOK !!!!!!!!!!!!!!!!!!!!!!!! ernest adams joris dormans :
-
-
-
-------------------
-a systemic approach advanced game design BOOK:L!!!!!!!!!!!!!!!!! michael selers
-core loops in games;
-- low level loops and engagement and so on but;--
-Engines - active reinforce of same resource.  exchanging resources ( Store or use now bust. )
-Economies -
-Ecologies - balance not reinforce eachother . balance in dynnamic universe.
-
-to get meta paterns.
 
 ```
 
 
-What is a purpose of the design.   
-
-
 UI; use existing mental models and make to be more intuitive
+
+
+
+ Notes on the Synthesis of Form, Christopher Alexander  -
+‘Unselfconscious design’ (or ‘craft-based’ design) concerns the use of traditional building methods, in which the designer works directly on the form (so, if you were a wheelwright, the wheel) unselfconsciously, through a complex two-directional interaction between the context and the form, in the world itself. The design rules and solutions are largely unwritten, and are learnt informally. The same form is made over and over again with no need to question why; designers need only learn the patterns.
+
+https://youtu.be/OrmyLaLCaIo  
+brade & whitnes  
+Psychology in games:   
+[Sid Meier's Psychology of Game Design](https://www.youtube.com/watch?v=MtzCLd93SyU&ab_channel=GDC)    
+Mike Ambinder - Principal Experimental Psychologist      
+game mechanics advanced game design BOOK !!!!!!!!!!!!!!!!!!!!!!!! ernest adams joris dormans :   
+a systemic approach advanced game design BOOK:L!!!!!!!!!!!!!!!!! michael selers   
+persuasive games ian bogost book  
+----

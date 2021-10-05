@@ -20,15 +20,9 @@ Separate translucency
 
 [Unreal Optimisation Guide](https://unrealartoptimization.github.io/book/pipelines/forward-vs-deferred)
 
-
+It's the pass where all meshes (this includes landscapes, skeletal meshes etc) are drawn into the G-buffer.
 ---
 
-# Forward Render pipeline  
-
-...
-
-
----
 
 # Deferred Render pipeline  
 
@@ -138,7 +132,7 @@ basepass. canvasDrawTile, Post, Shadow Depths. Prepass< DLSS  Global DistanceFie
 
 `ProfileGPU` -  `Ctrl` + `Shift` + `,` -  GPU Visualizer window (Single frame on gpu)  you can dump it to log      
 
-- Pre pass
+- **PrePass** -
 - **EarlyZPass** - (default: partial z pass). DBuffer decals require a full Z Pass `r.EarlyZPass` (more draw calls, less overdraw during base pass).
 - **Base Pass** - When using deferred, simple materials can be bandwidth bound. Actual vertex and pixel shader is defined in the material graph. There is an additional cost for indirect lighting on dynamic objects.
    - StaticOpaqueNoLightmap - Cost of rendering meshes with Opaque material and dynamic light.
@@ -245,6 +239,15 @@ Assets:
 - affect navmesh
 - shadow distances and turn off for small
 - tick  
+
+---
+
+
+# Forward Render pipeline  
+
+...
+
+
 ---
 
 # Debug

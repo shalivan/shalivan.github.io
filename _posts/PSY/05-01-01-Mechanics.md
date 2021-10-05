@@ -19,8 +19,10 @@ system , pace, posit. negative feadback
 , solvable, deterministic ....
 symetry
 
+feedback loops
 
-
+use mechanics as metaphore !
+enable narrative throu systems
 
 # Mechanics   
 
@@ -39,6 +41,9 @@ symetry
 Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
 
 
+important is to: empower player to action
+need: choice, motivation, informationm, time
+to use systems
 
 
 #### Cycles (gameplay loop )
@@ -113,7 +118,7 @@ narrative emergence -  sequence of event .
 
 
 emergent enable larger possibilities with simpler components
-
+Engines - active reinforce of same resource.  exchanging resources ( Store or use now bust. )
 #### Structure dynamics:
 
 Topologies (how elements are connetcted. relationship between objects. Linear, tree, network, )
@@ -156,7 +161,7 @@ Births rate - is flow
 
 
 # GENERATIVE DESIGN
-
+if you generating ther whole story your mechanics must include loss and recovery
 map:
 - culture, impact of weather ...
 
@@ -181,11 +186,12 @@ a-b mission Endgame [Ludology](/ludology/) / sandbox / vechicle /
 ---
 
 
-# Economy and
+# Economy
 
 - economy
 - market
-
+supply and demand
+zelda : chemistry engine  
 
 ### Risk aversion problems:
 ###### Grind
@@ -225,14 +231,30 @@ triangular  and polinomial
 exp and log
 chains of relationships
 
+
+#### Ecologies
+Ecologies - balance not reinforce eachother . balance in dynnamic universe.
+
+
 #### Economic system
+
+Economies -
+
+
 #### Creating/deriving a cost Curve
 balance on skill
 Balance between  benefit and cost
+
+
 #### Probability
 balance on chance
 **Dieces**
 **Cards**
+
+
+beting mechanics.   
+Gamble ???    
+
 ##### Probability  Fallacies and failures
 human intuition get probability wrong
 
@@ -307,7 +329,7 @@ Hitscan vs projectile
  |Projectiles|stayback|
  |Hitscan|charging|
 
-
+Projectiles are predictible
 
 ### Aiming
 
@@ -413,7 +435,7 @@ Sports
 - Driving, Flying.
 
 
-
+Twin Stick
 
 
 ## Games
@@ -441,6 +463,6 @@ https://youtu.be/UiOTSKBy6ME
 - Edit finth, fish gameplay
 - Half Life2, can to trash tutorial
 
-
+poker , chest , go
 
 https://www.gamasutra.com/view/feature/131508/bsp_collision_detection_as_used_in_.php?print=1
