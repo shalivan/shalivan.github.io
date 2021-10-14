@@ -260,7 +260,8 @@ Performance:
 **Advanced Setup View** - `Shift` while `powering on`  
  - 2 MIDI Out enable:  Duplicate button is green
  - Enable compressor FX button is green
- - note:  Easy Start Tool
+ - note:  Easy Start Tool  
+
 **Save Lock** - `Shift` + `Save`  while `powering on`.
 
 

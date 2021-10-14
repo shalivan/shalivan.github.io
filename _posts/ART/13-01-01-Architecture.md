@@ -127,7 +127,7 @@ Building - ground/horizon relation
 |Detail / distortions - aesthetic
 
 #### Light
-- Windows vs directions 
+- Windows vs directions
 
 ##### Architecture in layers
 set of layers operating at different timescales
@@ -143,3 +143,7 @@ https://www.iamag.co/the-art-of-tekkon-kinkreet/
 ---
 
 [book: Notes on the Synthesis of Form by:  Christopher Alexander ]     
+
+
+Adolphe Appia architects
+zaha hadid architects
