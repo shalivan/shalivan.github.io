@@ -11,6 +11,8 @@ description: Patterns, Computed, Emergent
 permalink: /procedural/
 ---
 
+https://youtu.be/7-97RhAZhXI   
+conways / lenia / 
 
 Build tools not features
 

@@ -31,7 +31,7 @@ enable narrative throu systems
 
 # Structure
 
-
+[Ludology](/ludology/)
 
 [Game Design](/gamedesign/)   
 [Game Mechanics](/gamemechanics/)   
@@ -45,7 +45,7 @@ important is to: empower player to action
 need: choice, motivation, informationm, time
 to use systems
 
-
+a-b mission Endgame
 #### Cycles (gameplay loop )
 
 **Second to second**  -   micronarrative  (momentary)  core mechanics  
@@ -103,55 +103,49 @@ Creating unique or special copies of items
 
 
 # Emergent systems
+Emergence - phenomena where Entirety of system exhibit properties that parts of system don't have.
+emerge arise from complexity. World is build upon its emergence. Enable larger possibilities with simpler components
 
-EMERGENCE - phenomena where Entirity of system egsibit properties thet parts of system dont have.
-emerg arise from complexity   Whole is better than parts.   WORLD IS BUILD UPON TIS EMERGENCE
 
 modeling techniques:
-- calculation is linear > linera story  
-- simulation paraler > paraller gameplay
+- **Explicitly pre-determined** - calculation is linear > linear story  
+- **Emergent Systems** - simulation parallel > parallel gameplay
+  - Systemic emergent - when rules of system can be combined in novel outcomes  
+  - Narrative emergence -  sequence of event .
 
- explicitly pre-determined vs emergent Systems.
-
-systemic emergent: - wehen rules of system can be combbined in novel ouitcomes  
-narrative emergence -  sequence of event .
-
-
-emergent enable larger possibilities with simpler components
-Engines - active reinforce of same resource.  exchanging resources ( Store or use now bust. )
 #### Structure dynamics:
 
-Topologies (how elements are connetcted. relationship between objects. Linear, tree, network, )
-- **Agents** - (very flexible, sims)
-- **Network** - (longer time boundaries - sims online, or structures like city)
-- **Layers** - (simcity). Physics, Chemistry, Biology, Mind
+||Topologies (how elements are connected. relationship between objects. Linear, tree, network, )|
+|-|-|
+**Agents** | (very flexible, sims)
+**Network** | (longer time boundaries - sims online, or structures like city)
+**Layers** | (SimCity). Physics, Chemistry, Biology, Mind
 
-Dynamics:  
-- **Propagation**  - Flow: material(people cargo), indformation (comunication), pattern(compression of trafic). propagate throu space and time. Vector fields. Wave. (farther is less amplitude but longer wave) wwertical propagation. (like corporate delegation, if actor cannot resolve ask up node), propagation throu agents (bees & flowers)
-- **Growth** - (in size or numbre, more links, network,) s-curve is natural. Faster growth until lack of resources
-- **Group** - Cooperation driven by competition. Depend on econoies of scale, enabled by comunication and control, encourage specialization (when efficiency of group is better than beeing alone, breeds network (compiting interdependent balanced with cooperation)). Groups of similar items is clasification. Group soldiers if to many decision on lower level. / Attraction tend to create groups. Flocks, Gravity/ Group  have boundries (Go)
-- **Order** -
-- **Allocation** - Allocation of time, how to spend time. (game of prioritues)
-- **Mapping** - Forming temporary networks, (tetris), fighting game (what weapon use against sth,..). State machinses have inside mapping. Map correct responce,  
-- **Specialization** - Like town districts.  need enough components, strategic allocation of rsources,  
-- **Nesting** -
+||Dynamics|
+|-|-|
+**Propagation** | Flow: material(people cargo), information (communication), pattern(compression of traffic). propagate through space and time. Vector fields. Wave. (farther is less amplitude but longer wave) vertical propagation. (like corporate delegation, if actor cannot resolve ask up node), propagation through agents (bees & flowers)
+**Growth** | (in size or number, more links, network,) s-curve is natural. Faster growth until lack of resources
+**Group** | Cooperation driven by competition. Depend on economies of scale, enabled by communication and control, encourage specialization (when efficiency of group is better than being alone, breeds network (competing interdependent balanced with cooperation)). Groups of similar items is classification. Group soldiers if to many decision on lower level. / Attraction tend to create groups. Flocks, Gravity/ Group  have boundaries (Go)
+**Order** |
+**Allocation** | Allocation of time, how to spend time. (game of priorities)
+**Mapping** | Forming temporary networks, (Tetris), fighting game (what weapon use against sth,..). State machines have inside mapping. Map correct response,  
+**Specialization** | Like town districts.  need enough components, strategic allocation of resources,  
+**Nesting** |
 
-Paradigms (ways topologies are maped on dynamics)
-- **Natwork Theory** -
-- **Adaptive system** - Complex systems like biological (watch not adaptive). Machine learning
-- **Chaos Theroy** - Small change in initial condition will have vast change in system.
-- **Cellura automata** - Highly emergent. Conway's Game of Life
-- **System Dynamics** -
+||Paradigms (ways topologies are mapped on dynamics)|
+|-|-|
+**Network Theory** |
+**Adaptive system** | Complex systems like biological (watch not adaptive). Machine learning
+**Chaos Theory** | Small change in initial condition will have vast change in system.
+**Cellular automata** | Highly emergent. Conway's Game of Life
+**System Dynamics** |
 
-Competitions > growth > Grouping > specializsation > propagation > alocation > network > boundaries >nesting, level up (can start competition again on higher level)
+Competitions > growth > Grouping > specialization > propagation > allocation > network > boundaries >nesting, level up (can start competition again on higher level)
 
 
 [Will Wright's Dynamics for Designers 2003 GDC](https://youtu.be/JBcfiiulw-8)
 
 
-##### Stock to Flow
-Population - is stock  
-Births rate - is flow
 
 
 ---
@@ -160,28 +154,22 @@ Births rate - is flow
 
 
 
-# GENERATIVE DESIGN
-if you generating ther whole story your mechanics must include loss and recovery
-map:
-- culture, impact of weather ...
+# Generative systems
 
 pootential of generative stories depend on chow elements of mechanics are connected toghether
 
-
-ecosystem:
+// ? if you generating ther whole story your mechanics must include loss and recovery
+map:
 
 ### Structure
 
 -  relationshiops
-
-### Progression
-progression ssytem
-a-b mission Endgame [Ludology](/ludology/) / sandbox / vechicle /  
-
-### Victory condition
-
-
-
+- ecosystem
+```
+Agents (flex)
+Network - social
+Layers (rigid)
+```
 
 ---
 
@@ -193,7 +181,12 @@ a-b mission Endgame [Ludology](/ludology/) / sandbox / vechicle /
 supply and demand
 zelda : chemistry engine  
 
-### Risk aversion problems:
+
+#### Stock to Flow
+Population - is stock  
+Births rate - is flow
+
+## Risk aversion problems:
 ###### Grind
 Repeated battles for the sole purpose of increasing party level, stats
 - czasowy jak w ogema
@@ -208,6 +201,7 @@ doom 2016 forrowrd combad - build forroward momentum from glory kills
 
 ### Bargaining
 
+---
 
 # Balance
 Aperance of balance in experience. Math + sys + psychology
@@ -315,7 +309,7 @@ mann-whitney test -
 
 # Combat
 non combat - combat loop
-
+fighhting games are rock paper scisors (advanced with reading opponents pre anims to read next move )   
 ## Mele  
 
 https://threadreaderapp.com/thread/1358654321303277568.html
@@ -380,7 +374,6 @@ maping decisions how to play (what build next).
 - order (productopn, missions, what to build first)
 - Allocation suplay network
 - Boudries
-
 
 
 
@@ -462,7 +455,7 @@ https://youtu.be/UiOTSKBy6ME
 - rez - game music
 - Edit finth, fish gameplay
 - Half Life2, can to trash tutorial
-
+- brade & whitnes
 poker , chest , go
 
 https://www.gamasutra.com/view/feature/131508/bsp_collision_detection_as_used_in_.php?print=1

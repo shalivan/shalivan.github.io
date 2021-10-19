@@ -17,8 +17,8 @@ permalink: /animation/
 
 
 
-# FPS
-24-60
+# Frame rate
+typically 24-60 FPS
 
 # Principles of animation
 
@@ -41,26 +41,9 @@ Appeal | chrismatic aspects > dynamic design. (varietyu of shapes on dif charact
 #### Dynamic of body
 Inna dystrybucja ciezaru cia la przy biegnieciu i zakretach - kladziemy sie
 
-## Manual
-
-`Keyframe`
-- by expression or keys
-- chop
-
-
-## Procedural
-
-`reactive` "reactive animation" is one involving discrete changes, due to events
-
-## Dynamic
- Simulation / Physics   
-   - Normalize - Fit parameters to 0- 1  
-
-
-
+# Animation types
 
 ## Skeletal anim
-
 
 retarget  
 ik  
@@ -71,7 +54,29 @@ motion matching
 layering  
 ik rig - zeby wydobyc info   
 
-## Mocap data
+## Manual
+`Keyframe` from poses
+- by expression or keys
+- chop
+
+
+
+## Data driven
+### Mocap
+
+## Procedural
+
+`reactive` "reactive animation" is one involving discrete changes, due to events
+
+## Dynamic
+### Simulation   
+   - Normalize - Fit parameters to 0- 1  #
+   - Muscles & tissue
+### Physics
+#### Ragdoll
+
+
+
 
 # VFX
 

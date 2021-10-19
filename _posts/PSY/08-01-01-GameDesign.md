@@ -10,8 +10,11 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
-**reinforce throu mechanics, incentivizse throu game systems**
-
+**reinforce throu mechanics, incentivizse throu game systems**   
+Center of gravity in game should be settled in one place     
+feedback is important      
+Embreace failure as a chance to create stories   
+Guided by AI   - have high saliency !!   
 [Level Design](/leveldesign/), [Ludology](/ludology/), [Game Mechanics](/gamemechanics/)       
 
 Gameplay Form a desired experience   
@@ -68,57 +71,97 @@ OUD - Orthoigonal unit differentiation to make dynamic playspace
 villans - what mean to be offended by villan force  
 
 
+```
+queque of killing. Archer healer, normals
+dela with me first
+deal wieh me last
+high hp low famage
 
+Attribute differentiation
+timing. of damage. sometimes take
+close/ long range attack
+movement
+
+immune to some actions
+local vounrability  
+--------------------
+who we are
+who are people we are rleated to
+
+DRAMA:
+- conflict
+- comebacks
+- underdogs
+- social structure > hierarchies
+- relationships
+- champions heroes&villains
+- grudges&revenge
+
+sport seasons as interactive narrative - generate stories, setup conflict.
+same plot but every season have different exciting personal stories and drama.
+- failure when time move forrward creates drama
+- escalation to framatic climax
+- neather linera or branching
+
+```
 
 
 
 
 
 ---
+
 #  Objectives
-Chase, Race, Alignment, Ressource to escape, Forbiden Act , Construction, Exploration, Solution,
-
-
 to get meta paterns.  
-aim
-run chaise
-solve
-hide
-skilsy skakania
+
+ side quests vs main plot   
+#### Interactions
+
+Aim, Arcade skills,   
+Chase, Run, Race, Hide,    
+Align,  Forbiden Act , Construct, Explore, Solve,  
+Ressource to escape,
+
+...
 
 
 
 
- bonus missions  vs main plot   
 
- |.||
- |---|---|
- |turn|
- |realtime|
- |timelimits|
- |keys and bariers > progress|
- rpg - freedom  > expand network  / models for ai behaviour and dyplomacy,
- strategy - field (resource alocation > use )
- match 4 dynamics in strategy games.
- strategies - Managing points to use to win
+#### Restriction
 
-#### Path/ strategies
- Skill, Smart
+|||
+|---|---|
+|turn based|
+|real time|
+|time limits|
+|keys and bariers > progress|
+|rpg - freedom  > expand network  / models for ai behaviour and dyplomacy,
+|strategy - field (resource alocation > use )  - are mapping puzzles
+|match 4 dynamics in strategy games.
+|strategies - Managing points to use to win
 
- strategies:
- - dyplomatic
- - stelf  - omijanie wrogów ktorzy maja rozne zmysły
+#### Strategies
+- Skill
  - action
+- Smart
+ - dyplomacy
+ - stelf
+
+
 ---
 # Rules
 
 - defining objects and concepts
 - restricting actions
-- determinig effects
+- determining effects
 
 
 ---
 # Resources
+
+ exchanging resources ( Store or use now bust. )
+
 ## Scarcity
 - units, currency, objects,time,terrain,
 
@@ -154,8 +197,8 @@ mana (actions) - spiritual or magical energy / karma / stamina  -   Non renevabl
 ---
 
 # Conflict
-enemies dont need to kill
-
+enemies dont need to kill  
+War , sport - a lot of similar drama structure    
 ## Motivation
 
 - care about story: imply meaning, to enable discover meaning
@@ -257,6 +300,9 @@ thgird person - hardest to design  (fixed angels are easier to make)
 **Diedests** - in world
 **non Diagetic** - not in the fiction
 
+Use existing mental models and make to be more intuitive
+
+[Design](/design/)
 ## Inputs
 
 Mouse, suit, brain sencores
@@ -304,38 +350,16 @@ novelity
 exploration  
 roleplay  
 mastery  
-```
-
-```
+---
 dynamic organisation building and repairing   
 villains withg procedural goals
-
+---
 player-facing:
 - exposition
 - iinverstigaiton
 - saction
 - reaction / reprisal
-
-
-game styles:
-guiding by AI - have high saliency
-run
-find
-fight   
-
-
-
 ---------------
- Procedural Narrative Generation:
-
-Prioritizes agent spontniety (all imporvisation and simulation ) (Dwarf Fortress) <> Priotitize authorial structure (Adventures )
-- simulation crntric approach  
-- plot centric approach  
-
-
-```
-
-```
 strategic
 systematic
 narrative
@@ -343,45 +367,19 @@ emergent
 
 enviromental reconcilation
 design by theming.
-
 ---
 game design - mechanis an rules
 behaviour  design -  pavlov
 design thinking -  
 repeated constens (non procedural) is where you cannot do otherwise
-
-```
-
-```
+---
 Long/sort term decisions  
 risk averse  reward
 
-fighhting games are rock paper scisors (advanced with reading opponents pre anims to read next move )   
-stratedy games - mapping puzles   
-
 game theroy cofifig that preclude domininat  solutions - non nash equilibrium games
-
-
------
-MDA  framework
-
-|a||
-|--|--|--|
-Mechanics | dynamics | estetic
-strategic | systemic | narratic  
-
----------------
-
-Agents (flex)
-Network - social
-Layers (rigid)
-
-
-
 ```
 
 
-UI; use existing mental models and make to be more intuitive
 
 
 
@@ -389,11 +387,10 @@ UI; use existing mental models and make to be more intuitive
 ‘Unselfconscious design’ (or ‘craft-based’ design) concerns the use of traditional building methods, in which the designer works directly on the form (so, if you were a wheelwright, the wheel) unselfconsciously, through a complex two-directional interaction between the context and the form, in the world itself. The design rules and solutions are largely unwritten, and are learnt informally. The same form is made over and over again with no need to question why; designers need only learn the patterns.
 
 https://youtu.be/OrmyLaLCaIo  
-brade & whitnes  
+
 Psychology in games:   
 [Sid Meier's Psychology of Game Design](https://www.youtube.com/watch?v=MtzCLd93SyU&ab_channel=GDC)    
 Mike Ambinder - Principal Experimental Psychologist      
 game mechanics advanced game design BOOK !!!!!!!!!!!!!!!!!!!!!!!! ernest adams joris dormans :   
 a systemic approach advanced game design BOOK:L!!!!!!!!!!!!!!!!! michael selers   
 persuasive games ian bogost book  
-----

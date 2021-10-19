@@ -112,6 +112,8 @@ Może on być jednym z uczestników opowiadanych wydarzeń, ich świadkiem, kron
 
 Opowieść narratora pierwszoosobowego może przyjmować m.in. takie formy jak ustna relacja, autobiografia, pamiętnik, dziennik, listy czy monolog wewnętrzny.
 
+- reliable character telling their own story,
+
 #### Third-person narrator  
 She / He Her / His - External narrator is telling the story.    Commentator / Interviewer
 
@@ -123,6 +125,8 @@ She / He Her / His - External narrator is telling the story.    Commentator / In
 | Nature of narrator's utterance act with regards to story world facts | **Representing** (represents already exiting story and world) | **Stipulating**  (stipulates story through narrating)
 
 
+- a character telling another character's story,
+- an unreliable character telling the story.
 
 
 ---

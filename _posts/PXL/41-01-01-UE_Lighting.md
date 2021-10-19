@@ -153,13 +153,13 @@ Basic material setup: sky + sun
 - `Sky Atmosphere View Luminance` - sky gradient ( rendered sky color effect as u see it)   
 
 Add clouds: sky + sun + (cloud*mask)
-- `Sky Atmosphere Distant Light Scattered Luminance` - Cloud sky color (like ambient tint)
+- `Sky Atmosphere Distant Light Scattered Luminance` - Cloud sky color (like atmoshere ambient tint)
 
 setup: add clouds to plane/particles (M_SkyTimeOfDay) (Translucent)
 add smoke  
 
 - `Sky Atmosphere Light Direction` - Sun Angle of dir. Check if day - ( * 5 > clamp > lerp sun low/high)  
-- `Sky Atmosphere Aerial Perspective` - wide glow tint  
+- `Sky Atmosphere Aerial Perspective` - How wide glow/tint is   
 - `Sky Atmosphere Light Luminance` - intensity/color of sunlight hitting atmosphere  
 
 

@@ -10,14 +10,14 @@ tags:
 - Cognition
 permalink: /ludology/
 ---
+dynamical meaning - vs - story meaning
+Mistrust and misdirection  often are good narrative tools  
 
 ```
 FUNDAMENTAL
 progres is key. Getting better learning.
 More that feels earn, more satisfiyng - potential of things going wrong  
 one of key https://youtu.be/MtzCLd93SyU?t=3884
-
-Center of gravity in game should be in one place
 ```
 
 **Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
@@ -50,9 +50,11 @@ Exposition is ok in games sometimes
 
 ---
 
+
+
 # Authorship
-Narrative vs Mechanics. Driven How much power over the world.  
-Linear > Interactive Linear >  Multi ending >  Branching path (multi choice but not emergent) > Open ended > Fully player driven (cyclical).
+**Narrative** vs **Mechanics**. Driven How much power over the world.  
+Linear > Interactive Linear >  Multi ending >  Branching path (multi choice but not emergent) > Open ended > Emergent >  Fully player driven (cyclical).
 
 **Game story domination**  -   Authored - no impact on story - Linear  
 **Player story domination** -  Generative - agency & expression of will - Cyclical  
@@ -64,7 +66,35 @@ Linear > Interactive Linear >  Multi ending >  Branching path (multi choice but 
 - General design process: Empathize > Define > Ideate > Prototype > test
 
 
-#### EMERGENT NARRATIVE
+---
+
+# Narration
+
+
+
+## Explicit
+**Text written narrator**. explicit things are explained.  (cutscenes). In literature: An explicit narrator is a narrator or character in a story that is the one telling the story. First person narrators are by definition explicit narrators.
+
+### Narrator
+- silent protagonist - to feel easy to slip in his role . (silence and concient is like agree)
+add to agency
+
+## Implicit
+Implied - Suggested but not directly expressed. Arises **from visual cues** that create the barest impression of a story in the minds of viewers. It is the act of withholding the whole story, rather than the attempt to visually illustrate the story, that defines these images. player must figure out itself
+
+
+###  Environmental
+
+[Level Design](/leveldesign/)  
+Narrative spaces   
+most immersive  - it s the world speak and player will find their own story  
+
+
+
+## Emergent
+**Emerge from systems**     
+Mechanics in narration - implement plot in mechanics  
+
 own story (with autor rules) not direct writer expression : DWARF FORTRESS
 need building blocks :
 - resonant theme - as universal as practial if desired for sharing
@@ -77,41 +107,6 @@ give you
 rouglike games , minecrafts, sandboxes
 
 enable make own story with tools we get
----
-
-# Narration
-
-
-
-
-
-
-
-## Explicit
-Cutscenes text written narrator    
-
-In literature: An explicit narrator is a narrator or character in a story that is the one telling the story. First person narrators are by definition explicit narrators.
-
-###### Narrator
-
-silent protagonist - to feel easy to slip in his role . (silence and concient is like agree)
-add to agency
-
-##  Implied
-Implicit
-
-An implied narrative arises from visual cues that create the barest impression of a story in the minds of viewers. It is the act of withholding the whole story, rather than the attempt to visually illustrate the story, that defines these images
-
-player must figure out itself   
-implicit refers to something that is suggested or implied but not ever clearly said.
-
-a reliable character telling their own story, a character telling another character's story, and an unreliable character telling the story.
-
-Mistrust and misdirection  often are good narrative tools    
-
-##  Emergent
-Emerge from system     
-Mechanics in narration - implement plot in mechanics  
 
 ### Random
 
@@ -126,13 +121,11 @@ randomness
 [link a](https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf)  
 [link b](https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?id=4RamDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)  
 
+Procedural Narrative Generation:
 
-
-##  Environmental
-
-[Level Design](/leveldesign/)  
-Narrative spaces   
-most immersive  - it s the world speak and player will find their own story  
+Prioritizes agent spontniety (all imporvisation and simulation ) (Dwarf Fortress) <> Priotitize authorial structure (Adventures )
+- simulation crntric approach  
+- plot centric approach  
 
 
 
@@ -147,7 +140,8 @@ Alfred North Whitehead (known as the defining figure of the philosophical school
 
 #### Virtual vs real experience
 
-real world experience have additional fidelity  
+- people are able to belief in fake
+- real world experience have additional fidelity
 
 ## Psychology
 
@@ -315,9 +309,20 @@ cyclical naure
 
 [Motivation](/motivation/)
 
+
+
+# MDA framework
+
+|a||
+|--|--|--|
+Mechanics | Dynamics | Aesthetic
+Strategic | Systemic | Narrative
+Rules | System | Fun  
+https://medium.com/swlh/applying-the-mda-framework-for-video-game-design-to-productivity-8329115ce30f
+https://ava-game.com/2018/04/17/mda-in-game-development/
+
+Game designers will establish the rules and boundaries of a game (mechanics) to create a certain sort of playing environment (dynamics) which will invoke certain feelings, such as fun or thrill, in the player (aesthetics).
 Fun enable learning   
-
-
 
 ---
 

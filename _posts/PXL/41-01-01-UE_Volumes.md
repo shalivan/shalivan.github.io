@@ -55,8 +55,8 @@ pseudo volume smoke houdini
 https://viktorpramberg.com/smoke-lighting
 
 ------
-
-
+http://asher.gg/?p=2600      
+https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LightingAndShadows/VolumetricClouds/    
 
 ## Niagara
 
@@ -107,6 +107,8 @@ https://gumroad.com/l/sFTCY/Clouds6m52fv
 - flow maps
 
 In:  bmp, particles, draws   
+
+
 # Fluid Ninja Live
 
 
