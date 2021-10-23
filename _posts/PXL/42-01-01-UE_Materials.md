@@ -205,3 +205,8 @@ https://youtu.be/kxsQ5m2IAXs
 
 
 .997 < brightest wall. never one !
+
+# Nodes
+
+camera vector is to given vector (observatiion vector)
+camera direction is same dir

@@ -64,13 +64,20 @@ https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LightingAndShadows/Volum
 
 
 ## Volumetric Clouds
+Multiple scattering - light is almost never absorbed within the volume. Light that is not absorbed passes through the volume making the scattering effect very complex in the process.
 
-When you near could be repleaced with vol fog
+- When you near could be repleaced with vol fog
+
+##### Steps
 
 [Unreal Docs](https://docs.unrealengine.com/en-US/BuildingWorlds/LightingAndShadows/VolumetricClouds/index.html)
+ - eneble volume plugin
 
-three-dimensional volume texture that is ray-marched
-This effect of light is called multiple scattering, and it is what defines the distinct appearance of clouds. In a cloud, the droplets that make up the cloud usually lead to an albedo that is close to a value of 1, meaning that light is almost never absorbed within the volume. Light that is not absorbed passes through the volume making the scattering effect very complex in the process.
+
+
+
+#### Material
+Volumetric additive - three-dimensional volume texture that is ray-marched
 
 OCTAVES  (for games 1 )
 by tracing multiple octaves (or steps) of light transmittance in the volume material. The Volumetric Advanced Material Output expression enables you to set the number of octaves used along with the amount of multiple scattering contribution, occlusion, and eccentricity that happens.
@@ -151,6 +158,30 @@ BrushSengs, Raymarching
 
 
 ## Parts
+
+
+`NinjaLive` (Red icon)  BP - Actor object
+ - `NinjaLive Component` - more parameters (sim pressets / materials)
+`NinjaLiveUtilities` (Green icon) - can add to actor
+`NinjaLivePressetManager` (Black icon) -
+
+
+setup:
+```
+1. project settings: new trace channel set to ignore withname: `FluidTrace`. Must be nr 1
+2. Set up UV for hit collision
+3. enable apex destruction
+
+if we have a trace channel:
+delete it
+add fluid trace
+and readd old trace channel
+```
+
+6 buffers
+diverg pressure velo density  paint
+
+
 
 #### NinjaLiveComponent "sim component"
 ActorComponent class object that should be added to a "owner".

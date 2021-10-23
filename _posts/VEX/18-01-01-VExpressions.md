@@ -164,7 +164,11 @@ Vexpression:
 - `oprelativepath("../sourcePath","../targetPath")` - Returns the relative path from one node to another      
 
 ### op:
-`op` operator is that it allows you to grab live data from another node elsewhere in your scene.
+`op:` operator is that it allows you to grab live data from another node elsewhere in your scene.
+
+op: syntax is what you use when you're trying to use inline geo as a file-like object
+basically if you need to dynamically cook something and return the result in place of something asking for a file, you use the op: prefix
+can also be done in texture-related VOPs to look up COPs in supported render engines
 
 This will work as long as the data being fed in is the type of data the parameter the path to the node must be an absolute path starting from the root path:  
 - `op:/img/img1/gamma1` - get texture in COPs/Imp. Put as image name  
