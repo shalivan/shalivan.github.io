@@ -18,7 +18,7 @@ permalink: /vexpressions/
 <!-- more -->
 
 
-# Vexpression
+# Expressions
 
 Backticks ``` ` ``` are for use in a string field: group input, name sop. (when fn inside ??)
 
@@ -149,8 +149,12 @@ Vexpression:
 
 ---
 
+# Operators
 
-# Op()
+## Get param from second input 
+`point(1,'Cd',@ptnum)`   
+
+## Op()
 
 `geoself()`, `0`, `@OpInput1`- Returns a handle to the current geometry  
 
