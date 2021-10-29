@@ -212,6 +212,11 @@ if(inpointgroup(0,"unweld",@ptnum))
 **Avoid time dependences** - set  when pining top not fetch animation to solver  
 ![](/src/vellum/vellumtargetsmall.png)
 
+### Rigid
+by shape matching
+
+### Water
+
 
 ### Balloon
 - [Vellum Configure Baloon] = cloth Constraint + Pressure Constraint     

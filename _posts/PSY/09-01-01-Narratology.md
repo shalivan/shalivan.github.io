@@ -11,6 +11,9 @@ tags:
 permalink: /narratology/
 ---
 
+`why who where what when how `
+
+`pace: movement incentives vs deterrent : ehreat objective movement limits, tension  `
 Narrative Experience
 
 

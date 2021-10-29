@@ -10,8 +10,9 @@ tags:
 - Cognition
 permalink: /ludology/
 ---
-dynamical meaning - vs - story meaning
-Mistrust and misdirection  often are good narrative tools  
+
+
+
 
 ```
 FUNDAMENTAL
@@ -19,6 +20,13 @@ progres is key. Getting better learning.
 More that feels earn, more satisfiyng - potential of things going wrong  
 one of key https://youtu.be/MtzCLd93SyU?t=3884
 ```
+
+# Classical Approach
+
+- Jean Piaget (9 August 1896 – 16 September 1980) was a Swiss psychologist Importance of games:
+- Johan Huizinga: Nature & Significance of Play as a Cultural Phenomenon (https://nideffer.net/classes/270-08/week_01_intro/Huizinga.pdf)
+
+# Ludology
 
 **Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
@@ -32,6 +40,7 @@ Shared examples | Computer simulation, non computer simulation, role play, exper
 Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning and cognition | Non-pedagogical side of experience - i.e., play
 | | Cyclical nature | Linear Nature
 
+
 | Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking
 
 - Games as Rules + fictional Content
@@ -39,6 +48,7 @@ Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning 
 - See or listen not as powerful as play themselves
 - Need to act. Engage with external   
 
+dynamical meaning - vs - story meaning   
 
 ##### Reactivity
 Respond to your actions
@@ -46,6 +56,7 @@ Respond to your actions
 ##### Exploration
 Exposition is ok in games sometimes  
 
+Some game structures can be metaphors
 
 
 ---
@@ -56,8 +67,8 @@ Exposition is ok in games sometimes
 **Narrative** vs **Mechanics**. Driven How much power over the world.  
 Linear > Interactive Linear >  Multi ending >  Branching path (multi choice but not emergent) > Open ended > Emergent >  Fully player driven (cyclical).
 
-**Game story domination**  -   Authored - no impact on story - Linear  
-**Player story domination** -  Generative - agency & expression of will - Cyclical  
+**Game story domination**  -   Authored - no impact on story - Linear  - low agency hi certainty of deliver
+**Player story domination** -  Generative - agency & expression of will - Cyclical  - high agency, low certainty
 
 
 - Film: Pre, Pro, Post  (Alex McDowell - world building)
@@ -330,9 +341,7 @@ Fun enable learning
 
 
 
-Mental Modeling. Sense of mental image of game. that we would like to get.
 
-[//]: # (https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html)
 
 
 
@@ -343,13 +352,18 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 [ YT - How Video Games Create Empathy | Hellblade , Nier:Automata and Empathy in Game Design ](https://youtu.be/9IBhHRFfhm0) -
 
 game podcasts
-https://www.psychologyofgames.com/   
-https://ludology.libsyn.com/    
-voicess of VR  
+https://www.psychologyofgames.com/     
+https://ludology.libsyn.com/      
+voicess of VR    
 
-[Shadow of colosus symbols](https://youtu.be/Z7BShVPNpAU)
+[Shadow of colosus symbols](https://youtu.be/Z7BShVPNpAU)    
 
 chase desire to order     
-internal goal   
+internal goal     
 yes, unless   
 what if   
+
+
+Mistrust and misdirection  often are good narrative tools     
+miningfull destructions    
+Mental Modeling. Sense of mental image of game. that we would like to get.   

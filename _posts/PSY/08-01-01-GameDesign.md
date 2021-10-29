@@ -10,6 +10,10 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
+
+
+
+
 **reinforce throu mechanics, incentivizse throu game systems**   
 Center of gravity in game should be settled in one place     
 feedback is important      

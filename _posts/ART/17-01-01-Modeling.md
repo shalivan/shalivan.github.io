@@ -163,6 +163,8 @@ NIE OPISANE: z liści high składamy zbrushowa roslinke
 -  balance between skylight and directional light intensity. In case, when latter is overly strong, there will be distinct separation between zones of dominant subsurface and surface It feels that tweaking subsurface intensity separately for direct and indirect light we pretty good thing to have, but this one would be only tweakable per light, not per material.
 
 
+[houdini tree HDA](https://youtu.be/abQtNpUUdGw)
+
 
 
 

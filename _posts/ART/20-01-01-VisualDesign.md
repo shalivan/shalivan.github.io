@@ -1,5 +1,5 @@
 ---
-title: Design
+title: Visual Design
 
 categories:
  - ART
@@ -109,13 +109,13 @@ The applied arts. Design is a language. It's thinking, never generic! It works a
 - Animalistic features. Design base on nature or manufactured items
 - Harmony and dissonance
 
-### Patterns
+## Patterns
 
 - general design that addresses a recurring design problem in object oriented system
 - general arrangement of objects and classes
 harmony
 
-[book: Notes on the Synthesis of Form] Ryan Singer, “Designing with Forces: How to Apply Christopher Alexander in Everyday Work ”
+
  - explain why
  - draw a line between form and context. found boundary
  - identify forces that make demands on the form (form of crown splash show all forces that influence the splash),
@@ -123,7 +123,7 @@ harmony
  - improve existing design  Look at existing design in useful way.
 
 [a pattern language]
-
+[book: Notes on the Synthesis of Form] Ryan Singer, “Designing with Forces: How to Apply Christopher Alexander in Everyday Work ”
 
 ### Design from base
 You know what things are. culturally programmed by life.

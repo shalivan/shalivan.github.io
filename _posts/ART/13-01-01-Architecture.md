@@ -19,6 +19,12 @@ permalink: /arch/
 Arch as response to anchors:  needs / function / context / local constrain /  external conditions  (sun: south wall is most efficient, land features)
 
 
+#### Vitruvian triangle I b.c.
+- Venustas (delight) - aesthetic, beauty, experiential enjoyment artistry
+- Firmitas (firmness) - structural integrity, durability, construction quality
+- Utilitas (commodity) - functional adequacy, usefulness, satisfies programmatic requirements
+
+
 # Form
 Point of contact between mass and space
 
@@ -116,7 +122,13 @@ Space-space relations
 
 Building - ground/horizon relation
 
-.
+Arrivals -  experience of reaching an important gameplay space
+
+
+- Served Space - Hierarchically important space  
+- Service spaces - guide players to ro somehow otherwise support the main spaces
+(by Luicon)
+
 ##### Function
 
 | |  |
@@ -126,24 +138,57 @@ Building - ground/horizon relation
 |Circulation paths | people circulation
 |Detail / distortions - aesthetic
 
-#### Light
-- Windows vs directions
 
-##### Architecture in layers
+
+prospect & Refuge / rewwarding vista (moment to pause)   
+narrow to wide   
+dark to light    affride  light to dark   /  ok dark to light
+high to low  
+
+## Architecture in layers
 set of layers operating at different timescales
 
 Shell > Service > Scenery
 [Narration](/narration/)  
 
-# Architecture in games and  neo impressionism
-https://vol.co/product/anime-architecture/
-https://www.iamag.co/the-art-of-tekkon-kinkreet/
+## Othe spaces
+- Maze & Labyrinths
+- Gardens
 
+# Light
+- Windows vs directions
+sagrada
+
+# Visual communication
+
+shapes - forces drive your eyes
+
+# Architecture in games and  neo impressionism
+
+```!!!!!!!!!!!!!!!!!!!!
+in `stelth` u in disadvantage (everyth testuing u)
+in arkham everything is for you  - `predator gameplay` - intimate spaces, based on batman movement metrics - u in driver seat
+```
+
+
+# Resources
+
+## Architects
+
+**Adolphe Appia**  1862 – 29 February 1928  
+zaha hadid architects
+
+
+## Books
 
 ---
+
 
 [book: Notes on the Synthesis of Form by:  Christopher Alexander ]     
 
 
-Adolphe Appia architects
-zaha hadid architects
+
+
+
+[Anime Architecture: Imagined Worlds and Endless Megacities]
+[manga art inspirations](https://www.iamag.co/the-art-of-tekkon-kinkreet/)

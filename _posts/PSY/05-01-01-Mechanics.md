@@ -10,7 +10,7 @@ tags:
 permalink: /gamemechanics/
 ---
 
-
+Reward certain playstyles
 
 
 [Level Design](/leveldesign/)  

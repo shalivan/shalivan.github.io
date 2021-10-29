@@ -14,22 +14,31 @@ permalink: /pipes/
 ---
 
 
+# Cache H19 Workflow
+- time dependent - add `$F` to name.
+- Version add `v1`
+- Wedge add `w0`
+- is simulated - off can multiple process
 
+
+-----
+- Frame
+- Wedges
+
+Using file cache with rop geo TOP. with sequences choose automatic.
 
 
 # Paths
 
-- niezmienna nazwa noda-contenera
-- modelowaną geometrie trzymaj w innym nodzie !!!  
-- TOP net nie zmieni wedgeparamsa po zmianie nazwy noda
+- All Assets are folders named after Object Container
+- Modeling in _geo, then import to other Object
 
 ### Paths
 
 |Exports, Cache||
 |---|---|
 | Export | ```$HIP/`opname("..")`/export/$OS.fbx``` |  
-| Cache Static |```$HIP/`opname("..")`/cache/$OS.bgeo```  |     
-| Cache Simulation | ```$HIP/`opname("..")`/cache/${OS}/$OS.$F3.bgeo``` |  
+| Cache |```$HIP/`opname("..")`/cache/``` v1/w0/$OS.bgeo.sc  |     
 |**Bake**|
 | Maps Bake |```$HIP/`opname("..")`/export/bake/${OS}/${OS}_$(CHANNEL).tif``` |   
 |**Game**|
@@ -45,14 +54,11 @@ permalink: /pipes/
 |FBX Animation Output | ```$HIP/.... .fbx```  
 |**Vellum** |
 |Vellum cache | ```$HIP/cache/...```
-|**PDG**|
-|PDG cache TOP |$HIP/`opname("../..")`/cache/pdg/`opname("..")`/$OS/ - direct topnet ??   
-|PDG cache SOP TOP |$HIP/`opname("../../..")`/cache/pdg/`opname("../..")`/`opname("..")`/ - topnet in object ??   
-|PDG export TOP |$HIP/`opname("../..")`/export/pdg/`opname("..")`/$OS/ - direct topnet ??   
-|PDG export SOP TOP |$HIP/`opname("../../..")`/export/pdg/`opname("../..")`/`opname("..")`/ - topnet in object ??  
 |**COP**|
 |COP image | ```$HIP/`opname("..")`_cop/${OS}.exr```
 |Embeded assets| opdef:/Sop/...
+
+
 
 |||
 |---|---|
@@ -69,16 +75,19 @@ permalink: /pipes/
 ### Folders
 
 - `$HIPNAME.hip`  
-- `fileA.fbx` - export   `fileA_lod1.fbx`
-- `fileA_lo.fbx` `fileA_hi.fbx` `fileA_locage.fbx` - low to bake   `fileA_paint.fbx` - export for painting     
-- `/raw/` - Sources     
-- `/ref/` - References      
-- `/AssetName/`
-  - `/export/`
-    - `NodeName.fbx` -       
-    - `/bake/NodeName/NodeName_channel` -       
+- `$HIP/raw/` - Sources     
+- `$HIP/ref/` - References      
+- `$HIP/ObjectA/`
+  - `/export/v1/w0/`
+    - `fileA.fbx` -     
+    - `fileA_lod1.fbx`  
+    - `fileA_lo.fbx`
+    - `fileA_hi.fbx`
+    - `fileA_locage.fbx`
+    - `fileA_paint.fbx`
+    - `/bake/fileA/fileA_channel.png`        
     - `/niagara/` -     
-  - `/top/NodeName/NodeName.bgeo`  
+  - `/cache/`  
   - `/zbrush/fileA.ztl` - Tool (ctrl shift T)  
   - `/material/fileA.sbs` - Substance     Designer / Painter          
   - `/material/fileA.png` - Export    / in same folder as  spp/sbs   
@@ -111,7 +120,7 @@ Base
 Manage
 - `s@name` -  (prim) , joints names
 - `i@class` -  (prim), reserved to connectivity   
-- `i@id` -  particles    
+- `i@id` -  particles, ctrl points for animation     
 - `s@tag` - string in new scatter, tree
 - `variation` - copy to point / new scatter
 
@@ -162,8 +171,24 @@ Reorder mat to fbx |  | On|||-
 - `UCX_*` - from houdini need to be in separated containers  named UCX_nameOfGeoContainer. - object level  (make container !!! and ROPnet > fbx)  
 
 
+# Digital Assets
 
+#### Asset node
+RMB on node >
+- `Create digital Asset`...  
+- `Digital Asset` >
+  - create new:  
+  - preferences:   
 
+- `Digital Asset` >
+  - save ass
+  - increase major
+
+- `Allow Editing`
+- `Match Definition`
+- ``
+
+#### Library
 
 # P4
 - `Accept Source` GEt clean file from repo, discarding your changes.  
