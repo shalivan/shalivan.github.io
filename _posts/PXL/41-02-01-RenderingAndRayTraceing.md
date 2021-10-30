@@ -53,7 +53,42 @@ Full indirect illum :  Recursively evaluate hemisphere of multiple rays of each 
 
 
 
-# Shaders & Mateirals
+# Shaders
+
+
+## Shader Rendering
+reflect refract & scatter ...  
+`BRDF` - bidirectional reflection distribution fn.     
+hemisphere for mat / and directional spike for reflective. More blurry reflection more direction samples > longer rendering
+`BTDF` - transmission (reflective + (refracted + iro)) (so dielectric render slower ) (transmitted scattering distribution (distribution is every time medium is changed )   
+`BSSRDF` -Sub Surface Scattering. Diffuse is SS on tiny area !!!!!!!!!   
+`BSDF` - bidirectional scattering.
+
+## Vertex Shader (VS)   
+
+## Pixel Shader (PS) (old: fragment shader)    
+
+grid of pixels that work paralel
+
+## Compute Shader   
+
+
+un out of rendering piepline so no inherently tide to verts, but u can couple thm toghether
+- its on gpu paralel > much larger workloads
+- update , compute, move data (move data vram<> to ram (using buffer/structbuffer/)not always cheap ) [biger problems more gains]
+
+
+
+(subdivisions workgroups and in each group divisions)
+## Mesh Shader    
+Mesh Shaders    
+- for new tessalation
+
+
+## Task Shader
+ call based of cam frustrum   
+
+# Mateirals
 
 everything has fresnel
 ## Materials
@@ -65,35 +100,8 @@ everything has fresnel
 Fresnel effect in reflections.
 
 
-## Shader Rendering
-reflect refract & scatter ...
-`BRDF` - bidirectional reflection distribution fn.  
-hemisphere for mat / and directional spike for reflectivces. More blury reflection more direction samples > longer rendering
-`BTDF` - transmision (reflectiw + (refracted + iro)) (so dielectric render slower ) (transmited scattering distribution (distribution is every time medium is changed )
-`BSSRDF` -SubSurfaceScarttering  scattering. Diffuse is SS on tiny area !!!!!!!!!
-`BSDF` - bidiirectional scatering
 
 
-
-## Shader
-### VS Vertex shader    
-### PS Pixel shader (old fragment)    
-
-grid of pixels that work paralel
-
-
-### Compute shader   
-in paralel on gpu
-subdivisions workgroups and in each group divisions
-
-
-### Mesh shader    
-Mesh Shaders    
-- for new tessalation
-
-
-### Task shader
- call based of cam frustrum   
 
 ## Material (ray tr ?)
 
