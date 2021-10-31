@@ -9,6 +9,7 @@ tags:
 description: Elements, Principles, Rederences, Design
 permalink: /graphicdesign/
 ---
+ energy is primary, Form must follow
 
 
  Approach to [Art](/art/) note.  
