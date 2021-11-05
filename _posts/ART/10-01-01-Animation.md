@@ -12,8 +12,7 @@ permalink: /animation/
 ---
 
 
-[Unreal Animation](/uanim/)
-[Houdini KineFX](/kinefx/)   
+[Unreal Animation](/uanimation/), [Houdini KineFX](/kinefx/)     
 
 
 
@@ -39,8 +38,31 @@ Appeal | chrismatic aspects > dynamic design. (varietyu of shapes on dif charact
 
 
 #### Dynamic of body
-Inna dystrybucja ciezaru cia la przy biegnieciu i zakretach - kladziemy sie
+- Inna `dystrybucja ciezaru` ciala przy biegnieciu i zakretach - kladziemy sie
+- walk contact pose. moment head is lower.
+- foot roll - (still in contact)
+- `contrapposto` - braking symetry of archaic greck figure (asymetrical balance)  - weight in one leg is more complicated. torso shoulders and head response (s curve in spine) oposite leg-hand are straight.
+- poses walk. contact and passing
+Key to human
+walk is very effcient.
 
+- locked knee is key to human walking mechanism
+-RUNING floating phase in tunnning is what differentiates a run (phase where all feet are off the ground at least 1/2 of time)
+
+- urbavores huge backbone stiff 2 phases
+- carnivor use backbone an can run faster.  (meet is easy to digest and you are lighter) tiger bandy backbone (floating face gathered or extended )
+- human is  in between. (have a but - )
+- hips are rotated down ! Pelvic orientation (wysuniete biodra do przodu )
+- tetrapod locomotion = `quadropedal` ( 4 limbs on ground ) with `pronagrade` posture
+- huans  bipeds  locomotion `bipedal` > posture Orthograde
+- kid locomotion is more todler (before they learn )
+----
+upright posture
+- rotaiting in hip when (schylamy) sie. - to nasza apdptacja do bipeda
+- heat to toe in animals, - human front to back compression of chest (jellybean shape) to minimize enedgetic  
+----------
+- lumbar curvature. (spine)
+-
 # Animation types
 
 ## Skeletal anim
@@ -75,6 +97,30 @@ ik rig - zeby wydobyc info
 ### Physics
 #### Ragdoll
 
+
+# Character Skeletons
+
+Workflow:
+create spine:
+- from side view create 1 bone in center of gravity (COG)> to bottom of neck, (spine_end)
+- select joint RMB > split  
+ - child compensate on bar > fix pos
+- select all RMB > orient selected joints
+- select first (COG) > P > zero rotate value
+- name
+create leg
+- from side view
+- new chain MMB
+- from hip  to foot
+- from front view fix start and rotete
+create head:
+- enter to create mode
+- from side view (no child compensate), connected to end spine
+create hands:
+create clavicle:
+- as a point.
+parent joints to connect:
+mirror:
 
 
 

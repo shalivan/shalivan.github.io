@@ -6,6 +6,10 @@ tags:
 - Data
 ---
 
+cortex = 10 b neurons
+hyupocampus = where you are when space time. Random network. 100m neurons
+
+corr & hipocamp = talk to eachoth.  >throu thalamys ...
 
 
 

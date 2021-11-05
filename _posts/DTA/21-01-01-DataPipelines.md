@@ -163,6 +163,7 @@ Override Full Name | |On| x||-
 Material | ||||-
 Reorder mat to fbx |  | On|||-
 
+with skeleton - update skeleton reference pose - !!!!!!!!! important
 
 ---
 

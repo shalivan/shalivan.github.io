@@ -27,7 +27,10 @@ Backticks ``` ` ``` are for use in a string field: group input, name sop. (when 
 
 ## Group field in every SOP
 - `GroupName` -  work only on group  
-- `!GroupName` - work only on inverted group    
+- `!GroupName` - work only on inverted group   
+- `!{group1 group2 group3}`
+- `!group1 !group2 !group3` - not group1 or not group2 or not group3 which would be everything except for elements that are in all groups
+-  `15 ^!first_half ^!first_ten` will exclude the 15, rather than acting like 15 ^!{first_half first_ten}
 - `@name=NameAttrib` - by string name    
 - `group1` -by group name  
 - `@name=PrimitiveStringName` - by Primitive Name  
@@ -151,7 +154,7 @@ Vexpression:
 
 # Operators
 
-## Get param from second input 
+## Get param from second input
 `point(1,'Cd',@ptnum)`   
 
 ## Op()
