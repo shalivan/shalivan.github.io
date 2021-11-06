@@ -206,6 +206,12 @@ If you want the initial "kick" to not factor in mass, you can use an "Add Rotati
 
 ---
 
+# Velocity 
+
+[Add Velocity] / [Add Velocity from point] - in particle spawn  (ever frame if in update)
+
+
+
 # Coordinates & Space
 Simulation, World, Local   
 Mesh Tri Coordinates > Bary Coords  

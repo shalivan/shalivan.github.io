@@ -9,7 +9,6 @@ tags:
 - Real Time
 - Shaders
 - Game Dev
-
 permalink: /umat/
 ---
 [Camera](/camera/)    
