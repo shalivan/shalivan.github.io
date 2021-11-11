@@ -189,6 +189,19 @@ RMB on node >
 - `Match Definition`
 - ``
 
+
+#  H setup
+
+- desktop .desk
+- radial menu
+- theme  /config/theme.hcs /inc
+- color palete /config/colors.def
+
+
+- Windows: C:\Users\username\Documents\houdini18.5
+- OSX: ~/Library/Preferences/houdini/houdini18.5
+
+
 #### Library
 
 # P4

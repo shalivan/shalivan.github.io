@@ -186,6 +186,10 @@ If you want the initial "kick" to not factor in mass, you can use an "Add Rotati
 `Mesh Rotation Force` Module in Particle Spawn  -
 `Apply Initial Forces` Module
 
+`Inheret Velocity` - In Update,  magnify velocity of root (have limit)
+`Static Mesh Velocity`  with `sample static mesh` - will have velo of mesh Normal
+`Vortex velocity`
+
 
 ## Sprite
 
@@ -206,9 +210,9 @@ If you want the initial "kick" to not factor in mass, you can use an "Add Rotati
 
 ---
 
-# Velocity 
+# Velocity
 
-[Add Velocity] / [Add Velocity from point] - in particle spawn  (ever frame if in update)
+[Add Velocity] / [Add Velocity from point] / [Add Velocity in cone]- in particle spawn  (ever frame if in update)
 
 
 

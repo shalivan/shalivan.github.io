@@ -13,6 +13,8 @@ permalink: /ufeatures/
 ---
 
 
+# Cloth (charcter)
+create apex asset and paint it
 
 # Chaos
 
@@ -30,7 +32,7 @@ One File Per Actor -
 for one mesh
 
 #### Procedural submenu
-- Falloff - Use falloff for whole volume. 
+- Falloff - Use falloff for whole volume.
 - Collision Radius - dont spaw any other in radius 0
 - Initial Seed Density - Initial density over 10m
  - Acar spread

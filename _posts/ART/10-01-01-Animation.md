@@ -23,51 +23,75 @@ typically 24-60 FPS
 
 | Name | | Less| More|
 | --- | --- |--- | ----|
-Squash & Stretch | (for VFX), emphasize speed, momentum, weight  and mass | solid stiff | soft, characters, face | try to preserve volume
-Anticipation |  (for VFX) prepare for action clue what hapen next and focus action. can be multiple layers ||face |if you have time for build up do it
-Staging |make idea clear: wher to look what i happenieng |
-Strait Ahead vs. pose to pose |character pose to pose but hairs frame to fram  |frame by frame for unpredictable like simulations | better in most actions
-Follow through, overlaping action, drag| continoue after main body stop, ofset created by drag, drag=delay main body and tips and end wchch must follow > forearm drag elbow > drag hand | TV antena | feather  
-Easing |  Slow In & Out (for VFX) ! Most efect have slow in and out | robots | all rest
-Arcs | living reatures move with arcs |
-Secondary Actions |  (for VFX) Add more dimention lik other hand (not in focus but iomportant ) additional things that Exaturate primal effect
-Timing |sometime draw on 2 afarmes (less gitter slower action) |hit| look around  
-Exaturation | ||more power
-Solid drawing | volume weight drawing on solid spheres. Avoid twinning (mirror)
-Appeal | chrismatic aspects > dynamic design. (varietyu of shapes on dif characters), play with proportions.
+**Squash & Stretch** | (for VFX), emphasize speed, momentum, weight  and mass | solid stiff | soft, characters, face | try to preserve volume
+**Anticipation** |  (for VFX) prepare for action clue what hapen next and focus action. can be multiple layers ||face |if you have time for build up do it
+**Staging** |make idea clear: wher to look what i happenieng |
+**Strait Ahead vs. Pose to Pose** |character pose to pose but hairs frame to fram  |frame by frame for unpredictable like simulations | better in most actions
+**Follow through, overlaping action, drag** | continoue after main body stop, ofset created by drag, drag=delay main body and tips and end wchch must follow > forearm drag elbow > drag hand | TV antena | feather  
+**Easing** |  Slow In & Out (for VFX) ! Most efect have slow in and out | robots | all rest
+**Arcs** | living reatures move with arcs |
+**Secondary Actions** |  (for VFX) Add more dimention lik other hand (not in focus but iomportant ) additional things that Exaturate primal effect
+**Timing** |sometime draw on 2 afarmes (less gitter slower action) |hit| look around  
+**Exaturation** | ||more power
+**Solid drawing** | volume weight drawing on solid spheres. Avoid twinning (mirror)
+**Appeal** | chrismatic aspects > dynamic design. (varietyu of shapes on dif characters), play with proportions.
 
 
-#### Dynamic of body
-- Inna `dystrybucja ciezaru` ciala przy biegnieciu i zakretach - kladziemy sie
-- walk contact pose. moment head is lower.
-- foot roll - (still in contact)
-- `contrapposto` - braking symetry of archaic greck figure (asymetrical balance)  - weight in one leg is more complicated. torso shoulders and head response (s curve in spine) oposite leg-hand are straight.
-- poses walk. contact and passing
-Key to human
-walk is very effcient.
+# Dynamic of body
 
-- locked knee is key to human walking mechanism
--RUNING floating phase in tunnning is what differentiates a run (phase where all feet are off the ground at least 1/2 of time)
-
-- urbavores huge backbone stiff 2 phases
-- carnivor use backbone an can run faster.  (meet is easy to digest and you are lighter) tiger bandy backbone (floating face gathered or extended )
-- human is  in between. (have a but - )
-- hips are rotated down ! Pelvic orientation (wysuniete biodra do przodu )
 - tetrapod locomotion = `quadropedal` ( 4 limbs on ground ) with `pronagrade` posture
 - huans  bipeds  locomotion `bipedal` > posture Orthograde
-- kid locomotion is more todler (before they learn )
-----
+
+## Biped
+
+
 upright posture
-- rotaiting in hip when (schylamy) sie. - to nasza apdptacja do bipeda
+- rotating in hip when (schylamy) sie. - to nasza apdptacja do bipeda
 - heat to toe in animals, - human front to back compression of chest (jellybean shape) to minimize enedgetic  
-----------
-- lumbar curvature. (spine)
+
+
+- locked knee is key to human walking mechanism
+- Urbavores huge backbone stiff 2 phases
+- carnivore use backbone an can run faster.  (meet is easy to digest and you are lighter) tiger bandy backbone (floating face gathered or extended )
+- human is  in between. (have a but - )
+- kid locomotion is more toddlers (before they learn )
+- faster walk imply more hip roattion
+
+##### Walk cycle
+walk is very efficient.
+- poses walk. contact and passing
+- `foot roll` over the ground - (in contact)
+- Contact pose. Moment head is lower.
+
+#### Run
+floating phase in tunnning is what differentiates a run (phase where all feet are off the ground at least 1/2 of time)
+
+##### Posing
+- `Center of mass` - The center of mass shifts at the turns.  Different 'weight distribution' while run   
+- `Contrapposto` - braking symmetry of archaic Greek figure (asymmetrical balance)  - weight in one leg is more complicated. torso shoulders and head response (s curve in spine) opposite leg-hand are straight. - it is representation of the human body in which the forms are organized on a varying or curving axis to provide an asymmetrical balance to the figure. Organic more loose quality to body
+- `Lordosis Reflex` + lumbar curvature. (spine)
+- hips are rotated down ! Pelvic orientation (wysuniete biodra do przodu )
+
+
+## Quadruped
+
+
+- how whide apart feats are
+
+
+
 -
 # Animation types
 
 ## Skeletal anim
 
-retarget  
+- COG
+body is organic aprts ar interrelated
+- spine curvature controll
+- foot roll (przod tył - podniesienie + rotacja po ziemi ) + palce
+- twisty
+
+
 ik  
 root motion - wyciagnac z animacji. ale ciezkie do zreplikowania online. (wykorzystywane czesciowo) / animacje w miejscu nawigacja też musi byc inna jak jest root motion.  
 motion matching  
@@ -97,8 +121,15 @@ ik rig - zeby wydobyc info
 ### Physics
 #### Ragdoll
 
-
+problems:
+- gimbal lock
+- 90 ,180 flips
+favour z (3d max) so:
+- legs / spine draw from site (and left righ secondary motions less of them )
+- from top
 # Character Skeletons
+
+Dont model and rig character in relaxed pose. (will complicate process)
 
 Workflow:
 create spine:
