@@ -17,25 +17,6 @@ import: with skeleton - update skeleton reference pose - !!!!!!!!! important
 [Principles of animation](/animation/)     
 
 
-TURN / INPLACE ANIMATIONS
-BP:
-- rotate 360 (face 0 in middle of animation), thenn counterfit rotation linear to face always front
-  - `RMB` > `convert to single frame anim ` and feed angle
-  - additive animation : `Apply Additive`
-
-
-# root motion
-motion driven by animation instead of animation controller. root bone is animated and collision capsule move and rotate.
-Usefull because:
-
-in place animation cant have root motion.
-
-animation details panel:
-- enable root motion: it will look like in place, (in wievport process rootmotion to visualize !!!!)
-- root lock: - Anim first frame !
-
-in anim BP:
-- in class defaults: Root motion mode: root motion from everything (will extract from all anims that have it enable)
 
 ## Persona:
 - **Skeleton** `Skeleton Asset`  
@@ -77,8 +58,9 @@ Bones actions:
 
 -----------
 
+# Skeleton
 
-# Retarget
+## Retarget
 
 ### Same skeleton
 No retarget needed. Only bone translation data in bone translation component  - retarget animation change only bone names information's on runtime
@@ -106,8 +88,28 @@ go to skeleton asset and in retarget manager > manage retarget base pose
 
 
 -----------
+# Anim
 
-# IK
+TURN / INPLACE ANIMATIONS
+BP:
+- rotate 360 (face 0 in middle of animation), thenn counterfit rotation linear to face always front
+  - `RMB` > `convert to single frame anim ` and feed angle
+  - additive animation : `Apply Additive`
+
+## Root Motion
+motion driven by animation instead of animation controller. root bone is animated and collision capsule move and rotate.
+Usefull because:
+
+in place animation cant have root motion.
+
+animation details panel:
+- enable root motion: it will look like in place, (in wievport process rootmotion to visualize !!!!)
+- root lock: - Anim first frame !
+
+in anim BP:
+- in class defaults: Root motion mode: root motion from everything (will extract from all anims that have it enable)
+
+## IK
 
 #### Full Body IK  
 
