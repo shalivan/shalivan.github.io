@@ -13,7 +13,7 @@ permalink: /uanimation/
 ---
 
 import: with skeleton - update skeleton reference pose - !!!!!!!!! important    
-[Houdini KineFX](/kinefx/)      
+[Houdini KineFX](/kfx/)      
 [Principles of animation](/animation/)     
 
 
@@ -118,13 +118,19 @@ in anim BP:
 #### Motion Warping
 - adjust motion to contact with world
 
-#### Animation Composite
-
 
 #### Controll Rig
 
 https://www.youtube.com/watch?v=y2WzNvJZk0E
 
+## Anim Dynamics (Secondary Motion)
+in component space.  but can wind interactions 
+Setup in BP Graph. Dynamic on a bone behaviour  
+
+- single bone dynamic - cheaper  
+- chain dynamic
+
+[VFX unreal - anim dynamics ](https://youtu.be/5h5CvZEBBWo)
 -----------------
 
 [VFX unreal](http://teres4enko.blogspot.com/)    
