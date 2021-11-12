@@ -12,32 +12,53 @@ tags:
 permalink: /uanimation/
 ---
 
-import: with skeleton - update skeleton reference pose - !!!!!!!!! important
-[Houdini KineFX](/kinefx/)     
-[Principles of animation](/animation/)  
+import: with skeleton - update skeleton reference pose - !!!!!!!!! important    
+[Houdini KineFX](/kinefx/)      
+[Principles of animation](/animation/)     
 
 
+TURN / INPLACE ANIMATIONS
+BP:
+- rotate 360 (face 0 in middle of animation), thenn counterfit rotation linear to face always front
+  - `RMB` > `convert to single frame anim ` and feed angle
+  - additive animation : `Apply Additive`
 
 
-# Unreal Assets
+# root motion
+motion driven by animation instead of animation controller. root bone is animated and collision capsule move and rotate.
+Usefull because:
 
-Base:
-- `Skeletal Mesh` - Mesh     
-- `Skeleton` Asset > Edit in persona skeleton tab.
+in place animation cant have root motion.
+
+animation details panel:
+- enable root motion: it will look like in place, (in wievport process rootmotion to visualize !!!!)
+- root lock: - Anim first frame !
+
+in anim BP:
+- in class defaults: Root motion mode: root motion from everything (will extract from all anims that have it enable)
+
+## Persona:
+- **Skeleton** `Skeleton Asset`  
+  - `Sockets` - grab component to parent to mesh > choose parent socet in details.  
+- **Mesh** - `Skeletal Mesh`     
+- **Animations**
+  - `Animations` - Files with anim data
+  - `Composite` -  Stitching multiple animation clips into one  
+  - `Animation Montage` - More complicated animation logic, (combo system with branching)
+  - `Blend Space` - Blend on parameter change
+  - `Notifies` -
+- **Animation Blueprint** - `Animation BP` with 'Final Animation Pose' as output    
+  - **Anim Graph** > State Machine for anim / anim blaend state blendings.
+   - Locomotion
+     - **State** (with anim) to add: drag anims states to graph
+     - **Condition** transision - bool from gameplay blend
+ - **Event Graph** - write code do get set params/variables.  
 - `Physic Asset` - Ragdolls
 
-Composition:
-- `Animation Composite` -  is just stitching multiple animation clips into one.  
-- `Animation Montage` - is for more complicated animation logic, say a combo system with branching sections.   
-- `Blend Space` - mix poses
-- `Animation Blueprint` - BP with 'Final Animation Pose' as output    
-  - **Anim Graph** > State Machine for anim / anim blaend state blendings.
-   - **state** (with anim) to add: drag anims states to graph
-   - **transision condition** - bool from gameplay blend
- - **Event Graph** - write code do get set params/variables.
 
+## Unreal Assets
 
-Other:
+Other Assets:    
 
 - Animation Layer Interface
 - Anim Offset
@@ -47,34 +68,17 @@ Other:
 - Mirror data table
 - Pose Asset
 
+Bones actions:
 
------------
-
-
-Contains:
-- `Sockets` -
 - `Copy pose from mesh` - [v]-use aatach parent -  direct attachment. State machine
 - attach to bone or socket
 - `IK bones` - for guns or use sockets  
 - `Virtual bones` - virtual bone relation before apply anything  
 
-
-https://youtu.be/Oe7fYS9qxmk
-notifies, curve names, slot names  
-
-character parts, character if
-
-
-
-### Blend space ?
-- to mix anim with variable
-- can blend between static poses
-
-
 -----------
 
 
-## Retarget
+# Retarget
 
 ### Same skeleton
 No retarget needed. Only bone translation data in bone translation component  - retarget animation change only bone names information's on runtime
@@ -103,47 +107,23 @@ go to skeleton asset and in retarget manager > manage retarget base pose
 
 -----------
 
+# IK
+
+#### Full Body IK  
 
 
-# Full Body IK  
 
-
-
------------
-
-
-# Animation Blueprint
-
-
------------
-
-# Animation Montage
-
-
------------
-
-## Motion Warping
+#### Motion Warping
 - adjust motion to contact with world
 
+#### Animation Composite
 
 
------------
-
-# Animation Composite
-
-
-
-ptak flaping to the music: https://youtu.be/TBiepo5ZQhY
-
-
-
------------
-
-
-# Controll Rig
+#### Controll Rig
 
 https://www.youtube.com/watch?v=y2WzNvJZk0E
 
 -----------------
 
-[VFX unreal](http://teres4enko.blogspot.com/)
+[VFX unreal](http://teres4enko.blogspot.com/)    
+ptak flaping to the music: https://youtu.be/TBiepo5ZQhY
