@@ -12,6 +12,10 @@ float gradient = @ptnum/(@numpt-1.0); //numpt is int .0 < will convert it
 @Cd.y = chramp('colorRamp', gradient);  
 ```
 
+
+f@curveu = float(vertexprimindex(0,@vtxnum))/float(primvertexcount(0,@primnum)-1);
+
+
 ### Connect Adjacent Points
 (Run over points)
 ```cpp
