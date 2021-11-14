@@ -12,7 +12,7 @@ permalink: /procedural/
 ---
 
 https://youtu.be/7-97RhAZhXI   
-conways / lenia / 
+conways / lenia /
 
 Build tools not features
 
@@ -111,8 +111,8 @@ https://youtu.be/VBzIPLh-ECg
 
 ### Wang tiles
 
-http://www.cr31.co.uk/stagecast/wang/3edge.html
-
+http://www.cr31.co.uk/stagecast/wang/3edge.html   
+https://www.gamedeveloper.com/design/seeded-exploration-of-wang-tiled-environments   
 
 ### Slime pattern
 https://sagejenson.com/physarum

@@ -11,8 +11,12 @@ tags:
 permalink: /gamedesign/
 ---
 
-
-
+```
+co -op
+- parallel - own single player game along
+- step by step - 1 open for another
+- symultinaious - both action at same time
+```
 
 **reinforce throu mechanics, incentivizse throu game systems**   
 Center of gravity in game should be settled in one place     
