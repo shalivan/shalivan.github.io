@@ -11,6 +11,7 @@ description: RAW
 permalink: /fractals/
 ---
 
+[Procedural](/procedural/)
 
 
 ## Fractals
