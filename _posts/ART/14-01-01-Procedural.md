@@ -12,7 +12,8 @@ permalink: /procedural/
 ---
 
 
-
+human is good with reco patterns
+- so proceduralism can be a trap 
 
 
 
