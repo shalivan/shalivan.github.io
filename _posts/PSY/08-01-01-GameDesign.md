@@ -10,7 +10,20 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
+
 Build tools not features
+
+
+
+
+```
+FUNDAMENTAL
+progres is key. Getting better learning.
+More that feels earn, more satisfiyng - potential of things going wrong  
+one of key https://youtu.be/MtzCLd93SyU?t=3884
+```
+
+
 ```
 co -op
 - parallel - own single player game along
@@ -72,7 +85,16 @@ story multiplayer vs multiplayer story
   - Get Hurt  
 
 
-## NPC's
+## Player Character
+
+Bridging player and character
+
+characterization - understanding character, to resonate.
+how much u know about character. what convince us to invest time in them.
+personality convey thou dialog.
+what would they really say.
+
+## Non Player Character NPC's
 - brign stisfaction, dont stole moments from player or be burden u must cary on.
 
 OUD - Orthoigonal unit differentiation to make dynamic playspace     
@@ -114,7 +136,7 @@ same plot but every season have different exciting personal stories and drama.
 ```
 
 
-
+### Enemies 
 
 
 ---

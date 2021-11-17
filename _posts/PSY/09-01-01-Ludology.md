@@ -12,19 +12,10 @@ permalink: /ludology/
 ---
 
 
-
-
-```
-FUNDAMENTAL
-progres is key. Getting better learning.
-More that feels earn, more satisfiyng - potential of things going wrong  
-one of key https://youtu.be/MtzCLd93SyU?t=3884
-```
-
-# Classical Approach
+### Classical Approach
 
 - Jean Piaget (9 August 1896 – 16 September 1980) was a Swiss psychologist Importance of games:
-- Johan Huizinga: Nature & Significance of Play as a Cultural Phenomenon (https://nideffer.net/classes/270-08/week_01_intro/Huizinga.pdf)
+- Johan Huizinga: Nature & Significance of Play as a Cultural Phenomenon [pdf](https://nideffer.net/classes/270-08/week_01_intro/Huizinga.pdf)
 
 # Ludology
 
@@ -43,31 +34,21 @@ Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning 
 
 | Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking
 
-- Games as Rules + fictional Content
-- Free movement and actions   
-- See or listen not as powerful as play themselves
-- Need to act. Engage with external   
-
-dynamical meaning - vs - story meaning   
-
-##### Reactivity
-Respond to your actions
-
-##### Exploration
-Exposition is ok in games sometimes  
-
-Some game structures can be metaphors
+See or listen not as powerful as play themselves:
+- Games as `Rules` + `fictional Content`
+- Free movement and actions, Need to act.` Engage with external`
+- `Reactivity` Respond to your actions
 
 
----
+
 
 
 
 # Authorship
-**Narrative** vs **Mechanics**. Driven How much power over the world.  
-Linear > Interactive Linear >  Multi ending >  Branching path (multi choice but not emergent) > Open ended > Emergent >  Fully player driven (cyclical).
+**Narrative** (story meaning) vs **Mechanics** (dynamical meaning). Driven How much power over the world.
+`Linear` > `Interactive Linear` >  `Multi ending` >  `Branching path` (multi choice but not emergent) > `Open ended` > `Emergent` >  `Fully player driven` (cyclical) > `Random`
 
-**Game story domination**  -   Authored - no impact on story - Linear  - low agency hi certainty of deliver
+**Game story domination**  -   Authored - no impact on story - Linear  - low agency hi certainty of deliver    
 **Player story domination** -  Generative - agency & expression of will - Cyclical  - high agency, low certainty
 
 
@@ -77,12 +58,28 @@ Linear > Interactive Linear >  Multi ending >  Branching path (multi choice but 
 - General design process: Empathize > Define > Ideate > Prototype > test
 
 
+## Agency / Autonomy
+the abstract principle that autonomous beings, agents, are capable of acting by themselves; see autonomy  
+From a game design perspective, Player Agency is the player's ability to impact the story through the game design or gameplay1
+
+create problem not puzzle
+
+1. Quality
+ - `Active presence` - expressing agency and will taking actions and locomotive. Extorting will into expression - video games
+ - `Mental & Social` -  communicationg with abstraction of language -literature, podcasting, consuming information, internet
+ - `Embodied & Environmental` - cinematic storyteling of film, music lighting rythm (fiulm, build and release narrative tension) give sense of time  - music
+ - `Emotional` - site touch smell, haptics. we are trying to digitalize those inputs - theather architecture (VR)
+2. Context
+3. Character
+4. Story
+
+Outward Inward / Individual Bonding
+
+
 ---
 
 # Narration
-
-
-
+Some game structures can be metaphors
 ## Explicit
 **Text written narrator**. explicit things are explained.  (cutscenes). In literature: An explicit narrator is a narrator or character in a story that is the one telling the story. First person narrators are by definition explicit narrators.
 
@@ -103,61 +100,82 @@ most immersive  - it s the world speak and player will find their own story
 
 
 ## Emergent
-**Emerge from systems**     
+Emergent - make own story  with tools we get (author rules), but not direct writer expression      
 Mechanics in narration - implement plot in mechanics  
 
-own story (with autor rules) not direct writer expression : DWARF FORTRESS
-need building blocks :
-- resonant theme - as universal as practial if desired for sharing
-- meshes narratively with existing mechanics - test against sample story or patch existinh holes
+### Emerge from systems
+
+Need building blocks    
+- resonant theme - as universal as practical if desired for sharing
+- meshes narratively with existing mechanics - test against sample story or patch existing holes
 - mechanics <support> presentation
-- inveolves user in state
+- involves user in state
 
-give you
+(Roguelikes, Sandboxes, Minecraft's, Dwarf Fortress)
 
-rouglike games , minecrafts, sandboxes
 
-enable make own story with tools we get
-
-### Random
-
-randomness
-- (pre luck) input (before player make decision): levels
-- (post luck) output  (after action, hit chances in x com, lutbox) (more anger and res not for competence but bad luck undercuts strategy )
 
 
 
 ### Procedural storytelling
-
-[link a](https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf)  
-[link b](https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?id=4RamDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)  
-
 Procedural Narrative Generation:
 
 Prioritizes agent spontniety (all imporvisation and simulation ) (Dwarf Fortress) <> Priotitize authorial structure (Adventures )
 - simulation crntric approach  
 - plot centric approach  
 
+[link a](https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf)  [link b](https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?id=4RamDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)  
 
+
+
+## Random?
+
+#### Randomness
+- (pre luck) input (before player make decision): levels
+- (post luck) output  (after action, hit chances in x com, lutbox) (more anger and res not for competence but bad luck undercuts strategy )
+
+#### Experience as an end itself
 
 ---
 
 
 # Experience
-Experience as an end itself
-
-Alfred North Whitehead (known as the defining figure of the philosophical school known as process philosophy) reality is experience.  
 
 
-#### Virtual vs real experience
+Alfred North Whitehead (known as the defining figure of the philosophical school known as process philosophy) reality is experience.   
+
+
+
+## Psych states
+
+###  Presence  
+`Teleport body`   
+
+
+### Immerse  
+`Teleport mind` - deep mental involvement. Immerse : altered time, with general sense of space (spatial)
+Fully `immersed` with mechanics while `challenge` and `tension` in balance  (`anxiety` vs `boredom`)
+
+
+
+### Engagement  
+Manual or mental `effort meets interactivity` (involves solving problems) (not in books)   
+Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
+
+----
+
+##  Illusion
+
+People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
+
+### Virtual vs real experience
 
 - people are able to belief in fake
 - real world experience have additional fidelity
 
-## Psychology
 
 
-##### Suspension of Disbelief
+### Suspension of Disbelief
 - accepting unrealistic situations
 - audience scram on movies
 - Rules of game established reality that become a game norm
@@ -170,7 +188,7 @@ key element of enjoyment
 how to offer meaningful choice  without offering full control.
 
 
-##### Illusion
+### Illusion
 Only when authentic (coherent and consistent )
 
 Belief - Fiction is not real    
@@ -182,79 +200,8 @@ we know how feelings are - experience taking. match own emotions with fictional 
 
 
 
-#### Emotions
-Revarding or Aversive
 
-|Primal Emtion|Affective Feeling|
-|--|--|
-Seeking | Enthousiastic
-Rage | Pissed-off
-Fear | Anxious
-Lust | Horny
-Care | Tender & Loving
-Panic | Lonley & Sad
-Play | Joyous
-
-
-## Agency
-the abstract principle that autonomous beings, agents, are capable of acting by themselves; see autonomy  
-From a game design perspective, Player Agency is the player's ability to impact the story through the game design or gameplay1
-
-create problem not puzzle - agency
-
-
-####
-
-1. Quality
- - Active presence - expressing agency and will taking actions and locomotive. Extorting will into expression - video games
- - Mental & Social -  communicationg with abstraction of language -literature, podcasting, consuming information, internet
- - Embodied & Environmental - cinematic storyteling of film, music lighting rythm (fiulm, build and release narrative tension) give sense of time  - music
- - Emotional - site touch smell, haptics. we are trying to digitalize those inputs - theather architecture (VR)
-2. Context
-3. Character
-4. Story
-
-
-base of life: substance or dynamics of processes  
-
-Outward Inward / Individual Bonding
-
-People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
-
-
-##  Presence  
-- teleport body   
-
-
-## Immersion  
-- teleport mind   
-deep mental involvement
-
-Immerse : altered time. fully `immersed` with mechanics while challenge and tension in balance  (anxiety vs boredom)
-
-spatial (envo), genual sence of space
-
-
-
-
-
-
-
-## Entertainment
-- Entertainment is an escape from problems
-
-things happening > its excitement its entertainment
-
-
-
-
-## Engagement  
-- Engagement involves solving problems
-
-mental or manual effort meets interactivity  (not in books)
-
-Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
-
+------
 
 
 ###  Flow  
@@ -291,8 +238,29 @@ enthusiasm, absorption, focused effort, zeal, dedication, and energy.
 
 
 
+### Emotions
+Revarding or Aversive
+
+|Primal Emtion|Affective Feeling|
+|--|--|
+Seeking | Enthousiastic
+Rage | Pissed-off
+Fear | Anxious
+Lust | Horny
+Care | Tender & Loving
+Panic | Lonley & Sad
+Play | Joyous
 
 
+
+
+
+### Entertainment
+- Entertainment is an escape from problems
+
+things happening > its excitement its entertainment
+
+------
 
 
 # Ludo narrative
@@ -323,31 +291,22 @@ cyclical naure
 
 
 # MDA framework
+Game designers will establish the rules and boundaries of a game (`Mechanics`) to create a certain sort of playing environment (`Dynamics`) which will invoke certain feelings, such as fun or thrill, in the player (`Aesthetics`).
 
-|a||
+|Mechanics|Dynamics|Aesthetic|
 |--|--|--|
-Mechanics | Dynamics | Aesthetic
-Strategic | Systemic | Narrative
-Rules | System | Fun  
-https://medium.com/swlh/applying-the-mda-framework-for-video-game-design-to-productivity-8329115ce30f
-https://ava-game.com/2018/04/17/mda-in-game-development/
+|Strategic | Systemic | Narrative
+|Rules | System | Fun
 
-Game designers will establish the rules and boundaries of a game (mechanics) to create a certain sort of playing environment (dynamics) which will invoke certain feelings, such as fun or thrill, in the player (aesthetics).
-Fun enable learning   
+
+[link c](https://medium.com/swlh/applying-the-mda-framework-for-video-game-design-to-productivity-8329115ce30f), [link d](https://ava-game.com/2018/04/17/mda-in-game-development/)
+
+
+
 
 ---
 
 
-
-
-
-
-
-
-
-
-
----------------
 
 [ YT - How Video Games Create Empathy | Hellblade , Nier:Automata and Empathy in Game Design ](https://youtu.be/9IBhHRFfhm0) -
 
@@ -358,6 +317,56 @@ voicess of VR
 
 [Shadow of colosus symbols](https://youtu.be/Z7BShVPNpAU)    
 
+```
+Resonate !
+Bonding vs	Bridging
+Bridging player and character
+
+characterization - understanding character, to resonate.
+how much u know about character. what convince us to invest time in them.
+personality convey thou dialog.
+what would they really say.
+
+
+Fun enable easy learning   
+
+
+
+Exposition is ok in games sometimes  - (moving story forward plot device - shity - dressed up exposition )
+- `Repetition` to highlight importance !  -
+- `Dissonant Juxtaposition `- przeciwstawne rzeczy naprzeciw siebie (things side buy side creat context between them 0 if context is contradictory create mental dissonance audience need to resolve)
+
+
+
+
+## Ending:
+- force to reflect
+- reconsider theme we starting with.
+
+
+
+```
+
+
+
+
+```
+spatial (envo), genual sence of space
+1 : relating to, occupying, or having the character of space. 2 : of, relating to, or involved in the perception of relationships (as of objects) in space tests of spatial ability spatial memory.
+contiguous	structural
+
+Broadly defined, spatial activities are activities that involve reasoning about qualities of space (e.g., distance, proportion), practicing mental visualization (e.g., imagining spatial layouts or spatial trajectories), and observing the positions of physical objects.
+
+```
+
+
+```
+base of life: substance or dynamics of processes  
+
+
+```
+
+```
 chase desire to order     
 internal goal     
 yes, unless   
@@ -367,3 +376,4 @@ what if
 Mistrust and misdirection  often are good narrative tools     
 miningfull destructions    
 Mental Modeling. Sense of mental image of game. that we would like to get.   
+```
