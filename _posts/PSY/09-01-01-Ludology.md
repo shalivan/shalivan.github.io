@@ -320,12 +320,7 @@ voicess of VR
 ```
 Resonate !
 Bonding vs	Bridging
-Bridging player and character
 
-characterization - understanding character, to resonate.
-how much u know about character. what convince us to invest time in them.
-personality convey thou dialog.
-what would they really say.
 
 
 Fun enable easy learning   

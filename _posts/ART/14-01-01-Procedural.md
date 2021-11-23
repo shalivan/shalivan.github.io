@@ -12,8 +12,18 @@ permalink: /procedural/
 ---
 
 
+----
+
+HADES:
+Embrace constraints - help to focus decisions around pivot points
+whenn u see all all the time there is no suspension - constraints can pass of content
+
+
+-----
+
+
 human is good with reco patterns
-- so proceduralism can be a trap 
+- so proceduralism can be a trap
 
 
 

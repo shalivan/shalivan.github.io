@@ -12,8 +12,16 @@ tags:
 permalink: /uvolume/
 ---
 
+(blur is expensive, you need render targets)
+
 ------------
 
+## SFD
+how far away from edge (positives outside cause its disatance). Black at 0. so can see if in/out.
+
+volume materials:
+
+`ray matching` Take big step and check how big next step should be. cause in fsd u know how far you are.
 
 
 # Unreal Volume

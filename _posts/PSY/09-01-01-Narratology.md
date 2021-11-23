@@ -21,7 +21,7 @@ Narrative Experience
 [Game Design](/gamedesign/)  
 [Game Mechanics](/gamemechanics/)  
 
-stories round campfire > myths > printing press: linearise > Post linear: World building
+stories round campfire > myths > printing press: linearize > Post linear: World building
 
 
 # Medium
@@ -30,7 +30,7 @@ Stories define how we consume information,  create emotional experience, expand 
 Stories emerge from our consciousness and observing ourselves and understand what is what we are doing.
 Successful life when you family, survive and thrive
 
-Film is based on emphaty
+Film is based on empathy
 
 # Genres
 
@@ -430,22 +430,26 @@ The Natural Cycle
 
 ###### Yin Yang
 
-Not static but dynamic opposites. relative - 2 sides of same thing growth&decline, cycle. (kropki potencał zła w dobrze)
+Not static but dynamic opposites. relative - 2 sides of same thing growth & decline, cycle. The dots represent the seed of yin within yang and the seed of yang within yin; the idea that neither can exist without the other.
+
 **Dao** - way between - live simple
 
- | Yin | Yang |
- |---|---|
- |Black Dark Shadow |White Light Sunny Side |
- |Moon Night Hot Summer |Sun Day Cold Winter   
- |Male  Female |
- |Compete Action| Calm |
- |man grow gas pedal  (brighter faster stronger)|back and person top start action  |
- Inward | Outward |
- Receiving | Giving
- Listening | Talking
- Connected to whole | Individualized Self
+| Yin | Yang |
+|---|---|
+| Black, Dark, Shade, -, Death | White, Light, Sunny, +, Live |
+| The Moon, Night, Cold, Winter, Atumn | The Sun, Day, Hot, Summer, Spring    
+| Feminine, Discrete, Indirect , Mental, Intuition | Masculine, Obvious, Direct, Physical, Logic
+| Water, Wetness | Fire, Dryness
+| Calm, Faded, Slow, Stillness | Energy, Vibrant, Fast, Movement |
+| Inward, Interior, Storage, Frontside, Left | Outward, Exterior, Usage, Backside, Right |
+| Even, Quiet, High pitches | Odd, Loud, Low pitches   
+| Receiving, Listening | Giving, Talking
+| Connected to whole | Individualized Self
+
+
 
 Growth: up, Decline down
+
 
  |.||
  |---|---|
@@ -456,24 +460,23 @@ Growth: up, Decline down
  | Innate Wisdom & Educated Stupidity
  | culture vs nature
 
-- static binary vs flux (yin yang)
+- Static binary vs Flux (yin yang)
 - Linear or cyclical
-- chronos time vs Kairos Time
-- monochronic vs polychronic (meny cycles in diff time scale)
-- waterfall vs agile
-
+- Chronos time vs Kairos Time
+- Monochronic vs Polychronic (many cycles in diff time scale)
+- Waterfall vs Agile
 
 
 Hegelian dialectic: Thesis, Antithesis, Synthesis.
 then synthesis become a new thesis
 
 Thought | Feeling
-Intelect | Emotion
+Intellect | Emotion
 Rationality | Intuition
 Science, logic | Art, Morality
 Reducing | Irreducible
-Explaning | Inesplicable
-Meaduring | Immeasurable
+Explaining | Inexplicable
+Measuring | Immeasurable
 Objective Truth | Subjective Truth
 
 ---
@@ -485,7 +488,7 @@ When cliché is well executed is not a cliché / cliché is when its not driving
 
 
 - Desire vs Fear - hope overcome fear
-- cos co dzialao przestalo dzialac
+- Something that worked stopped working
 
 
 
