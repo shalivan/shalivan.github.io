@@ -123,76 +123,71 @@ https://gumroad.com/l/sFTCY/Clouds6m52fv
 
 In:  bmp, particles, draws   
 
+---
 
 # Fluid Ninja Live
 
+6 buffers: diverg pressure velo density  paint
 
-The rendering pipeline uses 8 RenderTargets for a single simulaon container by default: 1 four-channel [ RGBA, for **CollisionPainter** ], 5 single channel [ R, for **Density** and **ScalarFields** ] and 2 bi-channel [ RG, for **VectorFields** ] - all set to 16 bit precision.  
+
+The rendering pipeline uses 8 RenderTargets for a single simulaon container by default:
+- 1 four-channel [ RGBA, for **CollisionPainter** ],
+- 5 single channel [ R, for **Density** and **ScalarFields** ] and
+- 2 bi-channel [ RG, for **VectorFields** ]
+All set to 16 bit precision.  
 (te set resoluon, bit depth, channel usage)
 
-## Merge
 
-#### Project Setings
- - ##### Add custom trace channel
-    - /Edit /Project Sengs /Collisions /Trace Channels
-    - "Set New trace channel" Name> **FluidTrace**, DefResponse> **Ignore** (all objects will be transparent for NinjaLive line tracers - except dedicated TraceMeshes in NinjaLiveComponent owners.), Trace Channel Index does not maer
- - ##### UV from Hit
-    - /Edit /Project Sengs /Engine /Physics /Opmizaon
+### Setup
 
+##### Copy
+   - `/Content/FluidNinjaLive` to the `/Content` folder of the target project
+   - `/Content/FluidNinjaLive/NinjaLive.uasset` Compile”, then “Save”.
+   - `/Content/FluidNinjaLive/NinjaLive.uasset` (“TraceChannel” and “CollisionChannel” variables to “FluidTrace”).  “Compile”, then “Save”
+   - In the level editor, select any NinjaLive Actor on a level. Select NinjaLiveComponent. Check the “Live Compability” group: the top 3 input fields should be set to “FluidTrace”.
 
-#### Copy files & Compile
-   - /Content/FluidNinjaLive to the /Content folder of the target project
-   - /Content/FluidNinjaLive/NinjaLive.uasset Compile”, then “Save”.
-   - /Content/FluidNinjaLive/NinjaLive.uasset (“TraceChannel” and “CollisionChannel” variables to “FluidTrace”).  “Compile”, then “Save”
-   - In the level editor, select any NinjaLive Actor on a level. Select NinjaLiveComponent
-(see HOW). Check the “Live Compability” group: the top 3 input fields should be set to
-“FluidTrace”.
-
-
-#### Spawn  
-- NinjaLive fluidsim Actors at your levels -
-- or add NinjaLive fluidsim Component to your own object classes. To make fluidsim Component work properly
+##### Project Settings
+ 1. **Add custom trace channel**
+    - `/Edit/Project Sengs/Collisions/TraceChannels`
+    - "Set New trace channel" Name> `FluidTrace`, DefResponse> `Ignore` (all objects will be transparent for NinjaLive line tracers - except dedicated TraceMeshes in NinjaLiveComponent owners.), Trace Channel Index does not maer [if we have a trace channel:
+    delete it
+    add fluid trace
+    and readd old trace channel]
+ 2. **UV from Hit**
+    - `/Edit/ProjectSettings/Engine/Physics/Optimization`
+ 3. Enable **Apex** Destructions
 
 
 
-#### Low Level Setings  
+
+##### Low Level Settings  
 to the host actor class
 in your Actors, apply the directly specified
 
-- **Actor Details** - Acvaon, Interacon, Debug, ComponentOverrides.
-- **Component Details** - Acvaon, MemoryManagement, Performance, Compability, Debug, Generic, Interacon,
-BrushSengs, Raymarching
+- **Actor Details** - Activation, Interaction, Debug, Component Overrides.
+- **Component Details** - Activation, Memory Management, Performance, Combability, Debug, Generic, Interaction,
+Brush Settings, Raymarching
 
+
+##### Spawn  
+- Ninja Live fluid sim Actors at your levels -
+- or add Ninja Live fluid sim Component to your own object classes. To make fluid sim Component work properly
+
+
+
+
+---
 
 
 ## Parts
 
 
-`NinjaLive` (Red icon)  BP - Actor object
- - `NinjaLive Component` - more parameters (sim pressets / materials)
-`NinjaLiveUtilities` (Green icon) - can add to actor
-`NinjaLivePressetManager` (Black icon) -
-
-
-setup:
-```
-1. project settings: new trace channel set to ignore withname: `FluidTrace`. Must be nr 1
-2. Set up UV for hit collision
-3. enable apex destruction
-
-if we have a trace channel:
-delete it
-add fluid trace
-and readd old trace channel
-```
-
-6 buffers
-diverg pressure velo density  paint
-
 
 
 #### NinjaLiveComponent "sim component"
-ActorComponent class object that should be added to a "owner".
+- `Ninja Live Component` - more parameters (sim presets / materials)
+
+Actor Component class object that should be added to a "owner".
 
 Run autonomously (loading its default preset, creang RenderTargets for itself) or  connect to the interface Preset Manager and to the Memory Manager.
 - sim component does _not_ have built in overlap detecon funconality - and for this reason, interacts only with predefined owner components (eg. Bones, Sockets, StacMeshComponents... ).
@@ -200,6 +195,8 @@ Run autonomously (loading its default preset, creang RenderTargets for itself) o
 /Content/FluidNinjaLive.
 
 ####  NinjaLive  "sim container" / "sim area"  (RED)  
+- `Ninja Live` (Red icon)  BP - Actor object
+
 Actor class object, dedicated owner  
 embedding "NinjaLiveComponent" and adding two important features to its core feature set:
 1. **Acvaon volume** (usually much larger than the sim area): the proximity of any user
@@ -217,9 +214,12 @@ SkeletalMeshes, PhysicsBodies, Destrucbles)
 
 
 #### NinjaLive_Utilities  (GREEN)
+- `Ninja Live Utilities` (Green icon) - can add to actor
+
  Utilities
 
 #### NinjaLive_PresetManager
+- `Ninja Live Presset Manager` (Black icon) -
 
  /Content/FluidNinjaLive/NinjaLive_PresetManager
 
