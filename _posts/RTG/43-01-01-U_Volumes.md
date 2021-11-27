@@ -1,5 +1,5 @@
 ---
-title: Unreal Volume
+title: U Volume
 description: Fluid Ninja, Clouds
 categories:
  - PXL
@@ -39,6 +39,10 @@ Unreal CVars:
 Volume, Additive. Use texture: VectoreDisplacementmap(RGBA8)
 
 
+Volume Texture, Created from source texture !!!!!!!!
+https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Textures/VolumeTextures/CreatingVolumeTextures/
+
+
 
 ```
 Volume advanced output: volumetric adv input >>> extinction
@@ -53,6 +57,29 @@ Volume advanced output: volumetric adv input >>> extinction
 
 
 https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LightingAndShadows/VolumetricClouds/    
+
+
+## Noise
+
+
+
+
+|||instr pre level|lookup table|||
+|-|-|-|-|-|-|
+| Regular Texture
+|Fast Gradient| 3d tex |~16 | 1 | High quality but not for bumps (baked to a volume texture) | Always tiles  
+|Value | Computational | ~53-118 || Low quality but computational | yes
+|Gradient |Tex Based |~61-74 | 8 | High Quality |always but <=128
+| Samplex ||~77 |4  | High Quality | no
+|Gradient |Computational|~80-143   | | High Quality  | yes
+|Voronoi Q1 | 8 cells x20| ~160  |
+|Voronoi Q2 | 16 cells x20| ~320 |
+|Voronoi Q3  | 27 cells x20 | ~540 |
+|Voronoi Q4  | 32 cells x20| ~640 |
+
+
+Tiling Noise > Repeat Size  (Repeat Size matches the sampled size that you will be baking out.)
+
 
 ## Niagara
 
