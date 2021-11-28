@@ -18,14 +18,10 @@ permalink: /uvolume/
 
 ## SDF
 VDB SDF Sparse volume that define distance to surface. (How far away from edge (positives outside cause its distance )). Black at 0. so can see if in/out.
-
-```
-Volume materials:
-
 - `ray matching` Take big step and check how big next step should be. cause in fsd u know how far you are.
-```
 
-# Unreal Volume
+
+# [Unreal Volume](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Textures/VolumeTextures/CreatingVolumeTextures/)
 
 
 Unreal CVars:    
@@ -40,7 +36,10 @@ Volume, Additive. Use texture: VectoreDisplacementmap(RGBA8)
 
 
 Volume Texture, Created from source texture !!!!!!!!
-https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Textures/VolumeTextures/CreatingVolumeTextures/
+
+
+
+https://www.youtube.com/watch?v=739NOjhLVnI
 
 
 
@@ -59,10 +58,13 @@ Volume advanced output: volumetric adv input >>> extinction
 https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LightingAndShadows/VolumetricClouds/    
 
 
+
+
+
 ## Noise
 
 
-
+A better strategy is stacking 3 layers of lower resolution 3D noises (128^3 for example) instead of 2 high resolution. And because the 3 layers have aggressively larger scale, they make up for low resolution:
 
 |||instr pre level|lookup table|||
 |-|-|-|-|-|-|
@@ -87,27 +89,29 @@ Tiling Noise > Repeat Size  (Repeat Size matches the sampled size that you will 
 
 
 ## Volumetric Clouds
-Multiple scattering - light is almost never absorbed within the volume. Light that is not absorbed passes through the volume making the scattering effect very complex in the process.
-
-- When you near could be repleaced with vol fog
+When near will be replaced with volume fog
 
 ##### Steps
 
 [Unreal Docs](https://docs.unrealengine.com/en-US/BuildingWorlds/LightingAndShadows/VolumetricClouds/index.html)
- - eneble volume plugin
 
-
+1. eneble volume plugin
+2. Drag `Volumetric Cloud` from actors
+3. In engine content: `VolumetricsContent/tools/CloudCompositing`
+ - `BP_CloudMask_Object`  -  Scale and move away  its asset with single cloud. Have debug plane to create shape 
+ - `BP_CloudMask_Generator`  
+4. Assign Material: `VolumetricsContent/Content/Sky/Materials`
+5.
 
 
 #### Material
 Volumetric additive - three-dimensional volume texture that is ray-marched
+- **Octaves** 1- for real time. Multiple scattering - light is almost never absorbed within the volume. Light that is not absorbed passes through the volume making the scattering effect very complex in the process. By tracing multiple octaves (or steps) of light transmittance in the volume material. The Volumetric Advanced Material Output expression enables you to set the number of octaves used along with the amount of multiple `scattering` contribution, `occlusion`, and `eccentricity` that happens.
 
-**OCTAVES**  (for games 1 )
-by tracing multiple octaves (or steps) of light transmittance in the volume material. The Volumetric Advanced Material Output expression enables you to set the number of octaves used along with the amount of multiple scattering contribution, occlusion, and eccentricity that happens.
-
+```
 **IN MATERIAL**
 Contribution and low Occlusion values on the Volumetric Advanced Material expression in your cloud material to similar effect without impact to performance.
-
+```
 
 
 https://sergeneren.com/2019/08/21/creating-low-altitude-clouds/
@@ -159,6 +163,7 @@ use custom line trace:
 for rotationali fixed sim contianers . !!!
 
 `use custome trace position` on component. lvl 21
+
 ------
 
 
