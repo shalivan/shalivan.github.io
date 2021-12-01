@@ -45,7 +45,7 @@ Using file cache with rop geo TOP. with sequences choose automatic.
 |TextureSheet / MorionVector seqence | ```$HIP/`opname("..")`/export/bake/${OS}_sequence/``` |      
 |TextureSheet / MorionVector | ```$HIP/`opname("..")`/export/bake/``` |  
 |Heightfields | ```$HIP/`opname("..")`/export/heightfields/$OS/``` |
-|Vertex Anims  |```$HIP/`opname("..")`/export/vat_$OS``` |       
+|Vertex Anims ROP |```$HIP/`opname("../..")`/export/vat_$OS``` |       
 |Niagara | ``` $HIP/`opname("..")`/export/niagara/$OS.hbjson ``` |
 |Impostors| ```$HIP/`opname("..")`/export/${OS}_impostor/sequence/${OS}.$F4.exr``` |
 |Impostors| ```$HIP/`opname("..")`/export/${OS}_impostor/${OS}_beauty.exr``` |
@@ -131,6 +131,16 @@ Uv
 - `i@island=3;` - (prim)  
 
 
+Fbx Export, Character    
+- `boneCapture` At point. on the skin geometry - defines the skinning weights.  
+- `clipinfo` - At detail. Current animation range and sample rate as well as the original animation range and sample rate of the imported animation.  
+- `fbx_material_name`- At primitive. On the skin geometry - name of the material.  
+- `material_override` - At primitive On the skin geometry -  material property values.  
+- `name` - At point - unique name across all points used for identification. (only used if the `path` point is missing).  
+- `path` - At point - hierarchical path of FBX node that corresponds to the point. It is created when FBX files are imported by the FBX Animation Import or FBX Character Import nodes. This path is used to identify where to export the point transforms.  
+- `scaleinheritance` - At point, specifies the scaling behavior when performing local transformations. See `combinelocaltransform` and `extractlocaltransform`  
+- `shop_materialpath` - Primitive path Currently, only material parameters of those belonging to the /nodes/shop/principledshader shader are recognized for export.  
+- `transform` - This 3×3 matrix point attribute specifies the world transform for the point. While the world position of the point is still P, this transform encodes the world transform’s rotation, scale, and shear components.  
 
 ---
 # Unreal Import

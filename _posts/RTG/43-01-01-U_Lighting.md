@@ -1,5 +1,5 @@
 ---
-title: Unreal Lighting
+title: U Lighting
 description: Atmosphere, Fog, Sun, Sky, Lumen
 categories:
  - PXL
