@@ -16,7 +16,7 @@ permalink: /orient/
 
 <!-- more -->
 
-
+https://vfxbrain.wordpress.com/2018/12/04/using-orient-attribute-with-instances/
 
 ##  Nomenclature
 **Houdini operate in radians**    
@@ -103,7 +103,7 @@ rotate(m, angle, axis);
 **Rotate Matrix about axis**
 ```cpp
 vector axis = normalize(chv("axies"));
-float angle = radians(chf('rotateAmount')*360); /// euler angle 
+float angle = radians(chf('rotateAmount')*360); /// euler angle
 matrix3 m = ident();  
 
 rotate(m, angle, axis);  // rotate matrix
@@ -173,10 +173,25 @@ rotate(x, euler_angle, axis);
 setprimintrinsic(0, "transform", @primnum, x, "set");
 ```
 
+**Get Orient from packed**
+
+```
+matrix m = primintrinsic(0, "packedfulltransform", @primnum);
+matrix3 m3 = matrix3(m);
+p@orient = quaternion(m3);
+
+```
+**Get Pivot from packed**
+```
+vector3 pivot = primintrinsic(0, "pivot", @primnum);
+v@pivot = pivot;
+
+```
 
 **Packed Geometry from RDB to copy to object**
 https://youtu.be/W9ggbLr6wNY?t=1001
-transform to replace low proxy in RDB.
+To transform to replace low proxy in RDB.
+Copy intrinsic transforms to points:
 ```cpp
 matrix m4 = primintrinsic(0,'packedfullytransform', @ptnum);
 matrix3 m3 = matrix3(m4);

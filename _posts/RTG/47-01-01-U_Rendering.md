@@ -16,6 +16,7 @@ permalink: /urendering/
 [Unreal Light & Atmosphere](/uelight/)
 
 
+(blur is expensive, you need render targets)
 
 #### Project and Light Settings
 - `Suport Sky Atmosphere` &   

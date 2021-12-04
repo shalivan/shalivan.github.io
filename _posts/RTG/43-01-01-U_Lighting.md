@@ -113,7 +113,7 @@ r.SkyAtmosphere.Visualize 1
 
 # Sky Light
 Emit light from captured cube map  Require: **Recapture**
-
+Real Time Capture mode enables 9-frames time slicing to distribute a single frame's capture over multiple frames.
 
 - `■` `Light Color` -    
 - `x` `Intensity` -  Amount (always 1)   
@@ -148,16 +148,12 @@ Material: `Is Sky`, `Opaque`, `Unlit`
 Skybox: `No Cast Shadow`, `No Distance Field`  
 
 #####  Material
-Basic material setup: sky + sun
-- `Sky Atmosphere Light Disc Luminance` [0] -  sun ( render sun on skybox as u see it)     
-- `Sky Atmosphere View Luminance` - sky gradient ( rendered sky color effect as u see it)   
+Sky + Sun + (Cloud*mask):
+- `Sky Atmosphere Light Disc Luminance` [0] -  **Sun** from Dir light actor (render sun on skybox as u see it)     
+- `Sky Atmosphere View Luminance` - **Sky gradient** ( rendered sky color effect as u see it)   
+- `Sky Atmosphere Distant Light Scattered Luminance` * `mask` - **Cloud sky color** (like atmoshere ambient tint)
 
-Add clouds: sky + sun + (cloud*mask)
-- `Sky Atmosphere Distant Light Scattered Luminance` - Cloud sky color (like atmoshere ambient tint)
-
-setup: add clouds to plane/particles (M_SkyTimeOfDay) (Translucent)
-add smoke  
-
+For smoke particle (M_SkyTimeOfDay) (Translucent):
 - `Sky Atmosphere Light Direction` - Sun Angle of dir. Check if day - ( * 5 > clamp > lerp sun low/high)  
 - `Sky Atmosphere Aerial Perspective` - How wide glow/tint is   
 - `Sky Atmosphere Light Luminance` - intensity/color of sunlight hitting atmosphere  
@@ -193,7 +189,8 @@ With Atmosphere are ADDITIVE So basic setup black
 - `Start Distance` - Start   
 - `Max Opacity` - clamp   
 
-### Volume Fog
+
+# Volume Fog
 
 
 - `□` `Albedo` -  The height fog particle reflectiveness used by Volumetric Fog. Water particles in the air have an albedo near white, while dust have slightly darker value  
@@ -209,7 +206,12 @@ With Atmosphere are ADDITIVE So basic setup black
   - Fog `Directional Inscattering Color` > Directional Light: `Scattering Color`
 
 
-https://shaderbits.com/blog/ue4-volumetric-fog-techniques  
+
+
+[pxl.ink Unreal Volumes](/uvolume/)
+
+
+
 
 ---
 

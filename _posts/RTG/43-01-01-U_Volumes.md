@@ -14,121 +14,165 @@ permalink: /uvolume/
 
 
 
+
 [pxl.ink Unreal Rendering Features](/ue_rendering_features/)   
 [pxl.ink Unreal Light](/ulight/)  - Lighe and atmosphere
 
-(blur is expensive, you need render targets)
 
 ------------
-ray matching -
-ray trace - array of features
+
+
+
+# Art
+add different layers of clouds on diff heights  to get paralax effect
+- HIGH cirrostratus / cirrus  / cirrocumulus
+- MID altostratus / altocumulus /
+- LOW stratus / stratocumulus / cumulus / cumulonimbus
+
+https://sergeneren.com/2019/08/21/creating-low-altitude-clouds/
+https://gumroad.com/l/sFTCY/Clouds6m52fv
+
+
 
 # [Unreal Volume](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Textures/VolumeTextures/CreatingVolumeTextures/)
+Control in Heightfog and material
 
-Unreal CVars:    
+Unreal CVars:   
+- **GridSizeZ** - how many planes   - 32 -  128 Can trade distance for quality     
+- **TemporalReprojection** - Temporal smooth   
+- **HistoryWeight** -0.1 -flickering layers / 0.9 - ghosting  /== how smooth vs how responsive .6/.7   
+```
 `r.VolumetricFog.GridPixelSize 8`   
-`r.VolumetricFog.GridSizeZ 128` - how many planes   - 32 -  128 Can trade distance for quality   
-`r.VolumetricFog.TemporalReprojection 1` - Temporal smooth  
+`r.VolumetricFog.GridSizeZ 128`
+`r.VolumetricFog.TemporalReprojection 1`
 `r.VolumetricFog.Jitter 1`   
-`r.VolumetricFog.HistoryWeight`   0.1 -flickering layers / 0.9 - ghosting  /== how smooth vs how responsive .6/.7 ?  
-
-
-
-
-##### Volume material
-Volume, Additive. Use texture: Vector Displacement map (RGBA8)
-Volume Texture, Created from source texture
-
-
-
-
+`r.VolumetricFog.HistoryWeight`   
+&  r.SkyAtmosphere
+```
 
 
 # [Volumetric Clouds](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LightingAndShadows/VolumetricClouds/ )
-When near will be replaced with volume fog
+Solved by using an approximation of realistic scattering by tracing multiple octaves. When near will be replaced with volume fog. Multiple scattering = albedo that is close to a value of 1
 
-
-
-
-1. eneble volume plugin
-2. Drag `Volumetric Cloud` from actors
+### Setup
+1. Eneble volume plugin
+2. Drag **Volumetric Cloud** from actors
 3. In engine content: `VolumetricsContent/tools/CloudCompositing`
- - `BP_CloudMask_Object`  -  Scale and move away  its asset with single cloud. Have debug plane to create shape
- - `BP_CloudMask_Generator`  
+ - **BP_CloudMask_Object**  -  Scale and move away  its asset with single cloud. Have debug plane to create shape
+ - **BP_CloudMask_Generator**
 4. Assign Material: `VolumetricsContent/Content/Sky/Materials`
-5.
+5. Scene setup:  Directional (w atmosphere sun light) / sky atmo / sky light with real time capture / height fog (insc and dircol  to Black)/ setting: support atmo affect h fog.
+6. `Unreal/Engine/Plugins/Experimental/Volumetrics/Content/Content` - volumetric plugin content
 
+`M_volumetricCloud_02_Profiles_Soft`
 
-
+```
 `r.VolumetricCloud.ReflectionRaySampleMaxCount`   
 `r.VolumetricCloud.Shadow.ReflectionRaySampleMaxCount`  
-
+`r.VolumetricCloud.ViewRaySampleMaxCount`
 `r.VolumetricCloud.SampleMinCount`  
 `r.VolumetricCloud.DistanceToSampleMaxCount`  
+`r.VolumetricRenderTarget.Mode` - 0-2
+```
 
-### Cloud Component
+### [ Volumetric cloud ] Actor
+ Cloud Tracing properties enable you to scale the tracing quality of key cloud attributes, like clouds in reflections, shadowing samples for clouds and clouds in reflections, and the distance from the camera that cloud shadowing should stop.
+ The cloud system doesn't support Ray Tracing, only takes into account the clouds as rendered into the Sky Light.
+
 Layer
-- `Layer Bottom Altitude` -
+- `Layer Bottom Altitude`
 - `Layer Height` -
 - `Tracing Start Max Distance` -
 - `Tracing Max Distance` -
 - `Planet Radis` -
 
-Cloud Tracing (balance visual nad perf) **!!!! Sample Count**
+Cloud Tracing (balance visual nad perf) **Sample Count** - To optimize !!!
 - `View Sample Count Scale` -  Clamped by: `r.VolumetricCloud.ViewRaySampleMaxCount` -  Sample Count
 - `Refraction Sample Count scale` - rózowy ziomek miał na 1
 - `Shadow View Sample Count` - !! perf
-- `Shadow Refraction Sample Count scale` - rózowy ziomek miał na 1
+- `Shadow Refraction Sample Count scale` -  Sky Light quality for  reflections
 - `Shadow Tracking Distance` - !! perf - range of shadow
 
 
 
 
+### [ Directional Light ] Actor
+- `Cast Cloud Shadows` on an atmospheric light allows for the cloud volume to shadow scene elements
+   - `Cloud Shadow Map Resolution Scale` drives the resolution and performance cost of the sunlight shafts. Reducing the radius of the cloud shadow map around the camera with the `Cloud Shadow Extent` property can help focus the shadow map resolution for sharper, better results.  
+-  `Cast Shadows on Atmosphere` and `Cast Shadows on Clouds` - Shadowing for large objects is achieved using a large enough Dynamic Shadow Distance or using Far Shadow Distance on the Directional Light to shadow objects that enable the Far Shadow flag in their details.
+- `Cloud Scattering Luminance Scale` provides a nice counterbalance  to low light with low octaves count
+
+And also
+  - strength of shadows
+  - distance that cloud shadowing happens from the current camera position (in kilometers),
+  - whether clouds can self-shadow
+  - whether clouds can cast shadows into the atmosphere
+
+### [ Sky Light ] Actor
+The `Sky Light` component uses the `Cloud Ambient Occlusion` properties for soft ambient shadowing
+- When using secondary marching per sample, the cost is driven by values setup on the Volumetric Cloud component with Shadow View Sample Count Scale.
+- When the cloud samples the Directional Light Beer Shadow Map (which is also used to cast shadow on meshes), then a single evaluation of the shadow map is done at each ray marched position. The Beer Shadow Map generation is driven by information coming from the setup on the Directional Light component with Cloud Shadow Ray Sample Count Scale.
+
+
+
+# Ray Marching
+
+
+`paralax occlusion`
+`ray matching` -    
+`ray trace` - array of features
+
+### Quality Modes
+
+`r.VolumetricRenderTarget.Mode 0` -  recommended option for quality. It supports fast-paced gameplay that may have ground-to-space transitions, or flying through clouds. Clouds are fast to trace but can appear to have low resolution. Traces happen at quarter resolution, reconstruction at half resolution, and upsample on screen at full resolution.  
+`r.VolumetricRenderTarget.Mode 1` balances quality with performance to fit a lot of types of gameplay that are good for ground views. This mode is more expensive but looks higher quality. Traces happen at half resolution, reconstruction and upsample on screen at full resolution.  
+`r.VolumetricRenderTarget.Mode 2` focuses on higher quality while still supporting ground views for real-time gameplay. This mode is fast to trace and looks high resolution, but it does not support cloud intersection with opaque meshes.
 
 
 
 
+# Volume material
+- Material: **Additive** & **Volume** domain. Can be **lit** or **unlit**
+- Texture: Volume Texture, Created from source texture
+  - Vector Displacement map (RGBA8)
 
+`Ground Contribution` -  if your frame budget allows.   
+`Conservative Density` attribute is used to accelerate the ray marching by skipping expensive material evaluation early on.
 
+## Material nodes
 
+### [Cloud Sample Attribute] material node
+- `Altitude`  - Altitude relative to ground
+- `AltitudeInLayer`  - Altitude relative Lowest cloud  
+- `NormAltitudeInLayer` - 0-1 gradient
+- `Shadow Sample Distance`
 
-
-## Material
-
-Advanced output:
-- `Phase G` -
-- `Phase G2` -
-- `Octaves` -
-- `Multi Scattering Contribution` - How much Contribution from every octave
-- `Multi Scattering Eccentricity`  - How much contribution will be removed
+### [Advanced output] material output node
+- `Phase G` - [-1,1]
+- `Phase G2` - [-1,1]
+- `Octaves` - [0,1]
+- `Multi Scattering Contribution` - [0,1] How much Contribution from every octave
+- `Multi Scattering Eccentricity`  -  [0,1] How much contribution will be removed
 - `Multi Scattering Occlusion` - How much became isotropic
 
+To  Fake Octaves: Contribution - high Eccentricity/Occlusion - low.
 
-### Octaves
-`Multiple Scattering Approximation Octaves` 1- for real time. -
-- Fake Octaves: Contribution - high Eccentricity/Occlusion - low.
+#### Set in Details
+- **Octaves** -  1- for real time
+- **Gray Scale Material**  - Optimization
+- **Ground Contribution**  - Add some cost
+- **Volume Shadow** - Handled by atmosphere lights and the volume material
+ - `Volume Ray Marching` uses secondary ray marching to get sharp colored shadows
+   - Limited in distance that shadows can be traced due to the limited number of samples that can be used
+   - Good for ground to sky to space transitions even though they are more expensive.
+ - `Beer Shadow Maps (BSM)` use to support far shadow distances for clouds and casting shadows on the ground.
+   - Faster to render, but are less accurate and lack volumetric self shadow color.
+   - Enough for clouds viewed from the ground.
+   -  Xbox One and PlayStation 4, Beer shadow maps are recommended for cloud shadowing.
 
 
-### Shadow
-Volumetric Advanced Material Output expression to your material graph. With the node selected, toggle the Ray March Volume Shadow checkbox from the Details panel to switch between two types of shadowing.
-- **Volume Ray Marching** uses secondary ray marching to get sharp colored shadows but is limited in distance that shadows can be traced due to the limited number of samples that can be used. Ray-marched shadows are good for ground to sky to space transitions even though they are more expensive.
-- **Beer Shadow Maps (BSM)** use cascaded shadow maps to support far shadow distances for clouds and casting shadows on the ground. They are also faster to render, but are less accurate and lack volumetric self shadow color. Beer shadow maps are usually enough for clouds viewed from the ground.
-For console platforms, such as Xbox One and PlayStation 4 or other systems using similar specifications, Beer shadow maps are recommended for cloud shadowing.
+-----
 
-#### Light Interactions and Shadowing
-#### Sky Lighting Cloud Ambient Occlusion
-#### Sky Light Cloud Reflections Quality
-#### Achieving Cinematic Quality
-lot of Cvars
-
-- `Light Shaft Occlusion `
-- `Cast Shadow On Clouds`
-- `Cast Shadow On Atmosphere`
-- `Cloud Shadow map Resolution Scale` - - heavy
-
-https://sergeneren.com/2019/08/21/creating-low-altitude-clouds/
-
-https://gumroad.com/l/sFTCY/Clouds6m52fv
 
 
 
@@ -140,7 +184,7 @@ https://gumroad.com/l/sFTCY/Clouds6m52fv
 
 
 
-# Fluid Ninja Live
+# [Fluid Ninja Live](https://drive.google.com/file/d/1I4dglPjeXLcNkSGxGok8sQCy59qgYcF9/edit)
 
 
 
@@ -165,12 +209,14 @@ https://gumroad.com/l/sFTCY/Clouds6m52fv
 
 
 Inputs: Texture. Mat. Scene capture. geometry , (SM Bones sockets Phys Bodies Destructy)
-``` for real time:  1-2 high res area fx and 3-6 character fx  - 1k is high res ```
+
+for real time:  1-2 high res area fx and 3-6 character fx  - 1k is high res
+
 6 buffers:
 
 - Paint Buffer
-- Divergence buffer - shockwawe like
-- Pressure buffer - shockwawe like
+- Divergence buffer - shockwave like
+- Pressure buffer - shockwave like
 - Velocity Buffer
 - Density
 
@@ -206,7 +252,6 @@ Link2: Select any actor containing the sim component, and switch on "/Component 
 [Manual](https://drive.google.com/file/d/1I4dglPjeXLcNkSGxGok8sQCy59qgYcF9/edit)
 [FAQ](https://drive.google.com/file/d/17oVPVEoaW6Y6YKNISr4S0uUJY4_Yx_FM/edit)
 
----
 
 
 ----
@@ -260,12 +305,6 @@ Custom GUI, Memory Manager, and Interface Controller.
 
 ----------------
 
-###### Material
-Ray matching    
-paralax occlusion
-
-
-
 
 
 ## Noise
@@ -288,6 +327,30 @@ A better strategy is stacking 3 layers of lower resolution 3D noises (128^3 for 
 
 
 Tiling Noise > Repeat Size  (Repeat Size matches the sampled size that you will be baking out.)
+
+
+```
+
+
+
+
+```
+
+#### High Quality Clouds
+1. Cloud Actor: Tracing section, increase the sample count scale for View, Reflections, and Shadows.
+3. Material node: Ground Contribution / up octaves to 2   
+5. Light: Cast Cloud Shadow (+map Resolution Scale - heavy)/ Cast Shadows on Clouds / per Sample Atmospheric Light Transmittance / Light Shaft Occlusion
+6. Choose one of those:
+  -  `r.SkyAtmosphere.FastSkyLUT 0` -  Disabling this optimization is slower to render, but produces fewer visual artefacts with high-frequency detail that can appear in places like the earth's shadow or scattering lobe.
+  -  `r.SkyAtmosphere.FastSkyLUT 1`
+    - `r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque 0`
+    - Trace Sample Count Scale to adjust the number of samples used. If the max range isn't enough, use the command `r.SkyAtmosphere.SampleCountMax` to choose a higher limit and manually enter a value in the property field.
+    - `r.SkyAtmosphere.FastSkyLUT.Width` and `r.SkyAtmosphere.FastSkyLUT.Height` - mprove the quality of sunlight shafts
+    - `r.SkyAtmosphere.AerialPerspectiveLUT.Width` -  quality of fog on opaque and transparent surfaces
+
+`r.VolumetricRenderTarget 0 ` -  
+`r.VolumetricCloud.HighQualityAerialPerspective 1`  -  aerial perspective for clouds to use high quality ray tracing instead of low resolution LUTs
+
 
 
 ```
@@ -325,6 +388,6 @@ pseudo volume smoke houdini
 https://viktorpramberg.com/smoke-lighting
 
 ------
-
+https://shaderbits.com/blog/ue4-volumetric-fog-techniques  
 https://www.youtube.com/watch?v=739NOjhLVnI, http://asher.gg/, Inside Unreal (Expand Your World With Volumetric Effects)](https://www.youtube.com/watch?v=R2RQm_Bu81I) - [forum thread ](https://forums.unrealengine.com/t/inside-unreal-expand-your-world-with-volumetric-effects/148624)
 [volume fog layers nice](http://asher.gg/?p=2600)
