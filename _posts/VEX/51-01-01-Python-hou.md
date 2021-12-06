@@ -53,7 +53,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 
-
 ###  Shelf Tool
 Click on shelf click:  RMB > New Tool
 Scripts section to write code Executed
@@ -65,10 +64,8 @@ Scripts section to write code Executed
 ### Script node
 
 
-# hou.
-hou. is houdini python class. We can drop it in expressions.      
-
-
+# [hou.](https://www.sidefx.com/docs/houdini/hom/hou/index.html)
+Houdini python class. (can be droped it in expressions)      
 
 ```python
 # Define fn.
@@ -94,7 +91,7 @@ print examplereturn("houdini")
 ```
 
 
-# hou.node
+# [hou.node](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
 
 ### Create and connect nodes
 [Hou.node documentation](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
@@ -102,27 +99,39 @@ print examplereturn("houdini")
 `hou.node("obj")` - Object directory    
 `foo = hou.node("/obj/fooBox")` # creates hou.ObjNode of type geo at /obj/ball    
 
-`obj.createNode("geo", "foo_geo")`  - Cretate geo container   
-<img src="/src/python/hou/a0.png" width="350" >      
+Create Container and Node
+```python
+obj.createNode("geo", "foo_geo")  
+```
+<img src="/src/python/hou/a0.png" width="350" >  
 
-
-
-`foo.createNode("box", "foo_box")` - Create Box inside  
+```python
+foo.createNode("box", "foo_box")
+```   
 <img src="/src/python/hou/a1.png" width="350" >
 
-
-`fooBox.setInput(0, fooSphere,0)` - Connect inputs    
+Connect inputs   
+```python
+fooBox.setInput(0, fooSphere,0)
+```
 <img src="/src/python/hou/aconnect.png" width="350" style="left">
 
+Set/Get Flags 
 
-`fooSphere.setDisplayFlag(1)` - Set Display Flag     
-`fooSphere.setRenderFlag(False)` - Set Render Flag    
-`fooSphere.isDisplayFlagSet()` - False   
-`fooSphere.isObjectDisplayed()` -    
-`fooSphere.setSelectableInViewport(False)` -   
+```python
+fooSphere.setDisplayFlag(1)`   
+fooSphere.setRenderFlag(False)`   
+fooSphere.isDisplayFlagSet()`    
+fooSphere.isObjectDisplayed()`   
+fooSphere.setSelectableInViewport(False)`   
 <img src="/src/python/hou/aconnectflags.png" width="350" >
+```
 
-`fooBox.destroy` - Delete
+Delete
+```python
+`fooBox.destroy`
+```
+
 
 ```python
 def fooFunction():
