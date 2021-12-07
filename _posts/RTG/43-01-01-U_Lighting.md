@@ -112,6 +112,7 @@ r.SkyAtmosphere.Visualize 1
 ---
 
 # Sky Light
+Cubemap Capture.  Position is important !
 Emit light from captured cube map  Require: **Recapture**
 Real Time Capture mode enables 9-frames time slicing to distribute a single frame's capture over multiple frames.
 
@@ -149,8 +150,8 @@ Skybox: `No Cast Shadow`, `No Distance Field`
 
 #####  Material
 Sky + Sun + (Cloud*mask):
-- `Sky Atmosphere Light Disc Luminance` [0] -  **Sun** from Dir light actor (render sun on skybox as u see it)     
-- `Sky Atmosphere View Luminance` - **Sky gradient** ( rendered sky color effect as u see it)   
+- `Sky Atmosphere Light Disc Luminance` [0] -  **Sun**(sun circle on skybox)     
+- `Sky Atmosphere View Luminance` - **Sky** (skybox)   
 - `Sky Atmosphere Distant Light Scattered Luminance` * `mask` - **Cloud sky color** (like atmoshere ambient tint)
 
 For smoke particle (M_SkyTimeOfDay) (Translucent):

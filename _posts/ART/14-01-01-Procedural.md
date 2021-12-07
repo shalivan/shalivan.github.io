@@ -134,6 +134,11 @@ black and white spaces
 
 https://youtu.be/VBzIPLh-ECg
 
+### Convolution 
+https://www.youtube.com/watch?v=zngYAIBlHT4&list=PL2w9KHBkW34jbMfLXa7xe2IoHWrJNqaN9&index=1
+3x3 convolution > blur/sharpen by neighbours   
+
+
 ### Wang tiles
 - Tiles (procedurally generate world) - Wave function collapse
 http://www.cr31.co.uk/stagecast/wang/3edge.html   

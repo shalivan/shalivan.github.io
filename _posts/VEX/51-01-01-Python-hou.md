@@ -22,26 +22,28 @@ tags:
 
 ## Usage
 
-### Python Source Editor
-Embeded in hip file:  Windows > Python Source Editor.   
-Can save  code and function, and call by: hou.session.myDefinedFunction()  
+###  Session Code
+`Python Source Editor` - Persistant and embeded in hip file:  `Windows/Python Source Editor` .     
+`hou.session.foo()`  - Call saved code and function
 
-
-
-
+Create foo function in session:  
 ```python
+import hou
+
 def foo():
-   obj = hou.node("/obj") # go to directory
-   fooGeo = obj.createNode("geo", "foo_geo") # create container
-   fooBox = foo.createNode("box", "foo_box") # create box
+   foo_obj = hou.node("/obj") # go to directory
+   foo_geo = foo_obj.createNode("geo", "foo_geo") # create container
+   foo_box = foo_geo.createNode("box", "foo_box") # create box
 ```
 
 
 
 
 
-### Python Shell
-Live code:  Windows > Python Shell
+### Shell
+Live code, witch will disappear after H is closed. `Windows/Python Shell`  
+
+Call foo from session:
 ```python
 Python 2.7.15 (default, Dec  2 2020, 15:50:44) [MSC v.1916 64 bit (AMD64)] on win32
 Houdini 18.5.518 hou module imported.
@@ -53,16 +55,32 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 
-###  Shelf Tool
-Click on shelf click:  RMB > New Tool
+###  Script section in Tools
 Scripts section to write code Executed
+
+Click on shelf click:  `RMB` > `New Tool`  
 - name, label
 - script will execute ....
 - can call from: `hou.session.foo()`
 
 
+### Expression
+session code is available in expressions without `hou.session.`
+
 ### Script node
 
+### TOP
+- Mapper
+- Partitioner
+- Processor
+- Script
+
+
+## Classes  
+
+hou.node   
+hou.objNode   
+hou.geometry   
 
 # [hou.](https://www.sidefx.com/docs/houdini/hom/hou/index.html)
 Houdini python class. (can be droped it in expressions)      
@@ -93,56 +111,75 @@ print examplereturn("houdini")
 
 # [hou.node](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
 
-### Create and connect nodes
-[Hou.node documentation](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
+## Create and connect nodes
 
-`hou.node("obj")` - Object directory    
-`foo = hou.node("/obj/fooBox")` # creates hou.ObjNode of type geo at /obj/ball    
-
-Create Container and Node
+Create box
 ```python
-obj.createNode("geo", "foo_geo")  
+hou.node("/obj").createNode("geo",'foo_geo').createNode("box","foo_box") # create box
 ```
-<img src="/src/python/hou/a0.png" width="350" >  
+or create and sore in variables:
+```python
+foo_obj = hou.node("/obj") # store context
+foo_geo = foo_obj.createNode("geo", "foo_geo") # create container
+foo_box = foo_geo.createNode("box", "foo_box") # create box
+foo_sphere = foo_geo.createNode("sphere", "foo_sphere") # create box
+```
+Store existing node in varaible
+```python
+foo_geo_copy = hou.node('/obj/foo_geo') # store node in variable (can drag from viewport)
+```
 
 ```python
-foo.createNode("box", "foo_box")
-```   
-<img src="/src/python/hou/a1.png" width="350" >
+foo_geo.type() # get type of stored variable
+foo_geo.children() # get all nodes inside
+```
+
+print
+```python
+print foo_geo.children()
+```
+```python
+for i in foo_geo
+   print i
+```
+
+
 
 Connect inputs   
 ```python
-fooBox.setInput(0, fooSphere,0)
+foo_box.setInput(0, foo_sphere,0)
 ```
-<img src="/src/python/hou/aconnect.png" width="350" style="left">
 
-Set/Get Flags 
+
+Set Flags
 
 ```python
-fooSphere.setDisplayFlag(1)`   
-fooSphere.setRenderFlag(False)`   
-fooSphere.isDisplayFlagSet()`    
-fooSphere.isObjectDisplayed()`   
-fooSphere.setSelectableInViewport(False)`   
-<img src="/src/python/hou/aconnectflags.png" width="350" >
+foo_sphere.setDisplayFlag(1)`   
+foo_sphere.setRenderFlag(False)`   
+foo_sphere.isDisplayFlagSet()`    
+foo_sphere.isObjectDisplayed()`   
+foo_sphere.setSelectableInViewport(False)`   
 ```
+
 
 Delete
 ```python
-`fooBox.destroy`
+foo_box.destroy
 ```
 
-
+Create 2 nodes and set flags
 ```python
 def fooFunction():
      obj = hou.node("/obj")
-     fooGeo = obj.createNode("geo", "foo_geo")
-     fooBox = fooGeo.createNode("box", "foo_box")
-     fooSphere = fooGeo.createNode("sphere", "foo_sphere")
-     fooBox.setInput(0, fooSphere,0) # connect inputs
-     fooSphere.setDisplayFlag(1)
-     fooSphere.setRenderFlag(1)
+     foo_geo = obj.createNode("geo", "foo_geo")
+     foo_box = foo_geo.createNode("box", "foo_box")
+     foo_sphere = foo_geo.createNode("sphere", "foo_sphere")
+     foo_box.setInput(0, foo_sphere,0) # connect inputs
+     foo_sphere.setDisplayFlag(1)
+     foo_sphere.setRenderFlag(1)
 ```
+<img src="/src/python/hou/aconnectflags.png" width="350" >
+
 
 ---
 

@@ -36,7 +36,7 @@ Center of gravity in game should be settled in one place
 feedback is important      
 Embreace failure as a chance to create stories   
 Guided by AI   - have high saliency !!   
-[Level Design](/leveldesign/), [Ludology](/ludology/), [Game Mechanics](/gamemechanics/)       
+ [Ludology](/ludology/), [Game Mechanics](/gamemechanics/)       
 
 Gameplay Form a desired experience   
 **Qualia** - are defined as individual instances of subjective, conscious experience  
@@ -136,8 +136,18 @@ same plot but every season have different exciting personal stories and drama.
 ```
 
 
-### Enemies 
+### Enemies
 
+
+# Space
+
+
+## Traversing
+
+## Level Design
+
+[Level Design](/leveldesign/)
+[Architecture](/arch/)
 
 ---
 

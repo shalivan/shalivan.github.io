@@ -14,7 +14,7 @@ permalink: /modeling/
 
 
 
-
+find a sweetspot of detail 
 
 
 # Basics
@@ -29,7 +29,7 @@ permalink: /modeling/
    Density of details
    3 poziomy density
 
-
+sense of scale - 3d tend to minimize things > no sense of scale
 
 # Asset workflow:
 

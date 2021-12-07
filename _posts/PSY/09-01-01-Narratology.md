@@ -445,11 +445,13 @@ Not static but dynamic opposites. relative - 2 sides of same thing growth & decl
 | Even, Quiet, High pitches | Odd, Loud, Low pitches   
 | Receiving, Listening | Giving, Talking
 | Connected to whole | Individualized Self
+| Completeness | Perfection (with exclusion)
+| Mother Nature | Father Society
 
-
-
-Growth: up, Decline down
-
+- Growth: up, Decline down
+- thinking strategic vs thinking tactical
+- means - instrumental value / for own - intrinsic value
+- to create perfection u must unify with opposite
 
  |.||
  |---|---|
@@ -489,7 +491,8 @@ When cliché is well executed is not a cliché / cliché is when its not driving
 
 - Desire vs Fear - hope overcome fear
 - Something that worked stopped working
-
+- Intrigue around spy
+- Who did it
 
 
 ### Conflict
@@ -683,8 +686,8 @@ Gameplay Exposition
 
 
 ---
-
-
+Red Herring - Fałszywy trop. - murder mistries `who done it` movies
+CALLBACKS - narracja entertiment
 
 [Cloud Atlas](https://www.youtube.com/watch?v=ABC7PjrTGFs)   
 [book: the future of narrative in cyberspace]

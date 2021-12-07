@@ -132,11 +132,22 @@ Ambient  | Indirect  | diffused
 Bounced  | Indirect moon ( fog and snow, lot of bounce)
 
 
-   - High-key (light),
-   - Low-key (dark)
-   - Unmotivated Light - Support light that doesn't have a physical representation.
+   - `High-key` (light), - try with hdri . important to choose
+   - `Low-key` (dark) - more dramatic
+   - `Unmotivated Light` - Support light that doesn't have a physical representation.
    - one eye must be stronger
 
+   - `low light ratio` - low contrast between the lightest and darkest pixel
+   - `high light ratio` - contrast
+   - `short lighting` - face iluminated from side whitch is back to wiev (opposite from camera )
+   - `broad light` - frome side close to us.
+   - `paramount light` from top  (with butterfly sshadow), + make chick bonsess
+   - `loop light` more from side
+   - `checkerboard light` - bright on dark and dark on bright elements  
+
+- chiaro/scuro - bright/dark - renecance - davinchi and karavagiion
+
+- lamps, stringlights candles, headlights ... props   
 ---
 
 # Natural Light Setup
@@ -214,6 +225,8 @@ Back side | | Subject z boku światło z boku z tyłu
 Broad side | | looks more 3d z przedniej storny jak patrzysz na bok
 Checkerboard | | on face from right background left  
 Background ||
+
+Campfire effect - revels underchin, make face fat
 
 
 

@@ -42,7 +42,25 @@ permalink: /graphicdesign/
  |  |  **Variety** | hold viewer attention
 
 
-[Perception](/perception/)  
+
+
+1970s, Dieter Rams - Good design is subjective and can't necessarily be measured. However Rams attempted to express what he believed to be the most important principles for design.
+
+Here is a brief overview:
+
+Good design is innovative
+Good design makes a product useful
+Good design is aesthetic
+Good design makes a product understandable
+Good design is unobtrusive
+Good design is honest
+Good design is long-lasting
+Good design is thorough down to the last detail
+Good design is environmentally-friendly
+Good design is as little design as possible
+
+
+[pxl.ink Perception](/perception/) - Gestalt pragnaz.
 
 ----
 
@@ -81,7 +99,6 @@ permalink: /graphicdesign/
 
  ---
 
- [Graphic Design](/graphicdesign/)
 
  ```
  Engineering vs design (human centric)prototypes  
@@ -206,3 +223,6 @@ The four causes signify ways in which a thing is indebted for its existence.
 - światło, równowaga optyczna patternu
 
 ---
+
+## Typography
+https://www.playforthoughts.com/blog/how-to-design-a-logo-from-scratch-ultimate-guide

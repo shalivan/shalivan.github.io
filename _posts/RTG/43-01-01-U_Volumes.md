@@ -209,12 +209,12 @@ To  Fake Octaves: Contribution - high Eccentricity/Occlusion - low.
 
 
 Inputs: Texture. Mat. Scene capture. geometry , (SM Bones sockets Phys Bodies Destructy)
-
-for real time:  1-2 high res area fx and 3-6 character fx  - 1k is high res
-
+for real time: ~5 itterations
+for real time:  1-2 high res area fx and 3-6 character fx  - 1k is high res  
+512x512 area = 6656 Kbytes, 1024x1024 area = 26624 Kbytes, 2048x2048 area = 106496 Kbytes.  
 6 buffers:
 
-- Paint Buffer
+- Paint Buffer - interaction
 - Divergence buffer - shockwave like
 - Pressure buffer - shockwave like
 - Velocity Buffer
@@ -234,20 +234,12 @@ All set to 16 bit precision.
 - display on cam facing plane
 
 
-```
-NinjaLive allocates memory mainly for RenderTargets. The rendering pipeline uses 8 RenderTargets for a single simulation container by default: 1 four-channel [ RGBA, for CollisionPainter ], 5 single channel [ R, for Density and ScalarFields ] and 2 bi-channel [ RG, for VectorFields ] - all set to 16 bit precision. The pipeline could be reconfigured many ways (resolution, bit depth, channel usage).
 
-A 256x256 fluidsim container with default settings allocates 1664 Kilobytes of memory - this could be crunched or expanded, depending on the needs. Similarly: 512x512 area = 6656 Kbytes, 1024x1024 area = 26624 Kbytes, 2048x2048 area = 106496 Kbytes. Of course, the sim area could be non-square (eg. 128 x 512), mem consumption is changing accordingly.
-
-Link1: See Help.uasset /Chart2 /RenderTargets for more details on possible RT configs.
-Link2: Select any actor containing the sim component, and switch on "/Component Details /LiveDebug /ShowMemoryManagement" for dynamic, on-screen report on actual memory consumption of a given container.
-
-```
 
 ![](/src/ue/ninja/ninjaloop.png)
 
 - Red are processing mat
-- Blue are outs to render target rrnder buffer
+- Blue are outs to render target render buffer
 
 [Manual](https://drive.google.com/file/d/1I4dglPjeXLcNkSGxGok8sQCy59qgYcF9/edit)
 [FAQ](https://drive.google.com/file/d/17oVPVEoaW6Y6YKNISr4S0uUJY4_Yx_FM/edit)
