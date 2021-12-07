@@ -50,13 +50,13 @@ M.C. Escher
 
  |  |  |Enclosure Spaces|
  |--|--| --|
- ![](/src/arch/floor.png) | Floor | topology / architecture Man made / natural, Unmodulated / Modulated, Ground stability, Balcony
- ![](/src/arch/columns.png) |Columns | Obelisk, Column (europeans order), Pier, Pilaster. (Rhythm > directionality) (forming subspaces, fasades)
- ![](/src/arch/wall.png) |Walls |
- ![](/src/arch/door.png) |Doors | Point of access, Threshold, Guide to movement- determine the direction and scheme of circulation within room
- ![](/src/arch/windows.png) |Windows | Air, Light, View, modulation of facade, as scaling element
- ![](/src/arch/stairs.png) |Staircase | As step, As seat, Physical link, Storage, Escalator Ladder Ramp Elevator Straight Spiral Staircase.  
- ![](/src/arch/roof.png) |Roofs | Spatial Enclosure, Volume modulator. Folded, Curved, Membrane, Frame
+ ![](/src/arch/arch_v1.0001.png) | Floor | topology / architecture Man made / natural, Unmodulated / Modulated, Ground stability, Balcony
+ ![](/src/arch/arch_v1.0002.png) |Columns | Obelisk, Column (europeans order), Pier, Pilaster. (Rhythm > directionality) (forming subspaces, fasades)
+ ![](/src/arch/arch_v1.0003.png) |Walls |
+ ![](/src/arch/arch_v1.0004.png) |Doors | Point of access, Threshold, Guide to movement- determine the direction and scheme of circulation within room
+ ![](/src/arch/arch_v1.0005.png) |Windows | Air, Light, View, modulation of facade, as scaling element
+ ![](/src/arch/arch_v1.0007.png) |Staircase | As step, As seat, Physical link, Storage, Escalator Ladder Ramp Elevator Straight Spiral Staircase.  
+ ![](/src/arch/arch_v1.0006.png) |Roofs | Spatial Enclosure, Volume modulator. Folded, Curved, Membrane, Frame
 
 Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Portico, Anteroom, Gallery
 
@@ -65,7 +65,7 @@ Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Por
 
 | | ||
 |--|--|--|
-![](/src/arch/implied2.png) |Implied|When elements or spaces are not explicit but are nonetheless apparent. Perspective in 2d is implied
+![](/src/arch/arch_v1.0008.png) |Implied|When elements or spaces are not explicit but are nonetheless apparent. Perspective in 2d is implied
 
 - implied by shadow (shadow space )
 - half-roofing
@@ -77,7 +77,7 @@ Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Por
 
 | | ||
 |--|--|--|
-![](/src/arch/court.png) |Negative | Negative space, in art, is the space around and between the subject(s)
+![](/src/arch/arch_v1.0009.png) |Negative | Negative space, in art, is the space around and between the subject(s)
 
 
 - court
