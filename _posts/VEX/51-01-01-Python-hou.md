@@ -83,7 +83,7 @@ hou.objNode
 hou.geometry   
 
 # [hou.](https://www.sidefx.com/docs/houdini/hom/hou/index.html)
-Houdini python class. (can be droped it in expressions)      
+Houdini python class. (hou. - can be droped it in expressions)      
 
 ```python
 # Define fn.
@@ -111,60 +111,48 @@ print examplereturn("houdini")
 
 # [hou.node](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
 
-## Create and connect nodes
+## Create set flags and connect nodes
 
-Create box
+**Create node** node at `/obj/foo_geo/foo_box`
+-
 ```python
-hou.node("/obj").createNode("geo",'foo_geo').createNode("box","foo_box") # create box
+hou.node("/obj").createNode("geo",'foo_geo').createNode("box","foo_box") #
 ```
-or create and sore in variables:
+
+**Store node**
+-
 ```python
 foo_obj = hou.node("/obj") # store context
 foo_geo = foo_obj.createNode("geo", "foo_geo") # create container
 foo_box = foo_geo.createNode("box", "foo_box") # create box
 foo_sphere = foo_geo.createNode("sphere", "foo_sphere") # create box
 ```
-Store existing node in varaible
+- Store existing node in varaible
 ```python
 foo_geo_copy = hou.node('/obj/foo_geo') # store node in variable (can drag from viewport)
 ```
 
-```python
-foo_geo.type() # get type of stored variable
-foo_geo.children() # get all nodes inside
-```
-
-print
-```python
-print foo_geo.children()
-```
-```python
-for i in foo_geo
-   print i
-```
-
-
-
-Connect inputs   
+**Connect nodes**   
+-
 ```python
 foo_box.setInput(0, foo_sphere,0)
 ```
 
-
-Set Flags
-
+**Flags**
+-
 ```python
-foo_sphere.setDisplayFlag(1)`   
-foo_sphere.setRenderFlag(False)`   
-foo_sphere.isDisplayFlagSet()`    
-foo_sphere.isObjectDisplayed()`   
-foo_sphere.setSelectableInViewport(False)`   
+foo_sphere.setDisplayFlag(1)   
+foo_sphere.setRenderFlag(False)   
+foo_sphere.isDisplayFlagSet()    
+foo_sphere.isObjectDisplayed()   
+foo_sphere.setSelectableInViewport(False)   
 ```
 
-
-Delete
+**Select**
+-  
 ```python
-foo_box.destroy
+foo_sphere = setSelected(True) #- Select ball node  
+foo_sphere = isSelected() # - Return bool. Check if selected    
 ```
 
 Create 2 nodes and set flags
@@ -178,28 +166,70 @@ def fooFunction():
      foo_sphere.setDisplayFlag(1)
      foo_sphere.setRenderFlag(1)
 ```
+
 <img src="/src/python/hou/aconnectflags.png" width="350" >
 
-
----
-
-#### Node Selection:   
-`foo = setSelected(True)` - Select ball node  
-`foo = isSelected()` - Return bool. Check if selected    
-
-
-
-#### Get names:   
+**Delete**
 ```python
-foo.name # `foo = type().name()` - return name of object
-<bound method ObjNode.name of <hou.ObjNode of type geo at /obj/foo_geo>>
+foo_box.destroy
+foo_sphere.destroy
+```
 
+## Storing Parameters
+
+```python
+hou.node().param("tx") # return a parameter for this node
+hou.node().paramTuple() # for multi value params
+hou.node().params() # return all parameters of this node
+hou.node().param("tx").eval() # return actual value of param
+hou.node().evalParam("tx") # return actual value of param  
+hou.node().param("tx").set(2) # set param
+hou.node().param("uniformscale").set(2)
+```
+
+
+-----
+
+## Get node Info   
+Node **Path**
+```python
+foo_box.name() # '/obj/foo_geo/foo_box'
+```
+
+Node **Name** / **Type**
+```python
+foo_box.name() # 'foo_box' -  
+foo_box.type() # <hou.NodeType for Object geo> - its object that contain info
+foo_box.type().name() # 'geo' -
+```
+Print all parameters of node
+```python
 for parm in foo.parms(): # get all parameters names in ball obj
      print parm.name()
 ```
 
+**Childrens**
+```python
+foo_geo.children() # get listo of all childrens
+```  
 
-#### Get inputs outputs:  
+
+**Print**  
+```python
+print foo_geo.children()
+```
+```python
+for i in foo_geo
+   print i
+```
+
+
+## Get inputs/outputs  
+```python
+fooBox.inputs()
+fooBox.outputs()
+```
+
 ```python
 fooBox = hou.node('/obj/foo_box') # print all inputs of node
 for input in fooBox.inputs():
@@ -208,6 +238,10 @@ for input in fooBox.inputs():
 for output in fooBox.outputs():
      print output
 ```
+
+
+
+
 
 # hou.objNode
 [Hou.objNode documentation](https://www.sidefx.com/docs/houdini/hom/hou/ObjNode.html)
@@ -497,3 +531,5 @@ https://github.com/kiryha/Houdini/wiki/python-snippets
 ---
 
 See what params is passing `kwargs` (pthos dict to see what is avalable)  
+special local dictionary - pass info about particular instance . created automaticly
+def export_params(kwargs)
