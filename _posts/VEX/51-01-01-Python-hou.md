@@ -226,16 +226,16 @@ for i in foo_geo
 
 ## Get inputs/outputs  
 ```python
-fooBox.inputs()
-fooBox.outputs()
+foo_box.inputs()
+foo_box.outputs()
 ```
 
 ```python
 fooBox = hou.node('/obj/foo_box') # print all inputs of node
-for input in fooBox.inputs():
+for input in foo_box.inputs():
      print input
 
-for output in fooBox.outputs():
+for output in foo_box.outputs():
      print output
 ```
 

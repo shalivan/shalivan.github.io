@@ -12,23 +12,6 @@ description: States, Imagination, Memory, Biases , Choice, Emotions
 permalink: /cognition/
 ---
 
-
-
-
-https://www.quantamagazine.org/the-brain-rotates-memories-to-save-them-from-new-sensations-20210415/
-
- .> Mental models > Sensory Experiences >   
-Learn loop     
- .> Active Engagement  (play, explore, answers fail adopt) > Error Feedback > Consolidation (sleep)> Attention >
-## Attention
-Selective concentration on a discrete stimulus while ignoring other perceivable stimuli. Affect Cognitive load: (amount of mental effort being used)
-
-`Area of focus` of brain is like thumb of hand in front of u
-
-
-
-
-
 # Academic fields
 
 |Cognition fields||
@@ -40,21 +23,12 @@ Selective concentration on a discrete stimulus while ignoring other perceivable 
 | Neuroscience  |
 | Anthropology  |
 
-
-
-
-
-
-
-
-
 # Cognitive states
 
-Altered states of consciousness  occurs naturally or induced by internal or external factors like drugs
+## Altered states of consciousness  
+occurs naturally or induced by internal or external factors like drugs
 
-Two major components of consciousness:   
-**Wakefulness** - complex thought processes  / arousal (mind)  
-**Awareness** -  basic reflexes (brain)  
+
 
 | State | Wakefulness | Awareness | Description ||
 |----|--|--|--|--|
@@ -70,7 +44,7 @@ Deep sleep | Low | Low | Majority of sleep, unknown purpose | NREM2
 Lucid dream | Low |  High || Sleepwalking
 |
 Hypnotized |
-Toxicated |
+Intoxicated |
 |
 Locked-In Syndrome |High | High
 Minimally Conscious |High| Mid |Visual tracking/fix, command following (no functional communication)
@@ -88,28 +62,54 @@ Amnesia
 Paramnesia    
 Insomnia    
 
+##### Attention
+Selective concentration on a discrete stimulus while ignoring other perceivable stimuli. Affect Cognitive load: (amount of mental effort being used)
+
+`Area of focus` of brain is like thumb of hand in front of u
 
 
-# Cognitive Errors
+
+## Cognitive Errors
 
 |Cognitive Errors||
 |--|--|
-Dejavu  
-Mirraże   
-Hallucynacje
+|Deja vu  
+|Mirages
+|Hallucinations
 
-
-Test lustra - małpy człekokształtne psy, delfiny (papugi nie ale kumaja lustro ), (koty nie)
-swiadomosc lustra - człowiek 2 lata a szympans 4 ale tylko wychowany w stadzie
-
+# Conscious
+Adaptive state let us discover
+Two major components of consciousness:   
+**Wakefulness** - complex thought processes  / arousal (mind)  
+**Awareness** -  basic reflexes (brain)    
+sum of sensores ??  
 
 # Processing information's
+ Mental models > Sensory Experiences  
+
+ How you process information
+ - sensual impressions
+ - thoughts
+ - emotions
+
+## Memory
+ Hypo campus memory  is not stored as plasticity of synapses only. but is one aspect of formation of neuro network as well. therefor can connect with other memories.
+
+ - repetition drive memory
+ - to better memorize constraint to your thoughts from past
+ - if u starving its not good time to remembering
+ - stress hormones give advantages to remembrance in short time
+ - LTP  
+ - alcohol directly disrupt LTP
+ - categorical way of thinking is how
 
 
-How you process information
-- wrazenia zmysłowe
-- myśli
-- emocje
+
+##### Learn loop     
+ .> Active Engagement  (play, explore, answers fail adopt) > Error Feedback > Consolidation (sleep)> Attention >
+
+
+
 
 
 - swiadomosc na jawie
@@ -127,7 +127,7 @@ Knowledge
 
 Beliefs > Golas > Options > Commitment > Plans > Actrions > Beliefs
 
-
+## Ability to abstract
 
 ## Cognitive Dissonance
 
@@ -236,17 +236,6 @@ https://www.visualcapitalist.com/50-cognitive-biases-in-the-modern-world/
 
 ----
 
-# Memory
-Hypo campus memory  is not stored as plasticity of synapses only. but is one aspect of formation of neuro network as well. therefor can connect with other memories.
-
-- repetition drive memory
-- to better memorize constraint to your thoughts from past
-- if u starving its not good time to remembering
-- stress hormones give advantages to remembrance in short time
-- LTP  
-- alcohol directly disrupt LTP
-- categorical way of thinking is how
-
 
 
 
@@ -342,12 +331,6 @@ and biases
 - Thinking about life  
 
 
-
----
-
-
-
----
 
 
 
@@ -492,6 +475,11 @@ https://www.google.com/search?q=emotion+wheel&sxsrf=ALeKk01LnyPDVP1QuPfYyQXYOeT_
 
 ```
 
+#### mark test, mirror self-recognition (MSR)
+Test lustra - małpy człekokształtne psy, delfiny (papugi nie ale kumaja lustro ), (koty nie)
+swiadomosc lustra - człowiek 2 lata a szympans 4 ale tylko wychowany w stadzie
+
+
 
 
   Neuro correlate of consciousness
@@ -512,3 +500,4 @@ Emotions vs Logic
 Engeniging vs design vs analytic, optimisation,
 
 ```
+https://www.quantamagazine.org/the-brain-rotates-memories-to-save-them-from-new-sensations-20210415/
