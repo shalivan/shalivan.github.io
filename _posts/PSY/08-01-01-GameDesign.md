@@ -358,6 +358,12 @@ s “PICK UP THAT CAN.” If you do, he lets you go. If you don’t, he beats yo
 - accesalbility
 - gamification
 
+
+
+## Accessibility
+- Ability to remap controls
+- Subtitles - Large and contrast
+- UI visuals should be clear
 ---
 
 
