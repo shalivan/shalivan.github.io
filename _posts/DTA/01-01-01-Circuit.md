@@ -10,6 +10,11 @@ tags:
 permalink: /circuit/
 ---
 
+
+
+https://customer.novationmusic.com/en/my-hardware
+
+
 https://isotonikstudios.com/wp-content/uploads/Circuit-Editor-Manual-ShiftSynth1.pdf
 
 2 mininova oscillator engines. Circuit is not FM  synth. It does analog modeling  and wavetable synthesis.

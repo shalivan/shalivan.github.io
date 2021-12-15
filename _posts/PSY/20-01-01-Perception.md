@@ -60,10 +60,10 @@ Every living thing before self awareness, is a pure product of natural (or man m
 
 | |Principle |   |
 | - | - |- |
-![](/src/gestalt/emergencesmall.png) |Emergence | **Complex pictures from simple pattern**
-![](/src/gestalt/reificationsmall.png) |Reification |  **Illusory continuity** constructive or generative aspect of perception
-![](/src/gestalt/multistabilitysmall.png) |Multistability | **Figure-Ground**,  pop back and forth unstably between two or more alternative interpretations     
-![](/src/gestalt/invariancesmall.png) |Invariance | **Objects recognition** is  independent of rotation, elastic deformations, light, component features
+![](/src/gestalt/gestprinc_v1.0003.png) |Emergence | **Complex pictures from simple pattern**
+![](/src/gestalt/gestprinc_v1.0001.png) |Reification |  **Illusory continuity** constructive or generative aspect of perception
+![](/src/gestalt/gestprinc_v1.0002.png) |Multistability | **Figure-Ground**,  pop back and forth unstably between two or more alternative interpretations     
+![](/src/gestalt/gestprinc_v1.0004.png) |Invariance | **Objects recognition** is  independent of rotation, elastic deformations, light, component features
 
 
 ## Gestalt law of pragnanz
