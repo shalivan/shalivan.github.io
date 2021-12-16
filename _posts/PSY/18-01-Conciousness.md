@@ -15,7 +15,7 @@ permalink: /cognition/
 Conciopus of sometrhing every experience is diferent than previous.
 
 
-
+sturcture of information > integration of information
 
 # Consciousness (hard problem)
 Aware of self and enviroment

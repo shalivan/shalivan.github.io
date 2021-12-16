@@ -158,6 +158,9 @@ basic need for autonomy
  - `Intrinsic` -  (internal or inherent) motivation, Personal Gratification. last longer. rate higher! better (autonomy, agency, progression, feedback, opportunity). But can feel bad i.e. if you are obligated to your self  
  - `Extrinsic` - External. inspired by outside forces Rewards shape to do but risk of shifting motivation. Use when needed (money) But! can feel autonomous if enough choices. Goal oriented
 
+ intrinsic motivation (volitional play) or extrinsic motivation (compulsive play) - "for fun" vs due to compulsion
+(F2P game design and for gamification design much of game design in those spaces *relies* on compulsion loops and extrinsic rewards..)
+
 | | |
 |--|--|
 Competence  |sense of progression, sense of being in control Interact with activities. everyone want be best

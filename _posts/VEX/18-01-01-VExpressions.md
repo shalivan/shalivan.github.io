@@ -36,6 +36,8 @@ Backticks ``` ` ``` are for use in a string field: group input, name sop. (when 
 - `@name=PrimitiveStringName` - by Primitive Name  
 - `@name=PrimitiveStringNamePattern*` - by Primitive Name pattern  
 - `@name="" ` - all without names
+- `@step_iter=2 ^!@happen_t=1` - "remove things from the previous statement (^) that are not (!) part of the following group".
+
 
 
 

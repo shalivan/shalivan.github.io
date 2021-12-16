@@ -59,6 +59,9 @@ Good design is thorough down to the last detail
 Good design is environmentally-friendly
 Good design is as little design as possible
 
+simplicity - to quick comunicate and protecting from complexity.
+design great to comunicate idea quickly
+
 
 [pxl.ink Perception](/perception/) - Gestalt pragnaz.
 
@@ -159,11 +162,24 @@ If you need to design something in a similar style, reverse engineering lets you
 #### Visual Library
 Exposed to visual library
 
-#### Evolutionary Design 
+visual language is important - visual is important to let humans make snap decisions about
+perception is reality with limited information.
+
+#### Evolutionary Design
 https://youtu.be/Flikscdwoy8
+evolutionary and biological mechanisms
+Way we percive design is  influenced by leftover survival mechanisms/ primorial instincts.
+
+Non werbal comunication important
+###### Antropomorpism
+We tend to antr...
+human like qualities to inanimate object.
+Attah human quilities to objects
+build relationships and name object that dont ave thoughts and feelings
+can be used to manipulate in future.
+**Paradolia** - seeing faces
 
 #### Subject matter
-
 
 
 #### Subject costs
@@ -188,6 +204,11 @@ future - expensive
 - interesting silhouette - easier to draw  
 - if simple sil. harder to fill with detail (may require posing difficult forms )  
 
+#### Culture and symbolism
+Culture and symbolism  vs. universal trueths
+
+Kiki Buba effect.
+people paried kiki to sharp and nice B sound of buba to smooth.
 
 #### Detail ()
  - sprawdź jaki poziom detalu będzie widoczny w finalnej produkcji
