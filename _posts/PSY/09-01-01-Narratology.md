@@ -481,6 +481,11 @@ Explaining | Inexplicable
 Measuring | Immeasurable
 Objective Truth | Subjective Truth
 
+
+
+computationalist / biologicalist / quantummechanist
+
+
 ---
 
 
@@ -682,8 +687,14 @@ Gameplay Exposition
 #### Diction   
 
 [The Art of inventing character] book !!!
+```
+Action can be: physical, intelectual, emotional
 
 
+high staker, structue,
+
+
+```
 
 ---
 Red Herring - Fałszywy trop. - murder mistries `who done it` movies
