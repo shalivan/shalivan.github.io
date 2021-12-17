@@ -12,151 +12,136 @@ permalink: /list/
 
 
 # To read
-the machiavellians james burnham    
 
-The Righteous Mind Haidt  
-Basic Economics - Thomas Sowell     
-The Crowd A Study of the Popular Mind by Gustave Le Bon  - cultural, moral, social decay (crysis of lawlessnes, and increasing baurocracy)
+- James burnham    
+ - **Defenders of freedom** - the machiavellians
+- .
+ - **The Crowd** -  A Study of the Popular Mind by Gustave Le Bon  - cultural, moral, social decay (crysis of lawlessnes, and increasing baurocracy)
 https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY   
+
 
 ---
 
-# Important
-
-Fiodor Dostojewski
-- **Crime and punishment** -
-- **Demons** -   
-
-Aldous Huxley
-- **The Doors of Perception** -   
-- **Heaven and Hell** -  
-- **Brave New World** -  
-
-Marshall McLuhan
-- **Understanding Media: The Extensions of Man** 1964
-
-Franz Kafka
-- **The Trial** -  
-
-Jean Baudrillard
-- **Simulacra and Simulation**  -
-
-Jordan B. Peterson
-- **Maps of Meaning: The Architecture of Belief** -
-
-Friedrich Nietzsche
-- **Beyond Good and Evil: Prelude to a Philosophy of the Future** -
-
-George Orwell
-- **1984** -  
-- **Road To Wigan Pier** -   
-- **Animal Farm** - Allegory for CCCP (Russian revolution)  communisms > totality transformation. (wszystkie zwierzeta równe ale niektore równiejsze). Corruption, Idealism, Apathy
 
 
-Carl Jung
--  **Modern Man in Search of A Soul** -   
 
-Jonathan Haidt  
-- **The Happiness Hypothesis** - Analysis of ancient text in context of happiness
+# Basics Wise
 
-Robert Greene
-- **The Laws of Human Nature** -   
-
-Yuval Noah Harari
-- **Homo Deus: A Brief History of Tomorrow** - 2015
-- **Sapiens** -
-- **21 Lessons for the 21st Century** -
-
-
-Joseph Campbell
-
-- The Hero's Journey
-- Transformations of Myth Through Time
-- The Hero with a Thousand Faces
-
-William Golding
-- **Lord of Flies** - (demoralization of society) recurring pattern of falling vs: 'De meeste mensen deugen: Een nieuwe geschiedenis van de mens ' opisane na prewdziwych wydarzeniach z pamietnika, tam chłopcy wspolpracowali
-
+- Fiodor Dostojewski
+ - **Crime and punishment** -
+ - **Demons** -   
+- George Orwell
+ - **1984** -  
+ - **Road To Wigan Pier** -   
+ - **Animal Farm** - Allegory for CCCP (Russian revolution)  communisms > totality transformation. (wszystkie zwierzeta równe ale niektore równiejsze). Corruption, Idealism, Apathy
+- William Golding
+ - **Lord of Flies** - (demoralization of society) recurring pattern of falling vs: 'De meeste mensen deugen: Een nieuwe geschiedenis van de mens ' opisane na prewdziwych wydarzeniach z pamietnika, tam chłopcy wspolpracowali
+- Franz Kafka
+ - **The Trial** -  
 
 # Philosophy
+- Joseph Campbell
+ - **The Hero's Journey**
+ - **Transformations of Myth Through Time**
+ - **The Hero with a Thousand Faces**
+- Yuval Noah Harari
+ - **Homo Deus: A Brief History of Tomorrow** - 2015
+ - **Sapiens** -
+ - **21 Lessons for the 21st Century** -
+- George Lakoff
+- Haidt
+ - **The Righteous Mind**
+ - **Don't think of an elephant** - z polecenia Haddita
+- Friedrich Nietzsche
+ - **Beyond Good and Evil: Prelude to a Philosophy of the Future** -
+- Jean Baudrillard
+ - **Simulacra and Simulation**  -
+- Paul Bloom
+ - Psycholinguistics, Developmental Psychology
+ - How Pleasure Works: The New Science of Why We Like What We Like
+- Joscha Bach  
+- Nima Arkani-Hamed  
+- Michael Meade
+ - Finding Genius in your life https://youtu.be/h6Dasa5kIS8
+- Ayn Rand
+ - **The Fountain** head - novel Philosophy of objectivism. Maybe have no good answers but have good questions.
 
-Ayn Rand
-- The Fountainhead - novel Philosophy of objectivism. Maybe have no good answers but have good questions.
+---
 
-
-George Lakoff - z polecenia Haddita
-- Don't think of an elephant
-
-
-Joscha Bach  
-Bret Weinstein  
-Nima Arkani-Hamed  
-
-
-Simulacra and simulation - Jean Baudrillard
-Paul Bloom | Psycholinguistics, Developmental Psychology
-Paul Bloom | How Pleasure Works: The New Science of Why We Like What We Like
-Dan Ariely | Behavioral Economics
-
-
- Michael Meade https://youtu.be/h6Dasa5kIS8
-
- - doors of perception
- - 101 prison of mind from 1790
+- Aldous Huxley
+  - **The Doors of Perception** -   
+  - **Heaven and Hell** -  
+  - **Brave New World** -  
+- Marshall McLuhan
+  - **Understanding Media: The Extensions of Man** 1964
+- Jordan B. Peterson
+  - **Maps of Meaning: The Architecture of Belief** -
+- Robert Greene
+  - **The Laws of Human Nature** -   
 
 
 # Psychology  
 - Influence: The Psychology of Persuasion
+- Jonathan Haidt  
+ - **The Happiness Hypothesis** - Analysis of ancient text in context of happiness
+- Carl Jung
+ -  **Modern Man in Search of A Soul** -
+- Dan Ariely -  Behavioral Economics (but was acused of falsifying data )
 
 ---
+
+
 
 
 # Science
 
-James Gleick
-- **Chaos: Making a New Science**
+- James Gleick
+ - **Chaos: Making a New Science**
+- Daniel Kahneman
+ - **Thinking, Fast and Slow** -
+- Dr. Octavio Choi
+ - brain   
 
-Daniel Kahneman
-- **Thinking, Fast and Slow** -
-
-
-The Crowd A Study of the Popular Mind by Gustave Le Bon - Audiobook
-
-Dr. Octavio Choi - brain   
 ---
 
 # Art
 
-Frank Thomas, Ollie Johnston - **The Illusion of life: Disney animation**    
-Uldis Zarins - **Anatomy of Facial Expression**      
-Uldis Zarins, Sandis Kondrat - **Anatomy for Sculptors: Understanding the Human Form**    
-Przemyslaw Prusinkiewicz - **The Algorithmic Beauty of Plants**  
+- **Anatomy for Sculptors: Understanding the Human Form** / **Anatomy of Facial Expression** - Uldis Zarins, Sandis Kondrat   
+- **The Algorithmic Beauty of Plants** - Przemyslaw Prusinkiewicz
 
-**The Animator's Survival Kit: A Manual of Methods, Principles and Formulas for Classical, Computer, Games, Stop Motion and Internet Animators**  
 
+### Animation
+- **The Illusion of life: Disney animation** - Frank Thomas, Ollie Johnston  
+- **The Animator's Survival Kit: A Manual of Methods, Principles and Formulas for Classical, Computer, Games, Stop Motion and Internet Animators**  
 
 ---
 
 # Design
-Jessica Helfand - **Reinventing the Wheel**  
-**Data Flow: Visualizing Information in Graphic Design**   
-Jacobson, Max; Silverstein, Murray; Winslow, Barbara - **The Good House: Contrast as a Design Tool**      
+- **Reinventing the Wheel**  - Jessica Helfand
+- **Data Flow: Visualizing Information in Graphic Design**   
+- **The Good House: Contrast as a Design Tool** - Jacobson, Max; Silverstein, Murray; Winslow, Barbara
+- **The Design Of Everyday Things**
+
 
 
 ---
+
 # Fiction
 
-David Mitchell - **Cloud Atlas**  
-Frank Herbert - **Dune**    
-James Joyce - **Finnegan's Wake**    
-
-Hunter S. Thompson
-- **Fear and loathing in Las Vegas**
-- **The Rum Diary**
-- **Where the Buffalo Roam**
+- David Mitchell
+ - **Cloud Atlas**  
+- Frank Herbert
+ - **Dune**    
+- James Joyce
+ - **Finnegan's Wake**    
+- Hunter S. Thompson
+ - **Fear and loathing in Las Vegas**
+ - **The Rum Diary**
+ - **Where the Buffalo Roam**
 
 
 rainer maria rilke -
+
 ---
 
 
@@ -195,11 +180,10 @@ Stulecie chirurgów Thorwald Jurgen
 
 
 # Economy
-The Dao of Capital: Austrian Investing in a Distorted World
-Book by Mark Spitznagel  
+- **The Dao of Capital: Austrian Investing in a Distorted World** - Book by Mark Spitznagel  
+- **Basic Economics** - Thomas Sowell    
+- **3 rewolucja przemysłowa** - rywkin
 
 
-
-rywkin - 3 rewolucja przemysłowa
-
-Christopher Booker    
+Christopher Booker       
+101 prison of mind from 1790 ??
