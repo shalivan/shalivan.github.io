@@ -165,12 +165,15 @@ Exposed to visual library
 visual language is important - visual is important to let humans make snap decisions about
 perception is reality with limited information.
 
-#### Evolutionary Design
+####  Human centric design
+
+#### Evolutionary Design / Biomimicry
 https://youtu.be/Flikscdwoy8
 evolutionary and biological mechanisms
 Way we percive design is  influenced by leftover survival mechanisms/ primorial instincts.
 
 Non werbal comunication important
+
 ###### Antropomorpism
 We tend to antr...
 human like qualities to inanimate object.
