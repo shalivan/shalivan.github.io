@@ -18,6 +18,7 @@ permalink: /arch/
 
 Arch as response to anchors:  needs / function / context / local constrain /  external conditions  (sun: south wall is most efficient, land features)
 
+Arch create meaning throue atmosphere rather symbolism
 
 #### Vitruvian triangle I b.c.
 - Venustas (delight) - aesthetic, beauty, experiential enjoyment artistry
@@ -36,6 +37,11 @@ Point of contact between mass and space
 ![](/src/arch/add.png)  | Additive | picturesque, full of movement,
 ![](/src/arch/sub.png)  |Subtractive   | generous, When regular form missing volume peart but retain identity
 
+
+
+- positive space, well defined, organized focal point
+- negative space, leftover, unconfortable... ....
+ppl comfortable in positive
 
 
 
@@ -175,9 +181,11 @@ in arkham everything is for you  - `predator gameplay` - intimate spaces, based 
 
 ## Architects
 
-**Adolphe Appia**  1862 – 29 February 1928  
-zaha hadid architects
-
+**Adolphe Appia**  1862 – 29 February 1928     
+zaha hadid architects  
+**Peter Zumthor** The Therme Vals - mood&tone  
+gaudi - (sagrada familia) simulating shapes   
+frei oto - (olipmiapark, tent like structures)  minimal surface
 
 ## Books
 
