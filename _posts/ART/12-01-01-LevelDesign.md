@@ -11,7 +11,7 @@ tags:
 permalink: /leveldesign/
 ---
 
-
+https://www.patternlanguage.com/
 
 Control environment instead of camera like in movies. Contain: aesthetic + functionality
 LD driven by mechanics. Books imagine, movie see, games act.

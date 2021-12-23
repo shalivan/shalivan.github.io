@@ -30,8 +30,12 @@ https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY
 - Fiodor Dostojewski
   - **Crime and punishment** -
   - **Demons** -   
+- Aldous Huxley
+   - **The Doors of Perception** -   
+   - **Heaven and Hell** -  
+   - **Brave New World** -  People are controlled by inflicting pleasure. / To much information's
 - George Orwell
-  - **1984** -  
+  - **1984** -  People are controlled by inflicting pain / Censorship information's.
   - **Road To Wigan Pier** -   
   - **Animal Farm** - Allegory for CCCP (Russian revolution)  communisms > totality transformation. (wszystkie zwierzeta równe ale niektore równiejsze). Corruption, Idealism, Apathy
 - William Golding
@@ -70,10 +74,7 @@ https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY
 
 ---
 
-- Aldous Huxley
-   - **The Doors of Perception** -   
-   - **Heaven and Hell** -  
-   - **Brave New World** -  
+
 - Marshall McLuhan
    - **Understanding Media: The Extensions of Man** 1964
 - Jordan B. Peterson

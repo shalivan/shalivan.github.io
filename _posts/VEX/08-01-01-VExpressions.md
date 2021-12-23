@@ -159,6 +159,18 @@ Vexpression:
 ## Get param from second input
 `point(1,'Cd',@ptnum)`   
 
+
+1op - geo
+2op - pointsplit (primitivesplit)
+```
+int vtx_idx = vertexprimindex(0,@vtxnum);
+v@Cd = vertex(1,"Cd",@primnum, vtx_idx)
+```
+or 
+```
+v@Cd = vertex(1,"Cd", @vtxnum)
+```
+
 ## Op()
 
 `geoself()`, `0`, `@OpInput1`- Returns a handle to the current geometry  

@@ -1,5 +1,5 @@
 ---
-title: Perception
+title:  Perception
 
 categories:
  - PSY
@@ -12,6 +12,8 @@ tags:
 description: Gestalt
 permalink: /perception/
 ---
+
+# Sensation and Perception
 
 
 http://consc.net/papers/c-and-c.html
@@ -72,14 +74,14 @@ Law of Perception (pragnanz. which means ‘concise and meaningful)
 
 ||Law |Tend to be perceived as integrated into groups if ... |  |
 | - | - | - |- |
-![](/src/gestalt/simplicitysmall.png)|**Simplicity** | ... is good gestalt  (Simplify for better reads)
-![](/src/gestalt/proximsmall.png)|**Proximity** | ... they are near each other. (Natural grouping) | Clump of grass.
-![](/src/gestalt/commonsmall.png)|**Common fate**  |... they move together. | Pixels on next movie frames
-  ![](/src/gestalt/empty.png) | **Similarity** |  ... they are similar to each other
- ![](/src/gestalt/empty.png)  | **Continuity**|  ... they are aligned with each other (integrated into perceptual wholes)
-![](/src/gestalt/reificationsmall.png) | **Closure**|  ... they are parts of a closed figure
- ![](/src/gestalt/empty.png)  | **Symmetry**| ... symmetry occurs (overwhelm perception). | Linear, radial, asymetry
- ![](/src/gestalt/empty.png)  | **Past experience** | ... they were together often in the past experience of the observer |
+||**Simplicity** | ... is good gestalt  (Simplify for better reads)
+||**Proximity** | ... they are near each other. (Natural grouping) | Clump of grass.
+||**Common fate**  |... they move together. | Pixels on next movie frames
+|| **Similarity** |  ... they are similar to each other
+| | **Continuity**|  ... they are aligned with each other (integrated into perceptual wholes)
+| | **Closure**|  ... they are parts of a closed figure
+|| **Symmetry**| ... symmetry occurs (overwhelm perception). | Linear, radial, asymetry
+| | **Past experience** | ... they were together often in the past experience of the observer |
 
 
 ---

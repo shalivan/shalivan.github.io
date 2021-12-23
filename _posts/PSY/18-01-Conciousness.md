@@ -12,6 +12,15 @@ description: attention, cognition motivation, emotion, choice, satisfaction
 permalink: /cognition/
 ---
 
+
+david chalmers - formulate ? hard question
+
+brain is prediction machine, ther is ifferenc how things are and how you experience
+
+
+
+A space where all experiences appear.
+
 Conciopus of sometrhing every experience is diferent than previous.
 
 

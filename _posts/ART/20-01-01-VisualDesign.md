@@ -28,7 +28,7 @@ permalink: /graphicdesign/
 ![](/src/gestalt/empty.png)  |  **Texture** | | Properties of material.
 ![](/src/gestalt/a.png)   |  **Typo**  | Typography| Serif, Sans Serif, Script, Monospaced, Display
 
- **Principles of Design**
+# Principles
 
  | | |    | |
  | -  | - | - | - |
@@ -37,30 +37,18 @@ permalink: /graphicdesign/
  |  |  **Contrast** | **Juxtaposition** of elements with opposite attributes to emphasis or attract attention
  |  |  **Proportion**  | Scaling elements as they relay to each other. **Relative Size** or amount
  |  |  **Movement** | Lines, edge, color or path that imply **Direction** (flying birds, road)
- |  |  **Repetition** | Similar elements in **Sequence**. Create **Rhythm** or **Pattern**. **Pacing**, interlock (zagniezdzanie), echoes
+ |  |  **Repetition** | Similar elements in **Sequence**. Create **Rhythm** or **Pattern**. **Pacing**, interlock (one into other), echoes
  |  |  **Unity** | all elements together create **Harmony**
  |  |  **Variety** | hold viewer attention
 
+##### Vitruvian triad
+Sustainable, Beneficial, Attractive
 
+##### Dieter Rams
+Innovative, Useful, Aesthetic, makes a product understandable, unobtrusive, honest, long-lasting, thorough down to the last detail, environmentally-friendly, little design as possible
 
-
-1970s, Dieter Rams - Good design is subjective and can't necessarily be measured. However Rams attempted to express what he believed to be the most important principles for design.
-
-Here is a brief overview:
-
-Good design is innovative
-Good design makes a product useful
-Good design is aesthetic
-Good design makes a product understandable
-Good design is unobtrusive
-Good design is honest
-Good design is long-lasting
-Good design is thorough down to the last detail
-Good design is environmentally-friendly
-Good design is as little design as possible
-
-simplicity - to quick comunicate and protecting from complexity.
-design great to comunicate idea quickly
+**Simplicity** - to quick communicate and protecting from complexity.
+design great to communicate idea quickly
 
 
 [pxl.ink Perception](/perception/) - Gestalt pragnaz.
@@ -143,8 +131,7 @@ harmony
  - resolve forces to diagrams, so there is no friction or conflict. (workflow, hierarchy)
  - improve existing design  Look at existing design in useful way.
 
-[a pattern language]
-[book: Notes on the Synthesis of Form] Ryan Singer, “Designing with Forces: How to Apply Christopher Alexander in Everyday Work ”
+
 
 ### Design from base
 You know what things are. culturally programmed by life.

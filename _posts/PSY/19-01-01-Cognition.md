@@ -31,7 +31,7 @@ occurs naturally or induced by internal or external factors like drugs
 **Wakefulness** - complex thought processes  / arousal (mind)  
 **Awareness** -  basic reflexes (brain)   
 
-| State | Wakefulness | Awareness | Description ||
+| State | Wakefulness| Awareness| Description ||
 |----|--|--|--|--|
 Focused Selective Attention | High |High| | Flow
 Divided Attention | High | High | | Awake
@@ -63,13 +63,14 @@ Amnesia
 Paramnesia    
 Insomnia    
 
+anaesthesia & sleep - not much nois , brain clam
+
+### Concious content  
+
 ##### Attention
 Selective concentration on a discrete stimulus while ignoring other perceivable stimuli. Affect Cognitive load: (amount of mental effort being used)
 
 `Area of focus` of brain is like thumb of hand in front of u
-
-
-
 
 # Processing information's
  Mental models > Sensory Experiences  

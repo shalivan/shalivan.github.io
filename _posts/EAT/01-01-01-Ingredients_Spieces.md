@@ -50,7 +50,6 @@ papryka wedzona |
 
 
 
-
 ### Ziola Prowansalskie
 `Rozmaryn`, `Bazylia`, `Tymianek`, `Szałwia lekarska`, `Mięta pieprzowa`, `Cząber ogrodowy`, `Oregano`, `Majeranek`
 
@@ -61,3 +60,12 @@ zup, sosów ziołowych, sałatek, twarogów, jaj oraz przy sporządzaniu pieczen
 `Kurkuma`, `Imbir`, `Pieprz czarny`, `Sól`, `Kolendra`, `Kmin rzymski`, `Gorczyca czarna`, `Chili` / ew. `Cynamon`, `Czosnek`, `Gałka muszkatołowa`, `Goździki`, `Kardamon`, `Szalotka`
 
 kurkuma: zdrowa nie z chin bo slaba ziemia
+
+### Shoarma
+Oliwa
+kurkumy,  imbir, kolendra, gałka, kumin/kminu rzymskiego, słodkiej papryki, czosnek w proszku, susz pietruszka, pieprz,
+gorczycy, goździków, chili, cayen, kardamon, cynamon,
+
+### Italian
+
+basil, oregano, rosemary, thyme, and marjoram,
