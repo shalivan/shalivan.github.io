@@ -93,9 +93,8 @@ Letting virtual items develop a “digital patina”
 Surfacing metadata about objects
 Creating unique or special copies of items
 
-
 - meta economy -
-
+- fuel, raw materials
 
 ```
 
@@ -219,6 +218,7 @@ https://youtu.be/F_1YcCcBVfY
 [YT GDC 2016](https://www.youtube.com/watch?v=tR-9oXiytsk)
 [old prospect](https://gamebalanceconcepts.wordpress.com/)
 [YT GDC 2018 Power Curve ](https://youtu.be/ul1MSQ8aW00)
+
 ### Numeric relationship Between Resources
 linear and identity
 triangular  and polinomial
@@ -352,10 +352,19 @@ Increase and manipulate amounts / strength
 
 # Puzzles
 
-- find clues with key parts
-- puzle
--
 
+A food puzzle
+- Tells you how to solve it, inherent in its design
+- Doesn't relay on outside knowledge
+- is also adjustable in difficult by adding or reducing information
+
+types:
+- find clues with key parts
+- puzzle
+
+
+
+----
 Beacons - random dice rolles for multiplayer.  posted publicy over time for later verification + link to previous number (like posting time&date)
 
 
@@ -459,3 +468,12 @@ https://youtu.be/UiOTSKBy6ME
 poker , chest , go
 
 https://www.gamasutra.com/view/feature/131508/bsp_collision_detection_as_used_in_.php?print=1
+
+
+
+----
+
+tetris - testimony of your failure
+
+
+People solve puzzles because they like pain, and they like being released from pain, and they like most of all that they find within themselves the power to release themselves from their own pain. - Mike Selinker and Thomas Snyder - Puzzle Craft.

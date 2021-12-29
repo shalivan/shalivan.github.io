@@ -239,3 +239,13 @@ The four causes signify ways in which a thing is indebted for its existence.
 
 ## Typography
 https://www.playforthoughts.com/blog/how-to-design-a-logo-from-scratch-ultimate-guide
+
+
+
+----
+you can design things to be boring or look cheap at purpose
+
+
+# product design 
+- start designning with parts and metodes you are familiar with. with egsiting tools
+- try to imagine platonic ideal of perfect product and, reverse engeniring simplifying

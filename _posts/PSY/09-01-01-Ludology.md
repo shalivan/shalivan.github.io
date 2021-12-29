@@ -21,7 +21,7 @@ permalink: /ludology/
 
 **Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
-Every medium has its own narration styles, varying on genres and format. Linear narrative is not enough for games and can be less important. Movies can create 'knowledge differences' easier than games which blend protagonist and player.  Plot and characters are things VG find verry difficult to deal .
+Every medium has its own narration styles, varying on genres, format, framing of art and limitations. Linear narrative is not enough for games and can be less important. Movies can create 'knowledge differences' easier than games which blend protagonist and player.  Plot and characters are things VG find verry difficult to deal .
 
 |Paradigm Characteristics |  [Narratology](/narratology/) |Ludology
 |---|---|---|
@@ -46,7 +46,7 @@ See or listen not as powerful as play themselves:
 
 # Authorship
 **Narrative** (story meaning) vs **Mechanics** (dynamical meaning). Driven How much power over the world.
-`Linear` > `Interactive Linear` >  `Multi ending` >  `Branching path` (multi choice but not emergent) > `Open ended` > `Emergent` >  `Fully player driven` (cyclical) > `Random`
+(linear) `Linear` > `Interactive Linear` >  `Multi ending` >  `Branching path` (multi choice but not emergent) > `Open World` > `Open ended`  >  `Emergent` > `Sand box` (Fully player driven) > (cyclical) > `Random`
 
 **Game story domination**  -   Authored - no impact on story - Linear  - low agency hi certainty of deliver    
 **Player story domination** -  Generative - agency & expression of will - Cyclical  - high agency, low certainty
@@ -66,20 +66,28 @@ create problem not puzzle
 
 1. Quality
  - `Active presence` - expressing agency and will taking actions and locomotive. Extorting will into expression - video games
- - `Mental & Social` -  communicationg with abstraction of language -literature, podcasting, consuming information, internet
- - `Embodied & Environmental` - cinematic storyteling of film, music lighting rythm (fiulm, build and release narrative tension) give sense of time  - music
- - `Emotional` - site touch smell, haptics. we are trying to digitalize those inputs - theather architecture (VR)
+ - `Mental & Social` -  communication with abstraction of language -literature, podcasting, consuming information, internet
+ - `Embodied & Environmental` - cinematic storytelling of film, music lighting rhythm (film, build and release narrative tension) give sense of time  - music
+ - `Emotional` - site touch smell, haptics. we are trying to digitalize those inputs - theater architecture (VR)
 2. Context
 3. Character
 4. Story
 
 Outward Inward / Individual Bonding
 
+Feeling being in control.
 
 ---
 
+1. what to communicate
+2. what emotions
+
 # Narration
 Some game structures can be metaphors
+Narration can be Atmospheric or Narrative
+
+Avoid Red Herring (something that misleads or distracts from a relevant or important question)
+
 ## Explicit
 **Text written narrator**. explicit things are explained.  (cutscenes). In literature: An explicit narrator is a narrator or character in a story that is the one telling the story. First person narrators are by definition explicit narrators.
 
@@ -87,15 +95,43 @@ Some game structures can be metaphors
 - silent protagonist - to feel easy to slip in his role . (silence and concient is like agree)
 add to agency
 
+```
+#### part of story
+Diegesis (/ˌdaɪəˈdʒiːsɪs/; from the Greek διήγησις from διηγεῖσθαι, "to narrate") is a style of fiction storytelling that presents an interior view of a world in which:
+
+Details about the world itself and the experiences of its characters are revealed explicitly through narrative.
+The story is told or recounted, as opposed to shown or enacted.[1]
+There is a presumed detachment from the story of both the speaker and the audience.
+
+#### part of stoyteling
+ non-diegetic elements which are stylistic elements of how the narrator tells the story ("part of the storytelling").
+
+
+####  Mimesis:
+- The Representation of Reality in Western Literature, which opens with a comparison between the way the world is represented in Homer's Odyssey and the way it appears in the Bible
+
+
+Tragedy and comedy, he goes on to explain, are wholly imitative types; the dithyramb is wholly narrative; and their combination is found in epic poetry. When reporting or narrating, "the poet is speaking in his own person; he never leads us to suppose that he is any one else"; when imitating, the poet produces an "assimilation of himself to another, either by the use of voice or gesture".[3] In dramatic texts, the poet never speaks directly; in narrative texts, the poet speaks as him or herself.[4]
+
+In gmaes, mostly UI:
+ "extra-diegetic"; a game character does not know about them even though for the player they may present crucial information
+ non-diagetic sounds; voiceover  sfx theme songs
+
+ ```
 ## Implicit
 Implied - Suggested but not directly expressed. Arises **from visual cues** that create the barest impression of a story in the minds of viewers. It is the act of withholding the whole story, rather than the attempt to visually illustrate the story, that defines these images. player must figure out itself
 
+Most immersive type of narration ! - it s the world speak and player will find their own story  
 
-###  Environmental
+mimesis
 
-[Level Design](/leveldesign/)  
-Narrative spaces   
-most immersive  - it s the world speak and player will find their own story  
+
+###  Spatial storytelling
+Narrative spaces / Environmental storytelling
+How ideas, mood, and story are expressed through visual form
+
+[Level Design](/leveldesign/)  / Scene / stage design / [Lore](/lore/)
+
 
 
 
@@ -120,21 +156,22 @@ Need building blocks
 ### Procedural storytelling
 Procedural Narrative Generation:
 
-Prioritizes agent spontniety (all imporvisation and simulation ) (Dwarf Fortress) <> Priotitize authorial structure (Adventures )
-- simulation crntric approach  
+Prioritizes agent spontaneity (all improvisation and simulation ) (Dwarf Fortress) <> Prioritize authorial structure (Adventures )
+- simulation centric approach  
 - plot centric approach  
 
 [link a](https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf)  [link b](https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?id=4RamDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)  
 
 
 
-## Random?
+## No narration
+
+#### Experience as an end itself
 
 #### Randomness
 - (pre luck) input (before player make decision): levels
 - (post luck) output  (after action, hit chances in x com, lutbox) (more anger and res not for competence but bad luck undercuts strategy )
 
-#### Experience as an end itself
 
 ---
 
@@ -148,14 +185,15 @@ Alfred North Whitehead (known as the defining figure of the philosophical school
 
 ## Psych states
 
-###  Presence  
-`Teleport body`   
+### Presence  
+`Teleport body` into a space. Spatial Presence   
 
 
 ### Immerse  
 `Teleport mind` - deep mental involvement. Immerse : altered time, with general sense of space (spatial)
 Fully `immersed` with mechanics while `challenge` and `tension` in balance  (`anxiety` vs `boredom`)
 
+The difference between immersive experience and traditional is the presence of a viewing port, proscenium or a frame with which to take in the experience. - Sara Thacher
 
 
 ### Engagement  
@@ -197,11 +235,12 @@ Alife - Suspend true believe for a moment
 we know how feelings are - experience taking. match own emotions with fictional characters. experience taking is harder in front of mirror so it can be related with ego suppress.
 
 
-
-
-
-
 ------
+
+### Entertainment / Enjoyment
+- Entertainment is an escape from problems
+
+things happening > its excitement its entertainment
 
 
 ###  Flow  
@@ -255,11 +294,6 @@ Play | Joyous
 
 
 
-### Entertainment
-- Entertainment is an escape from problems
-
-things happening > its excitement its entertainment
-
 ------
 
 
@@ -302,6 +336,10 @@ Game designers will establish the rules and boundaries of a game (`Mechanics`) t
 [link c](https://medium.com/swlh/applying-the-mda-framework-for-video-game-design-to-productivity-8329115ce30f), [link d](https://ava-game.com/2018/04/17/mda-in-game-development/)
 
 
+
+# Game Flow
+
+How it progress
 
 
 ---

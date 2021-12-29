@@ -20,8 +20,9 @@ permalink: /list/
 https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY   
 
 
----
+- **Mimetic theory** - rene girard  - thinking framework
 
+---
 
 
 
@@ -201,3 +202,7 @@ The Experience Economy, Updated Edition
 Christopher Booker       
 101 prison of mind from 1790 ??
 rainer maria rilke -
+
+
+https://www.jordanbpeterson.com/great-books/
+https://www.gatesnotes.com/About-Bill-Gates/Holiday-Books-2021

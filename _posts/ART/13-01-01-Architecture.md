@@ -181,8 +181,7 @@ in arkham everything is for you  - `predator gameplay` - intimate spaces, based 
 
 ## Architects
 
-**Adolphe Appia**  1862 – 29 February 1928     
-zaha hadid architects  
+**Adolphe Appia**  1862 – 29 February 1928    
 **Peter Zumthor** The Therme Vals - mood&tone  
 gaudi - (sagrada familia) simulating shapes   
 frei oto - (olipmiapark, tent like structures)  minimal surface
@@ -190,7 +189,10 @@ frei oto - (olipmiapark, tent like structures)  minimal surface
  - Notes on the Synthesis of Form
  - Pattern Language  
 
-
+Współczesni     
+- Frank Gehry - zakrzywione budynki - (bilbao) -
+- zaha hadid architects - neo futurysm
+-  Elora Hardy - bamboo architecture
 ## Books
 
 ---

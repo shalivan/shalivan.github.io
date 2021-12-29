@@ -143,7 +143,8 @@ same plot but every season have different exciting personal stories and drama.
 
 
 ## Traversing
-
+## Exploration
+(collectables inventivise )
 ## Level Design
 
 [Level Design](/leveldesign/)

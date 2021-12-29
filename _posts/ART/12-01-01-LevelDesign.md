@@ -315,3 +315,7 @@ http://tmdag.com/ptakun/eco_system/makeofplants_en_htm.htm
 (book: design of normal things don norman)  
 (roberto rengel: shaping interior space)    
 [doc](https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/preview?pru=AAABcubYTrs*65ZuXXMNJriddYR6IXE8Ag#), [pod](https://www.psychologyofgames.com/2020/01/podcast-55-the-psychology-of-level-design/)   
+
+
+https://www.youtube.com/c/LevelDesignLobby/videos  
+https://www.youtube.com/watch?v=CpOoTAVeEcU  

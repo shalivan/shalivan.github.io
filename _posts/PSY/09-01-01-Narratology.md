@@ -163,6 +163,7 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - payoff should give u everything from premise of beginning
 character how will change    
 - brain reference to those experience and have impact to long term memory    
+- coming home, return motive
 
 
 ## Three-Act structure
@@ -597,6 +598,7 @@ Driven by external / internal motivations
 
 - **Character** revile when human characters make choices under pressure
 
+choices are only meaningful and reinforces players identity
 
 ##  Character Arcs
 change in a

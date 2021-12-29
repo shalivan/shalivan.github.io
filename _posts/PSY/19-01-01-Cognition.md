@@ -366,6 +366,8 @@ less about choice more to conform mind in feeling we are in control. we are alwa
 agency - capacity to chose
 autonomy - capacity to make decisions  (multiplayer huge autonomy)
 
+### Meaningful Choice
+choices are only meaningful and reinforces players identity
 
 
 # Imagination

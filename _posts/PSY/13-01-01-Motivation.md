@@ -279,6 +279,15 @@ Flow
 
 ## Cultural
 
+### Mimetic theory
+-Desires are cultural not individual. We learn imitating group.
+- good -
+- bad - acquisitive like money
+
+- Scapegoat - find someone to blame for conflict, to unite sides. (controlling violence with violence) can be in mimetic context
+
+
+
 ### FOMO
 ### Ikigai
 - role in society
