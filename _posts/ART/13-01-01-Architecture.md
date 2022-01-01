@@ -154,7 +154,8 @@ Arrivals -  experience of reaching an important gameplay space
    - so supply edges its crutial
 
 #### Proportions
-| | ||
+
+| . | | |
 |--|--|--|
 <img src="/src/arch/arch_v1.0016B.png" width="100">  | 1:6 | (more is not comfortable) perceivable maximum spatial enclosure by recess line on right side
 <img src="/src/arch/arch_v1.0017.png" width="100">  | 1:3 | best for squares

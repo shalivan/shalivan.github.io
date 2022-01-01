@@ -16,7 +16,7 @@ permalink: /ludology/
 
 - Jean Piaget (9 August 1896 – 16 September 1980) was a Swiss psychologist Importance of games:
 - Johan Huizinga: Nature & Significance of Play as a Cultural Phenomenon [pdf](https://nideffer.net/classes/270-08/week_01_intro/Huizinga.pdf)
-
+-  Books imagine, movie see, games act.
 # Ludology
 
 **Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
