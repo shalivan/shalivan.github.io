@@ -11,17 +11,11 @@ tags:
 permalink: /narratology/
 ---
 
-`why who where what when how `
 
-`pace: movement incentives vs deterrent : ehreat objective movement limits, tension  `
-Narrative Experience
-
-
-[Ludology](/ludology/)
-[Game Design](/gamedesign/)  
-[Game Mechanics](/gamemechanics/)  
-
-stories round campfire > myths > printing press: linearize > Post linear: World building
+- [Ludology](/ludology/)  
+- [Game Design](/gamedesign/)    
+- [Game Mechanics](/gamemechanics/)    
+- [Lore](/lore/)
 
 
 # Medium
@@ -33,6 +27,7 @@ Successful life when you family, survive and thrive
 Film is based on empathy
 
 # Genres
+Stories round campfire > myths > printing press: linearize > Post linear: World building
 
 ## Literary
 **Poetry** (liryka) (podmiot liryczny)  
@@ -97,6 +92,8 @@ Without internal conflict plot have no meaning - why it matters
 
 Linear, non linear
 
+Narrative Experience
+
 ### Point of view
 
 ||Past|	Present|	Future|
@@ -135,6 +132,8 @@ She / He Her / His - External narrator is telling the story.    Commentator / In
 ---
 
 # Structure
+
+`why who where what when how `
 
 Cannot say a story without **Place**, **Time** and **Character**. Or you can
 
@@ -704,3 +703,6 @@ CALLBACKS - narracja entertiment
 
 [Cloud Atlas](https://www.youtube.com/watch?v=ABC7PjrTGFs)   
 [book: the future of narrative in cyberspace]
+
+What to communicate / What emotions
+`pace: movement incentives vs deterrent : ehreat objective movement limits, tension  `

@@ -13,14 +13,17 @@ permalink: /leveldesign/
 
 https://www.patternlanguage.com/
 
-Control environment instead of camera like in movies. Contain: aesthetic + functionality
-LD driven by mechanics. Books imagine, movie see, games act.
-
+- Control environment instead of camera like in movies.
+- Contain: aesthetic + functionality
+- LD driven by mechanics.
+  - High level: - [Environmental storytelling](/ludology/)
+  - Medium level: - Level Design
+  - Low level: - [World Building](/lore/)
 
 # Concept
 
 - Restrictions, goals, context.   
-- Scale, mertics and proportions .  
+- Scale, metrics and proportions .  
 - Blockout, and props  
 - form follow function   
 - backdrop (non-playable area  

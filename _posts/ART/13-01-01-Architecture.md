@@ -16,79 +16,81 @@ permalink: /arch/
 urbanism - path nodes
 # Architecture
 
-Arch as response to anchors:  needs / function / context / local constrain /  external conditions  (sun: south wall is most efficient, land features)
+Architecture
+- As response to anchors:  Needs, Function, Context, Local constrain, External conditions  (sun: south wall is most efficient, land features)
+- Create meaning through atmosphere rather symbolism
 
-Arch create meaning throue atmosphere rather symbolism
-
-#### Vitruvian triangle I b.c.
-- Venustas (delight) - aesthetic, beauty, experiential enjoyment artistry
-- Firmitas (firmness) - structural integrity, durability, construction quality
-- Utilitas (commodity) - functional adequacy, usefulness, satisfies programmatic requirements
+#### Vitruvian triangle
+- **Venustas** (delight) - Aesthetic, beauty, experiential enjoyment artistry
+- **Firmitas** (firmness) - Structural integrity, durability, construction quality
+- **Utilitas** (commodity) - Functional adequacy, usefulness, satisfies programmatic requirements
 
 
 # Form
-Point of contact between mass and space
+Point of contact between mass and space. (formal language create forms)
+- **Forms** -  (space, structure), **Objects** with attributes:
+  - shape
+  - size
+  - scale
+  - texture
+  - location = position + oreintation
 
-- forms, (space, structure) , outward expression. (size scale texture ) emotions (formal language create forms)
-- shapes (l- shelter and open , long sides... )
+
+
 
 | | |
 |--|--|
-![](/src/arch/add.png)  | Additive | picturesque, full of movement,
-![](/src/arch/sub.png)  |Subtractive   | generous, When regular form missing volume peart but retain identity
+<img src="/src/arch/arch_v1.0010.png" width="100">  | Additive | picturesque, full of movement,
+<img src="/src/arch/arch_v1.0011.png" width="100">  |Subtractive   | generous, When regular form missing volume peart but retain identity
 
 
 
-- positive space, well defined, organized focal point
-- negative space, leftover, unconfortable... ....
-ppl comfortable in positive
+- Form in architecture is consumed from related perspective.   
+- Articulation = how elements relate (corners)  
+- **Impossible Figure** - M.C. Escher - bending space  in 2d
 
-
-
-#### Impossible Figure
-M.C. Escher
 
 
 # Space
  Space is formed by relationship to object within. Literal space defines the scene by Degree of enclosure.
 
-## Standard Types
+## Enclosure
 
  |  |  |Enclosure Spaces|
  |--|--| --|
- ![](/src/arch/arch_v1.0001.png) | Floor | topology / architecture Man made / natural, Unmodulated / Modulated, Ground stability, Balcony
- ![](/src/arch/arch_v1.0002.png) |Columns | Obelisk, Column (europeans order), Pier, Pilaster. (Rhythm > directionality) (forming subspaces, fasades)
- ![](/src/arch/arch_v1.0003.png) |Walls |
- ![](/src/arch/arch_v1.0004.png) |Doors | Point of access, Threshold, Guide to movement- determine the direction and scheme of circulation within room
- ![](/src/arch/arch_v1.0005.png) |Windows | Air, Light, View, modulation of facade, as scaling element
- ![](/src/arch/arch_v1.0007.png) |Staircase | As step, As seat, Physical link, Storage, Escalator Ladder Ramp Elevator Straight Spiral Staircase.  
- ![](/src/arch/arch_v1.0006.png) |Roofs | Spatial Enclosure, Volume modulator. Folded, Curved, Membrane, Frame
+ <img src="/src/arch/arch_v1.0001.png" width="100"> | `Floor` | Topology / Architecture,  Man made / Natural, Unmodulated / Modulated, Ground stability
+ <img src="/src/arch/arch_v1.0002.png" width="100">  |`Columns` | `Obelisk`, `Column` (Europeans order), `Pier`, `Pilaster`. (Rhythm > directionality) (forming subspaces, fasades)
+ <img src="/src/arch/arch_v1.0003.png" width="100"> |`Walls` |
+ <img src="/src/arch/arch_v1.0004.png" width="100">  |`Doors` | Point of access, Threshold, Guide to movement- determine the direction and scheme of circulation within room
+ <img src="/src/arch/arch_v1.0005.png" width="100">  |`Windows` | Air, Light, View, modulation of facade, as scaling element
+ <img src="/src/arch/arch_v1.0007.png" width="100">  |`Staircase` | As step, As seat, Physical link, Storage, `Escalator` `Ladder` `Ramp` `Elevator` Straight, Spiral
+ <img src="/src/arch/arch_v1.0006.png" width="100">  |`Roofs` | Spatial Enclosure, Volume modulator. Folded, Curved, Membrane, Frame
 
-Veranda, Terrace, Patio, Potch, Goyer, Lobby, Vestibule, Antresola, Balcony, Portico, Anteroom, Gallery
+`Veranda`, `Terrace`, `Patio`, `Potch`, `Goyer`, `Lobby`, `Vestibule`, `Antresola`, `Balcony`, `Portico`, `Anteroom`, `Gallery`
+
+
+
+## Negative Space
+
+- Positive/ Negative - well defined, organized focal point, comfortable / leftover, uncomfortable  ???? check it
+
+| | ||
+|--|--|--|
+ <img src="/src/arch/arch_v1.0009.png" width="100"> |Negative | Negative space, in art, is the space around and between the subject(s)
+
+`Court`
 
 
 ## Implied  Space
 
 | | ||
 |--|--|--|
-![](/src/arch/arch_v1.0008.png) |Implied|When elements or spaces are not explicit but are nonetheless apparent. Perspective in 2d is implied
+ <img src="/src/arch/arch_v1.0008.png" width="100">  |Implied|When elements or spaces are not explicit but are nonetheless apparent. Perspective in 2d is implied
 
-- implied by shadow (shadow space )
-- half-roofing
-- platform Schodki (sugerowana),
-- open colonnade  
+Implied by: Shadow (shadow space), Half-Roofing, Platform, Stairs, Open colonnade  
 
-## Negative Space
-
-
-| | ||
-|--|--|--|
-![](/src/arch/arch_v1.0009.png) |Negative | Negative space, in art, is the space around and between the subject(s)
-
-
-- court
-- horizon height- separation and connections
-
+##### Horizon Height
+Working as separation and connections
 
 
 # Spatial Form
@@ -120,11 +122,11 @@ Space-space relations
 
 | | ||
 |--|--|--|
-![](/src/arch/within.png) | Space within other space|
-![](/src/arch/inter.png) | Interlocking  |(shared by 2 spaces)
-![](/src/arch/edge.png)  |Edge / Face contact |
-![](/src/arch/corridor2.png) | Links | corridors
-![](/src/arch/spatial.png)  |Spatial tension|
+<img src="/src/arch/arch_v1.0015.png" width="100">  | Links | corridors
+<img src="/src/arch/arch_v1.0012.png" width="100">  | Space within other space|
+<img src="/src/arch/arch_v1.0013.png" width="100"> | Interlocking  |(shared by 2 spaces)
+<img src="/src/arch/arch_v1.0014.png" width="100">  |Edge / Face contact |
+<img src="/src/arch/arch_v1.0016.png" width="100">   |Spatial tension|
 
 Building - ground/horizon relation
 
@@ -146,28 +148,51 @@ Arrivals -  experience of reaching an important gameplay space
 
 
 
-prospect & Refuge / rewwarding vista (moment to pause)   
-narrow to wide   
-dark to light    affride  light to dark   /  ok dark to light
-high to low  
+#### Prospect & Refuge
+- rewwarding vista (moment to pause)  
+- people want comfortable, seak simultaniousley p & r see predatoras but with flaks are covered :
+   - so supply edges its crutial
 
-## Architecture in layers
-set of layers operating at different timescales
+#### Proportions
+| | ||
+|--|--|--|
+<img src="/src/arch/arch_v1.0016B.png" width="100">  | 1:6 | (more is not comfortable) perceivable maximum spatial enclosure by recess line on right side
+<img src="/src/arch/arch_v1.0017.png" width="100">  | 1:3 | best for squares
+<img src="/src/arch/arch_v1.0018.png" width="100"> | 1:2  | spatial enclousuure by building height
+<img src="/src/arch/arch_v1.0019.png" width="100">  | 1:1  |  best for thoroughfares
+
+# Light
+Windows vs directions    
+sagrada
+
+
+# Visual communication
+
+shapes - forces drive your eyes
+- narrow to wide   
+- dark to light    affride  light to dark   /  ok dark to light
+- high to low  
+
+
+# Cities
+
+cities
+- traditional neibgourhoud is better than suburbs
+- experiment with big working halls. its not most optimal
+
+
+#### Architecture in layers
+Set of layers operating at different timescales
 
 Shell > Service > Scenery
 [Narration](/narration/)  
+
 
 ## Othe spaces
 - Maze & Labyrinths
 - Gardens
 
-# Light
-- Windows vs directions
-sagrada
 
-# Visual communication
-
-shapes - forces drive your eyes
 
 # Architecture in games and  neo impressionism
 
