@@ -13,7 +13,7 @@ description: Form, Space, Arrangement
 permalink: /arch/
 ---
 
-urbanism - path nodes
+
 # Architecture
 
 Architecture
@@ -174,7 +174,8 @@ shapes - forces drive your eyes
 - high to low  
 
 
-# Cities
+# Urbanism
+- path node
 
 cities
 - traditional neibgourhoud is better than suburbs
