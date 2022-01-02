@@ -83,6 +83,10 @@ floating phase in tunnning is what differentiates a run (phase where all feet ar
 -
 # Animation types
 
+- `static animation` - always something is moving over the screen    world is not dead  
+- `dynamic animation` - pet, ...
+
+
 ## Skeletal anim
 
 - COG

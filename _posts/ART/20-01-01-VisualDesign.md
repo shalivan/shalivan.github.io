@@ -245,7 +245,8 @@ https://www.playforthoughts.com/blog/how-to-design-a-logo-from-scratch-ultimate-
 ----
 you can design things to be boring or look cheap at purpose
 
+principle of least resistance - The path of least resistance is the physical or metaphorical pathway that provides the least resistance to forward motion by a given object or entity
 
-# product design 
+# product design
 - start designning with parts and metodes you are familiar with. with egsiting tools
 - try to imagine platonic ideal of perfect product and, reverse engeniring simplifying

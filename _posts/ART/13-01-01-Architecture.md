@@ -14,6 +14,8 @@ permalink: /arch/
 ---
 
 
+
+discavery writing
 # Architecture
 
 Architecture
@@ -191,8 +193,8 @@ Shell > Service > Scenery
 
 
 ## Othe spaces
-- Maze & Labyrinths
-- Gardens
+- Maze / Labyrinths
+- Gardens /  Theme parks
 
 
 
