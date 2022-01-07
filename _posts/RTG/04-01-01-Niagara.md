@@ -17,18 +17,71 @@ permalink: /niagara/
 
 
 
-Niagara interaction
-  - Triangles  - u must point to specific mesh in query  
-  - Phys Volumetric  -  
-  - Scene Depth  - 2d buffer, don't penetrate behind first depth  
-  - Distance Fields  -
+### Interaction spaces
+  - **Triangles**  - u must point to specific mesh in query  
+  - **Phys Volumetric**  -  
+  - **Scene Depth**  - 2d buffer, don't penetrate behind first depth  
+  - **Distance Fields**  -
+
+### Paradigm  
+  - **Modules** - graph paradigm  
+  - **Emitters** - stack paradigm  
+  - **Systems** - stack and Sequencer timeline
+
+### Calculation stages   
+
+#### System
+
+  - Module usage flags  
+    - `System Spawn Script` - on system spawn
+    - `System Update Script` -
+
+#### Emitter
+  Do what system (optimal to set for multiple emitters) do or define.
+
+  - Module usage flags  
+    - `Emitter Spawn Script` - once on spawn
+    - `Emitter Update Script` - Tick
+
+#### Particle
+
+  - Module usage flags  
+    - `Particle Spawn Script` - on spawn
+    - `Particle Update Script` - every frame
+    - `Particle Event Script` - In response to event
+    - `Particle Simulation Stage Script` -
+
+#### Spawn
+#### Update
+
+
+----
+
+
+# Scripts
+
+## Dynamic Input scripts
+Dynamic Input scripts by Usage flag:
+
+#### Module
+Use as module in particle emitter.      
+Read/Writes parameters will appear in module.      
+Can be used with: `particle` , `emitter`, `system scripts`    
+IN: `Map` OUT: `Module`   
+
+#### Dynamic Input
+Use as expression in parameter value. Almost the same as creating modules, but can be selected and dropped into the stack without actually creating new modules.  (extensibility for inheritance. Instead of acting on a parameter map, dynamic inputs act).   
+Can be used with: `particle` , `emitter`, `system scripts`    
+IN: `Map` OUT: `Module`      
+
+#### Function
+Function to use inside module.     
+IN: `Input` OUT: `Function`      
+
+---
 
 
 
-Niagara paradigms:  
-  - Modules - graph paradigm  
-  - Emitters - stack paradigm  
-  - Systems - stack and Sequencer timeline
 
 
 # Attributes
@@ -37,9 +90,7 @@ Niagara paradigms:
 ##  Name Space
 
 
-#### Particle attributes vs Transient outputs:
-Transient - Not persist f2f and between stages, **not written to the payload**, which means they don't cross stack boundaries  and are recalculated from scratch every frame  
-Particles -  Persisted f2f (memory and performance cost)
+
 
 
 
@@ -53,92 +104,19 @@ Particles -  Persisted f2f (memory and performance cost)
 |SYSTEM. | Y | System | Persisted f2f  | System
 |ENGINE. |  Y | N | Runtime for Niagara itself | Fundamental Attribs from unreal
 |USER. | Y | N
-|OUTPUT. |N|Y|Not persist f2f  | pay for calculate but not for adding it to emiter (parameter writes)  useful helpers included in the modules which are not yet written to the particle payload, but are available for use. (An output in Particle Spawn cannot be accessed in Particle Update)
+|OUTPUT. |N (An output in Particle Spawn cannot be accessed in Particle Update) |Y| Not persist f2f  | pay for calculate but not for adding it to emitter (parameter writes)  useful helpers included in the modules which are not yet written to the particle payload, but are available for use.
 |TRANSIENT. | from any module |from any module | Not persist f2f  | Local only to a given stack context (like Particle Update)
 
-
-
-###  Name space modifiers:
-
+Name space modifiers:
 
 | Name Space | R |
 |--- | --- |
 .MODULE. | insert module name as namespace so if u have x modules u have x different params
 .INITIAL. |  initial value of attribute (from eg in particle spawn)
 
-
-
-
-----
-
-
-# Scripts
-
-
-
-## Script types
-
-
-#### Module Script
-IN: `Map` OUT: `Module`  
-
-You can see read/writes in finished module
-- Module usage flags  
-  - `Module` - particle , emitter, system scripts
-
-#### Dynamic Input Script
-IN: `Map` OUT: `Module`  
-
-  Dynamic inputs have almost the same power as creating modules, but can be selected and dropped into the stack without actually creating new modules.
-
-  Dynamic inputs are built the same way modules are built.
-  extensibility for inheritance.
-  Instead of acting on a parameter map, dynamic inputs act
-
-  - Module usage flags  
-    - `Dynamic Input` - particle , emitter, system scripts
-
-
-#### Function Script
-IN: `Input` OUT: `Function`  
-
-- Module usage flags
-  - `Function` - fn to use in modules
-
-
-
-
-## Stages
-#### System
-
-- Module usage flags  
-  - `System Spawn Script` - on system spawn
-  - `System Update Script` -
-
-#### Emitter
-Do what system (optimal to set for multiple emitters) do or define.
-
-- Module usage flags  
-  - `Emitter Spawn Script` - once on spawn
-  - `Emitter Update Script` - Tick
-
-#### Particle
-
-- Module usage flags  
-  - `Particle Spawn Script` - on spawn
-  - `Particle Update Script` - every frame
-  - `Particle Event Script` - In response to event
-  - `Particle Simulation Stage Script` -
-
-#### Spawn
-#### Update
-----------
-
-
-
-# Dynamic inputs
-----------
-
+Particle attributes vs Transient outputs:
+- **Transient** - Not persist f2f and between stages, **not written to the payload**, which means they don't cross stack boundaries  and are recalculated from scratch every frame  
+- **Particles** -  Persisted f2f (memory and performance cost)
 
 
 
