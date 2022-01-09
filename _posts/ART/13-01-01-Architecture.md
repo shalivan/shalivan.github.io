@@ -63,8 +63,8 @@ Point of contact between mass and space. (formal language create forms)
  <img src="/src/arch/arch_v1.0001.png" width="100"> | `Floor` | Topology / Architecture,  Man made / Natural, Unmodulated / Modulated, Ground stability
  <img src="/src/arch/arch_v1.0002.png" width="100">  |`Columns` | `Obelisk`, `Column` (Europeans order), `Pier`, `Pilaster`. (Rhythm > directionality) (forming subspaces, fasades)
  <img src="/src/arch/arch_v1.0003.png" width="100"> |`Walls` |
- <img src="/src/arch/arch_v1.0004.png" width="100">  |`Doors` | Point of access, Threshold, Guide to movement- determine the direction and scheme of circulation within room
- <img src="/src/arch/arch_v1.0005.png" width="100">  |`Windows` | Air, Light, View, modulation of facade, as scaling element
+ <img src="/src/arch/arch_v1.0004.png" width="100">  |`Doors` | `Portal`, `Gates`, `Jamb` (framuga - transfer load, somt statues) Point of access, Threshold, Guide to movement - determine the direction and scheme of circulation within room
+ <img src="/src/arch/arch_v1.0005.png" width="100">  |`Windows` | `Roseta`, Air, Light, View, modulation of facade, as scaling element
  <img src="/src/arch/arch_v1.0007.png" width="100">  |`Staircase` | As step, As seat, Physical link, Storage, `Escalator` `Ladder` `Ramp` `Elevator` Straight, Spiral
  <img src="/src/arch/arch_v1.0006.png" width="100">  |`Roofs` | Spatial Enclosure, Volume modulator. Folded, Curved, Membrane, Frame
 
@@ -130,6 +130,8 @@ Space-space relations
 <img src="/src/arch/arch_v1.0014.png" width="100">  |Edge / Face contact |
 <img src="/src/arch/arch_v1.0016.png" width="100">   |Spatial tension|
 
+
+
 Building - ground/horizon relation
 
 Arrivals -  experience of reaching an important gameplay space
@@ -145,8 +147,8 @@ Arrivals -  experience of reaching an important gameplay space
 |--|--|
 |Public   |
 |Private | Spatial empathy - personal space
-|Circulation paths | people circulation
-|Detail / distortions - aesthetic
+|Circulation | paths, junctions, squares - people circulation
+|Distortions | aesthetic detail
 
 
 
@@ -159,10 +161,21 @@ Arrivals -  experience of reaching an important gameplay space
 
 | . | | |
 |--|--|--|
-<img src="/src/arch/arch_v1.0016B.png" width="100">  | 1:6 | (more is not comfortable) perceivable maximum spatial enclosure by recess line on right side
+<img src="/src/arch/arch_v1.0016B.png" width="100">  | 1:6 | (more is not comfortable) perceivable maximum spatial enclosure by recess line on right side (larger dist is not a refuge)
 <img src="/src/arch/arch_v1.0017.png" width="100">  | 1:3 | best for squares
 <img src="/src/arch/arch_v1.0018.png" width="100"> | 1:2  | spatial enclousuure by building height
 <img src="/src/arch/arch_v1.0019.png" width="100">  | 1:1  |  best for thoroughfares
+
+
+#### Układy
+
+cultural shift:
+- public space on entrance + corridor tht wille take you to private dead end space. (private )
+- earlier we had rooms connected to eachother - allow to spontanious interactions
+
+off for exterior for defense and open inside
+
+https://www.google.com/search?q=tulu+hous&tbm=isch&ved=2ahUKEwis_riqmKD1AhWXBXcKHTnlABIQ2-cCegQIABAA&oq=tulu+hous&gs_lcp=CgNpbWcQAzIHCCMQ7wMQJzIHCCMQ7wMQJzIGCAAQCBAeMgQIABAYMgYIABAKEBhQkDFYvzNgtzVoAHAAeACAAWyIAcICkgEDMy4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=r3vYYezqLJeL3AO5yoOQAQ&bih=912&biw=500
 
 # Light
 Windows vs directions    
@@ -178,11 +191,33 @@ shapes - forces drive your eyes
 
 
 # Urbanism
-- path node
+
+**PEDNL**
+Path - communication    
+Edges - between types of arch    
+Nodes - comunication   
+Districts -   
+Landmark - view   
+
+https://atrium.lib.uoguelph.ca/xmlui/bitstream/handle/10214/9501/Bartolo_Alasandro_201601_MLA.pdf;sequence=1
+
 
 cities
 - traditional neibgourhoud is better than suburbs
 - experiment with big working halls. its not most optimal
+how people are not thinking and making us suburbs
+
+- office
+- retails
+- dining
+- entertainment
+- housing
+- schools
+- recreation
+- worship
+- parking - land juice, cheap parking make more people to park + destroy downtown. consolidated - not in street sites.  
+
+gym and restaurants need night ad day light customers
 
 
 #### Architecture in layers
@@ -226,6 +261,11 @@ Współczesni
 
 ---
 
+**morphology**
+how nature deep structures are
+**metabolism**
+nodes
+**ornament**
 
 
 

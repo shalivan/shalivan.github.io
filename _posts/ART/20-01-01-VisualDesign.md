@@ -161,6 +161,9 @@ Way we percive design is  influenced by leftover survival mechanisms/ primorial 
 
 Non werbal comunication important
 
+#### Organic design
+zalety organic designu, nie proceduralnego i nie w gridzie
+
 ###### Antropomorpism
 We tend to antr...
 human like qualities to inanimate object.
