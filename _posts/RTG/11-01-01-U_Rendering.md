@@ -1,6 +1,6 @@
 ---
-title: Unreal Rendering
-description: RAW
+title: U Rendering
+description: Shadows, Reflections,  PostProcess, Nanite
 categories:
  - PXL
 tags:
@@ -13,8 +13,7 @@ permalink: /urendering/
 ---
 
 
-[Unreal Light & Atmosphere](/uelight/)
-
+[Unreal Light & Atmosphere](/uelight/)     
 
 (blur is expensive, you need render targets)
 
@@ -370,3 +369,9 @@ someone on ACEScentral figured out what the exact change was - I think broadly i
 [10:22 PM]
 they did adopt the standard ODTs though which is very sensible - you can work in SDR then switch the output for an HDR TV without having a Huge Nightmare
 ```
+
+
+-----
+Gi
+ddgi -dynamic direct gi -  proby
+https://www.youtube.com/watch?v=ZefvmV1pdP8&t=121s

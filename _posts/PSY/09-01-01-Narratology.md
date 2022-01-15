@@ -26,6 +26,11 @@ Successful life when you family, survive and thrive
 
 Film is based on empathy
 
+
+https://taraeast.com/2015/01/30/architect-vs-gardener/
+
+## Architect vs. Gardener
+
 # Genres
 Stories round campfire > myths > printing press: linearize > Post linear: World building
 
@@ -43,7 +48,6 @@ Stories round campfire > myths > printing press: linearize > Post linear: World 
   - Fable - teach morals with animals as char.
   - Legend - based on real person but cannot be proven
 -  **Science and journalism** (Gatunki pograniczne) to gatunki z pogranicza literatury, nauki i publicystyki, np. esej, felieton, reportaż. Bio
-
 
 
 
@@ -314,6 +318,7 @@ In literature an image, story-pattern, or character type that recurs frequently 
 Idea of recurring patterns of situation, character, or symbol they are the common themes that show up in every culture of the world. Archetypes are recurrent, appearing in slightly altered forms to take present day situations and relate them to the past to find meaning in contemporary world.
 
 
+Archetypical - simple in presentation, bur rich in meaning
 
 ####  Symbols
  term, name, or even a picture - possesses specific connotations in addition to its conventional and obvious meaning.  More than apparent meaning an inherent multiplicity of meanings with larger "unconscious" aspect Can be analyzed, but cannot be fully explained
@@ -452,6 +457,8 @@ Not static but dynamic opposites. relative - 2 sides of same thing growth & decl
 - thinking strategic vs thinking tactical
 - means - instrumental value / for own - intrinsic value
 - to create perfection u must unify with opposite
+- Weight (importance, genre significance), Weightlessness (lightness, volatility, playfulness)
+
 
  |.||
  |---|---|
@@ -588,7 +595,7 @@ puzzle
 
 # Characters
 
-
+## Protagonist
 
 Driven by external / internal motivations
 
@@ -598,6 +605,9 @@ Driven by external / internal motivations
 - **Character** revile when human characters make choices under pressure
 
 choices are only meaningful and reinforces players identity
+
+## Antagonist
+
 
 ##  Character Arcs
 change in a
@@ -706,3 +716,8 @@ CALLBACKS - narracja entertiment
 
 What to communicate / What emotions
 `pace: movement incentives vs deterrent : ehreat objective movement limits, tension  `
+
+belivable and convincend settings
+
+
+- dystopia

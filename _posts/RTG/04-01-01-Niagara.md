@@ -75,8 +75,8 @@ Can be used with: `particle` , `emitter`, `system scripts`
 IN: `Map` OUT: `Module`      
 
 #### Function
-Function to use inside module.     
-IN: `Input` OUT: `Function`      
+Functions to use inside module.     
+IN: `Input` OUT: `Output`      
 
 ---
 

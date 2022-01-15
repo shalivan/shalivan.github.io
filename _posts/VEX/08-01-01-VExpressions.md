@@ -21,7 +21,7 @@ permalink: /vexpressions/
 # Expressions
 
 Backticks ``` ` ``` are for use in a string field: group input, name sop. (when fn inside ??)
-
+- `Ctrl` + `C` - copying of node can be passed in parameters: `/obj/geo_foo/OUT_foo`
 
 
 
@@ -156,9 +156,14 @@ Vexpression:
 
 # Operators
 
-## Get param from second input
-`point(1,'Cd',@ptnum)`   
+`point('op:/obj/geo1/OUT', 'P', i@ptnum)`
+`point('op:../../OUT', 'P', i@ptnum)`
 
+## Get param from second input
+`point(1,'P',i@ptnum)`   
+`point('opinput:1', 'P', i@ptnum)`
+`point(@OpInput2, 'P', i@ptnum)` - is not 0 based !!
+`v@OpInput1_P`
 
 1op - geo
 2op - pointsplit (primitivesplit)
@@ -166,7 +171,7 @@ Vexpression:
 int vtx_idx = vertexprimindex(0,@vtxnum);
 v@Cd = vertex(1,"Cd",@primnum, vtx_idx)
 ```
-or 
+or
 ```
 v@Cd = vertex(1,"Cd", @vtxnum)
 ```

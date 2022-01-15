@@ -1,6 +1,6 @@
 ---
 title: Rendering
-description: Rendering
+description: Rasterization, Path Trace, MaterialX
 categories:
 - PXL
 tags:
@@ -11,7 +11,7 @@ tags:
 - Shaders
 permalink: /rendering/
 ---
-
+[Material data](/matdata/)
 
 # Rendering
 *Defered* - more lights is ok    
@@ -23,6 +23,8 @@ permalink: /rendering/
 [Unreal Material](/umat/)   
 Book :  Phisical based rendering From theory to implementatnio
 
+[Karma](/karma/)  
+[LOP](/lop/)  
 
 # Rasterization
 
@@ -56,13 +58,22 @@ Full indirect illum :  Recursively evaluate hemisphere of multiple rays of each 
 # Shaders
 
 
+
+Each thread is not just blind but also memoryless.
+Shader Language has a single main function that returns a color at the end.
+
+
 ## Shader Rendering
 reflect refract & scatter ...  
-`BRDF` - bidirectional reflection distribution fn.     
+- `BRDF` - bidirectional reflection distribution fn.     
 hemisphere for mat / and directional spike for reflective. More blurry reflection more direction samples > longer rendering
-`BTDF` - transmission (reflective + (refracted + iro)) (so dielectric render slower ) (transmitted scattering distribution (distribution is every time medium is changed )   
-`BSSRDF` -Sub Surface Scattering. Diffuse is SS on tiny area !!!!!!!!!   
-`BSDF` - bidirectional scattering.
+- `BTDF` - transmission (reflective + (refracted + iro)) (so dielectric render slower ) (transmitted scattering distribution (distribution is every time medium is changed )   
+- `BSSRDF` -Sub Surface Scattering. Diffuse is SS on tiny area !!!!!!!!!   
+- `BSDF` - bidirectional scattering.
+
+Materialx
+- `EDF` - Materialx Emission
+- `VDF` - Materialx Scatter in Volume
 
 ## Vertex Shader (VS)   
 
@@ -112,8 +123,7 @@ Refl + refr >> have fresnel.
 
 http://filmicworlds.com/blog/everything-has-fresnel/
 
-
-
+ https://www.pbr-book.org/3ed-2018/contents
 
 
 
@@ -130,20 +140,8 @@ dome light - `hdri light`
 
 
 
-Each thread is not just blind but also memoryless.
-Shader Language has a single main function that returns a color at the end.
 
 
-
-# UE
-
- Gi
- ddgi -dynamic direct gi -  proby
-
- https://www.youtube.com/watch?v=ZefvmV1pdP8&t=121s
-
-
- https://www.pbr-book.org/3ed-2018/contents
 
  -----------------
 

@@ -306,7 +306,7 @@ https://www.youtube.com/watch?v=tAE2H5qJ8A8
 - laterral and vertical offset for framing
 - fov
 
-
+https://www.theastronauts.com/2019/04/the-secrets-of-fov/
 
 ####  FPS
 simple

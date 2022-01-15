@@ -132,7 +132,8 @@ How ideas, mood, and story are expressed through visual form
 
 [Level Design](/leveldesign/)  / Scene / stage design / [Lore](/lore/)
 
-
+Required deductive resoning, - connect details to create story. Investigative and archeological skils.
+ - (piano in the kitchen > hole > music room upstairs)
 
 
 ## Emergent

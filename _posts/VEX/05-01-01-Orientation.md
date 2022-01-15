@@ -13,7 +13,7 @@ permalink: /orient/
 [Coords](/coords/)   
 
 
-
+https://qiita.com/kit2cuz/items/55be3f432783fc979b16
 <!-- more -->
 
 https://vfxbrain.wordpress.com/2018/12/04/using-orient-attribute-with-instances/
@@ -85,7 +85,7 @@ Rotation types:
 - @orient (Quaternion)   
 
 
-## orient
+## Orient
 
 **Rotate Individual Points**
 ```cpp
@@ -96,6 +96,23 @@ vector up = chv('up');
 matrix3 m = maketransform(@N, v@up);
 rotate(m, angle, axis);  
 @orient = quaternion(m);
+```
+
+```cpp
+// create an axis and an up vector.
+// The axis will represent the Z direction of the final matrix
+vector axis = {0,0,1};
+vector up   = normalize(@P);
+
+// build a vector for each axis, then build a matrix out of it.
+// I may be normalizing a bit much here, but it cant hurt.
+vector zaxis = axis;
+vector xaxis = normalize(cross(up, axis));
+vector yaxis = normalize(cross(axis, xaxis));
+matrix3 default = set(xaxis, yaxis, zaxis);
+
+// create the orient quaternion as a point attribute
+p@orient = quaternion(default);
 ```
 
 ## matrix3

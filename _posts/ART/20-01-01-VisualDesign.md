@@ -11,7 +11,7 @@ permalink: /graphicdesign/
 ---
  energy is primary, Form must follow
 
-
+organize for perception
  Approach to [Art](/art/) note.  
 
 # Elements & Principles
@@ -40,6 +40,12 @@ permalink: /graphicdesign/
  |  |  **Repetition** | Similar elements in **Sequence**. Create **Rhythm** or **Pattern**. **Pacing**, interlock (one into other), echoes
  |  |  **Unity** | all elements together create **Harmony**
  |  |  **Variety** | hold viewer attention
+
+
+  contrast repetition aligmnet poximity
+
+
+
 
 ##### Vitruvian triad
 Sustainable, Beneficial, Attractive
@@ -212,6 +218,16 @@ people paried kiki to sharp and nice B sound of buba to smooth.
 four causes are, of course, the material, formal, final, and efficient causes.
 The four causes signify ways in which a thing is indebted for its existence.
 
+
+## Book about comix  McCloudian
+Pictorial Vocabulary of any visual art:
+
+move to design or sth:
+McCloudian ideas that you can ponder for eternity is his diagram of “The Picture Plane.” T
+Triangle of Representation -lends a non-linear sliding scale of representation that might be used to assign values to an image.
+- `The Picture Plane` (Abstract art)
+- `Reality` (Real life. Photographs. Cinema. Representational art)
+- `Language` (Logos. Text. Symbol. Icon)
 
 ---
 # UX/UI

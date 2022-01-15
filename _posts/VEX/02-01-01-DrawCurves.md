@@ -36,6 +36,18 @@ for (int n=0; n<numberOfPoints; n++){
     }
  ```
 
+
+`y = 0` - Constant x
+`y = x` - Linear
+`y = pow(2,x)`  - Exponential, these functions grow very rapidly. y = pow(M_E, x); y = exp(x);
+`y = pow(x,2)` - Quadratic, same as: y = x*x;
+`y = pow(x,3) ` - Cubic, same as: y = x*x*x;
+`y = 1.0/x ` - Reciprocal, with x in the denominator this will produce asymptotes at the axis
+`y = log(x)` - Logarithmic, rate of growth diminishes over time
+`y = sqrt(x) `  - Square Root, same as: y = pow(x,0.5);
+
+
+
 ### Circle  
 
 ```cpp

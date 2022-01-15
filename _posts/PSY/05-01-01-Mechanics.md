@@ -219,6 +219,10 @@ https://youtu.be/F_1YcCcBVfY
 [old prospect](https://gamebalanceconcepts.wordpress.com/)
 [YT GDC 2018 Power Curve ](https://youtu.be/ul1MSQ8aW00)
 
+
+###  Grim Dice
+ Deices that beat each other in circle - highest number win
+
 ### Numeric relationship Between Resources
 linear and identity
 triangular  and polinomial
