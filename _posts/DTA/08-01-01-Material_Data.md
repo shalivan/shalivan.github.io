@@ -17,11 +17,9 @@ permalink: /matdata/
 
 ----
 
-# PBR
 
-Material models:  
-- Metallic  - unreal
-- Specular setups
+
+
 
 
 ## Albedo
@@ -50,6 +48,9 @@ Ocean Ice | 0.56 | 0.5–0.7
 
 
 ## Spec / Refraction
+
+Everything has fresnel and reflections !
+http://filmicworlds.com/blog/everything-has-fresnel/
 
 
 Mat | specular U4 | Index of Refraction (IOR) |  
@@ -82,6 +83,12 @@ Mat |  |
 -- | -- |
 Conductors | 1  
 Dielectrics | 0
+
+- **Conductors** Spec and glossy refl, in conductors typicaly metlas. dep on wave len (yellow gold) (reflect most light and turn non reflected into heat)
+- **Dielectrics** - (BTDF shader ie) reflected and refracted (IOR,bend ing rays on medium change) sometimes scatter (as subsurf) and flat ss is difuse
+`Conductors` - (tyupicly reflect depend on wave leng. give color)  
+`Dielectrics` - (refl + refract + scatter refracted (subsurf but rather difuse ))   
+Refl + refr >> have fresnel.
 
 
 ## Roughness
