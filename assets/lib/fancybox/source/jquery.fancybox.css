@@ -99,7 +99,7 @@
 
 .fancybox-close {
 	position: absolute;
-	top: 48px;  /*              !!!!!!!!! tu zmieniłem z -18*/
+	top: -48px;  /*              !!!!!!!!! tu zmieniłem z -18*/
 	right: -18px;
 	width: 36px;
 	height: 36px;
