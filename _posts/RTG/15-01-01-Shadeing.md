@@ -1,5 +1,5 @@
 ---
-title: Materials
+title: Shaders
 description: PBR, MaterialX, Unreal
 categories:
  - PXL
@@ -24,22 +24,24 @@ Material models:
 - Metallic  - unreal
 - Specular setups
 
-https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/
+https://seblagarde.wordpress.com/2011/08/17/feeding-a-physical-based-lighting-mode/   
+ https://www.pbr-book.org/3ed-2018/contents    
+https://marmoset.co/posts/physically-based-rendering-and-you-can-too/  
 
-https://marmoset.co/posts/physically-based-rendering-and-you-can-too/
+
 ----
 
 # MaterialX
 
 Layers Horizontal and vertical:
 
-||  |
-|-- | -- |
-Transparency | Specular reflection (coating)
-Emission Additive | Specular reflection
-Specular reflection (metal) | Specular reflection
-Specular transmision | Specular retro-reflection (sheen)
-Diffuse reflection / transmision / sss
+| | |
+| -- | -- |
+|Transparency | Specular reflection (coating)
+|Emission Additive | Specular reflection
+|Specular reflection (metal) | Specular reflection
+|Specular transmision | Specular retro-reflection (sheen)
+|Diffuse reflection / transmision / sss
 
 surface/volume/light/displace
 
@@ -62,7 +64,7 @@ surface/volume/light/displace
 - `Dielectric`
   - D = ddx/beckman
   - G = height corelated smith
-  - F = dielectric | schlick  
+  - F = dielectric / schlick  
 - `Generalized Schlick`
 - `Thin Film`
 - `sheen` - cloths
@@ -70,7 +72,12 @@ surface/volume/light/displace
 
 ###### Basic
 - `mtlx Usd Prim Var Reader` - bind attribs / get attrib
+
+
+###### Math
 - `mtlx Const` - value
+- `mtlx Multiply`
+- `mtlx Remap` -
 
 ###### Noise
 litle limited  
@@ -81,9 +88,11 @@ litle limited
 
 ###### Texture
 - `mtlx Image` - Load texture
+- `mtlx Tiled Image` - Load texture
 - `mtlx Image` > `mtlx Normal Map`- Load nm texture
 
-
+###### UV
+- `mtlx Triplanar Projection`
 ...
 
  - Displacement: - `Collect` node - can plug in mtlx in  `mtlx image` > `mtlx remap` Color FA > `mtlx displacement`
@@ -151,7 +160,7 @@ To use this feature, enable Burley in the Subsurface Profile and set the Editor 
 ----
 
 
-# Decals
+## Decals
 
 There are 11 blend modes that decals can use:
 
@@ -170,7 +179,7 @@ There are 11 blend modes that decals can use:
 - DBuffer Translucent Roughness - This will only use the Roughness and Opacity to work with baked lighting.
 
 
-# Nodes
+## Nodes
 
 - `camera vector` is to given vector (observatiion vector)
 - `camera direction` is same dir
@@ -178,7 +187,7 @@ There are 11 blend modes that decals can use:
 ----
 
 
-# Features
+## Features
 ###### Motion Vectors
 
 https://www.sidefx.com/tutorials/create-motion-vectors-for-time-warping-image-sequences/

@@ -1,6 +1,6 @@
 ---
 title: Rendering
-description: Rasterization, Path Trace, MaterialX
+description: Rasterization, Path Trace,
 categories:
 - PXL
 tags:
@@ -25,6 +25,9 @@ Book :  Phisical based rendering From theory to implementatnio
 
 [Karma](/karma/)  
 [LOP](/lop/)  
+
+hlsl
+glsl
 
 # Rasterization
 
@@ -59,9 +62,9 @@ Full indirect illum :  Recursively evaluate hemisphere of multiple rays of each 
 
 
 
-Each thread is not just blind but also memoryless.
-Shader Language has a single main function that returns a color at the end.
-
+Each thread is not just blind but also memoryless.  
+Shader Language has a single main function that returns a color at the end.  
+https://interplayoflight.wordpress.com/2021/04/18/how-to-read-shader-assembly/
 
 ## Shader Rendering
 reflect refract & scatter ...  
@@ -70,6 +73,8 @@ hemisphere for mat / and directional spike for reflective. More blurry reflectio
 - `BTDF` - transmission (reflective + (refracted + iro)) (so dielectric render slower ) (transmitted scattering distribution (distribution is every time medium is changed )   
 - `BSSRDF` -Sub Surface Scattering. Diffuse is SS on tiny area !!!!!!!!!   
 - `BSDF` - bidirectional scattering.
+
+...
 
 Materialx
 - `EDF` - Materialx Emission
@@ -99,48 +104,18 @@ Mesh Shaders
 ## Task Shader
  call based of cam frustrum   
 
-# Mateirals
-
-everything has fresnel
-## Materials
-
-- **Subsurface** (BSSRDF) -
-- **Conductors** Spec and glossy refl, in conductors typicaly metlas. dep on wave len (yellow gold) (reflect most light and turn non reflected into heat)
-- **Dielectrics** - (BTDF shader ie) reflected and refracted (IOR,bend ing rays on medium change) sometimes scatter (as subsurf) and flat ss is difuse
-(BSDF) -
-Fresnel effect in reflections.
 
 
 
 
-
-## Material (ray tr ?)
-
-###
-`Conductors` - (tyupicly reflect depend on wave leng. give color)  
-`Dielectrics` - (refl + refract + scatter refracted (subsurf but rather difuse ))   
-Refl + refr >> have fresnel.
-
-http://filmicworlds.com/blog/everything-has-fresnel/
-
- https://www.pbr-book.org/3ed-2018/contents
+## Camera shaders
 
 
-
-### Camera simulation
-
-
-### Light
+## Light shaders
 `CRI` color rendering index  
 if iluminated point id to 5x dist from light we can aprox as point light
 directional aprox to (rownolegle)
 dome light - `hdri light`
-
-
-
-
-
-
 
 
  -----------------
@@ -151,6 +126,3 @@ dome light - `hdri light`
 
  sampling is costly    
  combinig textures to one help with streaming  
-
- ### assembly
- https://interplayoflight.wordpress.com/2021/04/18/how-to-read-shader-assembly/
