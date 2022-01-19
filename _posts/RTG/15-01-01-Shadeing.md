@@ -43,18 +43,28 @@ Layers Horizontal and vertical:
 |Specular transmision | Specular retro-reflection (sheen)
 |Diffuse reflection / transmision / sss
 
-surface/volume/light/displace
 
 ## Workflow
 
-##### normal
+### Material Standard
+
+
+<img src="/src\hou\mat/matx2.png" width="600">  
+
+###### Mat Nodes
+
 - `mtlx Material Standard Surface` - use like default material
 - `collect node` - pipe at the end and check orange flag as output
 
-##### packed with surface costam...
+### Surface packed
 
+<img src="/src\hou\mat/matx1.png" width="600">
+
+
+surface/volume/light/displace
 
 ###### BRDF Nodes
+
 - `Oren-Nayar` - _diffuse_brdf_
 - `Disney Principled BRDF`  - _burley_diffuse_brdf_
 - `Conductor BRDF` - artistic friendly Metalic fresnel (energy compensation for multiple microfacet bounces)
@@ -69,6 +79,7 @@ surface/volume/light/displace
 - `Thin Film`
 - `sheen` - cloths
 
+---
 
 ###### Basic
 - `mtlx Usd Prim Var Reader` - bind attribs / get attrib
@@ -80,7 +91,6 @@ surface/volume/light/displace
 - `mtlx Remap` -
 
 ###### Noise
-litle limited  
 - `mtlx Fractal 3d` - noise
 - `cellnoise 3d `
 - `noise 3d`
@@ -107,31 +117,26 @@ litle limited
 
 ## Options
 
-#### Blend models
 
-|Lighting Mode | |   Usage|
+|Blend models | |   Usage|
 |-- | -- | -- |
 |alpha composite
 | alpha holdcut
 
-#### Shading models
-
-|Lighting Mode | |   Usage|
+|Shading models | |   Usage|
 |-- | -- | -- |
-|lit / unlit
+|Lit / Unlit
 **Sss** |
 **Preintegrated Skin**|   cheaper to render than the Sss method |
 **Subsurface Profile** | higher-end skin rendering |
-**2SidedFoliage+** | |  simulate transmision, for cloths (non solid materials)
+**2 Sided Foliage** | |  simulate transmision, for cloths (non solid materials)
 **Hair** | | multiple specular highlights: 1) color of light, 2) mix of hair and light color.
-**cloth** | | "fuzz" layer
+**Cloth** | | "fuzz" layer
 **Single Layer Water** | | translucent in opaque mode
 **Thin Translucent** | | colored glass (background) white specular highlight and the tinted background are needed
 
 
-#### Translucency
-
-Lighting Mode | Ps/Vs | Cost |  Usage|
+Translucency Mode | Ps/Vs | Cost |  Usage|
 -- | -- | -- | -- |
 Volume Non Directional| pixel | cheapest pixel|
 Volume Directional | pixel ||

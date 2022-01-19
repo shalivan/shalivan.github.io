@@ -10,6 +10,25 @@ permalink: /cook_spices/
 
 
 # Spices
+Main role to providde aroma. (smell not taste)
+
+flavor = aroma + taste = but only 5 test and nose can trilion types of aromas in low quantities.  Top (most volatile) middle nad base aromas. that can talk to odore receptors.
+theyare volatile - change when exposed to light air and heat   
+
+
+fresh basil
+dry basil loose all top notes. (not for pesto).
+
+**roast spieces**: (toast)
+- alter top notes (most volatile)
+- mellow middle and bottom notes.
+- create new aromas due to browning and grinding.
+
+**blooming** - (cooking in oil)
+- will refine blend and be more subtle, and cohesive   
+vs. add at end of cooking (individual spices stand out)
+
+
 
 |Spiece|Cousine|Application|teste|
 |-|-|-|-|
