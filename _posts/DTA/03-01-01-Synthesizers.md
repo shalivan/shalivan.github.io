@@ -1,6 +1,6 @@
 ---
-title: Synths
-description: ♫ Data 𝅗𝅥  𝅘𝅥𝅮    𝄞    𝅎
+title: ♪ Synths
+description: ♫ Data 𝅗𝅥  𝅘𝅥𝅮  𝅘𝅥𝅰  𝄞    𝅎
 categories:
  - DTA
 tags:
