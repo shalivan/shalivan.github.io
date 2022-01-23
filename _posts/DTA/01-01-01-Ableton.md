@@ -1,5 +1,5 @@
 ---
-title: Ableton
+title: ♪ Ableton
 description: Audio engine
 categories:
  - DTA

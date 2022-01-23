@@ -1,5 +1,5 @@
 ---
-title: Circuit Tracks
+title: ♪ Circuit
 description: Configs, Patch Editor  
 categories:
  - DTA

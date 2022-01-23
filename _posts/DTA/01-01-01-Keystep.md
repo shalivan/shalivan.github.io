@@ -1,5 +1,5 @@
 ---
-title: Arturia Keystep
+title: ♪ Arturia Keystep
 description: Configs
 categories:
  - DTA
