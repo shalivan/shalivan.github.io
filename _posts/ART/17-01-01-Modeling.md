@@ -9,43 +9,47 @@ permalink: /modeling/
 ---
 
 
-.
 
 
-
-
-find a sweetspot of detail 
 
 
 # Basics
-- General meshes with equal triangles behave better: rendering performance (overdraw) / simulations (`Delanunay` max minimal angle (tend to 60) ! - smoothes interpolation but less approximation of surface when long trix better define edges)
-- 4k normal map at 80% UV usage can contain normal data from ~13.5m triangles at a density of one triangle per pixel.
-- scale is important
-- zastosowanie. games/subdivs.
-
-   as much u can go be procedural to can fix
-
-
-   Density of details
-   3 poziomy density
-
-sense of scale - 3d tend to minimize things > no sense of scale
-
-# Asset workflow:
-
-        Create library:
-        - library files
-        - asset files
 
 
 
+## Uniformize
+- Scale  / orientation / time/fremes -
+- Texel density
+- Detail Density sweet spot / 3 poziomy density
+[Pipelines](/pipes/)   
+[Resolutions](/res/)    
+
+## Workflows
+
+- Procedural stuff for variations easly  [Procedural](/procedural/)      
+- mesh wire -  games/subdivs.
+-  how to textures
+    1. Baked -
+    2. Generic + detial, repeat - for large assets / can blow up texture calls
+- meterial workflow
+    - procedural repeates / reuse
+
+
+   
 
 # Common problems
 - parts for bake and uvs overlaps
-- symerites
+- symmetries
 /material ID bake
 - pivots        
+- General meshes with equal triangles behave better: rendering performance (overdraw) / simulations (`Delanunay` max minimal angle (tend to 60) ! - smoothes interpolation but less approximation of surface when long trix better define edges)
+
 ---        
+
+
+[SOP](/sop/)   
+[LAB](/lab/)   
+
 # Hard surface
 
 ## Props
@@ -53,9 +57,8 @@ sense of scale - 3d tend to minimize things > no sense of scale
     - barnacling small things around,
     - footing - awareness of  intersecting,
     - greebling materialing
-
+    - sense of scale - 3d tend to minimize things > no sense of scale
 ---
-
 
 # Fabric
 Best simulated
@@ -67,9 +70,6 @@ Best simulated
 - **uv**
 - uv for high. bake by uv
 - make uvs straight for simulation and texturing (the direction of the fibers)
-
-
-
 
 
 
