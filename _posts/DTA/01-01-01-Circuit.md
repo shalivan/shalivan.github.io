@@ -96,63 +96,21 @@ restricted to the Pattern length. Steps outside the Pattern length will be uncha
 right white knefels to more effect cutoff taki  
 
 
-|PRESET| DELAY TYPE|
-|---|---|
-1|Small Chamber
-2 |Small Room 1
-3 |Small Room 2
-4 |Large Room
-5 |Hall
-6 |Large Hall
-7 |Hall – long reflection
-8 |Large Hall – long reflection
+Delay:
 
-.
+|Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection|
 
-|PRESET| DELAY TYPE| MUSICAL DESCRIPTION|
-|---|---|---|
-1 | Slapback Fast | Very rapid repeats
-2 | Slapback Slow | Rapid repeats
-3 | 32nd Triplets | 48 cycles per bar
-4 | 32nd | 32 cycles per bar
-5 | 16th Triplets | 24 cycles per bar
-6 | 16th | 16 cycles per bar
-7 | 16th Ping Pong|  16 cycles per bar
-8 | 16th Ping Pong Swung | 16 cycles per bar with swing
-
-|PRESET| DELAY TYPE| MUSICAL DESCRIPTION|
-|---|---|---|
-9 | 8th Triplets | 12 cycles per bar
-10|  8th dotted Ping Pong | 8 cycles per 3 beats with Stereo Spread
-11 | 8th | 8 cycles per bar
-12 | 8th Ping Pong | 8 cycles per bar
-13 | 8th Ping Pong Swung | 8 cycles per bar with swing
-14 | 4th Triplets|  6 cycles per bar
-15 | 4th dotted Ping Pong Swung | 4 cycles per 3 bars with swing
-16 | 4th Triplets Ping Pong Wide | 6 cycles per bar
-
--------------------------================
-
-
-|Delay| |||||||
-|---|---|---|---|---|---|---|---|
-Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection
-
-
-Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection
-
-Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection
-|---|---|---|---|---|---|---|---|
-
-
-Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection
-|---|---|---|---|---|---|---|---|
-|.
 
 |Reverb| |||||||
 |---|---|---|---|---|---|---|---|
+Slapback Fast (**V fast**)| Slapback Slow (**fast**) | 32nd Triplets (**48**) | 32nd (**32**)| 16th Triplets (**24**)| 16th (**16**)| 16th Ping Pong (**16**) | 16th Ping Pong Swung (**16 + swing**)
+8th Triplets (**12**) |  8th dotted Ping Pong (**8 +3 beats with Stereo Spread**) |8th (**8**) | 8th Ping Pong  (**8**) |8th Ping Pong Swung  (**8 with swing**) | 4th Triplets  (**6**) |4th dotted Ping Pong Swung  (**4 +3 with swing**) | 4th Triplets Ping Pong Wide (**6**)
+
+
 Slapback Fast (V fast)| Slapback Slow (fast)) | 32nd Triplets (48) | 32nd (32)| 16th Triplets (24)| 16th (16)| 16th Ping Pong (16) | 16th Ping Pong Swung (16 + swing)
 8th Triplets (12) |  8th dotted Ping Pong (8 +3 beats with Stereo Spread) |8th (8) | 8th Ping Pong  (8) |8th Ping Pong Swung  (8 with swing) | 4th Triplets  (6) |4th dotted Ping Pong Swung  (4 +3 with swing) | 4th Triplets Ping Pong Wide (6)
+
+
 
 ### Notes
 ### Gate
