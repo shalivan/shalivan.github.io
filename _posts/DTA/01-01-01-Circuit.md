@@ -24,15 +24,147 @@ https://isotonikstudios.com/wp-content/uploads/Circuit-Editor-Manual-ShiftSynth1
 
 
 
-https://www.youtube.com/watch?v=t9-nFVj468o  
-https://www.youtube.com/watch?v=4_ggryrYdwc&t=129s    
-https://youtu.be/3orEPK4h5yo  
+
 
 # PC
 .sys /.sysex  -  drum samples / patch  
 .circuitpack  - whole pack  
 midi device on windows:  
 
+
+# Circuit Tracks
+
+
+**Setup View** -  `Shift` + `Save`
+
+**Advanced Setup View** - `Shift` while `powering on`  
+ - 2 MIDI Out enable:  Duplicate button is green
+ - Enable compressor FX button is green
+ - note:  Easy Start Tool  
+
+
+
+**Bootloader Mode** - Hold down the `Scales` , `Preset` and `Note`
+- Synth 1 and Synth 2 are lit; selecting either of these displays a pattern of illuminated pads; the
+pattern represents the version numbers of the three firmware elements in binary form. You may need
+to describe these patterns to Novation’s Technical Support Team in the event of a problem.
+
+
+**Save Lock** - `Shift` + `Save`  while `powering on`.
+
+[Circuit OG manual ](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/novation/downloads/10690/circuit-ug-en_0.pdf)
+
+
+---
+
+### Scales
+
+**Root Note** - niebieski u góry  
+
+
+
+
+| <img src="/src/music/scales/patterns/NaturlMinor.png" width="200">| <img src="/src/music/scales/patterns/Major.png" width="200">| <img src="/src/music/scales/patterns/Dorian.png" width="200"> |  <img src="/src/music/scales/patterns/Phrygian.png" width="200">  | <img src="/src/music/scales/patterns/Mixolyduan.png" width="200"> |<img src="/src/music/scales/patterns/MelodicMinor.png" width="200">     |<img src="/src/music/scales/patterns/HarmonicMinor.png" width="200">    |<img src="/src/music/scales/patterns/BebopDorian.png" width="200">
+|---|---|---|---|---|---|---|---|
+|**17** Natural Minor |**18** Major |**19** Dorian |**20** Phrygian |**21** Mixolyduan  | **22** Melodic Minor| **23**  Harmonic Minor | **24** Bebop Dorian |
+<img src="/src/music/scales/patterns/Blues.png" width="200">   |<img src="/src/music/scales/patterns/MinorPenatotonic.png" width="200">  |<img src="/src/music/scales/patterns/HungarianMinor.png" width="200">|<img src="/src/music/scales/patterns/UkraninianDorian.png" width="200">  | <img src="/src/music/scales/patterns/Marva.png" width="200"> ||  <img src="/src/music/scales/patterns/WholeTone.png" width="200"> |
+**25**   Blues  (6)| **26**  Minor Penatotonic  (6)| **27** Hungarian Minor | **28** Ukraninian Dorian| **29**  Marva|**30**  Todi |**31** Whole Tone  (6) |**32**  Chromatic (12 keys)
+
+
+### Pattern Settings & Probability
+
+ multiplier/divider of the BPM
+ 1/16 is the default sync rate, where each step corresponds to a 16th note.
+
+|1/4| |halfstep||1:1||2x||
+|---|---|---|---|---|---|---|---|
+1/4| 1/4 T |1/8| 1/8 T |1/16 |1/16 T| 1/32| 1/32 T
+
+-  length - Dlugosc sekwncji  (ilość nut)  
+
+
+-  nudge -  Cały pattern do przodu albo do tylu  Remember that when using Nudge with Patterns of less than 16 steps, the effect of Nudge is
+restricted to the Pattern length. Steps outside the Pattern length will be unchanged.
+
+
+
+###  FX
+-  delay -{up}, reverbs - {bottom}   (global)  
+
+ side chain
+-  on sustain things . will react to drum 1
+right white knefels to more effect cutoff taki  
+
+
+|PRESET| DELAY TYPE|
+|---|---|
+1|Small Chamber
+2 |Small Room 1
+3 |Small Room 2
+4 |Large Room
+5 |Hall
+6 |Large Hall
+7 |Hall – long reflection
+8 |Large Hall – long reflection
+
+.
+
+|PRESET| DELAY TYPE| MUSICAL DESCRIPTION|
+|---|---|---|
+1 | Slapback Fast | Very rapid repeats
+2 | Slapback Slow | Rapid repeats
+3 | 32nd Triplets | 48 cycles per bar
+4 | 32nd | 32 cycles per bar
+5 | 16th Triplets | 24 cycles per bar
+6 | 16th | 16 cycles per bar
+7 | 16th Ping Pong|  16 cycles per bar
+8 | 16th Ping Pong Swung | 16 cycles per bar with swing
+
+|PRESET| DELAY TYPE| MUSICAL DESCRIPTION|
+|---|---|---|
+9 | 8th Triplets | 12 cycles per bar
+10|  8th dotted Ping Pong | 8 cycles per 3 beats with Stereo Spread
+11 | 8th | 8 cycles per bar
+12 | 8th Ping Pong | 8 cycles per bar
+13 | 8th Ping Pong Swung | 8 cycles per bar with swing
+14 | 4th Triplets|  6 cycles per bar
+15 | 4th dotted Ping Pong Swung | 4 cycles per 3 bars with swing
+16 | 4th Triplets Ping Pong Wide | 6 cycles per bar
+
+-------------------------================
+
+
+|Delay| |||||||
+|---|---|---|---|---|---|---|---|
+Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection
+
+|Reverb| |||||||
+|---|---|---|---|---|---|---|---|
+Slapback Fast (V fast)| Slapback Slow (fast)) | 32nd Triplets (48) | 32nd (32)| 16th Triplets (24)| 16th (16)| 16th Ping Pong (16) | 16th Ping Pong Swung (16 + swing)
+8th Triplets (12) |  8th dotted Ping Pong (8 +3 beats with Stereo Spread) |8th (8) | 8th Ping Pong  (8) |8th Ping Pong Swung  (8 with swing) | 4th Triplets  (6) |4th dotted Ping Pong Swung  (4 +3 with swing) | 4th Triplets Ping Pong Wide (6)
+
+### Notes
+### Gate
+### Velocity
+(how hard is press) nie wszystkie mają głośność   Fixed Velocity is enabled by pressing Velocity 6 while holding down Shift 19 . Fixed Velocity
+is confrmed by the Velocity button illuminating white while Shift is held down
+
+
+### Pattern
+
+##### Lock View
+
+
+###  Mixer
+- Mute  
+
+##### Scenes
+, press and hold Shift: the Scene pads change colour to dim gold. Press a Scene
+pad (while still holding Shift) – it will light bright gold while pressed, indicating that Patterns are now
+assigned to it.
+
+
+# Circuit Rhythm
 
 ---
 
@@ -49,6 +181,9 @@ TT|TT|P|P|V|V|V|V
 
 # Patch Editor Software
 
+[YT link](https://www.youtube.com/watch?v=t9-nFVj468o)  
+[YT link](https://www.youtube.com/watch?v=4_ggryrYdwc&t=129s)    
+[YT link](https://youtu.be/3orEPK4h5yo)
 
 ## Oscillator
 - [ ] **Waveform** - wave shape
@@ -256,127 +391,6 @@ Performance:
 - Morph functions. Wavetable Positions, Oscillator A/B Ratio
 
 
-
-# Circuit Hardware
-
-
-**Setup View** -  `Shift` + `Save`
-
-**Advanced Setup View** - `Shift` while `powering on`  
- - 2 MIDI Out enable:  Duplicate button is green
- - Enable compressor FX button is green
- - note:  Easy Start Tool  
-
-**Save Lock** - `Shift` + `Save`  while `powering on`.
-
-
-**Bootloader Mode** - Hold down the `Scales` , `Preset` and `Note`
-
-Synth 1 and Synth 2 are lit; selecting either of these displays a pattern of illuminated pads; the
-pattern represents the version numbers of the three firmware elements in binary form. You may need
-to describe these patterns to Novation’s Technical Support Team in the event of a problem.
-
-https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/novation/downloads/10690/circuit-ug-en_0.pdf
-
-
----
-
-### Scales
-
-**Root Note** - niebieski u góry  
-
-
-
-
-||  |  | |||  | |
-|---|---|---|---|---|---|---|---|
-| <img src="/src/music/scales/patterns/NaturlMinor.png" width="200">| <img src="/src/music/scales/patterns/Major.png" width="200">| <img src="/src/music/scales/patterns/Dorian.png" width="200"> |  <img src="/src/music/scales/patterns/Phrygian.png" width="200">  | <img src="/src/music/scales/patterns/Mixolyduan.png" width="200"> |<img src="/src/music/scales/patterns/MelodicMinor.png" width="200">     |<img src="/src/music/scales/patterns/HarmonicMinor.png" width="200">    |<img src="/src/music/scales/patterns/BebopDorian.png" width="200">
-|**17** Natural Minor |**18** Major |**19** Dorian |**20** Phrygian |**21** Mixolyduan  | **22** Melodic Minor| **23**  Harmonic Minor | **24** Bebop Dorian |
-<img src="/src/music/scales/patterns/Blues.png" width="200">   |<img src="/src/music/scales/patterns/MinorPenatotonic.png" width="200">  |<img src="/src/music/scales/patterns/HungarianMinor.png" width="200">|<img src="/src/music/scales/patterns/UkraninianDorian.png" width="200">  | <img src="/src/music/scales/patterns/Marva.png" width="200"> ||  <img src="/src/music/scales/patterns/WholeTone.png" width="200"> |
-**25**   Blues  (6)| **26**  Minor Penatotonic  (6)| **27** Hungarian Minor | **28** Ukraninian Dorian| **29**  Marva|**30**  Todi |**31** Whole Tone  (6) |**32**  Chromatic (12 keys)
-
-
-
-
-### Notes
-- Play  
-
-### Gate
-  ile nut trwa dzwiek  
-
-### Velocity
-(how hard is press) nie wszystkie mają głośność   Fixed Velocity is enabled by pressing Velocity 6 while holding down Shift 19 . Fixed Velocity
-is confrmed by the Velocity button illuminating white while Shift is held down
-
-
-### Pattern settings / Probability
-
- multiplier/divider of the BPM
- 1/16 is the default sync rate, where each step corresponds to a 16th note.
-
-|1/4| |halfstep||1:1||2x||
-|---|---|---|---|---|---|---|---|
-1/4| 1/4 T |1/8| 1/8 T |1/16 |1/16 T| 1/32| 1/32 T
-
--  length - Dlugosc sekwncji  (ilość nut)  
-
-
--  nudge -  Cały pattern do przodu albo do tylu  Remember that when using Nudge with Patterns of less than 16 steps, the effect of Nudge is
-restricted to the Pattern length. Steps outside the Pattern length will be unchanged.
-
-### Pattern
-
-##### Lock View
-
-
-###  Mixer
-- Mute  
-
-##### Scenes
-, press and hold Shift: the Scene pads change colour to dim gold. Press a Scene
-pad (while still holding Shift) – it will light bright gold while pressed, indicating that Patterns are now
-assigned to it.
-
-
-###  FX
--  delay -{up}, reverbs - {bottom}   (global)  
-
- side chain
--  on sustain things . will react to drum 1
-right white knefels to more effect cutoff taki  
-
-
-|PRESET| DELAY TYPE|
-|---|---|
-1|Small Chamber
-2 |Small Room 1
-3 |Small Room 2
-4 |Large Room
-5 |Hall
-6 |Large Hall
-7 |Hall – long reflection
-8 |Large Hall – long reflection
-
-.
-
-|PRESET| DELAY TYPE| MUSICAL DESCRIPTION|
-|---|---|---|
-1 | Slapback Fast | Very rapid repeats
-2 | Slapback Slow | Rapid repeats
-3 | 32nd Triplets | 48 cycles per bar
-4 | 32nd | 32 cycles per bar
-5 | 16th Triplets | 24 cycles per bar
-6 | 16th | 16 cycles per bar
-7 | 16th Ping Pong|  16 cycles per bar
-8 | 16th Ping Pong Swung | 16 cycles per bar with swing
-9 | 8th Triplets | 12 cycles per bar
-10|  8th dotted Ping Pong | 8 cycles per 3 beats with Stereo Spread
-11 | 8th | 8 cycles per bar
-12 | 8th Ping Pong | 8 cycles per bar
-13 | 8th Ping Pong Swung | 8 cycles per bar with swing
-14 | 4th Triplets|  6 cycles per bar
-15 | 4th dotted Ping Pong Swung | 4 cycles per 3 bars with swing
-16 | 4th Triplets Ping Pong Wide | 6 cycles per bar
 
 
 ---
