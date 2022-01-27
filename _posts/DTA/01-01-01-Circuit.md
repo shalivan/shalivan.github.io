@@ -12,28 +12,11 @@ permalink: /circuit/
 
 
 
-https://customer.novationmusic.com/en/my-hardware
-
-
-https://isotonikstudios.com/wp-content/uploads/Circuit-Editor-Manual-ShiftSynth1.pdf
-
-2 mininova oscillator engines. Circuit is not FM  synth. It does analog modeling  and wavetable synthesis.
-
 [Music](/music/)  
 [Synth](/synth/)  
 
 
-
-
-
-# PC
-.sys /.sysex  -  drum samples / patch  
-.circuitpack  - whole pack  
-midi device on windows:  
-
-
 # Circuit Tracks
-
 
 **Setup View** -  `Shift` + `Save`
 
@@ -42,18 +25,14 @@ midi device on windows:
  - Enable compressor FX button is green
  - note:  Easy Start Tool  
 
-
-
 **Bootloader Mode** - Hold down the `Scales` , `Preset` and `Note`
 - Synth 1 and Synth 2 are lit; selecting either of these displays a pattern of illuminated pads; the
 pattern represents the version numbers of the three firmware elements in binary form. You may need
 to describe these patterns to Novation’s Technical Support Team in the event of a problem.
 
-
 **Save Lock** - `Shift` + `Save`  while `powering on`.
 
 [Circuit OG manual ](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/novation/downloads/10690/circuit-ug-en_0.pdf)
-
 
 ---
 
@@ -130,16 +109,28 @@ assigned to it.
 
 ---
 
-#  Components
 
-Samples workflow: 
+
+# PC
+.sys /.sysex  -  drum samples / patch  
+.circuitpack  - whole pack  
+midi device on windows:  
+
+
+
+#  [Components](https://components.novationmusic.com/)
+
+Samples workflow:
 
 KK | KK | SD | SD | CH | CH | OH | OH
 TT|TT|P|P|V|V|V|V
 
 
 
-# Patch Editor Software
+# Synth Engines
+
+2 mininova oscillator engines. Circuit is not FM  synth. It does analog modeling  and wavetable synthesis.
+
 
 [YT link](https://www.youtube.com/watch?v=t9-nFVj468o)  
 [YT link](https://www.youtube.com/watch?v=4_ggryrYdwc&t=129s)    
@@ -460,8 +451,8 @@ https://ledgernote.com/blog/interesting/musical-key-characteristics-emotions/
 
 http://www.gradfree.com/kevin/some_theory_on_musical_keys.htm
 
-
-
+[Isotonic manual](https://isotonikstudios.com/wp-content/uploads/Circuit-Editor-Manual-ShiftSynth1.pdf)
+[Novation login](https://customer.novationmusic.com/en/my-hardware)
 
 #### Samples
 
