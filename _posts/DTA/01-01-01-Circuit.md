@@ -76,9 +76,8 @@ to describe these patterns to Novation’s Technical Support Team in the event o
  multiplier/divider of the BPM
  1/16 is the default sync rate, where each step corresponds to a 16th note.
 
-|1/4| |halfstep||1:1||2x||
 |---|---|---|---|---|---|---|---|
-1/4| 1/4 T |1/8| 1/8 T |1/16 |1/16 T| 1/32| 1/32 T
+1/4| 1/4 T |1/8 (**halfstep**) | 1/8 T |1/16 |1/16 T| 1/32 (**2x**)| 1/32 T
 
 -  length - Dlugosc sekwncji  (ilość nut)  
 
@@ -100,16 +99,10 @@ Delay:
 
 |Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection|
 
+Reverb:
 
-|Reverb| |||||||
-|---|---|---|---|---|---|---|---|
 Slapback Fast (**V fast**)| Slapback Slow (**fast**) | 32nd Triplets (**48**) | 32nd (**32**)| 16th Triplets (**24**)| 16th (**16**)| 16th Ping Pong (**16**) | 16th Ping Pong Swung (**16 + swing**)
 8th Triplets (**12**) |  8th dotted Ping Pong (**8 +3 beats with Stereo Spread**) |8th (**8**) | 8th Ping Pong  (**8**) |8th Ping Pong Swung  (**8 with swing**) | 4th Triplets  (**6**) |4th dotted Ping Pong Swung  (**4 +3 with swing**) | 4th Triplets Ping Pong Wide (**6**)
-
-
-Slapback Fast (V fast)| Slapback Slow (fast)) | 32nd Triplets (48) | 32nd (32)| 16th Triplets (24)| 16th (16)| 16th Ping Pong (16) | 16th Ping Pong Swung (16 + swing)
-8th Triplets (12) |  8th dotted Ping Pong (8 +3 beats with Stereo Spread) |8th (8) | 8th Ping Pong  (8) |8th Ping Pong Swung  (8 with swing) | 4th Triplets  (6) |4th dotted Ping Pong Swung  (4 +3 with swing) | 4th Triplets Ping Pong Wide (6)
-
 
 
 ### Notes
@@ -139,10 +132,8 @@ assigned to it.
 
 #  Components
 
-Drums sample
+Samples workflow: 
 
-|||||||||
-|-|-|-|-|-|-|-|-|
 KK | KK | SD | SD | CH | CH | OH | OH
 TT|TT|P|P|V|V|V|V
 
