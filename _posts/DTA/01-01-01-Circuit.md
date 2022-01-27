@@ -138,6 +138,17 @@ right white knefels to more effect cutoff taki
 |---|---|---|---|---|---|---|---|
 Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection
 
+
+Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection
+
+Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection
+|---|---|---|---|---|---|---|---|
+
+
+Small Chamber|Small Room 1 |Small Room 2|Large Room |Hall|Large Hall| Hall – long reflection| Large Hall – long reflection
+|---|---|---|---|---|---|---|---|
+|.
+
 |Reverb| |||||||
 |---|---|---|---|---|---|---|---|
 Slapback Fast (V fast)| Slapback Slow (fast)) | 32nd Triplets (48) | 32nd (32)| 16th Triplets (24)| 16th (16)| 16th Ping Pong (16) | 16th Ping Pong Swung (16 + swing)
