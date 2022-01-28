@@ -14,12 +14,17 @@ permalink: /gametheory/
 
 ---
 
-TCG - traiding card games
+
 
 # Game Theory
-Mathematical study of optimizing agents strategies in games with more than one player where outcome depend on other agents actions. (payoff is affected by the decisions made by others)model as players are perfect  every agent must play with GT rules. (but its rational to behave time to time irrational)
+Mathematical modeling at strategic interaction between rational agents.
+ - action of one player influence other players (concept of strategic interdependence)
+- assumption that agents act rationally. (rational bah not always conform to reality)
 
 
+Players, strategy, payoff.    
+
+process:
 1. Make assumptions - thought process came from Assumptions. Can dispute, criticize ect... (Carefully with assumptions)
 2. Do math  - can not dispute
 3. Reach conclusion
@@ -124,7 +129,9 @@ You must commit but not sure what B will chose
 
 # Strategies
 
-
+#### Dominant strategy
+- best payoff no matter other players moves.
+ITS EXTENTION IS NASH EQQUILIBRIUM (and more)
 #### MinMax  
 - minmimize maximum lose. ensure you guarded by worst scenario. (use in zero sum)
 
@@ -192,17 +199,6 @@ Bargening dynamics get really complicated really quickly.
 | Costly signals of higher value |
 
 
-# War
-(international relations)
-- war inefficiency puzzle, preverntive war, preemptive war
-
-```
-r/K selection theory
- trade off between quantity and quality of offspring.
-r (left), K (right) strategies.
-```
-
-
 ---
 
 
@@ -213,33 +209,37 @@ r (left), K (right) strategies.
 
 
 #### Poisoner Dilemma
-number show years in jail if Cooperate or Defect
 
-||Cooperate|Defect |
+
+| | A Cooperate | A Defect |
 |--|--|--|
-**Cooperate**|-1, -1 |0 , -10
-**Defect** | -10, 0 | 5, 5
+**B Cooperate**| A 0 / B 0 | A 0 / B -2
+**B Defect** |  A  -2 / B 0 | A -1 / B -1
 
-Defect strategy dominate cooperate
-Better of Defecting regardless what other player does  
+For player A - Always defect to GTO ( Dominant strategy ) best outcome regardless what other player does.
+
+| | A Cooperate | A Defect |
+|--|--|--|
+**B Cooperate**| A 0  | **A 0**
+**B Defect** |  A  -2  | **A -1**
+
 
 #### Stag Hunt
 
-neither player deviate
+
 
 ||Stag|Rabbit|
 |--|--|--|
-**Stag**|3, 3 |  0 , 2
-**Rabbit** | 2, 0 | 1, 1
+**Stag**| **3, 3** |  0 , 2
+**Rabbit** | 2, 0 | **1, 1**
 
-Stag/Stag (pareto efficient) and Rabit/Rabit (pareto inefficient) are equilibrias.
-
-- if no lies
+if no lies / neither player deviate
+- Stag/Stag (**pareto efficient**)
+- Rabit/Rabit (**pareto inefficient**) are equilibria's.
 
 
 #### Matching Pennies
-Zero sum game.  No pure strategy nash equilibrium.  
-If no pure nash exist in mix strategies.  
+Zero sum game.  No pure strategy Nash equilibrium. - If no pure nash exist in mix strategies.  
 
 
 
@@ -269,19 +269,25 @@ A>B>C
 (1,2) - are nash
 
 
+-------
+
+combinatorial games      
+diferential games    
+TCG - traiding card games  
+
+
 
 ---
 
 # Poker
 
-
+a game of decision-making in the face of incomplete information.
 ## Basics
 
 
-### Betting rounds & Positions 
-|||||
-|-|-|-|-|
-|Button / Dealer | strongest - 50% opening range / button river betting range (only 57 combos) | **In position** (Act last)
+### Betting rounds & Positions
+|Button / Dealer | strongest - 50% opening range / button river betting range (only 57 combos) | **In position** (Act last)|
+|-|-|-|
 |Cutoff  |  second-best position in a hand of poker. |  Late Positions
 |HiJack
 |LoJack |Tide pairs and Figure + high||
@@ -292,11 +298,12 @@ A>B>C
 
 
 ### Moves
-Bet   
-Check   
-Fold    
-Call  
-Check-raise
+Bet - change   
+Check - stay in game, no change   
+Fold -   
+Call - answer to bet    
+Check-raise - The player who checked (in anticipation of others raise) then raises in the same round    
+Limp - Playing minimum bet when u  last to act.   
 
 ### Chips
 Chips to start: 20-40 BB for shallow tables to 250+ for deep game  
@@ -313,17 +320,15 @@ kombninatoryka wazna
 - relation of hands u have to opponent hand
 - your percived range. Whaty they expected u to have
 
+#### Combinatorics
+ranges / minimum defence frequency (MDF) /  correct frequencies for calling, folding, and raising (depending on bet size) / likelihood of your opponent holding specific hands
+169 different poker hands:  
+ Hand Range Charts
+
 ### GTO
 Game theory optimal - is not enough agressive. Optimize decisions and  build strategies to put opponents in place where they have hard time with optimization their decisions (look for weaknes).
 
 
-## Limping
-comon blind vs blind action
-Limper is calling in Big Blind
-
-Playing minimum bet when u  last to act.
-
-button klimpoing (specific)
 
 ## Tells
 - How much `Engagement` in cards
@@ -345,10 +350,26 @@ https://www.youtube.com/c/PrimerLearning/videos
 
 --
 
-# WAR
+
+
+# War
+(international relations)
+- war inefficiency puzzle
+- preventive war
+- preemptive war
 
 jak zapobiegać wojnie.
 - kraje handlujące ze sobą mniej wojen (world with trade consume more )
 - koszty
+
+
+# Bio 
+r/K selection theory
+ trade off between quantity and quality of offspring.
+r (left), K (right) strategies.
+
+
+---
+
 
 SOMETIMES: burning money help to increes payof !!!!!!!!!

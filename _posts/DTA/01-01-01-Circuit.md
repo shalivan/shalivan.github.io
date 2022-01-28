@@ -116,6 +116,9 @@ assigned to it.
 .circuitpack  - whole pack  
 midi device on windows:  
 
+[sysex](https://www.youtube.com/watch?v=K015Y7vyXSY)
+, [sysex](https://ask.audio/academy?nleloc=plans&sess_id=93k9934glhmdas5akrdulvqan0)
+, [sysex](https://ask.audio/academy?nleloc=watch/course/2055/novation-circuit-advanced-circuitry-/1&sess_id=93k9934glhmdas5akrdulvqan0)
 
 
 #  [Components](https://components.novationmusic.com/)
