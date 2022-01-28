@@ -272,6 +272,7 @@ a game of decision-making in the face of incomplete information.
 
 
 ### Betting rounds & Positions
+
 |Button / Dealer | strongest - 50% opening range / button river betting range (only 57 combos) | **In position** (Act last)|
 |-|-|-|
 |Cutoff  |  second-best position in a hand of poker. |  Late Positions
