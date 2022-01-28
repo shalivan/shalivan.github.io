@@ -185,23 +185,6 @@ while explorative strategy is significant in the long run only after new entry.
 #####  Jeopardy! Strategy
 
 
-
-# Bargaining
-Bargening dynamics get really complicated really quickly.
-
-
-| ||
-| ---| ---|
-| Proposal power |  make offers to the other side (accept/reject position not good)
-| Patience  | no needing a deal (**Tragedy of bargening**) 'rich get richer'
-| Outside options |
-| Monopoly | Unique quality
-| Knowledge | knowledge of the others sides minimum value dont know choose between lesser of two evils
-| Reputation|
-| Credible commitment | contracts good / black market bad
-| Costly signals of higher value |
-
-
 ---
 
 transitivity-in-game-theory
@@ -353,6 +336,23 @@ https://www.youtube.com/c/PrimerLearning/videos
 
 --
 
+
+# Bargaining
+Bargening dynamics get really complicated really quickly.
+
+
+| ||
+| ---| ---|
+| Proposal power |  make offers to the other side (accept/reject position not good)
+| Patience  | no needing a deal (**Tragedy of bargening**) 'rich get richer'
+| Outside options |
+| Monopoly | Unique quality
+| Knowledge | knowledge of the others sides minimum value dont know choose between lesser of two evils
+| Reputation|
+| Credible commitment | contracts good / black market bad
+| Costly signals of higher value |
+
+---
 
 
 # War
