@@ -1,6 +1,6 @@
 ---
 title: Game Theory
-description: Rules, Strategies
+description: Players, Strategy, Payoff.
 categories:
  - PSY
 tags:
@@ -363,7 +363,7 @@ jak zapobiegać wojnie.
 - koszty
 
 
-# Bio 
+# Bio
 r/K selection theory
  trade off between quantity and quality of offspring.
 r (left), K (right) strategies.
