@@ -1,5 +1,5 @@
 ---
-title: Unreal Animation
+title: U Animation
 description: RAW
 categories:
  - PXL
@@ -15,8 +15,7 @@ permalink: /uanimation/
 import: with skeleton - update skeleton reference pose - !!!!!!!!! important    
 [Houdini KineFX](/kfx/)      
 [Principles of animation](/animation/)     
-
-
+[Unreal Animation](/uanimation/)     
 
 ## Persona:
 - **Skeleton** `Skeleton Asset`  
@@ -124,7 +123,7 @@ in anim BP:
 https://www.youtube.com/watch?v=y2WzNvJZk0E
 
 ## Anim Dynamics (Secondary Motion)
-in component space.  but can wind interactions 
+in component space.  but can wind interactions
 Setup in BP Graph. Dynamic on a bone behaviour  
 
 - single bone dynamic - cheaper  

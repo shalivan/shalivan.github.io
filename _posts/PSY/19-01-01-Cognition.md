@@ -11,6 +11,10 @@ tags:
 description: States, Imagination, Memory, Biases , Choice, Emotions
 permalink: /cognition/
 ---
+https://youtu.be/XIpDLa585ao
+
+https://www.gamedeveloper.com/blogs/the-cognitive-science-behind-games-user-research
+
 
 # Academic fields
 

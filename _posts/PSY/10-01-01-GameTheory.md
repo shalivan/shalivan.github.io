@@ -16,7 +16,7 @@ permalink: /gametheory/
 
 
 
-# Game Theory
+# Game Types
 Mathematical modeling at strategic interaction between rational agents.
  - action of one player influence other players (concept of strategic interdependence)
 - assumption that agents act rationally. (rational bah not always conform to reality)
@@ -40,36 +40,37 @@ Game theory to work need rational actors
 - In lot of species there is no cognitive strategy
 - In real live multiple goals and multiple games
 
-### Number of Players  
+## Number of Players  
 - Two
 - More players
 
-### Progression
+## Progression
 - Turn based   
 - Simultaneous move    
 
-### Number of Rounds
+## Number of Rounds
 - Infinite
 - Repeated
 
 Repeated play increase cooperation
 
-### Information availability
+## Information availability
 - Perfect -  known information
 - Incomplite  -> Bayesian Nash equilibrium, perfect Bayesian equilibrium
 - Depth limited search.
 
-### Zero Sum Game
+## Zero Sum Game
  - Interest is not overlapping. `win-lose`
 
----
-# Cooperative
+
+## Approaches to Conflict
+### Cooperative
 **How to be fair** - Group best effort, coalition and benefit and contribution type in coalition
 
-### Shapley Value
+#### Shapley Value
 - method of dividing gains  or costs  among players according to value of individual contribution
 
-### Marginal Contribution
+#### Marginal Contribution
 - Determined by what is gain or lost  by removing them from the game
 - Dummy player have 0 value
 
@@ -77,15 +78,15 @@ If 2 parties bring same things to coalition, they should have to contribute  the
 
 
 
-### Pareto efficiency
+#### Pareto efficiency
 Outcome is Pareto optimal if there is no outcome that makes at least one player better off without making any player worse off.
 
 
-# Competitive
+### Competitive
 **How to be smart**  - Actor best interest - sub optimal solution in the long run
 
 
-### Nash equilibrium
+#### Nash equilibrium
 optimal outcome of a game is where no player have incentives to deviate from initial strategy.  
 (decide to be better off no matter what opponent will do) (rational play when more then one player. not only define start but always believes) Every player play `best response`  strategy  to what other doing. Knowing other strategies and have no incentives to cheat. Everyone want to keep it without policing
 
@@ -94,7 +95,7 @@ Most games have odd number of equilibria
 no player have profitable deviations
 
 ---
-transitivity-in-game-theory
+
 
 
 
@@ -122,7 +123,7 @@ You must commit but not sure what B will chose
 
 
 
-## Probability distributuin
+### Probability distributuin
 - advancced strategies games, more revarding
 
 ---
@@ -132,6 +133,7 @@ You must commit but not sure what B will chose
 #### Dominant strategy
 - best payoff no matter other players moves.
 ITS EXTENTION IS NASH EQQUILIBRIUM (and more)
+
 #### MinMax  
 - minmimize maximum lose. ensure you guarded by worst scenario. (use in zero sum)
 
@@ -140,13 +142,11 @@ ITS EXTENTION IS NASH EQQUILIBRIUM (and more)
 
 
 
-
 #### Backward Induction
 Base on assumption that all future play will be rational. Whenever I'm making move now I should focus on what opponent will do after that. maximizing
 
 #### Forward Induction
 Based on assumption that all past play was rational
-
 
 
 #### Tic Tac Toe
@@ -177,7 +177,10 @@ balance stratedy
 
 ##### Exploitative
 -humans make a lot errors  exploit mistakes
+exploitative strategy is valuable in the short run after new entry,
 
+##### Explorative
+while explorative strategy is significant in the long run only after new entry.
 
 #####  Jeopardy! Strategy
 
@@ -201,7 +204,7 @@ Bargening dynamics get really complicated really quickly.
 
 ---
 
-
+transitivity-in-game-theory
 # Games
 
 

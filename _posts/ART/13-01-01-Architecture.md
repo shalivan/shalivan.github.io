@@ -228,7 +228,7 @@ Shell > Service > Scenery
 
 
 ## Othe spaces
-- Maze / Labyrinths
+- Maze (decive, mislead, uncertain, confusion) / Labyrinths - way out from chaos. [.](https://www.carolshieldslabyrinth.ca/#:~:text=%22A%20labyrinth%20is%20a%20complex,as%20you%20might%20think.%20.%20.)
 - Gardens /  Theme parks
 
 

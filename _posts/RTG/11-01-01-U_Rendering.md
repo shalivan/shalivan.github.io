@@ -1,6 +1,6 @@
 ---
 title: U Rendering
-description: Shadows, Reflections,  PostProcess, Nanite
+description: Shadows, Reflections,  Post Process, Nanite
 categories:
  - PXL
 tags:

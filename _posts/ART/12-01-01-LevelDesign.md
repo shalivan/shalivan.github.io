@@ -251,6 +251,9 @@ Gradient of visual complexity where the play space has less visual complexity an
 - develop & maintain visual language consistency in style: aesthetic.
 - `Optimum complexity` - redability
 
+schemes and symbols
+color coding / names / shapes (waypoints/orientation)
+
 
 ##### Atmosphere
 - `Depth`  - Atmosphere, Repeating same elements in space
@@ -275,7 +278,6 @@ evaluating story:
 - Architecture  https://vol.co/product/anime-architecture/
 
 [Lore](/lore/)
-
 
 ---
 
