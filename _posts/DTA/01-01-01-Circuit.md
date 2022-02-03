@@ -53,12 +53,20 @@ to describe these patterns to Novation’s Technical Support Team in the event o
 ### Pattern Settings & Probability
 
  multiplier/divider of the BPM
- 1/16 is the default sync rate, where each step corresponds to a 16th note.
+1/16 is the default sync rate, where each step corresponds to a 16th note
 
+
+
+
+|||||||||
 |---|---|---|---|---|---|---|---|
-1/4| 1/4 T |1/8 (**halfstep**) | 1/8 T |1/16 |1/16 T| 1/32 (**2x**)| 1/32 T
+| 1/4 | 1/4 T | 1/8 (**halfstep**) | 1/8 T | 1/16 | 1/16 T| 1/32 (**2x**) | 1/32 T
+|4|6|8|12|16|24|32|48
+|1|1.5|2|3|4|6|8|12
+||2||4||8||16
 
--  length - Dlugosc sekwncji  (ilość nut)  
+
+-  length - Dlugosc sekwncji  (ilość nut)   
 
 
 -  nudge -  Cały pattern do przodu albo do tylu  Remember that when using Nudge with Patterns of less than 16 steps, the effect of Nudge is
