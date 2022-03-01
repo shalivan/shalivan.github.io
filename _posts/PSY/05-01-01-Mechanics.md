@@ -46,6 +46,7 @@ need: choice, motivation, informationm, time
 to use systems
 
 a-b mission Endgame
+
 #### Cycles (gameplay loop )
 
 **Second to second**  -   micronarrative  (momentary)  core mechanics  
@@ -311,12 +312,75 @@ mann-whitney test -
 ----
 
 
+# Progres
+also by probability with advancement in progression and pacing
+
+leveling curves  
+
+etics !
+
+#### Feedback loops (output pushed to input)
+- positive: ... increase ains to more gains , loses to more loses  (loose chest figure mean u weeker)
+- negative - balance out failures and posit. - Mario carts, those at back get powerfull weapons.  winners punished and loosers are rewarded (keep changes in equilibruim)
+-
+- positive,  - help push to conclusion for party game where everyone is equal - frustrating for weeker players  (snowball problem)
+- negative  - unfair to succesful players. - can send mixed signals
+
+Pyre - mix
+rpgs - more u level up, more time takes to level up again
+
+
+
 # Combat
 non combat - combat loop
 fighhting games are rock paper scisors (advanced with reading opponents pre anims to read next move )   
+
+## Combat loop
+pasing / important elements
+- doom dropp all what slow down actions (like aming)
+peak priorities
+how much weapons / how get new and ammo ...
+upgread trees
+pase - of new tools and mechanics  2.
 ## Mele  
 
 https://threadreaderapp.com/thread/1358654321303277568.html
+
+
+### Timed
+not instant. 3 phases
+1. anticipation - speed  
+2. contact
+3. recovery
+
+tacticly distinct !!!!!!!!!!!!!!!!!!!!!!!!!! - could be subtle -
+Advantages / Disadvantage - (heavy damage slow)
+
+- fast /slow  -  light 14 frames - heavy 28 frames and u are vonurable beform hit
+- wide/ range
+- push away/ knock down /air
+- work on distance
+- stunt  - watch for stunt lock (get enemy in loop )
+- culdown to not spawning
+- player vornuable after use
+- required sth
+- animation canceling. (no in darksouls)  carfeul and commiting
+- range distance/snaping  (depend how sticky ) in batman lot of snaping (and in other flow quick )- not in dark souls
+- distnace - tip of blade more crit than full close.
+- charge
+
+combos and controls.
+- seq of keys or gesture
+- chain of same keys in rythm
+
+parry / counter - block exackly when u block in same time of attack  .
+  - efortless vs
+  - only in slmall time slot - can damage if not done in time
+
+
+tactic:
+- piking targts - kill the hiller
+
 
 ## Shooting  
 Recoil    
@@ -328,6 +392,13 @@ Hitscan vs projectile
  |Hitscan|charging|
 
 Projectiles are predictible
+
+#### gund
+how many ... reload
+
+fast asoult rifle   
+shotgun at close   
+rocket lounch deadly but risky   
 
 ### Aiming
 
@@ -477,7 +548,12 @@ https://www.gamasutra.com/view/feature/131508/bsp_collision_detection_as_used_in
 
 ----
 
+2 world swithcing
+- titanfall (2 combat at same times or platform elements in different words)
+- dishonored levle  
 tetris - testimony of your failure
+
+Action: Mario odysey
 
 
 People solve puzzles because they like pain, and they like being released from pain, and they like most of all that they find within themselves the power to release themselves from their own pain. - Mike Selinker and Thomas Snyder - Puzzle Craft.

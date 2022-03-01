@@ -15,6 +15,9 @@ https://youtu.be/XIpDLa585ao
 
 https://www.gamedeveloper.com/blogs/the-cognitive-science-behind-games-user-research
 
+https://michaelbach.de/ot/index.html
+
+
 
 # Academic fields
 

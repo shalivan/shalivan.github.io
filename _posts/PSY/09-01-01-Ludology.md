@@ -10,8 +10,11 @@ tags:
 - Cognition
 permalink: /ludology/
 ---
+Rules of Play: Game Design Fundamentals   
+box of secrets - background story for developers. And then player experience it from other direction. recognize small things. (create oherence)   
 
 
+callbacks - (can be punchline later) - remaind the known
 ### Classical Approach
 
 - Jean Piaget (9 August 1896 – 16 September 1980) was a Swiss psychologist Importance of games:
@@ -41,12 +44,9 @@ See or listen not as powerful as play themselves:
 
 
 
-
-
-
 # Authorship
 **Narrative** (story meaning) vs **Mechanics** (dynamical meaning). Driven How much power over the world.
-(linear) `Linear` > `Interactive Linear` >  `Multi ending` >  `Branching path` (multi choice but not emergent) > `Open World` > `Open ended`  >  `Emergent` > `Sand box` (Fully player driven) > (cyclical) > `Random`
+(linear) `Linear` > `Wide Linear` (linear with paths) > `Interactive Linear` >  `Multi ending` >  `Branching path` (multi choice but not emergent) > `Open World` > `Open ended`  >  `Emergent` > `Sand box` (Fully player driven) > (cyclical) > `Random`
 
 **Game story domination**  -   Authored - no impact on story - Linear  - low agency hi certainty of deliver    
 **Player story domination** -  Generative - agency & expression of will - Cyclical  - high agency, low certainty
@@ -62,7 +62,8 @@ See or listen not as powerful as play themselves:
 the abstract principle that autonomous beings, agents, are capable of acting by themselves; see autonomy  
 From a game design perspective, Player Agency is the player's ability to impact the story through the game design or gameplay1
 
-create problem not puzzle
+- is player forced like with cutscene but can join narrative lore when he want    
+- create problem not puzzle   
 
 1. Quality
  - `Active presence` - expressing agency and will taking actions and locomotive. Extorting will into expression - video games
@@ -88,11 +89,30 @@ Narration can be Atmospheric or Narrative
 
 Avoid Red Herring (something that misleads or distracts from a relevant or important question)
 
-## Explicit
-**Text written narrator**. explicit things are explained.  (cutscenes). In literature: An explicit narrator is a narrator or character in a story that is the one telling the story. First person narrators are by definition explicit narrators.
+
+##  Embedded / Explicit
+Embedded narratives are pre-determined stories. The game creators decide the narrative and the player follows their direction.
+player can’t influence  backstory.
+
+**Text written narrator**. explicit things are explained.  (cutscenes). In literature: An explicit narrator is a narrator or character in a story that is the one telling the story.
+
+
+- text tani
+    - nie długie .ilość tekstu jaką jestem w stanie przeczytać zależy głównie od tempa rozgrywki.
+   - znajdzki i notki na UI przy przedmiotach
+   - zaszyfrowane: alien graffiti". Komputer pokładowy próbuje dla nas rozszyfrować ich treść. Im więcej znajdziemy tzw. cipher-ów, tym lepiej komputer radzi sobie z tekstem. Tutaj przykładowy xenoglyph,-daje nam drobne hinty co do tragicznej przeszłości Seleny.
+-  audio >taśmy z nagraniami )czy przyklejamy do gracza_
+- voicover
+- narrator (ghost / astra )
+- cutscany  najdrozsze
+
+- choices can be also explicit like: rpg dialog chose or harvesting little sister
+
+
 
 ### Narrator
-- silent protagonist - to feel easy to slip in his role . (silence and concient is like agree)
+- First person narrators are by definition explicit narrators.
+- Silent protagonist - to feel easy to slip in his role . (silence and concient is like agree)
 add to agency
 
 ```
@@ -118,13 +138,18 @@ In gmaes, mostly UI:
  non-diagetic sounds; voiceover  sfx theme songs
 
  ```
-## Implicit
+
+
+## Evocative / Implicit
 Implied - Suggested but not directly expressed. Arises **from visual cues** that create the barest impression of a story in the minds of viewers. It is the act of withholding the whole story, rather than the attempt to visually illustrate the story, that defines these images. player must figure out itself
 
 Most immersive type of narration ! - it s the world speak and player will find their own story  
 
 mimesis
+connotations – the memories
 
+- comenting of your actions in past
+- too subtle invisible choices can feel like linear game
 
 ###  Spatial storytelling
 Narrative spaces / Environmental storytelling
@@ -139,6 +164,10 @@ Required deductive resoning, - connect details to create story. Investigative an
 ## Emergent
 Emergent - make own story  with tools we get (author rules), but not direct writer expression      
 Mechanics in narration - implement plot in mechanics  
+
+
+### Enacted
+Enacted narratives rely on players developing their characters. Story elements such as power-upgrades and levelling up use enacted narratives. These narratives are usually in single-player games that emphasise character growth.
 
 ### Emerge from systems
 
@@ -168,7 +197,8 @@ Prioritizes agent spontaneity (all improvisation and simulation ) (Dwarf Fortres
 ## No narration
 
 #### Experience as an end itself
-
+or devolved from mechanics:
+- elementy multi - mosty / listy notki z miejsc / smierci
 #### Randomness
 - (pre luck) input (before player make decision): levels
 - (post luck) output  (after action, hit chances in x com, lutbox) (more anger and res not for competence but bad luck undercuts strategy )
@@ -411,3 +441,6 @@ Mistrust and misdirection  often are good narrative tools
 miningfull destructions    
 Mental Modeling. Sense of mental image of game. that we would like to get.   
 ```
+
+
+incentivie to play: See feature y cannot use yet

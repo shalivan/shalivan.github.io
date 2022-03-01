@@ -14,6 +14,13 @@ permalink: /synth/
 [Music](/music/)  
 
 
+
+Granular - sample based (process of slicing up a sample into tiny “grains”, then manipulating and rearranging them into a new sound)
+Fm Synth
+Wavetable synth
+
+
+
 ## Drum mechines
 
 RT-808 - define hip hop   

@@ -85,3 +85,7 @@ Law of Perception (pragnanz. which means ‘concise and meaningful)
 
 
 ---
+
+PERCEPTION
+#### Change blindness
+#### Perception load

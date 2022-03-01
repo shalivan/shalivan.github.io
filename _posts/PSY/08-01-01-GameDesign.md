@@ -10,11 +10,11 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
+rouglike
+- possible week spot when permament character upgread
 
-Build tools not features
-
-
-
+advanced mechanics hidden  (those u need skill knowledge timing dexterity )- advanced
+shooters - startegy + mobility
 
 ```
 FUNDAMENTAL
@@ -50,23 +50,22 @@ synergy - every element compliment eachother
 [Motivation](/motivation/), [Characters](/characters/), [Personality](/personality/)
 
 
-
-- where is locus of controll... play character directly or just give direction or control one character at a time in team
-[Cognition (choices)](/cognition/)
-
-more emergent if character can suprise you ? .>
-
-Nuimber of players
-roles
-Interaction patterns
-
-- player vs game  single  
-- coop multiple vs game  (team coop, multilateral coop )
-- pvp
-- coop
+**story multiplayer** vs multiplayer story
 
 
-story multiplayer vs multiplayer story
+Number of players
+Roles  
+
+**Interaction patterns**
+- player vs Game (single)
+- Players vs Environment (multi)
+- Player vs Player (multi)
+- Coop multiple vs game  (team coop, multilateral coop )
+
+
+
+
+
 
 
 ####  Type of players:
@@ -88,11 +87,12 @@ story multiplayer vs multiplayer story
 ## Player Character
 
 Bridging player and character
-
+more emergent if character can surprise you ? .>
 characterization - understanding character, to resonate.
 how much u know about character. what convince us to invest time in them.
 personality convey thou dialog.
 what would they really say.
+
 
 ## Non Player Character NPC's
 - brign stisfaction, dont stole moments from player or be burden u must cary on.
@@ -138,6 +138,14 @@ same plot but every season have different exciting personal stories and drama.
 
 ### Enemies
 
+## AI
+
+good AI let u know what is intended to do
+ p- predictable > player can plan  
+predictable actions / unpredictable consequences. (someone run but u never  know where)   
+
+personal AI's that have rng stats (na stałe wylosowane) - & remembering interactions with player
+ecosystems for ai
 
 # Space
 
@@ -292,11 +300,72 @@ win loose state is important or just engagement is ok too ..
 
 # Controls
 
+
+- where is locus of controll... play character directly or just give direction or control one character at a time in team
+[Cognition (choices)](/cognition/)
 ## Movement
 
 >Mirrors Edge, Spiderman, Tony Hawk, Mario
 
 https://www.youtube.com/watch?v=tAE2H5qJ8A8
+
+
+
+movement: feadback to inputs
+
+1. `accreleration` , `max`, `deceleration`
+- short acc,decc - character stiff
+- long line supre meat boy or uncontrolable or hard to stop , runing on ice
+6 frames to full speed - start - 3 frames stop
+6x 4 - meat boy have longet
+stop 3 frames is x9 times faster than mario.
+
+
+2. - jump
+jump height to body size
+mario - x4
+meatboy 6x
+
+`climb` `hang`, `fall`
+
+3. air friction. if you stop stic it will fall
+
+
+
+4. dash -
+- can controll in air or static
+- dash canceling CELESTE
+ - dash cancel in last sek turned to massive jump with momentum of dash
+ - do with crouch
+ - separate dash and jump to modify
+ - second dash
+
+
+5. climbv
+
+Build tools not features
+
+systemic stories - can be wider (as biproduct of system) or just complicated narratives (cannot return to town after robbing bank)
+risk of crappy uunsatisfaing story - foreshadow , justification , character ark, redemption, pase -
+
+
+mastery -
+
+retreat to safty - shift tempo between atack and deense -
+
+
+
+### Movement
+controlls ? // move to mechancs ???
+
+-------- PORUSZANIE SIE W GRACH !!!!!!!!!!!!!!! ----------------
+mario, movements, and combos
+other approach, use enviro  - repeal yourself from projectiles or enemiies
+timeing  - bust speed by shooting  - rythmic action whtn delease  -  (pathless)
+keep momentu by chaining  -  / hook, slide hop, (titabfall)  / quake - bunny hopping  / mirrots efge
+
+
+chorisontal gameplay vs vertical
 
 ## Camera (Gamatography)
 (user think in euler look up down or on sides)
@@ -344,9 +413,26 @@ thgird person - hardest to design  (fixed angels are easier to make)
 Use existing mental models and make to be more intuitive
 
 [Design](/design/)
+
+`Perception`
+information is 3 lvl processes
+ - sensations
+ - preception
+ - cognition  
+ but sometimes if u have signs (icons) it can influate how u see (gestalt) perception is subjective  
+ input is processed by brain (not raw)   
+`Memory `
+- sences - sensory (part of perception)
+- attention >>> then it go to short time memory
+- then go to long term mem
+forgeting curve - after 20 min 60% lost
+`Attention `
+
 ## Inputs
 
-Mouse, suit, brain sencores
+Mouse, suit, brain sensors
+
+
 
 # .
 - tutorials
@@ -426,8 +512,14 @@ risk averse  reward
 game theroy cofifig that preclude domininat  solutions - non nash equilibrium games
 ```
 
+----
+morality systems
+- choices like kotor path of doing good/bad things lead to perska
 
+- how decisions are attached to main conflict
+- binary system > if u r not polite we will lock dialogs - is no go
 
+Metroidvania is a subgenre of action-adventure video games focused on non-linear and utility-gated exploration and progression.
 
 https://youtu.be/OrmyLaLCaIo  
 

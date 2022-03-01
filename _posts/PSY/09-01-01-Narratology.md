@@ -11,6 +11,9 @@ tags:
 permalink: /narratology/
 ---
 
+narrativizing information. there is story behind data banks (not only informative)- hard.   
+in horror - you can not know. because it will destroy scare.
+
 
 - [Ludology](/ludology/)  
 - [Game Design](/gamedesign/)    
@@ -234,6 +237,9 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 - **Seeding** Spreading tiny bits of exposition
 - **Payoff** Response   
 - **Foreshadowing** Plant idea ahead and earlier to connect later  
+- **Mystery** - Red Herring - Fałszywy trop. - murder mistries `who done it` movies. Rather not for games
+- **callbacks** - widly used in hollywood
+- **twist**
 
 ## Scope
 To much stories in witch the fate of the world was at stake
@@ -432,6 +438,7 @@ The Natural Cycle
 
 #### Dualities (Polarities, Dialectics)
 
+War of ideas (free will vs destiny) (emo vs logic) (spiritual vs science)
 
 ###### Yin Yang
 
@@ -506,7 +513,7 @@ When cliché is well executed is not a cliché / cliché is when its not driving
 - Intrigue around spy
 - Who did it
 - Checkmate
-
+- you are in loop / ability to move on.
 ### Conflict
 ‘No conflict, no drama’
 - conflict of interests
@@ -708,8 +715,8 @@ high staker, structue,
 ```
 
 ---
-Red Herring - Fałszywy trop. - murder mistries `who done it` movies
-CALLBACKS - narracja entertiment
+
+Alegorie -  
 
 [Cloud Atlas](https://www.youtube.com/watch?v=ABC7PjrTGFs)   
 [book: the future of narrative in cyberspace]
@@ -717,7 +724,6 @@ CALLBACKS - narracja entertiment
 What to communicate / What emotions
 `pace: movement incentives vs deterrent : ehreat objective movement limits, tension  `
 
-belivable and convincend settings
 
 
 - dystopia
