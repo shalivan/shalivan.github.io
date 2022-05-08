@@ -11,63 +11,55 @@ tags:
 
 ## Setup
 
-1. Install Houdini py3 release
-2. Install python 3.7.9 separately with pytorch somewhere on your machine (+add pythoin to PATH))
-3. Define a the PYTHONPATH variable pointing to the site-package folder. Houdini will be able to use any libs installed here.
-4. Additional libraries: instal by pip
-   - [Scipy](https://www.scipy.org/install.html) library - `python -m pip install numpy scipy`  will instal scipy library in : **Phyton/Lib/sire-packages/...**
-5. Edit windows paths: system enviroment variables > Environment Variables... > New...
- - Variable name" PYTHONPATH
- - VariableValue: **C:\Users... Lib/site-packages**
+
+1. Install python 3.7.9 separately with pytorch somewhere on your machine (+add pythoin to PATH))
+2. Additional libraries: instal by pip
+   - `python -m pip install numpy scipy`  will instal scipy library in : **Phyton/Lib/sire-packages/...** - [Scipy](https://www.scipy.org/install.html)
+3. Edit windows paths: system enviroment variables > Environment Variables... > New...
+ - Variable name" `PYTHONPATH` - Variable Value: **C:\Users... Lib/site-packages** (pointing to the site-package folder. Houdini will be able to use any libs installed here.)
+
 
 ## Usage
 
 ###  Session Code
-`Python Source Editor` - Persistant and embeded in hip file:  `Windows/Python Source Editor` .     
-`hou.session.foo()`  - Call saved code and function
+- `Windows/Python Source Editor/..` - **Python Source Editor** - Persistant and embeded in hip file:  .     
+- `hou.session.foo()`  - Call saved code and function
 
-Create foo function in session:  
+- Create foo function in session:  
 ```python
 import hou
-
 def foo():
    foo_obj = hou.node("/obj") # go to directory
    foo_geo = foo_obj.createNode("geo", "foo_geo") # create container
    foo_box = foo_geo.createNode("box", "foo_box") # create box
 ```
 
-
-
-
-
 ### Shell
-Live code, witch will disappear after H is closed. `Windows/Python Shell`  
+- `Windows/Python Shell/..` - **Live code**, which will disappear after H is closed.   
 
-Call foo from session:
+- Call foo from session:
 ```python
 Python 2.7.15 (default, Dec  2 2020, 15:50:44) [MSC v.1916 64 bit (AMD64)] on win32
 Houdini 18.5.518 hou module imported.
 Type "help", "copyright", "credits" or "license" for more information.
-
-
 # Call fn from Source Editor in Python Shell:
 >>> hou.session.foo()
 ```
 
-
-###  Script section in Tools
-Scripts section to write code Executed
-
-Click on shelf click:  `RMB` > `New Tool`  
-- name, label
-- script will execute ....
+### Shelf  
+- `RMB on Shelf` > `New Tool` -  Scripts section to write code
 - can call from: `hou.session.foo()`
 
 
-### Expression
-session code is available in expressions without `hou.session.`
+You can drag and drop nodes to shelf or make new one.
 
-### Script node
+
+### Node
+- Node Script
+
+### Node Expression
+- Session code is available in expressions without `hou.session.`
+
 
 ### TOP
 - Mapper
@@ -78,9 +70,9 @@ session code is available in expressions without `hou.session.`
 
 ## Classes  
 
-hou.node   
-hou.objNode   
-hou.geometry   
+- hou.node   
+- hou.objNode   
+- hou.geometry   
 
 # [hou.](https://www.sidefx.com/docs/houdini/hom/hou/index.html)
 Houdini python class. (hou. - can be droped it in expressions)      
