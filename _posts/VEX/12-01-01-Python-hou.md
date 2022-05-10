@@ -21,7 +21,7 @@ tags:
 
 ## Usage
 
-###  Session Code
+####  Session Code
 - `Windows/Python Source Editor/..` - **Python Source Editor** - Persistant and embeded in hip file:  .     
 - `hou.session.foo()`  - Call saved code and function
 
@@ -34,7 +34,7 @@ def foo():
    foo_box = foo_geo.createNode("box", "foo_box") # create box
 ```
 
-### Shell
+#### Shell
 - `Windows/Python Shell/..` - **Live code**, which will disappear after H is closed.   
 
 - Call foo from session:
@@ -46,20 +46,20 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> hou.session.foo()
 ```
 
-### Shelf  
+#### Shelf  
 - `RMB on Shelf` > `New Tool` -  Scripts section to write code
 - can call from: `hou.session.foo()`
 - You can drag and drop nodes to shelf or make new one.
 
 
-### Node
+#### Node
 - Node Script
 
-### Node Expression
+#### Node Expression
 - Session code is available in expressions without `hou.session.`
 
 
-### TOP
+#### TOP
 - Mapper
 - Partitioner
 - Processor
@@ -74,7 +74,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 # [hou.](https://www.sidefx.com/docs/houdini/hom/hou/index.html)
 Houdini python class. (hou. - can be droped it in expressions)      
-
+-
 ```python
 # Define fn.
 def childrenOfNode(node):
@@ -83,13 +83,12 @@ def childrenOfNode(node):
 		result.appnd(c)
 		result += childrenOfNode(c)
 	return result
-
 # Call defined fn by calling var: n with (node):
 childrenOfNode(n)
 childrenOfNode(hou.node('/obj/adress'))  
 ```
 
-
+-
 ```python
 def examplereturn(name):
    return name.upper()
@@ -101,7 +100,7 @@ print examplereturn("houdini")
 
 # [hou.node](https://www.sidefx.com/docs/houdini/hom/hou/Node.html)
 
-### Create set flags and connect nodes
+## Create node, set flags and connect nodes
 
 **Create node** node at `/obj/foo_geo/foo_box`
 -
@@ -109,8 +108,7 @@ print examplereturn("houdini")
 hou.node("/obj").createNode("geo",'foo_geo').createNode("box","foo_box") #
 ```
 
-**Store node**
--
+- **Store node**
 ```python
 foo_obj = hou.node("/obj") # store context
 foo_geo = foo_obj.createNode("geo", "foo_geo") # create container
@@ -122,14 +120,12 @@ foo_sphere = foo_geo.createNode("sphere", "foo_sphere") # create box
 foo_geo_copy = hou.node('/obj/foo_geo') # store node in variable (can drag from viewport)
 ```
 
-**Connect nodes**   
--
+- **Connect nodes**   
 ```python
 foo_box.setInput(0, foo_sphere,0)
 ```
 
-**Flags**
--
+- **Flags**
 ```python
 foo_sphere.setDisplayFlag(1)   
 foo_sphere.setRenderFlag(False)   
@@ -138,14 +134,14 @@ foo_sphere.isObjectDisplayed()
 foo_sphere.setSelectableInViewport(False)   
 ```
 
-**Select**
--  
+
+- **Select**
 ```python
 foo_sphere = setSelected(True) #- Select ball node  
 foo_sphere = isSelected() # - Return bool. Check if selected    
 ```
 
-Create 2 nodes and set flags
+- Create 2 nodes and set flags
 ```python
 def fooFunction():
      obj = hou.node("/obj")
@@ -159,7 +155,7 @@ def fooFunction():
 
 <img src="/src/python/hou/aconnectflags.png" width="350" >
 
-**Delete**
+- **Delete**
 ```python
 foo_box.destroy
 foo_sphere.destroy
