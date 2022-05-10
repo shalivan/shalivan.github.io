@@ -49,9 +49,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ### Shelf  
 - `RMB on Shelf` > `New Tool` -  Scripts section to write code
 - can call from: `hou.session.foo()`
-
-
-You can drag and drop nodes to shelf or make new one.
+- You can drag and drop nodes to shelf or make new one.
 
 
 ### Node
