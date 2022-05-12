@@ -74,7 +74,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 # [hou.](https://www.sidefx.com/docs/houdini/hom/hou/index.html)
 Houdini python class. (hou. - can be droped it in expressions)      
--
+- List childrens of node
 ```python
 # Define fn.
 def childrenOfNode(node):
@@ -88,13 +88,13 @@ childrenOfNode(n)
 childrenOfNode(hou.node('/obj/adress'))  
 ```
 
--
+- Print with upper cases
 ```python
 def examplereturn(name):
-   return name.upper()
-
-# will print HOUDINI with all big captions   
-print examplereturn("houdini")
+   return name.upper()  
+# call:
+print(examplereturn("houdini"))
+# HOUDINI
 ```
 
 
@@ -102,8 +102,7 @@ print examplereturn("houdini")
 
 ## Create node, set flags and connect nodes
 
-**Create node** node at `/obj/foo_geo/foo_box`
--
+- **Create node** node at `/obj/foo_geo/foo_box`
 ```python
 hou.node("/obj").createNode("geo",'foo_geo').createNode("box","foo_box") #
 ```
@@ -177,36 +176,36 @@ hou.node().param("uniformscale").set(2)
 -----
 
 ## Get node Info   
-Node **Path**
+- Node **Path**
 ```python
 foo_box.name() # '/obj/foo_geo/foo_box'
 ```
 
-Node **Name** / **Type**
+- Node **Name** / **Type**
 ```python
 foo_box.name() # 'foo_box' -  
 foo_box.type() # <hou.NodeType for Object geo> - its object that contain info
 foo_box.type().name() # 'geo' -
 ```
-Print all parameters of node
+- Print all parameters of node
 ```python
 for parm in foo.parms(): # get all parameters names in ball obj
-     print parm.name()
+     print(parm.name())
 ```
 
-**Childrens**
+- **Childrens**
 ```python
 foo_geo.children() # get listo of all childrens
 ```  
 
 
-**Print**  
+- **Print**  
 ```python
-print foo_geo.children()
+print(foo_geo.children())
 ```
 ```python
 for i in foo_geo
-   print i
+   print(i)
 ```
 
 
