@@ -41,6 +41,12 @@ secondery details. - constructing and build (contribute)silhuette not defining. 
 third lvl details - support , refinement [nie ma  wpływu na sill] small zdobienia  (niepoliczalne) (not recognizing design by those details, uzupełniaja ksztaly )
 (mogą sie zagniezdzać lvl 4, 5...)
 
+
+
+`contrapposto` -  (fluid organic, eyes focused, hair not stylized). previously reduced human figure to collection of parts now as a connected system.
+
+
+
 ##  Proportions
 (exaturate aspect that define personality)
 big head and eyes, shrink body , hands larger

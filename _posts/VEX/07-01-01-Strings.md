@@ -8,15 +8,17 @@ tags:
 - Code
 permalink: /strings/
 ---
+### Strings
+
+
+- `atof()` - converts a string to float
+- `atoi()` - string to int
+- `itoa()` - int to string
+
+
 
 
 ```
-### Strings
-
-atoi() and itoa()
-
-
-
 ### to String
 ##### Float
 
@@ -45,8 +47,8 @@ atoi() and itoa()
 
 opdigits("oriev548.hip") << return 548...
 
-##### Float
-`atof()` converts a string to float
+
+
 
 
 ##### -

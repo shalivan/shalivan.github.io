@@ -86,6 +86,19 @@ Law of Perception (pragnanz. which means ‘concise and meaningful)
 
 ---
 
-PERCEPTION
+
+#### Contrast   
+- `Value` high key painting has a `high-value` scale (light) vs `low-value` scale (dark).  
+- `Hue/Saturation`  
+- `Edge`  
+- `Proximity`  
+- `Texture` (material), `Shape`
+
+#  Visual Phenomena & Optical Illusions
+
+https://michaelbach.de/ot/index.html
+
 #### Change blindness
+phenomenon of visual perception that occurs when a stimulus undergoes a change without this being noticed by its observer.
+
 #### Perception load

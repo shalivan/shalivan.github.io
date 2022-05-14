@@ -116,3 +116,6 @@ Modulate Wave with additional waves. Using signal to shape aspect of sound over 
 ---
 
 ## Arpeggiator
+
+----------
+https://github.com/surge-synthesizer/monique-monosynth

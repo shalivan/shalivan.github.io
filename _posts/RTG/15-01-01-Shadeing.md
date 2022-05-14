@@ -161,6 +161,9 @@ Surface forward Shading| forward |most expensive. Each light per pixel| glass, w
 To use this feature, enable Burley in the Subsurface Profile and set the Editor Preview Level to Cinematic. If you're already using Separable SSS profile, minimal changes are required to switch to this method. Note that Burley SSS requires Temporal Anti-Aliasing to work properly.
 
 
+# unreal material nodes
+`Camera vector` is a vector, that points from pixel to camera position.
+`CameraDirectionVector`, is a vector, that corresponds to direction, where camera is pointing in worldspace.
 
 ----
 

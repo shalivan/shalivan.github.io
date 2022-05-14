@@ -279,9 +279,12 @@ a game of decision-making in the face of incomplete information.
 |HiJack
 |LoJack |Tide pairs and Figure + high||
 |Under The Gun +1  | | Mid positions
-|Under The Gun | | (left to the BB Act first Before the flop)
-|BB | defending range calling range 40%  (no AA KK QQ - because it wuld be rerange )  play garbage hands (range advantage) | Early position
-|SB | tight is right |  **Out of position** Act first (After flop)  |
+|Under The Gun | only ases | (left to the BB Act first Before the flop)
+|BB | defending range calling range 40%  (no AA KK QQ - because it wuld be rerange )  play garbage hands priced in (range advantage) | Early position
+|SB | tight is right |  **Out of position** Act first (After flop) // in short stack when AllIn - is good (game of chicken ) |
+
+
+
 
 
 ### Moves
@@ -300,7 +303,10 @@ Chips to start: 20-40 BB for shallow tables to 250+ for deep game
 - **Ante** - Ante and Blinds are forced bets
 - **Bounty** -
 
-
+### pattern visible on table 
+pair - invisible
+straight -
+flush - visible
 
 ## Strategies
 kombninatoryka wazna  

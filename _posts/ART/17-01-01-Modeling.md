@@ -10,7 +10,7 @@ permalink: /modeling/
 
 
 
-
+https://twitter.com/delaneykingrox/status/1506594473979310093
 
 
 # Basics
@@ -171,5 +171,6 @@ NIE OPISANE: z liści high składamy zbrushowa roslinke
 
 # Subdivision
 
-[Catmull–Clark subdivision surface](https://www.sidefx.com/tutorials/pragmatic-vex-1-limit-surface-sampling-introduction-opensubdiv-patches/) - using Quads casue it can optimize
-Loop - work with triangles (remesh)
+**Catmull-Clark sub**
+- [Catmull–Clark subdivision surface](https://www.sidefx.com/tutorials/pragmatic-vex-1-limit-surface-sampling-introduction-opensubdiv-patches/) - using Quads casue it can optimize [YT](https://youtu.be/vTm-q-Ff7qU)
+- Loop - work with triangles (remesh)

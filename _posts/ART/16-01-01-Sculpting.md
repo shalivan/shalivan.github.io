@@ -31,3 +31,4 @@ Sculpting is about volume, form and silhouette.
    - Don't use smooth.       
    - Directionality  
    - Maintain Volume
+https://80.lv/articles/80-level-ratings-great-youtube-channels-with-zbrush-tutorials/

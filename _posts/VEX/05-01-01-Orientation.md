@@ -318,3 +318,9 @@ amount = radians(amount * angle);
 rotate(m, amount, axis);
 @P *= m;
 ```
+
+----
+
+
+
+https://thenumbat.github.io/Exponential-Rotations/
