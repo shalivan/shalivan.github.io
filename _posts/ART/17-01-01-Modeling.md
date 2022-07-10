@@ -12,6 +12,14 @@ permalink: /modeling/
 
 https://twitter.com/delaneykingrox/status/1506594473979310093
 
+- poligonal
+- box - old from box / in sculpt better
+- bool
+- sculpt
+- nurbs - splines - bezier - oldest -industrial design smooth organic surf
+- parametric max
+- procedural h
+- kit bash
 
 # Basics
 
@@ -71,7 +79,8 @@ Best simulated
 - uv for high. bake by uv
 - make uvs straight for simulation and texturing (the direction of the fibers)
 
-
+[Drape sim](/vellum/)
+[Characters](/characters/)
 
 ---
 https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4

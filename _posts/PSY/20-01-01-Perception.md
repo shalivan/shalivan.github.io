@@ -80,7 +80,7 @@ Law of Perception (pragnanz. which means ‘concise and meaningful)
 || **Similarity** |  ... they are similar to each other
 | | **Continuity**|  ... they are aligned with each other (integrated into perceptual wholes)
 | | **Closure**|  ... they are parts of a closed figure
-|| **Symmetry**| ... symmetry occurs (overwhelm perception). | Linear, radial, asymetry
+|| **Symmetry**| ... symmetry occurs (overwhelm perception). | Linear, radial, mirror. asymetry
 | | **Past experience** | ... they were together often in the past experience of the observer |
 
 

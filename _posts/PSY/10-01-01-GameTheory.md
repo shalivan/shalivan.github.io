@@ -303,7 +303,7 @@ Chips to start: 20-40 BB for shallow tables to 250+ for deep game
 - **Ante** - Ante and Blinds are forced bets
 - **Bounty** -
 
-### pattern visible on table 
+### pattern visible on table
 pair - invisible
 straight -
 flush - visible
@@ -380,6 +380,8 @@ r (left), K (right) strategies.
 
 
 ---
+- coordination problem
+- mysia utopia
 
 
 SOMETIMES: burning money help to increes payof !!!!!!!!!

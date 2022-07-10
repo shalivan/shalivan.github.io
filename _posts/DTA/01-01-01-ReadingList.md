@@ -10,8 +10,7 @@ description: List
 permalink: /list/
 ---
 
-https://www.youtube.com/watch?v=dgo-As552hY -
-I Have No Mouth, and I Must Scream
+
 
 
 The Immortality Key - Brian Muraresku
@@ -31,7 +30,7 @@ https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY
 
 
 
-# Basics Wise
+# Worldview:
 
 - Fiodor Dostojewski
   - **Crime and punishment** -
@@ -48,6 +47,8 @@ https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY
   - **Lord of Flies** - (demoralization of society) recurring pattern of falling vs: 'De meeste mensen deugen: Een nieuwe geschiedenis van de mens ' opisane na prewdziwych wydarzeniach z pamietnika, tam chłopcy wspolpracowali
 - Franz Kafka
   - **The Trial** -  
+- Aleksandr Solzhenitsyn
+ - **Gulag Archipelago** (Vol. 1, Vol. 2, & Vol. 3)
 
 # Philosophy
 - Joseph Campbell
@@ -58,25 +59,18 @@ https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY
   - **Homo Deus: A Brief History of Tomorrow** - 2015
   - **Sapiens** -
   - **21 Lessons for the 21st Century** -
-- George Lakoff
-- Haidt
-  - **The Righteous Mind**
-  - **Don't think of an elephant** - z polecenia Haddita
+- George Lakoff - (people's lives are significantly influenced by the conceptual metaphors t)
+
 - Friedrich Nietzsche
  - **Beyond Good and Evil: Prelude to a Philosophy of the Future** -
 - Jean Baudrillard
   - **Simulacra and Simulation**  -
-- Paul Bloom
-  - Psycholinguistics, Developmental Psychology
-  - How Pleasure Works: The New Science of Why We Like What We Like
+
 - Joscha Bach  
-- Nima Arkani-Hamed - phys  
-- Brian Cox - cosmology
 - Michael Meade
   - Finding Genius in your life https://youtu.be/h6Dasa5kIS8
 - Ayn Rand
   - **The Fountain** head - novel Philosophy of objectivism. Maybe have no good answers but have good questions.
-10. Gulag Archipelago (Vol. 1, Vol. 2, & Vol. 3) – Aleksandr Solzhenitsyn
 
 
 ---
@@ -98,13 +92,15 @@ John Marco Allegro - The Dead Sea Scrolls and the Christian Myth
 - Influence: The Psychology of Persuasion
 - Jonathan Haidt  
   - **The Happiness Hypothesis** - Analysis of ancient text in context of happiness
+  - **The Righteous Mind**
+  - **Don't think of an elephant** - z polecenia Haddita
 - Carl Jung
   -  **Modern Man in Search of A Soul** -
 - Dan Ariely -  Behavioral Economics (but was acused of falsifying data )
-
+- Paul Bloom
+  - Psycholinguistics, Developmental Psychology
+  - How Pleasure Works: The New Science of Why We Like What We Like
 Madsen Pirie - How to Win Every Argument: The Use and Abuse of Logic
-
-
 ---
 
 # Science
@@ -116,6 +112,15 @@ Madsen Pirie - How to Win Every Argument: The Use and Abuse of Logic
 - Dr. Octavio Choi
   - brain   
 15. Affective Neuroscience – Jaak Panksep
+
+
+
+## Physics
+
+- Nima Arkani-Hamed - phys  
+- Brian Keating
+- Brian Cox - cosmology
+
 ---
 
 # Art
@@ -155,7 +160,8 @@ The Game Narrative Toolbox (Focal Press Game Design Workshops)
   - **The Rum Diary**
   - **Where the Buffalo Roam**
 
-
+  https://www.youtube.com/watch?v=dgo-As552hY -
+  I Have No Mouth, and I Must Scream
 
 ---
 

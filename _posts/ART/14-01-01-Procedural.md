@@ -11,6 +11,9 @@ description: Patterns, Computed, Emergent
 permalink: /procedural/
 ---
 
+[Wiki Patterns In Nature ](https://en.wikipedia.org/wiki/Patterns_in_nature)
+Houdini music:
+https://www.youtube.com/watch?v=spuE1-CS1v0
 
 ----
 
@@ -134,7 +137,7 @@ black and white spaces
 
 https://youtu.be/VBzIPLh-ECg
 
-### Convolution 
+### Convolution
 https://www.youtube.com/watch?v=zngYAIBlHT4&list=PL2w9KHBkW34jbMfLXa7xe2IoHWrJNqaN9&index=1
 3x3 convolution > blur/sharpen by neighbours   
 

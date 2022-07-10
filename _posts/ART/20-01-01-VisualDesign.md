@@ -59,6 +59,8 @@ design great to communicate idea quickly
 
 [pxl.ink Perception](/perception/) - Gestalt pragnaz.
 
+
+
 ----
 
 # References
