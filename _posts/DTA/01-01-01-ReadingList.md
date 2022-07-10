@@ -10,6 +10,10 @@ description: List
 permalink: /list/
 ---
 
+https://www.youtube.com/watch?v=dgo-As552hY -
+I Have No Mouth, and I Must Scream
+
+
 The Immortality Key - Brian Muraresku
 
 # To read
@@ -66,7 +70,8 @@ https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY
   - Psycholinguistics, Developmental Psychology
   - How Pleasure Works: The New Science of Why We Like What We Like
 - Joscha Bach  
-- Nima Arkani-Hamed  
+- Nima Arkani-Hamed - phys  
+- Brian Cox - cosmology
 - Michael Meade
   - Finding Genius in your life https://youtu.be/h6Dasa5kIS8
 - Ayn Rand
@@ -97,11 +102,10 @@ John Marco Allegro - The Dead Sea Scrolls and the Christian Myth
   -  **Modern Man in Search of A Soul** -
 - Dan Ariely -  Behavioral Economics (but was acused of falsifying data )
 
-Madsen Pirie - How to Win Every Argument: The Use and Abuse of Logic  
+Madsen Pirie - How to Win Every Argument: The Use and Abuse of Logic
+
+
 ---
-
-
-
 
 # Science
 
@@ -172,17 +176,12 @@ Robert Nystrom - Game Programming Patterns‎
 The Experience Economy, Updated Edition
 
 
+Geopolitics:
+- Peter Zeihan -
 
 
-
-
-
-
-
-
-
-
-
+Finase:
+Lyn Aldryn
 
 
 7. Ordinary Men – Christopher Browning

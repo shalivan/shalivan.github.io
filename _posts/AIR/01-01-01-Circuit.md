@@ -381,6 +381,10 @@ raw event: 10 keys 1-127
 
 https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Circuit%20Programmers%20Reference%20Guide%20v1-1_0.pdf
 
+Clear MIDI value on knobs RYTHM
+
+0.5 | 0 | 1 | 0.5 | 0 | 0 | 1 | x  
+
 
 ---
 

@@ -11,7 +11,7 @@ description:  Paradigm
 permalink: /characters/
 ---
 
-
+https://www.marvelousdesignerhelp.com/viewtopic.php?t=131
 
 [Personality](/personality/)
 
@@ -74,3 +74,12 @@ old men vs young woman
 [KineFX](/kinefx/)
 
 [zBrush]( /zbrush/)  
+
+# Cloths
+
+[Modeling > garment](/modeling/)
+[Drape sim](/vellum/)
+
+marvelousdesigner
+[Marvelous help](https://www.marvelousdesignerhelp.com/viewtopic.php?t=131)     
+[Patterns Archive!!!](https://copa.apps.uri.edu/search.php?page=1)    
