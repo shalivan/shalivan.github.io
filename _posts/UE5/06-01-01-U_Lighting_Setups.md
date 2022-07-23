@@ -1,5 +1,5 @@
 ---
-title: U Lighting
+title: U Lighting Setups
 description: Atmosphere, Fog, Sun, Sky, Lumen
 categories:
  - PXL

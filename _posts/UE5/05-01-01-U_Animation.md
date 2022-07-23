@@ -12,6 +12,16 @@ tags:
 permalink: /uanimation/
 ---
 
+```
+### animatpon
+blend skeletals
+### control rig 
+
+### beh tree
+what to do
+```
+
+
 import: with skeleton - update skeleton reference pose - !!!!!!!!! important    
 [Houdini KineFX](/kfx/)      
 [Principles of animation](/animation/)     

@@ -1,5 +1,5 @@
 ---
-title: U Optimization
+title: U Render pipeline & Optimization
 description: RAW
 categories:
  - PXL
@@ -12,7 +12,22 @@ tags:
 - Rendering
 permalink: /uoptimization/
 ---
+LLM - lew level memory tracker  (in unreal insights)
+Profile GPU - sinle fram timing
+Dump GPU -
+Gauntlet - automate testing
 
+
+
+`Asset audit.` !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+`Size map` - take in accound hard refs.
+`Reference viewer` -
+
+
+
+
+
+https://dev.epicgames.com/community/learning/talks-and-demos/585Y/optimizing-the-medieval-game-environment
 Separate translucency
 
 1000 ms in 1 sek = 1000/30 = 33,3 ms to render frame
@@ -21,7 +36,13 @@ Separate translucency
 [Unreal Optimisation Guide](https://unrealartoptimization.github.io/book/pipelines/forward-vs-deferred)
 
 It's the pass where all meshes (this includes landscapes, skeletal meshes etc) are drawn into the G-buffer.
+
 ---
+
+
+# Forward Render pipeline  
+-- Not using right now --
+
 
 
 # Deferred Render pipeline  
@@ -40,6 +61,7 @@ Check if time of frame is bigger from CPU or GPU. (cause threads must wait one f
 
 Garbage Collector
 
+###  Render passes  
 ###  Render passes  
 
 | Render passes |  | dependences
@@ -190,9 +212,7 @@ Watch stationary light overlap
 - Cull lights and shadows
 
 ## Memory
-
-
- RHI - memory and so on...   affected by editor!    
+`RHI` - memory and so on...   affected by editor!    
 
  `Stat RHI`   
  `r.rhicmdbypass 1`   
@@ -207,179 +227,15 @@ steraming pool
 
 
 
----
 
 
+## Compression
 
-# Bottlenecks
 
+#### Textures used
+`Window/Statistics/..` - Used texture    
 
-https://zhuanlan.zhihu.com/p/36851846  
 
-
-Game thread:    
-- more complicated construction script more expensive to spawn!
-- Animation fast path,. more lighting icons in anim BPO better.
-
-Draw Thread:   
-- **Draw Calls** - command send , combine models, not too big cause: occlusion, collision, memory  
-- number of obj  (10-15+ k obj can cause problem)      
-
-GPU:  
-- Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)  
-- Shaders complexity on **Opacity**    
-- **Shadow Casting** -  
-- **Too many texture samples** - use bandwidth (compression and texture packing to channels help)   
-
-Assets:  
-- **Splits on uvs** adds to vertex count - (memory and disk space)
-- **Too many vertex attributes** - (extra UV channels)
-- precise uv
-- colision setup
-- affect navmesh
-- shadow distances and turn off for small
-- tick  
-
----
-
-
-# Forward Render pipeline  
-
-...
-
-
----
-
-# Debug
-
-####  Prepper for Debug
-
-- Measure performance in **ms**    
-- project settings > disable **smooth framerate**
-- Turn off **VSync** (r.vsync 0)
-- play in **standalone**, with minimized editor  
-
-
-#### Options
-
-- **G buffer**  high res normals
-- **D buffer** pass for decal otherwise are in lioght pass defered
-- **early Z psas**  for opaque and masked - bufffer for Opacity
-- extended tonmemaping  EV  w exposure
-- accurate velocity from degormer - have cost, for better foliage anim with Temporal AA  
-
----
-
-# Tools
-
-
-## Unreal  
-
-### Textures used
-
-Window > Statistics - Textures used   
-
-###  Session Frontend
-*CPU* + *GPU* same time, (you can load files from sessions `stat Startfile`, `stat Stopfile`)  
-Window > DevTools > `Session Frontend`     
-
-
-
-### Visual Logger
-[VisLog](https://docs.unrealengine.com/4.26/en-US/TestingAndOptimization/VisualLogger/)
-
----
-
-## Unreal Insights
-Standalone profiling system. Smaler impact on execution.
-
-
----
-
-## Intel Frame Analyzer   
-
-1. You need to package game
-2. Run Graphic monitor andd click analyse application
-3. Enable in U4: `ToggleDrawEvents`
-4. `Ctrl` + `Shift` + `C` - to capture
-5. Enable in U4: `ToggleDrawEvents`
-
-https://software.intel.com/en-us/gpa/graphics-frame-analyzer
-
----
-
-## Nvidia Nsight graphic
-
-- frame debuger
-- frame profile (similar but more like profiling than debuging)
-- generate C++ capture - collect frames   
-- gpu trace  
-
-
-`Timeline` API calls as events   
-`Resource view` textures and bufffers in scene (tak buttobn to find)   
-`API inspector` stages : input assembler , VS, PS  
-`API statistic` !!! view. > shaders wiev by comlexity and times      
-`Shader view` ??? Linked ptograms view   
-`Range Profiler` time ing using low lvl metrics (bottleneck) hi lvl overview.   
-
-1. Point to exe file
-2. Run
-
-https://developer.nvidia.com/gameworksdownload    
-
-## RenderDoc
-
-## Intel GPA
-Graphic performance analyzing
-Tools for doebug:
-- 'Graphic frame analyzer' is fro unreal can capture fragment of stream.
-  - download from github
-  - copy to plugins to ue install
-  - enable in project
-
-
-
-
-https://youtu.be/KuF4OTH9WjA
----
-
-# UE4 CVars:  
-
-
-[CVar list](http://www.kosmokleaner.de/ownsoft/UE4CVarBrowser.html)   
-
-
-`ToggleAllScreenMessages`  
-
-
-##### Show commands
-
-
-
-```
-r.screenPercentage
-r.SetRes 1920x1080f
-r.defaultfeature.antialiasing 0
-```
-```
-freezrendering
-show bounds
-show collisions
-```
-
-
-
-##### Shadows and reflections
-Shadow quality (`sg.ShadowQuality 0..4`).     
-Screen space reflections: Quality `r.SS.MaxRoughness 0.0..1.0` `e.SSR.Quality 0..4`    
-
-
-
-
----
-
-# Compression
 
 #### Unreal Compression:
 
@@ -419,13 +275,170 @@ DXT3 | RGBA | Better use 5 alpha channel (only 4 bits)
 DXT5 | RGBA | 8BPP  4:1 uses DXT1 for the color part, but adds another 4 bits per pixel of alpha. This gives you better transparency.
 
 
--------------
-
-Sources  
-Tech Art Aid   
-
-https://youtu.be/UZH4vZ0NDAw  
+---
 
 
-P4\Game\Saved\Logs     
-P4\Game\Saved\Config\Windows\EditorPerProjectUserSettings.ini    
+
+# Bottlenecks
+
+
+https://zhuanlan.zhihu.com/p/36851846  
+
+
+Game thread:    
+- more complicated construction script more expensive to spawn!
+- Animation fast path,. more lighting icons in anim BPO better.
+
+Draw Thread:   
+- **Draw Calls** - command send , combine models, not too big cause: occlusion, collision, memory  
+- number of obj  (10-15+ k obj can cause problem)      
+
+GPU:  
+- Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)  
+- Shaders complexity on **Opacity**    
+- **Shadow Casting** -  
+- **Too many texture samples** - use bandwidth (compression and texture packing to channels help)   
+
+Assets:  
+- **Splits on uvs** adds to vertex count - (memory and disk space)
+- **Too many vertex attributes** - (extra UV channels)
+- precise uv
+- colision setup
+- affect navmesh
+- shadow distances and turn off for small
+- tick  
+
+---
+
+
+#### rendering geometry
+
+##### read verticles uv
+veets on Smooth edges, no uvs = 100% vertex  
+`hard edges` - make new vert count
+`uv` - also contribute.
+hard edges should be where uvs - (ver count)
+`vertex color` - to memory cost but not vertex cost.
+`rendering passes` - (occl, shadow depths, shadow projection)
+
+
+
+
+
+
+---
+
+# Debug
+
+####  Prepper for Debug
+
+- Measure performance in **ms**    
+- project settings > disable **smooth framerate**
+- Turn off **VSync** (r.vsync 0)
+- play in **standalone**, with minimized editor  
+
+
+#### Options
+
+- **G buffer**  high res normals
+- **D buffer** pass for decal otherwise are in lioght pass defered
+- **early Z psas**  for opaque and masked - bufffer for Opacity
+- extended tonmemaping  EV  w exposure
+- accurate velocity from degormer - have cost, for better foliage anim with Temporal AA  
+
+---
+
+# Tools
+
+
+#### Visual Logger
+[VisLog](https://docs.unrealengine.com/4.26/en-US/TestingAndOptimization/VisualLogger/)
+
+## Unreal  
+
+### Session Frontend
+can manage and test daand legacy profiler but better is uInsights   
+*CPU* + *GPU* same time, (you can load files from sessions `stat Startfile`, `stat Stopfile`)  
+Window > DevTools > `Session Frontend`     
+
+### Unreal Insights
+Analyze memory allocation
+Standalone profiling system. Smaler impact on execution.
+
+
+## [Intel Frame Analyzer](https://software.intel.com/en-us/gpa/graphics-frame-analyzer)
+
+1. You need to package game
+2. Run Graphic monitor andd click analyse application
+3. Enable in U4: `ToggleDrawEvents`
+4. `Ctrl` + `Shift` + `C` - to capture
+5. Enable in U4: `ToggleDrawEvents`
+
+
+
+## [Nvidia Nsight graphic](https://developer.nvidia.com/gameworksdownload )
+
+- frame debuger
+- frame profile (similar but more like profiling than debuging)
+- generate C++ capture - collect frames   
+- gpu trace  
+
+
+`Timeline` API calls as events   
+`Resource view` textures and bufffers in scene (tak buttobn to find)   
+`API inspector` stages : input assembler , VS, PS  
+`API statistic` !!! view. > shaders wiev by comlexity and times      
+`Shader view` ??? Linked ptograms view   
+`Range Profiler` time ing using low lvl metrics (bottleneck) hi lvl overview.   
+
+1. Point to exe file
+2. Run
+
+
+
+## RenderDoc
+
+## Intel GPA
+Graphic performance analyzing
+Tools for doebug:
+- 'Graphic frame analyzer' is fro unreal can capture fragment of stream.
+  - download from github
+  - copy to plugins to ue install
+  - enable in project
+
+[Interl GPS Epic YT](https://youtu.be/KuF4OTH9WjA)
+
+
+
+
+---
+
+
+---
+
+# [UE4 CVars](http://www.kosmokleaner.de/ownsoft/UE4CVarBrowser.html)   
+
+
+`ToggleAllScreenMessages`  
+
+
+##### Show commands
+
+
+
+```
+r.screenPercentage
+r.SetRes 1920x1080f
+r.defaultfeature.antialiasing 0
+```
+```
+freezrendering
+show bounds
+show collisions
+```
+
+
+
+##### Shadows and reflections
+Shadow quality (`sg.ShadowQuality 0..4`).      
+Screen space reflections: Quality `r.SS.MaxRoughness 0.0..1.0` `e.SSR.Quality 0..4`     

@@ -52,9 +52,10 @@ Layers Horizontal and vertical:
 <img src="/src\hou\mat/matx2.png" width="600">  
 
 ###### Mat Nodes
-
+Base nodes
 - `mtlx Material Standard Surface` - use like default material
 - `collect node` - pipe at the end and check orange flag as output
+for color input to base_color
 
 ### Surface packed
 
@@ -79,37 +80,57 @@ surface/volume/light/displace
 - `Thin Film`
 - `sheen` - cloths
 
+
+##### Features
+
+Displacement:
+- `Collect` node - can plug in mtlx in  mtlx`Image` > mtlx`Remap` Color FA > mtlx`Displacement`
+
+
 ---
 
 ###### Basic
-- `mtlx Usd Prim Var Reader` - bind attribs / get attrib
+- `Usd Prim Var Reader` - bind attribs / get attrib
 
 
 ###### Math
-- `mtlx Const` - value
-- `mtlx Multiply`
-- `mtlx Remap` -
+- mtlx`Constant` - value
+- mtlx`Multiply`
+- mtlx`Remap` -
+- mtlx`Mix` - lerp
+- mtlx`Ramp` - Slower mix in vex
 
 ###### Noise
-- `mtlx Fractal 3d` - noise
-- `cellnoise 3d `
-- `noise 3d`
-- `worley noise 3d`
+- mtlx`Fractal 3d` - noise
+- mtlx`cellnoise 3d `
+- mtlx`noise 3d`
+- mtlx`worley noise 3d`
 
 ###### Texture
-- `mtlx Image` - Load texture
-- `mtlx Tiled Image` - Load texture
-- `mtlx Image` > `mtlx Normal Map`- Load nm texture
+- mtlx `Image` / mtlx `Tiled Image` - Load texture basic
+- mtlx`UsdUVTexture` - Load texture - channel options
+
+How to Add normal map:
+- mtlx `Image` > `Normal Map`- Load nm texture
 
 ###### UV
-- `mtlx Triplanar Projection`
+- mtlx`Texture coordinates` -
+- mtlx`Triplanar Projection`
 ...
 
- - Displacement: - `Collect` node - can plug in mtlx in  `mtlx image` > `mtlx remap` Color FA > `mtlx displacement`
- - Volume: - `mtlx Volume`
-    - `vdf` - volume > `mtlx anisotropic vdf` set absorption&scattering > `mtlx Geompropvalue` geomprop: density > set value  
+
+###### Volume:
+- mtlx`Volume`
+    - `vdf` - volume > mtlx `anisotropic vdf` set absorption&scattering > mtlx `Geompropvalue` geomprop: density > set value  
     - `edf` emmition
 
+
+#### non mtlx Nodes
+- Curvature
+- range
+- color correct
+- Ambient occlusion
+- State vector -
 ----
 
 

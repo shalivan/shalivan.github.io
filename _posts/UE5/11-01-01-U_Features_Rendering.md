@@ -1,5 +1,5 @@
 ---
-title: U Rendering
+title: U Features Rendering
 description: Shadows, Reflections,  Post Process, Nanite
 categories:
  - PXL
@@ -67,7 +67,7 @@ Point Light - Point light have 6x shadows .Max draw distance
 # Reflection
 >Capturing the level into cubemaps is a slow process which must be done outside of the game session. - Planar (can mask assets)
 
-##### SSR  
+##### SSR   
 >SSGI becomes apparent when it's being used as the sole indirect lighting illumination for the scene. For example, using baked lighting reduces screen space artifacts when transitioning behind a large occluder where a bright object may be located. SSGI is recommended as a means to improve indirect lighting illumination in your scene but not as a sole indirect lighting method  
 
 Project Settings > Engine > Rendering under the Lighting category

@@ -13,6 +13,11 @@ permalink: /rendering/
 ---
 [Material data](/matdata/)
 
+
+render can be parelalized // sim - big gpu with massive vram! one gpu!
+
+
+
 # Rendering
 *Defered* - more lights is ok    
 *Forward Rendering* - bneter with translucency   
