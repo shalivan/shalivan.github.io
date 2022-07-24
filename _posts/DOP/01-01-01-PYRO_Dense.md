@@ -12,8 +12,9 @@ description:  Solver
 permalink: /pyrodense/
 ---
 
-
-
+```
+velocity voxel (sccale down ) - will be fast
+```
 
 PYRO Dense is not using Sparse!
 
