@@ -1,6 +1,6 @@
 ---
 title: Dev Tools
-description: .
+description: Basic Dev tools 
 categories:
 - NET
 tags:
