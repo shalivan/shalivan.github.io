@@ -28,12 +28,20 @@ in geometry
 in algebra   
 
 
+carteasian - zy
+polar - zegarek - r,a
 
 ## Hyperbolic geometry
 
 
 
 https://www.youtube.com/watch?v=loCBvaj4eSg
+
+
+
+# 4D
+https://vimeo.com/349801935
+https://vimeo.com/472168176
 
 
 # Soft

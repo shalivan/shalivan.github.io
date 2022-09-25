@@ -88,24 +88,6 @@ Selective concentration on a discrete stimulus while ignoring other perceivable 
  - emotions
 
 
-## Systems Distinction - Kahneman
- Generally we are using system 1 which have more influence than we think, u cannot stop it. can only learn to detect  
-
-
-
- ||System 1|System 2|
- |---|---|---|
- ||Fast|Slow
- ||Impulses |Voluntary actions
- ||Routine|Self control
- ||Effortless choice|Capable of work with data
- ||Intuitions|Believes
-
-
-
- Core of System 1 create coherent interpretation what's going on, continuously creating suggestions. Not good in statistic When sys 1 go to difficulty (is not able to get answer) call to sys 2. 2 is Capable of work with data include complex computation. Agency, choice, computation (have in mind partial solutions while doing next computations)
-
-
 ## Memory
 
 
@@ -145,6 +127,24 @@ Knowledge
 Beliefs > Golas > Options > Commitment > Plans > Actrions > Beliefs
 
 
+
+### Systems Distinction - Kahneman
+ Generally we are using system 1 which have more influence than we think, u cannot stop it. can only learn to detect  
+
+
+
+ ||System 1|System 2|
+ |---|---|---|
+ ||Fast|Slow
+ ||Impulses |Voluntary actions
+ ||Routine|Self control
+ ||Effortless choice|Capable of work with data
+ ||Intuitions|Believes
+
+
+
+ Core of System 1 create coherent interpretation what's going on, continuously creating suggestions. Not good in statistic When sys 1 go to difficulty (is not able to get answer) call to sys 2. 2 is Capable of work with data include complex computation. Agency, choice, computation (have in mind partial solutions while doing next computations)
+
 ## Cognitive Biases
 
 [Perception](/perception/)
@@ -157,41 +157,43 @@ The Primacy / Recency Effect is the observation that information presented at th
 
 Judgments are influenced by:
 ### Behavioral biases
-- **Anchoring** - First thing you judge, influences your judgment of all that follows. (anchored to stock price you bought)
-- **Availability Heuristic** - What springs most easily to mind. (something happened in same place)
-- **Availability Cascade** - (media report > public panic)
-- **Sunk Cost** - Irrationally cling to things that have already cost you something.
-- **Framing** - Allow yourself to be unduly influenced by context and delivery.
-- **Halo effect** - People you like or find attractive influences your other judgments of them.
-- **In-Group** bias. - Unfairly favor those who belong to your group.
-- **Group thinking** - Social dynamics of a group situation override the best outcomes.
-- **Optimism, Pessimism** - Overestimate the likelihood of positive / negative outcome.
-- **Negativity bias** - Negative things to disproportionately influence your thinking.
-- **Placebo** -
-- **Curse of Knowledge** - Once you understand something you presume it to be obvious to everyone.
-- **Dunning-Kruger effect** - The more you know, the less confident you're likely to be.
-- **Confirmation bias**  - Favor things that confirm your existing beliefs.
-- **Belief bias** - If a conclusion supports your existing beliefs, you'll rationalize anything that supports it.
-- **False-Consensus Effect** -
-- **Self-serving bias** - Failures are due to external factors, yet you're responsible for your successes.
-- **Backfire effect** - If beliefs is challenged, it can cause you to believe even more strongly
-- **Reactance** - Do something different from what someone wants you to do in reaction to a perceived attempt to constrain your freedom of choice.
-- **Bystander effect** - You presume someone else is going to do something in an emergency situation.
-- **Fundamental Attribution error** - You judge others on their character, but yourself on the situation.
-- **Just-world hypothesis** - Preference for justice makes you presume it exists.
-- **Spotlight effect** - Overestimate how much people notice how you look and act.
-- **Barnum effect** - You see personal specifics in vague statements by filling in the gaps.
-- **Hindsight Bias** - (Rationalize that something happened)
-- **Endowment Effect** - (perceive effect) (Want to sell item for more)
-- **Duration neglect** - Judgment of painful experiences depend very little on how long those experiences lasted
-- **Peak-End rule** - Judgement of an experience mostly on how they felt at its peak or very end (shortcut when thinking how feel about exp. you thing about: 1 highest peaks and at end )
-- **Regency Bias** - is the phenomenon of a person most easily remembering something that has happened recently,
-- **Priming** - Things seen recently impact you more (exposure to a certain stimulus)
-- **Mere Exposure Effect** - (More often see more u like it)
-- **Blind Spot** - (other feel different than you)
-- **Cognitive Ease**
-- **law of Small numbers** - (next flip have same chance )
-- **Prospect Theory and Loss Aversion** - (insurances , 100% money back, bnrutality in tv) (LOSS > gain)
+|||
+|---|---|
+**Anchoring** || First thing you judge, influences your judgment of all that follows. (anchored to stock price you bought)
+**Availability Heuristic** | What springs most easily to mind. (something happened in same place)
+**Availability Cascade** | (media report > public panic)
+**Sunk Cost** | Irrationally cling to things that have already cost you something.
+**Framing** | Allow yourself to be unduly influenced by context and delivery.
+**Halo effect** | People you like or find attractive influences your other judgments of them.
+**In-Group** bias. | Unfairly favor those who belong to your group.
+**Group thinking** | Social dynamics of a group situation override the best outcomes.
+**Optimism, Pessimism** | Overestimate the likelihood of positive / negative outcome.
+**Negativity bias** | Negative things to disproportionately influence your thinking.
+**Placebo** |
+**Curse of Knowledge** | Once you understand something you presume it to be obvious to everyone.
+**Dunning-Kruger effect** | The more you know, the less confident you're likely to be.
+**Confirmation bias**  | Favor things that confirm your existing beliefs.
+**Belief bias** | If a conclusion supports your existing beliefs, you'll rationalize anything that supports it.
+**False-Consensus Effect** |
+**Self-serving bias** | Failures are due to external factors, yet you're responsible for your successes.
+**Backfire effect** | If beliefs is challenged, it can cause you to believe even more strongly
+**Reactance** | Do something different from what someone wants you to do in reaction to a perceived attempt to constrain your freedom of choice.
+**Bystander effect** | You presume someone else is going to do something in an emergency situation.
+**Fundamental Attribution error** | You judge others on their character, but yourself on the situation.
+**Just-world hypothesis** | Preference for justice makes you presume it exists.
+**Spotlight effect** | Overestimate how much people notice how you look and act.
+**Barnum effect** | You see personal specifics in vague statements by filling in the gaps.
+**Hindsight Bias** | (Rationalize that something happened)
+**Endowment Effect** | (perceive effect) (Want to sell item for more)
+**Duration neglect** | Judgment of painful experiences depend very little on how long those experiences lasted
+**Peak-End rule** | Judgement of an experience mostly on how they felt at its peak or very end (shortcut when thinking how feel about exp. you thing about: 1 highest peaks and at end )
+**Regency Bias** | is the phenomenon of a person most easily remembering something that has happened recently,
+**Priming** | Things seen recently impact you more (exposure to a certain stimulus)
+**Mere Exposure Effect** | (More often see more u like it)
+**Blind Spot** | (other feel different than you)
+**Cognitive Ease**
+**law of Small numbers** | (next flip have same chance )
+**Prospect Theory and Loss Aversion** | (insurances , 100% money back, bnrutality in tv) (LOSS > gain)
 
 ### Social biases
 
@@ -301,6 +303,7 @@ https://www.visualcapitalist.com/50-cognitive-biases-in-the-modern-world/
 
 
 
+
 ----
 # Conscious
 Adaptive state let us discover
@@ -314,24 +317,8 @@ sum of sensores ??
 
 ----
 
-
-# Brain
-
-Hemispheres
-
-|Hemisphere|Left|Right|
-|---|---|---|
-|Operation in teritory |Explored  | Unexplored
-|Affect|Positive|negative
-|Behavior| Activation | Inhibition
-|Processing| World| Imafe
-|Thinking|Linear|Holistic|
-|Recognition|Detail| Pattern |
-|Generation|Detail|Pattern|
-|Action |Fine Motor|Gross Motor|
-
-
-
+# Mental Models
+https://fs.blog/mental-models/
 
 
 
@@ -417,6 +404,29 @@ Psychosomatic evaluative responses based on automatized value-judgements.
 >Emotions are motivations by `Discovery, novelty, surprises`
 
 Satisfaction -  well-being assessed in terms of mood, satisfaction with relationships, achieved goals, self-concepts
+
+
+---
+
+# Brain
+
+Hemispheres
+
+|Hemisphere|Left|Right|
+|---|---|---|
+|Operation in teritory |Explored  | Unexplored
+|Affect|Positive|negative
+|Behavior| Activation | Inhibition
+|Processing| World| Imafe
+|Thinking|Linear|Holistic|
+|Recognition|Detail| Pattern |
+|Generation|Detail|Pattern|
+|Action |Fine Motor|Gross Motor|
+
+
+
+---
+
 
 
 ### .

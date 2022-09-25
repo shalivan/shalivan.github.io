@@ -49,32 +49,36 @@ https://www.youtube.com/watch?v=9AdiRB9HApw  PROTECTION for + from HUMANITY
   - **The Trial** -  
 - Aleksandr Solzhenitsyn
  - **Gulag Archipelago** (Vol. 1, Vol. 2, & Vol. 3)
-
+- Timothy Leary
+- David Foster Wallace
 # Philosophy
 - Joseph Campbell
   - **The Hero's Journey**
   - **Transformations of Myth Through Time**
   - **The Hero with a Thousand Faces**
-- Yuval Noah Harari
-  - **Homo Deus: A Brief History of Tomorrow** - 2015
-  - **Sapiens** -
-  - **21 Lessons for the 21st Century** -
-- George Lakoff - (people's lives are significantly influenced by the conceptual metaphors t)
+
+
+- George Lakoff - (people's lives are significantly influenced by the conceptual metaphors)
 
 - Friedrich Nietzsche
  - **Beyond Good and Evil: Prelude to a Philosophy of the Future** -
 - Jean Baudrillard
   - **Simulacra and Simulation**  -
-
 - Joscha Bach  
 - Michael Meade
   - Finding Genius in your life https://youtu.be/h6Dasa5kIS8
 - Ayn Rand
   - **The Fountain** head - novel Philosophy of objectivism. Maybe have no good answers but have good questions.
 
+### History of humankind
+- Yuval Noah Harari
+    - **Homo Deus: A Brief History of Tomorrow** - 2015
+    - **Sapiens** -
+    - **21 Lessons for the 21st Century** -
+- Jared Diamond
+    - **Guns, Germs, and Steel**: The Fates of Human Societies - A Short History of Everybody for the Last 13,000 Years
 
 ---
-
 
 - Marshall McLuhan
    - **Understanding Media: The Extensions of Man** 1964
@@ -100,7 +104,8 @@ John Marco Allegro - The Dead Sea Scrolls and the Christian Myth
 - Paul Bloom
   - Psycholinguistics, Developmental Psychology
   - How Pleasure Works: The New Science of Why We Like What We Like
-Madsen Pirie - How to Win Every Argument: The Use and Abuse of Logic
+- Madsen Pirie - How to Win Every Argument: The Use and Abuse of Logic
+- Timothy Leary - Psychedelic Psychologist
 ---
 
 # Science
@@ -117,10 +122,12 @@ Madsen Pirie - How to Win Every Argument: The Use and Abuse of Logic
 
 ## Physics
 
-- Nima Arkani-Hamed - phys  
-- Brian Keating
-- Brian Cox - cosmology
-
+- Nima Arkani-Hamed - phys  Super symmetry
+- Andrzej Dagan - tahiony /  quantum theory and relativity
+- Sean Carroll - all
+- Brian Greene - all /  quantum theory and relativity
+- Brian Keating - not get noble
+- Brian Cox - cosmology / astronomy
 ---
 
 # Art
@@ -187,7 +194,7 @@ Geopolitics:
 
 
 Finase:
-Lyn Aldryn
+Lyn Aldryn  
 
 
 7. Ordinary Men – Christopher Browning
@@ -203,7 +210,7 @@ Lyn Aldryn
 
 - **the sacred mushroom and the cross**  - john marco allegro,
 - **Stulecie chirurgów**  - Thorwald Jurgen  
-
+- The Hitchhiker's Guide to the Galaxy by Douglas Adams
 
 Christopher Booker       
 101 prison of mind from 1790 ??

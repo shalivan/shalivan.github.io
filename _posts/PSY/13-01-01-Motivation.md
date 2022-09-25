@@ -267,6 +267,7 @@ Flow
 
 ---
 
+FEARS WANTS & DEASIRES, change customer seek::: >> advent, affection , avoid new, belong, communi, control, creat, freedom,frieen, good looks, learning, comunit, friends, luxury, nostalgia, participation, peaco of mind, power, respect, reasurance, revange, romance ,savety, sexy , sec, sympathy, tention
 
 ---
 

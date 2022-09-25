@@ -18,19 +18,24 @@ Dump GPU -
 Gauntlet - automate testing
 
 
+memory speed is slower   
+calculation is every better    
 
-`Asset audit.` !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-`Size map` - take in accound hard refs.
-`Reference viewer` -
+saving mamory boundry !!!!! is much more important than few instructions    
+
+`Asset audit.`      
+`Size map` - take in accound hard refs.   
+`Reference viewer` -     
 
 
 
 
+Garbage Collector
 
 https://dev.epicgames.com/community/learning/talks-and-demos/585Y/optimizing-the-medieval-game-environment
 Separate translucency
 
-1000 ms in 1 sek = 1000/30 = 33,3 ms to render frame
+
 
 
 [Unreal Optimisation Guide](https://unrealartoptimization.github.io/book/pipelines/forward-vs-deferred)
@@ -40,13 +45,10 @@ It's the pass where all meshes (this includes landscapes, skeletal meshes etc) a
 ---
 
 
-# Forward Render pipeline  
--- Not using right now --
 
-
+1000 ms in 1 sek = 1000/30 = 33,3 ms to render frame
 
 # Deferred Render pipeline  
-
 
 All lights are applied deferred in Unreal Engine 4, as opposed to the forward lighting path used in Unreal Engine 3. Materials write out their attributes into the GBuffers, and lighting passes read in the per-pixel material properties and perform lighting with them.
 
@@ -59,9 +61,64 @@ Check if time of frame is bigger from CPU or GPU. (cause threads must wait one f
 `StartFPSChart` / `StopFPSChart`    
 `Stat fps` / `Stat Unit` / `Stat UnitGraph`    
 
-Garbage Collector
+##### In New Frame:
+0. [CPU] Frame 0
+ - what happened in frame 0
 
-###  Render passes  
+1. [CPU] frame 1 - visibiity and culling passes (
+ - Distance cull
+ - Frustrum cull (comandline `freezrendering`)
+ - Precomputed visibility (whan cam movement predictable)
+ - Nanite culling pass - clusters culling and instance cull
+ - Visibility culling (hard/software base)
+ - STAR RENDERING
+
+2. Depth pass
+ - Early Z Pass  - prepass to render pixel overdraw. Also Scene Depth is rendered.
+ - Scene depth  (Pixel Depth in mat)
+
+3. Base pass - Generate All buffers (color spec wn...)
+ - for all draw calls > materials on meshes
+ - static lights are added
+
+4. Dynamic light and shadows
+ - Capsule shadow!
+ - Ray trace (high end, accurate - shadows, ao )
+ - wirtual shadow maps - with nanite  large virtual texture with auto stream
+ - distance field
+ - lumen tealtime gi  - distance field of mesh + surface cash (simple version used to trace against)
+
+4. Reflections
+ - static bakek to reflection capture
+ - dynamic
+  - raytraced (depreciated)
+  - lumen (use ray traced when available)
+  - screen space  
+ - planar reflaction  (depreciated) rerender whole scene so use > lumen reflection or screen space
+
+5. outside of standard metodology
+ - fog
+ - hair
+   - not for games
+ - water
+   - single layer water
+ - volumetric
+   - clouds
+   - fog
+ - translucency
+   - scalable with performance levels- top cheapest to down most expensive  
+      - columetric nondirectional
+      - surface forroward each light on pixel level (most expensive)
+ - atmosphere
+
+6. Post processing
+ - vfx replecateing cameras
+ - illusion of more complex methods
+   - SSGI - Screen Space Global Illumination
+   - SSSSS -
+   - Burley SSSSS
+   - GTAO (TGorund Truth Ambient Occlusion)
+
 ###  Render passes  
 
 | Render passes |  | dependences
@@ -119,7 +176,11 @@ CPU graphic render thread. Will cull things not in cam,  create list. critical i
 ### Draw calls
 Fixed cost per call. bigger then polycount.
 
+
+##### Instancing
 Instancing a mesh provides performance benefits even if the total number of draw calls does not reflect that
+
+**Instancing** being a special case of batching. With a scene rendered with many small or simple objects each with only a few triangles, the performance is entirely CPU-bound by the API; the GPU has no ability to increase it. More precisely, "the processing time on the CPU for the draw call is greater than the amount of time the GPU takes to actually draw the mesh, so the GPU is starved. So Batching attempts to allow the CPU to combine a number of objects into a **single API call**. In the case of Instancing it is the one mesh and the number of times you are drawing with a separate data structure for holding information about each separate mesh.
 
 Using Instances bring up the Stat UNIT and watch the DRAW versus GPU (CPU vGPU) and notice when you instance a mesh the CPU time remains fairly consistent depending on the additional information you are wanting to pass to each instance, while the GPU will increase. All of these numbers are still dependent on the size of your mesh and the type of material setup and the ultimate limitations of your CPU and GPU. [src](https://answers.unrealengine.com/questions/127435/using-instanced-meshes-doesnt-reduce-draw-calls.html)  
 Instanced meshes will reduce the draw call overhead on the CPU but will not reduce the GPU cost.
@@ -127,12 +188,6 @@ Instanced meshes will reduce the draw call overhead on the CPU but will not redu
 - Meshes using the same material/instance will still take one draw call each
  - 3 meshes using the same material: set shader, draw mesh #1, draw mesh #2, draw mesh #3  
  - 3 meshes using a different material each: set shader #1, draw mesh #1, set shader #2, draw mesh #2, set shader #3, draw mesh #3  
-
-
-
-> Instancing being a special case of batching. With a scene rendered with many small or simple objects each with only a few triangles, the performance is entirely CPU-bound by the API; the GPU has no ability to increase it. More precisely, "the processing time on the CPU for the draw call is greater than the amount of time the GPU takes to actually draw the mesh, so the GPU is starved." [Moeller, Real Time Rendering, 708]. So Batching attempts to allow the CPU to combine a number of objects into a single API call. In the case of Instancing it is the one mesh and the number of times you are drawing with a separate data structure for holding information about each separate mesh.
-
-
 
 
 
@@ -442,3 +497,9 @@ show collisions
 ##### Shadows and reflections
 Shadow quality (`sg.ShadowQuality 0..4`).      
 Screen space reflections: Quality `r.SS.MaxRoughness 0.0..1.0` `e.SSR.Quality 0..4`     
+
+
+-----
+
+
+Scalability settings >

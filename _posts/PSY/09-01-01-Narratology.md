@@ -34,6 +34,8 @@ https://taraeast.com/2015/01/30/architect-vs-gardener/
 
 ## Architect vs. Gardener
 
+Styles of work differ. Architect is planing everything in advance and gardener is trying to make while progressing throu.
+
 # Genres
 Stories round campfire > myths > printing press: linearize > Post linear: World building
 
@@ -41,6 +43,8 @@ Stories round campfire > myths > printing press: linearize > Post linear: World 
 **Poetry** (liryka) (podmiot liryczny)  
 **Drama** (bohater) Na scenie  comedy, tragedy, dramat  
 **Fiction / Nonfiction** (epika) (narrator)  nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.  
+Mitologia > Folklor > Fantastyka
+
 
 -  **Parable** (przypowieść)  Parabolic novel which touches on many different issues. Inspired  by: metaphysics, language, culture, technology, ethic and the theoretical origins of human consciousness, creates a thought reaction chain. Postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Fabuła z racji swego przykładowego charakteru  pozostaje silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego. (allegorical moral story)  
 -  **Exemplum** (Stories are examples ) odwołuje się do świata znanego swoim odbiorcom    
@@ -152,31 +156,29 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - Promise > Progress > Payoff
 - Substitution plot :L give sth else than what expected /harder to write/
 
-##### Introduction / Beginning
+
+
+## Three-Act structure
+
+##### **Setup** >  Introduction / Beginning
 - to engage
 - roznicza miedzy pokazywaniem tajemnicy / wprowadzaniem motywów a randomem
 - cold open (start in adventure)
 - play with expectation,  
 
-##### Peak / Twist
+##### **Conflict** >  Peak / Twist
 - (tentpole - most expensive mom)  
 
-##### Scenes
-- Plot: what happens > the consequences  
-- Story (internal): why it matters > realization > what leading to next enevable and so?
 
-##### End / Payoff
+##### **Resolution**  >  End / Payoff
 - payoff should give u everything from premise of beginning
 character how will change    
 - brain reference to those experience and have impact to long term memory    
 - coming home, return motive
 
-
-## Three-Act structure
-**Setup** >  
-**Conflict** >  
-**Resolution**  >  
 with plot points are between phases  
+
+
 
 ## MICE
 A way to categorize stories, but also a loose guideline on where to start and end a story based on how it’s categorized  
@@ -241,6 +243,10 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 - **callbacks** - widly used in hollywood
 - **twist**
 
+##### Scenes
+- Plot: what happens > the consequences  
+- Story (internal): why it matters > realization > what leading to next enevable and so?
+
 ## Scope
 To much stories in witch the fate of the world was at stake
 Bigger stakes not equal more powerful stories
@@ -303,6 +309,11 @@ Dramatic moments happening  on screen (cutscenes) are less dramatic because you 
 ---
 
 # Meta
+
+
+>Post-modern Criticism Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjective opinion)
+ [Lyotard (postmodern condition book)]
+
 
 ## Meaning
 **Grand narrative behind story**. Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
@@ -417,7 +428,80 @@ Masks | hide identity
 
 
 
+
+
+## Dualities (Polarities, Dialectics)
+- to create perfection u must unify with opposite
+
+
+##### Binary
+Static
+- free will vs destiny
+- means - instrumental value / for own - intrinsic value
+
+##### Flux
+Dynamic (gradient)
+
+- **Yin Yang** - Not static but dynamic opposites. relative - 2 sides of same thing growth & decline, cycle. The dots represent the seed of yin within yang and the seed of yang within yin; the idea that neither can exist without the other.
+- **Dao** - way between - live simple
+
+### Dualities
+
+| Yin | Yang |
+|---|---|
+| Black, Dark, Shade, -, Death | White, Light, Sunny, +, Live |
+| The Moon, Night, Cold, Winter, Atumn | The Sun, Day, Hot, Summer, Spring    
+| Feminine, Discrete, Indirect , Mental, Intuition | Masculine, Obvious, Direct, Physical, Logic
+| Water, Wetness, Ocean| Fire, Dryness, Desert
+| Calm, Faded, Slow, Stillness | Energy, Vibrant, Fast, Movement |
+| Inward, Interior, Storage, Frontside, Left | Outward, Exterior, Usage, Backside, Right |
+| Even, Quiet, High pitches | Odd, Loud, Low pitches   
+| Receiving, Listening | Giving, Talking
+| Connected to whole | Individualized Self
+| Completeness | Perfection (with exclusion)
+| Mother Nature | Father Society Culture
+
+
+|.||
+|---|---|
+| Linear | Cyclical
+| Chronos time | Kairos Time
+| Monochronic | Polychronic (many cycles in diff time scale)
+| Waterfall | Agile
+| Spiritual Emotion, Art, Morality Feeling | Logic, Intellect, Science Thought
+| Rationality | Intuition
+| Reducing Subtractive | Irreducible Additive
+| Explaining Measuring  | Inexplicable Immeasurable
+| Objectiv Truth | Subjective Truth
+| Probabilistic | Deterministic
+| Heaven | Wilderness |
+| Growth: up | Decline down
+| thinking strategic | thinking tactical
+| Weight (importance, genre significance) | Weightlessness (lightness, volatility, playfulness)
+
+
+
+
+
+
+|.||
+|---|---|
+| Creation, Apocalypse  | Deluge (flood) how to conduct yourself if sth. bad happen (prepper)
+| Chaos & Order | positive and negative.  but new things come from unknown
+| Innate Wisdom & Educated Stupidity
+
+
+
+## Categories
+
+computationalist / biologicalist / quantummechanist
+
+
+
+
+## Cycles
 The Natural Cycle
+
 
 ####  Season / Life cycle
 
@@ -430,78 +514,11 @@ The Natural Cycle
 
 
 
->Post-modern Criticism Skepticism tough meta narrative - Post modernism (large claim to be a true for all people is outdated) (no such think as through knowledge all we have is subjective opinion)
- [Lyotard (postmodern condition book)]
-
-
-
-
-#### Dualities (Polarities, Dialectics)
-
-War of ideas (free will vs destiny) (emo vs logic) (spiritual vs science)
-
-###### Yin Yang
-
-Not static but dynamic opposites. relative - 2 sides of same thing growth & decline, cycle. The dots represent the seed of yin within yang and the seed of yang within yin; the idea that neither can exist without the other.
-
-**Dao** - way between - live simple
-
-| Yin | Yang |
-|---|---|
-| Black, Dark, Shade, -, Death | White, Light, Sunny, +, Live |
-| The Moon, Night, Cold, Winter, Atumn | The Sun, Day, Hot, Summer, Spring    
-| Feminine, Discrete, Indirect , Mental, Intuition | Masculine, Obvious, Direct, Physical, Logic
-| Water, Wetness | Fire, Dryness
-| Calm, Faded, Slow, Stillness | Energy, Vibrant, Fast, Movement |
-| Inward, Interior, Storage, Frontside, Left | Outward, Exterior, Usage, Backside, Right |
-| Even, Quiet, High pitches | Odd, Loud, Low pitches   
-| Receiving, Listening | Giving, Talking
-| Connected to whole | Individualized Self
-| Completeness | Perfection (with exclusion)
-| Mother Nature | Father Society
-
-- Growth: up, Decline down
-- thinking strategic vs thinking tactical
-- means - instrumental value / for own - intrinsic value
-- to create perfection u must unify with opposite
-- Weight (importance, genre significance), Weightlessness (lightness, volatility, playfulness)
-
-
- |.||
- |---|---|
- | Heaven vs Wilderness |
- | Creation, Apocalypse  | Deluge (flood) how to conduct yourself if sth. bad happen (prepper)
- | Chaos & Order | positive and negative.  but new things come from unknown
- | Water & Desert |
- | Innate Wisdom & Educated Stupidity
- | culture vs nature
-
-- Static binary vs Flux (yin yang)
-- Linear or cyclical
-- Chronos time vs Kairos Time
-- Monochronic vs Polychronic (many cycles in diff time scale)
-- Waterfall vs Agile
-
-
-Hegelian dialectic: Thesis, Antithesis, Synthesis.
-then synthesis become a new thesis
-
-Thought | Feeling
-Intellect | Emotion
-Rationality | Intuition
-Science, logic | Art, Morality
-Reducing | Irreducible
-Explaining | Inexplicable
-Measuring | Immeasurable
-Objective Truth | Subjective Truth
-
-
-
-computationalist / biologicalist / quantummechanist
 
 
 ---
-
+Hegelian dialectic: Thesis, Antithesis, Synthesis.
+then synthesis become a new thesis
 
 #  Motifs
 
@@ -514,6 +531,8 @@ When cliché is well executed is not a cliché / cliché is when its not driving
 - Who did it
 - Checkmate
 - you are in loop / ability to move on.
+
+
 ### Conflict
 ‘No conflict, no drama’
 - conflict of interests

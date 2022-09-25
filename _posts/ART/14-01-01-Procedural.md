@@ -163,7 +163,7 @@ https://www.thefuselab.io/
 
 
 ----
-
+https://www.researchgate.net/figure/Anisotropic-distances-top-row-and-Voronoi-diagrams-bottom-row-with-a-decreasing_fig4_41220645
 
 
 https://generativeartistry.com/tutorials/
