@@ -11,55 +11,52 @@ tags:
 permalink: /leveldesign/
 ---
 
-https://www.patternlanguage.com/
+
 
 - Control environment instead of camera like in movies.
 - Contain: aesthetic + functionality
 - LD driven by mechanics.
   - High level: - [Environmental storytelling](/ludology/)
   - Medium level: - Level Design
-  - Low level: - [World Building](/lore/)
+  - Low level: - [World Building / Lore](/lore/)
+
 
 # Concept
-
-- Restrictions, goals, context.   
+- Show don't tell
+- Minimize cognitive load. to avoid struggle with processing information's . to much details sensory overload.
+- Readability  
+- Form follow function. Restrictions, goals, context.   
 - Scale, metrics and proportions .  
 - Blockout, and props  
-- form follow function   
-- backdrop (non-playable area  
+- Backdrops - non-playable areas
 - Giving the player depth cues by  reference   
-- obj with fixed size = car, without = tree    
-- Readability  
+- Obj with fixed size = car, without = tree    
 - Signposting  
-.
-- **Critical path** = The quickest and most direct route to beating the level.
-- **Golden path** = The designers ‘preferred’ route. It’s the one you expect most players to take and the one which will offer the optimal experience.
 
-
-- minimize cognitive load. to avoid struggle with processing information's . to much details sensory overload
-
-
-##### Intentionality
-Afford present player options and goals > formulate plan > act with intentionality
-Linearity feels bad could be caused by week intentionality
-what to do but not how to do it
 
 
 ## Production Constraints & Direction   
-(ograniczenia wynikajće z pipelinów)
+- Design constraints
+- Pipeline tools constraints
 
 ### Pattern analysis
-- grid base props (modular) vs. oprocz funkcji musza byc rzeczy ktore sprawią ze lvl jest naturalny a nie jak w girsach auromatycznym skinem. obvious.
+- grid base props (modular) need lot of custom work to break pattern recognition, and don't feel unnatural and obvious.
+https://www.patternlanguage.com/
 
 ### Recycling
-Power shift / Reversal  
-Playing the level backwards  
-Revisit
----
+
+Make a change when recycling:
+- Power shift / Reversal  
+- Playing the level backwards  
+- Revisit
 
 # Navigation
 
-Players action loop: Typicaly in a vantage point area, where we can survey, orient ourselfs  and plan our approach.
+##### Intentionality
+Afford present player: options and **goals** > formulate **plan** > **act with intentionality** What to do but not how to do it.
+- Linearity feels bad could be caused by week intentionality
+
+Players action loop: Typically in a vantage point area, where we can survey, orient ourselves  and plan our approach.
 
 1. Observe
 2. Plan
@@ -67,12 +64,14 @@ Players action loop: Typicaly in a vantage point area, where we can survey, orie
 4. React
 
 
-
-
 ## Guidance
 - UI - UI, Maps, ...
-- In game visuals - Signifires, Signs, Lighting,.... (not beraking fourth wall)  
+- In game visuals - Signifiers, Signs, Lighting,.... (not breaking fourth wall)  
 - Narrative - Narrator, AI, ...
+
+
+- **Critical path** = The quickest and most direct route to beating the level.
+- **Golden path** = The designers ‘preferred’ route. It’s the one you expect most players to take and the one which will offer the optimal experience.
 
 
 ## Saliency
@@ -101,13 +100,11 @@ Players action loop: Typicaly in a vantage point area, where we can survey, orie
 
 ### Encourage
 
-- **Mystery** - If there is information to learn `Wniees` - landmark with mystery element
+- **Mystery** - If there is information to learn `Whining` - landmark with mystery element
 - **Teasing** - Show what you can get yet.
-- **Colectables/**
+- **Collectables**
 - high level long term goals. not pull a leaver.
 
-
----
 
 
 # Space
@@ -123,8 +120,8 @@ Composing 3d to view in 2d (flat monitor) like composition rules
 ## Orientation
 
 **where I am**  In games Perceptual pattern to create Orientation  
-- Signposting (oznaczenia charakterystyczne dla areny)
-- Divide to district / zroznicuj areny (to distinc in map and mind )
+- Signposting (characteristic to area, or showing way)
+- Divide to district /  (to distinct at map and mind )
 
 
 - `Landmarks` - individual objects
@@ -134,27 +131,28 @@ Composing 3d to view in 2d (flat monitor) like composition rules
 - `Nodes` - moments of decisions - train station
 - `Point of interest` -  
 Way finding elements:
-dont lead player where to go but how move through space
+don't lead player where to go but how move through space
 
 
+### Callouts
 
-
+Places on level you can call by name. Areas are distingue enough that player can identify them by feature (space, light, color). Should be thought through different scales (arena, district, level).
 
 ## Function
 
 [Architecture](/arch/)
 
-- Differentiate by usage: `stelth` / `combat` / `traversal` / public `interaction` (opportunities for different playstyles  )
+- Differentiate by usage: `stealth's` / `combat` / `traversal` / public `interaction` (opportunities for different playstyles  )
 - `public space` / `purpose spaces`
-- `primary target` (no deadends) vs. `illusory targets` vs. `escalating` (everywhere), vs `bonus missions`
+- `primary target` (no dead-ends) vs. `illusory targets` vs. `escalating` (everywhere), vs `bonus missions`
 - beginning and end
 
 .
 
-- primary circulation routes . connect primary nodes of activitiy
+- primary circulation routes . connect primary nodes of activity
 - secondary roots to increase mobility  
 - no dead ends
-- only pedestrian rootes
+- only pedestrian routes
 
 ### Pacing
 
@@ -164,46 +162,45 @@ linear vs. non-linear ### non linear - Pacing
 - variety  
 - time  
 
-
 ### Prospect & Refuge
 **Prospect** is a view, and **Refuge** is Safety place. This kept our ancestors safe from enemies/predators and the elements, meet basic human psychological needs.  (evolutionary heritage). provide people with the capacity to observe (prospect)
 
 - **Primary**  - you have now both
 - **Secondary** - we have only one and see second far away is only promise)
 
-
-
 ### Secrets
 
 - **Breadcrumbing** -  sending brief and sporadic messages. Trail of something (usually pickups or information) that leads the player in the right direction or towards  
 - **Hints** - Slight or indirect indication or suggestion. (notes on paper, maps, signs)
 
-## Traversing  Action Space > is skill based ?  
+## Traversing  
 
+## Action Space
+Skill based
 
 ## Combat Spaces
 Design for multiple options and strategies. viable/intended ranges of the combat space. pieces of cover should be available to the player at the start of combat Preventing teams from being able to spawn camp
 - Vintage point - Show off the combat space (or area the player needs to sneak through),
 - Fronts
 - Flanks (he bridge(s) in the neutral zone between the combating sides)
-- No man’s land. Hard to defence (can add colectable at center)
+- No man’s land. Hard to defense (can add collectable at center)
 - Entrances (Enemy reinforcements enter from different positions or in new ways)
 - Covers Can
   - durability:
     - Static - Hard cover
     - Moveable / Dynamic - can be moved / destroyed  . temporary
     - Moving - have a predictable movement
-    - Concealment - no ptrotection like bush.  Soft cover  
+    - Concealment - no protection like bush.  Soft cover  
   -  high 2m+ / low ~1m (you don’t want to make Low cover look like High cover and potentially mess up things)
   -  block
     - vision
     - damage
 - Line of sight
-- Vertical arangement
+- Vertical arrangement
 
-### Level arangement
+### Level arrangement
 - Flow in general is about keeping players forward momentum going. (not to hardcor cornes )
-- Conmnectivity
+- Connectivity
 
 E.g.
 - circle (ring)
@@ -216,7 +213,6 @@ Offence / defence differencess
 ### Graph theory
 for multiplayers
 
-
 https://www.raphkoster.com/games/presentations/small-worlds-competitive-and-cooperative-structures-in-online-worlds/
 ### Line of sight
 - Horizontal LoS
@@ -225,16 +221,12 @@ https://www.raphkoster.com/games/presentations/small-worlds-competitive-and-coop
 - Ramps
 - Corner angles & verticality
 
-
-
 ### Multiplayer
 
 mastery mapy vs nowa mapa .
 - balance
 - asymetry  
 
-
----
 
 # Visuals
 - Generally more effective when it makes contextual narrative sense  
@@ -249,16 +241,14 @@ Apply signifires to reflect affordances.
 ## Visual Language
 Gradient of visual complexity where the play space has less visual complexity and then as the space transitions to where players/enemies can no longer traverse (or where something visually important is) we increase it.
 - develop & maintain visual language consistency in style: aesthetic.
-- `Optimum complexity` - redability
+- `Optimum complexity` - readability
 
 schemes and symbols
 color coding / names / shapes (waypoints/orientation)
 
-
-##### Atmosphere
+### Atmosphere
 - `Depth`  - Atmosphere, Repeating same elements in space
 - `Light` - but we not evolve to going directly to light.
-
 
 ## Visual Storytelling
 let content of story to draw image  (not style ! )
@@ -277,9 +267,13 @@ evaluating story:
 - Emotions and history
 - Architecture  https://vol.co/product/anime-architecture/
 
+### Ecosystem
+How level elements interacts in world.
+http://tmdag.com/ptakun/eco_system/makeofplants_en_htm.htm
+
+
 [Lore](/lore/)
 
----
 
 # Gameplay
 
@@ -296,25 +290,8 @@ gates hard | Halts progress until something is completed,
 gates soft | Intended to briefly slow the player down.   
 valves | one way,  keep pushing players forward  
 
-
-
-
-
----------
-# Ecosystem
-
-http://tmdag.com/ptakun/eco_system/makeofplants_en_htm.htm
-
-
-
-
 # Procedural
 [Procedural](/procedural/)
-
-
-
----------
-
 
 (dieter rams: minimalist product design)  
 (book: design of normal things don norman)  
