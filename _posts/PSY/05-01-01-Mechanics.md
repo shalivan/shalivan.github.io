@@ -234,7 +234,7 @@ pase - of new tools and mechanics  2.
 ### .
 - pathfinding
 - behaviur trees - selector node / sequence node (queque)
--
+
 
 ## Mele  
 
