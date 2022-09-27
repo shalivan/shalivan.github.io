@@ -115,6 +115,15 @@ Layers (rigid)
 
 
 
+## Risk aversion problems:
+###### Grind
+Repeated battles for the sole purpose of increasing party level, stats
+- czasowy jak w ogema
+###### Farming
+Repeated battles for the sole purpose of finding a rare item drop
+###### Backward pedaling
+doom 2016 forrowrd combad - build forroward momentum from glory kills  
+
 
 
 
@@ -140,8 +149,6 @@ Beacons - random dice rolles for multiplayer.  posted publicy over time for late
 Achievements
 
 ---
-
----
 game eg. with simple rules with costs. of building :
 offence - 2
 defence - 1
@@ -152,10 +159,6 @@ maping decisions how to play (what build next).
 - order (productopn, missions, what to build first)
 - Allocation suplay network
 - Boudries
-
-
----
-
 
 
 
@@ -188,19 +191,21 @@ supply and demand
 zelda : chemistry engine  
 
 - fuel, raw materials
+
 #### Stock to Flow
 Population - is stock  
 Births rate - is flow
 
+#### Economic system
+Economies
 
-
-
+#### Ecosystems
+Ecologies - balance not reinforce each other . balance in dynamic universe.
 
 # Enemies
   types and classes .
   - short long distance and speed
   - difficulty
-
 
 ## Encounters
 Events with NPCs
@@ -208,14 +213,9 @@ Events with NPCs
 ###### Waves
 Increase and manipulate amounts / strength
 
-
-
-> combat types
-> obrona manewrowa
-> raidy
-
-
-
+- combat types
+- obrona manewrowa
+- raidy
 
 # Combat
 non combat - combat loop
@@ -229,15 +229,12 @@ how much weapons / how get new and ammo ...
 upgread trees
 pase - of new tools and mechanics  2.
 
-
-
 ## AI
 
 ### .
 - pathfinding
 - behaviur trees - selector node / sequence node (queque)
 -
-
 
 ## Mele  
 
@@ -314,8 +311,6 @@ This penalty cuts the remaining cone you have in half again leaving you with 1/4
 
 
 
-
-
 # Balance
 
 Appearance of balance in experience. Math + systems + psychology   
@@ -326,75 +321,47 @@ Methods:
 - Math modeling (model and choose proper One)
 
 
+trade danger for time for advancemetn ... and more
+- Economy - balanced
+- Ecology - emergent
 
-
-## Risk aversion problems:
-###### Grind
-Repeated battles for the sole purpose of increasing party level, stats
-- czasowy jak w ogema
-
-###### Farming
-Repeated battles for the sole purpose of finding a rare item drop
-
-
-###### Backward pedaling
-doom 2016 forrowrd combad - build forroward momentum from glory kills  
-
-
-### Bargaining
-
+[YT GDC  Board Game Design Day: Board Game Design and the Psychology of Loss Aversion](https://youtu.be/F_1YcCcBVfY)    
+[YT GDC  Three Statistical Tests Every Game Developer Should Know](https://youtu.be/fl9V0U2SGeI)  
+[YT GDC 2016 MuteA Course About Game Balance](https://www.youtube.com/watch?v=tR-9oXiytsk)  
+[YT GDC 2018 Power Curve ](https://youtu.be/ul1MSQ8aW00)    
+[old prospect](https://gamebalanceconcepts.wordpress.com/)  
 
 
 ## .
 
-
-trade danger for time for advancemetn ... and more
-
-https://youtu.be/F_1YcCcBVfY
-[Three Statistical Tests Every Game Developer Should Know](https://youtu.be/fl9V0U2SGeI)
-
-[YT GDC 2016](https://www.youtube.com/watch?v=tR-9oXiytsk)
-[old prospect](https://gamebalanceconcepts.wordpress.com/)
-[YT GDC 2018 Power Curve ](https://youtu.be/ul1MSQ8aW00)
-
+### Creating/deriving a cost Curve
+Balance on skill
+Balance between  benefit and cost
 
 ###  Grim Dice
- Deices that beat each other in circle - highest number win
+Deices that beat each other in circle - highest number win
 
 ### Numeric relationship Between Resources
 linear and identity
-triangular  and polinomial
+triangular  and polynomial
 exp and log
 chains of relationships
 
 
-#### Ecologies
-Ecologies - balance not reinforce eachother . balance in dynnamic universe.
-
-
-#### Economic system
-
-Economies -
-
-
-#### Creating/deriving a cost Curve
-balance on skill
-Balance between  benefit and cost
-
-
 #### Probability
 balance on chance
-**Dieces**
+**Dices**
 **Cards**
 
-
-beting mechanics.   
-Gamble ???    
+Gamble
+beating mechanics.  
 
 ##### Probability  Fallacies and failures
 human intuition get probability wrong
 
+
 ##### Situational balance
+
 ##### Probability recursion
 `monte carlo` + avarage    
 `markov chains`   - A Markov chain or Markov process is a stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event. ..
@@ -436,7 +403,7 @@ difficulty
 
 https://datagenetics.com/blog.html
 
-----
+
 #### statistics
 - avarage can be different when sample is small, and sensitive to outliers  
 - p - chance of being wrong `false positive`
@@ -447,3 +414,7 @@ t-test -
 mann-whitney test -
 
 ----
+
+----
+
+### Bargaining
