@@ -1,4 +1,4 @@
-ReactionReaction---
+---
 title: Game Design
 description: Genre, Players, Objectives, Rules, Resources, Conflict, Controls, UI
 
