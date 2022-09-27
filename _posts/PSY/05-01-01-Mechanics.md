@@ -16,16 +16,11 @@ permalink: /gamemechanics/
 
 [Level Design](/leveldesign/)  
 
-system , pace, posit. negative feadback
-, solvable, deterministic ....
-symetry
 
-feedback loops
+Mechanics a Design
+- enable narrative throu systems
+- use mechanics as metaphore
 
-use mechanics as metaphore !
-enable narrative throu systems
-
-# Mechanics   
 
 # Structure
 
@@ -44,7 +39,7 @@ Mechanics should be part of narration - We've now gone from just having a really
 ## Game as system
 - interaction with system
 - control
-- feadback
+- feedback
 
 
 
@@ -109,8 +104,9 @@ map:
 
 ### Structure
 
--  relationshiops
+- relationships
 - ecosystem
+
 ```
 Agents (flex)
 Network - social
@@ -161,35 +157,6 @@ maping decisions how to play (what build next).
 ---
 
 
-# Economy
-
-- economy
-- market
-supply and demand
-zelda : chemistry engine  
-
-- fuel, raw materials
-#### Stock to Flow
-Population - is stock  
-Births rate - is flow
-
-## Risk aversion problems:
-###### Grind
-Repeated battles for the sole purpose of increasing party level, stats
-- czasowy jak w ogema
-
-###### Farming
-Repeated battles for the sole purpose of finding a rare item drop
-
-
-###### Backward pedaling
-doom 2016 forrowrd combad - build forroward momentum from glory kills  
-
-
-### Bargaining
-
-
-
 
 
 
@@ -213,8 +180,40 @@ rpgs - more u level up, more time takes to level up again
 
 
 
+# Economy
 
----
+- economy
+- market
+supply and demand
+zelda : chemistry engine  
+
+- fuel, raw materials
+#### Stock to Flow
+Population - is stock  
+Births rate - is flow
+
+
+
+
+
+# Enemies
+  types and classes .
+  - short long distance and speed
+  - difficulty
+
+
+## Encounters
+Events with NPCs
+
+###### Waves
+Increase and manipulate amounts / strength
+
+
+
+> combat types
+> obrona manewrowa
+> raidy
+
 
 
 
@@ -313,39 +312,41 @@ Fading Shadow
 Each archetype of weapon has an intrinsic penalty to accuracy that is activated as soon as your boots leave the ground.
 This penalty cuts the remaining cone you have in half again leaving you with 1/4 of the original size of your Aim Assist cone.
 
-----------
-
-
-
-
-# Enemies
-  types and classes .
-  - short long distance and speed
-  - difficulty
-
-
-## Encounters
-Events with NPCs
-
-###### Waves
-Increase and manipulate amounts / strength
-
-
-
-> combat types
-> obrona manewrowa
-> raidy
 
 
 
 
 # Balance
-Aperance of balance in experience. Math + sys + psychology
-methods:
-- designre intuition and experience
-- playtesting (and changes on exploits)
-- analytyc (data from game and drawing tdstitical conclusion )
-- mat modeling (model and choose proper One)
+
+Appearance of balance in experience. Math + systems + psychology   
+Methods:
+- Designers intuition and experience
+- Playtesting (and changes on exploits)
+- Analytic (data from game and drawing statical conclusion )
+- Math modeling (model and choose proper One)
+
+
+
+
+## Risk aversion problems:
+###### Grind
+Repeated battles for the sole purpose of increasing party level, stats
+- czasowy jak w ogema
+
+###### Farming
+Repeated battles for the sole purpose of finding a rare item drop
+
+
+###### Backward pedaling
+doom 2016 forrowrd combad - build forroward momentum from glory kills  
+
+
+### Bargaining
+
+
+
+## .
+
 
 trade danger for time for advancemetn ... and more
 
@@ -416,7 +417,7 @@ statistic significance
 
 
 
-#### Progression & Rewars Curves
+#### Progression & Reward Curves
 also by probability with advancement in progression and pacing
 
 leveling curves  
