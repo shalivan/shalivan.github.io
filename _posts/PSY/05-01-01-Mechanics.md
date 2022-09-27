@@ -10,7 +10,8 @@ tags:
 permalink: /gamemechanics/
 ---
 
-Reward certain playstyles
+
+
 
 
 [Level Design](/leveldesign/)  
@@ -26,9 +27,6 @@ enable narrative throu systems
 
 # Mechanics   
 
-
-
-
 # Structure
 
 [Ludology](/ludology/)
@@ -41,68 +39,17 @@ enable narrative throu systems
 Mechanics should be part of narration - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience.
 
 
-important is to: empower player to action
-need: choice, motivation, informationm, time
-to use systems
-
-a-b mission Endgame
-
-#### Cycles (gameplay loop )
-
-**Second to second**  -   micronarrative  (momentary)  core mechanics  
-**Minute to minute**  -   events, tactics and problem-solving puzzles  
-**Hour to Hour**  - (structural)  game premise goal. why where  
-
-- Story Shape Ups and downs tension !!!!
-- Therefor instead of: Then  (a means to an end)  (Causality)
-- Try and fail. Fail and find  new: clue, inspiration, information
-   plot expansion: instead of twist /u get more than promised not unexpected change  
-   change
-
-.
-- life cycle of agents in simulation . Dynamicly changing agets  
 
 
-#### Endgame
-
-
-[Game Design](/gamedesign/)
-
-
-
-..
-
-
-
-# Game as system
+## Game as system
 - interaction with system
 - control
 - feadback
 
 
-```
-Elusiveness  As Mardon and Belk note, 4 they offer things like:
-
-Time aristocracy
-
-Artificially limited availability
-Location-based availability
-Social-based availability
-
-Authenticity
-Letting virtual items develop a “digital patina”
-Surfacing metadata about objects
-Creating unique or special copies of items
-
-- meta economy -
-- fuel, raw materials
-
-```
 
 
-
-
-# Emergent systems
+## Emergent systems
 Emergence - phenomena where Entirety of system exhibit properties that parts of system don't have.
 emerge arise from complexity. World is build upon its emergence. Enable larger possibilities with simpler components
 
@@ -148,18 +95,17 @@ Competitions > growth > Grouping > specialization > propagation > allocation > n
 
 
 
----
 
 
+## Generative systems
 
-
-
-# Generative systems
-
-pootential of generative stories depend on chow elements of mechanics are connected toghether
+pootential of generative stories depend on chow elements of mechanics are connected together
 
 // ? if you generating ther whole story your mechanics must include loss and recovery
 map:
+
+
+
 
 ### Structure
 
@@ -171,6 +117,47 @@ Network - social
 Layers (rigid)
 ```
 
+
+
+
+
+
+
+# Puzzles
+
+
+A food puzzle
+- Tells you how to solve it, inherent in its design
+- Doesn't relay on outside knowledge
+- is also adjustable in difficult by adding or reducing information
+
+types:
+- find clues with key parts
+- puzzle
+
+
+
+----
+Beacons - random dice rolles for multiplayer.  posted publicy over time for later verification + link to previous number (like posting time&date)
+
+
+Achievements
+
+---
+
+---
+game eg. with simple rules with costs. of building :
+offence - 2
+defence - 1
+production - 5
+maping decisions how to play (what build next).
+- short / long term
+- hi risk hi reward / lo risk
+- order (productopn, missions, what to build first)
+- Allocation suplay network
+- Boudries
+
+
 ---
 
 
@@ -181,7 +168,7 @@ Layers (rigid)
 supply and demand
 zelda : chemistry engine  
 
-
+- fuel, raw materials
 #### Stock to Flow
 Population - is stock  
 Births rate - is flow
@@ -201,7 +188,156 @@ doom 2016 forrowrd combad - build forroward momentum from glory kills
 
 ### Bargaining
 
+
+
+
+
+
+# Progres
+also by probability with advancement in progression and pacing
+
+leveling curves  
+
+etics !
+
+#### Feedback loops (output pushed to input)
+- positive: ... increase ains to more gains , loses to more loses  (loose chest figure mean u weeker)
+- negative - balance out failures and posit. - Mario carts, those at back get powerfull weapons.  winners punished and loosers are rewarded (keep changes in equilibruim)
+-
+- positive,  - help push to conclusion for party game where everyone is equal - frustrating for weeker players  (snowball problem)
+- negative  - unfair to succesful players. - can send mixed signals
+
+Pyre - mix
+rpgs - more u level up, more time takes to level up again
+
+
+
+
+
 ---
+
+
+
+# Combat
+non combat - combat loop
+fighhting games are rock paper scisors (advanced with reading opponents pre anims to read next move )   
+
+## Combat loop
+pasing / important elements
+- doom dropp all what slow down actions (like aming)
+peak priorities
+how much weapons / how get new and ammo ...
+upgread trees
+pase - of new tools and mechanics  2.
+
+
+
+## AI
+
+### .
+- pathfinding
+- behaviur trees - selector node / sequence node (queque)
+-
+
+
+## Mele  
+
+https://threadreaderapp.com/thread/1358654321303277568.html
+
+
+### Timed
+not instant. 3 phases
+1. anticipation - speed  
+2. contact
+3. recovery
+
+tacticly distinct !!!!!!!!!!!!!!!!!!!!!!!!!! - could be subtle -
+Advantages / Disadvantage - (heavy damage slow)
+
+- fast /slow  -  light 14 frames - heavy 28 frames and u are vonurable beform hit
+- wide/ range
+- push away/ knock down /air
+- work on distance
+- stunt  - watch for stunt lock (get enemy in loop )
+- culdown to not spawning
+- player vornuable after use
+- required sth
+- animation canceling. (no in darksouls)  carfeul and commiting
+- range distance/snaping  (depend how sticky ) in batman lot of snaping (and in other flow quick )- not in dark souls
+- distnace - tip of blade more crit than full close.
+- charge
+
+combos and controls.
+- seq of keys or gesture
+- chain of same keys in rythm
+
+parry / counter - block exackly when u block in same time of attack  .
+  - efortless vs
+  - only in slmall time slot - can damage if not done in time
+
+
+tactic:
+- piking targts - kill the hiller
+
+
+## Shooting  
+Recoil    
+Hitscan vs projectile   
+
+ ||||
+ |--|--|--|
+ |Projectiles|stayback|
+ |Hitscan|charging|
+
+Projectiles are predictible
+
+#### guns
+how many ... reload
+
+fast asoult rifle   
+shotgun at close   
+rocket lounch deadly but risky   
+
+### Aiming
+
+auto aim   
+
+https://twitter.com/Fading_Shadow_/status/1540095904643895296
+- The Accuracy Cone (= Error Angle) defines an area where your bullet can land. The placement of your bullet within this area is entirely random.
+- The Aim Assist Cone defines an area around your reticle where the game will look for enemy targets. Once an enemy enters this area (or you move your reticle close to them) Aim Assist will kick in. What Aim Assist does is it snaps your accuracy cone to a target. [cont]...] What's important about this is that the Aim Assist is factored in first which means that the randomness introduced by the Accuracy Cone will not be corrected for by Aim Assist.
+So TLDR: Accuracy doesn't care what's in front of you, it's purely RNG
+
+First on that list is the in-air accuracy penalty. ⏬
+Fading Shadow
+
+Each archetype of weapon has an intrinsic penalty to accuracy that is activated as soon as your boots leave the ground.
+This penalty cuts the remaining cone you have in half again leaving you with 1/4 of the original size of your Aim Assist cone.
+
+----------
+
+
+
+
+# Enemies
+  types and classes .
+  - short long distance and speed
+  - difficulty
+
+
+## Encounters
+Events with NPCs
+
+###### Waves
+Increase and manipulate amounts / strength
+
+
+
+> combat types
+> obrona manewrowa
+> raidy
+
+
+
 
 # Balance
 Aperance of balance in experience. Math + sys + psychology
@@ -310,250 +446,3 @@ t-test -
 mann-whitney test -
 
 ----
-
-
-# Progres
-also by probability with advancement in progression and pacing
-
-leveling curves  
-
-etics !
-
-#### Feedback loops (output pushed to input)
-- positive: ... increase ains to more gains , loses to more loses  (loose chest figure mean u weeker)
-- negative - balance out failures and posit. - Mario carts, those at back get powerfull weapons.  winners punished and loosers are rewarded (keep changes in equilibruim)
--
-- positive,  - help push to conclusion for party game where everyone is equal - frustrating for weeker players  (snowball problem)
-- negative  - unfair to succesful players. - can send mixed signals
-
-Pyre - mix
-rpgs - more u level up, more time takes to level up again
-
-
-
-# Combat
-non combat - combat loop
-fighhting games are rock paper scisors (advanced with reading opponents pre anims to read next move )   
-
-## Combat loop
-pasing / important elements
-- doom dropp all what slow down actions (like aming)
-peak priorities
-how much weapons / how get new and ammo ...
-upgread trees
-pase - of new tools and mechanics  2.
-## Mele  
-
-https://threadreaderapp.com/thread/1358654321303277568.html
-
-
-### Timed
-not instant. 3 phases
-1. anticipation - speed  
-2. contact
-3. recovery
-
-tacticly distinct !!!!!!!!!!!!!!!!!!!!!!!!!! - could be subtle -
-Advantages / Disadvantage - (heavy damage slow)
-
-- fast /slow  -  light 14 frames - heavy 28 frames and u are vonurable beform hit
-- wide/ range
-- push away/ knock down /air
-- work on distance
-- stunt  - watch for stunt lock (get enemy in loop )
-- culdown to not spawning
-- player vornuable after use
-- required sth
-- animation canceling. (no in darksouls)  carfeul and commiting
-- range distance/snaping  (depend how sticky ) in batman lot of snaping (and in other flow quick )- not in dark souls
-- distnace - tip of blade more crit than full close.
-- charge
-
-combos and controls.
-- seq of keys or gesture
-- chain of same keys in rythm
-
-parry / counter - block exackly when u block in same time of attack  .
-  - efortless vs
-  - only in slmall time slot - can damage if not done in time
-
-
-tactic:
-- piking targts - kill the hiller
-
-
-## Shooting  
-Recoil    
-Hitscan vs projectile   
-
- ||||
- |--|--|--|
- |Projectiles|stayback|
- |Hitscan|charging|
-
-Projectiles are predictible
-
-#### gund
-how many ... reload
-
-fast asoult rifle   
-shotgun at close   
-rocket lounch deadly but risky   
-
-### Aiming
-
-auto aim   
-
-
-# Enemies
-  types and classes .
-  - short long distance and speed
-  - difficulty
-
-## Encounters
-Events with NPCs
-
-###### Waves
-Increase and manipulate amounts / strength
-
-
-
-
-
------------
-
----
-
-
-# Puzzles
-
-
-A food puzzle
-- Tells you how to solve it, inherent in its design
-- Doesn't relay on outside knowledge
-- is also adjustable in difficult by adding or reducing information
-
-types:
-- find clues with key parts
-- puzzle
-
-
-
-----
-Beacons - random dice rolles for multiplayer.  posted publicy over time for later verification + link to previous number (like posting time&date)
-
-
-Achievements
-
----
-
----
-game eg. with simple rules with costs. of building :
-offence - 2
-defence - 1
-production - 5
-maping decisions how to play (what build next).
-- short / long term
-- hi risk hi reward / lo risk
-- order (productopn, missions, what to build first)
-- Allocation suplay network
-- Boudries
-
-
-
-# Genre taxonomy
-Is flexible.
-
-Casual
-- Puzzle
-  - Action, Match3, Trivia, Word Games, Coloring, Hidden Object, Solitude
-- Simulation
-  - Adventure
-  - Tycoon/Crafting
-  - Sandbox
-  - Time management  
-- Arcade
-  - Platformer, Idler, Shoot / Beat'em Up, Tower defense, Board Games,
-  - Roguelike (permadeath, no save of progress) [YT](https://www.youtube.com/channel/UCKv_QzXft4mD6TXmQBZtzIA/videos)
-  - Hack'n'slash ??
-- Haptic - Tap, Steer, Swipe/Drag, AR
-- Location Based / AR -  
-
-Midore
-- Shooters
-  - Battle Royale
-  - FPS/TPS
-  - tactical
-  - PvP
-  - PvE  
-- RPG
-  - Action
-  - Turn-Based
-  - Fighting
-  - MMORPG
-  - Puzzle
-  - Idle
-  - Survival
-- Card -
-- Strategies
-  - 4x
-  - Build&Battle
-  - MOBA
-  - Tactical
-- Traversal
-- Story driven
-  - Horror (easly do away with character and plot. tension, shock, monsters)  
-
-Casino
-- Bingo, Poker, Slots
-
-Sports
-- Sport - Arcade/realistic
-- Driving, Flying.
-
-
-Twin Stick
-
-
-## Games
-
-- bioshock (utopian tragedy), drzwi do innego swiata (bioshock) - objectivism
-- soulsy (myths),,
-- stanley, - question of free will.
-- To the Moon,
-- deus ex(future),  
-- Metal Gear Solid (fake news)
-- Nier:automata(life after god (nitche,
-   endings at mininglesness by philosophy automatas:
-   - jean-paul(sad),
-   - pascal(peace)
-   - simone de beauvoir(love)
-   - kierkengaard(pray)
-- The Last Guardian (story enough to be satisfy not enough to explane ) creat bond with hico. > shadow of colosus > ico
-https://youtu.be/UiOTSKBy6ME
-- Tetris - escape to order
-- thomas was alone - block with shapes colors and abilities. Jungian integration of pssyche  
-- journey - Campbell
-- never alone - coop with spirit animal showing ideas of
-- brothers tales of two sons - controling 2 brothers. Coming toghether while learning brothers coopearte more and easier
-- rez - game music
-- Edit finth, fish gameplay
-- Half Life2, can to trash tutorial
-- brade & whitnes
-poker , chest , go
-
-https://www.gamasutra.com/view/feature/131508/bsp_collision_detection_as_used_in_.php?print=1
-
-
-
-----
-
-2 world swithcing
-- titanfall (2 combat at same times or platform elements in different words)
-- dishonored levle  
-tetris - testimony of your failure
-
-Action: Mario odysey
-
-
-People solve puzzles because they like pain, and they like being released from pain, and they like most of all that they find within themselves the power to release themselves from their own pain. - Mike Selinker and Thomas Snyder - Puzzle Craft.
