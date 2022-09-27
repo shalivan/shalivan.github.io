@@ -20,6 +20,8 @@ permalink: /gamemechanics/
 Mechanics a Design
 - enable narrative throu systems
 - use mechanics as metaphore
+how rules incentivise to act stories.
+justification of gamepplay mechanics writen in to the lore
 
 
 # Structure
@@ -100,6 +102,7 @@ pootential of generative stories depend on chow elements of mechanics are connec
 map:
 
 
+repeated constens (non procedural) is where you cannot do otherwise
 
 
 ### Structure
@@ -181,6 +184,12 @@ Pyre - mix
 rpgs - more u level up, more time takes to level up again
 
 
+Good feedback techniques ! !!!! importanat part
+
+
+
+
+
 
 
 # Economy
@@ -230,6 +239,8 @@ upgread trees
 pase - of new tools and mechanics  2.
 
 ## AI
+
+[YT rainworld 2d ai](https://youtu.be/hOsYTzd0yeA) -
 
 ### .
 - pathfinding
@@ -335,8 +346,9 @@ trade danger for time for advancemetn ... and more
 ## .
 
 ### Creating/deriving a cost Curve
-Balance on skill
-Balance between  benefit and cost
+Balance on skill  
+Balance between  benefit and cost   
+Can reward certain playstyles  
 
 ###  Grim Dice
 Deices that beat each other in circle - highest number win
@@ -413,8 +425,9 @@ https://datagenetics.com/blog.html
 t-test -
 mann-whitney test -
 
-----
-
-----
 
 ### Bargaining
+
+---
+
+game theroy config that preclude domininat solutions - non nash equilibrium games

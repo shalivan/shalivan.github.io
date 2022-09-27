@@ -1,4 +1,4 @@
----
+ReactionReaction---
 title: Game Design
 description: Genre, Players, Objectives, Rules, Resources, Conflict, Controls, UI
 
@@ -10,40 +10,60 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
-rouglike
-- possible week spot when permament character upgread
+
+
+
+MACRO (proteins fats carbohydrates - energy to function >> need more )
+- large scale  > maps, camps, objectives
+
+MICRO (vitamines amd minerals - micronutrions >> need less  )
+- efficiency of everything u do > easier to acomplish macro
+- skillshots, abbilities, position (get less damage)
+
+
+
+
+Patterns across scales m2m like fractals
+More that feels earn, more satisfyingly - (potential of things going wrong)   progress is key. Getting better learning. [YT GDC Sid Meier's Psychology of Game Design](https://youtu.be/MtzCLd93SyU?t=3884)
+
 
 advanced mechanics hidden  (those u need skill knowledge timing dexterity )- advanced
-shooters - startegy + mobility
-
-```
-FUNDAMENTAL
-progres is key. Getting better learning.
-More that feels earn, more satisfiyng - potential of things going wrong  
-one of key https://youtu.be/MtzCLd93SyU?t=3884
-```
+shooters - strategy + mobility
 
 
-```
-co -op
-- parallel - own single player game along
-- step by step - 1 open for another
-- symultinaious - both action at same time
-```
+1. Selling point - why you should play it
+2. Incentive to play - why u should keep playing
+ - chase a number (rank up). Mastery (self actualization) (level up score leader board)
+ - story. Novelty (provide experience things that are impossible in normal world)
+ - exploration & freedom  
+ - emotion: fun, no real world risk / save to fail / - easy creativity / relax / escape
+ - Competition -
+ - social
+ - feel measurable progress
+ - collecting
+3. Increasing, more difficult challenges - progression system progression
 
-**reinforce throu mechanics, incentivizse throu game systems**   
+Long/sort term decisions  
+risk averse  reward
+
+**reinforce through mechanics, incentivizes through game systems**   
 Center of gravity in game should be settled in one place     
 feedback is important      
-Embreace failure as a chance to create stories   
+Embrace failure as a chance to create stories   
 Guided by AI   - have high saliency !!   
  [Ludology](/ludology/), [Game Mechanics](/gamemechanics/)       
 
 Gameplay Form a desired experience   
 **Qualia** - are defined as individual instances of subjective, conscious experience  
 How to deal with problem: functionally, narratively and thematically  (What is a purpose of the design.   )
-Why system is imporant and not a secondary value:     
-Raction to action (payof get new gear / get new info )      
-synergy - every element compliment eachother  
+Why system is important and not a secondary value:     
+Reaction to action (payoff get new gear / get new info )      
+synergy - every element compliment each other  
+
+
+excuse   
+momentum   
+payoff    
 
 # Players
 
@@ -63,9 +83,10 @@ Roles
 - Coop multiple vs game  (team coop, multilateral coop )
 
 
-
-
-
+##### co -op
+- parallel - own single player game along
+- step by step - 1 open for another
+- simultaneous - both action at same time
 
 
 ####  Type of players:
@@ -95,14 +116,15 @@ what would they really say.
 
 
 ## Non Player Character NPC's
-- brign stisfaction, dont stole moments from player or be burden u must cary on.
+- bring satisfaction, don't stole moments from player or be burden u must carry on.
 
-OUD - Orthoigonal unit differentiation to make dynamic playspace     
-villans - what mean to be offended by villan force  
+OUD - Orthoigonal unit differentiation to make dynamic play space     
+villains - what mean to be offended by villain force  
 
 
-```
-queque of killing. Archer healer, normals
+### Enemies
+
+queue of killing. Archer healer, normals
 dela with me first
 deal wieh me last
 high hp low famage
@@ -113,30 +135,8 @@ close/ long range attack
 movement
 
 immune to some actions
-local vounrability  
---------------------
-who we are
-who are people we are rleated to
+local vulnerability  
 
-DRAMA:
-- conflict
-- comebacks
-- underdogs
-- social structure > hierarchies
-- relationships
-- champions heroes&villains
-- grudges&revenge
-
-sport seasons as interactive narrative - generate stories, setup conflict.
-same plot but every season have different exciting personal stories and drama.
-- failure when time move forrward creates drama
-- escalation to framatic climax
-- neather linera or branching
-
-```
-
-
-### Enemies
 
 ## AI
 
@@ -144,15 +144,44 @@ good AI let u know what is intended to do
  p- predictable > player can plan  
 predictable actions / unpredictable consequences. (someone run but u never  know where)   
 
-personal AI's that have rng stats (na stałe wylosowane) - & remembering interactions with player
+personal AI's that have RNG stats (na stałe wylosowane) - & remembering interactions with player
 ecosystems for ai
+
+---
+[Rafał Tyl - Uncommon sense: a systemic approach to beliefs of AI agents](https://youtu.be/hoHE2QhMMuk)
+
+AI
+cheating AI
+lack of situational awareness
+
+perception > belief building (reasoning about inf from past) its hard  cause data is heterogenious >  decision makeing > action
+
+barbara dunin-kęplicz Andrzej Szałas  MIMUW
+- epistemic profiles
+= rule-based resoning with belied structure
+- 4QL language
+- Group beliefs
+
+
+
+- lack of data  (hidden)
+- wrong answer  
+https://youtu.be/hoHE2QhMMuk?list=PLqUbLv3b1v3cDIo9LCgcsZ3A0whWixGe6
+differences (,1. false, 2. unknown (false or true), 3. inconsistent (false and true), 4. true)
+
+----
+
+
+dynamic organization building and repairing   
+villains with procedural goals
+
 
 # Space
 
 
 ## Traversing
 ## Exploration
-(collectables inventivise )
+(collectables incentivize )
 ## Level Design
 
 [Level Design](/leveldesign/)
@@ -169,7 +198,7 @@ to get meta paterns.
 Aim, Arcade skills,   
 Chase, Run, Race, Hide,    
 Align,  Forbiden Act , Construct, Explore, Solve,  
-Ressource to escape,
+Resources to escape,
 
 ...
 
@@ -184,9 +213,9 @@ Ressource to escape,
 |turn based|
 |real time|
 |time limits|
-|keys and bariers > progress|
-|rpg - freedom  > expand network  / models for ai behaviour and dyplomacy,
-|strategy - field (resource alocation > use )  - are mapping puzzles
+|keys and barriers > progress|
+|rpg - freedom  > expand network  / models for ai behavior's and diplomacy,
+|strategy - field (resource allocation > use )  - are mapping puzzles
 |match 4 dynamics in strategy games.
 |strategies - Managing points to use to win
 
@@ -194,8 +223,8 @@ Ressource to escape,
 - Skill
  - action
 - Smart
- - dyplomacy
- - stelf
+ - diplomacy
+ - stealth
 
 
 ---
@@ -212,21 +241,21 @@ Ressource to escape,
  exchanging resources ( Store or use now bust. )
 
 ## Scarcity
-- units, currency, objects,time,terrain,
+- units, currency, objects, time, terrain
 
 #### Health Systems
 Pool of points that get subtracted from, eventually it reaches zero, and that initializes a game-over function or increments a death counter ( **life's** ) and restarts a section of gameplay),
 
 How much punished for mistakes
 
-- **regenerating** -  > reward for hiding!!  and not rewarding good play. but get forroward momentum.  (it equal chances before next encounter). Cannot hurt player a little as punishment, enemies must be able to kill you
+- **regenerating** -  > reward for hiding!!  and not rewarding good play. but get froward momentum.  (it equal chances before next encounter). Cannot hurt player a little as punishment, enemies must be able to kill you
 - **health packs**
  - boxes with stuff. if u have health u get ammo. Or coins to spend not always on health
 - **glory kill** reward >> offensive system and encourage to play
 
 - mixed:
   - regen last few %
-  - regen when other conditions. Only if the second variable influenced by ie food is at a certain point  (minecraft)
+  - regen when other conditions. Only if the second variable influenced by ie food is at a certain point  (Minecraft)
 
 #### Action Points
 mana (actions) - spiritual or magical energy / karma / stamina  -   Non renevable / renevable
@@ -236,18 +265,25 @@ mana (actions) - spiritual or magical energy / karma / stamina  -   Non renevabl
 
 #### Upgres
 - Temporal -
-- Permament - tree.
+- Permanent - tree.
 
 #### How to get
 
 - Loot
 - Hidden in enviro  
 
+
+#### Znajdzki  
+cerst cheast
+
+
+
 ---
 
 # Conflict
 enemies dont need to kill  
 War , sport - a lot of similar drama structure    
+
 ## Motivation
 
 - care about story: imply meaning, to enable discover meaning
@@ -291,7 +327,7 @@ win loose state is important or just engagement is ok too ..
 
 
 
-[Video Games Don't Need to Be Fun -GameSpot](https://www.youtube.com/watch?v=fwVPh9KtKh4)      
+[Video Games Don't Need to Be Fun - GameSpot](https://www.youtube.com/watch?v=fwVPh9KtKh4)      
 
 
 
@@ -313,7 +349,7 @@ https://www.youtube.com/watch?v=tAE2H5qJ8A8
 
 movement: feadback to inputs
 
-1. `accreleration` , `max`, `deceleration`
+1. `acceleration` , `max`, `deceleration`
 - short acc,decc - character stiff
 - long line supre meat boy or uncontrolable or hard to stop , runing on ice
 6 frames to full speed - start - 3 frames stop
@@ -341,7 +377,7 @@ meatboy 6x
  - second dash
 
 
-5. climbv
+5. climb
 
 Build tools not features
 
@@ -356,16 +392,16 @@ retreat to safty - shift tempo between atack and deense -
 
 
 ### Movement
+
 controlls ? // move to mechancs ???
 
--------- PORUSZANIE SIE W GRACH !!!!!!!!!!!!!!! ----------------
 mario, movements, and combos
 other approach, use enviro  - repeal yourself from projectiles or enemiies
 timeing  - bust speed by shooting  - rythmic action whtn delease  -  (pathless)
 keep momentu by chaining  -  / hook, slide hop, (titabfall)  / quake - bunny hopping  / mirrots efge
 
 
-chorisontal gameplay vs vertical
+horizontal gameplay vs vertical
 
 ## Camera (Gamatography)
 (user think in euler look up down or on sides)
@@ -403,6 +439,22 @@ thgird person - hardest to design  (fixed angels are easier to make)
 ##### Accessibility , easy of use
    Degree of representation vs abstracion
 
+
+--------------------
+- fixed angle thrid person
+- dynamic angle  - colision on distance problems / many design constraints at a time. need to organize  
+    - never pivot in space (orbit around avatar)
+    - level design and camera must cooperate
+    - global coords or quaternions to persist state  (players think in eulers)
+    - `yaw`, `pitch`, (optionally `roll`) `distance`, `latteral` and `vertical offset` for framing, `fov`
+    - prevent  break line of site  (all cam cuts should be more than 30 angle )
+      - can swing (rotate, detect by raycast)
+      - pushing away from an obstacle while player is trying to swing toward it. (then must push cam toward)
+    - organize constrain in way of degree of freeedom u need. and prioretixe
+      -  
+    -
+- fps
+https://youtu.be/C7307qRmlMI
 --------------------
 
 # UI
@@ -433,16 +485,21 @@ forgeting curve - after 20 min 60% lost
 Mouse, suit, brain sensors
 
 
+UI: https://www.gameuidatabase.com/index.php?scrn=160
+
+
+
 
 # .
 - tutorials
 
 
-s “PICK UP THAT CAN.” If you do, he lets you go. If you don’t, he beats you. This accomplishes two things at once. It establishes story: you’re living in an oppressive society and must do what this cop says for fear of death. Second, on a more basic level it teaches you the basic mechanics of picking objects up and throwing them in the game..
+“PICK UP THAT CAN.” If you do, he lets you go. If you don’t, he beats you. This accomplishes two things at once. It establishes story: you’re living in an oppressive society and must do what this cop says for fear of death. Second, on a more basic level it teaches you the basic mechanics of picking objects up and throwing them in the game..
 .#gamasutra.
 
+
 - rewards
-- accesalbility
+- accessibility
 - gamification
 
 
@@ -451,77 +508,117 @@ s “PICK UP THAT CAN.” If you do, he lets you go. If you don’t, he beats yo
 - Ability to remap controls
 - Subtitles - Large and contrast
 - UI visuals should be clear
----
 
 
 
 
-Loading bar
+
+##Loading
+bar
 https://www.psychologyofgames.com/2019/10/loading-when-were-willing-to-wait/
 
-
-
-# Making games
-peer review:  https://youtu.be/Gsh-aYdFWws?t=1376
-
- which can happen if they don’t ‘announce’ their entry if they spawn from out of sight
-
- Game iterative > Greater level of complexity  
-
-
-You can imagine what it may be like but you never gonna know until you actually experience it. match expectation with embodied experience. > Iterative process.
-
-
-
-
-
-```
-structure of game   
-emergent narrative - interlocking mechanics , consistant, allow to investigate and came bacek.    
-replayabliity   
-novelity   
-exploration  
-roleplay  
-mastery  
 ---
-dynamic organisation building and repairing   
-villains withg procedural goals
----
-player-facing:
-- exposition
-- iinverstigaiton
-- saction
-- reaction / reprisal
----------------
-strategic
-systematic
-narrative
-emergent
 
-enviromental reconcilation
-design by theming.
----
-game design - mechanis an rules
-behaviour  design -  pavlov
-design thinking -  
-repeated constens (non procedural) is where you cannot do otherwise
----
-Long/sort term decisions  
-risk averse  reward
 
-game theroy cofifig that preclude domininat  solutions - non nash equilibrium games
-```
+# Overview
 
-----
+a-b mission Endgame
+
+#### Cycles (gameplay loop )
+
+**Second to second**  -   micronarrative  (momentary)  core mechanics  
+**Minute to minute**  -   events, tactics and problem-solving puzzles  
+**Hour to Hour**  - (structural)  game premise goal. why where  
+
+- Compulsion loops.
+- Story Shape Ups and downs tension !!!!
+- Therefor instead of: Then  (a means to an end)  (Causality)
+- Try and fail. Fail and find  new: clue, inspiration, information
+   plot expansion: instead of twist /u get more than promised not unexpected change  
+   change
+
+.
+- life cycle of agents in simulation . Dynamically changing agents  
+
+
+#### Endgame
+fast pase
+slow pase - time to think
+
+[Game Design](/gamedesign/)
+
+
+
+# Genre taxonomy
+Is flexible.
+
+Casual
+- Puzzle
+  - Action, Match3, Trivia, Word Games, Coloring, Hidden Object, Solitude
+- Simulation
+  - Adventure
+  - Tycoon/Crafting
+  - Sandbox
+  - Time management  
+- Arcade
+  - Platformer, Idler, Shoot / Beat'em Up, Tower defense, Board Games,
+  - Roguelike (permadeath, no save of progress) [YT](https://www.youtube.com/channel/UCKv_QzXft4mD6TXmQBZtzIA/videos)
+  - Hack'n'slash ??
+- Haptic - Tap, Steer, Swipe/Drag, AR
+- Location Based / AR -  
+
+Midore
+- Shooters
+  - Battle Royale
+  - FPS/TPS
+  - tactical
+  - PvP
+  - PvE  
+
+
+- RPG
+  - Action
+  - Turn-Based
+  - Fighting
+  - MMORPG
+  - Puzzle
+  - Idle
+  - Survival
+- Card
+- Strategies
+  - 4x
+  - Build&Battle
+  - MOBA
+  - Tactical
+- Traversal
+- Story driven
+  - Horror (easly do away with character and plot. tension, shock, monsters)  
+
+Casino
+- Bingo, Poker, Slots
+
+Sports
+- Sport - Arcade/realistic
+- Driving, Flying.
+
+
+Twin Stick
+
+================================
+
+
+# Psychology
+
+
+
 morality systems
 - choices like kotor path of doing good/bad things lead to perska
 
 - how decisions are attached to main conflict
 - binary system > if u r not polite we will lock dialogs - is no go
 
-Metroidvania is a subgenre of action-adventure video games focused on non-linear and utility-gated exploration and progression.
 
-https://youtu.be/OrmyLaLCaIo  
+[YT How Game Designers Create Systemic Games | Emergence, Dynamic Narrative and Systems in Game Design](https://youtu.be/OrmyLaLCaIo)  
 
 Psychology in games:   
 [Sid Meier's Psychology of Game Design](https://www.youtube.com/watch?v=MtzCLd93SyU&ab_channel=GDC)    
@@ -529,3 +626,47 @@ Mike Ambinder - Principal Experimental Psychologist
 game mechanics advanced game design BOOK !!!!!!!!!!!!!!!!!!!!!!!! ernest adams joris dormans :   
 a systemic approach advanced game design BOOK:L!!!!!!!!!!!!!!!!! michael selers   
 persuasive games ian bogost book  
+
+Mental models
+https://quanticfoundry.com/gamer-motivation-model/
+https://www.gdcvault.com/play/1025742/A-Deep-Dive-into-the
+https://www.youtube.com/watch?v=gxJUPfKtg_Q
+https://quanticfoundry.com/2019/04/11/gdc2019/
+
+
+----
+
+
+```
+
+---
+
+player-facing:
+- exposition
+- investigation
+- action
+- reaction / reprisal
+
+---------------
+
+strategic
+systematic
+narrative
+emergent
+
+environmental reconciliation
+design by theming.
+
+
+```
+
+----
+
+
+
+
+
+
+# Q
+What make game meaningful. is it progress save and win screen or experience itself? What game can teach us.  What kind of narration.
+What we are doing why it maters and what are the consequences
