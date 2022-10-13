@@ -9,17 +9,26 @@ tags:
 description: Elements, Principles, Rederences, Design
 permalink: /graphicdesign/
 ---
- energy is primary, Form must follow
+
+
+
+ ```
+ Engineering vs design (human centric)prototypes  
+ design thinking is methodology  
+ engineers check if it work correctly  
+ prototypes - ask question expose assumptions and sneek to the future
+ ```
+
 
 organize for perception
  Approach to [Art](/art/) note.  
 
-# Elements & Principles
+# Elements
 
 | | Design Elements |  | | |   
 | -| - | - |- |- |
 ![](/src/gestalt/point.png)  |  **Point** | 1D
-![](/src/gestalt/line.png)  |  **Line** | 2D | Shape dynamic, Variations, Single stroke
+![](/src/gestalt/line.png)  |  **Line** | 2D | Shape dynamic, Variations, Single stroke |
 ![](/src/gestalt/shape.png)  |  **Shape** | 2D | Geometric, Organic| Perception of shape depend on contrast
 ![](/src/gestalt/simplicitysmall.png)  |  **Form** | 3D | Circular (friendly) vs Jagged (danger)
 ![](/src/gestalt/space.png)  |  **Space** |  |Vertical (powerful), Horizontal (stability),  Negative
@@ -28,23 +37,31 @@ organize for perception
 ![](/src/gestalt/empty.png)  |  **Texture** | | Properties of material.
 ![](/src/gestalt/a.png)   |  **Typo**  | Typography| Serif, Sans Serif, Script, Monospaced, Display
 
+
+
+#### Visual Library
+Exposed to visual library
+
+visual language is important - visual is important to let humans make snap decisions about
+perception is reality with limited information.
+
+
+
+
 # Principles
 
- | | |    | |
+[Perception](/perception/)
+
+ | | Design Principles  |    | |
  | -  | - | - | - |
- |  |  **Balance** | Optical (not mathematical)  distribution of visual **Weight**, **Gravity** **Pressure**
- |  |  **Emphasis** |  Element **Dominance**. **Attention** given to some aspect of a composition
- |  |  **Contrast** | **Juxtaposition** of elements with opposite attributes to emphasis or attract attention
- |  |  **Proportion**  | Scaling elements as they relay to each other. **Relative Size** or amount
- |  |  **Movement** | Lines, edge, color or path that imply **Direction** (flying birds, road)
- |  |  **Repetition** | Similar elements in **Sequence**. Create **Rhythm** or **Pattern**. **Pacing**, interlock (one into other), echoes
- |  |  **Unity** | all elements together create **Harmony**
- |  |  **Variety** | hold viewer attention
-
-
-  contrast repetition aligmnet poximity
-
-
+ |![](/src/gestalt/ba.png)  |  **Balance** | Optical (not mathematical)  distribution of visual **Weight**, **Gravity** **Pressure**
+ | ![](/src/gestalt/emp.png) |  **Emphasis** |  Element **Dominance**. **Attention** given to some aspect of a composition
+ | ![](/src/gestalt/con2.png) |  **Contrast** | **Juxtaposition** of elements with opposite attributes to emphasis or attract attention
+ | ![](/src/gestalt/prop.png) |  **Proportion**  | Scaling elements as they relay to each other. **Relative Size** or amount
+ |  ![](/src/gestalt/mot.png) |  **Movement** | Lines, edge, color or path that imply **Direction** (flying birds, road)
+ |  ![](/src/gestalt/rep.png) |  **Repetition** | Similar elements in **Sequence**. Create **Rhythm** or **Pattern**. **Pacing**, **aligmnet**, interlock (one into other), echoes.
+ |  ![](/src/gestalt/uni.png) |  **Unity** | all elements together create **Harmony**
+ |  ![](/src/gestalt/var.png) |  **Variety** | hold viewer attention
 
 
 ##### Vitruvian triad
@@ -56,60 +73,22 @@ Innovative, Useful, Aesthetic, makes a product understandable, unobtrusive, hone
 **Simplicity** - to quick communicate and protecting from complexity.
 design great to communicate idea quickly
 
+**Energy is primary** - Form must follow.
 
-[pxl.ink Perception](/perception/) - Gestalt pragnaz.
 
+**Harmony vs Chao**
+
+
+##### Aristotle's four causes
+Four causes are, of course, the material, formal, final, and efficient causes.
+The four causes signify ways in which a thing is indebted for its existence.
 
 
 ----
 
-# References
-
- Things not working from memory. Its crucial.  
-
- | . | |  |
- | --- | --- |--- |
- |**DNA** | `Culture` aesthetic,  History `Period` ('80), `Function` , engineering , life expectancy economic |Universal, Cultural / Animalistic, Manufactured    
- |**Material** | `Substance`, `Stiffness` | Smooth, Rough / Leather, Spandex
- |**Age**  |`Wear`, `Tear`, `Erosion`, `Dirt`,  `Scratches`  
- |**Pattern** | | Uniform, Fractal
- |**Motion**  | `Nature of motion` | Organic, Mechanic
- |other specifics...   || Minimalistic or Rich, thin, heavy, durability, socio-political influences, rules of the world
 
 
-
-
-# Conception
-
- Concept is a form of communication . Can help in further development if references are insufficient. Can be in various forms, sketch of design
-
- - Exploration: `variations` and `iterations` (make 3 options and hybridize  based on feedback) Options, not variations. Variations are for finished concepts.
- - Concept should be usable
- - From perspective to be able `to translate` directly to 3d
- - Draw additional `side views` and important elements.
- - Don't limit yourself. Use 3d, textures, kit bash, references, photo bash
-
-## Scale
-   - `proportions` are critical. If sth to thick > like a toy can change perception!  
-   - Refer to `human scale` and show `relations` with other objects     
-   - lot of fog make enviro bigger
-
-## Silhouettes
-
- ---
-
-
- ```
- Engineering vs design (human centric)prototypes  
- design thinking is methodology  
- engineers check if it work correctly  
- prototypes - ask question expose assumptions and sneek to the future
- ```
-
- ## Harmony vs Chaos
-
-
-#  Design
+#  Design Methodology
 
 The applied arts. Design is a language. It's thinking, never generic! It works as a **form in the context**.
 
@@ -126,61 +105,14 @@ The applied arts. Design is a language. It's thinking, never generic! It works a
 - Animalistic features. Design base on nature or manufactured items
 - Harmony and dissonance
 
-## Patterns
-
-- general design that addresses a recurring design problem in object oriented system
-- general arrangement of objects and classes
-harmony
-
-
- - explain why
- - draw a line between form and context. found boundary
- - identify forces that make demands on the form (form of crown splash show all forces that influence the splash),
- - resolve forces to diagrams, so there is no friction or conflict. (workflow, hierarchy)
- - improve existing design  Look at existing design in useful way.
 
 
 
-### Design from base
-You know what things are. culturally programmed by life.
-Cultural norms
-grounded in cultural acceptance
-find anchor point to build designs around like: circle
-strong visual language help identify patterns
 
 
-#### Anchors
-##### Design for existing settings
 
-If you need to design something in a similar style, reverse engineering lets you understand design influences  and intentions. Find references they might use
 
-#### Visual Library
-Exposed to visual library
-
-visual language is important - visual is important to let humans make snap decisions about
-perception is reality with limited information.
-
-####  Human centric design
-
-#### Evolutionary Design / Biomimicry
-https://youtu.be/Flikscdwoy8
-evolutionary and biological mechanisms
-Way we percive design is  influenced by leftover survival mechanisms/ primorial instincts.
-
-Non werbal comunication important
-
-#### Organic design
-zalety organic designu, nie proceduralnego i nie w gridzie
-
-###### Antropomorpism
-We tend to antr...
-human like qualities to inanimate object.
-Attah human quilities to objects
-build relationships and name object that dont ave thoughts and feelings
-can be used to manipulate in future.
-**Paradolia** - seeing faces
-
-#### Subject matter
+## Parti paris
 
 
 #### Subject costs
@@ -205,21 +137,118 @@ future - expensive
 - interesting silhouette - easier to draw  
 - if simple sil. harder to fill with detail (may require posing difficult forms )  
 
+
+### Subject matter
+
+
+### Design from base
+You know what things are. culturally programmed by life.   
+Cultural norms    
+grounded in cultural acceptance   
+find anchor point to build designs around like: circle   
+strong visual language help identify patterns    
+Use !! **Anchors** as advantages  
+
+### Design for existing settings
+
+If you need to design something in a similar style, reverse engineering lets you understand design influences  and intentions. Find references they might use
+
+
+
+
+
+
+# References
+
+ Things not working from memory. Its crucial therefore we need references.
+
+ | . | |  |
+ | --- | --- |--- |
+ |**DNA** | `Culture` aesthetic,  History `Period` ('80), `Function` , engineering , life expectancy economic |Universal, Cultural / Animalistic, Manufactured    
+ |**Material** | `Substance`, `Stiffness` | Smooth, Rough / Leather, Spandex
+ |**Age**  |`Wear`, `Tear`, `Erosion`, `Dirt`,  `Scratches`  
+ |**Pattern** | | Uniform, Fractal
+ |**Motion**  | `Nature of motion` | Organic, Mechanic
+ |other specifics...   || Minimalistic or Rich, thin, heavy, durability, socio-political influences, rules of the world
+
+
+
+# Conception
+
+ Concept is a form of communication . Can help in further development if references are insufficient. Can be in various forms, sketch of design
+
+ - Exploration: `variations` and `iterations` (make 3 options and hybridize  based on feedback) Options, not variations. Variations are for finished concepts.
+ - Concept should be usable
+ - From perspective to be able `to translate` directly to 3d
+ - Draw additional `side views` and important elements.
+ - Don't limit yourself. Use 3d, textures, kit bash, references, photo bash
+
+
+
+
+
+
+
+## Scale
+   - `proportions` are critical. If sth to thick > like a toy can change perception!  
+   - Refer to `human scale` and show `relations` with other objects     
+   - lot of fog make enviro bigger
+
+## Silhouettes
+
+ ---
+
+#### Detail ()
+  - sprawdź jaki poziom detalu będzie widoczny w finalnej produkcji
+
+
+```
+## Patterns
+
+- general design that addresses a recurring design problem in object oriented system
+- general arrangement of objects and classes
+harmony
+
+
+ - explain why
+ - draw a line between form and context. found boundary
+ - identify forces that make demands on the form (form of crown splash show all forces that influence the splash),
+ - resolve forces to diagrams, so there is no friction or conflict. (workflow, hierarchy)
+ - improve existing design  Look at existing design in useful way.
+```
+
+
+####  Human centric design
+
+#### Evolutionary Design / Biomimicry
+https://youtu.be/Flikscdwoy8
+evolutionary and biological mechanisms
+Way we percive design is  influenced by leftover survival mechanisms/ primorial instincts.
+
+Non werbal comunication important
+
+#### Organic design
+zalety organic designu, nie proceduralnego i nie w gridzie
+
+###### Antropomorpism
+We tend to antr...
+human like qualities to inanimate object.
+Attah human quilities to objects
+build relationships and name object that dont ave thoughts and feelings
+can be used to manipulate in future.
+**Paradolia** - seeing faces
+
+
 #### Culture and symbolism
 Culture and symbolism  vs. universal trueths
 
 Kiki Buba effect.
 people paried kiki to sharp and nice B sound of buba to smooth.
 
-#### Detail ()
- - sprawdź jaki poziom detalu będzie widoczny w finalnej produkcji
 
 
 
-###  aristotle's four causes
-four causes are, of course, the material, formal, final, and efficient causes.
-The four causes signify ways in which a thing is indebted for its existence.
-
+----
 
 ## Book about comix  McCloudian
 Pictorial Vocabulary of any visual art:
