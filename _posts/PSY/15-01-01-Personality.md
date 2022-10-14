@@ -67,6 +67,12 @@ Lifestyle preferences| Judging | Perciving
 **Mystique** (comunicate with substance)|Secret Weapon|Subtle Touch|Veiled strength|Royal Guard|Wise Owl|Deadbolt|Archer|
 **Alert** (prevent with care)|Composer|Coordinator|Ace|Editor-In-Chef|Mediator|Detective|Control Freak|
 
+## RPG old
+Lawful neutral chaotic
+good neutral evil
+
+
+
 
 ## Jung
 

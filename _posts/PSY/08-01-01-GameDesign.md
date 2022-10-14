@@ -11,7 +11,7 @@ tags:
 permalink: /gamedesign/
 ---
 
-
+Games putting us in different emotional states and challenge us.
 
 MACRO (proteins fats carbohydrates - energy to function >> need more )
 - large scale  > maps, camps, objectives
@@ -19,8 +19,6 @@ MACRO (proteins fats carbohydrates - energy to function >> need more )
 MICRO (vitamines amd minerals - micronutrions >> need less  )
 - efficiency of everything u do > easier to acomplish macro
 - skillshots, abbilities, position (get less damage)
-
-
 
 
 Patterns across scales m2m like fractals
@@ -67,6 +65,13 @@ payoff
 
 # Players
 
+Avatar vs Character
+- Avatar give mechanical context.
+- Character - Emotional context.
+
+[GDC Character creation ](https://youtu.be/4mgK2hL33Vw)
+
+
 [Motivation](/motivation/), [Characters](/characters/), [Personality](/personality/)
 
 
@@ -81,6 +86,7 @@ Roles
 - Players vs Environment (multi)
 - Player vs Player (multi)
 - Coop multiple vs game  (team coop, multilateral coop )
+
 
 
 ##### co -op
@@ -661,7 +667,7 @@ design by theming.
 ```
 
 ----
-
+ casual games, requiring players to make time to play, rather than playing opportunistically or sporadically.
 
 
 

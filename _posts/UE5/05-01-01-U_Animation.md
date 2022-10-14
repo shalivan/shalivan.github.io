@@ -15,12 +15,13 @@ permalink: /uanimation/
 ```
 ### animatpon
 blend skeletals
-### control rig 
+### control rig
 
 ### beh tree
 what to do
 ```
 
+https://www.patreon.com/rokandic
 
 import: with skeleton - update skeleton reference pose - !!!!!!!!! important    
 [Houdini KineFX](/kfx/)      
@@ -144,3 +145,5 @@ Setup in BP Graph. Dynamic on a bone behaviour
 
 [VFX unreal](http://teres4enko.blogspot.com/)    
 ptak flaping to the music: https://youtu.be/TBiepo5ZQhY
+
+https://youtu.be/_1j5Tf6ulII

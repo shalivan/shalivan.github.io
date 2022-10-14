@@ -40,9 +40,9 @@ Every living thing before self awareness, is a pure product of natural (or man m
 
 | | average reaction time |
 |---|---|
-0.25 | visuals
+0.25 | visuals (160ms - 340ms) (0.4s for: Go/NoGo reaction for AI)
 0.17 | audio
-0.15 | touch stimulation
+0.15 | touch stimulation is fastest
 
 
 
