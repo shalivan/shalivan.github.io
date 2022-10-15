@@ -23,39 +23,37 @@ Difference in between individual and population level analysis  -  collective ac
 
 
 # Individual
-(Identity)
+Self identity
 
 ## Personality traits
-OCEAN - Big Five personality traits OCEAN Change a litle over life. Population norm is only meaningful point of reference for traits and otivations
+
+### OCEAN - Big Five
+personality traits OCEAN Change a litle over life. Population norm is only meaningful point of reference for traits and otivations
 
 ||  ||
 |--|--|--|
-Openness to experience | Closedness |
-Conscientiousness| Unconcientiousness | preparing, schedule vs Procrastinates
-Extraversion| Introvetsion |
-Agreeableness| Disagreeableness
-Neuroticism | Stability | Worries about many different things vs Emotionally stable. At extreames are worst!!!
+**O**penness | Closedness |
+**C**onscientiousness| Unconcientiousness | preparing, schedule vs Procrastinates
+**E**xtraversion| Introvetsion |
+**A**greeableness| Disagreeableness
+**N**euroticism | Stability | Worries about many different things vs Emotionally stable.
 
 
+### Myers-Briggs
+16 Personalities types
 
-## Temperament
-Most of people fall in Average. Like bell curve show . People on edges are hard to deal with  
-
-
-|4 types|Extrovertic |Introvert|
+| | | |
 |--|--|--|
-Stable  | Sanguine  | Phlegmatic
-Unstable | Choleric | Melancholic
-
-|Myers-Briggs / 16 Personalities | | |
-|--|--|--|
-Attitudes:  Focus| Extravert |Introvert
-Functions: Take in information| Sensing | Intuition
-Functions: Decision Makeing| Thinking | Feeling
-Lifestyle preferences| Judging | Perciving
+Attitudes:  Focus| **E**xtravert | **I**ntrovert
+Functions: Take in information| **S**ensing | I**N**tuition
+Functions: Decision Makeing| **T**hinking | **F**eeling
+Lifestyle preferences| **J**udging | **P**erciving
 
 
-## 49 Personality Archetypes
+
+
+
+### Personality Archetypes
 
 ||Innovation|Passion |Power | Prestige |Trust| Mystique | Alert
 |---|---|---|---|---|---|---|---|
@@ -67,9 +65,23 @@ Lifestyle preferences| Judging | Perciving
 **Mystique** (comunicate with substance)|Secret Weapon|Subtle Touch|Veiled strength|Royal Guard|Wise Owl|Deadbolt|Archer|
 **Alert** (prevent with care)|Composer|Coordinator|Ace|Editor-In-Chef|Mediator|Detective|Control Freak|
 
-## RPG old
-Lawful neutral chaotic
-good neutral evil
+
+## RPGs
+lawful / neutral / chaotic  
+good / neutral / evil  
+
+
+## Temperament
+Most of people fall in Average. Like bell curve show . People on edges are hard to deal with  
+
+
+||Extrovertic |Introvert|
+|--|--|--|
+**Stable**  | Sanguine  | Phlegmatic
+**Unstable** | Choleric | Melancholic
+
+
+
 
 
 
@@ -118,8 +130,8 @@ Virtue Continuum
 Deficency <> Excess
 
 # Collective
-
-culture is between individual an d community
+Others.   
+Culture is between individual and community.
 
 
 
