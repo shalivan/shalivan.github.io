@@ -338,7 +338,7 @@ https://youtu.be/QZ3TNIPDAd8
 
 ### Locus of control
  psychological concept that refers to how strongly people believe they have control over the situations and experiences that affect their lives.
-
+Ability to develop a locus that understand whitch things are internal (in your controll) / external (out of your controll) is key to handle stress and trauma.
 ### Paradox of choice
 We can be happier with less choices
 

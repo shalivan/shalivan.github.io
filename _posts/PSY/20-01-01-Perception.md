@@ -57,6 +57,11 @@ Every living thing before self awareness, is a pure product of natural (or man m
 60 x 2 | head rotation  (console games)  
 95 x 2 | head & eyes  (max viewing area)   
 
+
+## Sound perception
+mcgurk effect
+
+
 ## Gestalt Principles
 
 

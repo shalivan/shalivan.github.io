@@ -67,8 +67,8 @@ Lifestyle preferences| **J**udging | **P**erciving
 
 
 ## RPGs
-lawful / neutral / chaotic  
-good / neutral / evil  
+lawful / social / neutral / rebel / chaotic  
+good / moral / neutral / impure / evil  
 
 
 ## Temperament

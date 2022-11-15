@@ -1,6 +1,6 @@
 ---
 title: Dev Tools
-description: Basic Dev tools 
+description: Basic Dev tools
 categories:
 - NET
 tags:
@@ -47,23 +47,22 @@ Manual create project
 W instalerze:
  - .NET .... nugets
 
-
 =============
+
 PROJECT BUILD
 
 # Atom
 
+Sync git hub :
+- `Shift` + `P`: GitHub:Clone
 
 # Github
 
-
 # Perforce
-
 
 https://forums.perforce.com/index.php?/topic/3330-perforce-on-synology-and-unreal-engine-4/
 
 ...
-
 
 Install
 - helix pobrany:  p4d (dla linuxa 64) pobiera zzipowane archiwum z plikami
@@ -71,7 +70,6 @@ Install
 - Instalation script run:
    - ssh & `cd` to p4 catalog
    - `./p4_start.sh start`
-
 
 Restart
 - Restart
@@ -81,7 +79,6 @@ Restart
       - `ps` wyswietla procesy sytemowe
 - Kill process
       - `kill -9 xxxPIDxxx` < # 9 = kod sygnałyu SIG TEMINATE   
-
 
 ```bash
 
