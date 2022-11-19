@@ -290,6 +290,16 @@ Triangle of Representation -lends a non-linear sliding scale of representation t
 ## Typography
 https://www.playforthoughts.com/blog/how-to-design-a-logo-from-scratch-ultimate-guide
 
+### Fonts
+ancient Mesopotamia - clay bulley
+pictagrams > abstracted > cuneiform (graphic symbols depictive things) > hieroglyphs (from ancient Egypt) > > > Greek lapidary letters (more abstract 22 letters ancient Greece's first use of letter orms) >> Roman alphabet
+Cyrylica
+
+
+- Serifs
+
+
+#####
 
 
 ----

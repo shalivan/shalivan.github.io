@@ -210,6 +210,11 @@ E.g.
 types: For 'Capture the flag' CTF / therytory take over   
 Offence / defence differencess      
 
+
+https://andrewyoderdesign.blog/2019/08/04/the-door-problem-of-combat-design/   
+ fight for territory is one aspect of map control, but there are other aspects to consider. In an abstract sense, map control is about a player developing their options while limiting the options available to their opponent
+
+
 ### Graph theory
 for multiplayers
 
@@ -301,3 +306,6 @@ valves | one way,  keep pushing players forward
 
 https://www.youtube.com/c/LevelDesignLobby/videos  
 https://www.youtube.com/watch?v=CpOoTAVeEcU  
+
+
+https://www.worldofleveldesign.com/categories/cat-level-design.php

@@ -37,50 +37,97 @@ typically 24-60 FPS
 **Appeal** | chrismatic aspects > dynamic design. (varietyu of shapes on dif characters), play with proportions.
 
 
-# Dynamic of body
+# Posing by James Chaing
+Maximum expression & Maximum appeal
+-Each pose/key relates to feelings and intentions of the character.
+-Key is to achieve;
+1. Strong Contrast.
+2. Absolute Clarity.
+ASSYMMETRY
+-Avoiding Symmetry
+-Solving twinning issues though posing and timing
+-Looking for parallel shapes/contours
+Eg. Kent Duncan (Jane)
+Eg. John Lounsbary
 
-- tetrapod locomotion = `quadropedal` ( 4 limbs on ground ) with `pronagrade` posture
-- huans  bipeds  locomotion `bipedal` > posture Orthograde
+SQUASH & STRETCH
+-Keys to giving weight
+-Rigid vs. Soft
+-Use also for expression on face (not just in motion)
+-Aids in anticipation
+Eg . Ollie Johnston (Rufus and Brom Bones)
 
-## Biped
-
-
-upright posture
-- rotating in hip when (schylamy) sie. - to nasza apdptacja do bipeda
-- heat to toe in animals, - human front to back compression of chest (jellybean shape) to minimize enedgetic  
-
-
-- locked knee is key to human walking mechanism
-- Urbavores huge backbone stiff 2 phases
-- carnivore use backbone an can run faster.  (meet is easy to digest and you are lighter) tiger bandy backbone (floating face gathered or extended )
-- human is  in between. (have a but - )
-- kid locomotion is more toddlers (before they learn )
-- faster walk imply more hip roattion
-
-##### Walk cycle
-walk is very efficient.
-- poses walk. contact and passing
-- `foot roll` over the ground - (in contact)
-- Contact pose. Moment head is lower.
-
-#### Run
-floating phase in tunnning is what differentiates a run (phase where all feet are off the ground at least 1/2 of time)
-
-##### Posing
-- `Center of mass` - The center of mass shifts at the turns.  Different 'weight distribution' while run   
-- `Contrapposto` - braking symmetry of archaic Greek figure (asymmetrical balance)  - weight in one leg is more complicated. torso shoulders and head response (s curve in spine) opposite leg-hand are straight. - it is representation of the human body in which the forms are organized on a varying or curving axis to provide an asymmetrical balance to the figure. Organic more loose quality to body
-- `Lordosis Reflex` + lumbar curvature. (spine)
-- hips are rotated down ! Pelvic orientation (wysuniete biodra do przodu )
-
-
-## Quadruped
-
-
-- how whide apart feats are
-
-
-
+STRAIGHTS vs CURVES
+- Design Concept to maximize appeal
+- Have mix of straight and curves
+- Gives dimension to surface (flesh against wall
 -
+
+LINE OF ACTION
+- Gives strength + direction to the pose
+- Sets up next move/key
+- Forces you to use reversals
+- About rhythm
+- Extends through entire pose
+
+POSITIVE &NEGATIVE SPACE
+- Composition and focusing audience attention
+- Using focused details against broad open areas
+- Busy vs Clean
+- Prevalent in Asian art and Rembrandt
+
+POSITIVE &NEGATIVE SPACE
+- Composition and focusing audience attention
+- Using focused details against broad open areas
+- Busy vs Clean
+- Prevalent in Asian art and Rembrandt
+Eg. Marc Davis (Maleficent)
+
+
+TWIST+ TILTS + TURNS = TORQUE
+- Forces shape changes within a pose
+- Create tension
+- Rubber band effect ties body together
+- Glen Keane, Chuck Jones, Michelangelo
+
+SHAPES
+- Clean silhouettes
+- Overlap of shapes to create interest and dimension
+- Avoiding boxes
+
+EXAGERRA TION
+- Making it read
+- Remember 1124 sec
+- Sometimes just for feel
+- Cartoons are not real. The are fun
+
+CHANGE OF EXPRESSION
+- Maximizing contrast between poses
+- Helps clarify what is being said
+- Creates interest
+- Concept of reversals
+
+
+30+20 SPACE
+- Using your layout fully
+- Move up down and across frame
+- Move towards and away from camera
+- Easy to forget 30 space in 30
+- Visual overlap
+
+UNITY
+- Putting all together
+- No contradicting messages in the pose
+- Define the moment
+-Ask:
+Is there sense of movement? Feeling & emotion? Balance & solidity?
+
+Expression in face and hands. v
+ia tilts, torgue and squash and stretch
+
+
+
+
 # Animation types
 
 - `static animation` - always something is moving over the screen    world is not dead  
@@ -131,6 +178,7 @@ problems:
 favour z (3d max) so:
 - legs / spine draw from site (and left righ secondary motions less of them )
 - from top
+
 # Character Skeletons
 
 Dont model and rig character in relaxed pose. (will complicate process)
@@ -156,6 +204,51 @@ create clavicle:
 - as a point.
 parent joints to connect:
 mirror:
+
+
+
+
+# Dynamic of body
+
+- tetrapod locomotion = `quadropedal` ( 4 limbs on ground ) with `pronagrade` posture
+- huans  bipeds  locomotion `bipedal` > posture Orthograde
+
+## Biped
+
+
+upright posture
+- rotating in hip when (schylamy) sie. - to nasza apdptacja do bipeda
+- heat to toe in animals, - human front to back compression of chest (jellybean shape) to minimize enedgetic  
+
+
+- locked knee is key to human walking mechanism
+- Urbavores huge backbone stiff 2 phases
+- carnivore use backbone an can run faster.  (meet is easy to digest and you are lighter) tiger bandy backbone (floating face gathered or extended )
+- human is  in between. (have a but - )
+- kid locomotion is more toddlers (before they learn )
+- faster walk imply more hip roattion
+
+##### Walk cycle
+walk is very efficient.
+- poses walk. contact and passing
+- `foot roll` over the ground - (in contact)
+- Contact pose. Moment head is lower.
+
+#### Run
+floating phase in tunnning is what differentiates a run (phase where all feet are off the ground at least 1/2 of time)
+
+##### Posing
+- `Center of mass` - The center of mass shifts at the turns.  Different 'weight distribution' while run   
+- `Contrapposto` - braking symmetry of archaic Greek figure (asymmetrical balance)  - weight in one leg is more complicated. torso shoulders and head response (s curve in spine) opposite leg-hand are straight. - it is representation of the human body in which the forms are organized on a varying or curving axis to provide an asymmetrical balance to the figure. Organic more loose quality to body
+- `Lordosis Reflex` + lumbar curvature. (spine)
+- hips are rotated down ! Pelvic orientation (wysuniete biodra do przodu )
+
+
+## Quadruped
+
+
+- how whide apart feats are
+
 
 
 
@@ -201,7 +294,7 @@ https://youtu.be/WLMVpcK0WvA?list=PLQD_sA-R5qVKVYw3EVuRT7fSJsVukLEhD
 
 ----------------------------
 
-
+procedural with math  https://youtu.be/KPoeNZZ6H4s 
 
 pose / motion matching z https://www.youtube.com/watch?v=KSTn3ePDt50&t=1649s
 

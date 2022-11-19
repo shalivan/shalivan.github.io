@@ -107,3 +107,18 @@ https://michaelbach.de/ot/index.html
 phenomenon of visual perception that occurs when a stimulus undergoes a change without this being noticed by its observer.
 
 #### Perception load
+
+# Time
+chronos time - quantitatively as calendar    
+kairos time - qualitatively - sezon/eon
+
+--------------
+# Perception
+- A: (sense)perception > atention ? adoption (motor commands)
+- B inne: brain > body > environment
+- C: sensory experience > mental models of reality
+- D: predictive teory of neuroscience
+
+# Enchanced Learning
+From Mental to active presence
+(Degree of  abstraction: High) Text > pictures > audio > motion > exhibit > Field Tips > dmeonstarate > Dramatized > contriverd > direct.  (Low anstraction: concrete )

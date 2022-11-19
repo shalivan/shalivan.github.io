@@ -41,7 +41,8 @@ occurs naturally or induced by internal or external factors like drugs
 | State | Wakefulness| Awareness| Description ||
 |----|--|--|--|--|
 Focused Selective Attention | High |High| | Flow
-Divided Attention | High | High | | Awake
+Divided Attention | High | High | |
+Wakefulness, Awareness, Alertness  || Awake
 Daydreaming| || stream of consciousness that detaches from current external tasks when attention drifts to a more personal and internal direction.
 Lethargy |||causes you to feel sleepy or fatigued and sluggish
 |

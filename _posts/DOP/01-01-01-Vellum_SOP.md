@@ -73,6 +73,10 @@ For cloths, curves or constraints (like attach)
 # Constraints
 Constraints are geometry attributes. Add in sop and edit it in `velum Constrains Properties` inside vellum solver to modify constr dynamicly
 
+### UI
+`Constrain  Browser` - window ! to chceck constraints
+
+
 ## Types
 
 || Effect | |When to use||
@@ -109,6 +113,9 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 **Glue**  | Constraint primitive  |  Glue source to target distance treshold (check: nr constr per pt)(remove manualy constr) plasticity | Anim,  2 pieces
 **Attach**  |  |  Stick to closest point on geometry & keep distance    |  Anim objects
 
+
+Connect cloth to body = cloth + attach
+fix attach from nearest with interactive tool !! https://youtu.be/5s8I2fs8kMs?t=2081   
 
 ### Pin To Animation
 
@@ -212,13 +219,36 @@ if(inpointgroup(0,"unweld",@ptnum))
 **Avoid time dependences** - set  when pining top not fetch animation to solver  
 ![](/src/vellum/vellumtargetsmall.png)
 
-### Rigid
+
+
+## Grain
+- [Vellum Configure Grain]
+   - Increase substeps 5+
+`@breaktreshold` / `@isgrain = 1` / `@mass` / `@pscale` / `@v` -   
+
+can set up to fluid !!
+
+
+- `attraction weight` - clumpy sand  
+- `repulsion wetight` - used only  When U want prevent grain+fluid to mix togheter (make softwr grain collision so not make sense for only grains)
+- `phase` - particle is velum fluid (if non 0).  Same phase = same fluid.
+  -
+
+   ========When solving viscosity and surface tention -
+
+## Rigid Grains
 by shape matching
+1. `configure grain pieces`
+2. after sim:  `vellum xformm pieces` -
 
-### Water
+
+## Water Grains
 
 
-### Balloon
+
+
+
+## Balloon
 - [Vellum Configure Baloon] = cloth Constraint + Pressure Constraint     
 - anim stretch on pressure constraint
 - change volume setup: - `rest length scale`    
@@ -229,24 +259,26 @@ by shape matching
 Expose output group in pressure  `@pstretch` - @VellumsconstraintProperty inside solver forces
 `cluster points` - to glue constrain
 
-### Grain
-- [Vellum Configure Grain]
-Increase substeps 5+   
-`@breaktreshold` / `@isgrain = 1` / `@mass` / `@pscale` / `@v` -   
 
-### Soft Body
+## Soft Body
 `[Vellum Configure Soft Body]`
 = cloth + struts     
 
-### Hair / Grass
+## Hair / Grass
 !!!!!!!!
 
 plasticity
 
 
-### Guided Animation
+## Guided Animation
 Use:  Vellum Rest Blend
 
+## Tertahedral
+use model: scale invariant ARAP ! new 19.5
+(used in muscles)
+
+there are grain collision options !
+and open CL !
 
 ---
 
@@ -309,3 +341,10 @@ https://youtu.be/rQw2UZGWP-0 - rozwijanie płachty
 ---
 https://www.youtube.com/watch?v=km2uXhfvWvk
 https://www.sidefx.com/tutorials/vellum-nodes/  
+
+----------------------
+
+
+# H 19.5
+
+Spatial Sort Interval. - Sot grain fluid  particles  in memory. It sould change particle count !!!!! (help with speed of grain fludi sim )

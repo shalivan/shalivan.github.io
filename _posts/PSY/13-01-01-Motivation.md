@@ -31,9 +31,23 @@ Biological motives include hunger, thirst, the pursuit of pleasure, and the avoi
 `Impulses`, `Power`, `Achievement`, `Affiliation`
 
 ## Neuroscience
-Dopamine  
 - **Directional**- Directed towards a positive or away from a negative stimulus
 - **Activated** - **Seeking** phase and **consummatory** "liking phase."
+
+### Hormones
+
+#### Dopamine - Reward   
+- Eating food, Achieving Goal, Complete Task
+
+#### Oxytocine - Love
+- Socialising, Touch, Petting Animals, Helping
+
+#### Endorphin - Painkiller
+- Exercising, music, Laught, Entertiment
+
+#### Serotonin - Mood stabilizer
+- Sun Exposure, nature, mindfullness, meditation
+
 
 ## Behavioral
 Behaviorism - theory of motivation focused on how the results we’ve **obtained from past** behaviors shape our future behaviors (Environmental **Shaped** & **Learned** Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
@@ -170,25 +184,30 @@ Hope vs. fear |Differentiation into `hope` and `fear` components of implicit mot
 
 [YT GDC](https://youtu.be/gxJUPfKtg_Q)  
 
-
+https://medium.com/ironsource-levelup/a-closer-look-into-the-12-gamer-motivations-8d156ff0151a
 
 |   | High | Low |
 |--|--|--|
 | **Social** | BRIGHT
 `Community` Shared Experience| **Teamwork** Community driven sacrifice control.Grouping up. Chatting. Social interaction. Collaboration.    | **Independence** Single-player. Soloable quests. Be in full control
 `Competition` Social Comparison | **Conflict** Adversarial. Arenas. Duels. Matches. Leaderboards. Rankings. | **Non-adversarial** - Non-competitive. No rankings/duels against human players.
+|
 | **Action** | BRIGHT - want to be excited, or interacting with other players
 `Excitement`  Novelty | **Thrilling** Fast-paced. Action-based. Surprising. Adrenaline rush. | **Calm** Turn-based. Can be paused. Relaxed. Predictable. Low visual stimulation.
 `Destruction` Entropy| **Chaotic** Guns. Explosions. Mayhem. Carnage. Gore. Destructible environments | **Enduring** Idyllic. Serene. Evergreen. No weapons/gore. Typically G/PG content
+|
 | **Achievement** | TALL - long-term gaming
 `Completion` Source of Goals| **Task-Oriented** Complete tasks/quests. Collect stars/trophies and collectibles. | **Self-Driven** Decide what to do myself. Sandbox/open gameplay. Self-directed goals.   
 `Power` Growth| **Progression-Based** Start weak and grind. Level up character/stats. Upgrade weapons/spells.   | **Flat Progression** Fully-developed characters from the start. Static. Level playing field.
+|
 | **Mastery** | TALL - long-term gaming
 `Strategy` Decision Complexity | **Contemplative** Think. Plan. Complex decisions. Long-term strategies. Consider consequences. |  **Spontaneous** Reactive gameplay. Low cognitive load. Short time horizons.  
 `Challenge` Skill Improvement | **Skill-Based** Steep learning curve. Complex moves/rules. Difficult missions, bosses. | **Easy Fun** Quick to learn. Low skill barrier. Straightforward mechanics. No skill-based gates.
+|
 | **Immersion** |  WIDE -  testing the boundaries of the game.
 `Fantasy` Suspending Disbelief| **Deep Lore** Rich world lore/history. Compelling alternate world. Visually immersive world. |  **Generic/Abstract** Generic or abstract setting. 2D/retro graphics. Minimal world-building/lore.  
 `Story` Web of Human Drama| **Scripted Drama** Elaborate narrative arc. Large cast of characters with motive/personality. | **Open-Ended** No overarching narrative.  Basic/stock NPCs. Blank canvas to build on
+|
 | **Creativity** | WIDE -  testing the boundaries of the game.
 `Discovery` The Unknowns| **Curious** Explore world. Find hidden secrets/treasures. Experiment with objects. Tinker.   | **Practical** Fully-exposed rulesets. Minimal unknown variables and possible interactions
 `Design` Expressing Individuality | **Customizable** Express individuality. Customize avatar/house. Lots of skins accessories.| **Curated** Fixed, but often highly stylized avatar. None or few customization opportunities.

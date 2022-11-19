@@ -189,6 +189,15 @@ shapes - forces drive your eyes
 - dark to light    affride  light to dark   /  ok dark to light
 - high to low  
 
+Shapep theory
+- Kiki - bouba
+ - circke: safe, cuddly, threatening (mickie mouse)
+ - triangle: pointy (evil)
+ - squrae: stable, neural, useful (old guy from up!)
+can use in shape of gates.
+- rect doors - stable stronghold, equal range of wive  (same chances while shooting)
+- round can open for better shooting from inside out
+- triangular top, can narrow view
 
 # Urbanism
 
