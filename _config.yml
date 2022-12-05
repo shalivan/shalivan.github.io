@@ -4,9 +4,9 @@
 # ---------------------------------------------------------------
 
 # Site
-title: PXL & INK
-subtitle: scraps and shit
-description: Some quick notes about stuff....
+title: PXL&INK
+subtitle: Snaps, Scraps, Snippets & Shit
+description: Digital&Analog observations.
 
 author: PXL&INK
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -94,7 +94,7 @@ rss:
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
