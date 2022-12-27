@@ -254,20 +254,22 @@ in arkham everything is for you  - `predator gameplay` - intimate spaces, based 
 # Resources
 
 ## Architects
-
-**Adolphe Appia**  1862 – 29 February 1928    
-**Peter Zumthor** The Therme Vals - mood&tone  
-gaudi - (sagrada familia) simulating shapes   
+**Étienne-Louis Boullée**   
+**Adolphe Appia**  1862 – 29 February 1928      
+**Peter Zumthor** The Therme Vals - mood&tone     
+gaudi - (sagrada familia) simulating shapes    
 frei oto - (olipmiapark, tent like structures)  minimal surface
 **Christopher Alexander** - Computaion, Math, Architect -  aktualnie postrzegana jako błędna but: ‘Unselfconscious design’ (or ‘craft-based’ design) concerns the use of traditional building methods, in which the designer works directly on the form (so, if you were a wheelwright, the wheel) unselfconsciously, through a complex two-directional interaction between the context and the form, in the world itself. The design rules and solutions are largely unwritten, and are learnt informally. The same form is made over and over again with no need to question why; designers need only learn the patterns.
  - Notes on the Synthesis of Form
  - Pattern Language
+
 
 **minoru yamasaki** - WTC
 Współczesni     
 - Frank Gehry - zakrzywione budynki - (bilbao) -
 - zaha hadid architects - neo futurysm
 -  Elora Hardy - bamboo architecture
+
 ## Books
 
 ---
@@ -275,7 +277,7 @@ Współczesni
 **morphology**
 how nature deep structures are
 **metabolism**
-nodes
+rethink society using arch as a tool dor potential change, growth, evolve. (nodes / units / capsules)
 **ornament**
 
 

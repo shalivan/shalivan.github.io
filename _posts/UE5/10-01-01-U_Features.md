@@ -53,3 +53,29 @@ for one mesh
 ## Procedural Spawner
 
 Collection
+
+
+==================
+
+# Open World
+
+# World Partition
+World comp old  
+World partision New  (enable in options)
+- cell size  - mozna zmienic pozniej
+- grid size
+
+
+
+2
+
+- World partition  + HLOD (bake geo for background)
+- Level Instances
+
+-  
+
+### hlod
+regen > https://youtu.be/ZxJ5DG8Ytog?t=1037
+
+###  Data Layers
+granular level of control over loads.

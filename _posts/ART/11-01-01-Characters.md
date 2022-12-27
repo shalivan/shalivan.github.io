@@ -25,10 +25,19 @@ Appealing character (notr mean cute) - pleasing to look at
       - proportions  
       - character  
 
+      - **primary** - `volumes` and `proportions` -  (head: derived from skull shape) / shilluete should be strong. `gourment construction design breakdown - paneling gourment help`
+      - **secondary**  - tissues, fat pads, mussles
+      - **tortiory** details - no volumes, - skin pores ....
+      - surface details.... ??
+
+
+=
+
    face, eyes, hads,
 expresison
 
 
+head:
 
 
 

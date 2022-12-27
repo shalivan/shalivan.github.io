@@ -10,7 +10,7 @@ tags:
 permalink: /vexpressions/
 ---
 
-https://www.thebrainextension.com/
+https://www.thebrainextension.com/     
 
 
 [Vex Attributes](/vexattribs/)    

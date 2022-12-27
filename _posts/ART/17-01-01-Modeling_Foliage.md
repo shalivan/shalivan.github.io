@@ -10,6 +10,9 @@ permalink: /foliage/
 
 # Vegetation
 
+Library: https://treelib.ca/  
+
+
 ## Technical pipeline
 
 We need parts which we will combiene into objects. then objects will be used in composition
@@ -154,12 +157,48 @@ Constuct proceduraly, important workflow tips:
 
 ## Leafs / Cards
 
-1. create new material
-2. Open mesh editor which is tide to material
+
+..
+Batch leaf generator !!!!! <
+
+1. Create Branch
+2. Window properties > screenshot safe frame > [x] - save frame
+3. Leaf mesh generateor (to acces every leaf)
+tips: to much collisions may look like solid from distance
+-  File > export material.
+
+4. create new material
+5. Open mesh editor which is tide to material
+
+...
+
+
+## Free Hand
+- Vertex Editing - minor ver change
+- Bending - without  
+- Click Place - clone
+- Hand Drawing  - <<< !!!! )(space)
+- Paint Displacement - move
+- Paint Vert - move
+- Paint Vert Col - color
+
+## Photogrametry
+- add geo > photo branch generator
+- space bar and RMB
+
+## Forces
+
+## Collision
+On toolbar
+- low - will remove intersect other on same level
+- midium - will remove intersection with parent
+- high -
 
 ## Material / Wind
 
+-----------------
 
+# Foliage
 
 
 #### Grass

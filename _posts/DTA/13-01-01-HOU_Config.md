@@ -15,6 +15,36 @@ permalink: /houdiniconfigs/
 
 
 
+|Operation type|houdini shorts|Tools|
+|-|-|-|
+Enter Mode|`ENTER`|Enter modeling mode
+Camera|`Alt` + `RMB`|Rot as cam
+|| `RMB`|Rot around
+||`Alt` + `MMB` / `LMB` + `RMB`|Pan
+||`LMB`|Zoom
+ ||`MMB`|Move tool
+
+
+
+questions for sidefx
+- why space is nota a modifier like ctrl
+- how to shortcut to: uv connected / 3d connected
+- how to add oprions to wheel
+ 
+
+
+
+options
+- rotate
+- save selection
+hot keys
+- convert to point
+- enter to '~'
+- restart selecting to `ctrl` + `~`
+- clear all templates `ctrl +shioft+f`
+-  move to last operation (scrol mouse)
+
+
 
 ```
 Unify shortcuts:
@@ -42,8 +72,6 @@ Radial menus:
    - operacje jak loop straighten
    -
 
-Many nodes:
-- subnet is almost good, but it change visibility.
 
 
 Rotate points !: add > transform acannot rotete points.
@@ -155,13 +183,13 @@ Options to change
 
 # Viewport Manipulation
 
-|||
-|-|-|
-`T` | Transform  
-`R` | Rotate   
-`E` | Scale  
-`Y` | Cycle  
-`M` | World Coordinates    
+||||
+|-|-|-|
+`T` | Transform  | W
+`R` | Rotate   | E
+`E` | Scale  | R
+`Y` | Cycle  |  -
+`M` | World Coordinates    | !!
 
 ### Pivot / Handle
 
@@ -169,17 +197,17 @@ For animation. Permanent pivot of object.
 
 ||||
 |-|-|-|
-`'`+`Shift`/`Insert`|pivot | pivot transform change parameter.
-`'` |handle| leave pivot unaffected. Detached Viewport handle temporary. For modeling and placement.
+`'`+`Shift`/`Insert`| **Pivot** - pivot transform change parameter.
+`'` | **Handle** - leave pivot unaffected. Detached Viewport handle temporary. For modeling and placement.
 
 
-|||
-|-|-|
-`RMB>presistant` | For enable 2nd handles!   
-`RMB>SnapTo..` | Pivot or centroid.  
-`RMB>HandleParameters` | Options  
-`RMB>Local/Global` | Local pivot points vs Global - centroid of all  
-`RMB>TranslateGloballyInLocalControl` | Local transform of last selected
+||||
+|-|-|-|
+`RMB>presistant` | For enable 2nd handles!   |
+`RMB>SnapTo..` | Pivot or centroid.  |
+`RMB>HandleParameters` | Options  |
+`RMB>Local/Global` | Local pivot points vs Global - centroid of all  |
+`RMB>TranslateGloballyInLocalControl` | Local transform of last selected|
 
 
 ### Align  
@@ -230,15 +258,15 @@ Check if you have object or world aligned handles it change behaviour
 
 ### Selection modes:  
 
-|||
-|-|-|
+||||
+|-|-|-|
 `Shift`+`V` | backmasking    
 `Shift`+`C` | contained  
 
 ### Selection modify:  
 
-|||
-|-|-|
+||||
+|-|-|-|
 `N` | select all  
 `Shift`+`N` | select none  
 `Shift`+`B` | bounds   
@@ -255,28 +283,23 @@ Check if you have object or world aligned handles it change behaviour
 
 
 
-## Edit
+## [ Edit ] SOP
 
+||||
+|-|-|-|
+`L` | Slide on Surface  |
+`H` | Peak  |
+`B` | Sculpt  |
 |||
-|-|-|
-`L` | Slide on Surface   
-`H` | Peak  
-`B` | Sculpt  
-||
-`Y` |  Edit  
-`Shift`+`T`| Tweek mode   (no handles )
+`Y` |  Edit  |
+`Shift`+`T`| Tweek mode   (no handles )|
 
 
 ---
 
+
 |Operation type|houdini shorts|Tools|
 |-|-|-|
-Enter Mode|`ENTER`|Enter modeling mode
-Camera|`Alt` + `RMB`|Rot as cam
-|| `RMB`|Rot around
-||`Alt` + `MMB` / `LMB` + `RMB`|Pan
-||`LMB`|Zoom
- ||`MMB`|Move tool
 Snap|on wheel menu
 ConstructionPlane|on wheel menu
 Comon |`Shift` + `M`|Mirror selection in place

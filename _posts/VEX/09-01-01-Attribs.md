@@ -10,7 +10,7 @@ permalink: /attribs/
 ---
 [Vexpressions](/vexpressions/)  
 
-
+[VEX_Attribute_Glossary](https://wiki.johnkunz.com/index.php?title=VEX_Attribute_Glossary )     
 
 
 

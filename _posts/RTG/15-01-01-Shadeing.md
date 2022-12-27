@@ -215,6 +215,12 @@ There are 11 blend modes that decals can use:
 
 ----
 
+## Triplanar
+
+[Basic](https://bgolus.medium.com/normal-mapping-for-a-triplanar-shader-10bf39dca05a#d715)
+[Biplanar](https://iquilezles.org/articles/biplanar/)
+[dithered and optimized](https://ryandowlingsoka.com/Triplanar-Dithered-Triplanar-and-Biplanar-Mapping-in-Unreal-7844313e458e4316aca1e40e6394109e)
+
 
 ## Features
 ###### Motion Vectors
