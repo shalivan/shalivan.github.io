@@ -45,11 +45,13 @@ Albedo range
 50-243 !!!!!
 
 
-Mat | Linear  | in byte ranges | sRGB |
--- | -- | -- |-- |
-Neutral Gray (bright) |0.5|| 0.72 (186,186,186)
-Middle Gray |  0.18  |46,46,46  | 0.5 (128,128,128)
-Black Paint  | 0.02  | 05,05,05|
+Mat | Linear  | in byte ranges | gamma / sRGB (darker)||
+-- | -- | -- |-- |-- |
+Max WHITE |0.893| (229,229,229) | 0.95 |(243,243,243) 240-249
+Neutral Gray (bright) |0.5| (128,128,128)| 0.72 |(186,186,186)
+Middle Gray |  0.18  | (46,46,46)  | 0.5 |(128,128,128)
+Black Paint  | 0.02  | (5,5,5) | 0.169 |(43,43,43)
+Max BLACK | 0.01 - 0.027 | (7,7,7) | 0.117 - 0.195 | (50,50,50) 30-50
 | ||
 Bare soil | 0.13 - 0.17  |
 Dry Clay Soil  ||  137,120,100

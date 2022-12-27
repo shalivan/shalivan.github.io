@@ -676,3 +676,6 @@ design by theming.
 # Q
 What make game meaningful. is it progress save and win screen or experience itself? What game can teach us.  What kind of narration.
 What we are doing why it maters and what are the consequences
+
+how to:
+- by connecting main ideas
