@@ -22,95 +22,103 @@ https://www.thebrainextension.com/
 
 # Expressions
 
-Backticks ``` ` ``` are for use in a string field: group input, name sop. (when fn inside ??)
-- `Ctrl` + `C` - copying of node can be passed in parameters: `/obj/geo_foo/OUT_foo`
+- Backticks ``` ` ``` are for use in a string field: group input, name sop. (when fn inside ??)
+- `Ctrl` + `C` - copying of node can be passed in parameters: `/obj/geo_foo/OUT_foo`. You can drag and drop nodes to param fields.
 
 
 
-## Group field in every SOP
-- `GroupName` -  work only on group  
-- `!GroupName` - work only on inverted group   
-- `!{group1 group2 group3}`
-- `!group1 !group2 !group3` - not group1 or not group2 or not group3 which would be everything except for elements that are in all groups
--  `15 ^!first_half ^!first_ten` will exclude the 15, rather than acting like 15 ^!{first_half first_ten}
-- `@name=NameAttrib` - by string name    
-- `group1` -by group name  
-- `@name=PrimitiveStringName` - by Primitive Name  
-- `@name=PrimitiveStringNamePattern*` - by Primitive Name pattern  
-- `@name="" ` - all without names
-- `@step_iter=2 ^!@happen_t=1` - "remove things from the previous statement (^) that are not (!) part of the following group".
+-----
+
+## Group field
+Group field in every SOP ie: **[Blast]** SOP, **[Split]** SOP
+
+
+By points number pattern:
+- `0 1 2 35-55` - by point / prim
+- `npoints(0)-1` - last
+- ``` 0-`npoints(0)-10` ``` - Leave last 9 points   
+- ``` 0 `npoints(0)-1` ``` - First and last  
+
+
+By attribute value:
+ - `@shop_materialpath="/obj*"` - by material name attribute
+ - `@name=NameAttrib*` - by name attribute
+  - `@name="" ` - all without names
+ - `@copynum==2` - delete copies after copie node
+ - `@foo>=0.5`  - by Attribute
+
+ By pattern:
+  - `group1` / `GroupName` - by group name -  work only on group  
+  - `!GroupName` - work only on inverted group   
+  - `!{group1 group2 group3}`
+  - `!group1 !group2 !group3` - not group1 or not group2 or not group3 which would be everything except for elements that are in all groups
+  -  `15 ^!first_half ^!first_ten` will exclude the 15, rather than acting like 15 ^!{first_half first_ten}
+  - `@step_iter=2 ^!@happen_t=1` - "remove things from the previous statement (^) that are not (!) part of the following group".
 
 
 
 
-## [Delete] SOP
+## Get any float parameter from attribute value
+
+- ```detail(0,'P',1)```
+
+### [Add] / [Transform]  SOP - any float.
+
+- `point(-1,0,"P",0)`, `point(-1,0,"P",1)` `point(-1,0,"P",2)`- x,y,z point position from point in spare referenced node  
+
+
+### [Switch] SOP
+
+binary:
+- `if(strcmp(details(0, "foo"), "shit")==0, 1, 0)` - if value of detail attribute 'foo' is string of 'shit'.  [Use Switch-if]
+- `npoints(-1)!=0` - switch if there is any geometry
+- `if (npoints("../intersectionanalysis2/")>0,1,0)` - switch if intersected
+- `if (detail(-1,'iteration',0)%2==0,1,0)` - switch even and odds
+
+## Get any string param from attribute
+
+### [Name] SOP
+- ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for  [ForLoop] Meta Import
+
+
+---
+### Wrangle
+
+- `if(@primnum == -1) @group_disconnected = 1;` - Separate points and geometry   (prims)
+- `if ( rand(@ptnum) >0.2 ) { removepoint(0,@ptnum); }` - remove points
+
+.
+
+- `i@index = (int)fit01(rand(detail(1,"iteration",0)*1234),0,11);` - randomise int in range. in prim wrangle (1 in: flow, 2 in metadata) (in switch: `prim(0,0,"index",0)`)  [ForLoop] Meta Import
+----
+
+### [Delete] SOP
 
 #### Delete by Pattern   
-- ``` 0-`npoints(0)-10` ``` - Leave last 9 points   
-- ``` 0 `npoints(0)-1` ``` - First and last   
+
+  - ``` 0-`npoints(0)-10` ``` - Leave last 9 points   
+  - ``` 0 `npoints(0)-1` ``` - First and last   
+
 
 
 #### Delete by Expression  
-- `@ptnum==@numpt-1` / `@ptnum==npoints(0)-1` / `$PT==$NPT-1` - Last     
-- `@ptnum%(@numpt-1)==0`  - First and last   
-- `prim(0, $PR, "intrinsic:closed", 0) == 1` -  Delete polygonal curves which could be translated into NURBS, and cause crash. (dlelet non selected on prims)     
-- `@copynum==2` - delete copies after copie node
+
+  - point delete: `@ptnum==@numpt-1` / `@ptnum==npoints(0)-1` / `$PT==$NPT-1` - Last     
+  - point delete: `@ptnum%(@numpt-1)==0`  - First and last   
+  - primitives: `prim(0, $PR, "intrinsic:closed", 0) == 1` -  Delete polygonal curves which could be translated into NURBS, and cause crash. (dlelet non selected on prims)   
+  - `@copynum==2` - delete copies after copie node
 
 
-## [Blast] SOP
-- ```@manifoldnumber=`opdigits(".")` ``` - will delete group by digits in node name !!! (from Polydoctor SOP)     
-- `@shop_materialpath="/obj*"` -     
-- `detail(-1,'iteration',0)` -  
-- `if(@primnum==-1)` - points with are not a part of prim.
-
-
-
-## [ForLoop] Meta Import
-
-- ``` `detail(-1,"iteration",0)` ```
-
-- `i@index = (int)fit01(rand(detail(1,"iteration",0)*1234),0,11);` - randomise int in range. in prim wrangle (1 in: flow, 2 in metadata) (in switch: `prim(0,0,"index",0)`)
-
-## [Name] SOP
-- ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for   
-
-
-
-
-## [Partition] SOP
+### [Partition] SOP
 #### Rule
-- ```group_`@shop_materialpath` ``` - Make groups from materials  
-- ``` `@attrib_to_break` ```
+  - ```group_`@shop_materialpath` ``` - Make groups from materials  
+  - ``` `@attrib_to_break` ```
 
 
+----
 
 
-## [Switch] / [Transform] SOP
-
-- `detail(-1,'iteration',0)%4` - loop 4 (spare)    
-
-binary  
-
-- `npoints(-1)!=0` - switch if there is any geometry   
-- `if (npoints("../intersectionanalysis2/")>0,1,0)` - switch if intersected        
-- `if (detail(-1,'iteration',0)%2==0,1,0)` -  switch even and odds     
-- `if (f@burned>0)`     
-- `if ($F%10==0, $FF,0)` -  ?wtfoO    
-- `if (@Cd.r < 0.1) {  i@group_mygroup=1;  }` - change group on color    
-- `if ( rand(@ptnum) > ch('threshold') ) {   removepoint(0,@ptnum);  }`       
-
-
-
-
-
-
-## [Group] / [Split] SOP
-
-- `if(@primnum == -1) @group_disconnected = 1;` - Separate points and geometry   (prims)  
-- `@foo>=0.5`  - by Attribute  
-
-
-## [Group Expression] SOP
+### [Group Expression] SOP
 VExpression  
 - `neighbourcount(0, @ptnum)<=3` - By edges count from point    
 - `rand(@elemnum) > chf("amount")` - Random Amount   
@@ -122,20 +130,10 @@ VExpression
 - `@Cd.x > 0.5 && @Cd.x < 0.8`    
 - ``` @ptnum == `npoints(0)-1` ``` - z bloga jakiegos  (last pt on curve )  
 
-##  [Attrib Create] SOP
-Expression field:  
-- `if(@attrib > 1,5,0)`  
-- `if(@attrib > 1,if($ATTR < 4,0,5),0)`  
 
+---
 
-## [Add] SOP
-
-- `point(-1,0,"P",0)`, `point(-1,0,"P",1)` `point(-1,0,"P",2)`- x,y,z point position from point in spare referenced node  
-
-
-
-
-## [Point] SOP
+### [Point] SOP
 
 Vexpression:  
 - `self` - pass Trough    
@@ -155,6 +153,72 @@ Vexpression:
 
 
 ---
+
+---
+
+
+```
+ - `detail(-1,'iteration',0)` -  by attribute from spare  
+ - `if(@primnum==-1)` - points which are not a part of prim.
+ - ```@manifoldnumber=`opdigits(".")` ``` - will delete group by digits in node name !!! (from Polydoctor SOP)     
+
+##  [Attrib Create] SOP
+Expression field:  
+- `if(@attrib > 1,5,0)`  
+- `if(@attrib > 1,if($ATTR < 4,0,5),0)`  
+
+
+## [Switch] / [Transform] SOP
+- detail(-1,'iteration',0)%4 - loop 4 (spare)
+
+binary
+
+
+- `if (f@burned>0)`
+- `if ($F%10==0, $FF,0)` - ?wtfoO
+- `if (@Cd.r < 0.1) { i@group_mygroup=1; }` - change group on color
+- `if ( rand(@ptnum) > ch('threshold') ) { removepoint(0,@ptnum); }`
+
+```
+
+
+
+
+
+# Patterns
+ Pattern may be a numeric pattern, attribute pattern, or group name pattern.
+ - `?` -  Match any character  
+ - `*` - Match any substring  
+ - `^` - Exclude from match  
+ - `[list]` - Match any of the characters specified in the list.  
+ - `!*` - ????????????  
+ - `a*`,`^aardvark` - Match any string beginning with a except for aardvark.    
+ - `[abc]*z` - Match any string beginning with a, b or c and ending with z.    
+ - `g*`,`^geo*` - Match any string beginning with g, but not any string beginning with geo.    
+ - `^pattern` - Remove matching, `0-100:2 ^10-20` every other number 1 to 100 except the 10 to 20.  
+ - `!pattern` - Every except the ones matching the pattern. `!1-10` means every except the numbers 1 to 10.   
+
+### Points/primitives numbered
+ - `n` - number n.   
+ - `n-m` - from n to m (inclusive).   
+ - `n-m:step` - from n to m (inclusive) skipping every step. Eg; `1-100:2` every other number from 1 to 100.    
+ - `n-m:keep,step` - from n to m (inclusive). Use the first keep numbers and then skip every step after that.    
+ .
+ - `0-5000:2 ^ 40-200`  - range with wxceptions
+ - `!50-200`   
+ - `@P.y>0` - all points whose Y component is greater than   
+ `0*/ $BBY>.9999`     
+ - `@id=5-10`  
+ - `@id="5 8 10 15"` - the attribute syntax //space separated list of integer values, need to enclose the list in quotes.
+ - `@myattr=fooBar` - by name  
+ - `@myattr="foo bar"` - quotation marks if it contains spaces   
+ - `=`, `==`, and `!=`  - on string attr  
+ - `(* and ?)` -  wildcards value when using   
+ - `{arm* ^arm3*}`  - in the pattern. includes all groups whose names start with arm, but not arm3.   
+
+---
+
+
 
 # Operators
 
@@ -237,38 +301,6 @@ float val = ch(sprintf("ramp%gvalue", i)); // Do stuff }
 
 ---
 
-# Patterns
-Pattern may be a numeric pattern, attribute pattern, or group name pattern.
-- `?` -  Match any character  
-- `*` - Match any substring  
-- `^` - Exclude from match  
-- `[list]` - Match any of the characters specified in the list.  
-- `!*` - ????????????  
-- `a*`,`^aardvark` - Match any string beginning with a except for aardvark.    
-- `[abc]*z` - Match any string beginning with a, b or c and ending with z.    
-- `g*`,`^geo*` - Match any string beginning with g, but not any string beginning with geo.    
-- `^pattern` - Remove matching, `0-100:2 ^10-20` every other number 1 to 100 except the 10 to 20.  
-- `!pattern` - Every except the ones matching the pattern. `!1-10` means every except the numbers 1 to 10.   
-
-### Points/primitives numbered
-- `n` - number n.   
-- `n-m` - from n to m (inclusive).   
-- `n-m:step` - from n to m (inclusive) skipping every step. Eg; `1-100:2` every other number from 1 to 100.    
-- `n-m:keep,step` - from n to m (inclusive). Use the first keep numbers and then skip every step after that.    
-.
-- `0-5000:2 ^ 40-200`  - range with wxceptions
-- `!50-200`   
-- `@P.y>0` - all points whose Y component is greater than   
-`0*/ $BBY>.9999`     
-- `@id=5-10`  
-- `@id="5 8 10 15"` - the attribute syntax //space separated list of integer values, need to enclose the list in quotes.
-- `@myattr=fooBar` - by name  
-- `@myattr="foo bar"` - quotation marks if it contains spaces   
-- `=`, `==`, and `!=`  - on string attr  
-- `(* and ?)` -  wildcards value when using   
-- `{arm* ^arm3*}`  - in the pattern. includes all groups whose names start with arm, but not arm3.   
-
-
 ---
 
 
@@ -302,14 +334,9 @@ Pattern may be a numeric pattern, attribute pattern, or group name pattern.
 
 
 
-## ENV
-
-HOUDINI_EXTERNAL_HELP_BROWSER = 1
 
 ### Textport
 HScript Textport
 
 - `exhelp` - and fn.  
 - `help`
-
-### Python Shell
