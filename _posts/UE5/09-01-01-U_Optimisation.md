@@ -294,40 +294,20 @@ steraming pool
 
 #### Unreal Compression:
 
-Unreal | Compression |   | ||
---- | ---  | ---  | ---||
-Default  | DXT1, BC1 |  | (DX11) | (sRGB) no alpha
-Default  | DXT5, BC3 | | (DX11) | (sRGB) with alpha
-NormalMap | DXT5 BC5 | | (DX11) | (RGB) Nm
-Mask | DXT1/5 |  || (RGB) Linear Color
- | BC7 | B8G8R8 A8| (DX11) |
-Grayscale | R8, RGB8 | G8 || (sRGB) B&W masks
-Displacement | R8 |8/16bit || surface displacement
-Vector Displacement  | BGR8| Standard 8bits  | | 3d displacement
-HDR |  | Float RGBA  | | (RGB) Linear Color IBS, Skybox
-Alpha | BC4 |   |(DX11)| (RGB) Linear Color
-HDR Compres  | BC6H | Float RGBA  |(DX11) | (RGB) Linear Color
+Unreal | DirectX |   | |||4096 x RGB|
+--- | ---  | ---  | ---|---|---|---|
+Default  | DXT1(DX11)| BC1 | RGB(4bit) + A(1bit) |  | (sRGB) no alpha 4BPP bits per pixel, and has a maximum color resolution of 16 bits (as old VGA adapters.) 6:1 | 11Mb
+ ||BC2|RGB(4bit) + A(4bit)|
+Default  | DXT5 (DX11)| BC3 | RGB(4bit) + A(8bit) | | Color+Height // BC1 for the RGB part and BC4 for A   // 8BPP 4:1 uses DXT1 for the color part, but adds another 4 bits per pixel of alpha. This gives you better transparency.| 11Mb
+Grayscale | (DX11) | BC4  |R, RGB, G (8bit) || (sRGB) B&W masks| 21.8Mb
+Displacement ||| R (8/16bit) || surface displacement |  21.8Mb
+Vector Displacement | || BGR Standard 8bits  | | 3d displacement | 87.4Mb
+NormalMap | DXT5  (DX11) |BC5 | |  | xtremely well on the gradient D3D11-more complex (2xBC4) | 21.8Mb
+Mask | DXT1 / DXT5 | |  || (RGB) Linear Color | 11Mb
+HDR |  |BC6| Float RGBA  | |  can natively store HDR D3D11-more complex (RGB) Linear Color IBS, Skybox  | 175Mb
+HDR Compres  |(DX11) | BC6 H | Float RGBA (8-16) || (RGB) Linear Color | 21.8Mb
+ | (DX11) |BC7 | BGR A (4-16)| || 21.8Mb
 
-
-#### Block Compressions: ####
-
-. | Compression |  | |
---- | ---  | ---  | ---  
-BC1 | RGB + A(1bit)| 4  |   
-BC2 | RGB + A(4bit)| 4  |
-BC3 | RGBA | 4 + 8A | BC1 for the RGB part and BC4 for A col+Hmap
-BC4 | R | 8 | height maps
-BC5 | RG | 8  | 2xBC4
-BC6 | RGBA(Float) | 8-16 | can natively store HDR D3D11-more complex
-BC7 | RGB / RGBA | 4-16 | xtremely well on the gradient D3D11-more complex
-
-#### DirectX Compression: ####
-
-. | | |
---- | ---   | ---    
-DXT1 | RGB + A(1bit)| 4BPP bits per pixel, and has a maximum color resolution of 16 bits (as old VGA adapters.)  6:1
-DXT3 | RGBA | Better use 5 alpha channel (only 4 bits)
-DXT5 | RGBA | 8BPP  4:1 uses DXT1 for the color part, but adds another 4 bits per pixel of alpha. This gives you better transparency.
 
 
 ---

@@ -13,7 +13,7 @@ permalink: /motivation/
 ---
 
 
-
+deep and quality motivation is important to develop. !!!!!!!!!!!!!!!
 
 
 [Britannica explains:](https://www.britannica.com/topic/motivation/Observational-learning) No one theory is capable of explaining all that we know about motivational processes.  Some motives seem best understood from a biological viewpoint. Other motives appear to be learned. Still other motives are influenced by the cognitive processes in which we engage. Our interpretation of the events around us influences our future motivation.
@@ -161,13 +161,21 @@ Hope vs. fear |Differentiation into `hope` and `fear` components of implicit mot
 ---
 
 
-## PENS - Player Experience of Needed Satisfaction.  
+## PENS - The Player Experience of Need Satisfaction
+Model on human needs.
+
 
 |  | ||||
 |--|--|--|--|--|
-**Competence**  | Challenge | Easy to learn difficult to master  | skill: survival, crafting | Being in control Interact with activities.
-**Autonomy** | Choice | Customization, Agency, Freedom, Control | your world, your creations | Self expression or meaningful choice  
+**Competence** / Mastery  | Challenge | Easy to learn difficult to master  | skill: survival, crafting | Being in control Interact with activities.
+**Autonomy** | Choice |  Volition Customization, Agency,  Control | your world, your creations | Self expression or meaningful choice  
 **Relatedness** | Connecting | Social grouping, Status feedback  | shared experiences, public canvases | Cooperation or Competition. Rank relation. (knowledge where I fit)
+
+Autonomy:
+- Freedom, Independence (from real world wiev) but not good words for autonomy,
+- Wen we act we do it volitionaly (dobrowolnie)
+- sandbox can be sand-traps - we dont know what to do if we can do anything
+- narrative impact > mass effect > i can change the galaxy
 
 [Blog: Nick Ballou - Basic Psychological Needs](https://nickballou.com/posts/misunderstandings-of-sdt-in-video-games-part-1-basic-psychological-needs/)
 

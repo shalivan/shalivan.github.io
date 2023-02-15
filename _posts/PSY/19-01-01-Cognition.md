@@ -19,6 +19,7 @@ https://michaelbach.de/ot/index.html
 
 
 
+
 # Academic fields
 
 |Cognition fields||
@@ -29,6 +30,10 @@ https://michaelbach.de/ot/index.html
 | Philosophy  |
 | Neuroscience  |
 | Anthropology  |
+
+
+DSM-5 defines six key domains of cognitive function: complex attention, executive function, learning and memory, language, perceptual-motor control, and social cognition
+
 
 # Cognitive states
 

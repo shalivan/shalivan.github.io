@@ -16,6 +16,11 @@ permalink: /matdata/
 [Rendering](/rendering/)
 
 ----
+- alboedo > refract
+- sharpness of reflection > reflect
+- reflection on angle is more sharp and visible (fresnel)
+- metal pure reflection > only refraction (or abbsorbed [heat]) > onlyu mat that tint reflection  (but saturate with fresnel)
+- variance in reflection> 
 
 https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-2
 

@@ -11,6 +11,9 @@ tags:
 
 https://docs.unrealengine.com/5.0/en-US/PythonAPI/
 
+in sequener:
+https://forums.unrealengine.com/t/ue4-sequencer-python-cookbook/265097
+
 ## Usage
 ### In Console
 ```python

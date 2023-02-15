@@ -18,6 +18,8 @@ permalink: /ulight/
 [Unreal Rendering Features](/ue_rendering_features/)
 
 Sky is black and the sun is white
+
+
 # Light
 
 
@@ -42,7 +44,7 @@ Lumens, its luminous power only applies to the solid angle affected by the light
 
 ---
 
-# Directional Light
+## Directional Light
 - `■` `Light Color` - **White**   Light Color     
 - `Temperature` - **6500 K**  Spectrum similar to black body with a correlated color temperature   
 - `x` `Intensity ` -   ??  
@@ -51,7 +53,7 @@ Lumens, its luminous power only applies to the solid angle affected by the light
 - `Source Angle` - **0.5357** Angular Diameter of circle drawn on skybox for Sun   
 - [x] `Atmospheric / Fog Sunlight` - Fog on Hallo & sun location from sky
 
-## Light Shafts & Bloom
+### Light Shafts & Bloom
 - `Light Shafts` -  Max darkness / depth   
 - `Light Bloom` -    Scale / threshold / max bright / color
 
@@ -60,7 +62,7 @@ Lumens, its luminous power only applies to the solid angle affected by the light
 
 
 
-# Sky Atmosphere
+## Sky Atmosphere
 
 Work with SUN. Simulates **absorption** with **Mie** scattering and **Rayleigh** scattering. They themselves are made up of particles and molecules that have their own shape, size and density. When photons (or light energy) enters the atmosphere and collides with the particles and molecules there, it is either reflected (**scattered**)  or consumed (**absorbed**).  Different colors during day because angle to ground change the **distance light go through** Atmospheric density.
 
@@ -68,7 +70,7 @@ Work with SUN. Simulates **absorption** with **Mie** scattering and **Rayleigh**
 - `z` `Atmosphere Height` - **60 km** up - default
 - [x] `Multiple scattering` - Use  
 
-## Rayleigh
+### Rayleigh
 Scatter Uniform-ish on the molecules smallest size than 1/10 of photon wave length. Longer wavelength less scattering, therefore **sky is Blue** (400 nm) is 5.8 more scattered than red (700 nm) 1.0  
 
 
@@ -77,7 +79,7 @@ Scatter Uniform-ish on the molecules smallest size than 1/10 of photon wave leng
 - `F` `Exponential Distribution` - **8 km** Z falloff - 1 black  - 20 (more intense, caused by thicker layer)
 
 
-## Mie
+### Mie
 More directional Interaction of light with larger particles  **Height fog** simulation. (Aerosols Scattering; dust, pollen, or air pollution) **absorbs light** causing the clarity of the sky to appear hazy by occluding light.  
 
 - `■` `Scattering Color` - Halo color + Inverted Horizon color   
@@ -87,14 +89,14 @@ More directional Interaction of light with larger particles  **Height fog** simu
 - `F` `Anisotropy` - **0.8**   - Halo Distribution.  0 - Uniformly, 1 - More Hallo     
 - `F` `Exponential Distribution` - **1.2**  Z falloff -   0 - on ground, 1 - whole sky.
 
-## Absorption
+### Absorption
 Ozon molecules:
 10 -25km density increase 25-40km decrease.  
 - `■` `Color` - Color to absorb   
 - `x` `Absorption scale` - 0-1 Amount      
 - `z` `Tip Altitude`, `Tip Value`, `Width` -  Distribution    
 
-## Art
+### Art
 - `■` `Sky Luminanse Factor` - Multiply background color  
 - `Aerial Perspedctive View Distance Scale` **1** - Fog Distance 0 less - 2500 more    
 - `Aerial Perspective Start Depth` **0.1 km** - Start dist 0 near - 10 far (performance save )
@@ -111,7 +113,7 @@ r.SkyAtmosphere.Visualize 1
 
 ---
 
-# Sky Light
+## Sky Light
 Cubemap Capture.  Position is important !
 Emit light from captured cube map  Require: **Recapture**
 Real Time Capture mode enables 9-frames time slicing to distribute a single frame's capture over multiple frames.
@@ -130,12 +132,12 @@ Real Time Capture mode enables 9-frames time slicing to distribute a single fram
 ----
 
 
-# Sky dome
+## Sky dome
 Shape of sky dome mesh is important when using some of these expressions since they will drive evaluation of those values. For example, if you use the functions to evaluate lighting on clouds, you can assume the sky dome pixel world position represents the cloud world position in the atmosphere.  
 
 
 
-## Traditional Sky dome
+### Traditional Sky dome
 
 ##### Material
 - `Atmosphere Light Vector` - Sun Angle of dir.   
@@ -143,7 +145,7 @@ Shape of sky dome mesh is important when using some of these expressions since t
 - `Atmosphere Light Vector` -   
 - `Atmosphere Fog Color` -  
 
-## Atmosphere Sky
+### Atmosphere Sky
 Settings: `Sky Atmosphere Compatible Material` - Enable     
 Material: `Is Sky`, `Opaque`, `Unlit`    
 Skybox: `No Cast Shadow`, `No Distance Field`  
@@ -160,7 +162,7 @@ For smoke particle (M_SkyTimeOfDay) (Translucent):
 - `Sky Atmosphere Light Luminance` - intensity/color of sunlight hitting atmosphere  
 
 
-## HDR Sky
+### HDR Sky
 
 HDR sky: If exposure is to high (dark) you must multiply a lot HDR. Sky intensity will not work. If HDR have lot of stops wun will have huge values. But you cannot check value of sky in area.  
 
@@ -171,7 +173,7 @@ Default Auto cam:  Shutter 60 ISO 100 f-stop:4.   30000 -125000 lux sun light. s
 ---
 
 
-# Height Fog
+## Height Fog
 With Atmosphere are ADDITIVE So basic setup black
 
 ### Inscattering
@@ -191,7 +193,7 @@ With Atmosphere are ADDITIVE So basic setup black
 - `Max Opacity` - clamp   
 
 
-# Volume Fog
+## Volume Fog
 
 
 - `□` `Albedo` -  The height fog particle reflectiveness used by Volumetric Fog. Water particles in the air have an albedo near white, while dust have slightly darker value  
@@ -216,89 +218,101 @@ With Atmosphere are ADDITIVE So basic setup black
 
 ---
 
-
-# Lumen
-Realtime gi  no rtx.   Reflection (with gi)   
-- lighting sim: input: light settings, material, exposure  
-- limitation: mesh need have simple interiors that mean every wall of building separated.
-- base color need to be bright
-dont overlap meshes to much   !!!  
-most lumen cost is screen depending   
-- limited in distance (because surface cache show near you only, further go to screen cache)
-##### Pipeline
-Hybrid traced pipeline  
-- Trace against the depth  buffer (screen trace)
-- Trace against Signed distance fields in compute shader: ( for close (up to 2m) mesh &  (over 2) global distance trace)
-- Lighting take traced ray hits and apply lighting with surface cache  (capture mesh at low, faster with nanite)
-
-**Softwaee traceing**  
- is limited,  
-- support limitet geo  
-- any hardware
-- dx11
-distance field   
- not enough quality for reflections   
+# Exposure
+>Algorithm uses the average of the log luminance of the scene
+Using phisycal values help with nor overexposure for emissives
+Extend default range and **Apply Pre-Exposure before writing to scene color** Calculation of the average scene luminance is used for the Grey Point exposure values are interpreted as EV100 in Unreal Engine    
+ By default, Unreal Engine’s lens attenuation is set to 0.78. At a value of 0.78, the math cancels out and you can interpret the lighting as unitless. bnecause game camera dont loose light and not required 1.2(q=0.65)    
 
 
-**Hardware trace**   
- 50% slower than software one   
- hi quality, cost most   
- limit: rtx cards,  dx12  
- required for mirro like reflections   
+##### `Basic`
+Simple for whole pixels
+
+- `Exposure Compensation` - Low Brighter, High Darker. (Add scale of 2^ExpComp on top of existing exposure)     
+- `Min/Max EV100` - to set Min set view in dark place and adjust. to set Max adjust in max brightness  
+
+##### `Histogram`
+Discards the pixels above and below treshold
+
+- `Low/high Percentage` - is 10% A and  95% B Therefore current luminance is the The average between A and B    
+- `Histo Min/Max`  
+
+- `Apply Physical Camera Exposure`. It enables you to control whether physical camera parameters affect auto exposure or not. This means that a manual camera with an exposure compensation of 0.0 will exactly match an auto exposure scene that is set to zero when this property is disabled.   
 
 
- **Final gather**   
+ ##### Pre-Exposure
+>If reflective surfaces have artifacts like black patches, the SceneColor buffer might be overflowing. To fix it, either enable `Apply Pre-Exposure` before writing to the scene color in the Project Settings, or reduce the brightness of lights in the scene. Apply Pre-exposure before writing to the scene color is only supported on Windows. and can have problems with SSS
 
- with gi, because there is no list of lights, all scene is bouncing liughting so proper gi need 200 rays for pixel... (realtime can aford 1/2)  
+```
+`r.UsePreExposure` - 0-1  
+`r.EyeAdaptation.PreExposureOverride` - 0-1    
+```
 
- solutions:   
- - irradiance filed (probes), slowl update but generaly great for performence, not good quality
- - screen space denoiser
- - screen space radiance caching - LUMEN - trace from set of pos + interpolate
- - world space raidiance cache - probes in world *(only for distance lighting )
+##### Exposure Measurement
+>To check how many light incom from skylight by: You can `pixel inspector` and have luminnance in candela and pixel brightness.. and check how much candelas. (HDR luminance value).
 
 
 
-.
+- Window > DeveloperTools > PixelInspector  
+- Show > Visualize > HDR (Eye Adaptation)
 
-nanaiate help with lumen. but traced not directly via high res, but lower 'nanite proxy geo' (+ help of screen traces, traces against full nanite )  
-Cannot exclude emmissive  because of screentrace
-
-##### Settings
-(enabled by default)
-- dynamic global ilum method: lumen  
-- reflection method: lumen
-- generate mesh distance fields
-- hardware ray traceing in hardware 'ray traceing' and 'lumen'  
-can change settings in post process
-
-###### Debug
-Show>Visualize>LumenScene
+```
+ShowFlag.VisualizeHDR 1
+```
 
 
-##### Features and limitattions
-- emissive object works (limited)
-- shadowed skylight
-- on translucent and volume fog lowe quality
-outdors can be lowe quality  
-indora> small one dir light in  
+ - blue line is the target EV100 exposure value for the view.
+ - purple line is the actual EV100 exposure
+ - white line is the final EV100 exposure value after adjusting the exposure compensation
 
 
 
-######  Reflections
-- trace extra for roughs <.4
-- use surface cache
-- quality on 4 will use high mesh
+below the target histogram range will be shown in red, anything above the range will be in blue. It ensures that the high and low percentile ranges that we’ve set are removing the unwanted pixels
+```
+r.EyeAdaptation.VisualizeDebugType 0 (scene color after tone mapping)   
+r.EyeAdaptation.VisualizeDebugType 1 (histogram debug mode)   
+```
+---
+
+# Shadows
+Point Light - Point light have 6x shadows .Max draw distance
 
 
-shadows quality for lumen:
-`r.Shadow.Virtual.SMRT.RayCountLocal 8`
+ - Cascade shadows:   split cam frustrum to pieces
+ - Ray traced distance dield shadows: for far 30 50% more eficient than cascade (5000 units) save on GPU little
+ - Capsule shadows
+ - Close shadow (contact)   
+ - Volume shadows
+
+`Cast Shadows`    
+`deep shadow` - Advanced hair strands (GPU time)  
+`Ray Trace`  
+`Cast Volumetric Shadows` - (GPU time)  
+`Affect translucency` (GPU time)    
+`transmision` (for sss)    
+
+  Cache shadows lights: movable prim: staic/stationary
 
 
-- not good in nanite tree.
-- nanite not working with thin meshes
+##### Distance field Shadows    
+`Distance`     
+`Trace dist`   
+`Ray start Depth off`  
+
+##### Cascade Shadow Maps   
+`Dyn Shadow Distance Movable Light`     
+`Casc numb`   
+`Distribution Exp`  
+`Tranmsition Fraction`   
+`Distance Fade Out fraction`   
+`Far Shadow Cascarde Count`   
+`Far Shadow Distance`   
 
 ---
+
+---
+
+
 # Setups
 
 ## Capture Atmosphere from Photos
@@ -338,3 +352,10 @@ Old setup
 
  -------------
  # Baked light
+
+ ## Static Bake
+ Fog:  
+ `Static Light Scatter Intensity`  - intensity of scattered static lighting in the Volumetric Fog.
+ Sun:   
+ `Source Soft Angle` -
+ `Indirect light intensity` -  Increase bounce   

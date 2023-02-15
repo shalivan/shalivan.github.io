@@ -10,7 +10,11 @@ description: List
 permalink: /list/
 ---
 
+Life Ascending: The Ten Great Inventions of Evolution
+Putting the Rabbit in the Hat
+https://www.goodreads.com/book/show/53264823-100-mental-models  / https://wisdomtheory.gumroad.com/l/100MM / https://fs.blog/mental-models/  
 
+Putting the Rabbit in the Hat
 
 
 The Immortality Key - Brian Muraresku
@@ -134,6 +138,7 @@ John Marco Allegro - The Dead Sea Scrolls and the Christian Myth
 
 - **Anatomy for Sculptors: Understanding the Human Form** / **Anatomy of Facial Expression** - Uldis Zarins, Sandis Kondrat   
 - **The Algorithmic Beauty of Plants** - Przemyslaw Prusinkiewicz
+- Cinema Speculation Audible Logo Audible Audiobook – Quentin Tarantino
 
 
 ### Animation

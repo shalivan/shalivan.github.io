@@ -10,6 +10,10 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
++ power celling - in progression
++ resource  management - how you budget power over time.
++ cost curve
+
 
 Games putting us in different emotional states and challenge us.
 

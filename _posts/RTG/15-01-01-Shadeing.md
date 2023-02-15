@@ -254,3 +254,6 @@ https://youtu.be/kxsQ5m2IAXs
 
 
 .997 < brightest wall. never one !
+
+
+## POM vs Tessalation:

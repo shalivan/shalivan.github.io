@@ -373,6 +373,7 @@ jak zapobiegać wojnie.
 - koszty
 
 
+
 # Bio
 r/K selection theory
  trade off between quantity and quality of offspring.
@@ -385,3 +386,20 @@ r (left), K (right) strategies.
 
 
 SOMETIMES: burning money help to increes payof !!!!!!!!!
+
+
+# Tactics
+- odciecie od zaopatrzenia
+- wysokość - pozycja
+- nacierajacy x3 sil (latwiej bronic)
+-
+
+- pogoda gdzie sie przemieszczać
+-
+
+
+
+#
+standaard deviation
+
+https://www.google.com/search?q=standard+deviation&source=lmns&bih=786&biw=1597&hl=en&sa=X&ved=2ahUKEwiatuLygbb6AhWJAhAIHfmlCZ4Q_AUoAHoECAEQAA
