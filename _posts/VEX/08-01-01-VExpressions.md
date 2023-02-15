@@ -47,7 +47,7 @@ By attribute value:
  - `@copynum==2` - delete copies after copie node
  - `@foo>=0.5`  - by Attribute
 
- By pattern:
+By pattern:
   - `group1` / `GroupName` - by group name -  work only on group  
   - `!GroupName` - work only on inverted group   
   - `!{group1 group2 group3}`
@@ -58,7 +58,7 @@ By attribute value:
 
 
 
-## Get any float parameter from attribute value
+## Value from attribute - float
 
 - ```detail(0,'P',1)```
 
@@ -75,22 +75,15 @@ binary:
 - `if (npoints("../intersectionanalysis2/")>0,1,0)` - switch if intersected
 - `if (detail(-1,'iteration',0)%2==0,1,0)` - switch even and odds
 
-## Get any string param from attribute
+## Value from attribute - string
 
 ### [Name] SOP
 - ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for  [ForLoop] Meta Import
 
 
----
-### Wrangle
-
-- `if(@primnum == -1) @group_disconnected = 1;` - Separate points and geometry   (prims)
-- `if ( rand(@ptnum) >0.2 ) { removepoint(0,@ptnum); }` - remove points
-
-.
-
-- `i@index = (int)fit01(rand(detail(1,"iteration",0)*1234),0,11);` - randomise int in range. in prim wrangle (1 in: flow, 2 in metadata) (in switch: `prim(0,0,"index",0)`)  [ForLoop] Meta Import
 ----
+
+## Delete
 
 ### [Delete] SOP
 
@@ -99,23 +92,21 @@ binary:
   - ``` 0-`npoints(0)-10` ``` - Leave last 9 points   
   - ``` 0 `npoints(0)-1` ``` - First and last   
 
-
-
 #### Delete by Expression  
-
   - point delete: `@ptnum==@numpt-1` / `@ptnum==npoints(0)-1` / `$PT==$NPT-1` - Last     
   - point delete: `@ptnum%(@numpt-1)==0`  - First and last   
   - primitives: `prim(0, $PR, "intrinsic:closed", 0) == 1` -  Delete polygonal curves which could be translated into NURBS, and cause crash. (dlelet non selected on prims)   
   - `@copynum==2` - delete copies after copie node
 
 
+  ----
+## Rule/Expression
+
 ### [Partition] SOP
 #### Rule
   - ```group_`@shop_materialpath` ``` - Make groups from materials  
   - ``` `@attrib_to_break` ```
 
-
-----
 
 
 ### [Group Expression] SOP
@@ -129,9 +120,8 @@ VExpression
 - `rand(float(i@piece)*.89461)<.5?1:0` - Group random conected pieces  (prims)    
 - `@Cd.x > 0.5 && @Cd.x < 0.8`    
 - ``` @ptnum == `npoints(0)-1` ``` - z bloga jakiegos  (last pt on curve )  
+- `v@N.y<0` - add to group primitives with normal down.
 
-
----
 
 ### [Point] SOP
 
@@ -153,6 +143,19 @@ Vexpression:
 
 
 ---
+
+
+## Wrangle
+
+- `if(@primnum == -1) @group_disconnected = 1;` - Separate points and geometry   (prims)
+- `if ( rand(@ptnum) >0.2 ) { removepoint(0,@ptnum); }` - remove points
+
+.
+
+
+- `i@index = (int)fit01(rand(detail(1,"iteration",0)*1234),0,11);` - randomise int in range. in prim wrangle (1 in: flow, 2 in metadata) (in switch: `prim(0,0,"index",0)`)  [ForLoop] Meta Import
+
+
 
 ---
 
@@ -298,8 +301,6 @@ float val = ch(sprintf("ramp%gvalue", i)); // Do stuff }
 ```
 @flight404 (I normally don’t condone 1-based loop indices but the keys do start at 1 and not 0. I supposed you could switch to doing `i+1` in the `sprintf` calls though if you wanted)  
 
-
----
 
 ---
 
