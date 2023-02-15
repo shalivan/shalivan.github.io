@@ -62,12 +62,12 @@ By pattern:
 
 - ```detail(0,'P',1)```
 
-### [Add] / [Transform]  SOP - any float.
+#### [Add] / [Transform]  SOP - any float.
 
 - `point(-1,0,"P",0)`, `point(-1,0,"P",1)` `point(-1,0,"P",2)`- x,y,z point position from point in spare referenced node  
 
 
-### [Switch] SOP
+#### [Switch] SOP
 
 binary:
 - `if(strcmp(details(0, "foo"), "shit")==0, 1, 0)` - if value of detail attribute 'foo' is string of 'shit'.  [Use Switch-if]
@@ -77,39 +77,37 @@ binary:
 
 ## Value from attribute - string
 
-### [Name] SOP
+#### [Name] SOP
 - ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for  [ForLoop] Meta Import
 
 
-----
 
 ## Delete
 
-### [Delete] SOP
+#### [Delete] SOP
 
-#### Delete by Pattern   
+Delete by Pattern   
 
   - ``` 0-`npoints(0)-10` ``` - Leave last 9 points   
   - ``` 0 `npoints(0)-1` ``` - First and last   
 
-#### Delete by Expression  
+Delete by Expression  
   - point delete: `@ptnum==@numpt-1` / `@ptnum==npoints(0)-1` / `$PT==$NPT-1` - Last     
   - point delete: `@ptnum%(@numpt-1)==0`  - First and last   
   - primitives: `prim(0, $PR, "intrinsic:closed", 0) == 1` -  Delete polygonal curves which could be translated into NURBS, and cause crash. (dlelet non selected on prims)   
   - `@copynum==2` - delete copies after copie node
 
 
-  ----
-## Rule/Expression
+## Expression Field
 
-### [Partition] SOP
-#### Rule
+#### [Partition] SOP
+Rule
   - ```group_`@shop_materialpath` ``` - Make groups from materials  
   - ``` `@attrib_to_break` ```
 
 
 
-### [Group Expression] SOP
+#### [Group Expression] SOP
 VExpression  
 - `neighbourcount(0, @ptnum)<=3` - By edges count from point    
 - `rand(@elemnum) > chf("amount")` - Random Amount   
@@ -123,7 +121,7 @@ VExpression
 - `v@N.y<0` - add to group primitives with normal down.
 
 
-### [Point] SOP
+#### [Point] SOP
 
 Vexpression:  
 - `self` - pass Trough    
