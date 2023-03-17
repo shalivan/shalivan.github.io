@@ -10,7 +10,7 @@ description: Properties of Material and Light, Natural, Studio, Stage, Virtual s
 permalink: /lighting/
 ---
 
-
+https://hg2dc.com/2022/11/07/question-29/
 
 CIR / color temperature /
 

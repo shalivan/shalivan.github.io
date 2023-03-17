@@ -290,14 +290,58 @@ Triangle of Representation -lends a non-linear sliding scale of representation t
 ## Typography
 https://www.playforthoughts.com/blog/how-to-design-a-logo-from-scratch-ultimate-guide
 
-### Fonts
+TYPEFACE
+Font have size and regular/italic
+```
+### Typefaces (fonts)
 ancient Mesopotamia - clay bulley
 pictagrams > abstracted > cuneiform (graphic symbols depictive things) > hieroglyphs (from ancient Egypt) > > > Greek lapidary letters (more abstract 22 letters ancient Greece's first use of letter orms) >> Roman alphabet
 Cyrylica
 
+all **serifs**:
+- guttenberg press 1440 > `black letter`font - roman
+- nocholas jensen > `roman type face` clean letters  
+- cursiva
+- Garamond font
+**san - Serifs** 1816 no in print cause not enough distingush.
+- for posters. attention and readable from distance.
+- art nuovo. nierówne
+**times new roman** - before WWI
+**Dadaism** -  mix
+**russian** - harsh blocking fonts
+**bauhaus**font - ideal universal geometric.
 
-- Serifs
+WWII **helvetica** -  swiss moderism - no ornaments - create for international use 50' > used by a lot of modern companies
 
+international style > american corporation > pap culture of ;50 , '60. a lot of  designs
+
+ modernism
+
+ punk > hand graphic breaking rules
+
+ technology > limitation digital >
+
+ mac >  
+
+ 1994 - comic sans
+
+Trajan - movie poster fornt
+
+2000-  digital > more complex > maximalizm
+
+**Impact** - font for meme .
+
+
+***Lobster** - evety
+
+
+
+ =====
+ =Dingbat
+
+
+In typography, a dingbat is an ornament, specifically, a glyph used in typesetting, often employed to create
+```
 
 #####
 

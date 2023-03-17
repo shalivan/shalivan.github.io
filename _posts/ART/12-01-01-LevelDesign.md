@@ -11,6 +11,9 @@ tags:
 permalink: /leveldesign/
 ---
 
+A Practical Guide to Level Design From Theory to Practice, Diplomacy, and Production" new book > https://youtu.be/8wEt8bCNvg8    
+
+
 
 
 - Control environment instead of camera like in movies.
@@ -237,6 +240,17 @@ mastery mapy vs nowa mapa .
 - Generally more effective when it makes contextual narrative sense  
 - Must be part of gameplay mechanics
 
+ELements:
+- Architecture   
+- Geography
+- Biology
+- Chemistry / Mechanics
+- Culture History Geo POlitics
+-
+
+
+
+
 ## Signifiers
 **Clues to how to use/discover** - Gameplay related. Physics, usable & reactivity. show Affordances (signals that help find that sth is usable (signs / colors))
 Apply signifires to reflect affordances.
@@ -285,6 +299,11 @@ http://tmdag.com/ptakun/eco_system/makeofplants_en_htm.htm
 [Game Design](/gamemechanics/)   
 [Game Mechanics](/gamemechanics/)   
 
+Progression type
+- Game as a progression od levels
+- circle / bottlenecks / dead -ends
+- Verticality !!!!! important  
+- sandbox / multiplayer / boss arenas / lineasr
 
 ### Gating
 Revealing level slowly, in tiers.
