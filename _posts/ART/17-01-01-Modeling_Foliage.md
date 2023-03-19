@@ -10,50 +10,64 @@ permalink: /foliage/
 
 # Vegetation
 
-Library: https://treelib.ca/  
+Library: https://treelib.ca/    
 
 
 ## Technical pipeline
 
 We need parts which we will combiene into objects. then objects will be used in composition
+#### **References**    
+  - **Silhouettes** - different sizes and shapes  (grass, plants, bush , tree) - organic and instertesting on any angle - negative spaces - slightly noisey
+  - **Clustering** - cluster of leaves.
+  - Characteristic **elements**: Leaf band, Beginning, Gravity, Grouping (higher leafs more vertical change shape)
+  - Characteristic **behaviour**: Growth towards the sun, Not vascular plants growth in shadows  (to not dry out). Moss mostly 'N' in North hemisphere.
 
-- **References**    
-  - Silhouettes - different sizes and shapes  (grass, plants, bush , tree) - organic and instertesting on any angle
-    - negative spaces - slightly noisey
-  - Clustering -
-  - Characteristic elements: Leaf band, Beginning, Gravity, Grouping (higher leafs more vertical change shape)
-  - Characteristic behaviour: Growth towards the sun, Not vascular plants growth in shadows  (to not dry out). Moss mostly 'N' in North hemisphere.
 
-- **Low poly model** (parts)
+
+```
+**Low poly model** (parts)
   - Parts (leafs, stamp)
   - Symmetry
   - Direct leaf to create planes good for view
-- **Low poly cards** (for more optimised or lods)
-- **Early uv** unvrap on low
+
+**Low poly cards** - for more optimised models or lods. Used with 'leafs clusters' (thigs)
+
+
+**Early uv** unvrap on low
   - 2 sided leaf  for detail u can apply different textures (shifted on backside)
-- **Sculpt** think before sculpt if its what u need
+
+**Sculpt** think before sculpt if its what u need
   - Derive thickened and subdivided model from low poly.
   - Material id's for parts
   - sculpt
-- **Low poly refine**
+
+**Low poly refine**
   - Check how big cutoff could be to get optimal visible part without alpha, and avoid overdraw
   - Triangulation sometimes needs to be refine.
-- **Bake**
+
+**Bake**
   - Bake by uv's (like cloths).
-- **Compose** plants. Arrange and deform  
+```
+sposob 2 :
+- zrob high w z.
+
+**Compose** plants. Arrange and deform  
   - ... >?
   - Simulate to refine final shape
   - Set per object attributes
-- **Export**
+
+**Export**
   - Prepare Vertex Anim. (Vertex color for movement  (main branch, leafs and thin edges ))
   - ... >?  Normals. On bush:  Custom Vertex normals - transfer normal from vdb tree form.
-- **Painting**
+
+**Painting**
   - Spots with color variations (some blurry)
   - Use also sharp lines
   - Paint masks: sss,
   - Veins and celular patterns
   - Vines to subsurface mask!
-- **Material**
+
+**Material**
   - color
     - fuzzy shading
   - normal
@@ -73,12 +87,15 @@ We need parts which we will combiene into objects. then objects will be used in 
     - SSS color should not differ considerably from albedo.
     -  SSS is obtained by sampling environment cubemap in the direction, opposite of the normal. If your grass cluster normals are pointing upwards, they will sample the skylight from bottom part. Needless to say, that if skylight is set to use black for lower hemisphere, you won’t get any subsurface from indirect light.
   - shadows ... ?
-- **Placement**
+
+**Placement**
   - cluster foliage, procedural placement system
-- **Engine optimization**
+
+**Engine optimization**
   - 2 sided foliage option
-  - Early z pass   
-- **Lighting**
+  - Early z pass 
+ 
+**Lighting**
   -  balance between skylight and directional light intensity. In case, when latter is overly strong, there will be distinct separation between zones of dominant subsurface and surface It feels that tweaking subsurface intensity separately for direct and indirect light we pretty good thing to have, but this one would be only tweakable per light, not per material.
 
 
