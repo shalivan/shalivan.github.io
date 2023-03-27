@@ -1,5 +1,5 @@
 ---
-title: Modeling - Hard Surfaces 
+title: Modeling - Hard Surfaces
 categories:
 - ART
 tags:
@@ -8,7 +8,10 @@ description: RAW
 permalink: /modeling/
 ---
 
+------------
 
+good uv layout is important !!!   - directional and logicly connecterd  
+make it easy
 TRIMSHEETS - uv for reuse
 
 # Splines
