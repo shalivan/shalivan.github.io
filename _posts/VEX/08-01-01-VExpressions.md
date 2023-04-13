@@ -10,6 +10,16 @@ tags:
 permalink: /vexpressions/
 ---
 
+#### Second input
+```
+vector valuer = point(1,"foo",@ptnum);
+setpointattrib(0,"foo",@ptnum, value. "set");
+```
+
+```
+f@attrib = f@input1_attrib;
+```
+
 https://www.thebrainextension.com/     
 
 
@@ -20,6 +30,42 @@ https://www.thebrainextension.com/
 <!-- more -->
 
 
+# Attributes
+
+Base
+- `v@N` (vert) -  
+- `@P`, `v@rest`, `v@Cd`, `i@id`, `@Alpha` (point)  
+
+Material
+- `s@shop_materialpath` (prim) - only material parameters of those belonging to the /nodes/shop/principledshader shader are recognized
+- `s@fbx_material_name` (prim)
+- `@material_override`
+
+Manage
+- `s@name` (prim): joints names
+- `s@name` (points): RBD same name = same object. "piece*"
+- `i@class` (prim) -  , reserved to connectivity  // connectivity / delete small pieces / nodes.    
+- `i@id` -  particles, ctrl points for animation     
+- `s@tag` - string in new scatter, tree
+- `i@variation` - copy to point / new scatter
+
+Uv
+- `v@uv` (vert)
+- `v@uv1` (vert)
+- `i@udim=1001;` (prim)
+- `i@island=3;` (prim)  
+
+
+Character FBX   
+- `@boneCapture` (point) on the skin geometry - defines the skinning weights.  
+- `@clipinfo` (point) Current animation range and sample rate as well as the original animation range and sample rate of the imported animation.   
+- `s@name` (point) - unique name across all points used for identification. (only used if the `path` point is missing).  
+- `@path` (point) hierarchical path of FBX node that corresponds to the point. It is created when FBX files are imported by the FBX Animation Import or FBX Character Import nodes. This path is used to identify where to export the point transforms.  
+- `@scaleinheritance` (point) specifies the scaling behavior when performing local transformations. See combinelocaltransform and extractlocaltransform  
+- `@transform` (point) 3×3 matrixworld transform for the point. While the world position of the point is still P, this transform encodes the world transform’s rotation, scale, and shear components.  
+
+
+
 # Expressions
 
 - Backticks ``` ` ``` are for use in a string field: group input, name sop. (when fn inside ??)
@@ -27,10 +73,8 @@ https://www.thebrainextension.com/
 
 
 
------
-
 ## Group field
-Group field in every SOP ie: **[Blast]** SOP, **[Split]** SOP
+Group field in every SOP
 
 
 By points number pattern:
@@ -58,24 +102,27 @@ By pattern:
 
 
 
-## Value from attribute - float
+## Float field
 
-- ```detail(0,'P',1)```
 
-#### [Add] / [Transform]  SOP - any float.
 
+#### [Add] / [Transform]  SOP - any float parameter.
+
+- `detail(0,'P',1)`
 - `point(-1,0,"P",0)`, `point(-1,0,"P",1)` `point(-1,0,"P",2)`- x,y,z point position from point in spare referenced node  
-
+- `ch('sizey')/2` - reference to channel
+- `ch('../xx')` ?? - ref to channel from other node ?
 
 #### [Switch] SOP
-
+int ??? !!    
 binary:
 - `if(strcmp(details(0, "foo"), "shit")==0, 1, 0)` - if value of detail attribute 'foo' is string of 'shit'.  [Use Switch-if]
 - `npoints(-1)!=0` - switch if there is any geometry
 - `if (npoints("../intersectionanalysis2/")>0,1,0)` - switch if intersected
 - `if (detail(-1,'iteration',0)%2==0,1,0)` - switch even and odds
 
-## Value from attribute - string
+## String field
+
 
 #### [Name] SOP
 - ``` `detail(-1,"iteration",0)` ``` - name by iteration - get iteration number from spare parameter fn. for  [ForLoop] Meta Import
@@ -97,6 +144,8 @@ Delete by Expression
   - primitives: `prim(0, $PR, "intrinsic:closed", 0) == 1` -  Delete polygonal curves which could be translated into NURBS, and cause crash. (dlelet non selected on prims)   
   - `@copynum==2` - delete copies after copie node
 
+Other delete check how it works:   
+ - `if(@primnum==-1)` - points which are not a part of prim.
 
 ## Expression Field
 
@@ -154,13 +203,9 @@ Vexpression:
 - `i@index = (int)fit01(rand(detail(1,"iteration",0)*1234),0,11);` - randomise int in range. in prim wrangle (1 in: flow, 2 in metadata) (in switch: `prim(0,0,"index",0)`)  [ForLoop] Meta Import
 
 
-
----
-
-
 ```
  - `detail(-1,'iteration',0)` -  by attribute from spare  
- - `if(@primnum==-1)` - points which are not a part of prim.
+
  - ```@manifoldnumber=`opdigits(".")` ``` - will delete group by digits in node name !!! (from Polydoctor SOP)     
 
 ##  [Attrib Create] SOP
@@ -181,6 +226,10 @@ binary
 - `if ( rand(@ptnum) > ch('threshold') ) { removepoint(0,@ptnum); }`
 
 ```
+
+
+
+---
 
 
 
@@ -223,29 +272,21 @@ binary
 
 # Operators
 
-`point('op:/obj/geo1/OUT', 'P', i@ptnum)`
-`point('op:../../OUT', 'P', i@ptnum)`
-
-## Get param from second input
-`point(1,'P',i@ptnum)`   
-`point('opinput:1', 'P', i@ptnum)`
-`point(@OpInput2, 'P', i@ptnum)` - is not 0 based !!
-`v@OpInput1_P`
-
-1op - geo
-2op - pointsplit (primitivesplit)
-```
-int vtx_idx = vertexprimindex(0,@vtxnum);
-v@Cd = vertex(1,"Cd",@primnum, vtx_idx)
-```
-or
-```
-v@Cd = vertex(1,"Cd", @vtxnum)
-```
-
 ## Op()
 
+### Get param from second input
+
 `geoself()`, `0`, `@OpInput1`- Returns a handle to the current geometry  
+
+```
+v@Cd = vertex(1,"Cd",@primnum, vertexprimindex(0,@vtxnum));
+v@Cd = vertex(1,"Cd", @vtxnum);
+@P = point(1,'P',i@ptnum)
+@foo = detail(-1,'iteration',0)
+@P = v@OpInput1_P` - get Pos from 2op.
+point('opinput:1', 'P', i@ptnum)  
+point(@OpInput2, 'P', i@ptnum) - is not 0 based !!  
+```
 
 ### OpInputs:
 - `opname(".")` - node name `$OS`   
@@ -270,10 +311,13 @@ This will work as long as the data being fed in is the type of data the paramete
 - ``` point("op:`opfullpath("../../null1")`","Cd",@ptnum) ``` - Copy color from points of other node  
 - ``` s@instancepath = sprintf(op:../../var_%s, VariantEnding); ```-
 
+.
+- `point('op:/obj/geo1/OUT', 'P', i@ptnum)` - get position from OUT node   
+- `point('op:../../OUT', 'P', i@ptnum)`- get position from OUT node   
 
 ### Channels/Parameters
 
-`ch()` -   
+`ch()` -  channel reference
 `chf()` - float  
 `chs()` - string  
 `chi()` - int  
