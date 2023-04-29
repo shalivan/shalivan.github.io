@@ -30,42 +30,6 @@ https://www.thebrainextension.com/
 <!-- more -->
 
 
-# Attributes
-
-Base
-- `v@N` (vert) -  
-- `@P`, `v@rest`, `v@Cd`, `i@id`, `@Alpha` (point)  
-
-Material
-- `s@shop_materialpath` (prim) - only material parameters of those belonging to the /nodes/shop/principledshader shader are recognized
-- `s@fbx_material_name` (prim)
-- `@material_override`
-
-Manage
-- `s@name` (prim): joints names
-- `s@name` (points): RBD same name = same object. "piece*"
-- `i@class` (prim) -  , reserved to connectivity  // connectivity / delete small pieces / nodes.    
-- `i@id` -  particles, ctrl points for animation     
-- `s@tag` - string in new scatter, tree
-- `i@variation` - copy to point / new scatter
-
-Uv
-- `v@uv` (vert)
-- `v@uv1` (vert)
-- `i@udim=1001;` (prim)
-- `i@island=3;` (prim)  
-
-
-Character FBX   
-- `@boneCapture` (point) on the skin geometry - defines the skinning weights.  
-- `@clipinfo` (point) Current animation range and sample rate as well as the original animation range and sample rate of the imported animation.   
-- `s@name` (point) - unique name across all points used for identification. (only used if the `path` point is missing).  
-- `@path` (point) hierarchical path of FBX node that corresponds to the point. It is created when FBX files are imported by the FBX Animation Import or FBX Character Import nodes. This path is used to identify where to export the point transforms.  
-- `@scaleinheritance` (point) specifies the scaling behavior when performing local transformations. See combinelocaltransform and extractlocaltransform  
-- `@transform` (point) 3×3 matrixworld transform for the point. While the world position of the point is still P, this transform encodes the world transform’s rotation, scale, and shear components.  
-
-
-
 # Expressions
 
 - Backticks ``` ` ``` are for use in a string field: group input, name sop. (when fn inside ??)
@@ -105,17 +69,23 @@ By pattern:
 ## Float field
 
 
+#### [Add] / [Transform]  SOP
 
-#### [Add] / [Transform]  SOP - any float parameter.
+- `detail(0,'P',1)` - get y component of position from detail attribute (which node, which attrib, which channel(z,y,z))
+- `ch('sizey')/2` - reference to channel from same node (i.e: copy size from x to y)
+- `ch('../xx')` ?? - ref to channel from node above (HDA interface/menu)
+- `rand(3.3)`
 
-- `detail(0,'P',1)`
-- `point(-1,0,"P",0)`, `point(-1,0,"P",1)` `point(-1,0,"P",2)`- x,y,z point position from point in spare referenced node  
-- `ch('sizey')/2` - reference to channel
-- `ch('../xx')` ?? - ref to channel from other node ?
+## Int/bin field
+- detail(-1,'iteration',0)%4 - loop 4 (spare)
+
+
+
+
+
 
 #### [Switch] SOP
-int ??? !!    
-binary:
+- `if (f@burned>0)`
 - `if(strcmp(details(0, "foo"), "shit")==0, 1, 0)` - if value of detail attribute 'foo' is string of 'shit'.  [Use Switch-if]
 - `npoints(-1)!=0` - switch if there is any geometry
 - `if (npoints("../intersectionanalysis2/")>0,1,0)` - switch if intersected
@@ -196,36 +166,94 @@ Vexpression:
 
 - `if(@primnum == -1) @group_disconnected = 1;` - Separate points and geometry   (prims)
 - `if ( rand(@ptnum) >0.2 ) { removepoint(0,@ptnum); }` - remove points
-
-.
-
-
-- `i@index = (int)fit01(rand(detail(1,"iteration",0)*1234),0,11);` - randomise int in range. in prim wrangle (1 in: flow, 2 in metadata) (in switch: `prim(0,0,"index",0)`)  [ForLoop] Meta Import
-
-
-```
- - `detail(-1,'iteration',0)` -  by attribute from spare  
-
- - ```@manifoldnumber=`opdigits(".")` ``` - will delete group by digits in node name !!! (from Polydoctor SOP)     
-
-##  [Attrib Create] SOP
-Expression field:  
-- `if(@attrib > 1,5,0)`  
-- `if(@attrib > 1,if($ATTR < 4,0,5),0)`  
-
-
-## [Switch] / [Transform] SOP
-- detail(-1,'iteration',0)%4 - loop 4 (spare)
-
-binary
-
-
-- `if (f@burned>0)`
-- `if ($F%10==0, $FF,0)` - ?wtfoO
 - `if (@Cd.r < 0.1) { i@group_mygroup=1; }` - change group on color
 - `if ( rand(@ptnum) > ch('threshold') ) { removepoint(0,@ptnum); }`
+- `i@index = (int)fit01(rand(detail(1,"iteration",0)*1234),0,11);` - randomise int in range. in prim wrangle
+- ``` @manifoldnumber=`opdigits(".")` ``` - will delete group by digits in node name !!! (from Polydoctor SOP)  
 
-```
+---
+
+
+
+# Operators
+
+
+`geoself()`, `0`, `@OpInput1`- Returns a handle to the current geometry
+
+- `opname(".")` - node name `$OS`   
+- `opname("..")` - name of node Container   
+- `opinput(".", 0)` -  name of the node connected to input 0  
+- `opinputpath(".", 0)` - path of the node connected to input 0 (`/obj/geo/lastNodeName`)  
+- `opinputpath("/obj/geo/null1", 0)` - path to the node conected to first input of null1              
+- `opfullpath(".")` - returns the full path of a node   
+- `oprelativepath("../sourcePath","../targetPath")` - Returns the relative path from one node to another      
+
+##### Get param from node inputs
+- `@P = point(1,'P',i@ptnum)` - ?? a gdzie channel jajk vektor ? << sprawdzic
+- `@P = v@OpInput1_P` - get Pos from 2op.
+- `point('opinput:1', 'P', i@ptnum)`  
+- `point(@OpInput2, 'P', i@ptnum)` - is not 0 based !!  
+- `v@Cd = vertex(1,"Cd",@primnum, vertexprimindex(0,@vtxnum));`
+- `v@Cd = vertex(1,"Cd", @vtxnum);`
+
+##### Get param from spare
+- `point(-1,0,"P",0)`, `point(-1,0,"P",1)` `point(-1,0,"P",2)`- x,y,z point position from geometry referenced in spare field.
+- `detail(-1,'iteration',0)` -
+
+##### Get param from other node
+- `point('op:/obj/geo1/OUT', 'P', i@ptnum)` - get position from OUT node   
+- `point('op:../../OUT', 'P', i@ptnum)`- get position from OUT node   
+
+
+
+### op:
+`op:` operator is that it allows you to grab live data from another node elsewhere in your scene.
+op: syntax is what you use when you're trying to use inline geo as a file-like object
+basically if you need to dynamically cook something and return the result in place of something asking for a file, you use the op: prefix can also be done in texture-related VOPs to look up COPs in supported render engines
+This will work as long as the data being fed in is the type of data the parameter the path to the node must be an absolute path starting from the root path:  
+- `op:/img/img1/gamma1` - get texture in COPs/Imp. Put as image name  
+- `op:/obj/cop2net1/OUT` - get texture from COP  
+- `op:/obj/geo/MyNode` = ``` op: `opfullpath(“../../MyNode”)` ``` - For relative path use opfullpath    
+- ``` point("op:`opfullpath("../../null1")`","Cd",@ptnum) ``` - Copy color from points of other node  
+- ``` s@instancepath = sprintf(op:../../var_%s, VariantEnding); ```-
+
+
+---
+
+# Attributes
+
+Base
+- `v@N` (vert) -  
+- `@P`, `v@rest`, `v@Cd`, `i@id`, `@Alpha` (point)  
+
+Material
+- `s@shop_materialpath` (prim) - only material parameters of those belonging to the /nodes/shop/principledshader shader are recognized
+- `s@fbx_material_name` (prim)
+- `@material_override`
+
+Manage
+- `s@name` (prim): joints names
+- `s@name` (points): RBD same name = same object. "piece*"
+- `i@class` (prim) -  , reserved to connectivity  // connectivity / delete small pieces / nodes.    
+- `i@id` -  particles, ctrl points for animation     
+- `s@tag` - string in new scatter, tree
+- `i@variation` - copy to point / new scatter
+
+Uv
+- `v@uv` (vert)
+- `v@uv1` (vert)
+- `i@udim=1001;` (prim)
+- `i@island=3;` (prim)  
+
+
+Character FBX   
+- `@boneCapture` (point) on the skin geometry - defines the skinning weights.  
+- `@clipinfo` (point) Current animation range and sample rate as well as the original animation range and sample rate of the imported animation.   
+- `s@name` (point) - unique name across all points used for identification. (only used if the `path` point is missing).  
+- `@path` (point) hierarchical path of FBX node that corresponds to the point. It is created when FBX files are imported by the FBX Animation Import or FBX Character Import nodes. This path is used to identify where to export the point transforms.  
+- `@scaleinheritance` (point) specifies the scaling behavior when performing local transformations. See combinelocaltransform and extractlocaltransform  
+- `@transform` (point) 3×3 matrixworld transform for the point. While the world position of the point is still P, this transform encodes the world transform’s rotation, scale, and shear components.  
+
 
 
 
@@ -268,52 +296,6 @@ binary
 
 ---
 
-
-
-# Operators
-
-## Op()
-
-### Get param from second input
-
-`geoself()`, `0`, `@OpInput1`- Returns a handle to the current geometry  
-
-```
-v@Cd = vertex(1,"Cd",@primnum, vertexprimindex(0,@vtxnum));
-v@Cd = vertex(1,"Cd", @vtxnum);
-@P = point(1,'P',i@ptnum)
-@foo = detail(-1,'iteration',0)
-@P = v@OpInput1_P` - get Pos from 2op.
-point('opinput:1', 'P', i@ptnum)  
-point(@OpInput2, 'P', i@ptnum) - is not 0 based !!  
-```
-
-### OpInputs:
-- `opname(".")` - node name `$OS`   
-- `opname("..")` - name of node Container   
-- `opinput(".", 0)` -  name of the node connected to input 0  
-- `opinputpath(".", 0)` - path of the node connected to input 0 (`/obj/geo/lastNodeName`)  
-- `opinputpath("/obj/geo/null1", 0)` - path to the node conected to first input of null1              
-- `opfullpath(".")` - returns the full path of a node   
-- `oprelativepath("../sourcePath","../targetPath")` - Returns the relative path from one node to another      
-
-### op:
-`op:` operator is that it allows you to grab live data from another node elsewhere in your scene.
-
-op: syntax is what you use when you're trying to use inline geo as a file-like object
-basically if you need to dynamically cook something and return the result in place of something asking for a file, you use the op: prefix
-can also be done in texture-related VOPs to look up COPs in supported render engines
-
-This will work as long as the data being fed in is the type of data the parameter the path to the node must be an absolute path starting from the root path:  
-- `op:/img/img1/gamma1` - get texture in COPs/Imp. Put as image name  
-- `op:/obj/cop2net1/OUT` - get texture from COP  
-- `op:/obj/geo/MyNode` = ``` op: `opfullpath(“../../MyNode”)` ``` - For relative path use opfullpath    
-- ``` point("op:`opfullpath("../../null1")`","Cd",@ptnum) ``` - Copy color from points of other node  
-- ``` s@instancepath = sprintf(op:../../var_%s, VariantEnding); ```-
-
-.
-- `point('op:/obj/geo1/OUT', 'P', i@ptnum)` - get position from OUT node   
-- `point('op:../../OUT', 'P', i@ptnum)`- get position from OUT node   
 
 ### Channels/Parameters
 
