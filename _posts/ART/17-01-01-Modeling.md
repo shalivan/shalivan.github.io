@@ -92,17 +92,14 @@ Best simulated
 - Material properties >  (stretch, bend, weight)    
 - Grain of fabric. (weakness of cross cuts)  
 
-- **uv**
+**uv**
 - uv for high. bake by uv
 - make uvs straight for simulation and texturing (the direction of the fibers)
 
 [Drape sim](/vellum/)
 [Characters](/characters/)
 
----
-https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4
 
-----
 
 
 # Subdivision

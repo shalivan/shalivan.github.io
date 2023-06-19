@@ -1,5 +1,5 @@
 ---
-title: Modeling - Foliage
+title: Modeling - Vegetation
 categories:
 - ART
 tags:
@@ -7,6 +7,11 @@ tags:
 description: Vegetation, foliage
 permalink: /foliage/
 ---
+
+---
+https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4
+
+----
 
 # Vegetation
 
@@ -21,7 +26,8 @@ We need parts which we will combiene into objects. then objects will be used in 
   - **Clustering** - cluster of leaves.
   - Characteristic **elements**: Leaf band, Beginning, Gravity, Grouping (higher leafs more vertical change shape)
   - Characteristic **behaviour**: Growth towards the sun, Not vascular plants growth in shadows  (to not dry out). Moss mostly 'N' in North hemisphere.
-
+  - where plants growth - in garden are clean
+  - sizes: small mid ...
 
 
 ```
@@ -48,6 +54,8 @@ We need parts which we will combiene into objects. then objects will be used in 
 **Bake**
   - Bake by uv's (like cloths).
 ```
+
+
 sposob 2 :
 - zrob high w z.
 
@@ -68,25 +76,27 @@ sposob 2 :
   - Vines to subsurface mask!
 
 **Material**
-  - color
+- color
     - fuzzy shading
-  - normal
+    - blend with landscape layer or use landscape layers as a mask
+- normal
     - to camera ? bottom up ?  
     - rotating normals towards camera instead of pointing them up, is a good supplement to unify grass shading, while not causing uniform ugly white sheen
     - if tangent space normals are enabled in material, your normal will be flipped for backface. While it is desired behavior for grass cards with default normals,
     - if you are using foliage with edited normals, the backfaces will have incorrect normals. Using foliage with edited normals implies disabling disabling tangent space normals and handling normals yourself in the material using two-sided sign.
     - You’d want every grass blade to have some sort of distinct specular highlights, preferably corresponding to grass blade orientation, supported by normal map. (not pointing grass normals straight up)
     - normal map is in use, it also helps if its intensity is high enough to shift surface-subsurface balance from card level to grass blade level.
-  - vertex anim **movement**  
+- vertex anim **movement**  
+    - rotate on slopes to have grass pointing up all the time !!!
     - wind and interaction, bend grass near player
     - wygiac przy playerze cardsy troche do kamery  
     - scale anim and size on distance to betere disappear LOD
     - scale grass down on last lod
     - how fast move depend on scale `smooth ramp =x*(in+1))/(x-in)`
-  - sss
+- sss
     - SSS color should not differ considerably from albedo.
     -  SSS is obtained by sampling environment cubemap in the direction, opposite of the normal. If your grass cluster normals are pointing upwards, they will sample the skylight from bottom part. Needless to say, that if skylight is set to use black for lower hemisphere, you won’t get any subsurface from indirect light.
-  - shadows ... ?
+- shadows ... ?
 
 **Placement**
   - cluster foliage, procedural placement system
@@ -94,9 +104,11 @@ sposob 2 :
 **Engine optimization**
   - 2 sided foliage option
   - Early z pass 
- 
+
 **Lighting**
   -  balance between skylight and directional light intensity. In case, when latter is overly strong, there will be distinct separation between zones of dominant subsurface and surface It feels that tweaking subsurface intensity separately for direct and indirect light we pretty good thing to have, but this one would be only tweakable per light, not per material.
+
+- use shadow, ? without can be smoother.
 
 
 # Speed tree
@@ -220,5 +232,5 @@ https://www.youtube.com/c/RickBanks/videos
 
 [houdini tree HDA](https://youtu.be/abQtNpUUdGw)
 
-
+https://youtu.be/pVKDfZMffpc
 NIE OPISANE: z liści high składamy zbrushowa roslinke  
