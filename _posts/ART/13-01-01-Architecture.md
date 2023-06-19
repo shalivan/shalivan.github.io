@@ -16,6 +16,7 @@ permalink: /arch/
 https://nowoczesnastodola.pl/partnerzy/sunroof/
 
 discavery writing
+
 # Architecture
 
 Architecture
@@ -241,6 +242,8 @@ Shell > Service > Scenery
 - `Labyrinth` - (non linear ineficient without possibilites of false options / way out from chaos. [.](https://www.carolshieldslabyrinth.ca/#:~:text=%22A%20labyrinth%20is%20a%20complex,as%20you%20might%20think.%20.%20.)
 - `Garden` / `Theme park`
 
+# Context
+**Vernacular architecture**
 
 
 # Architecture in games and  neo impressionism
@@ -284,6 +287,14 @@ rethink society using arch as a tool dor potential change, growth, evolve. (node
 
 
 
+
+
+- forced public interactions : like lobbies/ elevators
+- private / public space
+tall building
+- minus for comunication
+- wind forces
+- undesarable spaces at bottom
 
 
 [Anime Architecture: Imagined Worlds and Endless Megacities]  
