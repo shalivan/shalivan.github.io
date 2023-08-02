@@ -10,6 +10,14 @@ permalink: /orient/
 ---
 
 
+
+SORT POINTS IN CIRCLE
+vector center = getbbox_center(0);
+vector dir = normalize(@P-center);
+f@sortval = atan2(dir.x, dir.z);
+
+
+
 [Coords](/coords/)   
 
 
@@ -56,9 +64,14 @@ Use one transform at a time by priority:
 
 Rotation types:  
 - Matrices (`3@` = rot, `4@` = full transform)
-- Vector (`v@N` and `v@up`, `v@EulerAngle`)
+- Vector (`v@N` (Z align) and `v@up` (Y align), `v@EulerAngle`)
 - Quaternions (`p@`)   
 
+N - z align to   
+up - Y align to   
+
+Radians 0-1   
+Degree 0-360    
 
 `@Degrees = degrees(@Radians)` - 0-1 to: 0-360 (radians to degrees) `f@`       
 `@Radians = radians(@Degrees) ` - 0-360 to: 0-1 (degree to radians) `f@`     
@@ -79,6 +92,11 @@ Rotation types:
 `@orient = qmultiply(@orient, extrarot);` -
 
 `cracktransform()` -  returns value of rotation scale or translate from a matrix  
+
+
+`quaterniontoeuler` - returns Euler angles from a quaternion     
+`dihedral` - returns the quaternion that points vector A to vector B.
+
 
 ### Copy To Points  
 - Z-axis points towards N (Objects must be oriented to +Z)

@@ -17,6 +17,8 @@ permalink: /strings/
 
 
 
+i@xxx222 = rint(opdigits(s@shop_materialpath));
+
 
 ```
 ### to String

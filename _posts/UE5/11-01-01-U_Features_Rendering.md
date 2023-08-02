@@ -28,40 +28,6 @@ permalink: /urendering/
 
 
 
-# Shadows
-Point Light - Point light have 6x shadows .Max draw distance
-
-
- - Cascade shadows:   split cam frustrum to pieces
- - Ray traced distance dield shadows: for far 30 50% more eficient than cascade (5000 units) save on GPU little
- - Capsule shadows
- - Close shadow (contact)   
- - Volume shadows
-
-`Cast Shadows`    
-`deep shadow` - Advanced hair strands (GPU time)  
-`Ray Trace`  
-`Cast Volumetric Shadows` - (GPU time)  
-`Affect translucency` (GPU time)    
-`transmision` (for sss)    
-
-  Cache shadows lights: movable prim: staic/stationary
-
-
-##### Distance field Shadows    
-`Distance`     
-`Trace dist`   
-`Ray start Depth off`  
-
-##### Cascade Shadow Maps   
-`Dyn Shadow Distance Movable Light`     
-`Casc numb`   
-`Distribution Exp`  
-`Tranmsition Fraction`   
-`Distance Fade Out fraction`   
-`Far Shadow Cascarde Count`   
-`Far Shadow Distance`   
-
 ---
 
 # Reflection
@@ -73,61 +39,6 @@ Point Light - Point light have 6x shadows .Max draw distance
 Project Settings > Engine > Rendering under the Lighting category
 
 ---
-
-# Exposure
->Algorithm uses the average of the log luminance of the scene
-Using phisycal values help with nor overexposure for emissives
-Extend default range and **Apply Pre-Exposure before writing to scene color** Calculation of the average scene luminance is used for the Grey Point exposure values are interpreted as EV100 in Unreal Engine    
- By default, Unreal Engine’s lens attenuation is set to 0.78. At a value of 0.78, the math cancels out and you can interpret the lighting as unitless. bnecause game camera dont loose light and not required 1.2(q=0.65)    
-
-
-##### `Basic`
-Simple for whole pixels
-
-- `Exposure Compensation` - Low Brighter, High Darker. (Add scale of 2^ExpComp on top of existing exposure)     
-- `Min/Max EV100` - to set Min set view in dark place and adjust. to set Max adjust in max brightness  
-
-##### `Histogram`
-Discards the pixels above and below treshold
-
-- `Low/high Percentage` - is 10% A and  95% B Therefore current luminance is the The average between A and B    
-- `Histo Min/Max`  
-
-- `Apply Physical Camera Exposure`. It enables you to control whether physical camera parameters affect auto exposure or not. This means that a manual camera with an exposure compensation of 0.0 will exactly match an auto exposure scene that is set to zero when this property is disabled.   
-
-
- ##### Pre-Exposure
->If reflective surfaces have artifacts like black patches, the SceneColor buffer might be overflowing. To fix it, either enable `Apply Pre-Exposure` before writing to the scene color in the Project Settings, or reduce the brightness of lights in the scene. Apply Pre-exposure before writing to the scene color is only supported on Windows. and can have problems with SSS
-
-```
-`r.UsePreExposure` - 0-1  
-`r.EyeAdaptation.PreExposureOverride` - 0-1    
-```
-
-##### Exposure Measurement
->To check how many light incom from skylight by: You can `pixel inspector` and have luminnance in candela and pixel brightness.. and check how much candelas. (HDR luminance value).
-
-
-
-- Window > DeveloperTools > PixelInspector  
-- Show > Visualize > HDR (Eye Adaptation)
-
-```
-ShowFlag.VisualizeHDR 1
-```
-
-
- - blue line is the target EV100 exposure value for the view.
- - purple line is the actual EV100 exposure
- - white line is the final EV100 exposure value after adjusting the exposure compensation
-
-
-
-below the target histogram range will be shown in red, anything above the range will be in blue. It ensures that the high and low percentile ranges that we’ve set are removing the unwanted pixels
-```
-r.EyeAdaptation.VisualizeDebugType 0 (scene color after tone mapping)   
-r.EyeAdaptation.VisualizeDebugType 1 (histogram debug mode)   
-```
 
 ---
 
@@ -212,7 +123,6 @@ Optimisation: 8 bit (halfmemory) / compress: les mem but hitches on sream decomp
 
 # Material
 
-## POM vs Tessalation:
 
 
 ## Translucent in Deffered problems
@@ -237,46 +147,99 @@ https://youtu.be/r1BCJt22oHY
 
 
 
-## Linear Space Workflow
+# Lumen
+Realtime gi  no rtx.   Reflection (with gi)   
+- lighting sim: input: light settings, material, exposure  
+- limitation: mesh need have simple interiors that mean every wall of building separated.
+- base color need to be bright
+dont overlap meshes to much   !!!  
+most lumen cost is screen depending   
+- limited in distance (because surface cache show near you only, further go to screen cache)
+##### Pipeline
+Hybrid traced pipeline  
+- Trace against the depth  buffer (screen trace)
+- Trace against Signed distance fields in compute shader: ( for close (up to 2m) mesh &  (over 2) global distance trace)
+- Lighting take traced ray hits and apply lighting with surface cache  (capture mesh at low, faster with nanite)
 
-- Render in linear > Apply gamma > apply s-curve corections.
-- GammaCorrection-to-LinearRGB Linear RGB `( Gamma Correction Value ^ (1 / 2.2))`  (1/22 = 0.4545)    
-- LinearRGB-to-GammaCorrection Gamma Correction `(Linear RGB Value ^ 2.2)`      
-- Linear to sRGB (for sRGB dvices) - Mid grey 18% after gamma look like 50%    
-
-https://www.vfxwizard.com/tutorials/gamma-correction-for-linear-workflow.html  
-
- Unreal render in linear hdr and tonmap (filmic: ACES) to LDR.  
-
-
- >The HDR input in the **Pixel Inspector** measures everything in luminance or cd/m² or nits, which is why you want to use a pure white material since luminance is based on color. Taking that HDR value and multiplying it by pi will give you the Lux value.
- `pixel Brightness = Exposure * Luminance` ( before the tonemapper and exposure compensation) - scene surface luminance (L in cd/m²)
-
-
-```
-`r.tonemapperfilmic 0`- disable filmic and change to default
-```
-
-## HDR
-texture compress: vector displacement   
-
-https://www.unrealengine.com/en-US/tech-blog/how-epic-games-is-handling-auto-exposure-in-4-25
-
-```
-`r.HDR.Display.OutputDevice`	Device format of the output display:
-- `0`: sRGB (LDR),
-`1`: Rec709 (LDR),
-`2`: Explicit gamma mapping (LDR),
-`3`: ACES 1000 nit ST-2084 (Dolby PQ) (HDR),
-`4`: ACES 2000 nit ST-2084 (Dolby PQ) (HDR) ,
-`5`: ACES 1000 nit ScRGB (HDR),
-`6`: ACES 2000 nit ScRGB (HDR),
-`7`: Linear EXR (HDR)   
-`r.HDR.EnableHDROutput`    
-`r.HDR.Display.ColorGamut`   
-```
+**Softwaee traceing**  
+ is limited,  
+- support limitet geo  
+- any hardware
+- dx11
+distance field   
+ not enough quality for reflections   
 
 
+**Hardware trace**   
+ 50% slower than software one   
+ hi quality, cost most   
+ limit: rtx cards,  dx12  
+ required for mirro like reflections   
+
+
+ **Final gather**   
+
+ with gi, because there is no list of lights, all scene is bouncing liughting so proper gi need 200 rays for pixel... (realtime can aford 1/2)  
+
+ solutions:   
+ - irradiance filed (probes), slowl update but generaly great for performence, not good quality
+ - screen space denoiser
+ - screen space radiance caching - LUMEN - trace from set of pos + interpolate
+ - world space raidiance cache - probes in world *(only for distance lighting )
+
+
+
+.
+
+nanaiate help with lumen. but traced not directly via high res, but lower 'nanite proxy geo' (+ help of screen traces, traces against full nanite )  
+Cannot exclude emmissive  because of screentrace
+
+##### Settings
+(enabled by default)
+- dynamic global ilum method: lumen  
+- reflection method: lumen
+- generate mesh distance fields
+- hardware ray traceing in hardware 'ray traceing' and 'lumen'  
+can change settings in post process
+
+###### Debug
+Show>Visualize>LumenScene
+
+
+##### Features and limitattions
+- emissive object works (limited)
+- shadowed skylight
+- on translucent and volume fog lowe quality
+outdors can be lowe quality  
+indora> small one dir light in  
+
+
+
+######  Reflections
+- trace extra for roughs <.4
+- use surface cache
+- quality on 4 will use high mesh
+
+
+shadows quality for lumen:
+`r.Shadow.Virtual.SMRT.RayCountLocal 8`
+
+
+- not good in nanite tree.
+- nanite not working with thin meshes
+---
+
+# Ray trace light
+Path Tracer
+In addition to the Ray Tracer, we've included an unbiased Path Tracer with a full global illumination path for indirect lighting that creates ground truth reference renders right inside of the engine. T  
+
+- DXR
+- run with DX12
+- In project settings: Ray Tracing, Support Cmpute sskincache
+- In light: casting ray trace shadow
+
+soft shadow
+reflections (bounces 1)
 ---
 
 # Nanite
@@ -336,29 +299,49 @@ Distance Field Soft Shadows
 Distance Field Ambient Occlusion
 
 
-# Ray trace light
-Path Tracer
-In addition to the Ray Tracer, we've included an unbiased Path Tracer with a full global illumination path for indirect lighting that creates ground truth reference renders right inside of the engine. T  
-
-- DXR
-- run with DX12
-- In project settings: Ray Tracing, Support Cmpute sskincache
-- In light: casting ray trace shadow
-
-soft shadow
-reflections (bounces 1)
 
 ---
 
-## Static Bake
-Fog:  
-`Static Light Scatter Intensity`  - intensity of scattered static lighting in the Volumetric Fog.
-Sun:   
-`Source Soft Angle` -
-`Indirect light intensity` -  Increase bounce   
-
 ---
 
+
+## Linear Space Workflow
+
+(pix.ink Linear data:)[/res/]
+
+- Render in linear > Apply gamma > apply s-curve corections.
+- GammaCorrection-to-LinearRGB Linear RGB `( Gamma Correction Value ^ (1 / 2.2))`  (1/22 = 0.4545)    
+- LinearRGB-to-GammaCorrection Gamma Correction `(Linear RGB Value ^ 2.2)`        
+
+ Unreal render in linear hdr and tonmap (filmic: ACES) to LDR.  
+
+
+ >The HDR input in the **Pixel Inspector** measures everything in luminance or cd/m² or nits, which is why you want to use a pure white material since luminance is based on color. Taking that HDR value and multiplying it by pi will give you the Lux value.
+ `pixel Brightness = Exposure * Luminance` ( before the tonemapper and exposure compensation) - scene surface luminance (L in cd/m²)
+
+
+```
+`r.tonemapperfilmic 0`- disable filmic and change to default
+```
+
+## HDR
+texture compress: vector displacement   
+
+https://www.unrealengine.com/en-US/tech-blog/how-epic-games-is-handling-auto-exposure-in-4-25
+
+```
+`r.HDR.Display.OutputDevice`	Device format of the output display:
+- `0`: sRGB (LDR),
+`1`: Rec709 (LDR),
+`2`: Explicit gamma mapping (LDR),
+`3`: ACES 1000 nit ST-2084 (Dolby PQ) (HDR),
+`4`: ACES 2000 nit ST-2084 (Dolby PQ) (HDR) ,
+`5`: ACES 1000 nit ScRGB (HDR),
+`6`: ACES 2000 nit ScRGB (HDR),
+`7`: Linear EXR (HDR)   
+`r.HDR.EnableHDROutput`    
+`r.HDR.Display.ColorGamut`   
+```
 
 ## ACES
 

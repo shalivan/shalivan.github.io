@@ -9,6 +9,16 @@ tags:
 - Code
 permalink: /vexpressions/
 ---
+Hide UI element in HDA https://youtu.be/g5E4GYKlY18?t=589
+Hide When : `{ input != 1 }`
+
+!!!! >>
+# Attirb create
+type string: ``` `@ptnum` ``` - to get string name form point num  
+
+
+
+
 
 #### Second input
 ```
@@ -128,6 +138,7 @@ Rule
 
 #### [Group Expression] SOP
 VExpression  
+- `dot(@N,chv("XYZ")) > chf("Amount")``
 - `neighbourcount(0, @ptnum)<=3` - By edges count from point    
 - `rand(@elemnum) > chf("amount")` - Random Amount   
 - `@Cd.r * chf("Amount")` - Color Amount   
@@ -232,7 +243,7 @@ Material
 - `@material_override`
 
 Manage
-- `s@name` (prim): joints names
+- `s@name` (prim): joints names, differentiate parts !
 - `s@name` (points): RBD same name = same object. "piece*"
 - `i@class` (prim) -  , reserved to connectivity  // connectivity / delete small pieces / nodes.    
 - `i@id` -  particles, ctrl points for animation     
@@ -244,6 +255,10 @@ Uv
 - `v@uv1` (vert)
 - `i@udim=1001;` (prim)
 - `i@island=3;` (prim)  
+
+Unreal
+- `s@unreal_input_mesh_name` (prim)
+- `i@unreal_nanite_enabled = 1` (detail)
 
 
 Character FBX   
