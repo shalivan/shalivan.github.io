@@ -15,8 +15,19 @@ permalink: /sopcurves/
 To preserve curve direction u must preserve vertex order.
 
 
+
+
 # SOP
-cut on point
+
+- `curve` node
+
+...
+
+
+- `resample`
+- `refine`
+
+#### Cut on point
 - `Convert Line`  |   redraw primitive (destructive for gr &atrr)  
 - `Carve` | (will disconect points ! )
 - `Poly Path` |   redraw primitive (destructive for gr &atrr)
@@ -24,7 +35,7 @@ cut on point
 - `Poly Cut` | can cuts only on points (detroy point grups )
 - `Fuse` |
 
-inject edge where is no point  
+#### Inject edge where is no point  
 - `Boolean`
 - `Poly Split`
 - `Clip`
@@ -32,7 +43,7 @@ inject edge where is no point
 - `Intersection analysis`
 - `Incrementersection stitch`
 
-labs tool
+#### Labs tool
 -  `Poly Slice` make points on curve or prim > slice / preserve edge group & curve dir. snap.   
   Based on:
    - poly split  
