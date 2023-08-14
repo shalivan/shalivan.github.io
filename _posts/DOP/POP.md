@@ -77,8 +77,8 @@ Emission Attribute - ATTRIBUTE TO EMIT PARTICLES (float 0-1)
 ---
 
 ## Forces DOP's
-`[popforce]` - basic with VOP  
-`[popwind]` - stop accumulating v when reaching given speed    
+`[popforce]` - basic with VOP. Dont have a goal velocity!
+`[popwind]` - stop accumulating v when reaching given speed. Have a goal velocity!
 `[popattract]` - (to point or geometry)  if bouncing increase Air Resistance  
 `[popaxies]`  rotate around axies  (use suction speed to not let go too far)  
 `[fireworks]`  

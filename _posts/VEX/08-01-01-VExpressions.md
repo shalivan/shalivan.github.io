@@ -9,20 +9,55 @@ tags:
 - Code
 permalink: /vexpressions/
 ---
+
+
+https://www.thebrainextension.com/     
+
+
+[SOP Vexpression.hiplc](/src/hip/SOP_Vexpression.hiplc)  
+
+
+<!-- more -->
+
 Hide UI element in HDA https://youtu.be/g5E4GYKlY18?t=589
 Hide When : `{ input != 1 }`
+-
 
-!!!! >>
-# Attirb create
-type string: ``` `@ptnum` ``` - to get string name form point num  
-
+checking if  @group_name == 1.
 
 
 
+# Attirb
 
-#### Second input
+
+
+
+
+
+
+
+
+## Read
+
+
+
+#### Read from other class
+
+`attrib` / `detail`/`prim`/`point`/`vertex`
+
+`point(0, 'foo', int pointnumber)` - Without existence check - These functions return the attribute value if the given detail/primitive/point/vertex exists and has the given attribute, or a zero/empty value otherwise.
+
+`pointattrib(0, 'foo', int pointnumber, int &success)` -
+With existence check - distinguish between the attribute value actually being zero/empty vs. the function returning zero/empty value
+
+`attrib`
+
+`getattribute()` - more complex
+
+
+#### Read form other input
 ```
-vector valuer = point(1,"foo",@ptnum);
+vector value = point(1,"foo",@ptnum);
 setpointattrib(0,"foo",@ptnum, value. "set");
 ```
 
@@ -30,19 +65,16 @@ setpointattrib(0,"foo",@ptnum, value. "set");
 f@attrib = f@input1_attrib;
 ```
 
-https://www.thebrainextension.com/     
 
+## Write
 
-[Vex Attributes](/vexattribs/)    
-[SOP Vexpression.hiplc](/src/hip/SOP_Vexpression.hiplc)  
-
-
-<!-- more -->
+`setpointattrib(0,"foo",@ptnum, point(1,"foo",@ptnum), "set")`
 
 
 # Expressions
 
-- Backticks ``` ` ``` are for use in a string field: group input, name sop. (when fn inside ??)
+- Backticks ``` ` ``` are for use in a string field: group input, name sop. (when fn inside ??) ``` `@ptnum` ``` - to get string name form nueric output.
+
 - `Ctrl` + `C` - copying of node can be passed in parameters: `/obj/geo_foo/OUT_foo`. You can drag and drop nodes to param fields.
 
 
@@ -86,8 +118,8 @@ By pattern:
 - `ch('../xx')` ?? - ref to channel from node above (HDA interface/menu)
 - `rand(3.3)`
 
-## Int/bin field
-- detail(-1,'iteration',0)%4 - loop 4 (spare)
+## Int field
+- `detail(-1,'iteration',0)%4` - loop 4 (spare)
 
 
 

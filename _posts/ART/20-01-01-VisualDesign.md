@@ -10,6 +10,8 @@ description: Elements, Principles, Rederences, Design
 permalink: /graphicdesign/
 ---
 
+Dieter Rams
+Philippe Starck
 
 
  ```
