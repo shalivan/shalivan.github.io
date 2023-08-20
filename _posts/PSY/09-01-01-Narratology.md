@@ -144,6 +144,8 @@ She / He Her / His - External narrator is telling the story.    Commentator / In
 
 # Structure
 
+
+
 `why who where what when how `
 
 Cannot say a story without **Place**, **Time** and **Character**. Or you can
@@ -156,6 +158,8 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - Promise > Progress > Payoff
 - Substitution plot :L give sth else than what expected /harder to write/
 
+#### tension
+tension - disconnect between goal and currrent situation and obsticle between those two
 
 
 ## Three-Act structure
@@ -250,6 +254,10 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 ## Scope
 To much stories in witch the fate of the world was at stake
 Bigger stakes not equal more powerful stories
+
+## Pace
+**Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
+
 
 
 ## Exposition
@@ -644,6 +652,7 @@ female power fantasy:  Mate selection (choosing the man who fets to continue blo
 male power fantasy: Kin protection (involv physical power)
 
 
+>True character is reveealed in the choices a human being makes under pressure - the greater the pressure, the deeper the revelation, the truer the chocie to the character's essential nature - robert McKee
 ### Character Appearance
 
 [Characters](/characters/)  
@@ -705,8 +714,11 @@ Allies | sidekicks
 
 
 ## story impact
-- ghost / character
-- impact / no impact
+
+|.|character|ghost|
+|---|---|---|
+ impact| |
+ no impact| |
 
 
 

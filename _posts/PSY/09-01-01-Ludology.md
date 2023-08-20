@@ -10,17 +10,66 @@ tags:
 - Cognition
 permalink: /ludology/
 ---
-Rules of Play: Game Design Fundamentals   
-box of secrets - background story for developers. And then player experience it from other direction. recognize small things. (create oherence)   
+
+Fulfill the ark of every character.
 
 
-callbacks - (can be punchline later) - remaind the known
-### Classical Approach
+https://www.katexagoraris.com/procedural-storytelling-visual-effe
+
+
+
+https://trello.com/b/AM3ZOmAd/level-design-compendium   
+https://www.thevideogamelibrary.org/book/procedural-generation-in-game-design  
+
+[YT rozprawki: PixelaDay](https://www.youtube.com/c/PixelaDay/videos)
+
+/// dont subvert expectations. to not make player desapointed ///
+
+
+!!! procedural shatter in story: - hadncrafted but procedural hard to control pace of narrative bits. (embrace it) > few things in linear fashion
+ i dont know what it mean >>> but then next time u see you will renew knowledge about it and sonnection apears.
+
+
+oral story > theater > books > Film > Radio > TV > Games > AR
+
+
+# Classical Approach
 
 - Jean Piaget (9 August 1896 – 16 September 1980) was a Swiss psychologist Importance of games:
 - Johan Huizinga: Nature & Significance of Play as a Cultural Phenomenon [pdf](https://nideffer.net/classes/270-08/week_01_intro/Huizinga.pdf)
 -  Books imagine, movie see, games act.
+- Someone who wants something badly (OBJECTIVE) and is having a hard time getting it. (OBSTACLE).
+
+```
+https://youtu.be/4mgK2hL33Vw
+
+ We overcome obstacles by taking actions. Those actions define the character.  What they do to get what they want. characterization - external description, shell, to see what character is need to look beyond characterization and see what he want.
+- Who make a choice what player does. (in linear is designer in open world is player )
+
+
+Character types: (who chose a characterization)
+- Silent - negative space where player can fill.
+- Cinematic - designer
+- Open  - player
+
+
+
+High level wants by designer
+Low level wants by player (how i go to high level quest)
+
+
+High level wants by player: no character like Minecraft
+
+
+what they WANT (PURPOSE) (if no purpose noone care) if same purpose you can be not same as character
+whaty they DO (ACTION) - do action match with character ?
+how they SEEM (TRAIT) - not important
+
+
+```
 # Ludology
+
+In linear movies we say: **show don't tell**, in interactive entertinment it convert to **do don't show**.
 
 **Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
@@ -45,7 +94,7 @@ See or listen not as powerful as play themselves:
 
 
 # Authorship
-**Narrative** (story meaning) vs **Mechanics** (dynamical meaning). Driven How much power over the world.
+**Narrative** (story meaning) vs **Mechanics** (dynamical meaning). Driven How much power over the world. (Authored vs generative narration)
 (linear) `Linear` > `Wide Linear` (linear with paths) > `Interactive Linear` >  `Multi ending` >  `Branching path` (multi choice but not emergent) > `Open World` > `Open ended`  >  `Emergent` > `Sand box` (Fully player driven) > (cyclical) > `Random`
 
 **Game story domination**  -   Authored - no impact on story - Linear  - low agency hi certainty of deliver    
@@ -106,6 +155,7 @@ player can’t influence  backstory.
 - narrator (ghost / astra )
 - cutscany  najdrozsze
 
+.
 - choices can be also explicit like: rpg dialog chose or harvesting little sister
 
 
@@ -150,6 +200,10 @@ connotations – the memories
 
 - comenting of your actions in past
 - too subtle invisible choices can feel like linear game
+
+
+callbacks - (can be punchline later) - remaind the known
+
 
 ###  Spatial storytelling
 Narrative spaces / Environmental storytelling
@@ -355,7 +409,7 @@ cyclical naure
 
 
 
-# MDA framework
+## MDA framework
 Game designers will establish the rules and boundaries of a game (`Mechanics`) to create a certain sort of playing environment (`Dynamics`) which will invoke certain feelings, such as fun or thrill, in the player (`Aesthetics`).
 
 |Mechanics|Dynamics|Aesthetic|
@@ -368,7 +422,7 @@ Game designers will establish the rules and boundaries of a game (`Mechanics`) t
 
 
 
-# Game Flow
+## Game Flow
 
 How it progress
 
@@ -444,3 +498,113 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 
 incentivie to play: See feature y cannot use yet
+
+
+
+# Workflows
+
+box of secrets - background story for developers. And then player experience it from other direction. recognize small things. (create coherence)   
+
+
+# Resources
+
+[book: Rules of Play: Game Design Fundamentals]
+
+
+
+
+
+
+postcolonial crituique of games ??
+
+social structure & hierarchy & conflict
+
+BEZ STRUCTUR NARRAITVE ALE NARATIONS AND CONNECTIONS:
+sport event:
+- teams creation
+- constatnt buildup
+- final climax  
+plot the same but story dynamic !!!!!
+
+sports / war - same epic conflicts
+
+
+
+who we are
+who are people we are rleated to
+
+DRAMA:
+- conflict
+- comebacks
+- underdogs
+- social structure > hierarchies
+- relationships
+- champions heroes&villains
+- grudges&revenge
+
+sport seasons as interactive narrative - generate stories, setup conflict.
+same plot but every season have different exciting personal stories and drama.
+- failure when time move forrward creates drama
+- escalation to framatic climax
+- neather linera or branching
+
+
+
+
+People solve puzzles because they like pain, and they like being released from pain, and they like most of all that they find within themselves the power to release themselves from their own pain. - Mike Selinker and Thomas Snyder - Puzzle Craft.
+
+
+
+
+# Makeing games
+
+
+- Game iterative > Greater level of complexity
+- You can imagine what it may be like but you never gonna know until you actually experience it. match expectation with embodied experience. > Iterative process.
+
+peer review:  playback > review > action plan.
+https://youtu.be/Gsh-aYdFWws?t=1376
+
+
+iterative: Improve existing game ! ide for succesfull project
+
+
+
+which can happen if they don’t ‘announce’ their entry if they spawn from out of sight
+
+
+
+important is to: empower player to action
+need: choice, motivation, information, time
+to use systems
+
+
+why believe in your story
+where u get info about game
+who will play game
+
+
+
+minimal viable mechanics
+
+oprimize for interactions not ideas
+vision is lot of work not just an idea
+
+structure of game   
+emergent narrative - interlocking mechanics , consistant, allow to investigate and came bacek.    
+replayabliity   
+novelity   
+exploration  
+roleplay  
+mastery  
+
+##### motivation
+behaviour  design -  pavlov
+
+
+# Resources
+
+
+midcore - requiring players to make time to play, rather than playing opportunistically or sporadically.
+
+[Max Derrat - best ](https://youtu.be/kwlGiLuRBB8)

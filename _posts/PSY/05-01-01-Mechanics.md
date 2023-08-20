@@ -10,7 +10,17 @@ tags:
 permalink: /gamemechanics/
 ---
 
+s9d meiers psychologyy of game design _ https://youtu.be/MtzCLd93SyU
 
+
+
+
+
+
+Melee > projectiles > hitscan
+Charge > stay back
+
+szybkosc projectaili - wpływa na dystancs w ktorym jest walka. !
 
 
 
@@ -126,7 +136,8 @@ Repeated battles for the sole purpose of increasing party level, stats
 Repeated battles for the sole purpose of finding a rare item drop
 ###### Backward pedaling
 doom 2016 forrowrd combad - build forroward momentum from glory kills  
-
+###### Camping
+like in gears
 
 
 
@@ -383,6 +394,20 @@ https://datagenetics.com/blog.html !!!!,
 
 ##### Mertics
 
+Prevent yourself from opinions, and look how they releated to team finish goal.
+Outline golas and define cucces. Separate facts  (metrics) form opinions and use fact for understanding (analytic).  and guide decision makeing.
+What you are bulding / Why / Who for << this define goals.
+
+|Metrics|Analytics|
+|---|---|
+Mathematics | Social science
+Tangible | Intangible
+Past | Future
+Information | Transformation
+Gathering | Asking questions
+Reporting | Analyzing
+
+
 ##### Statistical analysis
 how to calculate when have probability
 ... you are threat it as probability
@@ -431,3 +456,7 @@ mann-whitney test -
 ---
 
 game theroy config that preclude domininat solutions - non nash equilibrium games
+
+
+
+stelth is a puzzle stelthGamerBR YT

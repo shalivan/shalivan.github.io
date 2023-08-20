@@ -43,16 +43,12 @@ checking if  @group_name == 1.
 
 #### Read from other class
 
-`attrib` / `detail`/`prim`/`point`/`vertex`
-
-`point(0, 'foo', int pointnumber)` - Without existence check - These functions return the attribute value if the given detail/primitive/point/vertex exists and has the given attribute, or a zero/empty value otherwise.
-
-`pointattrib(0, 'foo', int pointnumber, int &success)` -
+- `attrib` / `detail`/`prim`/`point`/`vertex`
+- `point(0, 'foo', int pointnumber)` - Without existence check - These functions return the attribute value if the given detail/primitive/point/vertex exists and has the given attribute, or a zero/empty value otherwise.
+- `pointattrib(0, 'foo', int pointnumber, int &success)` -
 With existence check - distinguish between the attribute value actually being zero/empty vs. the function returning zero/empty value
-
-`attrib`
-
-`getattribute()` - more complex
+- `attrib`
+- `getattribute()` - more complex
 
 
 #### Read form other input
@@ -68,7 +64,7 @@ f@attrib = f@input1_attrib;
 
 ## Write
 
-`setpointattrib(0,"foo",@ptnum, point(1,"foo",@ptnum), "set")`
+- `setpointattrib(0,"foo",@ptnum, point(1,"foo",@ptnum), "set")`
 
 
 # Expressions
@@ -183,7 +179,7 @@ VExpression
 - `v@N.y<0` - add to group primitives with normal down.
 
 
-#### [Point] SOP
+#### [Attribute expresion] SOP
 
 Vexpression:  
 - `self` - pass Trough    

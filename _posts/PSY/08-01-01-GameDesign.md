@@ -10,6 +10,20 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
+
+[The Gamer's Brain: How Neuroscience and UX Can Impact Design](https://youtu.be/XIpDLa585ao)
+
+https://www.gamedeveloper.com/blogs/the-cognitive-science-behind-games-user-research
+
+
+https://www.psychologyofgames.com
+
+https://www.psychologyofgames.com/2011/03/the-unit-effect-and-player-perceptions/
+
+Exploration loop /  
+Combat loop
+---
+
 + power celling - in progression
 + resource  management - how you budget power over time.
 + cost curve
@@ -683,3 +697,25 @@ What we are doing why it maters and what are the consequences
 
 how to:
 - by connecting main ideas
+
+
+
+https://gamedesignconcepts.wordpress.com/
+
+
+How Game Designers Create Systemic Games | Emergence, Dynamic Narrative and Systems in Game Design
+https://youtu.be/OrmyLaLCaIo
+
+The Freedom Fallacy: Understanding "Player Autonomy" in Game Design
+https://www.youtube.com/watch?v=3vct13OhIio&ab_channel=GDC
+
+Rules of the Game: Five Further Techniques from Rather Clever Designers
+https://www.youtube.com/watch?v=bh5oqH1Dv8g&ab_channel=GDC
+
+Rules of the Game: Another Five Techniques from Particularly Crafty Designers
+https://www.youtube.com/watch?v=MVq1-y7ailE&ab_channel=GDC
+
+https://youtu.be/3YXGcw1tvtc
+
+
+https://www.youtube.com/@PeopleMakeGames
