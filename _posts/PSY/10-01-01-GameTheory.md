@@ -340,13 +340,19 @@ https://www.youtube.com/c/Gametheory101/videos
 https://www.youtube.com/c/PrimerLearning/videos  
 
 
+#### Edge:
+kelly cryteria
+- max rate of growth should bet small on each
+
+- stay in the game long enough to let law of probabilyty work
+- invest more when have more edge
+- under/overbet is bad. - excexs leverage will wipe you out
+- 20% of stack  
 
 --
 
-
 # Bargaining
 Bargening dynamics get really complicated really quickly.
-
 
 | ||
 | ---| ---|

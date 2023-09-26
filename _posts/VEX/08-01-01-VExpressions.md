@@ -10,8 +10,7 @@ tags:
 permalink: /vexpressions/
 ---
 
-
-https://www.thebrainextension.com/     
+https://vfxbrain.wordpress.com/
 
 
 [SOP Vexpression.hiplc](/src/hip/SOP_Vexpression.hiplc)  
@@ -30,11 +29,20 @@ checking if  @group_name == 1.
 # Attirb
 
 
+Visualize n-gons with VEX
+```
+if (primvertexcount(0, @primnum) > 4)
+{@Cd = set(1, 0, 0);}
+```
+---
 
+@ptnum == `npoints(0)-1`
+or alternatively:
 
+@ptnum == @numpt-1
+If you happen to want 1st AND last point at the same time, you can use this expression:
 
-
-
+@ptnum%(@numpt-1)==0
 
 
 ## Read
@@ -255,49 +263,6 @@ This will work as long as the data being fed in is the type of data the paramete
 - `op:/obj/geo/MyNode` = ``` op: `opfullpath(“../../MyNode”)` ``` - For relative path use opfullpath    
 - ``` point("op:`opfullpath("../../null1")`","Cd",@ptnum) ``` - Copy color from points of other node  
 - ``` s@instancepath = sprintf(op:../../var_%s, VariantEnding); ```-
-
-
----
-
-# Attributes
-
-Base
-- `v@N` (vert) -  
-- `@P`, `v@rest`, `v@Cd`, `i@id`, `@Alpha` (point)  
-
-Material
-- `s@shop_materialpath` (prim) - only material parameters of those belonging to the /nodes/shop/principledshader shader are recognized
-- `s@fbx_material_name` (prim)
-- `@material_override`
-
-Manage
-- `s@name` (prim): joints names, differentiate parts !
-- `s@name` (points): RBD same name = same object. "piece*"
-- `i@class` (prim) -  , reserved to connectivity  // connectivity / delete small pieces / nodes.    
-- `i@id` -  particles, ctrl points for animation     
-- `s@tag` - string in new scatter, tree
-- `i@variation` - copy to point / new scatter
-
-Uv
-- `v@uv` (vert)
-- `v@uv1` (vert)
-- `i@udim=1001;` (prim)
-- `i@island=3;` (prim)  
-
-Unreal
-- `s@unreal_input_mesh_name` (prim)
-- `i@unreal_nanite_enabled = 1` (detail)
-
-
-Character FBX   
-- `@boneCapture` (point) on the skin geometry - defines the skinning weights.  
-- `@clipinfo` (point) Current animation range and sample rate as well as the original animation range and sample rate of the imported animation.   
-- `s@name` (point) - unique name across all points used for identification. (only used if the `path` point is missing).  
-- `@path` (point) hierarchical path of FBX node that corresponds to the point. It is created when FBX files are imported by the FBX Animation Import or FBX Character Import nodes. This path is used to identify where to export the point transforms.  
-- `@scaleinheritance` (point) specifies the scaling behavior when performing local transformations. See combinelocaltransform and extractlocaltransform  
-- `@transform` (point) 3×3 matrixworld transform for the point. While the world position of the point is still P, this transform encodes the world transform’s rotation, scale, and shear components.  
-
-
 
 
 ---

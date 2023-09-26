@@ -12,6 +12,8 @@ permalink: /foliage/
 https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4
 
 ----
+bruno moulia
+
 
 # Vegetation
 
@@ -209,6 +211,10 @@ On toolbar
 
 #### Grass
 grass - https://www.artstation.com/artwork/qQVZqR
+
+- off specular on bottom
+-
+
 
 #### Moss
 

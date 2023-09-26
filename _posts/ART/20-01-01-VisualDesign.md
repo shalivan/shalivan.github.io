@@ -290,6 +290,7 @@ Triangle of Representation -lends a non-linear sliding scale of representation t
 ---
 
 ## Typography
+
 https://www.playforthoughts.com/blog/how-to-design-a-logo-from-scratch-ultimate-guide
 
 TYPEFACE
@@ -325,17 +326,14 @@ international style > american corporation > pap culture of ;50 , '60. a lot of 
 
  mac >  
 
- 1994 - comic sans
+1994 - comic sans
 
 Trajan - movie poster fornt
 
 2000-  digital > more complex > maximalizm
 
 **Impact** - font for meme .
-
-
-***Lobster** - evety
-
+***Lobster** - events
 
 
  =====
@@ -344,6 +342,16 @@ Trajan - movie poster fornt
 
 In typography, a dingbat is an ornament, specifically, a glyph used in typesetting, often employed to create
 ```
+
+
+
+https://fonts.google.com/knowledge/introducing_type
+https://fonts.google.com/knowledge/choosing_type
+https://fonts.google.com/knowledge/using_type
+
+https://en.wikipedia.org/wiki/O_%28Cyrillic%29#/media/File:Cyrillic_letter_O_-_uppercase_and_lowercase.svg
+https://twitter.com/jgspace_design/status/1698335609771946139
+
 
 #####
 

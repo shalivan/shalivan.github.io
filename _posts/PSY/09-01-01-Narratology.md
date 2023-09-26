@@ -230,7 +230,21 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 [//]: # (https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html)
 
 
+## Conflict
+Classical
+- man vs nature
+- man vs man
+- man vs god
 
+Modern
+- man vs society
+- man vs self
+- man vs no god
+
+Postmodern
+- man vs technology
+- man vs reality
+- man vs autor
 
 
 # Structure Elements
@@ -403,6 +417,11 @@ Call to noble action
 
 http://www.gcschools.net/gms/sandel/dates/SYMBOLS%20AND%20ARCHETYPES.htm
 
+
+
+essential themes:
+- growth
+- lost and found
 
 ## Archetypal Symbolic
 Object color items emojis, familiar in daily life, yet that possesses specific connotations in addition to its conventional and obvious meaning
