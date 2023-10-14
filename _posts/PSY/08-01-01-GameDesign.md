@@ -10,6 +10,30 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
+extraction / waves / roug /
+resources / gune type - speed reload recoil auto aim  
+scary place /
+
+===NEW
+natural patterns lerners
+- whenever we run out of things to lern we get bored
+match personal interest  to easy/dificulty, to fast or slow timing, find way to cheat
+
+paterns:
+(helpfull in evolution)
+- calculating odds and prediction of events
+- social status pattern < most addictive
+- spatial reasoning < think ahead of time and figure out puzzle
+- memory - counting cards
+- visceral responses
+- teamwork
+
+
+
+===
+
+https://pixelprospector.com/#archive
+
 
 [The Gamer's Brain: How Neuroscience and UX Can Impact Design](https://youtu.be/XIpDLa585ao)
 
@@ -572,6 +596,8 @@ slow pase - time to think
 [Game Design](/gamedesign/)
 
 
+# Balancing
+BUFF vs NERF
 
 # Genre taxonomy
 Is flexible.
@@ -598,7 +624,6 @@ Midore
   - tactical
   - PvP
   - PvE  
-
 
 - RPG
   - Action

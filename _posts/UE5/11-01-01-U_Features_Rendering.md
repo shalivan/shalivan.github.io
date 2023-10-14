@@ -12,6 +12,77 @@ tags:
 permalink: /urendering/
 ---
 
+"Tech:
+Fixed v-sync being unavailable when only DLSS SR is on but not FG. Now only FG disables v-sync community request "
+
+
+Can you actually revert this. Unless you are setting a frame rate limiit in the Nvidia control panel, (with gsync , or freesync premium or vrr monitors).  You still need to use V-sync enabled to cap the fps above the monitors refresh rate.  Typically most people will cap there fps 1-5 fps below the monitors max refresh rate ( that is how gsync and freesync works .) If you don't want to use a framerate  limiter, you still need v-sync to use Gsync even if you are using frame generation.
+TLDR: if using Gsync or Gsync with Frame Geneation , you need to either cap fps 1-5 below max refresh rate, and or have V-sync enabled .
+
+
+
+
+HOW TO UE5:
+
+build modular pieces with same materials!
+
+
+NANITE  
+
+hardwar / software rasterisation <<< check one for small another for big near trix
+
+- instances for cpu - less actors
+- hlod - racze dl dlow end hardware
+not to much polys
+- disk size can be big
+
+
+- keep max (fix fn rasterisation) FFR  
+ - WPO disable
+ - opaque mat
+
+overdraw
+- overlaping geo
+-closely stack togh geo
+- paint mat ?
+
+minimize bins
+
+
+LUMEN
+https://youtu.be/Cb63bHkWkwk?t=6971
+
+lumen can cost
+- 4ms for 60fps
+
+SWRT vs HWRT
+HWRT -  rtx cards
+- ray triangles  - good for mirrors and details
+SWRT  - lwoer acuracy  
+- distance firleds instead of triangles
+
+
+!! scene lighting
+!! screen probe
+!! reflections
+
+assync compute
+responsiveness
+mesh and scene construction
+
+PART2:
+
+# Virtual shadow maps
+uwazac
+- shadow depths
+  - cache invalidations
+  - geometry
+- shadow projection
+  - ray count
+  - prnumbra size 
+
+=========================================================================
+
 
 [Unreal Light & Atmosphere](/uelight/)     
 

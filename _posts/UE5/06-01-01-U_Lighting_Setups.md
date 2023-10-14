@@ -75,7 +75,7 @@ Scatter Uniform-ish on the molecules smallest size than 1/10 of photon wave leng
 
 
 - `■` `Color` - Effect color   
-- `x` `Rayleigh Scattering Scale` - **0,0331** for Earth. - 0.0 Black sky, white Sun - 1.0 more like opposite to selected  color
+- `x` `Rayleigh Scattering Scale` - **0,0331** for Earth. - 0.0 Black sky (no scattering), white Sun - 1.0 more like opposite to selected  color
 - `F` `Exponential Distribution` - **8 km** Z falloff - 1 black  - 20 (more intense, caused by thicker layer)
 
 
@@ -137,36 +137,44 @@ Shape of sky dome mesh is important when using some of these expressions since t
 
 
 
-### Traditional Sky dome
+### Sky dome - Traditional
 
 ##### Material
-- `Atmosphere Light Vector` - Sun Angle of dir.   
-- `Atmosphere Light Color` -         
-- `Atmosphere Light Vector` -   
-- `Atmosphere Fog Color` -  
+- `Atmosphere Light Vector` - **Angle** - of sun dir.   
+- `Atmosphere Light Color` - Cd light         
+- `Atmosphere Fog Color` - Cd fog
 
-### Atmosphere Sky
-Settings: `Sky Atmosphere Compatible Material` - Enable     
-Material: `Is Sky`, `Opaque`, `Unlit`    
-Skybox: `No Cast Shadow`, `No Distance Field`  
-
-#####  Material
-Sky + Sun + (Cloud*mask):
-- `Sky Atmosphere Light Disc Luminance` [0] -  **Sun**(sun circle on skybox)     
-- `Sky Atmosphere View Luminance` - **Sky** (skybox)   
-- `Sky Atmosphere Distant Light Scattered Luminance` * `mask` - **Cloud sky color** (like atmoshere ambient tint)
-
-For smoke particle (M_SkyTimeOfDay) (Translucent):
-- `Sky Atmosphere Light Direction` - Sun Angle of dir. Check if day - ( * 5 > clamp > lerp sun low/high)  
-- `Sky Atmosphere Aerial Perspective` - How wide glow/tint is   
-- `Sky Atmosphere Light Luminance` - intensity/color of sunlight hitting atmosphere  
-
-
-### HDR Sky
+### Sky HDR
 
 HDR sky: If exposure is to high (dark) you must multiply a lot HDR. Sky intensity will not work. If HDR have lot of stops wun will have huge values. But you cannot check value of sky in area.  
 
 Default Auto cam:  Shutter 60 ISO 100 f-stop:4.   30000 -125000 lux sun light. sky luminance: 5000 cd/m2  
+
+
+### Sky dome - SkyAtmosphere
+Settings: `Sky Atmosphere Compatible Material` - Enable     
+Material: `Is Sky`, `Opaque`, `Unlit`    
+Mesh: `No Cast Shadow`, `No Distance Field`  
+
+#####  Material
+Sky + Sun + (Cloud*mask):     
+- `Sky Atmosphere View Luminance` - **Sky color** - (final sky gradient with cutoff below horizon)   
+- `Sky Atmosphere Light Disc Luminance` [0] -  **Sun circle** - (draw circle on skybox)
+- `Sky Atmosphere Distant Light Scattered Luminance` * `mask` - **Cloud color** - (like atmoshere ambient tint [ raylight scatter & foga colors]) Ambient light / tint
+
+
+
+
+### Clouds & Smoke - SkyAtmosphere
+For smoke particle (M_SkyTimeOfDay) (Translucent & without isSky property):
+
+- `Sky Atmosphere Aerial Perspective` - **Fog ..** - How wide/glow/tint sun    (color but ) Sun white glow and tint - wider glow of sun come from sky.
+- `Sky Atmosphere Light Luminance` [0] - **Sun color /intensity** - light hitting atmosphere  [NOT ALWAYS VISIBLE] LIGHTER (color = color of light at 1 lumen )
+- `Sky Atmosphere Light Direction` - **Angle** - of sun dir. Check if day - ( * 5 > clamp > lerp sun low/high)  
+
+new:
+- Atmosphere sun light luminance on ground < SUN COLOR 1:1 DARKER (same as light at 10 lumens)
+
 
 
 
@@ -174,7 +182,9 @@ Default Auto cam:  Shutter 60 ISO 100 f-stop:4.   30000 -125000 lux sun light. s
 
 
 ## Height Fog
-With Atmosphere are ADDITIVE So basic setup black
+Height fog is additive so to get it to work with SkyAtmosphere
+- support sky atmosphere affecting height fog
+- both colors to black
 
 ### Inscattering
 - `■` `Color`  - Inscattering   

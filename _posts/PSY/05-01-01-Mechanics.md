@@ -249,6 +249,7 @@ how much weapons / how get new and ammo ...
 upgread trees
 pase - of new tools and mechanics  2.
 
+
 ## AI
 
 [YT rainworld 2d ai](https://youtu.be/hOsYTzd0yeA) -
@@ -460,3 +461,8 @@ game theroy config that preclude domininat solutions - non nash equilibrium game
 
 
 stelth is a puzzle stelthGamerBR YT
+
+Exapmple mechanics for single player shooters:
+- extraction
+- rouglike
+- 

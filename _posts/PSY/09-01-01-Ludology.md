@@ -140,7 +140,7 @@ Avoid Red Herring (something that misleads or distracts from a relevant or impor
 
 
 ##  Embedded / Explicit
-Embedded narratives are pre-determined stories. The game creators decide the narrative and the player follows their direction.
+Embedded narratives are pre-determined stories, defined by author. The game creators decide the narrative and the player follows their direction.
 player can’t influence  backstory.
 
 **Text written narrator**. explicit things are explained.  (cutscenes). In literature: An explicit narrator is a narrator or character in a story that is the one telling the story.
@@ -190,8 +190,9 @@ In gmaes, mostly UI:
  ```
 
 
-## Evocative / Implicit
-Implied - Suggested but not directly expressed. Arises **from visual cues** that create the barest impression of a story in the minds of viewers. It is the act of withholding the whole story, rather than the attempt to visually illustrate the story, that defines these images. player must figure out itself
+## Evocative Narrative /  Enviromental Storyteling
+Implicitly construcred by the player
+Implied - Suggested but not directly expressed. Arises **from visual cues** or stmbols that create the barest impression of a story in the minds of viewers. It is the act of withholding the whole story, rather than the attempt to visually illustrate the story, that defines these images. player must figure out itself
 
 Most immersive type of narration ! - it s the world speak and player will find their own story  
 
@@ -215,7 +216,7 @@ Required deductive resoning, - connect details to create story. Investigative an
  - (piano in the kitchen > hole > music room upstairs)
 
 
-## Emergent
+## Emergent Narrative.
 Emergent - make own story  with tools we get (author rules), but not direct writer expression      
 Mechanics in narration - implement plot in mechanics  
 
