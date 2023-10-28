@@ -11,17 +11,19 @@ tags:
 permalink: /leveldesign/
 ---
 
-A Practical Guide to Level Design From Theory to Practice, Diplomacy, and Production" new book > https://youtu.be/8wEt8bCNvg8    
-
-
-
-
 - Control environment instead of camera like in movies.
 - Contain: aesthetic + functionality
 - LD driven by mechanics.
   - High level: - [Environmental storytelling](/ludology/)
   - Medium level: - Level Design
   - Low level: - [World Building / Lore](/lore/)
+
+- melee vs range
+- mobility vs stability
+- bruteforce vs Ingenuity (create own timing windows , distract enemy) (code braking - open paths)
+- combar vs stelth (wait for oportunity time window)
+
+- generic path most dificult,
 
 
 # Concept
@@ -35,7 +37,7 @@ A Practical Guide to Level Design From Theory to Practice, Diplomacy, and Produc
 - Giving the player depth cues by  reference   
 - Obj with fixed size = car, without = tree    
 - Signposting  
-
+- learn > play > challenge > surprise
 
 
 ## Production Constraints & Direction   
@@ -78,37 +80,41 @@ Players action loop: Typically in a vantage point area, where we can survey, ori
 
 
 ## Saliency
-**Where to look** - Attention garbing. Control where player and cam look.  
+**Where to look**   
+Attention garbing. Control where player and cam look.  
 
-  - **Bottom up Saliency** - Contrast, movement  (Stronger in cinema cause we are chilling)
-  - **Top-Down Saliency** - Humans (meaning), NowSilent (We care now) (Stronger in goal/task orient mode) Human faces, people, things associated with our current task/goal (attentional goals).  
+### Bottom up
+- Contrast, movement  (Stronger in cinema cause we are chilling)
 
-**Attentional goals**  help players notice and pay attention to things  - (which can mean you become more ‘blind’ to other things). a locked gate they might assume the goal forward is to open the gate (even though the solution is to climb out a window).It’s also worth noting that if players are already focused on something  else
+### Top Down
+- Humans (meaning), NowSilent (We care now) (Stronger in goal/task orient mode) Human faces, people, things associated with our current task/goal (attentional goals).  
+
+**Attentional goals**  help players notice and pay attention to things  - (which can mean you become more ‘blind’ to other things). a locked gate they might assume the goal forward is to open the gate (even though the solution is to climb out a window).It’s also worth noting that if players are already focused on something else ...
 
 
 ## Affordances
-**Where to go / what are possible actions** provide strong clues to the operations of things. Control what players believe is usable -  Windows afford to looking through.  Doors for enter, slots for inserting, knobs for turning, buton for press, flips for switch.      
-
-.
-
-- **Positive** - Afford to be used   
-- **Negative** - Doesn’t afford to be used and can’t be  / Nope zone
-- **False** - ! looks like it affords to be used but can’t
-
-.
-
-- **Objects** - Machines, doors...
+**Where to go**   
+Possibles of potential actions. Provide strong clues to the operations of things. Control what players believe is usable.  
+- **Objects** -  Windows afford to looking through.  Doors for enter, slots for inserting, knobs for turning, buton for press, flips for switch, Machines to use
 - **Surface**  - floor. we walk to affordance surface to walk. along longest sight lights. (or somewhere else if there could be price)
+- **Lights**
 
+### Positive
+Afford to be used
 
-### Encourage
-
+Way of Encourage player to take action
 - **Mystery** - If there is information to learn `Whining` - landmark with mystery element
 - **Teasing** - Show what you can get yet.
 - **Collectables**
 - high level long term goals. not pull a leaver.
 
 
+### Negative
+Doesn’t afford to be used and can’t be  / Nope zone
+
+
+### False
+looks like it affords to be used but can’t
 
 # Space
 
@@ -121,8 +127,8 @@ Composing 3d to view in 2d (flat monitor) like composition rules
 - Depth perception vs. real space
 
 ## Orientation
-
-**where I am**  In games Perceptual pattern to create Orientation  
+**where I am**    
+In games Perceptual pattern to create Orientation  
 - Signposting (characteristic to area, or showing way)
 - Divide to district /  (to distinct at map and mind )
 
@@ -222,6 +228,7 @@ https://andrewyoderdesign.blog/2019/08/04/the-door-problem-of-combat-design/
 for multiplayers
 
 https://www.raphkoster.com/games/presentations/small-worlds-competitive-and-cooperative-structures-in-online-worlds/
+
 ### Line of sight
 - Horizontal LoS
 - Vertical LoS
@@ -245,8 +252,8 @@ ELements:
 - Geography
 - Biology
 - Chemistry / Mechanics
-- Culture History Geo POlitics
--
+- Culture History Geo Politics
+
 
 
 
@@ -321,6 +328,9 @@ valves | one way,  keep pushing players forward
 (book: design of normal things don norman)  
 (roberto rengel: shaping interior space)    
 [doc](https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/preview?pru=AAABcubYTrs*65ZuXXMNJriddYR6IXE8Ag#), [pod](https://www.psychologyofgames.com/2020/01/podcast-55-the-psychology-of-level-design/)   
+
+
+> book: A Practical Guide to Level Design From Theory to Practice, Diplomacy, and Production"  https://youtu.be/8wEt8bCNvg8    
 
 
 https://www.youtube.com/c/LevelDesignLobby/videos  
