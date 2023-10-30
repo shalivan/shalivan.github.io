@@ -11,6 +11,21 @@ tags:
 permalink: /narratology/
 ---
 
+tension, structure, pasing
+
+- living up to moral ideas
+- power develop with character - things should feel earned (predictable , consistent) Uwaga na power creap ! Dont break a power celling (ktos cos nagle umie )
+- emotions are not predictable
+- internal / external conflict conected
+- trension between 2 polar oposites - to be somwhere between and chose
+
+
+.
+
+- slow pase allow to embrace detail
+- tension - waiting
+
+
 narrativizing information. there is story behind data banks (not only informative)- hard.   
 in horror - you can not know. because it will destroy scare.
 
@@ -144,6 +159,7 @@ She / He Her / His - External narrator is telling the story.    Commentator / In
 
 # Structure
 
+Dont subvert expectations. to not make reader/viewers desapointed
 
 
 `why who where what when how `
@@ -197,7 +213,7 @@ When do multiple stories: nest one inside other.
 
 
 ## Narrative Arc
-Narrative arc make  viewer curious how story will end
+Narrative arc make  viewer curious how story will end. You need to fulfill the ark of every character.
 
 **Exposition** - settings and places   opening  during the story object can inherit meaning and emotional value    
 **Rising Action** - move plot forward, establish conflict     

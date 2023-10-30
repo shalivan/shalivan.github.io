@@ -10,9 +10,17 @@ tags:
 - Gameplay
 permalink: /gamedesign/
 ---
+
+
+
 extraction / waves / roug /
 resources / gune type - speed reload recoil auto aim  
 scary place /
+try and error - souslike
+telegraphing attacs
+
+/// dont subvert expectations. to not make player desapointed ///
+
 
 ===NEW
 natural patterns lerners

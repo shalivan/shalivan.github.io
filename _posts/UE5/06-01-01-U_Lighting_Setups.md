@@ -139,7 +139,7 @@ Shape of sky dome mesh is important when using some of these expressions since t
 
 ### Sky dome - Traditional
 
-##### Material
+**Material setup**  
 - `Atmosphere Light Vector` - **Angle** - of sun dir.   
 - `Atmosphere Light Color` - Cd light         
 - `Atmosphere Fog Color` - Cd fog
@@ -151,13 +151,14 @@ HDR sky: If exposure is to high (dark) you must multiply a lot HDR. Sky intensit
 Default Auto cam:  Shutter 60 ISO 100 f-stop:4.   30000 -125000 lux sun light. sky luminance: 5000 cd/m2  
 
 
-### Sky dome - SkyAtmosphere
-Settings: `Sky Atmosphere Compatible Material` - Enable     
-Material: `Is Sky`, `Opaque`, `Unlit`    
-Mesh: `No Cast Shadow`, `No Distance Field`  
 
-#####  Material
-Sky + Sun + (Cloud*mask):     
+### Sky dome - SkyAtmosphere
+**Material properties**  
+- Settings: `Sky Atmosphere Compatible Material` - Enable     
+- Material: `Is Sky`, `Opaque`, `Unlit`    
+- Mesh: `No Cast Shadow`, `No Distance Field`  
+
+**Material setup:** - Sky + Sun + (Cloud*mask):     
 - `Sky Atmosphere View Luminance` - **Sky color** - (final sky gradient with cutoff below horizon)   
 - `Sky Atmosphere Light Disc Luminance` [0] -  **Sun circle** - (draw circle on skybox)
 - `Sky Atmosphere Distant Light Scattered Luminance` * `mask` - **Cloud color** - (like atmoshere ambient tint [ raylight scatter & foga colors]) Ambient light / tint
@@ -166,8 +167,8 @@ Sky + Sun + (Cloud*mask):
 
 
 ### Clouds & Smoke - SkyAtmosphere
-For smoke particle (M_SkyTimeOfDay) (Translucent & without isSky property):
 
+**For smoke particle** (M_SkyTimeOfDay) (Translucent & without isSky property):
 - `Sky Atmosphere Aerial Perspective` - **Fog ..** - How wide/glow/tint sun    (color but ) Sun white glow and tint - wider glow of sun come from sky.
 - `Sky Atmosphere Light Luminance` [0] - **Sun color /intensity** - light hitting atmosphere  [NOT ALWAYS VISIBLE] LIGHTER (color = color of light at 1 lumen )
 - `Sky Atmosphere Light Direction` - **Angle** - of sun dir. Check if day - ( * 5 > clamp > lerp sun low/high)  

@@ -11,19 +11,12 @@ tags:
 permalink: /ludology/
 ---
 
-Fulfill the ark of every character.
+https://www.katexagoraris.com/procedural-storytelling-visual-effe    
+https://www.ludonarracon.com/  
+https://trello.com/b/AM3ZOmAd/level-design-compendium     
+https://www.thevideogamelibrary.org/book/procedural-generation-in-game-design      
+[YT rozprawki: PixelaDay](https://www.youtube.com/c/PixelaDay/videos)   
 
-
-https://www.katexagoraris.com/procedural-storytelling-visual-effe
-
-
-
-https://trello.com/b/AM3ZOmAd/level-design-compendium   
-https://www.thevideogamelibrary.org/book/procedural-generation-in-game-design  
-
-[YT rozprawki: PixelaDay](https://www.youtube.com/c/PixelaDay/videos)
-
-/// dont subvert expectations. to not make player desapointed ///
 
 
 !!! procedural shatter in story: - hadncrafted but procedural hard to control pace of narrative bits. (embrace it) > few things in linear fashion
@@ -69,7 +62,8 @@ how they SEEM (TRAIT) - not important
 ```
 # Ludology
 
-In linear movies we say: **show don't tell**, in interactive entertinment it convert to **do don't show**.
+In linear movies we say: **show don't tell**, in interactive entertinment it convert to **play**, **do don't show**. But we should use every method in herarchy just in good proportions.
+(sometimes is quicker, cheaper and more efficient to tell)
 
 **Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
@@ -107,9 +101,16 @@ See or listen not as powerful as play themselves:
 - General design process: Empathize > Define > Ideate > Prototype > test
 
 
-## Agency / Autonomy
-the abstract principle that autonomous beings, agents, are capable of acting by themselves; see autonomy  
-From a game design perspective, Player Agency is the player's ability to impact the story through the game design or gameplay1
+## Agency
+It's about degree of control and influence a player has over the game world and its narrative. It's about the choices and actions a player can take within the confines of the game.
+(player's ability to impact the story through the game design or gameplay)
+
+##  Autonomy
+It's about the player's ability to decide how they want to engage with the game, even if the choices are limited.
+the abstract principle that autonomous beings, agents, are capable of acting by themselves.
+
+
+## ?
 
 - is player forced like with cutscene but can join narrative lore when he want    
 - create problem not puzzle   
@@ -126,8 +127,6 @@ From a game design perspective, Player Agency is the player's ability to impact 
 Outward Inward / Individual Bonding
 
 Feeling being in control.
-
----
 
 1. what to communicate
 2. what emotions

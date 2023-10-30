@@ -53,8 +53,10 @@ float r = distance(p1,p2);
 
 
 ## XYZ Dist
-`[xyzdist()](https://www.sidefx.com/docs/houdini/vex/functions/xyzdist.html) / [PrimUV](https://www.sidefx.com/docs/houdini/vex/functions/primuv.html)` - need to know the nearest @primnum and uv   
-`primuv()` - interpolated value of an attribute over the parametric surface of the primitive `primuv(2, "P", posprim, primuv)`
+[Hou doc xyzdist()](https://www.sidefx.com/docs/houdini/vex/functions/xyzdist.html)    
+[Hou doc PrimUV](https://www.sidefx.com/docs/houdini/vex/functions/primuv.html) - need to know the nearest @primnum and uv   
+`primuv()` - interpolated value of an attribute over the parametric surface of the primitive
+`primuv(2, "P", posprim, primuv)`
 
 
 
@@ -75,19 +77,21 @@ vector pos = primuv(2, "P", posprim, primuv);
 
 
 
-## Nearpoints
+## Nearpoint(s)
+Use spatial proximity (closest point in a geometry)
 `nearpoint()` -   
 [`nearpoints()`](https://www.sidefx.com/docs/houdini/vex/functions/nearpoints.html) -   
 
-Closest point in a geometry
 
 `i@nearpt = nearpoints(0, @P, 1e34, 2)[1:][0];` - All the closest point in a geometry (not self)    
 
+int pts[] = {1,2,3,4};
 
 
 
-## Neighbours
-points that share an edge with a given point  
+
+## Neighbour(s)
+Return connected points (that share an edge with a given point)  
 `Group Expand SOP` - Attribute is spread to its connected neighbors    
 
 [`neighbour()`](https://www.sidefx.com/docs/houdini/vex/functions/neighbours.html) -      
@@ -180,6 +184,15 @@ https://voxelpixel.xyz/2020/05/27/houdini-vex-distance-and-neighbours/
 [`pcfind`](https://www.sidefx.com/docs/houdini/vex/functions/pcfind.html) - [] List of closest points (nearpoints) `pcfind(1,'P',@P,ch('d'),25);`   
 `pcfind_radius(1,"P","pscale", 1.0, @P, maxdist, maxpts);` - [] List of closest points taking into account their radius      
 `pcfarthest()` Returns the distance to the farthest point found in the search performed by pcopen.   
+
+
+**Nearest point distance**
+```cpp
+int handle = pcopen(0,"P",v@P, 111,2);
+float dist = pcimportbyidxf(handle,'point.distance',1);
+@dist_neartst = dist;
+@pscale =  dist;
+```
 
 
 **Blur Attributes**
