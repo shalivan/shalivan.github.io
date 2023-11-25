@@ -11,56 +11,23 @@ tags:
 permalink: /narratology/
 ---
 
-tension, structure, pasing
-
-- living up to moral ideas
-- power develop with character - things should feel earned (predictable , consistent) Uwaga na power creap ! Dont break a power celling (ktos cos nagle umie )
-- emotions are not predictable
-- internal / external conflict conected
-- trension between 2 polar oposites - to be somwhere between and chose
-
-
-.
-
-- slow pase allow to embrace detail
-- tension - waiting
-
-
-narrativizing information. there is story behind data banks (not only informative)- hard.   
-in horror - you can not know. because it will destroy scare.
 
 
 - [Ludology](/ludology/)  
 - [Game Design](/gamedesign/)    
 - [Game Mechanics](/gamemechanics/)    
 - [Lore](/lore/)
-
-
 # Medium
-Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe?)    
-
-Stories emerge from our consciousness and observing ourselves and understand what is what we are doing.
-Successful life when you family, survive and thrive
-
-Film is based on empathy
-
-
-https://taraeast.com/2015/01/30/architect-vs-gardener/
-
-## Architect vs. Gardener
-
-Styles of work differ. Architect is planing everything in advance and gardener is trying to make while progressing throu.
-
+Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe)    
+Stories emerge from our consciousness and observing ourselves and understand what is what we are doing. - successful life when you family, survive and thrive
+Film is based on empathy.
 # Genres
 Stories round campfire > myths > printing press: linearize > Post linear: World building
-
 ## Literary
 **Poetry** (liryka) (podmiot liryczny)  
-**Drama** (bohater) Na scenie  comedy, tragedy, dramat  
+**Drama** (bohater) Na scene  comedy, tragedy, dramat  
 **Fiction / Nonfiction** (epika) (narrator)  nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.  
 Mitologia > Folklor > Fantastyka
-
-
 -  **Parable** (przypowieść)  Parabolic novel which touches on many different issues. Inspired  by: metaphysics, language, culture, technology, ethic and the theoretical origins of human consciousness, creates a thought reaction chain. Postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Fabuła z racji swego przykładowego charakteru  pozostaje silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego. (allegorical moral story)  
 -  **Exemplum** (Stories are examples ) odwołuje się do świata znanego swoim odbiorcom    
 -  **Folktale** - belie with exaggerated characters and obstacles that is passed down over  
@@ -71,48 +38,26 @@ Mitologia > Folklor > Fantastyka
   - Legend - based on real person but cannot be proven
 -  **Science and journalism** (Gatunki pograniczne) to gatunki z pogranicza literatury, nauki i publicystyki, np. esej, felieton, reportaż. Bio
 
-
-
-
-
 ---
-
 # Paradigm
 
 ## Premise
-**Premise is single core statement**, the foundation of story. premise statement is often a familiar expression or cliché. 'Latin words, meaning to put before'   
-**Thematic idea** - drives its structure and delivery   
-**logline** -    
-**synopsis** -
-Every story has one premise. Only one. This premise is the underlying idea of your story-the foundation that supports your entire plot.
-
-Converting a premise into a story isn’t as straightforward as it might seem. The premise can easily become an end in itself, or at least an excuse for why the writer hasn’t included a clear protagonist, a meaningful crisis, or a powerful plot line.
-
-That's because the fundamental concept you create in advance will drive the actions of your characters.
-
-
-##  Story
+**Premise is single core statement**, the foundation of story. premise statement is often a familiar expression or cliché. 'Latin words, meaning to put before'. Every story has one premise. Only one. This premise is the underlying idea of your story-the foundation that supports your entire plot.
+Converting a premise into a story isn’t as straightforward as it might seem. The premise can easily become an end in itself, or at least an excuse for why the writer hasn’t included a clear protagonist, a meaningful crisis, or a powerful plot line. That's because the fundamental concept you create in advance will drive the actions of your characters. You should **not subvert expectations** here. to not make reader/viewers disappointed
+- **Thematic idea** - Drives its structure and delivery ... and suggesting a bigger meaning   
+- **Logline** -   The premise often lives in the “logline”
+## Story
 **Story  tells who and what** - (Internal conflict why it matters, why it matters how change the character ) (Circumstances) - Series of events recorded in their chronological order,  sequence of events. Story includes all of the events described that make up a narrative.  What is the topic, what are the issue. Story is more than one idea.
-
-
   - Unique story or have a twist or something to say.    
   - To what extent do circumstances affect the nature of actions?
-
-##  Plot
+## Plot
 **Plot tells how** -  (External, what happened) (Action) -  With story in mind, you can decide how to plot it. Series of events deliberately arranged so as to reveal their dramatic, thematic, and emotional significance, and create tension.
-
 - **Umbrella plot**  we will do x because core plot of genre
-
+- **Synopsis** - beat for beat retelling of your story's plot
 ### Character vs plot driven story
-Without internal conflict plot have no meaning - why it matters  
-
-
-**Character driven story** - inner transformation and relations with other why something matters to character giving his desires and fears  Move story through action and choices. Character as agent of change.  
-**Plot is external conflict**  - what's happened. Events of the story move story forward and cause character to react    
-
-
-
-
+Without internal conflict plot have no meaning - Question: Why it matters?  
+- **Character driven story** - inner transformation and relations with other why something matters to character giving his desires and fears  Move story through action and choices. Character as agent of change.  
+- **Plot is external conflict**  - what's happened. Events of the story move story forward and cause character to react    
 ## Narration
 **Narrative tells why** - (Description) - Interpretation of the events within the story. point of view of the story. Gameplay, dialog, notes, setting, graphics
 
@@ -122,45 +67,32 @@ Narrative Experience
 
 ### Point of view
 
-||Past|	Present|	Future|
+| |Past|	Present|	Future|
 |---|---|---|---|
-First|	autobiographies|	wills|		shopping lists
-Second	|letters|	adventure books	|ransom notes
-Third|	novels|	plays (theater)	|instructions
-
+|First|	autobiographies|	wills|		shopping lists
+|Second	|letters|	adventure books	|ransom notes
+|Third|	novels|	plays (theater)	|instructions
 #### First-person narrator
-
-I / Me / My - Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character  
-
+**I / Me / My** - Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character  
 – występuje w gatunkach epickich.
-
 Może on być jednym z uczestników opowiadanych wydarzeń, ich świadkiem, kronikarzem lub osobą rekonstruującą minione wypadki. Jego wiedza jest ograniczona – wie jedynie to, czego sam doświadczył, albo co przekazali mu inni.
-
 Opowieść narratora pierwszoosobowego może przyjmować m.in. takie formy jak ustna relacja, autobiografia, pamiętnik, dziennik, listy czy monolog wewnętrzny.
-
 - reliable character telling their own story,
-
 #### Third-person narrator  
-She / He Her / His - External narrator is telling the story.    Commentator / Interviewer
+**She / He Her / His** - External narrator is telling the story.    Commentator / Interviewer
 
-||||
+| | | |
 |---|---|---|
 |Ontological status | **Homodiegetic** (within world, part of story) interviewer | **Heterodiegetic** (outside (commentary / HUD)) detached observer
-| Shapedness of narrator | **Personal** (we know a characteristic of narrator and can picture narrator) | **Non-personal** (Only story is narrated)
+|Shapedness of narrator | **Personal** (we know a characteristic of narrator and can picture narrator) | **Non-personal** (Only story is narrated)
 |Knowledge | **Restricted** | **All-Knowing** - Omnipotent / Omniscient
-| Nature of narrator's utterance act with regards to story world facts | **Representing** (represents already exiting story and world) | **Stipulating**  (stipulates story through narrating)
-
+|Nature of narrator's utterance act with regards to story world facts | **Representing** (represents already exiting story and world) | **Stipulating**  (stipulates story through narrating)
 
 - a character telling another character's story,
 - an unreliable character telling the story.
 
-
 ---
-
 # Structure
-
-Dont subvert expectations. to not make reader/viewers desapointed
-
 
 `why who where what when how `
 
@@ -174,10 +106,6 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - Promise > Progress > Payoff
 - Substitution plot :L give sth else than what expected /harder to write/
 
-#### tension
-tension - disconnect between goal and currrent situation and obsticle between those two
-
-
 ## Three-Act structure
 
 ##### **Setup** >  Introduction / Beginning
@@ -189,16 +117,12 @@ tension - disconnect between goal and currrent situation and obsticle between th
 ##### **Conflict** >  Peak / Twist
 - (tentpole - most expensive mom)  
 
-
 ##### **Resolution**  >  End / Payoff
 - payoff should give u everything from premise of beginning
 character how will change    
 - brain reference to those experience and have impact to long term memory    
 - coming home, return motive
-
 with plot points are between phases  
-
-
 
 ## MICE
 A way to categorize stories, but also a loose guideline on where to start and end a story based on how it’s categorized  
@@ -209,9 +133,6 @@ When do multiple stories: nest one inside other.
 **Character** - Internal Thread  that identity shift. Unhappy about self > Tries to change ways, attempt to break out >  Change  
 **Event** - Action. Sth disturb status quo.> chases, fight > Status q External thread  
 
-
-
-
 ## Narrative Arc
 Narrative arc make  viewer curious how story will end. You need to fulfill the ark of every character.
 
@@ -220,7 +141,6 @@ Narrative arc make  viewer curious how story will end. You need to fulfill the a
 **Climax** - tensest moment of crisis  , confrontation  
 **Falling Action** - move toward ending   denouement  
 **Resolution**  - back to stability  
-
 
 #### Cycles
 
@@ -234,17 +154,13 @@ Narrative arc make  viewer curious how story will end. You need to fulfill the a
    plot expansion: instead of twist /u get more than promised not unexpected change  
    change
 
-
 #### Endgame
 
 .
 
-
-
 Mental Modeling. Sense of mental image of game. that we would like to get.
 
 [//]: # (https://frictionalgames.blogspot.com/2014/04/4-layers-narrative-design-approach.html)
-
 
 ## Conflict
 Classical
@@ -266,7 +182,6 @@ Postmodern
 # Structure Elements
 
 
-
 - Coincidence are bad in story
 - Show a little details that can paint a grander picture.
 - **Strange attractor** new spin on familiar idea or 2 ideas
@@ -274,8 +189,8 @@ Postmodern
 - **Payoff** Response   
 - **Foreshadowing** Plant idea ahead and earlier to connect later  
 - **Mystery** - Red Herring - Fałszywy trop. - murder mistries `who done it` movies. Rather not for games
-- **callbacks** - widly used in hollywood
-- **twist**
+- **Callbacks** - widly used in hollywood
+- **Twist**
 
 ##### Scenes
 - Plot: what happens > the consequences  
@@ -285,14 +200,14 @@ Postmodern
 To much stories in witch the fate of the world was at stake
 Bigger stakes not equal more powerful stories
 
-## Pace
+## Pacing
 **Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
-
-
+- slow pacing allow to embrace detail
+## Tension
+tension - Disconnect between goal and current situation and obstacle between those two. - waiting
 
 ## Exposition
-
-- Explanation is not as fun as phenomena itself.
+Explanation is not as fun as phenomena itself.
 
 ### Exposition Scene in cinema
 
@@ -328,18 +243,18 @@ https://www.laphamsquarterly.org/roundtable/ups-and-downs
 # Dramatic Elements
 
 
-|||
+| | |
 |--|--|
-Focus |  energies into achieving the given goals or objectives of a character in a scene
-Tension | development of tension usually parallels the advancement of the plot, leading to a crisis or climax. Tension is closely linked with timing
-Timing |  to create contrast in a scene or simply to demonstrate robotic, stylised and non-naturalistic movements. Rhythm and pace are affected
-Rhythm | timing and pace of the drama. It also means the beat or tempo h. Rhythm can follow the emotional state
-Contrast  | Without the careful use of contrast a performance is boring and lacks tension. A manipulating the drama to create a change in setting, use of space or rhythm. The pace of scenes can also be altered, as can various dramatic elements within one small section of a performance
-Mood & Atmosphere|  ambience or aura  
-Space | such as sitting, bending over, lying down or crawling. Of course, using the space around
-Language |
-Sound |  
-Symbol | greater meaning than the literal suggestion. ie Color
+|Focus |  energies into achieving the given goals or objectives of a character in a scene
+|Tension | development of tension usually parallels the advancement of the plot, leading to a crisis or climax. Tension is closely linked with timing
+|Timing |  to create contrast in a scene or simply to demonstrate robotic, stylised and non-naturalistic movements. Rhythm and pace are affected
+|Rhythm | timing and pace of the drama. It also means the beat or tempo h. Rhythm can follow the emotional state
+|Contrast  | Without the careful use of contrast a performance is boring and lacks tension. A manipulating the drama to create a change in setting, use of space or rhythm. The pace of scenes can also be altered, as can various dramatic elements within one small section of a performance
+|Mood & Atmosphere|  ambience or aura  
+|Space | such as sitting, bending over, lying down or crawling. Of course, using the space around
+|Language |
+|Sound |  
+|Symbol | greater meaning than the literal suggestion. ie Color
 
 Dramatic moments happening  on screen (cutscenes) are less dramatic because you just look without a control
 
@@ -384,10 +299,7 @@ Universal through shared by all cultures
 Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
 
 - Love, Injustice, Freedom, Honor, Liberty, Vengin, Survival, Fear, Guilt
-
-
-
-
+- love sacrifice  condemnation forgiveness  compassion <<  moral integrity
 
 
 ## Monomyth
@@ -399,17 +311,17 @@ Heroes Journey by Joseph Campbell:
 **Find** >  aproach   
 **Take** >  defeat external > reward   
 **Return** >  more must be done.   
-**Change** > death > resurection > change   
+**Change** > death > resurrection > change   
 
 
 
 ## Archetypal Events
 
 Claim to apply to all people Common to everyone. Help to understand the world, human behavior, and life's big questions  Universal Morals
-Regardles s of cultural origin or when they where created
+Regardless of cultural origin or when they where created
 
 
-|.|||
+|.| | |
 |--|--|--|
 | Initiation |  Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius  The Dynamics of Transformation in the Human Psyche
 | The Journey |
@@ -418,11 +330,10 @@ Regardles s of cultural origin or when they where created
 | Supernatural Intervention |
 | Natural vs technology  |
 | Battle between good and evil  | Obvious forces representing good and evil
-| Belly of beast | Swallow to unknow ie. Enemy headquarter
-| Union of opposites
+| Belly of beast | Swallow to unknow ie. Enemy headquarter|
+| Union of opposites|
 | Rebirth | transformation > caterpillar to butterfly
 | The Ritual |
-
 | Rise Up |  
 | Birth |
 
@@ -439,7 +350,7 @@ essential themes:
 - growth
 - lost and found
 
-## Archetypal Symbolic
+## Archetypal Symbols
 Object color items emojis, familiar in daily life, yet that possesses specific connotations in addition to its conventional and obvious meaning
 Symbols that occur over and over in different versions of a story.
 Add to depth of understanding of stories.
@@ -449,13 +360,13 @@ symbols are anchored in history to ideas
 -  Can be analyzed, but cannot be fully explained
 
 
-|||
+| | |
 |---|---|
 |Weather | Storm, fog,
 |Unhealable wound | sometimes mental
 |Crossing Threshold |
 |Immortality | escape from the time  / endless death and rebirth
-|Pain
+|Pain|
 
 
 
@@ -463,11 +374,11 @@ symbols are anchored in history to ideas
 
 ####  Objects
 
-|||
+| | |
 |--|--|
-Apples |
-Skulls |
-Masks | hide identity
+|Apples |
+|Skulls |
+|Masks | hide identity
 
 
 
@@ -505,7 +416,7 @@ Dynamic (gradient)
 | Mother Nature | Father Society Culture
 
 
-|.||
+|.| |
 |---|---|
 | Linear | Cyclical
 | Chronos time | Kairos Time
@@ -527,7 +438,7 @@ Dynamic (gradient)
 
 
 
-|.||
+|.| |
 |---|---|
 | Creation, Apocalypse  | Deluge (flood) how to conduct yourself if sth. bad happen (prepper)
 | Chaos & Order | positive and negative.  but new things come from unknown
@@ -548,7 +459,7 @@ The Natural Cycle
 
 ####  Season / Life cycle
 
-||||
+| | | |
 |--|--|--|
 |Dawn | Spring  | Birth phase   
 |Zenith | Summer | Marriage   
@@ -615,7 +526,7 @@ Theory developed by Christopher Booker
 a Jung-influenced analysis of stories and their psychological meaning.
 
 
-|||
+| | |
 |--|--|
 Overcoming the Monster | Sets out to defeat an antagonistic force (often evil) which threatens the protagonist and/or protagonist's homeland.   
 Rebirth | An event forces the main character to change their ways and often become a better individual.
@@ -630,17 +541,17 @@ Comedy | Dramatic work in which the central motif is the triumph over adverse ci
 For Genre Analysis by  Georges Polti / Carlo Gozzi
 
 
-|||
+| | |
 |--|--|
 ||Daring enterprise, Deliverance, The enigma, Obtaining
 |Conflict |Rivalry of superior vs. inferior
 ||Adultery ,Disaster, Crime pursued by vengeance, Murderous adultery, Madness,  Remorse
-|| Conflict with a god, Falling prey to cruelty/misfortune
+||Conflict with a god, Falling prey to cruelty/misfortune
 ||Erroneous judgment, Fatal imprudence, Supplication
-Action| Abduction, Revolt, Pursuit
-Sacrifice | Ambition, Self-sacrifice for an ideal ,Self-sacrifice for kin, All sacrificed for passion
-Love | Loss of loved ones, Recovery of a lost one, An enemy loved, Obstacles to love, Discovery of the dishonor of a loved one, Necessity of sacrificing loved ones, Mistaken jealousy, Involuntary crimes of love, Crimes of love
-Kin | Rivalry of kin, Enmity of kin, Vengeance taken for kin upon kin, Slaying of kin unrecognized
+|Action| Abduction, Revolt, Pursuit
+|Sacrifice | Ambition, Self-sacrifice for an ideal ,Self-sacrifice for kin, All sacrificed for passion
+|Love | Loss of loved ones, Recovery of a lost one, An enemy loved, Obstacles to love, Discovery of the dishonor of a loved one, Necessity of sacrificing loved ones, Mistaken jealousy, Involuntary crimes of love, Crimes of love
+|Kin | Rivalry of kin, Enmity of kin, Vengeance taken for kin upon kin, Slaying of kin unrecognized
 
 
 - grab  team , make plan , on piece miss, ll go great (oceans)
@@ -666,19 +577,15 @@ puzzle
 
 ## Protagonist
 
-Driven by external / internal motivations
+Main character. **Character** revile when human characters make choices under pressure. Driven by external / internal motivations.
 
 - name, birth day, age, best friend, worst enemy, places they have been, things they have done,  what want accomplished, what afraid, what like to do, hidden talent, deepest secret, motto, desire, goal, fear, strategy, talent  , competence
 
 
-- **Character** revile when human characters make choices under pressure
-
-choices are only meaningful and reinforces players identity
-
 ## Antagonist
+A person who actively opposes or is hostile to Protagonist. 
 
-
-##  Character Arcs
+## Character Arcs
 change in a
 character and/or his situation is called an arc.
 
@@ -703,7 +610,7 @@ Fundamental problem of life is how to ack. Archetypes hep to find a meaning and 
 [Personalities](/personality/) - Jungian archetypes
 
 
-| Jungian | Purpose | Trait |?||
+| Jungian | Purpose | Trait |?| |
 |---|---|---|---|---|
 | Hero | Leave A Mark (becoming)| Mastery | Mastery | quest / initiation / sacrifice
 | Magician |  | Power | Mastery Belonging
@@ -721,16 +628,16 @@ Fundamental problem of life is how to ack. Archetypes hep to find a meaning and 
 
 
 
-|Campbell|||?|
+|Campbell| | |?|
 |---|---|---|---|
-Hero |  Protagonist |  Attempt to resolve conflict
-Shadow | Opposite of hero | not always a villain
-Mentor | Motivation, inside,  Teaching / giving gifts / bad advices /. motivation conscience, sometimes short lifespans
-Threshold Guardian  | Henchman, guard of special world, check if hero is fully committed  | blocks the progress
-Herald |  Prophets or messengers. don't need to be person (dark clouds above) |  Announce change, deliver  story-kickstarting message,
-Shape Shifter |  On edge of good and bad   | catalysts for crucial story components such as surprises, plot twists, and red herrings
-Trickster | |  Show absurdity of situation, comic relief
-Allies | sidekicks
+|Hero |  Protagonist |  Attempt to resolve conflict
+|Shadow | Opposite of hero | not always a villain
+|Mentor | Motivation, inside,  Teaching / giving gifts / bad advices /. motivation conscience, sometimes short lifespans
+|Threshold Guardian  | Henchman, guard of special world, check if hero is fully committed  | blocks the progress
+|Herald |  Prophets or messengers. don't need to be person (dark clouds above) |  Announce change, deliver  story-kickstarting message,
+|Shape Shifter |  On edge of good and bad   | catalysts for crucial story components such as surprises, plot twists, and red herrings
+|Trickster | |  Show absurdity of situation, comic relief
+|Allies | sidekicks
 
 
 
@@ -752,8 +659,8 @@ Allies | sidekicks
 
 |.|character|ghost|
 |---|---|---|
- impact| |
- no impact| |
+ |impact| |
+ |no impact| |
 
 
 
@@ -793,3 +700,18 @@ What to communicate / What emotions
 
 
 - dystopia
+in horror - you can not know. because it will destroy scare.
+
+
+
+excitement of the mystery - invitation to wander make us tick.     
+
+- living up to moral ideas
+- power develop with character - things should feel earned (predictable , consistent) Uwaga na power creap ! Dont break a power celling (ktos cos nagle umie )
+- emotions are not predictable
+- internal / external conflict conected
+- trension between 2 polar oposites - to be somwhere between and chose
+- 
+.
+
+narrativizing information. there is story behind data banks (not only informative)- hard.   

@@ -36,7 +36,7 @@ Point of contact between mass and space. (formal language create forms)
   - size
   - scale
   - texture
-  - location = position + oreintation
+  - location = position + orientation
 
 
 

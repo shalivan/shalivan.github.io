@@ -196,6 +196,13 @@ If you need to design something in a similar style, reverse engineering lets you
    - Refer to `human scale` and show `relations` with other objects     
    - lot of fog make enviro bigger
 
+### comression and expansion
+how to use space
+- hallway is directional / hall is open
+- shifts are important and build pasing
+-
+
+
 ## Silhouettes
 
  ---

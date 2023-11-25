@@ -12,6 +12,9 @@ permalink: /gamedesign/
 ---
 
 
+choices are only meaningful and reinforces players identity
+strzelaj i nie daj się trafić, zbieraj i buduj, wskakuj na platformy,
+# MECHANICAL & FICTIONAL SIDE OF DESIGN 
 
 extraction / waves / roug /
 resources / gune type - speed reload recoil auto aim  

@@ -12,41 +12,60 @@ tags:
 - Rendering
 permalink: /uoptimization/
 ---
-LLM - lew level memory tracker  (in unreal insights)
-Profile GPU - sinle fram timing
-Dump GPU -
-Gauntlet - automate testing
-
-
-memory speed is slower   
-calculation is every better    
-
-saving mamory boundry !!!!! is much more important than few instructions    
-
-`Asset audit.`      
-`Size map` - take in accound hard refs.   
-`Reference viewer` -     
 
 
 
+
+memory speed is slower     
+calculation is every better      
+saving mamory boundry !!!!! is much more important than few instructions      
 
 Garbage Collector
 
-https://dev.epicgames.com/community/learning/talks-and-demos/585Y/optimizing-the-medieval-game-environment
 Separate translucency
-
-
-
-
-[Unreal Optimisation Guide](https://unrealartoptimization.github.io/book/pipelines/forward-vs-deferred)
 
 It's the pass where all meshes (this includes landscapes, skeletal meshes etc) are drawn into the G-buffer.
 
 ---
 
 
+[Unreal Optimisation Guide](https://unrealartoptimization.github.io/book/pipelines/forward-vs-deferred)
+[UE community: optimizing the medieval game environment](https://dev.epicgames.com/community/learning/talks-and-demos/585Y/optimizing-the-medieval-game-environment)
+# Framerate 
+   
+1000ms (1s) / 30 klatek = 33,3 ms to render one frame  
+1000ms (1s) / 60 klatek = 16.6 ms to render one frame  
 
-1000 ms in 1 sek = 1000/30 = 33,3 ms to render frame
+## Bottlenecks
+
+
+https://zhuanlan.zhihu.com/p/36851846  
+
+
+Game thread:    
+- more complicated construction script more expensive to spawn!
+- Animation fast path,. more lighting icons in anim BPO better.
+
+Draw Thread:   
+- **Draw Calls** - command send , combine models, not too big cause: occlusion, collision, memory  
+- number of obj  (10-15+ k obj can cause problem)      
+
+GPU:  
+- Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)  
+- Shaders complexity on **Opacity**    
+- **Shadow Casting** -  
+- **Too many texture samples** - use bandwidth (compression and texture packing to channels help)   
+
+Assets:  
+- **Splits on uvs** adds to vertex count - (memory and disk space)
+- **Too many vertex attributes** - (extra UV channels)
+- precise uv
+- colision setup
+- affect navmesh
+- shadow distances and turn off for small
+- tick  
+
+
 
 # Deferred Render pipeline  
 
@@ -61,7 +80,7 @@ Check if time of frame is bigger from CPU or GPU. (cause threads must wait one f
 `StartFPSChart` / `StopFPSChart`    
 `Stat fps` / `Stat Unit` / `Stat UnitGraph`    
 
-##### In New Frame:
+## Frame:
 0. [CPU] Frame 0
  - what happened in frame 0
 
@@ -121,23 +140,23 @@ Check if time of frame is bigger from CPU or GPU. (cause threads must wait one f
 
 ###  Render passes  
 
-| Render passes |  | dependences
+| Render passes |  | dependences|
 | -- | -- | -- |
-`LightCompositionTask_PreLighting`| | Decal count, PP AO radious    
-`CompositionAfterLighting` |SS profile | Screan area of SSS   
-`ComputeLightGrid` | | Movable lights count   
-`Light-ShadowedLight` | | Lights count&rad , trix of shadow-casted       
-`FilterTranslucentVolume` | | Lights count     
-`ShadowDepths` | Depth maps | Lights count&rad, trix of mov objects, quality    
-`ShadowProjection`|
-`PrePass_DDM` opaque Early depth| AO, culling, DBuffers.| Tricount of opaque, early-z settings   
-`HZB` hierarchical Z-buffer|   Culling and SSRT (refl, AO)  | huge in editor cost !!
-`Base pass` G-buffers (compo) | Fog, Dbuff-decals| Trixcount + Shader complexity, number of mats.  
-`Translucency` | | Area of translucency, overdraw, (in FSR: light count)  
-`PartilceSimulation / Injection` | Scene depth collisions.| number of particles  
-`PostProcessing` | Temporal, Exposure ..| PP features, and  blendables   
-`RenderVelocities` | |Num of moving objects and tri-count!
-`ScreenSpaceReflectiion` ||  (cost increaase with rough),
+|`LightCompositionTask_PreLighting`| | Decal count, PP AO radious    
+|`CompositionAfterLighting` |SS profile | Screan area of SSS   
+|`ComputeLightGrid` | | Movable lights count   
+|`Light-ShadowedLight` | | Lights count&rad , trix of shadow-casted       
+|`FilterTranslucentVolume` | | Lights count     
+|`ShadowDepths` | Depth maps | Lights count&rad, trix of mov objects, quality    
+|`ShadowProjection`|
+|`PrePass_DDM` opaque Early depth| AO, culling, DBuffers.| Tricount of opaque, early-z settings   
+|`HZB` hierarchical Z-buffer|   Culling and SSRT (refl, AO)  | huge in editor cost !!
+|`Base pass` G-buffers (compo) | Fog, Dbuff-decals| Trixcount + Shader complexity, number of mats.  
+|`Translucency` | | Area of translucency, overdraw, (in FSR: light count)  
+|`PartilceSimulation / Injection` | Scene depth collisions.| number of particles  
+|`PostProcessing` | Temporal, Exposure ..| PP features, and  blendables   
+|`RenderVelocities` | |Num of moving objects and tri-count!
+|`ScreenSpaceReflectiion` ||  (cost increaase with rough),
 
 
 
@@ -173,11 +192,21 @@ CPU graphic render thread. Will cull things not in cam,  create list. critical i
  - SceneMemory -
  - Rendering Mem stack memory -
 
+
+
+## Rendering geometry
+
+### Vert count
+- veets on Smooth edges, no uvs = 100% vertex  
+- `hard edges` - make new vert count
+- `uv` - also contribute.
+- hard edges should be where uvs - (ver count)
+- `vertex color` - to memory cost but not vertex cost.
+- `rendering passes` - (occl, shadow depths, shadow projection)
 ### Draw calls
 Fixed cost per call. bigger then polycount.
 
-
-##### Instancing
+#### Instancing
 Instancing a mesh provides performance benefits even if the total number of draw calls does not reflect that
 
 **Instancing** being a special case of batching. With a scene rendered with many small or simple objects each with only a few triangles, the performance is entirely CPU-bound by the API; the GPU has no ability to increase it. More precisely, "the processing time on the CPU for the draw call is greater than the amount of time the GPU takes to actually draw the mesh, so the GPU is starved. So Batching attempts to allow the CPU to combine a number of objects into a **single API call**. In the case of Instancing it is the one mesh and the number of times you are drawing with a separate data structure for holding information about each separate mesh.
@@ -189,10 +218,6 @@ Instanced meshes will reduce the draw call overhead on the CPU but will not redu
  - 3 meshes using the same material: set shader, draw mesh #1, draw mesh #2, draw mesh #3  
  - 3 meshes using a different material each: set shader #1, draw mesh #1, set shader #2, draw mesh #2, set shader #3, draw mesh #3  
 
-
-
-
-
 ## GPU thread
 GPU graphic render thread. Draw final frame.
 
@@ -201,13 +226,13 @@ GPU graphic render thread. Draw final frame.
 3. geometry shader  
 4. pixel shader  
 
-
 `Stat GPU`
 
 basepass. canvasDrawTile, Post, Shadow Depths. Prepass< DLSS  Global DistanceFieldUpdate, Volumetric Fog, DOF, Translucency, Lights, Comp Prelight,
 
 
-`ProfileGPU` -  `Ctrl` + `Shift` + `,` -  GPU Visualizer window (Single frame on gpu)  you can dump it to log      
+`ProfileGPU` -  `Ctrl` + `Shift` + `,` -  GPU Visualizer window (Single frame on gpu)  you can dump it to log        
+`Dump GPU` -   
 
 - **PrePass** -
 - **EarlyZPass** - (default: partial z pass). DBuffer decals require a full Z Pass `r.EarlyZPass` (more draw calls, less overdraw during base pass).
@@ -229,34 +254,28 @@ basepass. canvasDrawTile, Post, Shadow Depths. Prepass< DLSS  Global DistanceFie
 - Fog [Oskar, fix stat gpu](https://youtu.be/SXLYy6D1y80?t=603)   
 
 
-
-
  Turn off features to profile:
 
- |||
- |--|--|
- `Show StaticMeshes` |
- `Show SkeletalMeshes` |
- `Show Particles` |
- `Show Lighting` |
- `Show Translucency` |
- `Show ReflectionEnvironment` |
- `Show InstancedStaticMeshes` |
- `Show Landscape` |
- `Show Fog` |
- `Show MotionBlur` |
- `Show ScreenSpaceReflections` | Toggles screen space reflections, can cost a lot of performance, only affects pixels up to a certain roughness (adjusted with r.SSR.MaxRoughness or in postprocess settings).
- `Show AmbientOcclusion` |
- `Show DirectionalLights PointLights SpotLights` |
- `Show DynamicShadows` |
- `Show GlobalIllumination` |
- `Show LightFunctions` |
- `Show PostProcessing` |
- `Show ReflectionEnvironment` |
- `Show Rendering` |
- `Show Tessellation` |
-
-
+- `Show StaticMeshes` 
+- `Show SkeletalMeshes` 
+- `Show Particles`
+- `Show Lighting`
+- `Show Translucency`
+- `Show ReflectionEnvironment`
+- `Show InstancedStaticMeshes`
+- `Show Landscape`
+- `Show Fog` 
+- `Show MotionBlur`
+- `Show ScreenSpaceReflections` Toggles screen space reflections, can cost a lot of performance, only affects pixels up to a certain roughness (adjusted with r.SSR.MaxRoughness or in postprocess settings).
+- `Show AmbientOcclusion`
+- `Show DirectionalLights PointLights SpotLights` 
+- `Show DynamicShadows`
+- `Show GlobalIllumination`
+- `Show LightFunctions`
+- `Show PostProcessing`
+- `Show ReflectionEnvironment`
+- `Show Rendering`
+- `Show Tessellation`
 ### Shader Complexity
 
 ### Light Complexity
@@ -281,80 +300,24 @@ disk
 steraming pool    
 
 
-
-
-
 ## Compression
-
 
 #### Textures used
 `Window/Statistics/..` - Used texture    
-
-
-
 #### Unreal Compression:
 
-Unreal | DirectX |   | |||4096 x RGB|
---- | ---  | ---  | ---|---|---|---|
-Default  | DXT1(DX11)| BC1 | RGB(4bit) + A(1bit) |  | (sRGB) no alpha 4BPP bits per pixel, and has a maximum color resolution of 16 bits (as old VGA adapters.) 6:1 | 11Mb
- ||BC2|RGB(4bit) + A(4bit)|
-Default  | DXT5 (DX11)| BC3 | RGB(4bit) + A(8bit) | | Color+Height // BC1 for the RGB part and BC4 for A   // 8BPP 4:1 uses DXT1 for the color part, but adds another 4 bits per pixel of alpha. This gives you better transparency.| 11Mb
-Grayscale | (DX11) | BC4  |R, RGB, G (8bit) || (sRGB) B&W masks| 21.8Mb
-Displacement ||| R (8/16bit) || surface displacement |  21.8Mb
-Vector Displacement | || BGR Standard 8bits  | | 3d displacement | 87.4Mb
-NormalMap | DXT5  (DX11) |BC5 | |  | xtremely well on the gradient D3D11-more complex (2xBC4) | 21.8Mb
-Mask | DXT1 / DXT5 | |  || (RGB) Linear Color | 11Mb
-HDR |  |BC6| Float RGBA  | |  can natively store HDR D3D11-more complex (RGB) Linear Color IBS, Skybox  | 175Mb
-HDR Compres  |(DX11) | BC6 H | Float RGBA (8-16) || (RGB) Linear Color | 21.8Mb
- | (DX11) |BC7 | BGR A (4-16)| || 21.8Mb
-
-
-
----
-
-
-
-# Bottlenecks
-
-
-https://zhuanlan.zhihu.com/p/36851846  
-
-
-Game thread:    
-- more complicated construction script more expensive to spawn!
-- Animation fast path,. more lighting icons in anim BPO better.
-
-Draw Thread:   
-- **Draw Calls** - command send , combine models, not too big cause: occlusion, collision, memory  
-- number of obj  (10-15+ k obj can cause problem)      
-
-GPU:  
-- Over shading  **Quad Overdraw** - small or thin triangles (because it perform operation in bigger tile)  (watch for tessellation)  
-- Shaders complexity on **Opacity**    
-- **Shadow Casting** -  
-- **Too many texture samples** - use bandwidth (compression and texture packing to channels help)   
-
-Assets:  
-- **Splits on uvs** adds to vertex count - (memory and disk space)
-- **Too many vertex attributes** - (extra UV channels)
-- precise uv
-- colision setup
-- affect navmesh
-- shadow distances and turn off for small
-- tick  
-
----
-
-
-#### rendering geometry
-
-##### read verticles uv
-veets on Smooth edges, no uvs = 100% vertex  
-`hard edges` - make new vert count
-`uv` - also contribute.
-hard edges should be where uvs - (ver count)
-`vertex color` - to memory cost but not vertex cost.
-`rendering passes` - (occl, shadow depths, shadow projection)
+| Unreal | DirectX |   | | | |4096 x RGB|
+| --- | ---  | ---  | ---|---|---|---|
+| Default  | DXT1(DX11)| BC1 | RGB(4bit) + A(1bit) |  | (sRGB) no alpha 4BPP bits per pixel, and has a maximum color resolution of 16 bits (as old VGA adapters.) 6:1 | 11Mb |BC2|RGB(4bit) + A(4bit)|
+| Default  | DXT5 (DX11)| BC3 | RGB(4bit) + A(8bit) | | Color+Height // BC1 for the RGB part and BC4 for A   // 8BPP 4:1 uses DXT1 for the color part, but adds another 4 bits per pixel of alpha. This gives you better transparency.| 11Mb
+| Grayscale | (DX11) | BC4  |R, RGB, G (8bit) || (sRGB) B&W masks| 21.8Mb
+| Displacement ||| R (8/16bit) || surface displacement |  21.8Mb
+| Vector Displacement | || BGR Standard 8bits  | | 3d displacement | 87.4Mb
+| NormalMap | DXT5  (DX11) |BC5 | |  | xtremely well on the gradient D3D11-more complex (2xBC4) | 21.8Mb
+| Mask | DXT1 / DXT5 | |  || (RGB) Linear Color | 11Mb
+| HDR |  |BC6| Float RGBA  | |  can natively store HDR D3D11-more complex (RGB) Linear Color IBS, Skybox  | 175Mb
+| HDR Compres  |(DX11) | BC6 H | Float RGBA (8-16) || (RGB) Linear Color | 21.8Mb
+|| (DX11) |BC7 | BGR A (4-16)| || 21.8Mb
 
 
 
@@ -385,6 +348,9 @@ hard edges should be where uvs - (ver count)
 
 # Tools
 
+`Asset audit.`      
+`Size map` - take in accound hard refs.   
+`Reference viewer` -     
 
 #### Visual Logger
 [VisLog](https://docs.unrealengine.com/4.26/en-US/TestingAndOptimization/VisualLogger/)
@@ -400,6 +366,7 @@ Window > DevTools > `Session Frontend`
 Analyze memory allocation
 Standalone profiling system. Smaler impact on execution.
 
+LLM - `Low level memory tracker ` (in unreal insights)
 
 ## [Intel Frame Analyzer](https://software.intel.com/en-us/gpa/graphics-frame-analyzer)
 
@@ -444,6 +411,7 @@ Tools for doebug:
 [Interl GPS Epic YT](https://youtu.be/KuF4OTH9WjA)
 
 
+Gauntlet - automate testing
 
 
 ---

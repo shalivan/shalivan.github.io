@@ -145,6 +145,8 @@ Bounced  | Indirect moon ( fog and snow, lot of bounce)
    - `loop light` more from side
    - `checkerboard light` - bright on dark and dark on bright elements  
 
+- UPSTAGE LIGHTING - key light behind eye line (in oposition to camera in dialogue witch should stay in the same site of the eye line )
+
 - chiaro/scuro - bright/dark - renecance - davinchi and karavagiion
 
 - lamps, stringlights candles, headlights ... props   

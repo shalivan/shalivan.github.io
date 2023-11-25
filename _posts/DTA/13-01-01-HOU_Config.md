@@ -17,12 +17,12 @@ permalink: /houdiniconfigs/
 
 |Operation type|houdini shorts|Tools|
 |-|-|-|
-Enter Mode|`ENTER`|Enter modeling mode
-Camera|`Alt` + `RMB`|Rot as cam
-|| `RMB`|Rot around
-||`Alt` + `MMB` / `LMB` + `RMB`|Pan
-||`LMB`|Zoom
- ||`MMB`|Move tool
+|Enter Mode|`ENTER`|Enter modeling mode
+|Camera|`Alt` + `RMB`|Rot as cam
+| | `RMB`|Rot around
+| |`Alt` + `MMB` / `LMB` + `RMB`|Pan
+| |`LMB`|Zoom
+| |`MMB`|Move tool
 
 
 

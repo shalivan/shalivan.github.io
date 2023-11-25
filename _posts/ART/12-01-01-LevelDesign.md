@@ -11,20 +11,38 @@ tags:
 permalink: /leveldesign/
 ---
 
-- Control environment instead of camera like in movies.
+
+### spatial emphaty
+-twist to confusion
+open of isolation and epic scale
+- narrow to large space and othery way
+- vertycality - persecution
+   - vertigo / rewad if stnding on top   
+
+.   
+
+- Control environment instead of camera like in movies.  
 - Contain: aesthetic + functionality
 - LD driven by mechanics.
   - High level: - [Environmental storytelling](/ludology/)
   - Medium level: - Level Design
   - Low level: - [World Building / Lore](/lore/)
 
+.
+
+
 - melee vs range
 - mobility vs stability
 - bruteforce vs Ingenuity (create own timing windows , distract enemy) (code braking - open paths)
 - combar vs stelth (wait for oportunity time window)
 
+.
+
 - generic path most dificult,
 
+Archit.
+- players typ spectactor go to the edge, traveler to center
+- more compfortable in positive space not so in negative.
 
 # Concept
 - Show don't tell
@@ -68,6 +86,7 @@ Players action loop: Typically in a vantage point area, where we can survey, ori
 3. Act
 4. React
 
+##### Circulation
 
 ## Guidance
 - UI - UI, Maps, ...
@@ -283,6 +302,7 @@ evaluating story:
 - what is interesting for story
 - summary important details
 
+
 ### Environmental narrative (mise-en-scene)
 - universal themes understood by all cultures > honor freedom lib injustice vengin survival
 - `Symbolism` (ascending desc.) > stairs up (create narrative),
@@ -302,6 +322,9 @@ http://tmdag.com/ptakun/eco_system/makeofplants_en_htm.htm
 
 
 # Gameplay
+Psychological comfort
+
+manage how players are able to take risk !!
 
 [Game Design](/gamemechanics/)   
 [Game Mechanics](/gamemechanics/)   

@@ -9,6 +9,8 @@ permalink: /modeling/
 ---
 
 ------------
+quads - only for anim and subdiv (also better uvs).
+for games - preserve shiluete
 
 good uv layout is important !!!   - directional and logicly connecterd  
 make it easy
@@ -18,18 +20,18 @@ TRIMSHEETS - uv for reuse
 
 |name |cont|tangents|interp|usecase|
 |-|-|-|-|-|
-Linear | C0 |
-Bezier | C0/C1 | manual | some | shapes, fonts, vectro graphics
-Hermite | C0/C1 | explicit  | all | animation, physics sim , interpolation
-Catmull-Rom | C1 | auto | all | animation, path somoothing
-B-Spline | C2 (acceleration smooth)| auto | none | curvature -sensitive shapes, animation (like cam path)
-NonUniform B-Spline (NURBS) | C2 | |changing weigths
+|Linear | C0 |
+|Bezier | C0/C1 | manual | some | shapes, fonts, vectro graphics
+|Hermite | C0/C1 | explicit  | all | animation, physics sim , interpolation
+|Catmull-Rom | C1 | auto | all | animation, path somoothing
+|B-Spline | C2 (acceleration smooth)| auto | none | curvature -sensitive shapes, animation (like cam path)
+|NonUniform B-Spline (NURBS) | C2 | |changing weigths
+
 https://youtu.be/jvPPXbo87ds?t=3713
 
 
-https://twitter.com/delaneykingrox/status/1506594473979310093
 
-- poligonal
+- polygonal
 - box - old from box / in sculpt better
 - bool
 - sculpt
@@ -40,12 +42,11 @@ https://twitter.com/delaneykingrox/status/1506594473979310093
 
 # Basics
 
-
-
 ## Uniformize
-- Scale  / orientation / time/fremes -
+- Scale  / orientation / time / frames
 - Texel density
-- Detail Density sweet spot / 3 poziomy density
+- Detail Density sweet spot / 
+- 3 levels of detail 
 [Pipelines](/pipes/)   
 [Resolutions](/res/)    
 
@@ -60,14 +61,13 @@ https://twitter.com/delaneykingrox/status/1506594473979310093
     - procedural repeates / reuse
 
 
-   
-
 # Common problems
 - parts for bake and uvs overlaps
 - symmetries
 /material ID bake
 - pivots        
 - General meshes with equal triangles behave better: rendering performance (overdraw) / simulations (`Delanunay` max minimal angle (tend to 60) ! - smoothes interpolation but less approximation of surface when long trix better define edges)
+https://twitter.com/delaneykingrox/status/1506594473979310093
 
 ---        
 
@@ -98,8 +98,6 @@ Best simulated
 
 [Drape sim](/vellum/)
 [Characters](/characters/)
-
-
 
 
 # Subdivision

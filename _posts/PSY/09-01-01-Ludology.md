@@ -11,73 +11,40 @@ tags:
 permalink: /ludology/
 ---
 
-https://www.katexagoraris.com/procedural-storytelling-visual-effe    
-https://www.ludonarracon.com/  
-https://trello.com/b/AM3ZOmAd/level-design-compendium     
-https://www.thevideogamelibrary.org/book/procedural-generation-in-game-design      
-[YT rozprawki: PixelaDay](https://www.youtube.com/c/PixelaDay/videos)   
 
 
 
-!!! procedural shatter in story: - hadncrafted but procedural hard to control pace of narrative bits. (embrace it) > few things in linear fashion
- i dont know what it mean >>> but then next time u see you will renew knowledge about it and sonnection apears.
 
 
-oral story > theater > books > Film > Radio > TV > Games > AR
+
 
 
 # Classical Approach
 
+Oral Stories > Theater > Books > Film > Radio > TV > Games > AR
+
 - Jean Piaget (9 August 1896 – 16 September 1980) was a Swiss psychologist Importance of games:
 - Johan Huizinga: Nature & Significance of Play as a Cultural Phenomenon [pdf](https://nideffer.net/classes/270-08/week_01_intro/Huizinga.pdf)
--  Books imagine, movie see, games act.
+- Books imagine, movie see, games act.
 - Someone who wants something badly (OBJECTIVE) and is having a hard time getting it. (OBSTACLE).
 
-```
-https://youtu.be/4mgK2hL33Vw
 
- We overcome obstacles by taking actions. Those actions define the character.  What they do to get what they want. characterization - external description, shell, to see what character is need to look beyond characterization and see what he want.
-- Who make a choice what player does. (in linear is designer in open world is player )
-
-
-Character types: (who chose a characterization)
-- Silent - negative space where player can fill.
-- Cinematic - designer
-- Open  - player
-
-
-
-High level wants by designer
-Low level wants by player (how i go to high level quest)
-
-
-High level wants by player: no character like Minecraft
-
-
-what they WANT (PURPOSE) (if no purpose noone care) if same purpose you can be not same as character
-whaty they DO (ACTION) - do action match with character ?
-how they SEEM (TRAIT) - not important
-
-
-```
 # Ludology
 
-In linear movies we say: **show don't tell**, in interactive entertinment it convert to **play**, **do don't show**. But we should use every method in herarchy just in good proportions.
-(sometimes is quicker, cheaper and more efficient to tell)
+**Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history. Every medium has its own narration styles, varying on genres, format, framing of art and limitations. Linear narrative is not enough for games and can be less important. Movies can create 'knowledge differences' easier than games which blend protagonist and player.  Plot and characters are things VG find verry difficult to deal. In linear movies we say: **show don't tell**, in interactive entertinment it convert to **play**, **do don't show**. But we should use every method in hierarchy just in good proportions.
+(sometimes is quicker, cheaper and more efficient to tell).
 
-**Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history.
 
-Every medium has its own narration styles, varying on genres, format, framing of art and limitations. Linear narrative is not enough for games and can be less important. Movies can create 'knowledge differences' easier than games which blend protagonist and player.  Plot and characters are things VG find verry difficult to deal .
-
-|Paradigm Characteristics |  [Narratology](/narratology/) |Ludology
+| Paradigm Characteristics |  [Narratology](/narratology/) |Ludology|
 |---|---|---|
-Community structures | Mostly pedagogy, limited number of non-pedagogy researchers | Non-pedagogical game studies, although some thematic overlap with pedagogy
-Group commitment networks |Wide range of disciplines, including drama & literature, education, cognition, management | Narrow range of allegiances, limited to non-pedagogy - one central research center, one peer-reviewed journal, and between one and two dozen primary investigators
-Shared examples | Computer simulation, non computer simulation, role play, experiential learning, drama, literature, film | Videogame, virtual reality, hypertext, television, and emergent forms of computer play
-Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning and cognition | Non-pedagogical side of experience - i.e., play
+|Community structures | Mostly pedagogy, limited number of non-pedagogy researchers | Non-pedagogical game studies, although some thematic overlap with pedagogy
+|Group commitment networks |Wide range of disciplines, including drama & literature, education, cognition, management | Narrow range of allegiances, limited to non-pedagogy - one central research center, one peer-reviewed journal, and between one and two dozen primary investigators
+|Shared examples | Computer simulation, non computer simulation, role play, experiential learning, drama, literature, film | Videogame, virtual reality, hypertext, television, and emergent forms of computer play
+|Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning and cognition | Non-pedagogical side of experience - i.e., play
 | | Cyclical nature | Linear Nature
 
-
+|   |  |  
+|---|---|
 | Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking
 
 See or listen not as powerful as play themselves:
@@ -86,28 +53,32 @@ See or listen not as powerful as play themselves:
 - `Reactivity` Respond to your actions
 
 
-
 # Authorship
+
 **Narrative** (story meaning) vs **Mechanics** (dynamical meaning). Driven How much power over the world. (Authored vs generative narration)
 (linear) `Linear` > `Wide Linear` (linear with paths) > `Interactive Linear` >  `Multi ending` >  `Branching path` (multi choice but not emergent) > `Open World` > `Open ended`  >  `Emergent` > `Sand box` (Fully player driven) > (cyclical) > `Random`
 
 **Game story domination**  -   Authored - no impact on story - Linear  - low agency hi certainty of deliver    
 **Player story domination** -  Generative - agency & expression of will - Cyclical  - high agency, low certainty
 
+Problems with open worlds: [YT Open worlds essey](https://youtu.be/-O3oe8sSRhQ), [YT Open worlds essey 2](https://youtu.be/7Rmqx6mHz-g) markery celu i quick transport.
 
+!!!!!!!!!!!!!!!!!!!!!!!!!! 
 - Film: Pre, Pro, Post  (Alex McDowell - world building)
 - Arch: Pre Design, Schematic, Design, Construction
-- In changing env: Observe > Orient > Decide(feedback) > Act (feedback) () OODA Loop )
+- In changing env: Observe > Orient > Decide(feedback) > Act (feedback) ( OODA Loop   - decision-making that focuses on filtering available information,)
 - General design process: Empathize > Define > Ideate > Prototype > test
 
-
 ## Agency
+
 It's about degree of control and influence a player has over the game world and its narrative. It's about the choices and actions a player can take within the confines of the game.
 (player's ability to impact the story through the game design or gameplay)
 
 ##  Autonomy
+
 It's about the player's ability to decide how they want to engage with the game, even if the choices are limited.
 the abstract principle that autonomous beings, agents, are capable of acting by themselves.
+- freedom is not control: Between freedom and controlis a subltle ideology though, one that transcends ther mere confines of the game and extends into reality. -
 
 
 ## ?
@@ -137,8 +108,7 @@ Narration can be Atmospheric or Narrative
 
 Avoid Red Herring (something that misleads or distracts from a relevant or important question)
 
-
-##  Embedded / Explicit
+## Embedded / Explicit
 Embedded narratives are pre-determined stories, defined by author. The game creators decide the narrative and the player follows their direction.
 player can’t influence  backstory.
 
@@ -156,8 +126,6 @@ player can’t influence  backstory.
 
 .
 - choices can be also explicit like: rpg dialog chose or harvesting little sister
-
-
 
 ### Narrator
 - First person narrators are by definition explicit narrators.
@@ -202,10 +170,10 @@ connotations – the memories
 - too subtle invisible choices can feel like linear game
 
 
-callbacks - (can be punchline later) - remaind the known
+callbacks - (can be punchline later) - remained the known
 
 
-###  Spatial storytelling
+### Spatial storytelling
 Narrative spaces / Environmental storytelling
 How ideas, mood, and story are expressed through visual form
 
@@ -224,18 +192,13 @@ Mechanics in narration - implement plot in mechanics
 Enacted narratives rely on players developing their characters. Story elements such as power-upgrades and levelling up use enacted narratives. These narratives are usually in single-player games that emphasise character growth.
 
 ### Emerge from systems
-
 Need building blocks    
 - resonant theme - as universal as practical if desired for sharing
 - meshes narratively with existing mechanics - test against sample story or patch existing holes
-- mechanics <support> presentation
+- mechanics < support > presentation
 - involves user in state
 
 (Roguelikes, Sandboxes, Minecraft's, Dwarf Fortress)
-
-
-
-
 
 ### Procedural storytelling
 Procedural Narrative Generation:
@@ -247,6 +210,8 @@ Prioritizes agent spontaneity (all improvisation and simulation ) (Dwarf Fortres
 [link a](https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2018/presentations/Mateas_Michael_Teaching_Procedural_Storytelling.pdf)  [link b](https://books.google.pl/books/about/Procedural_Storytelling_in_Game_Design.html?id=4RamDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)  
 
 
+!!! procedural shatter in story: - hadncrafted but procedural hard to control pace of narrative bits. (embrace it) > few things in linear fashion
+ i dont know what it mean >>> but then next time u see you will renew knowledge about it and sonnection apears.
 
 ## No narration
 
@@ -257,6 +222,31 @@ or devolved from mechanics:
 - (pre luck) input (before player make decision): levels
 - (post luck) output  (after action, hit chances in x com, lutbox) (more anger and res not for competence but bad luck undercuts strategy )
 
+## Player 
+
+
+ We overcome obstacles by taking actions. Those actions define the character.  What they do to get what they want. characterization - external description, shell, to see what character is need to look beyond characterization and see what he want.
+- Who make a choice what player does. (in linear is designer in open world is player )
+
+
+Character types: (who chose a characterization)
+- Silent - negative space where player can fill.
+- Cinematic - designer
+- Open  - player
+
+[GDC Strong video game character](https://youtu.be/4mgK2hL33Vw)
+
+High level wants by designer
+Low level wants by player (how i go to high level quest)
+
+
+High level wants by player: no character like Minecraft
+
+
+what they WANT (PURPOSE) (if no purpose noone care) if same purpose you can be not same as character
+whaty they DO (ACTION) - do action match with character ?
+how they SEEM (TRAIT) - not important
+
 
 ---
 
@@ -266,21 +256,15 @@ or devolved from mechanics:
 
 Alfred North Whitehead (known as the defining figure of the philosophical school known as process philosophy) reality is experience.   
 
-
-
 ## Psych states
 
 ### Presence  
 `Teleport body` into a space. Spatial Presence   
-
-
 ### Immerse  
 `Teleport mind` - deep mental involvement. Immerse : altered time, with general sense of space (spatial)
 Fully `immersed` with mechanics while `challenge` and `tension` in balance  (`anxiety` vs `boredom`)
 
 The difference between immersive experience and traditional is the presence of a viewing port, proscenium or a frame with which to take in the experience. - Sara Thacher
-
-
 ### Engagement  
 Manual or mental `effort meets interactivity` (involves solving problems) (not in books)   
 Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
@@ -429,6 +413,12 @@ How it progress
 
 ---
 
+
+https://www.katexagoraris.com/procedural-storytelling-visual-effe    
+https://www.ludonarracon.com/  
+https://trello.com/b/AM3ZOmAd/level-design-compendium     
+https://www.thevideogamelibrary.org/book/procedural-generation-in-game-design      
+[YT rozprawki: PixelaDay](https://www.youtube.com/c/PixelaDay/videos)   
 
 
 [ YT - How Video Games Create Empathy | Hellblade , Nier:Automata and Empathy in Game Design ](https://youtu.be/9IBhHRFfhm0) -

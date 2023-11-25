@@ -153,20 +153,23 @@ setpointgroup(0, "closest", count, 1, "set" );
 ###  Find Shortest Path
 [Find Shortest Path](https://www.sidefx.com/docs/houdini/nodes/sop/findshortestpath.html)
 
-### getbbox()
-Bounds  
-`v@bbox_size = getbbox_size(0, "string_primgroup");` - Bound size   
-`v@centroid =  getbbox_center(0, "string_primgroup");` - Relative Bbox     
-`v@Cd = relbbox(0, @P);` Color from bbox    
+
+## Bounding Box
+
+`v@Cd = relbbox(0, @P);` - relative position of point in relation to bbox.  
+`v@bbox_size = getbbox_size(0);` - Bound size     
+`v@centroid =  getbbox_center(0);` - Relative Bbox       
+`v@bbox_min = getbbox_min(0);` - get world min of geometry bounds    
+`v@bbox_max = getbbox_max(0);` - get world max of geometry bounds    
+`getbbox(0,vector min,vector max);` - get both min and max   
 
 ```cpp
 vector min, max;
-getbbox(min, max); // old
+getbbox(0,min, max);
 vector center = (min+max)/2;
 ```
 
-https://www.tokeru.com/cgwiki/index.php?title=JoyOfVex7    
-https://voxelpixel.xyz/2020/05/27/houdini-vex-distance-and-neighbours/   
+[voxelpixel.xyz blog: dist and neighbors](https://voxelpixel.xyz/2020/05/27/houdini-vex-distance-and-neighbours/)   
 
 ---
 
