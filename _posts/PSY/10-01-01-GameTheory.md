@@ -2,19 +2,19 @@
 title: Game Theory
 description: Players, Strategy, Payoff.
 categories:
- - PSY
+  - PSY
 tags:
-- Cognition
-- Science
-- Game Dev
-- Gameplay
-- Math
-
+  - Cognition
+  - Science
+  - Gameplay
+  - Math
+  - GameDev
 permalink: /gametheory/
-
+aliases:
+  - gametheory
 ---
-
-
+[[19-01-01-Cognition|cognition]]
+[[13-01-01-Motivation|motivation]]
 
 # Game Types
 Mathematical modeling at strategic interaction between rational agents.
@@ -130,6 +130,20 @@ You must commit but not sure what B will chose
 
 # Strategies
 
+qualities that will help to win when need to cooperate: 
+- Nice 
+- Forgiving 
+- Retaliatory (if oponent defect strike back immidietly) (can retaliate 9 of 10 times to reduce error)
+- Clear << with complicated program you cannot figure out their strategy. 
+Tit for tat tend to be best. << without signal error  in simulation.  (when all players rational). 
+most of life is not zero sum. 
+- exploitive strategies in poker 
+
+
+
+
+wazne ile rund. im mniej rund tym mniej kooperacji potrzebujesz!!!!!!
+
 #### Dominant strategy
 - best payoff no matter other players moves.
 ITS EXTENTION IS NASH EQQUILIBRIUM (and more)
@@ -195,55 +209,43 @@ transitivity-in-game-theory
 
 
 #### Poisoner Dilemma
+If one round 
+- always defect to **GTO** ( **Dominant strategy** ) - Best outcome regardless what other player does. 
 
-
-| | A Cooperate | A Defect |
+| | A  (COOP) | A (CONFES) |
 |--|--|--|
-**B Cooperate**| A 0 / B 0 | A 0 / B -2
-**B Defect** |  A  -2 / B 0 | A -1 / B -1
-
-For player A - Always defect to GTO ( Dominant strategy ) best outcome regardless what other player does.
-
-| | A Cooperate | A Defect |
-|--|--|--|
-**B Cooperate**| A 0  | **A 0**
-**B Defect** |  A  -2  | **A -1**
-
+|B (COOP)| 0 / 0 | **0** / -2
+| B  (CONFES) |  -2 / **0** | **-1** / **-1**
 
 #### Stag Hunt
-
-
-
-||Stag|Rabbit|
-|--|--|--|
-**Stag**| **3, 3** |  0 , 2
-**Rabbit** | 2, 0 | **1, 1**
 
 if no lies / neither player deviate
 - Stag/Stag (**pareto efficient**)
 - Rabit/Rabit (**pareto inefficient**) are equilibria's.
 
+| | Stag|Rabbit|
+|--|--|--|
+|**Stag**| **3**, **3** |  0 , 2
+|**Rabbit** | 2, 0 | **1**, **1**
 
-#### Matching Pennies
+#### Coin filps / Matching Pennies
 Zero sum game.  No pure strategy Nash equilibrium. - If no pure nash exist in mix strategies.  
 
-
-
-||Heads|Tails|
+| |Heads|Tails|
 |--|--|--|
-**Heads**|1, -1 |  -1 , 1
-**Tails** | -1, 1 | 1, -1
+|**Heads**|1, -1 |  -1 , 1
+|**Tails** | -1, 1 | 1, -1
 
-Coin filps
+
 
 
 #### Batle of sexes
 
 
-||Heads|Tails|
+| |Heads|Tails|
 |--|--|--|
-**Heads**|1, 2 | 0 , 0
-**Tails** | 0, 0 | 2, 1
+|**Heads**|1, 2 | 0 , 0
+|**Tails** | 0, 0 | 2, 1
 
 A>B>C
 
@@ -273,15 +275,15 @@ a game of decision-making in the face of incomplete information.
 
 ### Betting rounds & Positions
 
-|Button / Dealer | strongest - 50% opening range / button river betting range (only 57 combos) | **In position** (Act last)|
+|Button / Dealer | strongest - 50% opening range / button river betting range (only 57 combos) | **In position**   (Act last)|
 |-|-|-|
 |Cutoff  |  second-best position in a hand of poker. |  Late Positions
-|HiJack
+|HiJack|
 |LoJack |Tide pairs and Figure + high||
 |Under The Gun +1  | | Mid positions
 |Under The Gun | only ases | (left to the BB Act first Before the flop)
 |BB | defending range calling range 40%  (no AA KK QQ - because it wuld be rerange )  play garbage hands priced in (range advantage) | Early position
-|SB | tight is right |  **Out of position** Act first (After flop) // in short stack when AllIn - is good (game of chicken ) |
+|SB | tight is right // in short stack when AllIn - is good (game of chicken ) |  **Out of position**   Act first (After flop)  | 
 
 
 
@@ -354,7 +356,7 @@ kelly cryteria
 # Bargaining
 Bargening dynamics get really complicated really quickly.
 
-| ||
+| | |
 | ---| ---|
 | Proposal power |  make offers to the other side (accept/reject position not good)
 | Patience  | no needing a deal (**Tragedy of bargening**) 'rich get richer'

@@ -1,20 +1,32 @@
 ---
 title: Game Design
 description: Genre, Players, Objectives, Rules, Resources, Conflict, Controls, UI
-
 categories:
- - PSY
+  - PSY
 tags:
-- Design
-- Game Dev
-- Gameplay
+  - Design
+  - Gameplay
+  - GameDev
 permalink: /gamedesign/
+aliases:
+  - gamedesign
 ---
+[[12-01-01-Lore|lore]]
+[[05-01-01-Mechanics|gamemechanics]]
+
+ https://youtu.be/_Hjm9LLSICg < rational to emotional 
+https://youtu.be/P4Um97AUqp4 - design withou a pitch 
+
 
 
 choices are only meaningful and reinforces players identity
-strzelaj i nie daj się trafić, zbieraj i buduj, wskakuj na platformy,
-# MECHANICAL & FICTIONAL SIDE OF DESIGN 
+
+2 SIDES OF DESIGN 
+- MECHANICAL 
+	-  scripted vs system 
+- FICTIONAL 
+
+
 
 extraction / waves / roug /
 resources / gune type - speed reload recoil auto aim  
@@ -24,6 +36,7 @@ telegraphing attacs
 
 /// dont subvert expectations. to not make player desapointed ///
 
+Exploration loop /  Combat loop
 
 ===NEW
 natural patterns lerners
@@ -40,23 +53,16 @@ paterns:
 - teamwork
 
 
-
 ===
 
 https://pixelprospector.com/#archive
-
-
 [The Gamer's Brain: How Neuroscience and UX Can Impact Design](https://youtu.be/XIpDLa585ao)
-
 https://www.gamedeveloper.com/blogs/the-cognitive-science-behind-games-user-research
-
-
 https://www.psychologyofgames.com
-
 https://www.psychologyofgames.com/2011/03/the-unit-effect-and-player-perceptions/
 
-Exploration loop /  
-Combat loop
+
+
 ---
 
 + power celling - in progression
@@ -142,7 +148,7 @@ Roles
 
 
 
-##### co -op
+##### Co -op
 - parallel - own single player game along
 - step by step - 1 open for another
 - simultaneous - both action at same time
@@ -236,12 +242,6 @@ villains with procedural goals
 
 
 # Space
-
-
-## Traversing
-## Exploration
-(collectables incentivize )
-## Level Design
 
 [Level Design](/leveldesign/)
 [Architecture](/arch/)
@@ -392,6 +392,12 @@ win loose state is important or just engagement is ok too ..
 
 ---
 
+# Balance 
+Math + syste, + psychology 
+[gamebalanceconcepts.wordpress.com/](https://gamebalanceconcepts.wordpress.com/) + [GDC Video](https://youtu.be/tR-9oXiytsk)
+
+---
+
 
 # Controls
 
@@ -469,6 +475,13 @@ horizontal gameplay vs vertical
 - distance from pivor
 - laterral and vertical offset for framing
 - fov
+
+##### FOV
+- FOV values can be different. 60 vertical FOV equaled 75 HOR+ FOV which is based in 4:3 aspect ratio, equals to 90 HOR- FOV which is based 16:9 aspect ratio or higher.
+- 85 HOR+ FOV and not 90 is the maximum FOV that gives you peripheral vision without making a fisheye effect on 16:9 aspect ratio which is the standard now.
+- **competitive gamers** that need the most FOV so they can see everything
+- For **simracers**, 1:1 world accurate FOV is vitally important, and what a 1:1 FOV with no distortion is is completely dependent on how big your monitor is and how far away it is from your eyes. Think of your monitor like
+- [https://dinex86.github.io/FOV-Calculator/](https://dinex86.github.io/FOV-Calculator/)
 
 https://www.theastronauts.com/2019/04/the-secrets-of-fov/
 
@@ -612,31 +625,34 @@ BUFF vs NERF
 
 # Genre taxonomy
 Is flexible.
-
-Casual
-- Puzzle
+ zbieraj i buduj, wskakuj na platformy, 
+ 
+##### Casual
+- **Puzzle**
   - Action, Match3, Trivia, Word Games, Coloring, Hidden Object, Solitude
-- Simulation
+- **Simulation**
   - Adventure
   - Tycoon/Crafting
   - Sandbox
   - Time management  
-- Arcade
+- **Arcade**
   - Platformer, Idler, Shoot / Beat'em Up, Tower defense, Board Games,
   - Roguelike (permadeath, no save of progress) [YT](https://www.youtube.com/channel/UCKv_QzXft4mD6TXmQBZtzIA/videos)
   - Hack'n'slash ??
-- Haptic - Tap, Steer, Swipe/Drag, AR
-- Location Based / AR -  
+- **Haptic** - Tap, Steer, Swipe/Drag, AR
+- **Location Based / AR** -  
+Twin Stick
 
-Midore
-- Shooters
+##### Midore
+**- Shooters** strzelaj i nie daj się trafić,
   - Battle Royale
   - FPS/TPS
   - tactical
   - PvP
   - PvE  
+- Imersive sims  - give stroy and personal solutions to quests . (deusex) systemic anfd rulle based. 
 
-- RPG
+- **RPG**
   - Action
   - Turn-Based
   - Fighting
@@ -644,8 +660,7 @@ Midore
   - Puzzle
   - Idle
   - Survival
-- Card
-- Strategies
+- **Strategies**
   - 4x
   - Build&Battle
   - MOBA
@@ -654,15 +669,17 @@ Midore
 - Story driven
   - Horror (easly do away with character and plot. tension, shock, monsters)  
 
-Casino
+- **Card**
+
+**Casino**
 - Bingo, Poker, Slots
 
-Sports
+**Sports**
 - Sport - Arcade/realistic
 - Driving, Flying.
 
 
-Twin Stick
+
 
 ================================
 
@@ -755,3 +772,13 @@ https://youtu.be/3YXGcw1tvtc
 
 
 https://www.youtube.com/@PeopleMakeGames
+
+
+
+### Production pipelines
+
+- Film: Preproduction > Production > Post-Production  (Alex McDowell - world building)
+- Arch: Pre Design, Schematic > Design > Construction
+- In changing env: Observe > Orient > Decide(feedback) > Act (feedback) ( OODA Loop   - decision-making that focuses on filtering available information,)
+- General design process: Empathize > Define > Ideate > Prototype > test
+

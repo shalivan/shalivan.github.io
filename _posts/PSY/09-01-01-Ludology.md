@@ -1,37 +1,36 @@
 ---
 title: Ludology
-description:  Authorship, Experience, Harmony  
+description: Authorship, Experience, Harmony
 categories:
- - PSY
+  - PSY
 tags:
-- Design
-- Game Dev
-- Gameplay
-- Cognition
+  - Design
+  - Gameplay
+  - Cognition
+  - GameDev
 permalink: /ludology/
+aliases:
+  - ludology
 ---
-
-
-
-
-
-
-
-
-
+[[08-01-01-GameDesign|gamedesign]]
+[[05-01-01-Mechanics|gamemechanics]]
+[[09-01-01-Narratology|narratology]]
+[[12-01-01-Lore|lore]]
 # Classical Approach
 
+
+
+Books imagine, movie see, games act.
 Oral Stories > Theater > Books > Film > Radio > TV > Games > AR
 
 - Jean Piaget (9 August 1896 – 16 September 1980) was a Swiss psychologist Importance of games:
 - Johan Huizinga: Nature & Significance of Play as a Cultural Phenomenon [pdf](https://nideffer.net/classes/270-08/week_01_intro/Huizinga.pdf)
-- Books imagine, movie see, games act.
 - Someone who wants something badly (OBJECTIVE) and is having a hard time getting it. (OBSTACLE).
 
 
 # Ludology
 
-**Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history. Every medium has its own narration styles, varying on genres, format, framing of art and limitations. Linear narrative is not enough for games and can be less important. Movies can create 'knowledge differences' easier than games which blend protagonist and player.  Plot and characters are things VG find verry difficult to deal. In linear movies we say: **show don't tell**, in interactive entertinment it convert to **play**, **do don't show**. But we should use every method in hierarchy just in good proportions.
+**Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history. Every medium has its own narration styles, varying on genres, format, framing of art and limitations. Linear narrative is not enough for games and can be less important. Movies can create 'knowledge differences' easier than games which blend protagonist and player.  Plot and characters are things VG find verry difficult to deal. In linear movies we say: **show don't tell**, in interactive entertainment it convert to **play**, **do don't show**. But we should use every method in hierarchy just in good proportions.
 (sometimes is quicker, cheaper and more efficient to tell).
 
 
@@ -60,14 +59,6 @@ See or listen not as powerful as play themselves:
 
 **Game story domination**  -   Authored - no impact on story - Linear  - low agency hi certainty of deliver    
 **Player story domination** -  Generative - agency & expression of will - Cyclical  - high agency, low certainty
-
-Problems with open worlds: [YT Open worlds essey](https://youtu.be/-O3oe8sSRhQ), [YT Open worlds essey 2](https://youtu.be/7Rmqx6mHz-g) markery celu i quick transport.
-
-!!!!!!!!!!!!!!!!!!!!!!!!!! 
-- Film: Pre, Pro, Post  (Alex McDowell - world building)
-- Arch: Pre Design, Schematic, Design, Construction
-- In changing env: Observe > Orient > Decide(feedback) > Act (feedback) ( OODA Loop   - decision-making that focuses on filtering available information,)
-- General design process: Empathize > Define > Ideate > Prototype > test
 
 ## Agency
 
@@ -323,11 +314,11 @@ things happening > its excitement its entertainment
 Challenges vs Abilities
 
 
-|Challenges/Abilities |Low  || High  |
+|Challenges/Abilities |Low  | | High  |
 |--|--|--|--|
-High |Anxiety (stressed, Alert) | Arousal (Alert Focused) | Flow (Focused, Happy)
+|High |Anxiety (stressed, Alert) | Arousal (Alert Focused) | Flow (Focused, Happy)
  | | Worry (Sad, Stressed) || Control (Happy, Confident)
-Low | Apathy (Sad, Depressed) |Boredom (Depressed, Contented)|Relaxation (Confident, Contented)
+|Low | Apathy (Sad, Depressed) |Boredom (Depressed, Contented)|Relaxation (Confident, Contented)
 
 
 
@@ -347,17 +338,17 @@ enthusiasm, absorption, focused effort, zeal, dedication, and energy.
 
 
 ### Emotions
-Revarding or Aversive
+Regarding or Aversive
 
 |Primal Emtion|Affective Feeling|
 |--|--|
-Seeking | Enthousiastic
-Rage | Pissed-off
-Fear | Anxious
-Lust | Horny
-Care | Tender & Loving
-Panic | Lonley & Sad
-Play | Joyous
+|Seeking | Enthousiastic
+|Rage | Pissed-off
+|Fear | Anxious
+|Lust | Horny
+|Care | Tender & Loving
+|Panic | Lonley & Sad
+|Play | Joyous
 
 
 
@@ -368,7 +359,7 @@ Play | Joyous
 
 # Ludo narrative
 
-Harmony & Disonance
+Harmony & Dissonance
 - Action fit settings to achieve harmony relation between narration and gameplay
 premise and setting of story make sense with actions you perform
 - It only appear when player can interact with world in meaningful for a story way. feel game through the gameplay
@@ -378,13 +369,10 @@ how themes are communicated through the gameplay
 [YT - Meaningful Mechanics](https://youtu.be/KkdPxZbUNSw)  
 mechanics follow narration :
 restricted movement - is narration
-cyclical naure  
+cyclical nature  
 
 
 **Connect controls/mechnic with feelings**
-
-
-
 
 
 
@@ -412,6 +400,18 @@ How it progress
 
 
 ---
+## EMOTIONAL DESIGN 
+
+>Dawn normal UX pionier - emiotional design 
+
+help form attachments > and how them can help : Emotional design  
+help form attachment 
+- **visceral** - reaction to stimulus - viceral recations can be inpredicatble - very prersonal on context // and transielnt (short lived). Important for making first impressions 
+- **behavioral** - can influence your beh 
+- **reflecticve** - will i reflect on it later. 
+
+Games systems can create feedback loop and can respond to beh and emot changes ./ 
+
 
 
 https://www.katexagoraris.com/procedural-storytelling-visual-effe    

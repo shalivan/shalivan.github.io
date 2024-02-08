@@ -1,17 +1,21 @@
 ---
-title:  Perception
-
+title: Perception
 categories:
- - PSY
+  - PSY
 tags:
-- Science
-- Design
-- Cognition
-- Gameplay
-
+  - Science
+  - Design
+  - Cognition
+  - Gameplay
 description: Gestalt
 permalink: /perception/
+aliases:
+  - perception
 ---
+Symbolic creatiures / story telling creatures 
+
+[[19-01-01-Cognition|cognition]]
+[[13-01-01-Motivation|motivation]]
 
 # Sensation and Perception
 
@@ -67,17 +71,17 @@ mcgurk effect
 
 | |Principle |   |
 | - | - |- |
-<img src="/src/gestalt/gestprinc_v1.0003.png" width="100">  |Emergence | **Complex pictures from simple pattern**
-<img src="/src/gestalt/gestprinc_v1.0001.png" width="100"> |Reification |  **Illusory continuity** constructive or generative aspect of perception
-<img src="/src/gestalt/gestprinc_v1.0002.png" width="100"> |Multistability | **Figure-Ground**,  pop back and forth unstably between two or more alternative interpretations     
-<img src="/src/gestalt/gestprinc_v1.0004.png" width="100">|Invariance | **Objects recognition** is  independent of rotation, elastic deformations, light, component features
+|<img src="/src/gestalt/gestprinc_v1.0003.png" width="100">  |Emergence | **Complex pictures from simple pattern**
+|<img src="/src/gestalt/gestprinc_v1.0001.png" width="100"> |Reification |  **Illusory continuity** constructive or generative aspect of perception
+|<img src="/src/gestalt/gestprinc_v1.0002.png" width="100"> |Multistability | **Figure-Ground**,  pop back and forth unstably between two or more alternative interpretations     
+|<img src="/src/gestalt/gestprinc_v1.0004.png" width="100">|Invariance | **Objects recognition** is  independent of rotation, elastic deformations, light, component features
 
 
 ## Gestalt law of pragnanz
 
 Law of Perception (pragnanz. which means ‘concise and meaningful)
 
-||Law |Tend to be perceived as integrated into groups if ... |  |
+| |Law |Tend to be perceived as integrated into groups if ... |  |
 | - | - | - |- |
 ||**Simplicity** | ... is good gestalt  (Simplify for better reads)
 ||**Proximity** | ... they are near each other. (Natural grouping) | Clump of grass.

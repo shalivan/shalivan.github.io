@@ -1,28 +1,30 @@
 ---
 title: Narratology
-description:  Linear structure, Plot, Motifs  
+description: Linear structure, Plot, Motifs
 categories:
- - PSY
+  - PSY
 tags:
-- Design
-- Game Dev
-- Gameplay
-- Cognition
+  - Design
+  - Gameplay
+  - Cognition
+  - GameDev
 permalink: /narratology/
+aliases:
+  - narratology
 ---
+- [Ludology](/ludology/)  / [[09-01-01-Ludology|ludology]]
+- [Game Design](/gamedesign/)    / [[08-01-01-GameDesign|gamedesign]]
+- [Lore](/lore/)  / [[12-01-01-Lore|lore]]
 
 
-
-- [Ludology](/ludology/)  
-- [Game Design](/gamedesign/)    
-- [Game Mechanics](/gamemechanics/)    
-- [Lore](/lore/)
 # Medium
 Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe)    
 Stories emerge from our consciousness and observing ourselves and understand what is what we are doing. - successful life when you family, survive and thrive
 Film is based on empathy.
+
 # Genres
 Stories round campfire > myths > printing press: linearize > Post linear: World building
+
 ## Literary
 **Poetry** (liryka) (podmiot liryczny)  
 **Drama** (bohater) Na scene  comedy, tragedy, dramat  
@@ -204,7 +206,9 @@ Bigger stakes not equal more powerful stories
 **Pacing**, **Build up** Stimulus delta over moments. Surprise changes moment to moment and our desire.
 - slow pacing allow to embrace detail
 ## Tension
-tension - Disconnect between goal and current situation and obstacle between those two. - waiting
+**tension** - Disconnect between goal and current situation and obstacle between those two. - waiting   
+**surprise**  - audienc dont know about the bomb under the table and are surprised by explosion    
+**suspense**  - audience know about bomb under table, whitch create suspence    
 
 ## Exposition
 Explanation is not as fun as phenomena itself.

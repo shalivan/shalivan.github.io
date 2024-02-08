@@ -1,18 +1,20 @@
 ---
 title: Motivation
-
 categories:
- - PSY
+  - PSY
 tags:
-- Science
-- Cognition
-- Gameplay
-
-description:   Biological , Personal , Social, Satisfaction   
+  - Science
+  - Cognition
+  - Gameplay
+description: Biological , Personal , Social, Satisfaction
 permalink: /motivation/
+aliases:
+  - motivation
 ---
 
-
+[[09-01-01-Ludology|ludology]]
+[[08-01-01-GameDesign|gamedesign]]
+[[15-01-01-Personality|personality]]
 deep and quality motivation is important to develop. !!!!!!!!!!!!!!!
 
 

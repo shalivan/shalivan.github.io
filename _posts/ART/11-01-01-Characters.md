@@ -1,15 +1,19 @@
 ---
 title: Character
-
 categories:
- - ART
+  - ART
 tags:
-- CG
-- zBrush
-
-description:  Paradigm
+  - CG
+  - zBrush
+description: Paradigm
 permalink: /characters/
+aliases:
+  - characters
 ---
+[[21-01-01-Art|art]]
+[[17-01-01-Modeling|modeling]]
+[[16-01-01-Sculpting|sculpting]]
+
 
 https://www.marvelousdesignerhelp.com/viewtopic.php?t=131
 

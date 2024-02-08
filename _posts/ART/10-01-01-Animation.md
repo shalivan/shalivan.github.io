@@ -10,6 +10,7 @@ tags:
 description:  Principles, VFX
 permalink: /animation/
 ---
+[[21-01-01-Art|art]]
 
 
 [Unreal Animation](/uanimation/), [Houdini KineFX](/kinefx/)     

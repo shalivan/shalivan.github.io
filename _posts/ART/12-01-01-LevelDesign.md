@@ -2,123 +2,84 @@
 title: Level Design
 description: Navigation, Space, Visuals, Gameplay, Combat
 categories:
- - ART
+  - ART
 tags:
-- Design
-- Game Dev
-- Gameplay
-- Architecture
+  - Design
+  - Gameplay
+  - Architecture
+  - GameDev
 permalink: /leveldesign/
+aliases:
+  - leveldesing
 ---
+> related [[13-01-01-Architecture|arch]] [[12-01-01-Lore|lore]] [[10-01-01-U_World|uworld]]
 
+[Game Design](/gamemechanics/)   
+[Game Mechanics](/gamemechanics/)   
 
-### spatial emphaty
--twist to confusion
-open of isolation and epic scale
-- narrow to large space and othery way
-- vertycality - persecution
-   - vertigo / rewad if stnding on top   
+# Concept
+- **Show don't tell**
+- **Minimize cognitive load**. to avoid struggle with processing information's . to much details sensory overload.
+- **Readability**  
+- **Form follow function**. Restrictions, goals, context.   
+- **Scale**,** metrics** and **proportions** .  Object with fixed size (car), and without (tree).    
+- Giving the player **depth cues** by  reference.   
 
-.   
-
-- Control environment instead of camera like in movies.  
-- Contain: aesthetic + functionality
-- LD driven by mechanics.
+LD driven by mechanics.
   - High level: - [Environmental storytelling](/ludology/)
   - Medium level: - Level Design
   - Low level: - [World Building / Lore](/lore/)
 
-.
+- Control environment instead of camera like in movies.  
+- Contain: aesthetic + functionality
 
 
-- melee vs range
-- mobility vs stability
-- bruteforce vs Ingenuity (create own timing windows , distract enemy) (code braking - open paths)
-- combar vs stelth (wait for oportunity time window)
 
-.
-
-- generic path most dificult,
-
-Archit.
-- players typ spectactor go to the edge, traveler to center
-- more compfortable in positive space not so in negative.
-
-# Concept
-- Show don't tell
-- Minimize cognitive load. to avoid struggle with processing information's . to much details sensory overload.
-- Readability  
-- Form follow function. Restrictions, goals, context.   
-- Scale, metrics and proportions .  
-- Blockout, and props  
-- Backdrops - non-playable areas
-- Giving the player depth cues by  reference   
-- Obj with fixed size = car, without = tree    
-- Signposting  
-- learn > play > challenge > surprise
-
-
-## Production Constraints & Direction   
+##  Constraints & Direction   
 - Design constraints
 - Pipeline tools constraints
 
-### Pattern analysis
-- grid base props (modular) need lot of custom work to break pattern recognition, and don't feel unnatural and obvious.
-https://www.patternlanguage.com/
-
-### Recycling
-
-Make a change when recycling:
-- Power shift / Reversal  
-- Playing the level backwards  
-- Revisit
 
 # Navigation
 
-##### Intentionality
-Afford present player: options and **goals** > formulate **plan** > **act with intentionality** What to do but not how to do it.
-- Linearity feels bad could be caused by week intentionality
+## Intentionality
+Afford present player. Tell what to do but not how to do it.  Typically from a vantage point area where we can survey, orient ourselves  and plan our approach. Linearity feels bad could be caused by week intentionality.
 
-Players action loop: Typically in a vantage point area, where we can survey, orient ourselves  and plan our approach.
+##### Players action loop:
+- **Observe** options and goals (Learn) > formulate **Plan**  (Play) > **Act** with intentionality (Challenge) > Reaction (Surprise)
 
-1. Observe
-2. Plan
-3. Act
-4. React
+## Guidance
+We can guide player with: 
+- UI - UI, Maps, ...
+- In game visuals - Signposting: Signifiers, Signs, Lighting,.... (not breaking fourth wall)  
+- Narrative - Narrator, AI, …
+
+##### Paths
+- **Critical path** = The quickest and most direct route to beating the level.
+- **Golden path** = The designers ‘preferred’ route (generic path). It’s the one you expect most players to take and the one which will offer the optimal experience. Hardest to create. 
 
 ##### Circulation
 
-## Guidance
-- UI - UI, Maps, ...
-- In game visuals - Signifiers, Signs, Lighting,.... (not breaking fourth wall)  
-- Narrative - Narrator, AI, ...
-
-
-- **Critical path** = The quickest and most direct route to beating the level.
-- **Golden path** = The designers ‘preferred’ route. It’s the one you expect most players to take and the one which will offer the optimal experience.
-
 
 ## Saliency
-**Where to look**   
-Attention garbing. Control where player and cam look.  
+**Where to look**  Attention garbing. Control where player and cam look.  
 
-### Bottom up
+#### Bottom up
 - Contrast, movement  (Stronger in cinema cause we are chilling)
 
-### Top Down
+#### Top Down
 - Humans (meaning), NowSilent (We care now) (Stronger in goal/task orient mode) Human faces, people, things associated with our current task/goal (attentional goals).  
 
 **Attentional goals**  help players notice and pay attention to things  - (which can mean you become more ‘blind’ to other things). a locked gate they might assume the goal forward is to open the gate (even though the solution is to climb out a window).It’s also worth noting that if players are already focused on something else ...
 
 
 ## Affordances
-**Where to go**   
-Possibles of potential actions. Provide strong clues to the operations of things. Control what players believe is usable.  
+**Where to go** Possible of potential actions. Provide strong clues to the operations of things. Control what players believe is usable.  
 - **Objects** -  Windows afford to looking through.  Doors for enter, slots for inserting, knobs for turning, buton for press, flips for switch, Machines to use
 - **Surface**  - floor. we walk to affordance surface to walk. along longest sight lights. (or somewhere else if there could be price)
 - **Lights**
 
-### Positive
+#### Positive
 Afford to be used
 
 Way of Encourage player to take action
@@ -127,30 +88,40 @@ Way of Encourage player to take action
 - **Collectables**
 - high level long term goals. not pull a leaver.
 
-
-### Negative
+#### Negative
 Doesn’t afford to be used and can’t be  / Nope zone
 
-
-### False
+#### False
 looks like it affords to be used but can’t
+
+
+
+## Progression 
+ 
+Progression type
+- Game as a progression od levels
+- circle / bottlenecks / dead -ends
+- Verticality !!!!! important  
+- sandbox / multiplayer / boss arenas / lineasr
+
+
+#### Linear 
+
+#### Open world 
+Problems with open worlds: [YT Open worlds essey](https://youtu.be/-O3oe8sSRhQ), [YT Open worlds essey 2](https://youtu.be/7Rmqx6mHz-g) quick transport / objectives hud 
+
+
+
+
 
 # Space
 
-## Composition
-Composing 3d to view in 2d (flat monitor) like composition rules  
-
-- Clarity and flow vs confusion
-- Vary silhouettes of the skyline  
-- Lines of sight  
-- Depth perception vs. real space
 
 ## Orientation
 **where I am**    
 In games Perceptual pattern to create Orientation  
 - Signposting (characteristic to area, or showing way)
 - Divide to district /  (to distinct at map and mind )
-
 
 - `Landmarks` - individual objects
 - `District` - with unique fulvous
@@ -164,11 +135,38 @@ don't lead player where to go but how move through space
 
 ### Callouts
 
-Places on level you can call by name. Areas are distingue enough that player can identify them by feature (space, light, color). Should be thought through different scales (arena, district, level).
+Places on level you can call by name.  Areas are distingue enough that player can identify them by feature (space, light, color). Should be thought through different scales (arena, district, level).
+
+
+## Composition
+Composing 3d to view in 2d (flat monitor) like composition rules  
+
+- Clarity and flow vs confusion
+- Vary silhouettes of the skyline  
+- Lines of sight  
+- Depth perception vs. real space
+
+- players typ spectator go to the edge, traveler to center
+- more comfortable in positive space not so in negative.
+
+### Spatial empathy
+- twist to confusion
+- open of isolation and epic scale
+- narrow to large space and other way
+- vertycality - persecution
+- vertigo / rewad if stnding on top   
+
 
 ## Function
 
 [Architecture](/arch/)
+manage how players are able to take risk !!
+
+- melee vs range
+- mobility vs stability
+- bruteforce vs Ingenuity (create own timing windows , distract enemy) (code braking - open paths)
+- combar vs stelth (wait for oportunity time window)
+
 
 - Differentiate by usage: `stealth's` / `combat` / `traversal` / public `interaction` (opportunities for different playstyles  )
 - `public space` / `purpose spaces`
@@ -190,23 +188,40 @@ linear vs. non-linear ### non linear - Pacing
 - variety  
 - time  
 
+### Traversing  
+
+### Action Space
+Skill based
+
 ### Prospect & Refuge
 **Prospect** is a view, and **Refuge** is Safety place. This kept our ancestors safe from enemies/predators and the elements, meet basic human psychological needs.  (evolutionary heritage). provide people with the capacity to observe (prospect)
 
 - **Primary**  - you have now both
 - **Secondary** - we have only one and see second far away is only promise)
 
+
+### Gating
+Revealing level slowly, in tiers.
+
+|  |  |
+| ---|  ---|
+| gates hard | Halts progress until something is completed,  
+|gates soft | Intended to briefly slow the player down.   
+|valves | one way,  keep pushing players forward  
+
+###  Exploration 
+
 ### Secrets
 
 - **Breadcrumbing** -  sending brief and sporadic messages. Trail of something (usually pickups or information) that leads the player in the right direction or towards  
 - **Hints** - Slight or indirect indication or suggestion. (notes on paper, maps, signs)
 
-## Traversing  
 
-## Action Space
-Skill based
 
-## Combat Spaces
+
+
+# Combat
+
 Design for multiple options and strategies. viable/intended ranges of the combat space. pieces of cover should be available to the player at the start of combat Preventing teams from being able to spawn camp
 - Vintage point - Show off the combat space (or area the player needs to sneak through),
 - Fronts
@@ -227,15 +242,15 @@ Design for multiple options and strategies. viable/intended ranges of the combat
 - Vertical arrangement
 
 ### Level arrangement
-- Flow in general is about keeping players forward momentum going. (not to hardcor cornes )
+- Flow in general is about keeping players forward momentum going. (softer corners )
 - Connectivity
 
 E.g.
 - circle (ring)
 - 8 (2 circles)
-- Clash points - places wher efight (Double Clash)
-- Tug of War  - liner teams oposite sites. (vartiation with 2 paths )
-types: For 'Capture the flag' CTF / therytory take over   
+- Clash points - places where fight (Double Clash)
+- Tug of War  - liner teams opposite sites. (variation with 2 paths )
+types: For 'Capture the flag' CTF / territory take over   
 Offence / defence differencess      
 
 
@@ -254,6 +269,7 @@ https://www.raphkoster.com/games/presentations/small-worlds-competitive-and-coop
 - Tight angles
 - Ramps
 - Corner angles & verticality
+	- angle advantage: if you step away from corener you get corner advatage wiev.  https://youtu.be/FbeTevpBQPc
 
 ### Multiplayer
 
@@ -264,7 +280,7 @@ mastery mapy vs nowa mapa .
 
 # Visuals
 - Generally more effective when it makes contextual narrative sense  
-- Must be part of gameplay mechanics
+- Must be part of gameplay mechanics + Backdrops - non-playable areas
 
 ELements:
 - Architecture   
@@ -272,6 +288,7 @@ ELements:
 - Biology
 - Chemistry / Mechanics
 - Culture History Geo Politics
+
 
 
 
@@ -321,43 +338,40 @@ http://tmdag.com/ptakun/eco_system/makeofplants_en_htm.htm
 [Lore](/lore/)
 
 
-# Gameplay
-Psychological comfort
+# Pipelines 
 
-manage how players are able to take risk !!
+## Pipelines
+- Blockouts, and props  
 
-[Game Design](/gamemechanics/)   
-[Game Mechanics](/gamemechanics/)   
-
-Progression type
-- Game as a progression od levels
-- circle / bottlenecks / dead -ends
-- Verticality !!!!! important  
-- sandbox / multiplayer / boss arenas / lineasr
-
-### Gating
-Revealing level slowly, in tiers.
-
-|  |  |
-| ---|  ---|
-gates hard | Halts progress until something is completed,  
-gates soft | Intended to briefly slow the player down.   
-valves | one way,  keep pushing players forward  
-
-# Procedural
+## Procedural
 [Procedural](/procedural/)
 
-(dieter rams: minimalist product design)  
-(book: design of normal things don norman)  
-(roberto rengel: shaping interior space)    
-[doc](https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/preview?pru=AAABcubYTrs*65ZuXXMNJriddYR6IXE8Ag#), [pod](https://www.psychologyofgames.com/2020/01/podcast-55-the-psychology-of-level-design/)   
 
 
-> book: A Practical Guide to Level Design From Theory to Practice, Diplomacy, and Production"  https://youtu.be/8wEt8bCNvg8    
+### Pattern analysis
+Grid base props (modular) - need lot of custom work to break pattern recognition, and don't feel unnatural and obvious.
+https://www.patternlanguage.com/
 
+##### Recycling
 
+Make a change when recycling:
+- Power shift / Reversal  
+- Playing the level backwards  
+- Revisit
+
+# . 
+
+> Minimalist product design - Dieter Rams
+
+> Design of normal things Don Norman
+
+> Shaping interior space. Roberto Rengel
+
+> A Practical Guide to Level Design From Theory to Practice, Diplomacy, and Production"  https://youtu.be/8wEt8bCNvg8    
+
+[doc](https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/preview?pru=AAABcubYTrs*65ZuXXMNJriddYR6IXE8Ag#)
+[pod psychology of games podcast](https://www.psychologyofgames.com/2020/01/podcast-55-the-psychology-of-level-design/)   
 https://www.youtube.com/c/LevelDesignLobby/videos  
 https://www.youtube.com/watch?v=CpOoTAVeEcU  
-
-
 https://www.worldofleveldesign.com/categories/cat-level-design.php
+

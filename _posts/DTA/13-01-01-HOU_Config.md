@@ -1,13 +1,13 @@
 ---
 title: Houdini
-
 categories:
- - DTA
+  - DTA
 tags:
-- CG
-- Houdini
-- Shortcuts
-- Configs
+  - CG
+  - Houdini
+  - Shortcuts
+  - Configs
+  - NodesGraph
 description: Configs
 permalink: /houdiniconfigs/
 ---

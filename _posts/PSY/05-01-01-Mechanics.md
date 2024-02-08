@@ -2,18 +2,19 @@
 title: Game Mechanics
 description: Systems, Progression, Economy, Balance
 categories:
- - PSY
+  - PSY
 tags:
-- Design
-- Game Dev
-- Gameplay
+  - Design
+  - Gameplay
+  - GameDev
 permalink: /gamemechanics/
+aliases:
+  - gamemechanics
 ---
+[[08-01-01-GameDesign|gamedesign]]
+
 
 s9d meiers psychologyy of game design _ https://youtu.be/MtzCLd93SyU
-
-
-
 
 
 

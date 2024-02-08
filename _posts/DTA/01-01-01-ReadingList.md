@@ -104,6 +104,8 @@ John Marco Allegro - The Dead Sea Scrolls and the Christian Myth
   - **Don't think of an elephant** - z polecenia Haddita
 - Carl Jung
   -  **Modern Man in Search of A Soul** -
+  - https://www.reddit.com/r/Jung/comments/v5gvr2/the_ultimate_jungs_reading_guide/
+  - poznać Junga koncepcję Cienia, a potem obejrzeć Blue Velvet
 - Dan Ariely -  Behavioral Economics (but was acused of falsifying data )
 - Paul Bloom
   - Psycholinguistics, Developmental Psychology
