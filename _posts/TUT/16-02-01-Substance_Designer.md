@@ -14,10 +14,11 @@ permalink: /substancedesigner/
 aliases:
   - substancedesigner
 ---
-[[16-02-01-Rendering|rendering]]
-[[08-01-01-Material|matdata]] / [Material data](/matdata/)
+> Pxlink: [TUT](/tut/) [Material data](/matdata/)
+>Obsidian: [[TUT]] [[16-02-01-Rendering]]  [[08-01-01-Material]] 
 
-Dartk circle on node input mean this input is primary.
+
+Dark circle on node input mean this input is primary.
 
 # Bit depth
 
@@ -142,7 +143,7 @@ You need to render spline to convert
 
 
 ## Python
-https://support.allegorithmic.com/documentation/sat/pysbs-python-api/getting-started
+[Python API](https://support.allegorithmic.com/documentation/sat/pysbs-python-api/getting-started)
 
 -----
 
@@ -153,10 +154,7 @@ https://flafla2.github.io/2014/08/09/perlinnoise.html
 ![GitHub Logo](/Sources/noise/SubstanceNoises.png)
 
 
-
-
 https://youtu.be/WNwtc-OeGQ0  
 https://youtu.be/YmTN8K5-7Oc  
-
 https://youtu.be/YmTN8K5-7Oc
 https://youtu.be/NzSkMVYzP18
