@@ -2,13 +2,14 @@
 title: U Animation
 description: RAW
 categories:
- - PXL
+  - PXL
 tags:
-- Real Time
-- Unreal
-- Game Dev
-- Tech Art
-- Animation
+  - Unreal
+  - Tech
+  - Art
+  - Animation
+  - RealTime
+  - GameDev
 permalink: /uanimation/
 ---
 

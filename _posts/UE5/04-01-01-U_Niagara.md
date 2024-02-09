@@ -2,19 +2,24 @@
 title: Niagara
 description: Paradigm
 categories:
- - PXL
+  - PXL
 tags:
-- Unreal
-- VFX
-- Rendering
-- Real Time
-- HLSL
-- Game Dev
-- Niagara
+  - Unreal
+  - VFX
+  - Rendering
+  - HLSL
+  - Niagara
+  - RealTime
+  - GameDev
+  - NodesGraph
 permalink: /niagara/
+aliases:
+  - niagara
 ---
 
-
+[[02-01-01-U_Niagara_Module|niagaramodules]]
+[[03-01-01-U_Niagara_Interfaces|niagaraintrerfaces]]
+[[16-01-01-VFX|vfx]]
 
 
 ### Interaction spaces

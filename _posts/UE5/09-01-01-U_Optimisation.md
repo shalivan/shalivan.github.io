@@ -1,36 +1,35 @@
 ---
-title: U Render pipeline & Optimization
+title: U Render pipelines / optimization / compression
 description: RAW
 categories:
- - PXL
+  - PXL
 tags:
-- Rendering
-- Real Time
-- Unreal
-- Game Dev
-- Tech Art
-- Rendering
+  - Rendering
+  - Unreal
+  - Tech
+  - Art
+  - Rendering
+  - RealTime
+  - GameDev
 permalink: /uoptimization/
+aliases:
+  - uoptimization
 ---
+[[05-01-01-U_BP|ubp]]
+[[05-01-01-U_Code|ucode]]
 
 
-
-
-memory speed is slower     
-calculation is every better      
-saving mamory boundry !!!!! is much more important than few instructions      
-
-Garbage Collector
 
 Separate translucency
 
-It's the pass where all meshes (this includes landscapes, skeletal meshes etc) are drawn into the G-buffer.
 
 ---
 
 
 [Unreal Optimisation Guide](https://unrealartoptimization.github.io/book/pipelines/forward-vs-deferred)
 [UE community: optimizing the medieval game environment](https://dev.epicgames.com/community/learning/talks-and-demos/585Y/optimizing-the-medieval-game-environment)
+
+
 # Framerate 
    
 1000ms (1s) / 30 klatek = 33,3 ms to render one frame  
@@ -65,6 +64,13 @@ Assets:
 - shadow distances and turn off for small
 - tick  
 
+Garbage Collector:
+
+```
+memory speed is slower     
+calculation is every better      
+saving mamory boundry !!!!! is much more important than few instructions    
+```
 
 
 # Deferred Render pipeline  
@@ -138,8 +144,8 @@ Check if time of frame is bigger from CPU or GPU. (cause threads must wait one f
    - Burley SSSSS
    - GTAO (TGorund Truth Ambient Occlusion)
 
-###  Render passes  
 
+###  Render passes  
 | Render passes |  | dependences|
 | -- | -- | -- |
 |`LightCompositionTask_PreLighting`| | Decal count, PP AO radious    
@@ -158,6 +164,7 @@ Check if time of frame is bigger from CPU or GPU. (cause threads must wait one f
 |`RenderVelocities` | |Num of moving objects and tri-count!
 |`ScreenSpaceReflectiion` ||  (cost increaase with rough),
 
+It's the pass where all meshes (this includes landscapes, skeletal meshes etc) are drawn into the G-buffer.
 
 
 ## Game thread
@@ -168,7 +175,6 @@ CPU code - Game logic , Tick and transforms movement spawning physics, positions
  - Blueprints - construction script > longer time to spawn
 
 `dumpticks` - command to show detailed tick list
-
 
 
 ## Draw thread
@@ -191,7 +197,6 @@ CPU graphic render thread. Will cull things not in cam,  create list. critical i
  - PrimitiveMemory -  
  - SceneMemory -
  - Rendering Mem stack memory -
-
 
 
 ## Rendering geometry
@@ -276,6 +281,7 @@ basepass. canvasDrawTile, Post, Shadow Depths. Prepass< DLSS  Global DistanceFie
 - `Show ReflectionEnvironment`
 - `Show Rendering`
 - `Show Tessellation`
+
 ### Shader Complexity
 
 ### Light Complexity
@@ -298,29 +304,6 @@ cache
 cpu upload mem  
 disk  
 steraming pool    
-
-
-## Compression
-
-#### Textures used
-`Window/Statistics/..` - Used texture    
-#### Unreal Compression:
-
-| Unreal | DirectX |   | | | |4096 x RGB|
-| --- | ---  | ---  | ---|---|---|---|
-| Default  | DXT1(DX11)| BC1 | RGB(4bit) + A(1bit) |  | (sRGB) no alpha 4BPP bits per pixel, and has a maximum color resolution of 16 bits (as old VGA adapters.) 6:1 | 11Mb |BC2|RGB(4bit) + A(4bit)|
-| Default  | DXT5 (DX11)| BC3 | RGB(4bit) + A(8bit) | | Color+Height // BC1 for the RGB part and BC4 for A   // 8BPP 4:1 uses DXT1 for the color part, but adds another 4 bits per pixel of alpha. This gives you better transparency.| 11Mb
-| Grayscale | (DX11) | BC4  |R, RGB, G (8bit) || (sRGB) B&W masks| 21.8Mb
-| Displacement ||| R (8/16bit) || surface displacement |  21.8Mb
-| Vector Displacement | || BGR Standard 8bits  | | 3d displacement | 87.4Mb
-| NormalMap | DXT5  (DX11) |BC5 | |  | xtremely well on the gradient D3D11-more complex (2xBC4) | 21.8Mb
-| Mask | DXT1 / DXT5 | |  || (RGB) Linear Color | 11Mb
-| HDR |  |BC6| Float RGBA  | |  can natively store HDR D3D11-more complex (RGB) Linear Color IBS, Skybox  | 175Mb
-| HDR Compres  |(DX11) | BC6 H | Float RGBA (8-16) || (RGB) Linear Color | 21.8Mb
-|| (DX11) |BC7 | BGR A (4-16)| || 21.8Mb
-
-
-
 
 
 
@@ -354,6 +337,11 @@ steraming pool
 
 #### Visual Logger
 [VisLog](https://docs.unrealengine.com/4.26/en-US/TestingAndOptimization/VisualLogger/)
+
+
+#### Render Resource Viewer (5.2: Experimental) - 
+The Render Resource Viewer is a tool that gives full visibility into GPU memory allocations and render resources—such as Vertex Buffers and Index Buffers—and which assets they come from, like Static and Skeletal Meshes. This provides artists and developers with information needed to optimize GPU memory and keep their projects within their rendering budget.
+
 
 ## Unreal  
 
@@ -413,10 +401,6 @@ Tools for doebug:
 
 Gauntlet - automate testing
 
-
----
-
-
 ---
 
 # [UE4 CVars](http://www.kosmokleaner.de/ownsoft/UE4CVarBrowser.html)   
@@ -426,7 +410,6 @@ Gauntlet - automate testing
 
 
 ##### Show commands
-
 
 
 ```

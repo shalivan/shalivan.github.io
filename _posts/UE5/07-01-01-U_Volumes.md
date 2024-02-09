@@ -2,17 +2,20 @@
 title: U Volume
 description: Fluid Ninja, Clouds
 categories:
- - PXL
+  - PXL
 tags:
-- Unreal
-- Rendering
-- Real Time
-- Game Dev
-- Tech Art
+  - Unreal
+  - Rendering
+  - Tech
+  - Art
+  - RealTime
+  - GameDev
 permalink: /uvolume/
 ---
 
-
+[[16-02-01-Rendering|rendering]]
+[[15-01-01-Shading|mat]]
+[[11-01-01-U_Rendering|urendering]]
 
 
 [pxl.ink Unreal Rendering Features](/ue_rendering_features/)   
@@ -304,9 +307,9 @@ Custom GUI, Memory Manager, and Interface Controller.
 
 A better strategy is stacking 3 layers of lower resolution 3D noises (128^3 for example) instead of 2 high resolution. And because the 3 layers have aggressively larger scale, they make up for low resolution:
 
-|||instr pre level|lookup table|||
+| | |instr pre level|lookup table| | |
 |-|-|-|-|-|-|
-| Regular Texture
+| Regular Texture|
 |Fast Gradient| 3d tex |~16 | 1 | High quality but not for bumps (baked to a volume texture) | Always tiles  
 |Value | Computational | ~53-118 || Low quality but computational | yes
 |Gradient |Tex Based |~61-74 | 8 | High Quality |always but <=128

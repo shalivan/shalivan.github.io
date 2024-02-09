@@ -1,19 +1,23 @@
 ---
 title: Niagara Data Interfaces
-description:  Data Interfaces
+description: Data Interfaces
 categories:
- - PXL
+  - PXL
 tags:
-- Unreal
-- VFX
-- Rendering
-- Real Time
-- HLSL
-- Game Dev
-- Niagara
+  - Unreal
+  - VFX
+  - Rendering
+  - HLSL
+  - Niagara
+  - RealTime
+  - GameDev
 permalink: /niagaraintrerfaces/
+aliases:
+  - niagaraintrerfaces
 ---
-
+[[04-01-01-U_Niagara|niagara]]
+[[02-01-01-U_Niagara_Module|niagaramodules]]
+[[16-01-01-VFX|vfx]]
 
 
 `The Kill Particles` module at spawn - acts as a form of "Rejection Sampling". We sample the texture and then kill the newly spawned particles on their first frame if the sampled texture alpha equals 0.

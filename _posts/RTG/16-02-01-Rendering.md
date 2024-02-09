@@ -2,17 +2,25 @@
 title: Rendering
 description: Rasterization, Path Trace,
 categories:
-- PXL
+  - PXL
 tags:
-- Tech Art
-- Rendering
-- CG
-- Light
-- Shaders
+  - Tech
+  - Art
+  - Rendering
+  - CG
+  - Light
+  - Shaders
 permalink: /rendering/
+aliases:
+  - rendering
 ---
-[Material data](/matdata/)
-
+[Material data](/matdata/) / [[08-01-01-Material|matdata]]
+[[15-01-01-Shading|mat]]
+[[11-01-01-U_Rendering|urendering]]
+[[09-01-01-U_Optimisation|uoptimization]]
+[[03-01-01-Karma|karma]]
+[[04-01-01-Mantra|mantra]]
+[[12-01-01-USD|lop]]
 
 render can be parelalized // sim - big gpu with massive vram! one gpu!
 

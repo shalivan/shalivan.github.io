@@ -2,25 +2,31 @@
 title: Substance Designer
 description: Material authoring
 categories:
-- PXL
+  - PXL
 tags:
-- Tech Art
-- Materials
-- Shaders
-- CG
+  - Tech
+  - Art
+  - Materials
+  - Shaders
+  - CG
+  - NodesGraph
 permalink: /substancedesigner/
+aliases:
+  - substancedesigner
 ---
+[[16-02-01-Rendering|rendering]]
+[[08-01-01-Material|matdata]] / [Material data](/matdata/)
 
-[Material data](/matdata/)
+Dartk circle on node input mean this input is primary.
 
-# Bit depth 
+# Bit depth
 
-L8 - grayscale (256)
-L16 - default color (65000)
-L16F - 16 but floating point for heightmaps
-L32 - (ta sama co 16 tylko powyzej i poniżej 0 mozna matme)   , {not better but additional functionality}
+L8 - 8 bit  > grayscale (256 colors) > base color default color, albedo, ambient occlusion  
+L16 - 16 bit/channel (65000 colors/channle) >   normal export
+L16F - 16 bit/channel > but floating point for heightmaps
+L32 -  32 bit/channel > (ta sama co 16 tylko powyzej i poniżej 0 mozna matme)   , {not better but additional functionality} (assumed to be raw (linear space) by most rendering soft)
 
-L32 we can use 
+
 # Mixing
 Mixing colors:
 
@@ -44,13 +50,10 @@ Inne:
 - hue variation - base on original ccolor how much to offset original color
 smaple count - 2 colors variation - more ++
 
-
-
 # Nodes
 
 `make tile photo` -  
 `pixel processor`  !   
-
 
 
 ### Base:
@@ -62,40 +65,42 @@ smaple count - 2 colors variation - more ++
 `Gradient` - Gray to color   
 `Curve` -  
 `Split RGBA` / `Merge` - floats > vector > float   
+
 ### Filter
-- `Histogram` select
-- `Quantize`- steps
-- `Highpass` to remove gruba daty
-- `Curve` - broad range
+- `Histogram scan` - Select
+- `Quantize`- Steps
+- `Highpass` - (leave only detail)
+- `Curve` - Broad range
 - `Edge detect`
 ### Blurs
-- `Blur hq` 
+- `Blur hq`
 - `Non uniform blur Grayscale` - just blur  with angle and tex amp
 ### Warp / Organic
-- `Warp` - Move direction of gradient. From black to white. 
+- `Warp` - Move direction of gradient. From black to white.
 - `Directional Warp`  -  In one direction  in: mask how much will transfrer in const direction (use when need to break noise for tiles, bend shapes)
 - `Vector Warp` -   
 - `Multi dir warp grayscale` - w kilku kierunkach sterowanie  tylko amp
   - wrapy zostawiaja za soba  trailsy
-- `non- uniform dir wrap` - adv mozna sterować kątem maską
-- `vector wrap` - flow
-- `Slope Blur` -   
-- `Slope Blur Grayscale` - ('input', 'gradient with blur dir') like warp slide in direction of gradient descent.  Chained warps
+- `Non- uniform dir wrap` - adv mozna sterować kątem maską
+- `Vector wrap` - flow
+- `Slope Blur` / `Slope Blur Grayscale` - ('input', 'gradient with blur dir') like warp slide in direction of gradient descent.  Chained warps
   - min: cutoff
   - max: add
-- Shadow ? 
+- Shadow ?
 ### Tilers:
-- `Tile Sampler` - new  - more control - use with texture noise mask 
+- `Tile Sampler` - new  - more control - use with texture noise mask
 - `Tile Generator` -    - less control    
 - `Splatter` -  simpler in use than  Tile Generator
 - `Tile Random` - random constraint to keep random on string.    
 
-Flood fill system: 
+Flood fill system:
 - `Fill flood`   
+- `Flood Fill to grayscale` - Input noise to select random islands.    
+-
 
-Shape Splatter system: 
-- `Shape Mapper` / 
-- `Shape Splatter`   - system of advanced scattering . Is using bcg heigth. 
+Shape Splatter system:
+- `Shape Mapper` /
+- `Shape Splatter`   - system of advanced scattering . Is using bcg heigth.
 
 ### Noise
 - `Voronoii`
@@ -136,9 +141,17 @@ You need to render spline to convert
 - `path select`
 
 
-
+## Python
+https://support.allegorithmic.com/documentation/sat/pysbs-python-api/getting-started
 
 -----
+
+
+https://sighack.com/post/getting-creative-with-perlin-noise-fields
+https://flafla2.github.io/2014/08/09/perlinnoise.html
+
+![GitHub Logo](/Sources/noise/SubstanceNoises.png)
+
 
 
 

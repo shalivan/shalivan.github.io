@@ -2,23 +2,23 @@
 title: U Lighting Setups
 description: Atmosphere, Fog, Sun, Sky, Lumen
 categories:
- - PXL
+  - PXL
 tags:
-- Unreal
-- Rendering
-- Real Time
-- Light
-- Art
-- Game Dev
-
+  - Unreal
+  - Rendering
+  - Light
+  - Art
+  - RealTime
+  - GameDev
 permalink: /ulight/
-
+aliases:
+  - ulight
 ---
-
 [Unreal Rendering Features](/ue_rendering_features/)
-
 Sky is black and the sun is white
 
+[[05-01-01-Light|light]]
+[[19-01-01-Lighting|lighting]]
 
 # Light
 

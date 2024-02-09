@@ -14,55 +14,9 @@ aliases:
   - matdata
 ---
 
-Corelated pages:
+> Pxlink: [Camera](/camera/)  / [Algebra](/algebra/) /[Rendering](/rendering/) / [Substance Designer](/substancedesigner/) / [[16-02-01-Substance_Designer|substancedesigner]]
+> Obsidian: [[DTA]] [[11-01-01-Math|Math]]  / [[15-01-01-Shading|Shading]]
 
-[Camera](/camera/)    
-[Algebra](/algebra/)
-[Rendering](/rendering/)
-[Substance Designer](/substancedesigner/) / [[16-02-01-Substance_Designer|substancedesigner]]
-
-[[11-01-01-Math|math]]
-
-
-```
-- albedo > refract
-- sharpness of reflection > reflect
-	- reflection on angle is more sharp and visible (fresnel)
-- metal pure reflection > only refraction (or absorbed [heat]) > only mat that tint reflection  (but saturate with Fresnel)
-- variance in reflection >
-```
-
-# PBR 
-Energy conservation 
-Eyes are less sensitive in dark. 
-
-
-**sRGB** - mid gray in middle (perceptual display of blacks)
-**Linear RGB** - image is brighter (black are crushed into small range)
-- Linear space value (0.5) converted to a gamma space rgb value: `0.5`^(1 / 2.2) = ~0.73 * 255 = `186`
-
-sRGB to Liner
-```
-If (0 ≤ S ≤ 0.04045):  
-    L = S/12.92  
-Else (0.04045 < S ≤ 1):  
-    L = ((S+0.055)/1.055)^2.4
-```
-Linear to sRGB 
-```
- If (0 ≤ L ≤ 0.0031308):  
-     S = L * 12.92  
- Else (0.0031308 < L ≤ 1):  
-     S = 1.055*L^(1/2.4) - 0.055
-```
-
-### Workflow
-##### Metal / Roughness 
-A byproduct of using the metal/roughness workflow is that it can produce a white edge artifact,
-- white artefacts on blend
-
-##### Specular/glossiness
-- dark artefacts on blend
 
 # Render passes
 
@@ -80,30 +34,31 @@ Flat lower contrast and brighter than normal photo.
 
 | Mat | Linear | Linear byte | sRGB |
 | ---- | ---- | ---- | ---- |
-| WHITE | `0.893` | 229,229,229 | `240` - `249` (`0.95`) |
-| Middle Gray (Zone V) | `0.18` | 46,46,46 | `128` (`0.5`) |
-| BLACK | `0.01` - `0.027` | 7,7,7 | `30` - `50` (`0.117` - `0.195`) |
+| White | `0.893` | 229,229,229 | `240` - `249` (`0.95`) |
+| Gray (Zone V) | `0.18` | 46,46,46 | `128` (`0.5`) |
+| Black | `0.01` - `0.027` | 7,7,7 | `30` - `50` (`0.117` - `0.195`) |
 |  |  |  |  |
 | White paint / Fresh snow | `0.81` (`0.80` - `0.90`) | 243,243,243 | `230` |
 | Brright Gray | `0.5` | 128,128,128 | `186` (`0.72`) |
 | Black Paint | `0.02` | 5,5,5 | `43` (`0.169`) |
 | Coal / Carbon / Fresh asphalt | `0.02` - `0.04` |  |  |
-|  |  |  |  |
+| **CONCRETE** |  |  |  |
 | Fresh concrete | `0.51` - `0.55` | 192,191,187 |  |
 | Worn asphalt | `0.08`- `0.12` |  |  |
 | Old Concrete |  | 135,136,131 |  |
-|  |  |  |  |
-| Rock | `0.3` - `0.4` |  | `148` - `168` |
+| **ROCK** |  |  |  |
 | Limestone | `0.3` - `0.45` |  | `148` - `177` |
-| Desert sand | `0.36`  -` 0.40` | 177,167,132 |  |
+| Rock | `0.3` - `0.4` |  | `148` - `168` |
+| **SOIL** |  |  |  |
 | Sandy Soil | `0.25` - `0.45` Dry |  | `136` - `177` |
-| Silt loam Soil | `0.23` - `0.28` Dry |  | `131` -`143` |
+| Desert sand | `0.36`  -` 0.40` | 177,167,132 |  |
 | Clay Soil | `0.23` - `0.4` Dry | 137,120,100 | `131` - `168` |
-| Yellow Clay | `0.16` |  | `111` |
-| Bare soil | `0.13` - `0.17` |  | `114` |
 | Grey soil | `0.1`  Wet  `0.3` Dry |  | `90` - `148` |
+| Silt loam Soil | `0.23` - `0.28` Dry |  | `131` -`143` |
+| Bare soil | `0.13` - `0.17` |  | `114` |
+| Yellow Clay | `0.16` |  | `111` |
 | Black soil | `0.08` Wet  `0.15` Dry |  | `81` - `108` |
-|  |  |  |  |
+| **FOLIAGE** |  |  |  |
 | Green grass | `0.2` -  `0.25` |  | `123` - `136` |
 | Tundra | `0.2` |  | `123` |
 | Tall wild grass | `0.16` - `0.18` |  | `111` - `117` |
@@ -116,16 +71,16 @@ Flat lower contrast and brighter than normal photo.
 | Autumn foliage | `0.15` - `0.3` |  | `109` -`148` |
 | Conifer Forest | `0.08` - `0.12` |  | `81` |
 | Leafs | `0.07` Wet  `0.2` Dry |  | `75` - `123` |
-|  |  |  |  |
+| **WOOD** |  |  |  |
 | Batten planks (fresh wood) | `0.35` - `0.42` |  | `158` - `172` |
 | Batten planks (old weathered) | `0.12` - `0.16` |  | `97` - `111` |
 | Varnished wood | `0.13` |  | `101` |
 | Bark, oak | `0.1` |  | `90` |
-|  |  |  |  |
+| **WATER** |  |  |  |
 | Ocean Ice | `0.56` ( `0.5` - `0.7`) |  |  |
 | Water sun near horizon | `0.5` - `0.8` |  |  |
 | Water sun near zenith | `0.05` |  |  |
-|  |  |  |  |
+| **SKIN** |  |  |  |
 | Skin European | `0.35` - `0.6` |  | `158` - `202` |
 | Skin Indian | `0.15` - `0.3` |  | `108` - `148` |
 | Skin African | `0.05` - `0.15` |  | `65` - `108` |
@@ -144,6 +99,7 @@ Let the material value in unreal be default 0.5 and multiply by a cavity map to 
 The specular part of Disney “principled” BRDF is a GGX BRDF. It use a roughness parameter.
 Nm is crucial! 
 more direct reflection and depends heavily on the viewing angle relative to the light source and the surface normal.
+- reflection on angle is more sharp and visible
 
 | Mat |  UE |
 | ---- | ---- |
@@ -158,36 +114,38 @@ more direct reflection and depends heavily on the viewing angle relative to the 
 | Quartz | `0.57` |
 | Diamond |  |
 
-
 ## Metal
-|Mat |  |
-|-- | -- |
-|Conductors | 1  
-|Dielectrics | 0
+| Mat |  |
+| ---- | ---- |
+| Conductors | `1` |
+| Dielectrics | `0` |
+| Diamond |  |
 
-- **Conductors** Spec and glossy refl, in conductors typicaly metlas. dep on wave len (yellow gold) (reflect most light and turn non reflected into heat)
+- **Conductors** Spec and glossy reflection, in conductors typically metals. dep on wave len (yellow gold) (reflect most light and turn non reflected into heat)
 - **Dielectrics** - (BTDF shader ie) reflected and refracted (IOR,bend ing rays on medium change) sometimes scatter (as subsurf) and flat ss is difuse
-`Conductors` - (tyupicly reflect depend on wave leng. give color)  
-`Dielectrics` - (refl + refract + scatter refracted (subsurf but rather difuse ))   
+`Conductors` - (typicly reflect depend on wave leng. give color)  
+`Dielectrics` - (reflect + refract + scatter refracted (subsurf but rather difuse ))   
 Refl + refr >> have fresnel.
 
 
 # Advanced Render passes
 
 ## Refraction 
+-  physical model of **Index of Refraction** - but you will have an offset that reads from off screen, shift material glitches can occure.   
+- **Pixel Normal Offset** enables refraction for these large flat surfaces, like water,
 
-| Mat |  | Index of Refraction (IOR) |
+| Mat |  | IOR |
 | ---- | ---- | ---- |
-| COMON |  | 1.5 |
-| Air |  | 1 |
-| Ice |  | 1.31 |
-| Water |  | 1.33 |
-| Milk |  | 1.350 |
+| COMON |  | `1.5` |
+| Air |  | `1` |
+| Ice |  | `1.31` |
+| Water |  | `1.33` |
+| Milk |  | `1.35` |
 | Skin |  |  |
-| Glass |  | 1.52 |
-| Plastic |  | 1.460 |
-| Quartz |  | 1.544 - 1.644 |
-| Diamond |  | 2.42 |
+| Glass |  | `1.52` |
+| Plastic |  | `1.46` |
+| Quartz |  | `1.544` - `1.644` |
+| Diamond |  | `2.42` |
 
 
 ```
@@ -202,12 +160,11 @@ so AIR to water 1.33
 
 
 ## SSS
-### Anisotropy 
 
+To use this feature, enable Burley in the Subsurface Profile and set the Editor Preview Level to Cinematic. If you're already using Separable SSS profile, minimal changes are required to switch to this method. Note that Burley SSS requires Temporal Anti-Aliasing to work properly.
+
+### Anisotropy 
 
 ---
 
-
-https://www.artstation.com/artwork/8ZEAx
-https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-2
-https://seblagarde.wordpress.com/2014/04/14/dontnod-physically-based-rendering-chart-for-unreal-engine-4/
+- metal pure reflection > only refraction (or absorbed [heat]) > only mat that tint reflection  (but saturate with Fresnel)
