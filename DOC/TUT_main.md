@@ -1,19 +1,25 @@
 ---
-title: Pipes
+title: Tut
 categories:
   - DTA
-  - HOU
 tags:
   - CG
   - Configs
   - Pipelines
   - Data
   - NodesGraph
-description: Pipelines
-permalink: /tut-main/
+description: Tut
+permalink: /tutmain/
 ---
+
+
+
+
+Jxx
+
+
 > Pxlink: [[DTA]]
->Obsidian: [[DTA]]
+> Obsidian: [[DTA]]
 
 [[01-01-01-ReadingList]]
 [[01-01-01-Links]]

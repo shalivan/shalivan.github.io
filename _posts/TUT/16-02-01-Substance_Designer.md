@@ -14,8 +14,8 @@ permalink: /substancedesigner/
 aliases:
   - substancedesigner
 ---
-> Pxlink: [TUT](/tut-main/) [Material data](/matdata/) 
->Obsidian: [[TUT]] [[16-02-01-Rendering]]  [[08-01-01-Material]] 
+> Pxlink: [TUT](/tutmain/) [Material data](/matdata/)   
+> Obsidian: [[TUT]] [[16-02-01-Rendering]]  [[08-01-01-Material]]
 
 
 Dark circle on node input mean this input is primary.
