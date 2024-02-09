@@ -10,7 +10,7 @@ tags:
   - Data
   - NodesGraph
 description: Pipelines
-permalink: /tut/
+permalink: /tut-main/
 ---
 > Pxlink: [[DTA]]
 >Obsidian: [[DTA]]
