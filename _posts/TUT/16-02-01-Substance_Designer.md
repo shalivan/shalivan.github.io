@@ -10,13 +10,19 @@ tags:
   - Shaders
   - CG
   - NodesGraph
+  - 3D
+  - Software
 permalink: /substancedesigner/
 aliases:
   - substancedesigner
 ---
 > Pxlink: [TUT](/tutmain/) [Material data](/matdata/)   
-> Obsidian: [[TUT]] [[16-02-01-Rendering]]  [[08-01-01-Material]]
+> Obsidian: [[TUT]] [[16-02-01-Rendering]]  [[08-01-01-Material]] [[18-01-01-Color]]  [[14-01-01-Procedural]]  [[11-01-01-Math]]
 
+
+
+> Pxlink:
+>Obsidian:  
 
 Dark circle on node input mean this input is primary.
 

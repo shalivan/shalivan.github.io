@@ -1,6 +1,6 @@
 ---
 title: VEX Attributes
-description: @attributes, Groups, Casts
+description: attributes, Groups, Casts
 categories:
  - VEX
 tags:

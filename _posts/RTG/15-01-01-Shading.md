@@ -13,8 +13,8 @@ permalink: /mat/
 aliases:
   - mat
 ---
-> Pxlink: [Camera](/camera/) / [Algebra](/algebra/) / [Rendering](/rendering/) / [Mat Data](/matdata/)  
->Obsidian:  [[16-02-01-Rendering|Rendering]] / [[08-01-01-Material|matdata]] / [[16-02-01-Substance_Designer|substancedesigner]] / [[09-01-01-U_Optimisation|uoptimization]]
+> Pxlink: [DTA](/DTA/) [Camera](/camera/) / [Algebra](/algebra/) / [Rendering](/rendering/) / [Mat Data](/matdata/)  
+>Obsidian: [[DTA]] [[16-02-01-Rendering|Rendering]] / [[08-01-01-Material|matdata]] / [[16-02-01-Substance_Designer|substancedesigner]] / [[09-01-01-U_Optimisation|uoptimization]] [[17-01-01-Modeling]] [[17-01-01-Modeling_Foliage]]  [[09-01-01-U_Shaders]]
 
 > External links: 
 >[Cg encyclopedia](https://chrisbrejon.com/articles/albedo-and-pointers-gamut/)
@@ -22,6 +22,7 @@ aliases:
 >[Iri Shinsoj](https://shinsoj.artstation.com/projects/klJb8d)
 >[Substance PBR guide](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-2)
 >[PBR wiki 2018](https://www.pbr-book.org/3ed-2018/contents )   
+>[YT](https://www.youtube.com/watch?v=3mfvZ-mdtZQ)
 
 # Shaders 
 
@@ -71,6 +72,17 @@ A byproduct of using the metal/roughness workflow is that it can produce a white
 # MaterialX
 
 Layers Horizontal and vertical:
+
+@Cd >> W USD: displayColor
+
+MAT:
+1) Mat lib
+ - matx subnet.  >> mtlx standard
+ - BEFORE PLUGIN BASE COLOR: convert jpg to aces ACES: karma_OCIO_transform  Utility - Linear - sRGB  >> ACES - ACEScg
+ - BEFORE PLUGIN NORMAL:
+ - mtlxgeometrycolor - vertex color // or geompropvalue z parametrem displayColor (Cd in sops)
+-
+
 
 |  |  |
 | ---- | ---- |
@@ -178,17 +190,18 @@ How to Add normal map:
 | Blend models |  | Usage |
 | ---- | ---- | ---- |
 |  |  |  |
+LEGACY : 
 
-| Translucency Mode | Ps/Vs | Cost | Usage |
-| ---- | ---- | ---- | ---- |
-| **Sss** |  |  |  |
-| **Preintegrated Skin** | cheaper to render than the Sss method |  |  |
-| **Subsurface Profile** | higher-end skin rendering |  |  |
-| **2 Sided Foliage** |  | simulate transmision, for cloths (non solid materials) |  |
-| **Hair** |  | multiple specular highlights: 1) color of light, 2) mix of hair and light color. |  |
-| **Cloth** |  | "fuzz" layer |  |
-| **Single Layer Water** |  | translucent in opaque mode |  |
-| **Thin Translucent** |  | colored glass (background) white specular highlight and the tinted background are needed |  |
+| LEGACY:                | Ps/Vs                                 | Cost                                                                                     | Usage |
+| ---------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------- | ----- |
+| **Sss**                |                                       |                                                                                          |       |
+| **Preintegrated Skin** | cheaper to render than the Sss method |                                                                                          |       |
+| **Subsurface Profile** | higher-end skin rendering             |                                                                                          |       |
+| **2 Sided Foliage**    |                                       | simulate transmision, for cloths (non solid materials)                                   |       |
+| **Hair**               |                                       | multiple specular highlights: 1) color of light, 2) mix of hair and light color.         |       |
+| **Cloth**              |                                       | "fuzz" layer                                                                             |       |
+| **Single Layer Water** |                                       | translucent in opaque mode                                                               |       |
+| **Thin Translucent**   |                                       | colored glass (background) white specular highlight and the tinted background are needed |       |
 
 
 |Translucency Mode | Ps/Vs | Cost |  Usage|
@@ -236,6 +249,49 @@ The DBuffer decals can be used with lighting. These are not on by default and mu
 `CameraDirectionVector`, is a vector, that corresponds to direction, where camera is pointing in worldspace.
 
 
+
+
+## Strata 
+Specular workflow 
+BSDF layering is expensive 
+
+
+https://youtu.be/rIktWZ-lpWw
+### Blend Materials 
+`Add`  - not physically correct
+`Horizontal layers` blend materials 
+- background / foreground 
+`Vertical layers` - one on top of other and define what thick first layer is.  Expensive
+- top / bottom  with thickness 
+`Coverage weight` (how strong material is)
+
+**Slab** << is a material 
+
+Substrate Slab BSDF: 
+
+`BSDF` - Bidirectional scattering distribution functions 
+`F0` v3 - Reflection at facing angle - can use to color highlights  (Reflective indexes )
+`F90` - Reflection at side of object. 
+`Anisotropy` - stretching highlight 
+`SSS MFP` - Subsurface mean free path (Opacity)- densityof material and effect of absorption (in cm)
+`SSS MFP Scale` -
+`SSS Phase Anisotropy ` - Negative values negative scattering, 0 - scatter in both dir
+`Second roughness` - Second roughness weight on 0 is using only first and 1 will use only second. 
+`Fuzz Roughness` s - Emulate fuzz 
+
+##### Metal 
+SMF Metal  - node help to convert metallic workflow  but can be achieved by Diffuse Albedo and F0 
+- Diffuse - diffuse is separated so 0,0,0
+- F0 - should be color of metal 
+
+##### Silk fabric 
+
+##### Thin-film  
+- f0 & f90 
+- dif - 0 
+
+
+
 ----
 
 ## Triplanar
@@ -270,6 +326,3 @@ Unreal simplified disney model
 - Tessal / vs
 - Virtual texture - runtime Vertual Texture
 https://youtu.be/kxsQ5m2IAXs
-
-## POM vs Tessalation:
-

@@ -8,6 +8,8 @@ tags:
   - Gameplay
   - Architecture
   - GameDev
+  - 3D
+  - CG
 permalink: /leveldesign/
 aliases:
   - leveldesing

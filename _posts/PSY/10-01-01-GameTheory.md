@@ -16,6 +16,10 @@ aliases:
 [[19-01-01-Cognition|cognition]]
 [[13-01-01-Motivation|motivation]]
 
+
+[W co grają ludzie - Berne Eric](https://www.empik.com/w-co-graja-ludzie-berne-eric,42565,ksiazka-p)
+Influence book 
+
 # Game Types
 Mathematical modeling at strategic interaction between rational agents.
  - action of one player influence other players (concept of strategic interdependence)
@@ -141,6 +145,11 @@ most of life is not zero sum.
 
 
 
+#### stoping problem
+37% optimal . after 27% of checked options commit to first that is better then
+
+
+
 
 wazne ile rund. im mniej rund tym mniej kooperacji potrzebujesz!!!!!!
 
@@ -249,10 +258,10 @@ Zero sum game.  No pure strategy Nash equilibrium. - If no pure nash exist in mi
 
 A>B>C
 
-||Heads|Tails|
+| |Heads|Tails|
 |--|--|--|
-**Heads**|B, a | C, c
-**Tails** | C, c | A, b
+|**Heads**|B, a | C, c
+|**Tails** | C, c | A, b
 
 (1,2) - are nash
 
@@ -270,10 +279,12 @@ TCG - traiding card games
 # Poker
 
 a game of decision-making in the face of incomplete information.
+
 ## Basics
 
-
 ### Betting rounds & Positions
+
+Out Of Position should only defend hands better than In Position
 
 |Button / Dealer | strongest - 50% opening range / button river betting range (only 57 combos) | **In position**   (Act last)|
 |-|-|-|
@@ -286,6 +297,18 @@ a game of decision-making in the face of incomplete information.
 |SB | tight is right // in short stack when AllIn - is good (game of chicken ) |  **Out of position**   Act first (After flop)  | 
 
 
+|               |       |
+| ------------- | ----- |
+| High          | 1     |
+| Pair          | 2     |
+| 2 Pairs       | 2 + 2 |
+| Three         | 3     |
+| Straight      | 1..5  |
+| Flush (color) |       |
+| Full House    | 2 + 3 |
+| Four          | 4     |
+| Straight      |       |
+| Royal Flush   | 1..5  |
 
 
 
@@ -300,6 +323,9 @@ Limp - Playing minimum bet when u  last to act.
 ### Chips
 Chips to start: 20-40 BB for shallow tables to 250+ for deep game  
 
+### EV
+
+EV =  chance * $win - (1-chance) * $lose
 
 ### Other rules
 - **Ante** - Ante and Blinds are forced bets

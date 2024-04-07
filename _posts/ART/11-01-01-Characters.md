@@ -5,6 +5,7 @@ categories:
 tags:
   - CG
   - zBrush
+  - 3D
 description: Paradigm
 permalink: /characters/
 aliases:

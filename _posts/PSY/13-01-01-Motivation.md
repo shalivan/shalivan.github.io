@@ -15,15 +15,19 @@ aliases:
 [[09-01-01-Ludology|ludology]]
 [[08-01-01-GameDesign|gamedesign]]
 [[15-01-01-Personality|personality]]
-deep and quality motivation is important to develop. !!!!!!!!!!!!!!!
 
+
+
+
+
+# Motivation
 
 [Britannica explains:](https://www.britannica.com/topic/motivation/Observational-learning) No one theory is capable of explaining all that we know about motivational processes.  Some motives seem best understood from a biological viewpoint. Other motives appear to be learned. Still other motives are influenced by the cognitive processes in which we engage. Our interpretation of the events around us influences our future motivation.
 - needs, wants or desires acquired through influence or may be generally innate. Conscious or unconscious
 - most important reasons for actions or move forward in the decision-making process
 - progression > stimulate brain > keep engaging:  [Experience > Flow / presence / immerse / engagement ](/ludology/)
+deep and quality motivation is important to develop. !!!!!!!!!!!!!!!
 
----
 
 
 #  Biological
@@ -134,10 +138,10 @@ Depend on context and not account for all human behavior. Can shift by different
 
 ## MDT - Motive disposition theory
 
-|  | ||
+|  | | |
 |--|--|--|
-**Implicit** |  are implied but not directly stated |  wishes
-**Explicit** |directly stated, leaving no room for uncertainty | desires
+|**Implicit** |  are implied but not directly stated |  wishes
+|**Explicit** |directly stated, leaving no room for uncertainty | desires
 
 
 
@@ -146,16 +150,16 @@ Depend on context and not account for all human behavior. Can shift by different
 
 
 
-||MDT| SDT|
-|---|---|---|
-Theme of crucial need| Power| Autonomy
-Hypotheses about the effects of need satisfaction | Matching hypothesis:` Motive × Environment` interaction predicts motivation and well‐being | Universality hypothesis: `Satisfaction` of basic needs has similar (positive) effects for everybody
-Individual differences | `Want` - Needs as motive. Individual differences  | `Need` as requirements - No differences
-Access to needs and measurement | `Unconscious`, indirect assessment: PSE, OMT |`Conscious`, direct assessment: self‐reports
-Evolutionary basis | Variation in motive strength through learning | Basic needs are represented within the genome of every human being
-Neurohormonal basis | Motives are associated with specific hormones | No explicit assumptions about neurohormonal basis of needs
-Implicit vs. explicit | `Implicit` vs. `explicit motives` | NA
-Hope vs. fear |Differentiation into `hope` and `fear` components of implicit motives | NA
+|                                                   | MDT                                                                                        | SDT                                                                                                 |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| Theme of crucial need                             | Power                                                                                      | Autonomy                                                                                            |
+| Hypotheses about the effects of need satisfaction | Matching hypothesis:` Motive × Environment` interaction predicts motivation and well‐being | Universality hypothesis: `Satisfaction` of basic needs has similar (positive) effects for everybody |
+|Individual differences | `Want` - Needs as motive. Individual differences  | `Need` as requirements - No differences
+|Access to needs and measurement | `Unconscious`, indirect assessment: PSE, OMT |`Conscious`, direct assessment: self‐reports
+|Evolutionary basis | Variation in motive strength through learning | Basic needs are represented within the genome of every human being
+|Neurohormonal basis | Motives are associated with specific hormones | No explicit assumptions about neurohormonal basis of needs
+|Implicit vs. explicit | `Implicit` vs. `explicit motives` | NA
+|Hope vs. fear |Differentiation into `hope` and `fear` components of implicit motives | NA
 
 
 
@@ -167,11 +171,11 @@ Hope vs. fear |Differentiation into `hope` and `fear` components of implicit mot
 Model on human needs.
 
 
-|  | ||||
+|  | | | | |
 |--|--|--|--|--|
-**Competence** / Mastery  | Challenge | Easy to learn difficult to master  | skill: survival, crafting | Being in control Interact with activities.
-**Autonomy** | Choice |  Volition Customization, Agency,  Control | your world, your creations | Self expression or meaningful choice  
-**Relatedness** | Connecting | Social grouping, Status feedback  | shared experiences, public canvases | Cooperation or Competition. Rank relation. (knowledge where I fit)
+|**Competence** / Mastery  | Challenge | Easy to learn difficult to master  | skill: survival, crafting | Being in control Interact with activities.
+|**Autonomy** | Choice |  Volition Customization, Agency,  Control | your world, your creations | Self expression or meaningful choice  
+|**Relatedness** | Connecting | Social grouping, Status feedback  | shared experiences, public canvases | Cooperation or Competition. Rank relation. (knowledge where I fit)
 
 Autonomy:
 - Freedom, Independence (from real world wiev) but not good words for autonomy,
@@ -196,31 +200,16 @@ Autonomy:
 
 https://medium.com/ironsource-levelup/a-closer-look-into-the-12-gamer-motivations-8d156ff0151a
 
-|   | High | Low |
-|--|--|--|
-| **Social** | BRIGHT
-`Community` Shared Experience| **Teamwork** Community driven sacrifice control.Grouping up. Chatting. Social interaction. Collaboration.    | **Independence** Single-player. Soloable quests. Be in full control
-`Competition` Social Comparison | **Conflict** Adversarial. Arenas. Duels. Matches. Leaderboards. Rankings. | **Non-adversarial** - Non-competitive. No rankings/duels against human players.
-|
-| **Action** | BRIGHT - want to be excited, or interacting with other players
-`Excitement`  Novelty | **Thrilling** Fast-paced. Action-based. Surprising. Adrenaline rush. | **Calm** Turn-based. Can be paused. Relaxed. Predictable. Low visual stimulation.
-`Destruction` Entropy| **Chaotic** Guns. Explosions. Mayhem. Carnage. Gore. Destructible environments | **Enduring** Idyllic. Serene. Evergreen. No weapons/gore. Typically G/PG content
-|
-| **Achievement** | TALL - long-term gaming
-`Completion` Source of Goals| **Task-Oriented** Complete tasks/quests. Collect stars/trophies and collectibles. | **Self-Driven** Decide what to do myself. Sandbox/open gameplay. Self-directed goals.   
-`Power` Growth| **Progression-Based** Start weak and grind. Level up character/stats. Upgrade weapons/spells.   | **Flat Progression** Fully-developed characters from the start. Static. Level playing field.
-|
-| **Mastery** | TALL - long-term gaming
-`Strategy` Decision Complexity | **Contemplative** Think. Plan. Complex decisions. Long-term strategies. Consider consequences. |  **Spontaneous** Reactive gameplay. Low cognitive load. Short time horizons.  
-`Challenge` Skill Improvement | **Skill-Based** Steep learning curve. Complex moves/rules. Difficult missions, bosses. | **Easy Fun** Quick to learn. Low skill barrier. Straightforward mechanics. No skill-based gates.
-|
-| **Immersion** |  WIDE -  testing the boundaries of the game.
-`Fantasy` Suspending Disbelief| **Deep Lore** Rich world lore/history. Compelling alternate world. Visually immersive world. |  **Generic/Abstract** Generic or abstract setting. 2D/retro graphics. Minimal world-building/lore.  
-`Story` Web of Human Drama| **Scripted Drama** Elaborate narrative arc. Large cast of characters with motive/personality. | **Open-Ended** No overarching narrative.  Basic/stock NPCs. Blank canvas to build on
-|
-| **Creativity** | WIDE -  testing the boundaries of the game.
-`Discovery` The Unknowns| **Curious** Explore world. Find hidden secrets/treasures. Experiment with objects. Tinker.   | **Practical** Fully-exposed rulesets. Minimal unknown variables and possible interactions
-`Design` Expressing Individuality | **Customizable** Express individuality. Customize avatar/house. Lots of skins accessories.| **Curated** Fixed, but often highly stylized avatar. None or few customization opportunities.
+|                                 | High                                                                                                      | Low                                                                                              |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **Social**                      | BRIGHT                                                                                                    |                                                                                                  |
+| `Community` Shared Experience   | **Teamwork** Community driven sacrifice control.Grouping up. Chatting. Social interaction. Collaboration. | **Independence** Single-player. Soloable quests. Be in full control                              |
+| `Competition` Social Comparison | **Conflict** Adversarial. Arenas. Duels. Matches. Leaderboards. Rankings.                                 | **Non-adversarial** - Non-competitive. No rankings/duels against human players.                  |
+| `Destruction` Entropy           | **Chaotic** Guns. Explosions. Mayhem. Carnage. Gore. Destructible environments                            | **Enduring** Idyllic. Serene. Evergreen. No weapons/gore. Typically G/PG content                 |
+| `Power` Growth                  | **Progression-Based** Start weak and grind. Level up character/stats. Upgrade weapons/spells.             | **Flat Progression** Fully-developed characters from the start. Static. Level playing field.     |
+| `Challenge` Skill Improvement   | **Skill-Based** Steep learning curve. Complex moves/rules. Difficult missions, bosses.                    | **Easy Fun** Quick to learn. Low skill barrier. Straightforward mechanics. No skill-based gates. |
+| `Story` Web of Human Drama      | **Scripted Drama** Elaborate narrative arc. Large cast of characters with motive/personality.             | **Open-Ended** No overarching narrative.  Basic/stock NPCs. Blank canvas to build on             |
+|`Design` Expressing Individuality | **Customizable** Express individuality. Customize avatar/house. Lots of skins accessories.| **Curated** Fixed, but often highly stylized avatar. None or few customization opportunities.
 
 
 
@@ -283,10 +272,10 @@ FEARS WANTS & DEASIRES, change customer seek::: >> advent, affection , avoid new
 - **structure** - structure around the content   - ponts levels achievments
 - **content** -  
 
-||Left brain||Right brain|
+| |Left brain| |Right brain|
 |--|--|--|--|
 |Positive|**Development** and **Accomplishment** |**Epic meaning and calling** |**Empowerment of creativity and feedback**|
-||**Ownership and possession** ||**Social**|
+| |**Ownership and possession** ||**Social**|
 |Negative|**Scarcity** | **Loss & Avoidance**| **Unpredictability** and **curiosity**|
 
 - **Epic meaning and calling** - narrative, meaning

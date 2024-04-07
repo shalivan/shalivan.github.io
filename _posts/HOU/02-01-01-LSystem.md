@@ -13,6 +13,9 @@ permalink: /lsystem/
 ---
 
 
+> Pxlink:
+>Obsidian:   [[17-01-01-Modeling_Foliage]] [[14-01-01-Procedural]] [[17-01-01-SpeedTree]]
+
 
 [SOP_L.hiplc](/src/hip/SOP_L.hiplc)
 
@@ -20,12 +23,12 @@ permalink: /lsystem/
 
 #### Move and Rot (d0L)
 
-|||
+| | |
 |---|---|
-`F`| Move forward a step, drawing a line connecting the previous position to the new position.  
-`f`| Move forward without drawing.  
-`+` `-` | Rotate right / left 90  degrees.  
-`[]` |  Branch
+|`F`| Move forward a step, drawing a line connecting the previous position to the new position.  
+|`f`| Move forward without drawing.  
+|`+` `-` | Rotate right / left 90  degrees.  
+|`[]` |  Branch
 
 
 #### Parameters
@@ -41,15 +44,15 @@ Rewriting
 `A=F+A`-  Rule
 #### 3d
 
-|||
+| | |
 |---|---|
-`&`, `^` | pitch up , pitch down  
-`\\`, `/`| roll clockwise, counter-clockwise  
-`~` | Random   
-`"` | Step size scale. command makes the F commands half length in each generation, which makes the branches shrink further out.  
-`;` | Angle
-`T` | Gravity
-`J`,`K`| Leaf
+|`&`, `^` | pitch up , pitch down  
+|`\\`, `/`| roll clockwise, counter-clockwise  
+|`~` | Random   
+|`"` | Step size scale. command makes the F commands half length in each generation, which makes the branches shrink further out.  
+|`;` | Angle
+|`T` | Gravity
+|`J`,`K`| Leaf
 
 stochastic systems (to add divergence using probabilities;
 parametric systems (using conditions

@@ -1,17 +1,19 @@
 ---
 title: Architecture
-
 categories:
- - ART
+  - ART
 tags:
-- Art
-- Design
-- Game Dev
-- Gameplay
-- Architecture
+  - Art
+  - Design
+  - Gameplay
+  - Architecture
+  - GameDev
 description: Form, Space, Arrangement
 permalink: /arch/
+aliases:
+  - arch
 ---
+> [[21-01-01-Art]] 
 
 https://nowoczesnastodola.pl/partnerzy/sunroof/
 
@@ -41,10 +43,10 @@ Point of contact between mass and space. (formal language create forms)
 
 
 
-| | |
-|--|--|
-<img src="/src/arch/arch_v1.0010.png" width="100">  | Additive | picturesque, full of movement,
-<img src="/src/arch/arch_v1.0011.png" width="100">  |Subtractive   | generous, When regular form missing volume peart but retain identity
+|  |  |  |
+| ---- | ---- | ---- |
+| <img src="/src/arch/arch_v1.0010.png" width="100"> | Additive | picturesque, full of movement, |
+|<img src="/src/arch/arch_v1.0011.png" width="100">  |Subtractive   | generous, When regular form missing volume peart but retain identity
 
 
 

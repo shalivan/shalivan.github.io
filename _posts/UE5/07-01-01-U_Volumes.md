@@ -7,15 +7,13 @@ tags:
   - Unreal
   - Rendering
   - Tech
-  - Art
   - RealTime
   - GameDev
+  - Light
+  - CG
 permalink: /uvolume/
 ---
-
-[[16-02-01-Rendering|rendering]]
-[[15-01-01-Shading|mat]]
-[[11-01-01-U_Rendering|urendering]]
+> Obsidian: [[16-02-01-Rendering]]  [[15-01-01-Shading]] [[11-01-01-U_Rendering]]
 
 
 [pxl.ink Unreal Rendering Features](/ue_rendering_features/)   

@@ -1,18 +1,16 @@
 ---
 title: Heightfields
-
 categories:
- - HOU
+  - HOU
 tags:
-- Houdini
-- SOP
-- Simulation
-
-
+  - Houdini
+  - SOP
+  - Simulation
+  - 3D
 description: Landscape 2d fields
 permalink: /heightfields/
 ---
-
+> [[13-01-01-SOP]] [[12-01-01-Gaea]] [[17-01-01-Modeling]]
 
 #Export to Unreal:
 

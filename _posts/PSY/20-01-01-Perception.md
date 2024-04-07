@@ -19,6 +19,7 @@ Symbolic creatiures / story telling creatures
 
 # Sensation and Perception
 
+perception is reality with limited information.
 
 http://consc.net/papers/c-and-c.html
 
@@ -126,3 +127,14 @@ kairos time - qualitatively - sezon/eon
 # Enchanced Learning
 From Mental to active presence
 (Degree of  abstraction: High) Text > pictures > audio > motion > exhibit > Field Tips > dmeonstarate > Dramatized > contriverd > direct.  (Low anstraction: concrete )
+
+
+
+-----
+
+ Influence - Science and Practice By Robert B. Cialdini
+
+**Perceptual contrast:** 
+if lifted light thing the hevie feels heavier than if lifted alone.
+**Fixed actions patterns** 
+**Reciprication** - feel of obligation

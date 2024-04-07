@@ -1,13 +1,14 @@
 ---
 title: Animation
-
 categories:
- - ART
+  - ART
 tags:
-- Art
-- Animation
-- VFX
-description:  Principles, VFX
+  - Art
+  - Animation
+  - VFX
+  - 3D
+  - CG
+description: Principles, VFX
 permalink: /animation/
 ---
 [[21-01-01-Art|art]]
@@ -16,7 +17,7 @@ permalink: /animation/
 [Unreal Animation](/uanimation/), [Houdini KineFX](/kinefx/)     
 
 
-
+https://youtu.be/6TB62YKHwRQ
 # Frame rate
 typically 24-60 FPS
 

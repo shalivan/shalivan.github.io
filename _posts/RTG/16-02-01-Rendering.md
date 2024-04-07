@@ -14,21 +14,18 @@ permalink: /rendering/
 aliases:
   - rendering
 ---
-[Material data](/matdata/) / [[08-01-01-Material|matdata]]
-[[15-01-01-Shading|mat]]
-[[11-01-01-U_Rendering|urendering]]
-[[09-01-01-U_Optimisation|uoptimization]]
-[[03-01-01-Karma|karma]]
-[[04-01-01-Mantra|mantra]]
-[[12-01-01-USD|lop]]
+[Material data](/matdata/) 
 
-render can be parelalized // sim - big gpu with massive vram! one gpu!
+> [[08-01-01-Material]]  [[15-01-01-Shading]]  [[11-01-01-U_Rendering]]  [[09-01-01-U_Optimisation]]  [[03-01-01-Karma]]  [[04-01-01-Mantra]]  [[12-01-01-USD]] [[11-01-01-U_Rendering]]
 
+render can be parallelized // sim - big gpu with massive vram! one gpu!
 
+https://www.youtube.com/watch?v=khblXafu7iA
+https://youtu.be/gsZiJeaMO48
 
 # Rendering
-*Defered* - more lights is ok    
-*Forward Rendering* - bneter with translucency   
+*Deferred* - more lights is ok    
+*Forward Rendering* - better with translucency   
 [Lighting](/ulight/)  
 [Light](/light/)  
 [Camera](/camera/)     

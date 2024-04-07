@@ -1,28 +1,36 @@
 ---
 title: Cognition
-
 categories:
- - PSY
+  - PSY
 tags:
-- Science
-- Cognition
-- Gameplay
-
+  - Science
+  - Cognition
+  - Gameplay
 description: States, Imagination, Memory, Biases , Choice, Emotions
 permalink: /cognition/
+aliases:
+  - cognition
 ---
+
+
+
+
+[[15-01-01-Personality|personality]]
+[[20-01-01-Perception|perception]]
+
 https://youtu.be/XIpDLa585ao
 
 https://www.gamedeveloper.com/blogs/the-cognitive-science-behind-games-user-research
 
 https://michaelbach.de/ot/index.html
 
-
+tylko jak rozumiemy pojecia mozemy zrozumiec swiat:   https://youtu.be/l1rbAKIkh8o?t=2269
+edukacja kultura maja wpływ na widok swiata takze fizycznego 
 
 
 # Academic fields
 
-|Cognition fields||
+|Cognition fields| |
 |--|--|
 | Psychology |  
 | AI |
@@ -43,29 +51,29 @@ occurs naturally or induced by internal or external factors like drugs
 **Wakefulness** - complex thought processes  / arousal (mind)  
 **Awareness** -  basic reflexes (brain)   
 
-| State | Wakefulness| Awareness| Description ||
+| State | Wakefulness| Awareness| Description | |
 |----|--|--|--|--|
-Focused Selective Attention | High |High| | Flow
-Divided Attention | High | High | |
-Wakefulness, Awareness, Alertness  || Awake
-Daydreaming| || stream of consciousness that detaches from current external tasks when attention drifts to a more personal and internal direction.
-Lethargy |||causes you to feel sleepy or fatigued and sluggish
-|
-Meditative| Mid-high | Mid-high | passive awareness | Drowsiness
-Light sleep| Mid | Mid | Some conscious about enviro | NREM1
-REM | Mid | Mid | Rapid eye movement, similar brain activity to wake | Dreams
-Deep sleep | Low | Low | Majority of sleep, unknown purpose | NREM2
-Lucid dream | Low |  High || Sleepwalking
-|
-Hypnotized |
-Intoxicated |
-|
-Locked-In Syndrome |High | High
-Minimally Conscious |High| Mid |Visual tracking/fix, command following (no functional communication)
-Vegetative |High | Low |
-|
-Anesthesia |Low| Low |Eye opening | Unconscious
-Coma | Lowest | Lowest || Unconscious
+|Focused Selective Attention | High |High| | Flow
+|Divided Attention | High | High | |
+|Wakefulness, Awareness, Alertness  || Awake
+|Daydreaming| || stream of consciousness that detaches from current external tasks when attention drifts to a more personal and internal direction.
+|Lethargy |||causes you to feel sleepy or fatigued and sluggish
+||
+|Meditative| Mid-high | Mid-high | passive awareness | Drowsiness
+|Light sleep| Mid | Mid | Some conscious about enviro | NREM1
+|REM | Mid | Mid | Rapid eye movement, similar brain activity to wake | Dreams
+|Deep sleep | Low | Low | Majority of sleep, unknown purpose | NREM2
+|Lucid dream | Low |  High || Sleepwalking
+||
+|Hypnotized |
+|Intoxicated |
+||
+|Locked-In Syndrome |High | High
+|Minimally Conscious |High| Mid |Visual tracking/fix, command following (no functional communication)
+|Vegetative |High | Low |
+||
+|Anesthesia |Low| Low |Eye opening | Unconscious
+|Coma | Lowest | Lowest || Unconscious
 
 
 Confusion   
@@ -139,7 +147,7 @@ Beliefs > Golas > Options > Commitment > Plans > Actrions > Beliefs
 
 
 
- ||System 1|System 2|
+ | |System 1|System 2|
  |---|---|---|
  ||Fast|Slow
  ||Impulses |Voluntary actions
@@ -163,43 +171,43 @@ The Primacy / Recency Effect is the observation that information presented at th
 
 Judgments are influenced by:
 ### Behavioral biases
-|||
+| | |
 |---|---|
-**Anchoring** || First thing you judge, influences your judgment of all that follows. (anchored to stock price you bought)
-**Availability Heuristic** | What springs most easily to mind. (something happened in same place)
-**Availability Cascade** | (media report > public panic)
-**Sunk Cost** | Irrationally cling to things that have already cost you something.
-**Framing** | Allow yourself to be unduly influenced by context and delivery.
-**Halo effect** | People you like or find attractive influences your other judgments of them.
-**In-Group** bias. | Unfairly favor those who belong to your group.
-**Group thinking** | Social dynamics of a group situation override the best outcomes.
-**Optimism, Pessimism** | Overestimate the likelihood of positive / negative outcome.
-**Negativity bias** | Negative things to disproportionately influence your thinking.
-**Placebo** |
-**Curse of Knowledge** | Once you understand something you presume it to be obvious to everyone.
-**Dunning-Kruger effect** | The more you know, the less confident you're likely to be.
-**Confirmation bias**  | Favor things that confirm your existing beliefs.
-**Belief bias** | If a conclusion supports your existing beliefs, you'll rationalize anything that supports it.
-**False-Consensus Effect** |
-**Self-serving bias** | Failures are due to external factors, yet you're responsible for your successes.
-**Backfire effect** | If beliefs is challenged, it can cause you to believe even more strongly
-**Reactance** | Do something different from what someone wants you to do in reaction to a perceived attempt to constrain your freedom of choice.
-**Bystander effect** | You presume someone else is going to do something in an emergency situation.
-**Fundamental Attribution error** | You judge others on their character, but yourself on the situation.
-**Just-world hypothesis** | Preference for justice makes you presume it exists.
-**Spotlight effect** | Overestimate how much people notice how you look and act.
-**Barnum effect** | You see personal specifics in vague statements by filling in the gaps.
-**Hindsight Bias** | (Rationalize that something happened)
-**Endowment Effect** | (perceive effect) (Want to sell item for more)
-**Duration neglect** | Judgment of painful experiences depend very little on how long those experiences lasted
-**Peak-End rule** | Judgement of an experience mostly on how they felt at its peak or very end (shortcut when thinking how feel about exp. you thing about: 1 highest peaks and at end )
-**Regency Bias** | is the phenomenon of a person most easily remembering something that has happened recently,
-**Priming** | Things seen recently impact you more (exposure to a certain stimulus)
-**Mere Exposure Effect** | (More often see more u like it)
-**Blind Spot** | (other feel different than you)
-**Cognitive Ease**
-**law of Small numbers** | (next flip have same chance )
-**Prospect Theory and Loss Aversion** | (insurances , 100% money back, bnrutality in tv) (LOSS > gain)
+|**Anchoring** || First thing you judge, influences your judgment of all that follows. (anchored to stock price you bought)
+|**Availability Heuristic** | What springs most easily to mind. (something happened in same place)
+|**Availability Cascade** | (media report > public panic)
+|**Sunk Cost** | Irrationally cling to things that have already cost you something.
+|**Framing** | Allow yourself to be unduly influenced by context and delivery.
+|**Halo effect** | People you like or find attractive influences your other judgments of them.
+|**In-Group** bias. | Unfairly favor those who belong to your group.
+|**Group thinking** | Social dynamics of a group situation override the best outcomes.
+|**Optimism, Pessimism** | Overestimate the likelihood of positive / negative outcome.
+|**Negativity bias** | Negative things to disproportionately influence your thinking.
+|**Placebo** |
+|**Curse of Knowledge** | Once you understand something you presume it to be obvious to everyone.
+|**Dunning-Kruger effect** | The more you know, the less confident you're likely to be.
+|**Confirmation bias**  | Favor things that confirm your existing beliefs.
+|**Belief bias** | If a conclusion supports your existing beliefs, you'll rationalize anything that supports it.
+|**False-Consensus Effect** |
+|**Self-serving bias** | Failures are due to external factors, yet you're responsible for your successes.
+|**Backfire effect** | If beliefs is challenged, it can cause you to believe even more strongly
+|**Reactance** | Do something different from what someone wants you to do in reaction to a perceived attempt to constrain your freedom of choice.
+|**Bystander effect** | You presume someone else is going to do something in an emergency situation.
+|**Fundamental Attribution error** | You judge others on their character, but yourself on the situation.
+|**Just-world hypothesis** | Preference for justice makes you presume it exists.
+|**Spotlight effect** | Overestimate how much people notice how you look and act.
+|**Barnum effect** | You see personal specifics in vague statements by filling in the gaps.
+|**Hindsight Bias** | (Rationalize that something happened)
+|**Endowment Effect** | (perceive effect) (Want to sell item for more)
+|**Duration neglect** | Judgment of painful experiences depend very little on how long those experiences lasted
+|**Peak-End rule** | Judgement of an experience mostly on how they felt at its peak or very end (shortcut when thinking how feel about exp. you thing about: 1 highest peaks and at end )
+|**Regency Bias** | is the phenomenon of a person most easily remembering something that has happened recently,
+|**Priming** | Things seen recently impact you more (exposure to a certain stimulus)
+|**Mere Exposure Effect** | (More often see more u like it)
+|**Blind Spot** | (other feel different than you)
+|**Cognitive Ease**
+|**law of Small numbers** | (next flip have same chance )
+|**Prospect Theory and Loss Aversion** | (insurances , 100% money back, bnrutality in tv) (LOSS > gain)
 
 ### Social biases
 

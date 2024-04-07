@@ -6,12 +6,12 @@ categories:
 tags:
   - Unreal
   - Tech
-  - Art
   - Animation
   - RealTime
   - GameDev
 permalink: /uanimation/
 ---
+> Obsidian: [[10-01-01-U_Physics]] [[05-01-01-U_BP]] [[05-01-01-U_Code]]
 
 ```
 ### animatpon

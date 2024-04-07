@@ -7,7 +7,6 @@ tags:
   - Rendering
   - Unreal
   - Tech
-  - Art
   - Rendering
   - RealTime
   - GameDev
@@ -15,8 +14,38 @@ permalink: /uoptimizationshaders/
 aliases:
   - uoptimizationshaders
 ---
-[[05-01-01-U_BP|ubp]]
-[[05-01-01-U_Code|ucode]]
+> Obsidian: [[05-01-01-U_BP]] [[05-01-01-U_Code]]  [[09-01-01-U_Optimisation]] [[11-01-01-U_Rendering]]
+
+
+https://calvinatorrtech.art.blog/2023/12/20/optimizing-shaders-in-unreal-engine/
+https://ryandowlingsoka.com/unreal/hanging-vertex-animation/
+
+(blur is expensive, you need render targets)
+
+
+# Material
+
+
+
+## Translucent in Deffered problems
+
+
+## Motion Blur
+Visualise > motion blur (in simulate) (colored in motion)    
+Bufer visualitsation > Velocity     
+`Accurate velo` in settings !
+
+PP@cam can ovveride
+- per object setting - will exclude from MB (not working if acucurate velo is enable in settings)
+
+type of object
+- sequence - (just work)
+- BP set actor location - (just work)
+- Verte offset material - (in project settings + material:  support accurate velo from vert deform)
+- in particle system - material: Particle motion Blur Fade !!!!!(cascade override, and transulcent only on gpu)
+- on spline - material: preview frame switch
+
+https://youtu.be/r1BCJt22oHY
 
 
 
@@ -42,6 +71,8 @@ Separate translucency
 | Vector Displacement | || BGR (8bit)  | 3d Displacement | | - | 87.4Mb
 | HDR Compres (RGB)  | | BC6 H | Float RGBA (8/16bit) ||  | | 21.8Mb
 | HDR (RGB) |  |BC6| Float RGBA  | IBS, Skybox|  HDR D3D11 - more complex | - |  175Mb
+https://youtu.be/3H-HGlsC0NY
+
 
 # Shader Optimisation 
 [Site: Shader optimisation](https://calvinatorrtech.art.blog/2023/12/20/optimizing-shaders-in-unreal-engine/)
@@ -75,134 +106,32 @@ comparing distance values we can just use distance squared! (just square your co
 
 
 
+# Virtual texturing  streaming
+New aproach to mips.  Divided in to tiles
+- memory optimisation where we pay a small amount in performance.  
+- better granularity
+- load smaller part of image
 
+1. Project settings > Engine Rendering > Enable
+2. Enable Virtual Texture Streaming in texture options (or convert to vertual texture)
+3. Sample type in material to: Virtual Textura
 
+cost of normal sample even more gpu instructions (2 tez samples: 1 per stack and 1 per each  )
+Virtual texture stack: - using same uvs  (see in material stat)
 
+there is bulk convert on texture in browser to convert many at once
 
----
-
-# Debug
-
-####  Prepper for Debug
-
-- Measure performance in **ms**    
-- project settings > disable **smooth framerate**
-- Turn off **VSync** (r.vsync 0)
-- play in **standalone**, with minimized editor  
-
-
-#### Options
-
-- **G buffer**  high res normals
-- **D buffer** pass for decal otherwise are in lioght pass defered
-- **early Z psas**  for opaque and masked - bufffer for Opacity
-- extended tonmemaping  EV  w exposure
-- accurate velocity from degormer - have cost, for better foliage anim with Temporal AA  
-
----
-
-# Tools
-
-`Asset audit.`      
-`Size map` - take in accound hard refs.   
-`Reference viewer` -     
-
-#### Visual Logger
-[VisLog](https://docs.unrealengine.com/4.26/en-US/TestingAndOptimization/VisualLogger/)
-
-
-#### Render Resource Viewer (5.2: Experimental) - 
-The Render Resource Viewer is a tool that gives full visibility into GPU memory allocations and render resources—such as Vertex Buffers and Index Buffers—and which assets they come from, like Static and Skeletal Meshes. This provides artists and developers with information needed to optimize GPU memory and keep their projects within their rendering budget.
-
-
-## Unreal  
-
-### Session Frontend
-can manage and test daand legacy profiler but better is uInsights   
-*CPU* + *GPU* same time, (you can load files from sessions `stat Startfile`, `stat Stopfile`)  
-Window > DevTools > `Session Frontend`     
-
-### Unreal Insights
-Analyze memory allocation
-Standalone profiling system. Smaler impact on execution.
-
-LLM - `Low level memory tracker ` (in unreal insights)
-
-## [Intel Frame Analyzer](https://software.intel.com/en-us/gpa/graphics-frame-analyzer)
-
-1. You need to package game
-2. Run Graphic monitor andd click analyse application
-3. Enable in U4: `ToggleDrawEvents`
-4. `Ctrl` + `Shift` + `C` - to capture
-5. Enable in U4: `ToggleDrawEvents`
-
-
-
-## [Nvidia Nsight graphic](https://developer.nvidia.com/gameworksdownload )
-
-- frame debuger
-- frame profile (similar but more like profiling than debuging)
-- generate C++ capture - collect frames   
-- gpu trace  
-
-
-`Timeline` API calls as events   
-`Resource view` textures and bufffers in scene (tak buttobn to find)   
-`API inspector` stages : input assembler , VS, PS  
-`API statistic` !!! view. > shaders wiev by comlexity and times      
-`Shader view` ??? Linked ptograms view   
-`Range Profiler` time ing using low lvl metrics (bottleneck) hi lvl overview.   
-
-1. Point to exe file
-2. Run
-
-
-
-## RenderDoc
-
-## Intel GPA
-Graphic performance analyzing
-Tools for doebug:
-- 'Graphic frame analyzer' is fro unreal can capture fragment of stream.
-  - download from github
-  - copy to plugins to ue install
-  - enable in project
-
-[Interl GPS Epic YT](https://youtu.be/KuF4OTH9WjA)
-
-
-Gauntlet - automate testing
-
----
-
-# [UE4 CVars](http://www.kosmokleaner.de/ownsoft/UE4CVarBrowser.html)   
-
-
-`ToggleAllScreenMessages`  
-
-
-##### Show commands
-
+# Virtual texture runtime
+same tech in runtime at GPU  (shading cash)
+not change frame to frame
+- performance optimization not memory
+- frame to frame read cache
+- camera position independend ()
+- decoding cost small
+1. create virtual texture asset.
+2. use node runtime virtual texture
 
 ```
-r.screenPercentage
-r.SetRes 1920x1080f
-r.defaultfeature.antialiasing 0
+r.VT.borders 1
 ```
-```
-freezrendering
-show bounds
-show collisions
-```
-
-
-
-##### Shadows and reflections
-Shadow quality (`sg.ShadowQuality 0..4`).      
-Screen space reflections: Quality `r.SS.MaxRoughness 0.0..1.0` `e.SSR.Quality 0..4`     
-
-
------
-
-
-Scalability settings >
+- stack as much with same uv  (base color spec ... nm )

@@ -1,12 +1,17 @@
 ---
 title: Modeling - Hard Surfaces
 categories:
-- ART
+  - ART
 tags:
-- Art
+  - Art
+  - 3D
+  - CG
 description: RAW
 permalink: /modeling/
+aliases:
+  - modeling
 ---
+>  [[17-01-01-Modeling_Foliage]]  [[16-01-01-Sculpting]] [[21-01-01-Art]]
 
 ------------
 quads - only for anim and subdiv (also better uvs).
@@ -43,13 +48,16 @@ https://youtu.be/jvPPXbo87ds?t=3713
 # Basics
 
 ## Uniformize
-- Scale  / orientation / time / frames
+- Scale  in m. 
+- orientation - relative to world and default pose
+- Time / frames
 - Texel density
 - Detail Density sweet spot / 
 - 3 levels of detail 
 [Pipelines](/pipes/)   
 [Resolutions](/res/)    
 
+- Mirrors symmetry  
 ## Workflows
 
 - Procedural stuff for variations easly  [Procedural](/procedural/)      

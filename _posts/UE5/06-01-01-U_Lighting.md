@@ -7,18 +7,23 @@ tags:
   - Unreal
   - Rendering
   - Light
-  - Art
   - RealTime
   - GameDev
+  - 3D
+  - CG
 permalink: /ulight/
 aliases:
   - ulight
 ---
-[Unreal Rendering Features](/ue_rendering_features/)
+> Obsidian:  [[19-01-01-Lighting]] [[11-01-01-U_Rendering]] [[16-02-01-Rendering]]
+
 Sky is black and the sun is white
 
-[[05-01-01-Light|light]]
-[[19-01-01-Lighting|lighting]]
+> [[05-01-01-Light]] [[19-01-01-Lighting]]
+
+
+https://knarkowicz.wordpress.com/2022/08/18/journey-to-lumen/
+
 
 # Light
 
@@ -319,7 +324,133 @@ Point Light - Point light have 6x shadows .Max draw distance
 `Far Shadow Cascarde Count`   
 `Far Shadow Distance`   
 
----
+
+# Lumen
+Realtime gi  no rtx.   Reflection (with gi)   
+- lighting sim: input: light settings, material, exposure  
+- limitation: mesh need have simple interiors that mean every wall of building separated.
+- base color need to be bright
+dont overlap meshes to much   !!!  
+most lumen cost is screen depending   
+- limited in distance (because surface cache show near you only, further go to screen cache)
+##### Pipeline
+Hybrid traced pipeline  
+- Trace against the depth  buffer (screen trace)
+- Trace against Signed distance fields in compute shader: ( for close (up to 2m) mesh &  (over 2) global distance trace)
+- Lighting take traced ray hits and apply lighting with surface cache  (capture mesh at low, faster with nanite)
+
+**Softwaee traceing**  
+ is limited,  
+- support limitet geo  
+- any hardware
+- dx11
+distance field   
+ not enough quality for reflections   
+
+
+**Hardware trace**   
+ 50% slower than software one   
+ hi quality, cost most   
+ limit: rtx cards,  dx12  
+ required for mirro like reflections   
+
+
+ **Final gather**   
+
+ with gi, because there is no list of lights, all scene is bouncing liughting so proper gi need 200 rays for pixel... (realtime can aford 1/2)  
+
+ solutions:   
+ - irradiance filed (probes), slowl update but generaly great for performence, not good quality
+ - screen space denoiser
+ - screen space radiance caching - LUMEN - trace from set of pos + interpolate
+ - world space raidiance cache - probes in world *(only for distance lighting )
+
+
+
+.
+
+nanaiate help with lumen. but traced not directly via high res, but lower 'nanite proxy geo' (+ help of screen traces, traces against full nanite )  
+Cannot exclude emmissive  because of screentrace
+
+##### Settings
+(enabled by default)
+- dynamic global ilum method: lumen  
+- reflection method: lumen
+- generate mesh distance fields
+- hardware ray traceing in hardware 'ray traceing' and 'lumen'  
+can change settings in post process
+
+###### Debug
+Show>Visualize>LumenScene
+
+
+##### Features and limitattions
+- emissive object works (limited)
+- shadowed skylight
+- on translucent and volume fog lowe quality
+outdors can be lowe quality  
+indora> small one dir light in  
+
+
+
+######  Reflections
+- trace extra for roughs <.4
+- use surface cache
+- quality on 4 will use high mesh
+
+
+shadows quality for lumen:
+`r.Shadow.Virtual.SMRT.RayCountLocal 8`
+
+
+- not good in nanite tree.
+- nanite not working with thin meshes
+
+LUMEN
+https://youtu.be/Cb63bHkWkwk?t=6971
+
+lumen can cost
+- 4ms for 60fps
+
+SWRT vs HWRT
+HWRT -  rtx cards
+- ray triangles  - good for mirrors and details
+SWRT  - lwoer acuracy  
+- distance firleds instead of triangles
+
+
+!! scene lighting
+!! screen probe
+!! reflections
+
+assync compute
+responsiveness
+mesh and scene construction
+
+
+
+# Ray trace light
+Path Tracer
+In addition to the Ray Tracer, we've included an unbiased Path Tracer with a full global illumination path for indirect lighting that creates ground truth reference renders right inside of the engine. T  
+
+- DXR
+- run with DX12
+- In project settings: Ray Tracing, Support Cmpute sskincache
+- In light: casting ray trace shadow
+
+soft shadow
+reflections (bounces 1)
+
+
+# Virtual shadow maps
+uwazac
+- shadow depths
+  - cache invalidations
+  - geometry
+- shadow projection
+  - ray count
+  - prnumbra size 
+
 
 ---
 

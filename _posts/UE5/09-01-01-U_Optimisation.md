@@ -7,7 +7,6 @@ tags:
   - Rendering
   - Unreal
   - Tech
-  - Art
   - Rendering
   - RealTime
   - GameDev
@@ -15,17 +14,17 @@ permalink: /uoptimization/
 aliases:
   - uoptimization
 ---
-[[05-01-01-U_BP|ubp]]
-[[05-01-01-U_Code|ucode]]
+> Obsidian: [[05-01-01-U_BP]] [[05-01-01-U_Code]] [[09-01-01-U_Shaders]] [[11-01-01-U_Rendering]]
 
-
+HOW TO UE5:
+build modular pieces with same materials!
 
 Separate translucency
 
 
 ---
 
-
+https://www.artstation.com/blogs/shinsoj/VoZK/optimization-general-theory
 [Unreal Optimisation Guide](https://unrealartoptimization.github.io/book/pipelines/forward-vs-deferred)
 [UE community: optimizing the medieval game environment](https://dev.epicgames.com/community/learning/talks-and-demos/585Y/optimizing-the-medieval-game-environment)
 

@@ -1,16 +1,20 @@
 ---
 title: Fractals
-
 categories:
- - ART
+  - ART
 tags:
-- Art
-- Math
-- Procedural
+  - Art
+  - Math
+  - Procedural
+  - CG
+  - 3D
 description: RAW
 permalink: /fractals/
+aliases:
+  - fractals
 ---
-
+[[21-01-01-Art|art]]
+[[14-01-01-Procedural|procedural]]
 [Procedural](/procedural/)
 
 

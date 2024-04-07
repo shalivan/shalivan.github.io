@@ -1,58 +1,44 @@
 ---
 title: Visual Design
-
 categories:
- - ART
+  - ART
 tags:
-- Art
-- Design
+  - Art
+  - Design
 description: Elements, Principles, Rederences, Design
 permalink: /graphicdesign/
+aliases:
+  - graphicdesign
 ---
+> Pxlink: [Composition Camera](/camera/)  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/)    [Characters](/characters/)  [Lighting](/lighting/)   [Perception](/perception/)
+>Obsidian:  [[21-01-01-Art]] [[17-01-01-Modeling]], [[21-01-01-Art]] [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]]  [[17-01-01-Paint|paint]] [[16-01-01-VFX|vfx]] [[14-01-01-Procedural]] [[12-01-01-LevelDesign]] [[11-01-01-Characters]] [[05-01-01-U_Animation]] [[05-01-01-Camera]]  [[20-01-01-Perception]]
 
-Dieter Rams
-Philippe Starck
+# Visual Design 
+Organize for perception
+- Ambiguity evoke thinking. 
+- Less detail will stimulates and engage the imagination more. Will pull you in. 
 
-
- ```
- Engineering vs design (human centric)prototypes  
- design thinking is methodology  
+ #### Engineering vs design (human centric) prototypes  
+ design thinking is methodology  -  prototypes - ask question expose assumptions and sneak to the future
  engineers check if it work correctly  
- prototypes - ask question expose assumptions and sneek to the future
- ```
-
-
-organize for perception
- Approach to [Art](/art/) note.  
 
 # Elements
 
-| | Design Elements |  | | |   
-| -| - | - |- |- |
-![](/src/gestalt/point.png)  |  **Point** | 1D
-![](/src/gestalt/line.png)  |  **Line** | 2D | Shape dynamic, Variations, Single stroke |
-![](/src/gestalt/shape.png)  |  **Shape** | 2D | Geometric, Organic| Perception of shape depend on contrast
-![](/src/gestalt/simplicitysmall.png)  |  **Form** | 3D | Circular (friendly) vs Jagged (danger)
-![](/src/gestalt/space.png)  |  **Space** |  |Vertical (powerful), Horizontal (stability),  Negative
-![](/src/gestalt/color.png)  |   [Color](/color/)  | Hue
-![](/src/gestalt/value.png)  |  **Value** | Level of lightness | Build by adding or subtracting lightness
-![](/src/gestalt/empty.png)  |  **Texture** | | Properties of material.
-![](/src/gestalt/a.png)   |  **Typo**  | Typography| Serif, Sans Serif, Script, Monospaced, Display
-
-
-
-#### Visual Library
-Exposed to visual library
-
-visual language is important - visual is important to let humans make snap decisions about
-perception is reality with limited information.
-
-
+|  | Design Elements |  |  |  |
+| ---- | ---- | ---- | ---- | ---- |
+| ![](/src/gestalt/point.png) | **Point** | 1D |  |  |
+| ![](/src/gestalt/line.png) | **Line** | 2D | Shape dynamic, Variations, Single stroke |  |
+| ![](/src/gestalt/shape.png) | **Shape** | 2D | Geometric, Organic<br> | Perception of shape depend on contrast |
+| ![](/src/gestalt/simplicitysmall.png) | **Form** | 3D | Circular (friendly) vs Jagged (danger) |  |
+| ![](/src/gestalt/space.png) | **Space** |  | Vertical (powerful), Horizontal (stability),  Negative |  |
+| ![](/src/gestalt/color.png) | [Color](/color/) | Hue |  |  |
+| ![](/src/gestalt/value.png) | **Value** | Level of lightness | Build by adding or subtracting lightness |  |
+| ![](/src/gestalt/empty.png) | **Texture** |  | Properties of material. |  |
+| ![](/src/gestalt/a.png) | **Typo** | Typography | Serif, Sans Serif, Script, Monospaced, Display |  |
 
 
 # Principles
 
-[Perception](/perception/)
 
  | | Design Principles  |    | |
  | -  | - | - | - |
@@ -66,27 +52,28 @@ perception is reality with limited information.
  |  ![](/src/gestalt/var.png) |  **Variety** | hold viewer attention
 
 
-##### Vitruvian triad
-Sustainable, Beneficial, Attractive
+#### Vitruvian triad
+**Sustainable**, **Beneficial**, **Attractive**
 
-##### Dieter Rams
-Innovative, Useful, Aesthetic, makes a product understandable, unobtrusive, honest, long-lasting, thorough down to the last detail, environmentally-friendly, little design as possible
-
-**Simplicity** - to quick communicate and protecting from complexity.
+#### Dieter Rams
+**Innovative**, **Useful**, **Aesthetic**, makes a product **understandable**, **unobtrusive**, **honest**, **long-lasting**,** thorough down** to the last detail, environmentally-friendly, **little design as possible**.
+- **Simplicity** - to quick communicate and protecting from complexity.
 design great to communicate idea quickly
-
-**Energy is primary** - Form must follow.
-
-
-**Harmony vs Chao**
+- **Energy is primary** - Form must follow.
+- **Harmony vs Chaos**
 
 
-##### Aristotle's four causes
-Four causes are, of course, the material, formal, final, and efficient causes.
+#### Aristotle's four causes
+Four causes are, of course, the **material**, **formal**, **final**, and **efficient** causes.
 The four causes signify ways in which a thing is indebted for its existence.
 
 
 ----
+
+
+
+#### Visual Library
+Exposed to visual library
 
 
 
@@ -109,39 +96,23 @@ The applied arts. Design is a language. It's thinking, never generic! It works a
 
 
 
-
-
-
-
-
-## Parti paris
-
-
 #### Subject costs
 
 - Difficulty of subject matter:
 easy: give you large margin of error - organic shapes, subject matters we are not familiar on daily basis, more things are more sophisticated so medieval are easier and manufactured harder, human is hard > faces + dynamics and motion
 science -fiction most difficult because u must be ahead with thought
 
-dirt and destroyed  - easier
-clean  
-
-dark - cheaper to produce  
-bright - expensive  
-
-existing - cheaper  
-non existing  
-
-past - cheap  
-future - expensive  
-
-
-- interesting silhouette - easier to draw  
-- if simple sil. harder to fill with detail (may require posing difficult forms )  
+| Cheaper / easier |  |
+| ---- | ---- |
+| dirt and destroyed | clean  <br> |
+| dark | bright |
+| existing | non existing   |
+| past | future |
+| interesting silhouette | simple silhouette harder to fill with detail<br>(may require posing difficult forms )   |
+|  |  |
 
 
 ### Subject matter
-
 
 ### Design from base
 You know what things are. culturally programmed by life.   
@@ -186,17 +157,12 @@ If you need to design something in a similar style, reverse engineering lets you
  - Don't limit yourself. Use 3d, textures, kit bash, references, photo bash
 
 
-
-
-
-
-
 ## Scale
    - `proportions` are critical. If sth to thick > like a toy can change perception!  
    - Refer to `human scale` and show `relations` with other objects     
    - lot of fog make enviro bigger
 
-### comression and expansion
+### compression and expansion
 how to use space
 - hallway is directional / hall is open
 - shifts are important and build pasing
@@ -208,7 +174,16 @@ how to use space
  ---
 
 #### Detail ()
+
+Less detail will stimulates and engaage the imagination more. Will pull you in. 
+Ambiguilty evoke thinking. 
   - sprawdź jaki poziom detalu będzie widoczny w finalnej produkcji
+
+
+#### organisation of local values
+graphic quality 
+- read extreamly way on shape level 
+- clear organisation of local values 
 
 
 ```
@@ -259,6 +234,7 @@ people paried kiki to sharp and nice B sound of buba to smooth.
 
 ----
 
+
 ## Book about comix  McCloudian
 Pictorial Vocabulary of any visual art:
 
@@ -268,6 +244,7 @@ Triangle of Representation -lends a non-linear sliding scale of representation t
 - `The Picture Plane` (Abstract art)
 - `Reality` (Real life. Photographs. Cinema. Representational art)
 - `Language` (Logos. Text. Symbol. Icon)
+
 
 ---
 # UX/UI
@@ -296,61 +273,68 @@ Triangle of Representation -lends a non-linear sliding scale of representation t
 
 ---
 
-## Typography
+# Typography
 
-https://www.playforthoughts.com/blog/how-to-design-a-logo-from-scratch-ultimate-guide
 
-TYPEFACE
-Font have size and regular/italic
-```
-### Typefaces (fonts)
-ancient Mesopotamia - clay bulley
-pictagrams > abstracted > cuneiform (graphic symbols depictive things) > hieroglyphs (from ancient Egypt) > > > Greek lapidary letters (more abstract 22 letters ancient Greece's first use of letter orms) >> Roman alphabet
-Cyrylica
+#### History 
 
-all **serifs**:
-- guttenberg press 1440 > `black letter`font - roman
-- nocholas jensen > `roman type face` clean letters  
-- cursiva
+pictagrams > abstracted > `cuneiform`(graphic symbols depictive things) > `hieroglyphs` (from ancient Egypt) > > > `Greek lapidary letters` (more abstract 22 letters ancient Greece's first use of letter orms) >> 
+Ancient Mesopotamia - `clay bulley` Mesopotamian Sumero-Akkadian Cuneiform
+
+#### Clay Bulleys
+Mesopotamian Sumero-Akkadian Cuneiform
+Mayan Glyphs
+Indus Valley Script
+Chinese Seal Script
+
+
+#### Alphabet
+
+`Roman` 
+`Cyrylica`
+
+
+**Serifs**:
+- Guttenberg press 1440 > `black letter` font - Roman
+- Nocholas Jensen > `roman type face` - Clean letters  
+- Cursiva
 - Garamond font
-**san - Serifs** 1816 no in print cause not enough distingush.
+**San - Serifs** 1816 no in print cause not enough distinguish.
 - for posters. attention and readable from distance.
 - art nuovo. nierówne
-**times new roman** - before WWI
+**Times new roman** - before WWI
 **Dadaism** -  mix
-**russian** - harsh blocking fonts
-**bauhaus**font - ideal universal geometric.
+**Russian** - harsh blocking fonts
+**Bauhaus** font - ideal universal geometric.
+**Helvetica** - WWII swiss modernism - no ornaments - create for international use 50' > used by a lot of modern companies international style > Americana corporation > pap culture of ;50 , '60. a lot of  designs
 
-WWII **helvetica** -  swiss moderism - no ornaments - create for international use 50' > used by a lot of modern companies
+punk > hand graphic breaking rules /  technology > limitation digital 
 
-international style > american corporation > pap culture of ;50 , '60. a lot of  designs
+**Comic sans** - 1994 -
+**Trajan** - movie poster fornt
 
- modernism
-
- punk > hand graphic breaking rules
-
- technology > limitation digital >
-
- mac >  
-
-1994 - comic sans
-
-Trajan - movie poster fornt
-
-2000-  digital > more complex > maximalizm
+2000-  digital > more complex > maximalism
 
 **Impact** - font for meme .
 ***Lobster** - events
 
 
+https://www.playforthoughts.com/blog/how-to-design-a-logo-from-scratch-ultimate-guide
+
+
+### Typefaces (fonts)
+Font have size and regular/italic
+
+
+---
+
+```
  =====
- =Dingbat
-
-
-In typography, a dingbat is an ornament, specifically, a glyph used in typesetting, often employed to create
+In typography, a dingbat is an ornament, specifically, a glyph used in typesetting, often employed to create,
+=Dingbat
 ```
 
-
+ 
 
 https://fonts.google.com/knowledge/introducing_type
 https://fonts.google.com/knowledge/choosing_type
@@ -360,14 +344,19 @@ https://en.wikipedia.org/wiki/O_%28Cyrillic%29#/media/File:Cyrillic_letter_O_-_u
 https://twitter.com/jgspace_design/status/1698335609771946139
 
 
-#####
-
-
 ----
 you can design things to be boring or look cheap at purpose
 
 principle of least resistance - The path of least resistance is the physical or metaphorical pathway that provides the least resistance to forward motion by a given object or entity
 
-# product design
+# Product design
 - start designning with parts and metodes you are familiar with. with egsiting tools
 - try to imagine platonic ideal of perfect product and, reverse engeniring simplifying
+
+
+visual language is important - visual is important to let humans make snap decisions about
+
+
+Dieter Rams
+Philippe Starck
+

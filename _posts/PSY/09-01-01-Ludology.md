@@ -8,14 +8,14 @@ tags:
   - Gameplay
   - Cognition
   - GameDev
+  - Narration
 permalink: /ludology/
 aliases:
   - ludology
 ---
-[[08-01-01-GameDesign|gamedesign]]
-[[05-01-01-Mechanics|gamemechanics]]
-[[09-01-01-Narratology|narratology]]
-[[12-01-01-Lore|lore]]
+> Pxlink:  
+>Obsidian:  [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
+
 # Classical Approach
 
 
@@ -92,6 +92,12 @@ Feeling being in control.
 
 1. what to communicate
 2. what emotions
+
+
+
+
+
+
 
 # Narration
 Some game structures can be metaphors
@@ -242,122 +248,8 @@ how they SEEM (TRAIT) - not important
 ---
 
 
-# Experience
 
-
-Alfred North Whitehead (known as the defining figure of the philosophical school known as process philosophy) reality is experience.   
-
-## Psych states
-
-### Presence  
-`Teleport body` into a space. Spatial Presence   
-### Immerse  
-`Teleport mind` - deep mental involvement. Immerse : altered time, with general sense of space (spatial)
-Fully `immersed` with mechanics while `challenge` and `tension` in balance  (`anxiety` vs `boredom`)
-
-The difference between immersive experience and traditional is the presence of a viewing port, proscenium or a frame with which to take in the experience. - Sara Thacher
-### Engagement  
-Manual or mental `effort meets interactivity` (involves solving problems) (not in books)   
-Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
-
-----
-
-##  Illusion
-
-People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
-
-### Virtual vs real experience
-
-- people are able to belief in fake
-- real world experience have additional fidelity
-
-
-
-### Suspension of Disbelief
-- accepting unrealistic situations
-- audience scram on movies
-- Rules of game established reality that become a game norm
-- Suspension of disbelief is necessary only when we failed to create secondary belief.
-- inconsistence can break immersion
-
-
-### Paradox of control
-key element of enjoyment
-how to offer meaningful choice  without offering full control.
-
-
-### Illusion
-Only when authentic (coherent and consistent )
-
-Belief - Fiction is not real    
-Alife - Suspend true believe for a moment   
-
-we know how feelings are - experience taking. match own emotions with fictional characters. experience taking is harder in front of mirror so it can be related with ego suppress.
-
-
-------
-
-### Entertainment / Enjoyment
-- Entertainment is an escape from problems
-
-things happening > its excitement its entertainment
-
-
-###  Flow  
-`Flow` state / the `Zone`
-`Game Follow` - is wave zone between anxiety and boredom (sometimes challenge and sometimes powerful)  
-- `Difficulty Curve` - Challenge  
-- `Pacing` Rhythm + Pressure >Manage stress. If there is no stress its not meaningful and you don't care. So pressure is good  
-- `Learning Curve` - Onboarding > tutorials super important   
-
-
-Challenges vs Abilities
-
-
-|Challenges/Abilities |Low  | | High  |
-|--|--|--|--|
-|High |Anxiety (stressed, Alert) | Arousal (Alert Focused) | Flow (Focused, Happy)
- | | Worry (Sad, Stressed) || Control (Happy, Confident)
-|Low | Apathy (Sad, Depressed) |Boredom (Depressed, Contented)|Relaxation (Confident, Contented)
-
-
-
-
-
-- primal forces
-- context depended
-- expose things to promote them
-- predictable
-
-if you lost a momentum from one moment to next and persist in that state
-
-
-involvement, commitment, passion,
-enthusiasm, absorption, focused effort, zeal, dedication, and energy.
-
-
-
-### Emotions
-Regarding or Aversive
-
-|Primal Emtion|Affective Feeling|
-|--|--|
-|Seeking | Enthousiastic
-|Rage | Pissed-off
-|Fear | Anxious
-|Lust | Horny
-|Care | Tender & Loving
-|Panic | Lonley & Sad
-|Play | Joyous
-
-
-
-
-
-------
-
-
-# Ludo narrative
+# Ludonarration
 
 Harmony & Dissonance
 - Action fit settings to achieve harmony relation between narration and gameplay
@@ -488,6 +380,123 @@ Mental Modeling. Sense of mental image of game. that we would like to get.
 
 
 incentivie to play: See feature y cannot use yet
+
+
+
+
+# Experience
+
+
+Alfred North Whitehead (known as the defining figure of the philosophical school known as process philosophy) reality is experience.   
+
+## Psych states
+
+### Presence  
+`Teleport body` into a space. Spatial Presence   
+### Immerse  
+`Teleport mind` - deep mental involvement. Immerse : altered time, with general sense of space (spatial)
+Fully `immersed` with mechanics while `challenge` and `tension` in balance  (`anxiety` vs `boredom`)
+
+The difference between immersive experience and traditional is the presence of a viewing port, proscenium or a frame with which to take in the experience. - Sara Thacher
+### Engagement  
+Manual or mental `effort meets interactivity` (involves solving problems) (not in books)   
+Psychological presence. According to his definition, engagement refers to the state in which individuals express their entire self
+
+----
+
+##  Illusion
+
+People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.
+
+### Virtual vs real experience
+
+- people are able to belief in fake
+- real world experience have additional fidelity
+
+
+
+### Suspension of Disbelief
+- accepting unrealistic situations
+- audience scram on movies
+- Rules of game established reality that become a game norm
+- Suspension of disbelief is necessary only when we failed to create secondary belief.
+- inconsistence can break immersion
+
+
+### Paradox of control
+key element of enjoyment
+how to offer meaningful choice  without offering full control.
+
+
+### Illusion
+Only when authentic (coherent and consistent )
+
+Belief - Fiction is not real    
+Alife - Suspend true believe for a moment   
+
+we know how feelings are - experience taking. match own emotions with fictional characters. experience taking is harder in front of mirror so it can be related with ego suppress.
+
+
+------
+
+### Entertainment / Enjoyment
+- Entertainment is an escape from problems
+
+things happening > its excitement its entertainment
+
+
+###  Flow  
+`Flow` state / the `Zone`
+`Game Follow` - is wave zone between anxiety and boredom (sometimes challenge and sometimes powerful)  
+- `Difficulty Curve` - Challenge  
+- `Pacing` Rhythm + Pressure >Manage stress. If there is no stress its not meaningful and you don't care. So pressure is good  
+- `Learning Curve` - Onboarding > tutorials super important   
+
+
+Challenges vs Abilities
+
+
+|Challenges/Abilities |Low  | | High  |
+|--|--|--|--|
+|High |Anxiety (stressed, Alert) | Arousal (Alert Focused) | Flow (Focused, Happy)
+ | | Worry (Sad, Stressed) || Control (Happy, Confident)
+|Low | Apathy (Sad, Depressed) |Boredom (Depressed, Contented)|Relaxation (Confident, Contented)
+
+
+
+
+
+- primal forces
+- context depended
+- expose things to promote them
+- predictable
+
+if you lost a momentum from one moment to next and persist in that state
+
+
+involvement, commitment, passion,
+enthusiasm, absorption, focused effort, zeal, dedication, and energy.
+
+
+
+### Emotions
+Regarding or Aversive
+
+|Primal Emtion|Affective Feeling|
+|--|--|
+|Seeking | Enthousiastic
+|Rage | Pissed-off
+|Fear | Anxious
+|Lust | Horny
+|Care | Tender & Loving
+|Panic | Lonley & Sad
+|Play | Joyous
+
+
+
+
+
+------
 
 
 

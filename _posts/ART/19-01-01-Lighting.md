@@ -1,14 +1,16 @@
 ---
 title: Lighting
-
 categories:
- - ART
+  - ART
 tags:
-- Light
-- Art
+  - Light
+  - Art
 description: Properties of Material and Light, Natural, Studio, Stage, Virtual setups
 permalink: /lighting/
+aliases:
+  - lighting
 ---
+> [[05-01-01-Light]]  [[19-01-01-Lighting]]  [[21-01-01-Art]]  [[18-01-01-Color]] [[15-01-01-Shading]]
 
 https://hg2dc.com/2022/11/07/question-29/
 
@@ -16,18 +18,16 @@ CIR / color temperature /
 
 If illuminated point  is 5x times away from light source is ok to use point light  
 
-
+at nooon bright site is x4 in afternoon is x3 at evening x2 stops 
 
 One of the most important and influential elements. Give viewer idea about shape geo depth and texture
 
 # Properties of Light Source
 
-[Light](/light/)
-
-|||
+| | |
 |---|---|
-Primary |  Direct
-Secondary | Indirect   
+| Primary |  Direct
+|Secondary | Indirect   
 
 
 
@@ -122,14 +122,14 @@ shadow add 3d and show shape
 # Light Setup Phraseology
 
 
-||||
+| | | |
 |---|---|---|
-Key light |  | direct
-Rim light |  light around the edges of a subject | back edges
-Diffuse light | that is scattered | softer
-Fill light | used to reduce the contrast | diffused
-Ambient  | Indirect  | diffused
-Bounced  | Indirect moon ( fog and snow, lot of bounce)
+|Key light |  | direct
+|Rim light |  light around the edges of a subject | back edges
+|Diffuse light | that is scattered | softer
+|Fill light | used to reduce the contrast | diffused
+|Ambient  | Indirect  | diffused
+|Bounced  | Indirect moon ( fog and snow, lot of bounce)
 
 
    - `High-key` (light), - try with hdri . important to choose
@@ -215,18 +215,18 @@ Area & directionality
 - backlight - to show silhouette
 - negative fill - dark and shadow
 
-Light | Where |How |Effect|
--- | -- |-- |-- |
-Flat | Sit-coms, passport, news | Lack of personality. One straight
-Butterfly | | front top. Highlight chic bones Small shadow under nose | Women
-Frankenstein | Horrors | from bottom - unnatural (or to much butterfly from top ) |Not natural
-Split | Caravaggio  |upper Side: One side black, other in light | Dramatic
-|Rembrandt | Side but: nose shadow touch chick and eye make light triangle.(eyes more to the light than carrav)
-Loop  || Side but:  nose shadow almost touch chicks shadow.
-Back side | | Subject z boku światło z boku z tyłu
-Broad side | | looks more 3d z przedniej storny jak patrzysz na bok
-Checkerboard | | on face from right background left  
-Background ||
+| Light | Where |How |Effect|
+| -- | -- |-- |-- |
+| Flat | Sit-coms, passport, news | Lack of personality. One straight
+| Butterfly | | front top. Highlight chic bones Small shadow under nose | Women
+| Frankenstein | Horrors | from bottom - unnatural (or to much butterfly from top ) |Not natural
+| Split | Caravaggio  |upper Side: One side black, other in light | Dramatic
+| Rembrandt | Side but: nose shadow touch chick and eye make light triangle.(eyes more to the light than carrav)
+| Loop  || Side but:  nose shadow almost touch chicks shadow.
+| Back side | | Subject z boku światło z boku z tyłu
+| Broad side | | looks more 3d z przedniej storny jak patrzysz na bok
+| Checkerboard | | on face from right background left  
+| Background ||
 
 Campfire effect - revels underchin, make face fat
 

@@ -7,16 +7,23 @@ tags:
   - Design
   - Gameplay
   - GameDev
+  - Narration
 permalink: /gamedesign/
 aliases:
   - gamedesign
 ---
-[[12-01-01-Lore|lore]]
-[[05-01-01-Mechanics|gamemechanics]]
+> Pxlink: [Ludology](/ludology/)  [Game Design](/gamedesign/)    [Game Mechanics](/gamemechanics/)    [Game Theory](/gametheory/)   [Level Design](/leveldesign/)  
+>Obsidian: [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
+
+Mechanics vs Design?
+Story Symbol Idea Slogan Surprise 
+
+https://www.psychologyofgames.com/2011/03/the-unit-effect-and-player-perceptions/
 
  https://youtu.be/_Hjm9LLSICg < rational to emotional 
 https://youtu.be/P4Um97AUqp4 - design withou a pitch 
 
+[Sid Meiers psychology of game design](https://youtu.be/MtzCLd93SyU)
 
 
 choices are only meaningful and reinforces players identity
@@ -38,7 +45,7 @@ telegraphing attacs
 
 Exploration loop /  Combat loop
 
-===NEW
+=== NEW
 natural patterns lerners
 - whenever we run out of things to lern we get bored
 match personal interest  to easy/dificulty, to fast or slow timing, find way to cheat
@@ -133,25 +140,6 @@ Avatar vs Character
 
 [Motivation](/motivation/), [Characters](/characters/), [Personality](/personality/)
 
-
-**story multiplayer** vs multiplayer story
-
-
-Number of players
-Roles  
-
-**Interaction patterns**
-- player vs Game (single)
-- Players vs Environment (multi)
-- Player vs Player (multi)
-- Coop multiple vs game  (team coop, multilateral coop )
-
-
-
-##### Co -op
-- parallel - own single player game along
-- step by step - 1 open for another
-- simultaneous - both action at same time
 
 
 ####  Type of players:
@@ -267,7 +255,7 @@ Resources to escape,
 
 #### Restriction
 
-|||
+| | |
 |---|---|
 |turn based|
 |real time|
@@ -295,45 +283,6 @@ Resources to escape,
 
 
 ---
-# Resources
-
- exchanging resources ( Store or use now bust. )
-
-## Scarcity
-- units, currency, objects, time, terrain
-
-#### Health Systems
-Pool of points that get subtracted from, eventually it reaches zero, and that initializes a game-over function or increments a death counter ( **life's** ) and restarts a section of gameplay),
-
-How much punished for mistakes
-
-- **regenerating** -  > reward for hiding!!  and not rewarding good play. but get froward momentum.  (it equal chances before next encounter). Cannot hurt player a little as punishment, enemies must be able to kill you
-- **health packs**
- - boxes with stuff. if u have health u get ammo. Or coins to spend not always on health
-- **glory kill** reward >> offensive system and encourage to play
-
-- mixed:
-  - regen last few %
-  - regen when other conditions. Only if the second variable influenced by ie food is at a certain point  (Minecraft)
-
-#### Action Points
-mana (actions) - spiritual or magical energy / karma / stamina  -   Non renevable / renevable
-
-
-
-
-#### Upgres
-- Temporal -
-- Permanent - tree.
-
-#### How to get
-
-- Loot
-- Hidden in enviro  
-
-
-#### Znajdzki  
-cerst cheast
 
 
 
@@ -392,9 +341,6 @@ win loose state is important or just engagement is ok too ..
 
 ---
 
-# Balance 
-Math + syste, + psychology 
-[gamebalanceconcepts.wordpress.com/](https://gamebalanceconcepts.wordpress.com/) + [GDC Video](https://youtu.be/tR-9oXiytsk)
 
 ---
 
@@ -563,6 +509,9 @@ UI: https://www.gameuidatabase.com/index.php?scrn=160
 
 
 # .
+
+## Onboarding 
+
 - tutorials
 
 
@@ -773,12 +722,4 @@ https://youtu.be/3YXGcw1tvtc
 
 https://www.youtube.com/@PeopleMakeGames
 
-
-
-### Production pipelines
-
-- Film: Preproduction > Production > Post-Production  (Alex McDowell - world building)
-- Arch: Pre Design, Schematic > Design > Construction
-- In changing env: Observe > Orient > Decide(feedback) > Act (feedback) ( OODA Loop   - decision-making that focuses on filtering available information,)
-- General design process: Empathize > Define > Ideate > Prototype > test
 

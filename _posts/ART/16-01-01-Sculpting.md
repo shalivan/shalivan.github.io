@@ -1,23 +1,21 @@
 ---
 title: Sculpting
-
 categories:
- - ART
+  - ART
 tags:
-- CG
-- zBrush
-
+  - CG
+  - zBrush
 description: Paradigm
 permalink: /sculpting/
+aliases:
+  - sculpting
 ---
-
-
-
+[[21-01-01-Art|art]]
+[[17-01-01-Modeling|modeling]]
+[[11-01-01-Characters|characters]]
 
 [zBrush](/zbrush/)  
-
 [KineFX](/kinefx/)
-
 [Characters](/characters/)  
 
 Blend subtools; https://youtu.be/q4oGSuimAMs?t=616  

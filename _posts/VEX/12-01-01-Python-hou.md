@@ -2,18 +2,18 @@
 title: Python hou.
 description: Houdini class
 categories:
- - VEX
+  - VEX
 tags:
-- Python
-- Game Dev
-- Code
+  - Python
+  - Code
+  - GameDev
 ---
 https://www.tutorialspoint.com/python/index.htm    
 https://vfxbrain.wordpress.com/2016/03/15/python-in-houdini/    
 https://vimeo.com/14612897   
 https://docs.python.org/3/    
 
-
+https://youtu.be/Iwuu1O1qo8o
 
 
 

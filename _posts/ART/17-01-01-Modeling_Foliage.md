@@ -1,37 +1,61 @@
 ---
 title: Modeling - Vegetation
 categories:
-- ART
+  - ART
 tags:
-- Art
+  - Art
+  - 3D
+  - CG
 description: Vegetation, foliage
 permalink: /foliage/
+aliases:
+  - foliage
 ---
+> Pxlink: [Composition]  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/) 
+ >Obsidian: [[21-01-01-Art]]   [[17-01-01-SpeedTree]]  [[17-01-01-Modeling]], [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]] [[08-01-01-Material]]  [[20-01-01-VisualDesign]] [[17-01-01-Paint]]  [[14-01-01-Procedural]]  [[12-01-01-LevelDesign]] 
 
----
-https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4
+https://www.exp-points.com/sven-mren-foliage-study <
+https://www.textures.com/tutorials/Creating%20Realistic%203D%20Plant:%20Shaping%20The%20Leaves
 
-----
-bruno moulia
+[YT Houdini # Speedier Trees in Houdini: Botanically inspired production ](https://www.youtube.com/watch?v=e8ITnlrcvcQ&t=1709s)
+https://www.textures.com/tutorials/Creating%20Realistic%203D%20Plant:%20Shaping%20The%20Leaves
 
 
 # Vegetation
 
-Library: https://treelib.ca/    
-
-
 ## Technical pipeline
 
-We need parts which we will combiene into objects. then objects will be used in composition
+We need parts which we will combine into objects. then objects will be used in composition.
+
 #### **References**    
-  - **Silhouettes** - different sizes and shapes  (grass, plants, bush , tree) - organic and instertesting on any angle - negative spaces - slightly noisey
+  - **Silhouettes** 
+	  - different sizes and shapes  (grass, plants, bush , tree)  
+	  - negative spaces 
+	  - slightly noisy 
+	  - organic and interesting on any angle
   - **Clustering** - cluster of leaves.
-  - Characteristic **elements**: Leaf band, Beginning, Gravity, Grouping (higher leafs more vertical change shape)
-  - Characteristic **behaviour**: Growth towards the sun, Not vascular plants growth in shadows  (to not dry out). Moss mostly 'N' in North hemisphere.
+  - **Characteristic elements**: Ecosystem-biomes, Leaf band, Beginning, Gravity, Grouping (higher leaf more vertical change shape)
+  - **Characteristic behavior**: 
+	  - Growth towards the sun, 
+	  - Not vascular plants growth in shadows  (to not dry out). 
+	  - Moss mostly 'N' in North hemisphere.
+	  - New trees growth only where is light - new and old forests. young mid forest compete for light so much there could be no place for new trees. 
   - where plants growth - in garden are clean
-  - sizes: small mid ...
+  - sizes: small mid …
+  - natural shapes:  thickness constraint by Leonard DaVinci: - at any point parent branch needs to have combined thickness of all the tow branches. 
 
 
+#### **Modeling**    
+Methods for foliage production: 
+- Pate: direct modeling / L system / self organizing models 
+- Present: Skeletonization / Photogrammetry / Simulation 
+- Future: Lidar / AI / Single View reconstruction / L-Systems
+
+### problems: 
+- branch transition - additional band with alpha
+- clusters - atomic elements  + decorative detials + trunk 
+
+##### Building parts (molecules ? nodes?)
 ```
 **Low poly model** (parts)
   - Parts (leafs, stamp)
@@ -98,6 +122,7 @@ sposob 2 :
 - sss
     - SSS color should not differ considerably from albedo.
     -  SSS is obtained by sampling environment cubemap in the direction, opposite of the normal. If your grass cluster normals are pointing upwards, they will sample the skylight from bottom part. Needless to say, that if skylight is set to use black for lower hemisphere, you won’t get any subsurface from indirect light.
+- - off specular on bottom 
 - shadows ... ?
 
 **Placement**
@@ -113,98 +138,8 @@ sposob 2 :
 - use shadow, ? without can be smoother.
 
 
-# Speed tree
+---
 
-## Parameters
-Constuct proceduraly, important workflow tips:  
-- **Generators** - Use generator to get behaviour on change  
-- **[% of parent]** - Use % of parent to be procedural (can growth)  
-- **[+-]** - Vatiance - help with seed randomization    
-- **[blue curve]** - Profile Along branch      
-
-## Options
-
-#### Generators
-- **Classic** - old
-- **Absolut** - number of branches - limited not adaptive! for main stemps and trunk
-- **Absolut steps** - Absoolut + steps (steps=few from one ) (number of branches will not change )
-- **Interval** - frequency (adaptive)
-- **Phylotaxy** - real liofe leafs arangement
-  - opposites / alternting
-  - whorlde - steps + childrens of step
-  - bifurcation - spliting on curvature (nothing will happen without noise) usefull, natural but unpredictable
-
-
-#### **Gen**
- - Frequency - how many
- - Spred - noise on each step
- - Spiral - rot steps
- - boundaries start - end
- - position (biass to start-end)
- - scale - global scale
- - sink - z-depth  
-
-
-#### **Spine**
-- Length -
-- Orientation
-  - Start angle - Angle of branch
-- Shape
-  - Gravity
-- Noise
-- Break - >???
-
-#### **Skin**
-- .
-
-#### **Displace**
-- .
-
-#### **Segments**
-- .  
-
-## Leafs / Cards
-
-
-..
-Batch leaf generator !!!!! <
-
-1. Create Branch
-2. Window properties > screenshot safe frame > [x] - save frame
-3. Leaf mesh generateor (to acces every leaf)
-tips: to much collisions may look like solid from distance
--  File > export material.
-
-4. create new material
-5. Open mesh editor which is tide to material
-
-...
-
-
-## Free Hand
-- Vertex Editing - minor ver change
-- Bending - without  
-- Click Place - clone
-- Hand Drawing  - <<< !!!! )(space)
-- Paint Displacement - move
-- Paint Vert - move
-- Paint Vert Col - color
-
-## Photogrametry
-- add geo > photo branch generator
-- space bar and RMB
-
-## Forces
-
-## Collision
-On toolbar
-- low - will remove intersect other on same level
-- midium - will remove intersection with parent
-- high -
-
-## Material / Wind
-
------------------
 
 # Foliage
 
@@ -212,31 +147,50 @@ On toolbar
 #### Grass
 grass - https://www.artstation.com/artwork/qQVZqR
 
-- off specular on bottom
--
+#### Fungi
 
+#### Roots 
+
+#### Trees
 
 #### Moss
 
-lot more porous, with a
-massive amount of self-shadowing, ambient occlusion, and transmitted light. The
-moss itself tends to have a lighter color at the tips than deeper towards the base.
-And there’s a strong viewing-angle dependency – when viewed straight on, you can
-see down into the shadows between the fibers, and while viewed from an angle, only
-the tips are visible.
+'Lot more porous, with amassive amount of self-shadowing, ambient occlusion, and transmitted light. The moss itself tends to have a lighter color at the tips than deeper towards the base. And there’s a strong viewing angle dependency – when viewed straight on, you can see down into the shadows between the fibers, and while viewed from an angle, only the tips are visible.'
 
 
+---
 
-### Tools
+# Tools
+Available tools for foliage creation: 2023
 - SpeedTree https://www.youtube.com/c/SpeedTreeMiddleware
 - H GrowInfinite 1.2.19  https://fxmode.gumroad.com/l/GrowInfinite  
 - H Simple Tree Tools 2.6    https://www.youtube.com/watch?v=0VqA99bpGHc
 - H Labs https://www.youtube.com/watch?v=IZ5uJYg0ELM&list=PLXNFA1EysfYkiIWvM3CBXO-TsYE1H42dK   https://www.sidefx.com/tutorials/tree-generator/
 - B The Grove3d  https://www.thegrove3d.com/releases/the-grove-release-6/ Blender  https://www.thegrove3d.com/
-https://www.youtube.com/c/RickBanks/videos
-
-
 [houdini tree HDA](https://youtu.be/abQtNpUUdGw)
+- Houdini pegasus tools - procedural sim 
+
+
+-----------------
+
+
+# Houdini Pegasus foliage 
+
+
+4 types of nodes: 
+- control
+- component 
+- switch 
+- solver 
+
+
+---
+
 
 https://youtu.be/pVKDfZMffpc
-NIE OPISANE: z liści high składamy zbrushowa roslinke  
+[YT kanał H](https://www.youtube.com/c/RickBanks/videos)
+[Tut dynamic grass](https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4)
+[FoliageLibrary](https://treelib.ca/)    
+Bruno Moulia
+
+> Book history : natural design of nature - computer generated plants and organics Oliver Deussen, Bernd Lintermann

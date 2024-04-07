@@ -2,11 +2,11 @@
 title: Game Design
 description: Mechanics
 categories:
- - RT
+  - RT
 tags:
-- Design
-- Game Dev
-- Gameplay
+  - Design
+  - Gameplay
+  - GameDev
 ---
 
 

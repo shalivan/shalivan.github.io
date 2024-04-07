@@ -15,14 +15,43 @@ aliases:
 ---
 
 > Pxlink: [Camera](/camera/)  / [Algebra](/algebra/) /[Rendering](/rendering/) / [Substance Designer](/substancedesigner/) / [[16-02-01-Substance_Designer|substancedesigner]]
-> Obsidian: [[DTA]] [[11-01-01-Math|Math]]  / [[15-01-01-Shading|Shading]]
+> Obsidian: [[DTA]] [[11-01-01-Math]]  / [[15-01-01-Shading]]
 
 
-# Render passes
+# Specular Workflow 
+
+## Strata 
+
+
+
+|         | F0                                    | f90 |
+| ------- | ------------------------------------- | --- |
+| Plastic | 0.04 most materials default in unreal |     |
+|         |                                       |     |
+|         |                                       |     |
+
+# Metallic Workflow
+
+Less thinks to connect up. 
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Albedo / Reflectance
 Diffuse **reflected color** for dielectric and **reflectance** value for metals 
 Flat lower contrast and brighter than normal photo. 
+
+
+#### Median luminosity
 
 ##### Dielectrics
 `50` - `245` (sRGB)
@@ -32,34 +61,37 @@ Flat lower contrast and brighter than normal photo.
 `180` / `186` - `255` (sRGB) 
 `0.7` - `1` specular
 
+
 | Mat | Linear | Linear byte | sRGB |
 | ---- | ---- | ---- | ---- |
 | White | `0.893` | 229,229,229 | `240` - `249` (`0.95`) |
 | Gray (Zone V) | `0.18` | 46,46,46 | `128` (`0.5`) |
 | Black | `0.01` - `0.027` | 7,7,7 | `30` - `50` (`0.117` - `0.195`) |
 |  |  |  |  |
-| White paint / Fresh snow | `0.81` (`0.80` - `0.90`) | 243,243,243 | `230` |
+|  Fresh snow  |  `0.90` |  | (0.95) |
+| White acrylic paint  | `0.81` | 243,243,243 | `230` |
 | Brright Gray | `0.5` | 128,128,128 | `186` (`0.72`) |
 | Black Paint | `0.02` | 5,5,5 | `43` (`0.169`) |
 | Coal / Carbon / Fresh asphalt | `0.02` - `0.04` |  |  |
 | **CONCRETE** |  |  |  |
-| Fresh concrete | `0.51` - `0.55` | 192,191,187 |  |
-| Worn asphalt | `0.08`- `0.12` |  |  |
-| Old Concrete |  | 135,136,131 |  |
+| Fresh concrete | `0.51` - `0.55` | 192,191,187 | (0.67) |
+| Worn asphalt | `0.08`- `0.15` |  | (0.42) |
+| Old Concrete | 0.3 | 135,136,131 | (0.57) |
+| White cement  | 0.7 |  | (0.85) |
 | **ROCK** |  |  |  |
 | Limestone | `0.3` - `0.45` |  | `148` - `177` |
 | Rock | `0.3` - `0.4` |  | `148` - `168` |
 | **SOIL** |  |  |  |
 | Sandy Soil | `0.25` - `0.45` Dry |  | `136` - `177` |
-| Desert sand | `0.36`  -` 0.40` | 177,167,132 |  |
+| Desert sand | `0.36`  -` 0.40` Dry | 177,167,132 | (0.65) |
 | Clay Soil | `0.23` - `0.4` Dry | 137,120,100 | `131` - `168` |
 | Grey soil | `0.1`  Wet  `0.3` Dry |  | `90` - `148` |
 | Silt loam Soil | `0.23` - `0.28` Dry |  | `131` -`143` |
-| Bare soil | `0.13` - `0.17` |  | `114` |
+| Bare soil / Dark earth | `0.13` - `0.17` Dry |  | `114` |
 | Yellow Clay | `0.16` |  | `111` |
 | Black soil | `0.08` Wet  `0.15` Dry |  | `81` - `108` |
 | **FOLIAGE** |  |  |  |
-| Green grass | `0.2` -  `0.25` |  | `123` - `136` |
+| Green grass | `0.2` -  `0.25` |  | `123` - `136` (`0.53`) |
 | Tundra | `0.2` |  | `123` |
 | Tall wild grass | `0.16` - `0.18` |  | `111` - `117` |
 | Tea bushes | `0.16` - `0.18` |  | `111` - `117` |
@@ -93,6 +125,30 @@ Fresnel reflection coefficient mount of light that reflects off a surface when t
 
 Let the material value in unreal be default 0.5 and multiply by a cavity map to darken cavities.
 
+specular reflectance values (denoted as "F0") pecular reflectance refers to the amount of light reflected at a particular angle from a surface.
+
+Wood  - 0.02 to 0.05 
+natural stones like granite or marble, the F0 value can range from 0.02 to 0.05.
+
+
+Depending on factors like moisture content and leaf type, F0 values can vary, but they may range from 0.03 to 0.08.
+F0 values for healthy green leaves typically range from around 0.03 to 0.08.
+Dry or Wilted Leaves: Leaves that are dry or wilted may have slightly lower F0 values, possibly ranging from 0.02 to 0.06.
+
+| Mat | sRGB |
+| ---- | ---- |
+| Plastic | 55-64 |
+| Rusted metal | 52 |
+| Water | 43 |
+| Ice | 41 |
+| Glass | 57 |
+| Gold | 255 226 155 |
+| Silver | 252 250 245 |
+| Aluminium | 245 246 246 |
+| Iron | 196 199 199 |
+| Copper | 250 506 192 |
+
+
 
 ## Roughness
 **Microfacets models** how rough (in microscale)  mat is (amp & freq of bumps in material ) tiny imperfections in mat  & angle of incoming lightEverything has Fresnel and reflections ! [YT link](http://filmicworlds.com/blog/everything-has-fresnel/)
@@ -101,18 +157,35 @@ Nm is crucial!
 more direct reflection and depends heavily on the viewing angle relative to the light source and the surface normal.
 - reflection on angle is more sharp and visible
 
-| Mat |  UE |
+|             |                |
+| ----------- | -------------- |
+| 0 -0.2 <br> | polished / wet |
+| 0.2-0.5     | smooth <br>    |
+| 0.5-0.8     | rough <br>     |
+| 0.8-1       | matte          |
+
+| Mat | UE |
 | ---- | ---- |
-| COMON | `0.5` |
 | Air |  |
 | Ice | `0.224` |
 | Water | `0.255` |
 | Milk | `0.277` |
 | Skin | `0.35` |
+| COMON | `0.5` |
 | Glass | `0.5` |
 | Plastic | `0.5` |
 | Quartz | `0.57` |
 | Diamond |  |
+| Rubbet | .8 ?  |
+
+
+argiles - ziemia like 
+craie
+sable (kamienie zółtawe)
+calcaire = limestone  (kamienie szare jane z białymi przetarciami)
+ schistes = łupki 
+granite
+
 
 ## Metal
 | Mat |  |

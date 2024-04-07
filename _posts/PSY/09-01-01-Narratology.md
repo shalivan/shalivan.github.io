@@ -8,14 +8,16 @@ tags:
   - Gameplay
   - Cognition
   - GameDev
+  - Narration
 permalink: /narratology/
 aliases:
   - narratology
 ---
-- [Ludology](/ludology/)  / [[09-01-01-Ludology|ludology]]
-- [Game Design](/gamedesign/)    / [[08-01-01-GameDesign|gamedesign]]
-- [Lore](/lore/)  / [[12-01-01-Lore|lore]]
+> Pxlink:  
+>Obsidian:   [Ludology](/ludology/)  / [[09-01-01-Ludology|ludology]]  [Game Design](/gamedesign/)    / [[08-01-01-GameDesign|gamedesign]]  [Lore](/lore/)  / [[12-01-01-Lore|lore]]
 
+
+In games:  Experience/challenge (gameplay loop) +  Mystery
 
 # Medium
 Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe)    
@@ -272,6 +274,18 @@ Dramatic moments happening  on screen (cutscenes) are less dramatic because you 
  [Lyotard (postmodern condition book)]
 
 
+## Meta Narratives 
+
+### Salvation 
+- Christian narrative linear in time with premise that sth will change
+### Modern Progress Narrative 
+- work in waves of industrial revolutions that are overlapping 
+### Marxist Narrative 
+- Dialectic Thesis > Antithesis > (Syn)thesis > naw Anty Thesis > (new Syn)thesis > and so on 
+- Patricians > Plebians > Feudal Lords > Manorial Serfs > Bourgeois Capitalists > Proletarian Worker  (Revolution > communism)
+### Scientific Method
+ - Ask question > state a hypothesis > conduct an experiment > analyze the results > make a conclusion > go to start
+
 ## Meaning
 **Grand narrative behind story**. Semiotics symbolism and archetypes. of sign process, which is any form of activity, conduct, or any process that involves signs, including the production of meaning.
 Model form which other typews are copied.  
@@ -280,11 +294,11 @@ Model form which other typews are copied.
 World is build from what matter not matter. > meaning is primary >
 
 
+
 ## Archetypes
 
 
-
-####   Archetypes
+####  Archetypes
 an original model after which other similar things are patterned; from the Greek word arkhetupos meaning “exemplary.”
 
 In literature an image, story-pattern, or character type that recurs frequently and evokes strong, often unconscious, associations in the reader.
@@ -294,11 +308,11 @@ Idea of recurring patterns of situation, character, or symbol they are the commo
 
 Archetypical - simple in presentation, bur rich in meaning
 
-####  Symbols
+#### Symbols
  term, name, or even a picture - possesses specific connotations in addition to its conventional and obvious meaning.  More than apparent meaning an inherent multiplicity of meanings with larger "unconscious" aspect Can be analyzed, but cannot be fully explained
 
 
-####  Collective Unconscious
+#### Collective Unconscious
 Universal through shared by all cultures  
 Structure of collective mind shared by all humans. Jung: is populated by instincts and archetypes
 
@@ -325,21 +339,21 @@ Claim to apply to all people Common to everyone. Help to understand the world, h
 Regardless of cultural origin or when they where created
 
 
-|.| | |
-|--|--|--|
-| Initiation |  Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius  The Dynamics of Transformation in the Human Psyche
-| The Journey |
-| The Fall | Fall into underworld loss of innocence and bliss, expulsion from a kind of paradise (Adam  & Eve)
-| Death and rebirth |
-| Supernatural Intervention |
-| Natural vs technology  |
-| Battle between good and evil  | Obvious forces representing good and evil
-| Belly of beast | Swallow to unknow ie. Enemy headquarter|
-| Union of opposites|
-| Rebirth | transformation > caterpillar to butterfly
-| The Ritual |
-| Rise Up |  
-| Birth |
+| . |  |  |
+| ---- | ---- | ---- |
+| Initiation | Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius  The Dynamics of Transformation in the Human Psyche |  |
+| The Journey |  |  |
+| The Fall | Fall into underworld loss of innocence and bliss, expulsion from a kind of paradise (Adam  & Eve) |  |
+| Death and rebirth |  |  |
+| Supernatural Intervention |  |  |
+| Natural vs technology |  |  |
+| Battle between good and evil | Obvious forces representing good and evil |  |
+| Belly of beast | Swallow to unknow ie. Enemy headquarter |  |
+| Union of opposites |  |  |
+| Rebirth | transformation > caterpillar to butterfly |  |
+| The Ritual |  |  |
+| Rise Up |  |  |
+| Birth |  |  |
 
 Call to noble action
 
@@ -532,13 +546,13 @@ a Jung-influenced analysis of stories and their psychological meaning.
 
 | | |
 |--|--|
-Overcoming the Monster | Sets out to defeat an antagonistic force (often evil) which threatens the protagonist and/or protagonist's homeland.   
-Rebirth | An event forces the main character to change their ways and often become a better individual.
-The Quest | Acquire an important object or to get to a location. They face temptations and other obstacles along the way.  
-Voyage and Return | Goes to a strange land and, after overcoming the threats it poses or learning important lessons unique to that location, they return with experience.   
-Rags to Riches | Poor protagonist acquires power, wealth, and/or a mate, loses it all and gains it back, growing as a person as a result
-Tragedy | Fall of fundamentally good character
-Comedy | Dramatic work in which the central motif is the triumph over adverse circumstance, resulting in a successful or happy conclusion.  conflict becomes more and more confusing, but is at last made plain in a single clarifying event.
+| Overcoming the Monster | Sets out to defeat an antagonistic force (often evil) which threatens the protagonist and/or protagonist's homeland.   
+| Rebirth | An event forces the main character to change their ways and often become a better individual.
+| The Quest | Acquire an important object or to get to a location. They face temptations and other obstacles along the way.  
+| Voyage and Return | Goes to a strange land and, after overcoming the threats it poses or learning important lessons unique to that location, they return with experience.   
+| Rags to Riches | Poor protagonist acquires power, wealth, and/or a mate, loses it all and gains it back, growing as a person as a result
+| Tragedy | Fall of fundamentally good character
+| Comedy | Dramatic work in which the central motif is the triumph over adverse circumstance, resulting in a successful or happy conclusion.  conflict becomes more and more confusing, but is at last made plain in a single clarifying event.
 
 
 ## The 36 situations

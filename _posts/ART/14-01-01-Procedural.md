@@ -1,15 +1,19 @@
 ---
 title: Procedural
-
 categories:
- - ART
+  - ART
 tags:
-- Art
-- Math
-- Procedural
+  - Art
+  - Math
+  - Procedural
+  - 3D
+  - CG
 description: Patterns, Computed, Emergent
 permalink: /procedural/
+aliases:
+  - procedural
 ---
+> [[21-01-01-Art]]
 
 [Wiki Patterns In Nature ](https://en.wikipedia.org/wiki/Patterns_in_nature)
 Houdini music:
@@ -76,7 +80,7 @@ https://archive.bridgesmathart.org/2018/bridges2018-39.pdf
 [book: A Pattern Language Complete (architecture)]
 https://youtu.be/FBn6VgoF3fE  
 
-http://pcgbook.com/
+[Site: Procedural Content Generation in Games](http://pcgbook.com/)
 
 
 ---
