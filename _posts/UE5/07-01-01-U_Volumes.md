@@ -305,18 +305,18 @@ Custom GUI, Memory Manager, and Interface Controller.
 
 A better strategy is stacking 3 layers of lower resolution 3D noises (128^3 for example) instead of 2 high resolution. And because the 3 layers have aggressively larger scale, they make up for low resolution:
 
-| | |instr pre level|lookup table| | |
-|-|-|-|-|-|-|
-| Regular Texture|
-|Fast Gradient| 3d tex |~16 | 1 | High quality but not for bumps (baked to a volume texture) | Always tiles  
-|Value | Computational | ~53-118 || Low quality but computational | yes
-|Gradient |Tex Based |~61-74 | 8 | High Quality |always but <=128
-| Samplex ||~77 |4  | High Quality | no
-|Gradient |Computational|~80-143   | | High Quality  | yes
-|Voronoi Q1 | 8 cells x20| ~160  |
-|Voronoi Q2 | 16 cells x20| ~320 |
-|Voronoi Q3  | 27 cells x20 | ~540 |
-|Voronoi Q4  | 32 cells x20| ~640 |
+|                 |               | instr pre level | lookup table |                                                            |                  | COST |
+| --------------- | ------------- | --------------- | ------------ | ---------------------------------------------------------- | ---------------- | ---- |
+| Regular Texture |               |                 |              |                                                            |                  | 0    |
+| Fast Gradient   | 3d tex        | ~16             | 1            | High quality but not for bumps (baked to a volume texture) | Always tiles     | 0    |
+| Value           | Computational | ~53-118         |              | Low quality but computational                              | yes              | 1    |
+| Gradient        | Tex Based     | ~61-74          | 8            | High Quality                                               | always but <=128 | 1.5  |
+| Simplex         |               | ~77             | 4            | High Quality                                               | no               | 1.5  |
+| Gradient        | Computational | ~80-143         |              | High Quality                                               | yes              | 3    |
+| Voronoi Q1      | 8 cells x20   | ~160            |              |                                                            |                  | 6    |
+| Voronoi Q2      | 16 cells x20  | ~320            |              |                                                            |                  | 8    |
+| Voronoi Q3      | 27 cells x20  | ~540            |              |                                                            |                  | 8    |
+| Voronoi Q4      | 32 cells x20  | ~640            |              |                                                            |                  |      |
 
 
 Tiling Noise > Repeat Size  (Repeat Size matches the sampled size that you will be baking out.)

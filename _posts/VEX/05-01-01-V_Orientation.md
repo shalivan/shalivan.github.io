@@ -8,6 +8,7 @@ tags:
 - Code
 permalink: /orient/
 ---
+> Obsidian:  [[08-01-01-V_Expressions]] [[09-01-01-V_Attribs]] [[10-01-01-V_Syntax]] [[07-01-01-V_Strings]] [[03-01-01-V_Measure]] [[03-_V_Curves]]
 
 
 #### Angle

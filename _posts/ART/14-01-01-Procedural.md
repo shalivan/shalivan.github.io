@@ -13,7 +13,7 @@ permalink: /procedural/
 aliases:
   - procedural
 ---
-> [[21-01-01-Art]]
+> [[21-01-01-Art]]  [[10-01-01-U_PCG]]
 
 [Wiki Patterns In Nature ](https://en.wikipedia.org/wiki/Patterns_in_nature)
 Houdini music:

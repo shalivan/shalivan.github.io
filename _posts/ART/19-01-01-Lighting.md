@@ -109,11 +109,12 @@ polarize before it reflect on surface and second time after  to secure color wit
 
 
 
-# Shadows
-
-shadow add 3d and show shape   
+# Shadows - 
 
 
+- Umbra - shadow
+- Penumbra -  semishadow
+Shadow  add 3d and show shape   
 
 ------------
 

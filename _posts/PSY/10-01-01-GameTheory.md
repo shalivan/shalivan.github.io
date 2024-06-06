@@ -20,6 +20,11 @@ aliases:
 [W co grają ludzie - Berne Eric](https://www.empik.com/w-co-graja-ludzie-berne-eric,42565,ksiazka-p)
 Influence book 
 
+
+- what u do 
+- when u do 
+
+
 # Game Types
 Mathematical modeling at strategic interaction between rational agents.
  - action of one player influence other players (concept of strategic interdependence)

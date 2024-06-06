@@ -183,6 +183,12 @@ Postmodern
 - man vs autor
 
 
+
+shakespera vs marks 
+marx figh because are opposite diff and in shakes are no difference at all 
+
+
+
 # Structure Elements
 
 

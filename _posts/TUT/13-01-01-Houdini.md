@@ -19,7 +19,7 @@ permalink: /houdiniconfigs/
 
 > [[02-01-01-LSystem]]  [[03-01-01-Karma]] [[04-01-01-Mantra]] [[05-01-01-Heightfields]]  [[06-01-01-CHOP]] [[07-01-01-PDG]]  [[08-01-01-CFX]]  [[10-01-01-LAB]] [[11-01-01-COP]] [[12-01-01-USD]]  [[13-01-01_VOP]] [[13-01-01-SOP]] [[13-01-01-SOP-curves]]
 
-> [[01-01-01-Noise]] [[02-01-01-DrawCurves]] [[02-Vex_Volume]] [[03-01-01-Measure]] [[13-01-01_VOP]] [[05-01-01-Orientation]] [[07-01-01-Strings]]  [[08-01-01-VExpressions]]  [[09-01-01-Attribs]] [[10-01-01-Syntax]]  [[12-01-01-Python-hou]]
+> [[01-01-01-Noise]] [[02-01-01-V_DrawCurves]] [[02-Vex_Volume]] [[03-01-01-V_Measure]] [[13-01-01_VOP]] [[05-01-01-V_Orientation]] [[07-01-01-V_Strings]]  [[08-01-01-V_Expressions]]  [[09-01-01-V_Attribs]] [[10-01-01-V_Syntax]]  [[12-01-01-Python-hou]]
 
 > [[01-01-01-FLIP]] [[01-01-01-PYRO_Dense]] [[01-01-01-RBD_SOP]] [[01-01-01-RBD]] [[01-01-01-Vellum]] [[01-01-01-Vellum_SOP]]
 

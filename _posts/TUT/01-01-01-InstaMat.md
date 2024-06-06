@@ -16,11 +16,29 @@ permalink: /instamat/
 # New project 
 - **Layering** - paint on mesh with fx 
 - **Mat Layering**  - artist friendly blend materials from finish ones 2d
-- **Materialize** - Create from photo 
-- **Element Graph** - 
+- **Element Graph** -  Substance Designer
 - **nPass Graph** - loop (like scatter)
 - **Atom** - create nodes with other nodes 
 - **fn graph** - smaller than atom
+
+
+# UI 
+
+On left 
+- Library 
+- Package 
+- Settings 
+- Render 
+Right 
+- nodes options
+
+
+Center stage 
+`alt` + `C` - change what is on center 
+
+
+----
+# Layering
 
 
 # Mat Layering
@@ -29,12 +47,12 @@ permalink: /instamat/
 
 # Element Graph
 can browse materials 
-quick search witth nodes
+quick search with nodes
 
 #### Nodes
 
 - Material Blend 
-
+- Channel - split / merge / rgba
 
 #### Export 
 

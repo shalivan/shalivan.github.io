@@ -80,7 +80,6 @@ Exposed to visual library
 #  Design Methodology
 
 The applied arts. Design is a language. It's thinking, never generic! It works as a **form in the context**.
-
  - **Brief** `Parti pris` – statement of design goals and constraints
  - **Analysis** – analysis of current design goals **form** and **function**  
  - Choose **key words** for representative things, to get essence.
@@ -89,6 +88,15 @@ The applied arts. Design is a language. It's thinking, never generic! It works a
  - **Design**  Start on easy perspectives like side view
 
  recognize features ...  
+
+
+
+
+
+
+
+
+
  form follow function  
 -  (Marked for speed? like motorcycles  ) when it was made '80 '90. Different characters. Curved or quad, weight, level of detail
 - Animalistic features. Design base on nature or manufactured items
@@ -102,14 +110,37 @@ The applied arts. Design is a language. It's thinking, never generic! It works a
 easy: give you large margin of error - organic shapes, subject matters we are not familiar on daily basis, more things are more sophisticated so medieval are easier and manufactured harder, human is hard > faces + dynamics and motion
 science -fiction most difficult because u must be ahead with thought
 
-| Cheaper / easier |  |
-| ---- | ---- |
-| dirt and destroyed | clean  <br> |
-| dark | bright |
-| existing | non existing   |
-| past | future |
-| interesting silhouette | simple silhouette harder to fill with detail<br>(may require posing difficult forms )   |
-|  |  |
+| Cheaper / easier                        |                                                                                       |
+| --------------------------------------- | ------------------------------------------------------------------------------------- |
+| dirt and destroyed                      | clean  <br>                                                                           |
+| dark                                    | bright                                                                                |
+| existing                                | non existing                                                                          |
+| past                                    | future                                                                                |
+| interesting silhouette                  | simple silhouette harder to fill with detail<br>(may require posing difficult forms ) |
+| -                                       |                                                                                       |
+| night                                   | day                                                                                   |
+| moody                                   | good weather (less to play with)                                                      |
+| fogy                                    | clear                                                                                 |
+| desaturated                             | full color spectrum                                                                   |
+| silhouete                               | direct light                                                                          |
+| abbandoned                              | in use                                                                                |
+| reclamed by nature                      | maintained                                                                            |
+| megastructure                           | human scale structure                                                                 |
+| distance                                | closeup                                                                               |
+| ancient                                 | modern                                                                                |
+| iconic culture                          | global culture                                                                        |
+| classical (more shapes and proportions) | models                                                                                |
+| geometric                               | organic                                                                               |
+| exterior                                | interior                                                                              |
+| show room                               | lived in                                                                              |
+| natural                                 | man made                                                                              |
+| segmented nature hard surface           | smooth soft surace                                                                    |
+| non human                               | human                                                                                 |
+| old                                     | young                                                                                 |
+| loose clothing                          | tight fitting                                                                         |
+| stylized                                | photo real                                                                            |
+| high detial                             | min detail                                                                            |
+| exposed function                        | hidden functions                                                                      |
 
 
 ### Subject matter
@@ -143,6 +174,15 @@ If you need to design something in a similar style, reverse engineering lets you
  |**Pattern** | | Uniform, Fractal
  |**Motion**  | `Nature of motion` | Organic, Mechanic
  |other specifics...   || Minimalistic or Rich, thin, heavy, durability, socio-political influences, rules of the world
+
+
+
+
+- WHAT - Fundamentald & Technical skills 
+- WHERE - Exteriors, interiors, scale 
+- WHEN - Period appropriate details 
+- WHO - Human Experiences & Interactive designs 
+- WHY - Entertainment value & story elements 
 
 
 

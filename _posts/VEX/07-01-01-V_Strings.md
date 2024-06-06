@@ -8,6 +8,8 @@ tags:
 - Code
 permalink: /strings/
 ---
+> Obsidian:  [[08-01-01-V_Expressions]] [[09-01-01-V_Attribs]] [[10-01-01-V_Syntax]] [[05-01-01-V_Orientation]] [[03-01-01-V_Measure]] [[03-_V_Curves]]
+
 ### Strings
 
 

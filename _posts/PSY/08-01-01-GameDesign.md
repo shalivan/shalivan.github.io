@@ -18,6 +18,13 @@ aliases:
 Mechanics vs Design?
 Story Symbol Idea Slogan Surprise 
 
+in games: 
+
+mission 
+relation 
+experience 
+
+
 https://www.psychologyofgames.com/2011/03/the-unit-effect-and-player-perceptions/
 
  https://youtu.be/_Hjm9LLSICg < rational to emotional 

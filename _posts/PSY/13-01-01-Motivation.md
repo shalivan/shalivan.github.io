@@ -16,10 +16,13 @@ aliases:
 [[08-01-01-GameDesign|gamedesign]]
 [[15-01-01-Personality|personality]]
 
+Dark nudge: indirect means of influencing behavior thoward a desired positive action. 
+Impulsive Behavior is hard to control
 
+Friction - any friction will cause less of a behavior to occur on average 
 
-
-
+Novelty - 
+Thinking gets in a way of convenience 
 # Motivation
 
 [Britannica explains:](https://www.britannica.com/topic/motivation/Observational-learning) No one theory is capable of explaining all that we know about motivational processes.  Some motives seem best understood from a biological viewpoint. Other motives appear to be learned. Still other motives are influenced by the cognitive processes in which we engage. Our interpretation of the events around us influences our future motivation.

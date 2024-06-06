@@ -16,6 +16,31 @@ aliases:
 >Obsidian: [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
 
 
+https://youtu.be/Nj7EaryBgak
+crafting !!! 
+- collecting < exploring need to be 
+- lab -
+	- skill base controll 
+- purpose of things 
+	- -
+
+
+
+
+
+mechanics - how game works 
+dynamics - how player acts 
+asthetics - how player feels
+
+
+thrill of unknow 
+struggle to survive 
+can be also **feeling** > relax (flowe)
+**experience** - comanding a strship 
+character 
+
+how to reflect growht in mechanics 
+
 # Structure
 
 Mechanics should be **part of narration** - We've now gone from just having a really simplistic puzzle about opening a door to an entire story experience. Justification of gameplay mechanics written in to the lore

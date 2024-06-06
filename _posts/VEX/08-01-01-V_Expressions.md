@@ -9,6 +9,9 @@ tags:
 - Code
 permalink: /vexpressions/
 ---
+> Obsidian:  [[09-01-01-V_Attribs]] [[10-01-01-V_Syntax]] [[07-01-01-V_Strings]] [[05-01-01-V_Orientation]] [[03-01-01-V_Measure]] [[03-_V_Curves]]
+
+
 
 https://vfxbrain.wordpress.com/
 
