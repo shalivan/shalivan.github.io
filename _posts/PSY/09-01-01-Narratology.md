@@ -17,15 +17,18 @@ aliases:
 >Obsidian:   [Ludology](/ludology/)  / [[09-01-01-Ludology|ludology]]  [Game Design](/gamedesign/)    / [[08-01-01-GameDesign|gamedesign]]  [Lore](/lore/)  / [[12-01-01-Lore|lore]]
 
 
-In games:  Experience/challenge (gameplay loop) +  Mystery
+Whoever controls the narrative has the power. 
+Facts presented as story that is familiar to us we verry likely to accept it on gut instinct, without examining it critically. (Framing)
+
 
 # Medium
 Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe)    
-Stories emerge from our consciousness and observing ourselves and understand what is what we are doing. - successful life when you family, survive and thrive
+Stories emerge from our consciousness and observing ourselves and understand what is what we are doing. (successful life when you family, survive and thrive)
 Film is based on empathy.
+Stories round campfire > myths > printing press: linearize > Post linear: World building
+
 
 # Genres
-Stories round campfire > myths > printing press: linearize > Post linear: World building
 
 ## Literary
 **Poetry** (liryka) (podmiot liryczny)  
@@ -76,6 +79,7 @@ Narrative Experience
 |First|	autobiographies|	wills|		shopping lists
 |Second	|letters|	adventure books	|ransom notes
 |Third|	novels|	plays (theater)	|instructions
+
 #### First-person narrator
 **I / Me / My** - Character is telling the story. connection, access to thoughts. share emotions, strong characterization but: restricted to one character, difficult .filter words to show perspective of character  
 – występuje w gatunkach epickich.
@@ -85,12 +89,12 @@ Opowieść narratora pierwszoosobowego może przyjmować m.in. takie formy jak u
 #### Third-person narrator  
 **She / He Her / His** - External narrator is telling the story.    Commentator / Interviewer
 
-| | | |
-|---|---|---|
-|Ontological status | **Homodiegetic** (within world, part of story) interviewer | **Heterodiegetic** (outside (commentary / HUD)) detached observer
-|Shapedness of narrator | **Personal** (we know a characteristic of narrator and can picture narrator) | **Non-personal** (Only story is narrated)
-|Knowledge | **Restricted** | **All-Knowing** - Omnipotent / Omniscient
-|Nature of narrator's utterance act with regards to story world facts | **Representing** (represents already exiting story and world) | **Stipulating**  (stipulates story through narrating)
+|                                                                      |                                                                              |                                                                   |
+| -------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Ontological status                                                   | **Homodiegetic** (within world, part of story) interviewer                   | **Heterodiegetic** (outside (commentary / HUD)) detached observer |
+| Shapedness of narrator                                               | **Personal** (we know a characteristic of narrator and can picture narrator) | **Non-personal** (Only story is narrated)                         |
+| Knowledge                                                            | **Restricted**                                                               | **All-Knowing** - Omnipotent / Omniscient                         |
+| Nature of narrator's utterance act with regards to story world facts | **Representing** (represents already exiting story and world)                | **Stipulating**  (stipulates story through narrating)             |
 
 - a character telling another character's story,
 - an unreliable character telling the story.
@@ -99,6 +103,11 @@ Opowieść narratora pierwszoosobowego może przyjmować m.in. takie formy jak u
 # Structure
 
 `why who where what when how `
+
+## Narrative rationality 
+- **Coherence**: a story hangs together. (compare to laws of the universe / story laws)
+- **Fidelity**: a story feels true (to us giving our value system - if match ours we can use it but if not correspond to what we already know we reject it )
+
 
 Cannot say a story without **Place**, **Time** and **Character**. Or you can
 
@@ -345,21 +354,21 @@ Claim to apply to all people Common to everyone. Help to understand the world, h
 Regardless of cultural origin or when they where created
 
 
-| . |  |  |
-| ---- | ---- | ---- |
-| Initiation | Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius  The Dynamics of Transformation in the Human Psyche |  |
-| The Journey |  |  |
-| The Fall | Fall into underworld loss of innocence and bliss, expulsion from a kind of paradise (Adam  & Eve) |  |
-| Death and rebirth |  |  |
-| Supernatural Intervention |  |  |
-| Natural vs technology |  |  |
-| Battle between good and evil | Obvious forces representing good and evil |  |
-| Belly of beast | Swallow to unknow ie. Enemy headquarter |  |
-| Union of opposites |  |  |
-| Rebirth | transformation > caterpillar to butterfly |  |
-| The Ritual |  |  |
-| Rise Up |  |  |
-| Birth |  |  |
+| .                            |                                                                                                                                                                                                                                                                                                                                                   |     |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| Initiation                   | Accident/breakdown.. psyche read as separation, lost. growing and understanding life. prehistory outside (territory) now inside change. (addice: separation and going to ideal) Opposition to ego . How to make beauty out of pain. 1) Initiation > mentoring > reveal the path of one genius  The Dynamics of Transformation in the Human Psyche |     |
+| The Journey                  |                                                                                                                                                                                                                                                                                                                                                   |     |
+| The Fall                     | Fall into underworld loss of innocence and bliss, expulsion from a kind of paradise (Adam  & Eve)                                                                                                                                                                                                                                                 |     |
+| Death and rebirth            |                                                                                                                                                                                                                                                                                                                                                   |     |
+| Supernatural Intervention    |                                                                                                                                                                                                                                                                                                                                                   |     |
+| Natural vs technology        |                                                                                                                                                                                                                                                                                                                                                   |     |
+| Battle between good and evil | Obvious forces representing good and evil                                                                                                                                                                                                                                                                                                         |     |
+| Belly of beast               | Swallow to unknow ie. Enemy headquarter                                                                                                                                                                                                                                                                                                           |     |
+| Union of opposites           |                                                                                                                                                                                                                                                                                                                                                   |     |
+| Rebirth                      | transformation > caterpillar to butterfly                                                                                                                                                                                                                                                                                                         |     |
+| The Ritual                   |                                                                                                                                                                                                                                                                                                                                                   |     |
+| Rise Up                      |                                                                                                                                                                                                                                                                                                                                                   |     |
+| Birth                        |                                                                                                                                                                                                                                                                                                                                                   |     |
 
 Call to noble action
 
@@ -498,10 +507,9 @@ The Natural Cycle
 Hegelian dialectic: Thesis, Antithesis, Synthesis.
 then synthesis become a new thesis
 
-#  Motifs
+#  Motifs 
 
 When cliché is well executed is not a cliché / cliché is when its not driving us to the point  
-
 
 - Desire vs Fear - hope overcome fear
 - Something that worked stopped working
@@ -509,7 +517,6 @@ When cliché is well executed is not a cliché / cliché is when its not driving
 - Who did it
 - Checkmate
 - you are in loop / ability to move on.
-
 
 ### Conflict
 ‘No conflict, no drama’
@@ -524,15 +531,12 @@ Rational explanations for war (war sis costly and why cant we settle differences
 - asymmetric information and incentives to misrepresent
 - issue indivisibility
 
-
-
 ### Mystery
 Fiction story that revolves around discovering secrets or solving crimes
 - known, known unknown, unknown unknow  
 
 
 ### Emotions
-
 
 - thrill
 - positive
@@ -543,12 +547,12 @@ Fiction story that revolves around discovering secrets or solving crimes
 -  believes that are challenged by external conflict
 
 
-
+# Master Plots
+Simplified concepts 
 
 ## The Seven Basic Plots
 Theory developed by Christopher Booker
 a Jung-influenced analysis of stories and their psychological meaning.
-
 
 | | |
 |--|--|
@@ -584,7 +588,6 @@ puzzle
 - murder mystery: when to know what happened and see if detective is wiser than us
 - romances: wish fulfillments
 - change from inactive to proactive
-
 
 
 - rewrite existing story

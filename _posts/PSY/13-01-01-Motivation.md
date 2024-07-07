@@ -23,6 +23,16 @@ Friction - any friction will cause less of a behavior to occur on average
 
 Novelty - 
 Thinking gets in a way of convenience 
+
+
+
+
+Wundt Curve - Atoudal potential. Relationship between intensity of a stimulus and its pleasantness.  # How Much Novelty is Relevant?: It Depends on Your Curiosity. Interest increases with stimulus complexity up till the point of incomprehensibility. Then Rewards system is needed to keep hedonic value up. 
+
+https://slideplayer.com/slide/13357411/
+
+
+
 # Motivation
 
 [Britannica explains:](https://www.britannica.com/topic/motivation/Observational-learning) No one theory is capable of explaining all that we know about motivational processes.  Some motives seem best understood from a biological viewpoint. Other motives appear to be learned. Still other motives are influenced by the cognitive processes in which we engage. Our interpretation of the events around us influences our future motivation.

@@ -16,49 +16,53 @@ aliases:
 > Pxlink:  
 >Obsidian:  [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
 
-# Classical Approach
 
 
-
-Books imagine, movie see, games act.
 Oral Stories > Theater > Books > Film > Radio > TV > Games > AR
+Books - imagine, movie - see, games - act. 
 
+# Ludology
+
+**Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history. 
+
+| Paradigm Characteristics      | [Narratology](/narratology/)                                                                            | Ludology                                                                                                                                                           |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Community structures          | Mostly pedagogy, limited number of non-pedagogy researchers                                             | Non-pedagogical game studies, although some thematic overlap with pedagogy                                                                                         |
+| Group commitment networks     | Wide range of disciplines, including drama & literature, education, cognition, management               | Narrow range of allegiances, limited to non-pedagogy - one central research center, one peer-reviewed journal, and between one and two dozen primary investigators |
+| Shared examples               | Computer simulation, non computer simulation, role play, experiential learning, drama, literature, film | Videogame, virtual reality, hypertext, television, and emergent forms of computer play                                                                             |
+| Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning and cognition                                           | Non-pedagogical side of experience - i.e., play                                                                                                                    |
+|                               | Linear Nature                                                                                           | Cyclical nature                                                                                                                                                    |
+|                               | plot, character, and themes.                                                                            | gameplay mechanics, rules, and player interaction                                                                                                                  |
+
+Movies can create 'knowledge differences' easier than games which blend protagonist and player.
+
+
+## Classical Approach
 - Jean Piaget (9 August 1896 – 16 September 1980) was a Swiss psychologist Importance of games:
 - Johan Huizinga: Nature & Significance of Play as a Cultural Phenomenon [pdf](https://nideffer.net/classes/270-08/week_01_intro/Huizinga.pdf)
 - Someone who wants something badly (OBJECTIVE) and is having a hard time getting it. (OBSTACLE).
 
 
-# Ludology
+# Structure 
+ 
+**Linear narrative is not enough** for games and can be less important. See or listen not as powerful as play themselves (ease of remembering & memorizing!). 
 
-**Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history. Every medium has its own narration styles, varying on genres, format, framing of art and limitations. Linear narrative is not enough for games and can be less important. Movies can create 'knowledge differences' easier than games which blend protagonist and player.  Plot and characters are things VG find verry difficult to deal. In linear movies we say: **show don't tell**, in interactive entertainment it convert to **play**, **do don't show**. But we should use every method in hierarchy just in good proportions.
-(sometimes is quicker, cheaper and more efficient to tell).
-
-
-| Paradigm Characteristics |  [Narratology](/narratology/) |Ludology|
-|---|---|---|
-|Community structures | Mostly pedagogy, limited number of non-pedagogy researchers | Non-pedagogical game studies, although some thematic overlap with pedagogy
-|Group commitment networks |Wide range of disciplines, including drama & literature, education, cognition, management | Narrow range of allegiances, limited to non-pedagogy - one central research center, one peer-reviewed journal, and between one and two dozen primary investigators
-|Shared examples | Computer simulation, non computer simulation, role play, experiential learning, drama, literature, film | Videogame, virtual reality, hypertext, television, and emergent forms of computer play
-|Tacit knowledge and intuition | Pedagogical side of experience - i.e., learning and cognition | Non-pedagogical side of experience - i.e., play
-| | Cyclical nature | Linear Nature
-
-|   |  |  
-|---|---|
-| Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking
-
-See or listen not as powerful as play themselves:
-- Games as `Rules` + `fictional Content`
+- Games as `Rules` + `fictional Content`  (experience / challenge (gameplay loop) +  mystery)
 - Free movement and actions, Need to act.` Engage with external`
 - `Reactivity` Respond to your actions
+
+
+In linear movies we say: **show don't tell**, in interactive entertainment it convert to **play**, **do don't show**. (But we should use every method in hierarchy just in good proportions). (sometimes is quicker, cheaper and more efficient to tell).
 
 
 # Authorship
 
 **Narrative** (story meaning) vs **Mechanics** (dynamical meaning). Driven How much power over the world. (Authored vs generative narration)
-(linear) `Linear` > `Wide Linear` (linear with paths) > `Interactive Linear` >  `Multi ending` >  `Branching path` (multi choice but not emergent) > `Open World` > `Open ended`  >  `Emergent` > `Sand box` (Fully player driven) > (cyclical) > `Random`
+- **Game story domination**  -   Authored - no impact on story - Linear  - low agency hi certainty of deliver    
+- **Player story domination** -  Generative - agency & expression of will - Cyclical  - high agency, low certainty
 
-**Game story domination**  -   Authored - no impact on story - Linear  - low agency hi certainty of deliver    
-**Player story domination** -  Generative - agency & expression of will - Cyclical  - high agency, low certainty
+Scale of authorship: 
+(linear) `Linear` > `Wide Linear` (linear with paths) > `Interactive Linear` >  `Multi ending` >  `Branching path` (multi choice but not emergent) > `Open World` > `Open ended`  >  `Emergent` > `Sand box` (Fully player driven) > (cyclical) > `Random`
 
 ## Agency
 
@@ -103,6 +107,8 @@ Feeling being in control.
 Some game structures can be metaphors
 Narration can be Atmospheric or Narrative
 
+ **Plot and characters** are things video games find verry difficult to deal. 
+ 
 Avoid Red Herring (something that misleads or distracts from a relevant or important question)
 
 ## Embedded / Explicit
@@ -607,3 +613,10 @@ behaviour  design -  pavlov
 midcore - requiring players to make time to play, rather than playing opportunistically or sporadically.
 
 [Max Derrat - best ](https://youtu.be/kwlGiLuRBB8)
+
+
+
+|                    |                                                                                              |     |
+| ------------------ | -------------------------------------------------------------------------------------------- | --- |
+| Incommensurability | Inconclusive - depends on investigator's stance regarding reductionism and holistic thinking |     |
+Every medium has its own narration styles, varying on genres, format, framing of art and limitations. 
