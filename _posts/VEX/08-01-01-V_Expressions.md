@@ -150,6 +150,12 @@ By pattern:
 
 ## Delete
 
+
+#### [Blast] SOP
+
+Group: 
+`@primN.y=1` - add box, add normals, add blast with expression: `@primN.y=1`
+
 #### [Delete] SOP
 
 Delete by Pattern   
@@ -230,7 +236,7 @@ Vexpression:
 
 `geoself()`, `0`, `@OpInput1`- Returns a handle to the current geometry
 
-- `opname(".")` - node name `$OS`   
+- `opname(".")` - node name `'$OS'`   
 - `opname("..")` - name of node Container   
 - `opinput(".", 0)` -  name of the node connected to input 0  
 - `opinputpath(".", 0)` - path of the node connected to input 0 (`/obj/geo/lastNodeName`)  

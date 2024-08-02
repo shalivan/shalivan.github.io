@@ -16,7 +16,7 @@ permalink: /niagara/
 aliases:
   - niagara
 ---
-> Obsidian: [[02-01-01-U_Niagara_Module]]  [[03-01-01-U_Niagara_Interfaces]] [[16-01-01-VFX]]
+> Obsidian: [[04-01-01-U_FluidNinja| Fluid Ninja]] [[16-01-01-VFX|VFX]]
 
 
 

@@ -13,299 +13,253 @@ tags:
 description: Configs
 permalink: /houdiniconfigs/
 ---
-> Pxlink: [TUT](/tutmain/) [Material data](/matdata/)   
-> Obsidian: [[TUT]] [[16-02-01-Rendering]]  [[08-01-01-Material]] [[18-01-01-Color]]  [[14-01-01-Procedural]]  [[11-01-01-Math]] [[12-01-01-Gaea]] [[16-02-01-Substance_Designer]] [[17-01-01-Modeling]] [[17-01-01-Modeling_Foliage]] 
+> Pxlink: [TUT](/tutmain/) , [[DTA]]
+>Obsidian: [[DTA]] , [[12-01-01-USD | USD]] ,[[20-01-01-Res | Res]] ,[[21-01-01-Pipes | Pipes]]
 
-
-> [[02-01-01-LSystem]]  [[03-01-01-Karma]] [[04-01-01-Mantra]] [[05-01-01-Heightfields]]  [[06-01-01-CHOP]] [[07-01-01-PDG]]  [[08-01-01-CFX]]  [[10-01-01-LAB]] [[11-01-01-COP]] [[12-01-01-USD]]  [[13-01-01_VOP]] [[13-01-01-SOP]] [[13-01-01-SOP-curves]]
-
-> [[01-01-01-Noise]] [[02-01-01-V_DrawCurves]] [[02-Vex_Volume]] [[03-01-01-V_Measure]] [[13-01-01_VOP]] [[05-01-01-V_Orientation]] [[07-01-01-V_Strings]]  [[08-01-01-V_Expressions]]  [[09-01-01-V_Attribs]] [[10-01-01-V_Syntax]]  [[12-01-01-Python-hou]]
-
-> [[01-01-01-FLIP]] [[01-01-01-PYRO_Dense]] [[01-01-01-RBD_SOP]] [[01-01-01-RBD]] [[01-01-01-Vellum]] [[01-01-01-Vellum_SOP]]
-
-
-|Operation type|houdini shorts|Tools|
-|-|-|-|
-|Enter Mode|`ENTER`|Enter modeling mode
-|Camera|`Alt` + `RMB`|Rot as cam
-| | `RMB`|Rot around
-| |`Alt` + `MMB` / `LMB` + `RMB`|Pan
-| |`LMB`|Zoom
-| |`MMB`|Move tool
-
-
+https://www.sidefx.com/docs/houdini/basics/hotkeys.html
+https://miro.com/app/board/uXjVP06Hcz4=/ - skróty od ziomka
 --------------
 
 
+Modeling procedural vs Modeling destructive
+objects in one geo node
 
-# CUSTOM
-`Shift` + `W` - In all windows wireframe mode   
-~~`Alt` + `W`~~ - close window  
-~~`Ctrl` + `1`,`2`~~ ... - change   
-~~`C` is visualize~~ should be: comment
-`9` selection group        
-`\` - manual update   `|` - auto update      
-` ' ` - RESELECT FOR CURENT TOOL     
-` ~ ` - SECURE SELECTION  
+![[Pasted image 20240716030315.png]]
+
+ Hotkey Manager > Houdini  > Panes > Geometry Viewers
 
 
 
+# GLOBAL
+|       |                |
+| ----- | -------------- |
+| Shift | Selection      |
+| Alt   | Modeling tools |
+| Ctrl  | -              |
 
-# załozenie do modelowania 
-
-szybki przeskok do porzednich nodów na dodatkowym scrollu ???
-
-
-ROspisac shortcuty w zaleznosci od trybu w jakim jesteś 
-
-shortcuty w nodach 
-shortcuty globalne 
-
-
-
-
-#### Match translate
-> is icon on the right of transform params click, and select obj u want rotate to.
-
-
-
-
-----
-
-
-
-# Viewport Manipulation
-
-| | | |
-|-|-|-|
-|`T` | Transform  | W
-|`R` | Rotate   | E
-|`E` | Scale  | R
-|`Y` | Cycle  |  -
-|`M` | World Coordinates    | !!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|                                          | Default        |                                           | NEW                            |
+| ---------------------------------------- | -------------- | ----------------------------------------- | ------------------------------ |
+| ![](/src/hou_icons/select_component.svg) | `S`            | SELECT                                    |                                |
+| ![](/src/hou_icons/move.svg)             | `W`, `E`, `R`  | TRANSFORM                                 |                                |
+| ![](/src/hou_icons/handles.svg)          | `Enter`        | INVOKE SOP                                | powinno byc tez pod  ``` ` ``` |
+| ![](/src/hou_icons/view.svg)             | `Space`        | CAMERA                                    |                                |
+|                                          | `X` , `C` ,`V` | Rings                                     | dodać `Z` ale jeszcze zajęte   |
+|                                          | `Q`            | repeat tool                               | `Q`                            |
+|                                          | `P`            | Params                                    | `P`                            |
+|                                          | `D`            | Viewport Options                          | `O`                            |
+|                                          |                | Edit / Draw/ Quick Shapes - node specific |                                |
 
 ---
+
+# CAMERA
+Use only with `Space` to free mode combos. View options & Editor UI shorts
+
+|                                                             | Default                  |               | NEW                     |
+| ----------------------------------------------------------- | ------------------------ | ------------- | ----------------------- |
+|                                                             |                          | Pad           |                         |
+|                                                             |                          | Pad           | `A` `D` `W` `S` `Q` `E` |
+| ![](/src/hou_icons/tilt.svg) ![](/src/hou_icons/tumble.svg) | `Alt` / `Space`  + `LMB` | Rot           | `Space`  + `LMB`        |
+| ![](/src/hou_icons/track.svg)                               | `Alt` / `Space`  + `MMB` | Move          | `Space`  + `MMB`        |
+| ![](/src/hou_icons/dolly.svg)  ![](/src/hou_icons/zoom.svg) | `Alt` / `Space`  + `RMB` | Zoom          | `Space`  + `RMB`        |
+|                                                             |                          | Pers          | `Space`  1              |
+|                                                             |                          | Top           | `Space`  2              |
+|                                                             |                          | Front         | `Space`  3              |
+|                                                             |                          | Side          | `Space`  4              |
+|                                                             |                          | Orto          | `Space`                 |
+|                                                             |                          | Focus frame   | `Space`  F              |
+|                                                             |                          | Focus home    | `Space` G               |
+|                                                             |                          | Focus c-plane | `Space`  H              |
+
+---
+
+# SELECT
+Press `S` to enter mode
+
+|                                               | Default                                |                                              | NEW                                |
+| --------------------------------------------- | -------------------------------------- | -------------------------------------------- | ---------------------------------- |
+|                                               | `1`                                    | Multi select                                 |                                    |
+| ![](/src/hou_icons/select_points.svg)         | `2`                                    | Points                                       | `1`                                |
+| ![](/src/hou_icons/select_edges.svg)          | `3`                                    | Edges                                        | `2`                                |
+| ![](/src/hou_icons/select_faces.svg)          | `4`                                    | Polys                                        | `3`                                |
+| ![](/src/hou_icons/select_points.svg)         | `Shift` + `2`                          | Convert selection to Points                  | `Shift` + `1`                      |
+| ![](/src/hou_icons/select_edges.svg)          | `Shift` + `3`                          | Convert selection to Edges                   | `Shift` + `2`                      |
+| ![](/src/hou_icons/select_faces.svg)          | `Shift` + `4`                          | Convert selection to Polys                   | `Shift` + `3`                      |
+|                                               |                                        |                                              |                                    |
+|                                               | SELECTION TOOLS                        |                                              |                                    |
+| ![](/src/hou_icons/select_mode_laser.svg)     | `F5`                                   | laser                                        | `F1`                               |
+| ![](/src/hou_icons/select_mode_boxselect.svg) | `F2`                                   | box                                          | `F2`                               |
+| ![](/src/hou_icons/select_mode_lasso.svg)     | `F3`                                   | lasso                                        | `F3`                               |
+| ![](/src/hou_icons/select_mode_brush.svg)     | `F4`                                   | paint<br>                                    | `F4`                               |
+|                                               |                                        |                                              |                                    |
+|                                               | SELECTION MODES                        |                                              |                                    |
+| ![](/src/hou_icons/select_visible.svg)        | `Shift`+`V`                            | backmasking                                  | `Shift`+`B`                        |
+| ![](/src/hou_icons/select_contained.svg)      | `Shift`+`C`                            | contained                                    | `Shift`+`C`                        |
+| ![](/src/hou_icons/select_by_normal.svg)      | -                                      | by normal                                    | `Shift`+`N`                        |
+| ![](/src/hou_icons/show_group_colors.svg)     | `9`                                    | select by group (groups color)               | `Shift` +  `5`                     |
+|                                               | -                                      | Toggle select types                          | `Shift` +  `6`                     |
+|                                               | -                                      | Connected 3d                                 | `Shift` +  `7`                     |
+|                                               | -                                      | Uv                                           | `Shift` +  `8`                     |
+|                                               | -                                      | Name                                         | `Shift` +  `9`                     |
+|                                               |                                        |                                              |                                    |
+|                                               | SELECTION  MODIFY                      |                                              |                                    |
+|                                               | `LMB` x 2                              | Semi loop                                    | `LMB` x 2                          |
+|                                               | `MMB` x 2                              | Semi loop                                    | `MMB` x 2                          |
+|                                               | `Shift`+`A`                            | Semi loop                                    | `Shift`+`Z`                        |
+|                                               | `Shift`+`G`                            | Growth selection                             | `Shift`+`G`                        |
+|                                               | `Shift`+`S`                            | Shrink selection                             | `Shift`+`F`                        |
+|                                               | `Shift`+`B`                            | Selection bounds                             | `Shift`+`Y`                        |
+|                                               | `Shift`+`I`                            | Invert                                       | `Shift`+`I`                        |
+|                                               | `Shift`+`Ctrl`+`E` (on edges)          | Selection bounds edge                        | `Shift`+`U`                        |
+|                                               |                                        |                                              |                                    |
+|                                               | `Shift` + `P`                          | Set sellection pattern                       | `Shift` +  `T`                     |
+|                                               | `Shift` + `🡰` `🡲` `🡱` `🡳`          | Growth pattern                               | `Shift` + `A` `D` `W` `S`          |
+|                                               | `Shift` + `Ctrl` + `🡰` `🡲` `🡱` `🡳` | Growt pattern till the end                   | `Shift` + `Ctrl` + `A` `D` `W` `S` |
+|                                               | `K`                                    | Growth till paint under mouse                | ?                                  |
+|                                               |                                        |                                              |                                    |
+|                                               |                                        | Revert                                       | `Shift` +  `R`                     |
+|                                               | `Shift` +  `F`                         | Fill to all contained in type                | ?                                  |
+|                                               | `Shift`  + `D`                         | Normal / Fill selections to borders of group | ?                                  |
+|                                               | `Shift`+`N`                            | select none                                  | -                                  |
+|                                               | `N`                                    | select all                                   | -                                  |
+
+---
+
+# TRANSFORM
+
+|                                | Default |                   | NEW |
+| ------------------------------ | ------- | ----------------- | --- |
+| ![](/src/hou_icons/move.svg)   | `T`     | Transform         | `W` |
+| ![](/src/hou_icons/rotate.svg) | `R`     | Rotate            | `E` |
+| ![](/src/hou_icons/scale.svg)  | `E`     | Scale             | `R` |
+|                                | `Y`     | Cycle             | `T` |
+|                                | `M`     | World Coordinates | `A` |
+|                                | `MMB`   | move selection    |     |
+
+https://youtu.be/Zh6Q6r9LQlA
 
 ### Pivot / Handle
 
 For animation. Permanent pivot of object.
 
-| | | |
-|-|-|-|
-| `'`+`Shift`/`Insert`| **Pivot** - pivot transform change parameter.
-| `'` | **Handle** - leave pivot unaffected. Detached Viewport handle temporary. For modeling and placement.
+| Default              |                                                                                                      | NEW |
+| -------------------- | ---------------------------------------------------------------------------------------------------- | --- |
+| `'`+`Shift`/`Insert` | **Pivot** - pivot transform change parameter.                                                        |     |
+| `'`                  | **Handle** - leave pivot unaffected. Detached Viewport handle temporary. For modeling and placement. |     |
 
-| | | |
-|-|-|-|
-|`RMB>presistant` | For enable 2nd handles!   |
-|`RMB>SnapTo..` | Pivot or centroid.  |
-|`RMB>HandleParameters` | Options  |
-|`RMB>Local/Global` | Local pivot points vs Global - centroid of all  |
-|`RMB>TranslateGloballyInLocalControl` | Local transform of last selected|
-
+| MENU                                  |                                                |
+| ------------------------------------- | ---------------------------------------------- |
+| `RMB>presistant`                      | For enable 2nd handles!                        |
+| `RMB>SnapTo..`                        | Pivot or centroid.                             |
+| `RMB>HandleParameters`                | Options                                        |
+| `RMB>Local/Global`                    | Local pivot points vs Global - centroid of all |
+| `RMB>TranslateGloballyInLocalControl` | Local transform of last selected               |
 
 ### Align  
-Hover over geometry .. Y is up.
-Check if you have object or world aligned handles it change behaviour
+Align by Orientation picking. Select points/edges, enable tool and hover over geometry to snap or RMB on the handle and choose Align handle ▸ Start orientation picking 3) Hover over geometry .. Y is up. 4) klick
+Dependencies
+- if you have object or world aligned handles it change behavior
 
-| | |
-|-|-|
-|`:` /  `:` + `Shift` | Align (`RMB>OrientationPeaking`).       
-|`selct placement` + `Shift` | only rotate    
-|`selct placement` + `Ctrl` | move dont rotate   
-|`selct placement` + `Ctrl` + `Shift` | lookat Y  (to change click handle with ctrl)   
-|`select axis` + `drag` | secondaty axies direction  
+| Default                         |                                               |     |
+| ------------------------------- | --------------------------------------------- | --- |
+| `:` / `;`                       | Orientation picking toggle                    |     |
+| `:` + `Shift` Hold              | Orientation picking (need to hold)            |     |
+| `:` + `Shift` + `LMB`           | only Rotate                                   |     |
+| `:` + `Shift` + `LMB`  + `Ctrl` | Look at Y  (to change click handle with ctrl) |     |
+| `:` + `Ctrl` + `LMB`            | only Move                                     |     |
+| `:` + `select axis` + Drag      | secondaty axies direction                     |     |
 
 ### Snap
 
-### Grid plane
+|                                    |     |       | NEW            |
+| ---------------------------------- | --- | ----- | -------------- |
+| ![](/src/hou_icons/snap_grid.svg)  |     | Grid  | `Shift` + `F1` |
+| ![](/src/hou_icons/snap_point.svg) |     | Point | `Shift` + `F2` |
+| ![](/src/hou_icons/snap_curve.svg) |     | Prim  | `Shift` + `F3` |
+| ![](/src/hou_icons/snap.svg)       |     | Multi | `Shift` + `F4` |
 
-| | |
-|-|-|
-|`/` | Align Grid   
-|`?`  |
+- for edge if you select near center it will snap center to point, if selected near end will snap end point of edge
 
+### Construction plane
 
-----
-
-
-
-# Viewport Main
-
-|               |                                       |     |
-| ------------- | ------------------------------------- | --- |
-| `Alt`+`Space` | wieport                               |     |
-| `B`           | show uv layout !!!!!                  |     |
-| `9`           | select by group                       |     |
-| `H`           | hide `H`+`ctrl`/`shift`   ??          |     |
-|               |                                       |     |
-| `F2`-`F5`     | Selection types box/lasso/paint/laser |     |
-![[select_mode_lasso.svg]]
-![[select_mode_boxselect.svg]]
-![[select_mode_brush.svg]]
-![[select_mode_laser.svg]]
-
-![[select_visible.svg]]
-![[select_contained.svg]]
-### Hide
+|                                                    | DEFAULT   |                                                                                       |     |
+| -------------------------------------------------- | --------- | ------------------------------------------------------------------------------------- | --- |
+| ![](/src/hou_icons/display_construction_plane.svg) | `/` / `?` | Construction plane                                                                    |     |
+|                                                    |           | You can choose pivot handle to choose primary axis for align it will appear as yellow |     |
 
 
-----
-
-
-# Viewport Selection
-
-### Selection modes:  
-
-
-![[select_vertices.svg]]
-![[select_points.svg]]
-![[select_edges.svg]]
-![[select_faces.svg]]
-
-| | | |
-|-|-|-|
-|`Shift`+`V` | backmasking    
-|`Shift`+`C` | contained  
-
-### Selection modify:  
-
-|                                        |                                    |     |
-| -------------------------------------- | ---------------------------------- | --- |
-| `N`                                    | select all                         |     |
-| `Shift`+`N`                            | select none                        |     |
-| `Shift`+`B`                            | bounds                             |     |
-| `Shift`+`Ctrl`+`E` (on edges)          | pgrowth oli age boundary           |     |
-| `Shift`+`G`                            | Growth selection                   |     |
-| `Shift`+`S`                            | Shrink selection                   |     |
-|                                        |                                    |     |
-| `A`+`ctrl`/`shift`+`[MMB]`/`[RMB]`     | full selection / partial selection |     |
-| `Shift` + `P`                          | Set sellection pattern             |     |
-| `Shift` + `🡰` `🡲` `🡱` `🡳`          | Growth pattern                     |     |
-| `Shift` + `Ctrl` + `🡰` `🡲` `🡱` `🡳` | Growt pattern till the end         |     |
-| `K`                                    | Growth till paint under mouse      |     |
-
-
-
-
-## [Edit] ![[edit.svg]] SOP 
-
-|             |                            |     |
-| ----------- | -------------------------- | --- |
-| `L`         | Slide on Surface           |     |
-| `H`         | Peak                       |     |
-| `B`         | Sculpt                     |     |
-|             |                            |     |
-| `Y`         | Edit                       |     |
-| `Shift`+`T` | Tweek mode   (no handles ) |     |
-
-----
-
-![[polyextrude.svg]]
-
-edge / poly 
-
-![[edgecollapse.svg]]  , ![[fuse.svg]] , ![[pointweld.svg]] ,![[dissolve.svg]] , ![[blast.svg]] , ![[delete_circle.svg]]
-edge / points / poly 
-
-
-![[bridge.svg]]
-edges  / NOT WORKING ON POLYS 
-
-
-![[polybevel.svg]]
-
-
-![[polyfill.svg]]
-
-
-![[clip.svg]]
-F + LMB  - Draw plane 
-G - display wire in
-H - diaplay plane
-
-
-
-![[polysplit.svg]]
-
-![[mirror.svg]]
-
-
-![](/src/hou/cfg/wheel1.png)
 
 ---
 
 
-|                        | Operation type    | houdini shorts       | Tools                                            |     |
-| ---------------------- | ----------------- | -------------------- | ------------------------------------------------ | --- |
-|                        | Snap              | on wheel menu        |                                                  |     |
-|                        | ConstructionPlane | on wheel menu        |                                                  |     |
-|                        | Comon             | `Shift` + `M`        | Mirror selection in place                        |     |
-|                        |                   | `Ctrl` + `+`         | Subdivide                                        |     |
-|                        |                   | `D`                  | Display                                          |     |
-|                        |                   | `F`                  | Focus                                            |     |
-|                        |                   | `G`                  |                                                  |     |
-|                        |                   | `Space`              | Context wheel                                    |     |
-|                        |                   | `Q`                  | Repeat                                           |     |
-|                        |                   | `Ctrl` +  `Q`        | Collapse stack                                   |     |
-|                        |                   | Scroll               | Smooth selection                                 |     |
-|                        | Hide              | `H`                  | Hide                                             |     |
-|                        |                   | `Ctrl` + `H`         | Invert                                           |     |
-|                        |                   | `Shift` + `H`        | Unhoide                                          |     |
-|                        | Selection Context | `1`                  | Multi select                                     |     |
-| ![[select_points.svg]] |                   | `2`                  | Points                                           |     |
-| ![[select_edges.svg]]  |                   | `3`                  | Edges                                            |     |
-| ![[select_faces.svg]]  |                   | `4`                  | Polys                                            |     |
-|                        |                   | `ctrl` + `1-4`       | Convert selection to other type                  |     |
-|                        | Pivot             | on wheel menu        |                                                  |     |
-|                        | Coordinates       | `Shift` + `Q`        | Coords loop  (obj, world, viewport,plane, tweek) |     |
-|                        | Move Constraints  |                      |                                                  |     |
-|                        | Selection         | `S` / `Shift`  + `S` | Select                                           |     |
-|                        | Selection         | `A` / `Shift`  + `A` | Semi loop                                        |     |
-|                        |                   | `Shift` +  `F`       | Fill to all contained in type                    |     |
-|                        |                   | `Shift` +  `S`       | Shrink                                           |     |
-|                        |                   | `Shift` +  `G`       | Grow                                             |     |
-|                        |                   | `Shift` +  `J`       | Pattern                                          |     |
-|                        |                   | `Shift`  + `D`       | Normal / Fill selections to borders of group     |     |
-|                        | Select Groups     | `Shift` +  `1`       | Toggle select types                              |     |
-|                        |                   | `Shift` +  `2`       | Connected 3d                                     |     |
-|                        |                   | `Shift` +  `3`       | Uv                                               |     |
-|                        |                   | `Shift` +  `4`       | Name                                             |     |
-|                        |                   |                      | Groups                                           |     |
-|                        |                   |                      | Normal                                           |     |
-![[hide.svg]]
-![[transform.svg]]
-![[scale.svg]]
-![[move.svg]]
-![[snap.svg]]
-![[snap_curve.svg]]
-![[snap_point.svg]]
-![[snap_grid.svg]]
-
-| Snap          | Point | Edges |
-| ------------- | ----- | ----- |
-| `Shift` + `E` |       |       |
-| `Shift` + `R` |       |       |
-| `Shift` + `T` |       |       |
-| `Shift` + `Y` |       |       |
+---
 
 
-![[attribdelete.svg]]
+
+
+---
+
+# RMB Menus
+
+On pivot - Edit manipulator
+On empty - Move
+With Space/Alt - View
+
+
+000
+
+
+
+## Viewport
+| ![](/src/hou_icons/select_visible.svg) | Hide | `H`           | Hide    | X   |
+| -------------------------------------- | ---- | ------------- | ------- | --- |
+|                                        |      | `Ctrl` + `H`  | Invert  | X   |
+|                                        |      | `Shift` + `H` | Unhoide | X   |
+
+|     |                                |                            |
+| --- | ------------------------------ | -------------------------- |
+|     |                                |                            |
+|     | show uv layout !!!!!           |                            |
+| `H` | hide `H`+`ctrl`/`shift`   ??   |                            |
+
+| `H`           | Hide    |
+| ------------- | ------- |
+| `Ctrl` + `H`  | Invert  |
+| `Shift` + `H` | Unhoide |
+
+
+#### Hide
+
+
+|                                      | Viewport other nodes |     |
+| ------------------------------------ | -------------------- | --- |
+| ![](/src/hou_icons/show_all.svg)     |                      |     |
+| ![](/src/hou_icons/show_ghosted.svg) |                      |     |
+|                                      |                      |     |
+
+
+
+
+
+![[Pasted image 20240724041253.png]]
+
+
+----
+
+# HANDLE TOOL
+
+## [Edit] ![](/src/hou_icons/edit.svg) SOP
+
+
+Shift + T - Tweek mode
+Shift C make circle
+
+|             |                            |                |
+| ----------- | -------------------------- | -------------- |
+| `L`         | Slide on Surface           |                |
+| `H`         | Peak                       |                |
+| `B`         | Sculpt                     |                |
+| `Y`         | Edit                       |                |
+| `Shift`+`T` | Tweek mode   (no handles ) | ![[tweak.svg]] |
 
 | Edit geo tools        | Point         | Edges                 | Border        | Poly           |     |
 | --------------------- | ------------- | --------------------- | ------------- | -------------- | --- |
@@ -319,82 +273,176 @@ H - diaplay plane
 | `Ctrl` +  `B`         | Bevel         | Bevel (bridgeborders) | -             | Extrude        |     |
 |                       |               |                       |               | Bridge         |     |
 
+## Draw ![](/src/hou_icons/polydraw.svg)
 
-```
-JESZCZE DORZYUCIC IKONKI OD 
-PRImitives 
-MODIFIRES
-- bend taper 
-- path def ![[sweep.svg]]
-pedzle 
-
-remeshe 
-
-splines curves 
-```
-
-
-
-Fuse / delete (disappear)/ remove
-
-Delete  
-Backspace
-Delete
-Delete and retain poly
-
-
-![[polydraw.svg]]
-```
-
-## PolyDraw
 
 #### `Shift`+`1` Build
 
 points:    
-`[LMB]` - create / selsct  
-`Shift`+`[LMB]` select  
-`Ctrl` - angels  
-`Alt` - wiewport  
+- `LMB` - create / select  
+-  `Shift`+`[LMB]` select  
+- `Ctrl` - angels  
+-  `Alt` - viewport  
 
-`F` FILL  
-`Shift`+`K`/`K` -  dziwnby bridge / BRIDGE  
-`Shift`+`del` - remove unused points  
+- `F` FILL  
+- `Shift`+`K`/`K` -  dziwnby bridge / BRIDGE  
+- `Shift`+`del` - remove unused points  
 
-`Shift`+`C` - Circle  
-`Shift`+`S` - Straighten  
-`Shift`+`E` - Evenly space    
+- `Shift`+`C` - Circle  
+- `Shift`+`S` - Straighten  
+- `Shift`+`E` - Evenly space    
 
 prims:  
-`Shift`+`C` - Circle  
-`Shift`+`X` - Collapse
+- `Shift`+`C` - Circle  
+- `Shift`+`X` - Collapse
 
 #### `Shift`+`2` Slice  
 #### `Shift`+`3` Split   
 #### `Shift`+`4` Brush
 #### `Shift`+`5` Smooth  
 
-```
+----
+![](/src/hou_icons/transform.svg)
 
+
+## Delete / Blast / Fuse ![](/src/hou_icons/edgecollapse.svg)   ![](/src/hou_icons/fuse.svg) ![](/src/hou_icons/dissolve.svg)  ![](/src/hou_icons/blast.svg)  ![](/src/hou_icons/delete_circle.svg)
+edge / points / poly
+
+
+
+
+Weld  ![](/src/hou_icons/pointweld.svg)
+ - `A` - collapse to midpoint
+ - `B` -restart
+ - `G` - cancel
+
+## Bridge ![](/src/hou_icons/bridge.svg)
+edges  / NOT WORKING ON POLYS
+
+## Extrude ![](/src/hou_icons/polyextrude.svg)
+edge / poly
+
+## Fill ![](/src/hou_icons/polyfill.svg)
+
+edges
+
+## Bevel ![](/src/hou_icons/polybevel.svg)
+Operation
+- Drag `LMB`
+- `Ctrl` + `LMB` - Subtract from selection
+- `Shift` + `LMB` - Add to selection
+- `Shift` + `A` `LMB` - Add loop to selection
+- `Scroll` - change divisions
+
+## Clip ![](/src/hou_icons/clip.svg) / Mirror ![](/src/hou_icons/mirror.svg)
+Operation
+- `F` + Drag `LMB`  - Draw plane
+Displace
+- `G` - display wire in
+- `H` - diaplay plane
+
+## Split ![](/src/hou_icons/polysplit.svg) / Edge loop
+
+Split loop !
+- `Scroll` - split magnet
+
+
+
+---
+
+## Path deform  ![](/src/hou_icons/sweep.svg)
+
+Operation
+- `B` -  change align
+View
+- `F` , `G` , `H` - change preview
+
+----
+
+## Curve ![](/src/hou_icons/curve.svg | 70)
 
 
 
 # Radial
-All Adam settings in one 
-![](/src/hou/cfg/wheel1.png)
+All Adam settings in one
 
-Better options: 
-- make one ring for create geo 
-- one for snap 
-- one for change viewport + selection 
-- uv 
-- edit 
-- 
+default circle menu shoudld be on C because it change automaticly for some tools
+
+![[SRC/hou_icons/Untitled.png]]
+
+Better options:
+- make one ring for create geo
+- one for snap
+- one for change viewport + selection
+- uv
+- edit
+
+****
+![[Pasted image 20240716030927.png]]
+
+
+
 ----
 
+```
+#### Managing multiple object
+- name prim by class
+- rest pos
+- pack geo
+- what node for material ?
+
+
+# CUSTOM
+
+
+`Shift` + `W` - In all windows wireframe mode   
+~~`Alt` + `W`~~ - close window  
+~~`Ctrl` + `1`,`5`~~ ... - change   
+
+`9` selection group        
+`\` - manual update   `|` - auto update      - Stop / Start logic sim!
+` ' ` - RESELECT FOR CURENT TOOL     
+` ~ ` - SECURE SELECTION  
+~~`U`/`I`  ~~<< DELETE - go up in hierarchy
+
+- ? szybki przeskok do porzednich nodów na dodatkowym scrollu ???
+
+
+
+#### Model  / move / manipulate
+
+- coordinates
+- shading
+- snap
+- pivot
+- construction plane
+- align
+- repeate  << Q is ok
+- hide << na selekcji tylko  i edit modzie
+
+### Rings
+- model
+- snap
+- view
+-
+
+### Shortcuts for tools
+- extr / extract / dupl / mittot  / disol
+- fill bridge bevel  clip mirror
+- group  fuse split loop  
+- draw edge collapse bool combine  normal  wels smooth
+```
+
+# czego brakuje
+- MERGE UVS
+- ![[Pasted image 20240714231130.png]]
+
+- move with shift should duplicete
+- : ![[Pasted image 20240723031033.png]]
+-
+
 # Network View Graph
-
-
-
+~~`C` is visualize~~ should be: comment
 
 ### Navigation
 
@@ -419,7 +467,6 @@ Better options:
 
 ### Layaut
 
-
 |                             |                                                                          |
 | --------------------------- | ------------------------------------------------------------------------ |
 | `L`                         | layaut                                                                   |
@@ -437,39 +484,37 @@ To set/change key klick on shelf or menu item while holding `Ctrl` + `Alt` + `Sh
 ----
 
 # Parameter Fields
+In properties
 
 |                         |                         |
 | ----------------------- | ----------------------- |
-| `Alt` + `LLM`           | create key              |
-|                         |                         |
-| `Ctrl` + `LLM`          | delete key              |
-| `Ctrl`+ `Shift` + `LLM` | delete key whertever is |
-| `Ctrl` + `MMB`          | zero                    |
-|                         |                         |
-|`Shift` + `LLM` | OPEN CURVE EDITR   
+| `Alt` + `LLM`           | Create key              |
+| `Ctrl` + `LLM`          | Delete key              |
+| `Ctrl`+ `Shift` + `LLM` | Delete key whertever is |
+| `Ctrl` + `MMB`          | Zero                    |
+| `Shift` + `LLM`         | OPEN CURVE EDITR        |
 
-
-| .                                           | .                                                  | .                                                                                              |
-| ------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| <img src="/src/hou/parm_0.png" width="76">  | Default value                                      | `Ctrl` + `MMB` - reverte to default                                                            |
-| <img src="/src/hou/parm_1.png" width="76">  | Modified value                                     | `Shift` + `RMB` - switch to previous value                                                     |
-| <img src="/src/hou/parm_14.png" width="76"> | Parameter being manipulated in wievport            |                                                                                                |
-| <img src="/src/hou/parm_4.png" width="76">  | Value changed waiting for kayframe                 |                                                                                                |
-| <img src="/src/hou/parm_2.png" width="76">  | **Keyframe** / **fn** on current frame             | `Alt` + `LMB` - add / `Ctrl` + `LMB` - remove key /  `Ctrl` + `Shift` + `LMB` - remove channel |
-| <img src="/src/hou/parm_3.png" width="76">  | **Keyframe** / **fn** on other frame               |                                                                                                |
-| <img src="/src/hou/parm_6.png" width="76">  | **Channel reference** on current frame             |                                                                                                |
-| <img src="/src/hou/parm_7.png" width="76">  | **Channel reference** on other frame               |                                                                                                |
-| <img src="/src/hou/parm_5.png" width="76">  | **CHOP**                                           |                                                                                                |
-| <img src="/src/hou/parm_11.png" width="76"> | Non default language **fn**                        |                                                                                                |
-| <img src="/src/hou/parm_12.png" width="76"> | Non default language **fn with channel reference** |                                                                                                |
-| <img src="/src/hou/parm_8.png" width="76">  | Locked                                             |                                                                                                |
-| <img src="/src/hou/parm_9.png" width="76">  | **Take** - not changed                             |                                                                                                |
-| <img src="/src/hou/parm_10.png" width="76"> | **Take** - not changed                             |                                                                                                |
-| <img src="/src/hou/parm_13.png" width="76"> | Evaluated string (MMB on string param)             | `Ctrl` or `Alt` + `E` - edit expression                                                        |
-| <img src="/src/hou/parm_15.png" width="76"> | Bound to viewport handler                          |                                                                                                |
-| <img src="/src/hou/parm_16.png" width="76"> | Error                                              |                                                                                                |
-| <img src="/src/hou/parm_18.png" width="76"> | Error                                              | wrong language used                                                                            |
-| <img src="/src/hou/parm_17.png" width="76"> | After deleted all keys ?                           |                                                                                                |
+| .                                   | .                                                  | .                                                                                              |
+| ----------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| ![ \|100](/src/hou/cfg/parm_0.png)  | Default value                                      | `Ctrl` + `MMB` - reverte to default                                                            |
+| ![ \|100](/src/hou/cfg/parm_1.png)  | Modified value                                     | `Shift` + `RMB` - switch to previous value                                                     |
+| ![ \|100](/src/hou/cfg/parm_14.png) | Parameter being manipulated in wievport            |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_4.png)  | Value changed waiting for kayframe                 |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_2.png)  | **Keyframe** / **fn** on current frame             | `Alt` + `LMB` - add / `Ctrl` + `LMB` - remove key /  `Ctrl` + `Shift` + `LMB` - remove channel |
+| ![ \|100](/src/hou/cfg/parm_3.png)  | **Keyframe** / **fn** on other frame               |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_6.png)  | **Channel reference** on current frame             |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_7.png)  | **Channel reference** on other frame               |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_5.png)  | **CHOP**                                           |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_11.png) | Non default language **fn**                        |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_12.png) | Non default language **fn with channel reference** |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_8.png)  | Locked                                             |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_9.png)  | **Take** - not changed                             |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_10.png) | **Take** - not changed                             |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_13.png) | Evaluated string (MMB on string param)             | `Ctrl` or `Alt` + `E` - edit expression                                                        |
+| ![ \|100](/src/hou/cfg/parm_15.png) | Bound to viewport handler                          |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_16.png) | Error                                              |                                                                                                |
+| ![ \|100](/src/hou/cfg/parm_18.png) | Error                                              | wrong language used                                                                            |
+| ![ \|100](/src/hou/cfg/parm_17.png) | After deleted all keys ?                           |                                                                                                |
 
 
 
@@ -500,3 +545,20 @@ Generate nodes
 # Tools
 
 C:\Program Files\Side Effects Software\Houdini 18.0.432\bin\Gplay - przegladarka 3d  
+
+
+![[attribdelete.svg]]
+![](/src/hou/cfg/wheel1.png)
+>  [[TUT]] [[16-02-01-Rendering]]  [[08-01-01-Material]] [[18-01-01-Color]]  [[14-01-01-Procedural]]  [[11-01-01-Math]] [[12-01-01-Gaea]] [[16-02-01-Substance_Designer]] [[17-01-01-Modeling]] [[17-01-01-Modeling_Foliage]]
+
+
+> [[02-01-01-LSystem]]  [[03-01-01-Karma]] [[04-01-01-Mantra]] [[05-01-01-Heightfields]]  [[06-01-01-CHOP]] [[07-01-01-PDG]]  [[08-01-01-CFX]]  [[10-01-01-LAB]] [[11-01-01-COP]] [[12-01-01-USD]]  [[13-01-01_VOP]] [[13-01-01-SOP]] [[13-01-01-SOP-curves]]
+
+> [[01-01-01-Noise]] [[02-01-01-V_DrawCurves]] [[02-Vex_Volume]] [[03-01-01-V_Measure]] [[13-01-01_VOP]] [[05-01-01-V_Orientation]] [[07-01-01-V_Strings]]  [[08-01-01-V_Expressions]]  [[09-01-01-V_Attribs]] [[10-01-01-V_Syntax]]  [[12-01-01-Python-hou]]
+
+> [[01-01-01-FLIP]] [[01-01-01-PYRO_Dense]] [[01-01-01-RBD_SOP]] [[01-01-01-RBD]] [[01-01-01-Vellum]] [[01-01-01-Vellum_SOP]]
+
+
+#### Match translate
+
+> is icon on the right of transform params click, and select obj u want rotate to.
