@@ -19,7 +19,7 @@ https://youtu.be/klwzae3YE6Y?t=332 - program  for circuit
 
 <img src="/src/music/ks.png" width="700">
 
-
+![](/src/music/ks.png)
 
 
 
