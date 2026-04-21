@@ -70,7 +70,31 @@ decal > convert to decal
 
 
 
-|                                | default value                                                |              |                                     | Order of dops during simpli fication |                                                                                                                           |           |
+| Material Strata        | BaseColor (sRGB) range (R,G,B) | Example sanity color (sRGB) |    Roughness range | Metallic | Specular / IOR                 |                                            |
+| ---------------------- | ------------------------------ | --------------------------: | -----------------: | -------: | ------------------------------ | ------------------------------------------ |
+| Wood (unfinished)      | R 100–170, G 70–140, B 40–110  |                (140,110,75) |          0.55–0.80 |      0.0 | Specular ~0.5 / IOR ~1.5       |                                            |
+| Wood (oiled/varnished) | R 100–180, G 70–150, B 40–120  |                (155,120,80) |          0.15–0.55 |      0.0 | Specular ~0.5 / IOR ~1.5       |                                            |
+| Grass (dry/healthy)    | R 50–120, G 90–170, B 40–110   |                 (90,125,55) |          0.70–0.95 |      0.0 | Specular ~0.5 / IOR ~1.38–1.45 |                                            |
+| Bark / Trunk           | R 60–130, G 50–110, B 40–95    |                  (95,75,55) |          0.75–0.95 |      0.0 | Specular ~0.5 / IOR ~1.5       |                                            |
+| Rock (dry)             | 90–170                         |               (125,125,125) |          0.70–1.00 |      0.0 | Specular ~0.5 / IOR ~1.5–1.6   | (channels usually close; low saturation)   |
+| Rock (wet patches)     | 90–170                         |               (120,120,120) | 0.15–0.45 (masked) |      0.0 | Specular ~0.5 / IOR ~1.5–1.6   | (keep similar to dry; don’t brighten much) |
+| Moss (dry to damp)     | R 35–110, G 70–150, B 30–110   |                 (65,105,55) |          0.75–0.98 |      0.0 | Specular ~0.5 / IOR ~1.38–1.45 |                                            |
+
+
+| Material         | Linear (0–1) | sRGB (0–255) | Notes                      |
+| ---------------- | ------------ | ------------ | -------------------------- |
+| **Middle Gray**  | **0.18**     | **117**      | Standard calibration point |
+| **Fresh Snow**   | 0.81         | 232          | Brightest safe dielectric  |
+| **Rock (Grey)**  | 0.35         | 165          | Standard dry cliff/stone   |
+| **Wood (Fresh)** | 0.30         | 152          | Unweathered light wood     |
+| **Grass**        | 0.21         | 128          | Medium green field         |
+| **Wood (Bark)**  | 0.14         | 103          | Weathered tree trunk       |
+| **Soil (Dry)**   | 0.13         | 99           | Standard bare earth        |
+| **Moss**         | 0.08         | 78           | Deep, absorbent green      |
+| **Soil (Wet)**   | 0.05         | 60           | Saturated dark earth       |
+| **Charcoal**     | 0.02         | 40           | Darkest safe dielectric    |
+
+| PBR                            | default value                                                |              |                                     | Order of dops during simpli fication |                                                                                                                           |           |
 | ------------------------------ | ------------------------------------------------------------ | ------------ | ----------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | --------- |
 | Albedo                         | -                                                            |              |                                     |                                      |                                                                                                                           | medium    |
 | `F0` v3 (metlic / specularity) | (0.04, 0.04, 0.04)                                           | Reflectivity | Reflection at facing angle          |                                      | if f0 increase diffuse response lower                                                                                     | interface |
@@ -99,8 +123,8 @@ Clasic domains (Domain matrial) will not blend:  Decal, Light fn, Post-pro, Volu
 
 ##### SSS 
 E-num on slab node:
-- wrap
-- two-sided wrap
+- wrap < simpler 
+- two-sided wrap < two sided foliage simpler 
 - diffusion 
 - simple volume 
 
@@ -234,6 +258,26 @@ Dielectrics Median luminosity:
 | Skin African                      | `0.05` - `0.15`         |             |                   | `65` - `108`                 |
 |                                   |                         |             |                   |                              |
 | Metal                             | <br>                    |             |                   | `180` / `186` - `255` (sRGB) |
+
+Joey Lenz
+
+| Material    | Description | Color Swatch | Hexadecimal Values | RGB Channel Values | Normalized Values |
+|-------------|-------------|---------------|--------------------|--------------------|-------------------|
+| Charcoal | Dielectric albedo values control reflected color and most exist in the midtone range. Charcoal is the darkest dielectric albedo value that should be used. Insulators don't typically have colored specular reflectivity, but lights affect reflected color. | Dark gray | sRGB = 2b2b2b<br>Linear RGB = 060606 | sRGB = 43<br>Linear RGB = 5 | sRGB = 0.17<br>Linear RGB = 0.02 |
+| Fresh Snow | Dielectric albedo values control reflected color and most exist in the midtone range. Fresh snow is the brightest dielectric albedo value that should be used. Insulators don't typically have colored specular reflectivity, but lights affect reflected color. | White | sRGB = e8e8e8<br>Linear RGB = cecece | sRGB = 232<br>Linear RGB = 207 | sRGB = 0.91<br>Linear RGB = 0.81 |
+| Metallic | Unlike dielectric base colors, metallic albedo brightness controls specular intensity, which can contain color. Conductive albedo values fall within this row's range. | Light gray to white | sRGB = d9d9d9 - ffffff<br>Linear RGB = b1b1b1 - ffffff | sRGB = 217 - 255<br>Linear RGB = 179 - 255 | sRGB = 0.85 - 1<br>Linear RGB = 0.7 - 1 |
+**Saturation Formula**
+
+`(((Max(RGB Channel Value) - Min(RGB Channel Value)) / Max(RGB Channel Value)) * 100) = Saturation %`
+
+| Material         | Color Swatch | Saturation Percent             |
+| ---------------- | ------------ | ------------------------------ |
+| Varnished Wood   | Light gray   | sRGB = 56%<br>Linear RGB = 82% |
+| Dark Soil        | Gray         | sRGB = 42%<br>Linear RGB = 70% |
+| Green Vegetation | Gray         | sRGB = 40%<br>Linear RGB = 67% |
+| Gold             | Gray         | sRGB = 39%<br>Linear RGB = 67% |
+| Sand             | Dark gray    | sRGB = 25%<br>Linear RGB = 47% |
+| Rough Wood       | Dark gray    | sRGB = 25%<br>Linear RGB = 47% |
 
 [A database of physically based values for CG artists](https://physicallybased.info/)
 

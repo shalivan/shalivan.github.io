@@ -31,15 +31,16 @@ Shader Language has a single main function that returns a color at the end.
 Each thread is not just blind but also memoryless.
 
 
-### VS Vertex shader    
-.
+### Vertex shader    
+A single work item for vertex shader is a vertex 
 
-### PS Pixel shader (old fragment)    
-
-grid of pixels that work paralel
+###  Pixel shader (old fragment)    
+A single work item for pixel shader is a pixel. On display we have grid of pixels that work in  parallel
 
 ### Compute shader   
-in paralel on gpu
+A single work item for compute shader is called a thread. 
+
+
 subdivisions workgroups and in each group divisions
 
 ### Mesh shader    
@@ -62,9 +63,8 @@ A byproduct of using the metal/roughness workflow is that it can produce a white
 - white artefacts on blend
 ##### Specular/glossiness
 - dark artefacts on blend
-
-
-
+##### Strata 
+ Unreal BSDF workflow. 
 
 
 ----
@@ -83,7 +83,7 @@ MAT:
  - mtlxgeometrycolor - vertex color // or geompropvalue z parametrem displayColor (Cd in sops)
 -
 
-
+               
 |  |  |
 | ---- | ---- |
 | Transparency | Specular reflection (coating) |

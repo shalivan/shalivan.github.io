@@ -26,8 +26,7 @@ https://ryandowlingsoka.com/unreal/hanging-vertex-animation/
 # Material
 
 
-
-## Translucent in Deffered problems
+## Translucent in Deferred problems
 
 
 ## Motion Blur

@@ -17,59 +17,62 @@ aliases:
 [[08-01-01-GameDesign|gamedesign]]
 [[15-01-01-Personality|personality]]
 
-Dark nudge: indirect means of influencing behavior thoward a desired positive action. 
-Impulsive Behavior is hard to control
-
-Friction - any friction will cause less of a behavior to occur on average 
-
-Novelty - 
-Thinking gets in a way of convenience 
 
 
+# Motivation  
+Motivation is processes that initiate, direct, and sustain behavior ( Conscious or unconscious reasons for actions or move forward in the decision-making process). No one theory is capable of explaining all that we know about motivational processes. It is usually treated as a combination of **biological**, **learned**, **cognitive**, and **social** processes. Deep and quality motivation is important to develop. 
 
-
-Wundt Curve - Atoudal potential. Relationship between intensity of a stimulus and its pleasantness.  # How Much Novelty is Relevant?: It Depends on Your Curiosity. Interest increases with stimulus complexity up till the point of incomprehensibility. Then Rewards system is needed to keep hedonic value up. 
-
-https://slideplayer.com/slide/13357411/
+- needs, wants or desires acquired through influence or may be generally innate.
+- progression > stimulate brain > keep engaging:  Experience > Flow / presence / immerse / engagement 
 
 
 
-# Motivation
-
-[Britannica explains:](https://www.britannica.com/topic/motivation/Observational-learning) No one theory is capable of explaining all that we know about motivational processes.  Some motives seem best understood from a biological viewpoint. Other motives appear to be learned. Still other motives are influenced by the cognitive processes in which we engage. Our interpretation of the events around us influences our future motivation.
-- needs, wants or desires acquired through influence or may be generally innate. Conscious or unconscious
-- most important reasons for actions or move forward in the decision-making process
-- progression > stimulate brain > keep engaging:  [Experience > Flow / presence / immerse / engagement ](/ludology/)
-deep and quality motivation is important to develop. !!!!!!!!!!!!!!!
+## Biological  
 
 
-
-#  Biological
 Biological motives include hunger, thirst, the pursuit of pleasure, and the avoidance of pain
 - Shot of dopamine is not needed,
 - Mind create tolerance for dopamine it receive.  
 `Impulses`, `Power`, `Achievement`, `Affiliation`
 
-## Neuroscience
+
+### Drives
+
+Classic drive theory usually refers more to:
+
+- hunger
+- thirst
+- deprivation
+- tension reduction
+
+Drive - in psychology, an urgent basic need pressing for satisfaction, usually rooted in some physiological tension, deficiency, or imbalance (e.g., hunger and thirst) and impelling the organism to action.
+
+
+### Neuroscience  
+
 - **Directional**- Directed towards a positive or away from a negative stimulus
 - **Activated** - **Seeking** phase and **consummatory** "liking phase."
 
-### Hormones
+### Neurochemistry  
 
-#### Dopamine - Reward   
+#### Hormones
+##### Dopamine - Reward   
+dopamine is strongly tied to **wanting, learning, salience, and reward prediction**, not just pleasure
 - Eating food, Achieving Goal, Complete Task
-
-#### Oxytocine - Love
+Dopamine reward cycle - hijacked by evolution in humans with additional purpose to seek and see novel and surprising things.
+Ancestors outcompited cusins because are better in forming stong memories around those experiences that are crucial to survival. 
+##### Oxytocine - Love
 - Socialising, Touch, Petting Animals, Helping
-
-#### Endorphin - Painkiller
+##### Endorphin - Painkiller
 - Exercising, music, Laught, Entertiment
-
-#### Serotonin - Mood stabilizer
+##### Serotonin - Mood stabilizer
 - Sun Exposure, nature, mindfullness, meditation
 
 
-## Behavioral
+
+## Behavioral / Learning  
+
+
 Behaviorism - theory of motivation focused on how the results we’ve **obtained from past** behaviors shape our future behaviors (Environmental **Shaped** & **Learned** Drives) In this theory internal needs of individuals can be ignored. Reinforcement needs to be more than a one-off event.
 - Positive Reinforcement
 - Negative Reinforcement.
@@ -79,9 +82,30 @@ d gain. (continuous login bonus) (good drop rate in consumables items)
 
 [Britannica - Behavioristic approaches to motivation](https://www.britannica.com/topic/motivation/Behavioristic-approaches-to-motivation)
 
-## Drive (ciekawość)
-Drive - in psychology, an urgent basic need pressing for satisfaction, usually rooted in some physiological tension, deficiency, or imbalance (e.g., hunger and thirst) and impelling the organism to action.
+### Reinforcement  
+### Reinforcement schedules  
+### Contingency  
+### Feedback  
 
+- reward timing
+- delay effects
+nagroda   
+sounds satisficing because of feedback. even small delay can  estroy effect
+
+### Punishment / extinction  
+### Habit / addiction  
+
+
+dopamine feedback  - (social media )  
+slot machines  
+
+- reward can be demotivating
+- Unexpected reward are motivating
+- Expectations. After bad luck we expect payout (gambling).
+- Representative expectations - (Ngram colors in destiny)
+- Loss Aversion: Something I have > Something I could have
+
+```
 ### Continuous Reinforcement
 All responses are reinforced
 happens when the desired behavior is reinforced each time it is observed. continuous reinforcement is the quickest way to get someone to develop a new behavior.
@@ -93,37 +117,58 @@ Some responses are reinforced
 |                            | Interval (after time)                                             | Ratio (after action)                                                                |
 | -------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | __Fixed__  Predictable     | kill > loot spawn, stamina (building up high peak and quick drop) | One more turn. clickers,  turn based building time (short post reinforcement pause) |
-| __Variable__ Unpredictable | public events (moderate study response pattern)                   | Gambling. Loot drops, Crit hits  (high steady response pattern, small bumps)        |
+| __Variable__ Unpredictable | public events (moderate study response pattern)                   | G
+
+Loot drops, Crit hits  (high steady response pattern, small bumps)        |
 Gambling - variable interval rate at a cost. Repetitive behaviour that brain can lock on. 
 ### Contingent
 - `Not-Contingent` - not related to behavior (surprise gifts), not controlled
-- `Task-Contingent` - rewarding: `engagement`, `completion`, `performance`. Sense of progression - task related motivate more contingent outcomes are not necessary to demonstrate reinforcement, but perceived contingency may increase learning.
+- `Task-Contingent` - rewarding: `engagement`, `completion`, `performance`. Sense of progression - task related motivate more contingent outcomes are not necessary to demonstrate rein
+
+forcement, but perceived contingency may increase learning.
+
+ERROR WITH THIS NOET: **Gambling** is usually the clearest example of **variable ratio**, not variable interval.
 
 ### Feedback
 feedback on action is reward  !!!
+Entity must know it get reward / iw dont know value they dont care (in clasical condition we are )
 reward timing and (un)certainty - immediate for success progress and choice
 delayed feedback need stronger support
 nitr getting reward u expect could become punishment   
 
 `Representative Heuristic` - Time/Cost/Effort > Up expectation for reward . (Procedural like roguelikes play agianst it sometimes)  balanced economy   
+```
 
-##  Addictions
-dopamine feedback  - (social media )  
-slot machines  
 
-- reward can be demotivating
-- Unexpected reward are motivating
-- Expectations. After bad luck we expect payout (gambling).
-- Representative expectations - (Ngram colors in destiny)
-- Loss Aversion: Something I have > Something I could have
 
----
 
-#  Personal
+## Cognitive / Personal  
+
 Which categories of goal (needs) motivate people.  [Personalities](/personality/)   
 
 
-## Content theories    
+### Perception / expectation / control
+#### Recognize  
+if we know the meaning and can recognize interpret or understand
+https://youtu.be/qr0JMv2uYxQ
+
+brain have idea and it must fit to reality. To meet expectations is important  
+Illusion of control is just as much impact as real
+
+### Challenge / Flow  
+
+- flow state
+- neurotransmitters
+
+- chelenging task
+- flow state > zom  
+release neurotransmiters : `dopamine` `serotonin` `endorphins`
+x
+
+
+
+### Content theories  
+
  - **Maslow**
    - Physiology (hunger, thirst, sleep, etc.)
    - Safety / Security / Shelter / Health
@@ -136,9 +181,16 @@ Which categories of goal (needs) motivate people.  [Personalities](/personality/
 - Lyell's Impediments to Actualization  - Natural / unnatural addictions  & Self-Actualization  
 
 
+### SDT  
+
+  
+Its three basic needs are:
+
+- autonomy
+- competence
+- relatedness
 
 
-## SDT - Self Determination Theory
 Basic need for autonomy.  Illusion of control is as good as real contr. Goals You set for yourself are stronger than goals set by someone else  extrinsic / intrinsic. F2P game design and for gamification design much of game design in those spaces *relies* on compulsion loops and extrinsic rewards..
 - **Autonomous** - Self determinate
 - **Controlled** - Non self determinate
@@ -147,10 +199,8 @@ Depend on context and not account for all human behavior. Can shift by different
  - **Intrinsic** motivation - Internal or Inherent. "for fun"  Personal Gratification. last longer. rate higher! better (autonomy, agency, progression, feedback, opportunity). But can feel bad i.e. if you are obligated to your self  
  - **Extrinsic** motivation - External, Compulsive play "due to compulsion". inspired by outside forces Rewards shape to do but risk of shifting motivation. Use when needed (money) But! can feel autonomous if enough choices. Goal oriented.
 
-
-
-
-## MDT - Motive disposition theory
+### MDT  
+Motive disposition theory
 
 |  | | |
 |--|--|--|
@@ -159,9 +209,7 @@ Depend on context and not account for all human behavior. Can shift by different
 
 
 
-## SDT vs MDT
-
-
+### SDT vs MDT
 
 
 |                                                   | MDT                                                                                        | SDT                                                                                                 |
@@ -177,11 +225,77 @@ Depend on context and not account for all human behavior. Can shift by different
 
 
 
+### Emotions  
 
----
+
+Emotions @ motivations
+Anxiety - to much
+Apathy - not for me
+Worry motivated
+Arousal motivated
+Boredom
+Relaxation
+Control
+Flow
+
+`Game Feel` - is it seem real, does mechanics allow us to do sth. feeling of competence and growth mastery   
+`Interaction` - is positive
 
 
-## PENS - The Player Experience of Need Satisfaction
+
+FEARS WANTS & DEASIRES, change customer seek::: >> advent, affection , avoid new, belong, control, create, freedom, friend, good looks, learning, community, friends, luxury, nostalgia, participation, peace of mind, power, respect, reassurance,  revenge, romance ,safety, sexy , sec, sympathy, tension
+
+### Self-control  
+
+
+  
+## Social / Cultural  
+### Mimetic theory  
+
+-Desires are cultural not individual. We learn imitating group.
+- good -
+- bad - acquisitive like money
+
+- Scapegoat - find someone to blame for conflict, to unite sides. (controlling violence with violence) can be in mimetic context
+
+### FOMO  
+
+##### Ikigai
+- role in society
+
+
+
+### Belonging / identity / role  
+
+
+## Applied  
+### Gamification  
+
+- **structure** - structure around the content   - ponts levels achievments
+- **content** -  
+
+| |Left brain| |Right brain|
+|--|--|--|--|
+|Positive|**Development** and **Accomplishment** |**Epic meaning and calling** |**Empowerment of creativity and feedback**|
+| |**Ownership and possession** ||**Social**|
+|Negative|**Scarcity** | **Loss & Avoidance**| **Unpredictability** and **curiosity**|
+
+- **Epic meaning and calling** - narrative, meaning
+- **Accomplishment** - more milestones, overcome challenges, leaderboards
+- **Ownership and possession** - Farmville, hub building
+- **Scarcity** -
+- **Empowerment of creativity and feedback** - result of creativity,
+- **Social** Pressure -  
+- **Unpredictability** and **curiosity** - not sure what will happen next
+- **Loss Avoidance** - to avoid a loss
+
+reward loop - loot, drop systems
+
+
+### Games as model environments  
+### PENS  
+game adaptation of SDT
+The Player Experience of Need Satisfaction
 Model on human needs. Nice one!
 
 
@@ -205,14 +319,17 @@ Autonomy:
 [Blog: Nick Ballou - Basic Psychological Needs](https://nickballou.com/posts/misunderstandings-of-sdt-in-video-games-part-1-basic-psychological-needs/)
 
 
-## Bartls
+### Bartle  
+
 
 |             | Acting    | Interacting |
 | ----------- | --------- | ----------- |
 | **Players** | Killers   | Socializers |
 | **World**   | Achievers | Explorers   |
 
-## Gamer motivation profile
+### Gamer motivation profiles
+
+
 
 [YT GDC](https://youtu.be/gxJUPfKtg_Q)  
 
@@ -230,100 +347,57 @@ https://medium.com/ironsource-levelup/a-closer-look-into-the-12-gamer-motivation
 |`Design` Expressing Individuality | **Customizable** Express individuality. Customize avatar/house. Lots of skins accessories.| **Curated** Fixed, but often highly stylized avatar. None or few customization opportunities.
 
 
-
-Motivation GDC:  
-
 Novelty - Fantasy/realism.  Build/explore  
 Challenge - Skilled/No  Work/not work  
 Harmony -  mechanics/context   cooperation/conflict  
 Stimulation - single/multi   calm/thrill   
 
 
+------------
+-----------
+-----------
+---------------
 
-#### Challenge   
-- chelenging task
-- flow state > zom  
-release neurotransmiters : `dopamine` `serotonin` `endorphins`
-x
 
+
+
+
+
+
+Dark nudge: indirect means of influencing behavior thoward a desired positive action. 
+Impulsive Behavior is hard to control
+
+Friction - any friction will cause less of a behavior to occur on average 
+
+Novelty - 
+Thinking gets in a way of convenience 
+
+
+
+
+Wundt Curve - Atoudal potential. Relationship between intensity of a stimulus and its pleasantness.  # How Much Novelty is Relevant?: It Depends on Your Curiosity. Interest increases with stimulus complexity up till the point of incomprehensibility. Then Rewards system is needed to keep hedonic value up. 
+
+https://slideplayer.com/slide/13357411/
+
+
+simplify brain process: 
+Perception (input) > Influecing factors like Attention, emotion/motivation > memory (synaptic modification)
+
+
+###### Perception but not important, sidenote:
 McGurk effect - take video of important context of hearing audio
 book: `satisfaction`  Gregory Berns
 
-#### Feedback  
-nagroda   
-sounds satisficing because of feedback. even small delay can  estroy effect
 
-
-#### Recognize  
-if we know the meaning and can recognize interpret or understand
-https://youtu.be/qr0JMv2uYxQ
-
-brain have idea and it must fit to reality. To meet expectations is important  
-Illusion of control is just as much impact as real
-
-
-
-##  Emotions
-
-Emotions @ motivations
-Anxiety - to much
-Apathy - not for me
-Worry motivated
-Arousal motivated
-Boredom
-Relaxation
-Control
-Flow
-
-`Game Feel` - is it seem real, does mechanics allow us to do sth. feeling of competence and growth mastery   
-`Interaction` - is positive
-
-
-
-FEARS WANTS & DEASIRES, change customer seek::: >> advent, affection , avoid new, belong, control, create, freedom, friend, good looks, learning, community, friends, luxury, nostalgia, participation, peace of mind, power, respect, reassurance,  revenge, romance ,safety, sexy , sec, sympathy, tension
 
 ---
 
 
-# Gamification
-
-- **structure** - structure around the content   - ponts levels achievments
-- **content** -  
-
-| |Left brain| |Right brain|
-|--|--|--|--|
-|Positive|**Development** and **Accomplishment** |**Epic meaning and calling** |**Empowerment of creativity and feedback**|
-| |**Ownership and possession** ||**Social**|
-|Negative|**Scarcity** | **Loss & Avoidance**| **Unpredictability** and **curiosity**|
-
-- **Epic meaning and calling** - narrative, meaning
-- **Accomplishment** - more milestones, overcome challenges, leaderboards
-- **Ownership and possession** - Farmville, hub building
-- **Scarcity** -
-- **Empowerment of creativity and feedback** - result of creativity,
-- **Social** Pressure -  
-- **Unpredictability** and **curiosity** - not sure what will happen next
-- **Loss Avoidance** - to avoid a loss
-
-reward loop - loot, drop systems
-
-
-# Social
-
-## Cultural
-
-### Mimetic theory
--Desires are cultural not individual. We learn imitating group.
-- good -
-- bad - acquisitive like money
-
-- Scapegoat - find someone to blame for conflict, to unite sides. (controlling violence with violence) can be in mimetic context
 
 
 
-### FOMO
-### Ikigai
-- role in society
+
+---
 
 
 
@@ -331,8 +405,6 @@ reward loop - loot, drop systems
 ## Multiplayer
 Guilds/ clans
 Cooperation give chance for Positive externalities (benefit for others)
-
----
 
 
 
@@ -396,3 +468,57 @@ https://imarketsmart.com/35-amazing-ways-to-engage-and-involve-your-donors-and-s
 
 #### Self Control and inhibitory control
 being able to control one's attention, behavior, thoughts, and/or emotions to override a strong internal predisposition or external lure, and instead do what's more appropriate or needed.
+
+
+
+```
+Curiosity / novelty
+
+
+
+
+Curiosity fits better under:
+
+- novelty
+- exploration
+- information seeking
+ (ciekawość) 
+
+
+ADD ALSO 
+
+
+- cognition
+- goals
+- beliefs
+- self-regulation
+- identity / meaning
+  
+  
+  the main cognitive layer:
+
+- **Expectancy** — do I think I can succeed?
+- **Value** — is it worth doing?
+- **Goal-setting**
+- **Self-efficacy**
+- **Attribution** — why did I succeed or fail?
+
+
+### 2. Habit vs motivation
+
+Important distinction:
+
+- **Motivation** starts behavior
+- **Habit** automates behavior
+- **Addiction / compulsion** narrows control over behavior
+  
+  TIME 
+  
+  the bigger idea:
+
+- immediate vs delayed reward
+- delay discounting
+- persistence over time
+  
+
+```

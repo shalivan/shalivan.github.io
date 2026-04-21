@@ -15,71 +15,132 @@ aliases:
 ## Hinduism
 Oldest
 
-## Daoism
-`600` - `500` BCE Taoism sixth century BCE - China  
-`500` BCE Buddhism - in India    
-**Yin Yang**
+## Eastern (c. 6th–5th Centuries BCE) 
+Emerged in Asia around the Axial Age, **emphasizing harmony, ethics, and enlightenment**. Key shared symbol: Yin-Yang (complementary opposites, like dark/light, passive/active, central to Daoism but influential across East Asian thought).
+###### Daoism (Laozi) (China 600–500 BCE)
+- Core Concept: Follow the Dao ("The Way"), the natural, effortless flow of the universe. Embrace emptiness (wu)-not void, but potential beyond human constructs. Practice wu wei (non-action): don't force outcomes; align with nature's rhythm to achieve harmony.
+- Key Insight: Life is like water-soft yet unstoppable. Resist striving; true power lies in yielding.
+###### Confucianism (Confucius) (China 600–500 BCE)
+- Core Concept: Focus on human society and moral cultivation. Emphasize ren (benevolence), li (rituals/propriety), and hierarchical relationships (e.g., ruler-subject, parent-child) to create an orderly, ethical world.
+- Key Insight: Harmony comes from fulfilling social roles and self-improvement, not isolation. "What you do not wish for yourself, do not do to others" (Golden Rule precursor).
+###### Buddhism (Siddhartha Gautama, the Buddha) (India 500 BCE)
+- Core Concept: Life involves dukkha (suffering) due to attachment and impermanence. The mind deceives through desires and illusions; enlightenment (nirvana) frees one from the cycle of rebirth (samsara).
+- Four Noble Truths:
+    1. Suffering exists (birth, aging, death, unmet desires).
+    2. Suffering's cause: Craving and attachment.
+    3. Suffering can end through detachment.
+    4. Path to end: Eightfold Path (right view, intention, speech, action, livelihood, effort, mindfulness, concentration).
+- Key Insight: A liberated mind detaches from outcomes and novelty's fleeting appeal - true appreciation arises from mindfulness. The Buddha left his palace not by necessity but to seek truth, enduring hardship to find masters and awaken.
+- Bodhisattva (Mahayana ideal): An enlightened being who postpones full nirvana to compassionately guide others toward liberation.
 
-###### **Lautza**  
-Do life of nature  -  Dao emptiness all but nothing / no reason to push against dao just flow.  
-###### **Confucius**
-Confucius Life of man   
+## Classical Greek (c. 5th–4th Centuries BCE)
+These thinkers form the foundation of Western philosophy, emerging in Athens during/after the Peloponnesian War (431–404 BCE). They **emphasized rational inquiry, ethics, and the pursuit of truth, shifting from mythic to logical explanations**.
+###### Socrates (c. 469–399 BCE)
+- Life and Death: Athenian philosopher executed by hemlock poisoning in 399 BCE for "corrupting the youth" and impiety, amid post-war tensions.
+- Socratic Method: Dialectical questioning (elenchus) to expose contradictions. Begins with asking for a definition, then probes until inconsistencies emerge, revealing ignorance. Socrates claimed no fixed doctrine, professing his own ignorance ("I know that I know nothing") while seeking wisdom through dialogue with others.
+- Key Insight: True knowledge comes from self-examination; virtue is knowledge, and wrongdoing stems from ignorance.
 
-###### **Buddha**
-Mind can be misleading.  Philosophy not by necessity decide to go out of kingdom and find master meanwhile starving. (when novelty goes off you don't appreciate things as when they appended).
-- They are the truth of suffering, the truth of the cause of suffering, the truth of the end of suffering, and the truth of the path that leads to the end of suffering.
-- **A liberated mind does not attach itself to the outcome.**
+###### Plato (c. 427–347 BCE)
+- Life and Contributions: Socrates' student; founded the Academy (first Western institution of higher learning) in Athens.
+- Theory of Forms: Reality consists of eternal, perfect "Forms" (ideals like Justice or Beauty); the physical world is mere shadows or imperfect copies. Allegory of the Cave: Prisoners chained in a cave mistake shadows on the wall for reality; enlightenment involves escaping to see true Forms in the light.
+- Key Insight: All knowledge is innate (recollection/anamnesis) - souls know Forms before birth, forgotten and rediscovered through reason. Addresses Nature vs. Nurture: Knowledge is inborn, not just learned. Quote: "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light."
+- Ethics/Politics: Ideal society in The Republic - ruled by philosopher - kings; soul has three parts (rational, spirited, appetitive) mirroring just state.
 
-**Bodhisattva** is a Buddhist deity who has attained the highest level of enlightenment, but who delays their entry into Paradise in order to help the earthbound
+###### Aristotle (c. 384–322 BCE)
+- Life and Contributions: Plato's student; born after Socrates' death; tutor to Alexander the Great. Founded the Lyceum school.
+- Ethics: End goal is eudaimonia (flourishing/living well) through virtue. Distinguishes apparent good (based on subjective opinion/desire) from real good (product of rational deliberation). Virtues (e.g., courage, temperance, justice) are means between extremes; require habit, reason, and sometimes luck (external goods like health).
+- Key Insight: Balance intellect and character; "We are what we repeatedly do. Excellence, then, is not an act, but a habit." Developed formal logic (syllogisms) for deductive reasoning.
+- Broader Work: Empirical approach - biology, physics, metaphysics. Reality is in particulars (not just Forms); categorized knowledge into sciences.
+## Hellenistic (c. 323–31 BCE)
+Began with Alexander the Great's death (323 BCE), spreading Greek culture across a vast empire
+Ended with Rome's rise (Battle of Actium, 31 BCE). Amid political instability, fragmentation, and cultural mixing, philosophy shifted from abstract metaphysics (e.g., Plato/Aristotle) to practical ethics: How to live well in an uncertain world? **Emphasized personal tranquility, virtue, and self-sufficiency over cosmic speculation**.
+###### Epicureanism (Epicurus, c. 341–270 BCE)
+- Core Concept: Pursue pleasure (hedone) as the highest good, but moderately—focus on absence of pain (ataraxia) and mental peace over excess. Simple needs (food, shelter), intellectual joys, and deep friendships foster happiness. Materialist view: Universe of atoms; death is nothing (no afterlife fears).
+- Key Insight: "Not what we have but what we enjoy constitutes our abundance." Avoid politics; cultivate a "garden" of like-minded friends.
+###### Cynicism (Diogenes of Sinope, c. 412–323 BCE)
+- Core Concept: Live simply, like a dog (kynikos), rejecting social conventions, wealth, and status for natural virtue and self-sufficiency. Shamelessly challenge norms (e.g., Diogenes living in a barrel, searching for an "honest man" with a lamp in daylight).
+- Key Insight: True freedom comes from needing nothing; happiness is internal, not societal.
+###### Stoicism (Zeno of Citium, c. 334–262 BCE; Later Romans: Seneca, Epictetus, Marcus Aurelius)
+- Core Concept: Virtue (wisdom, courage, justice, temperance) is the only true good; externals (wealth, health) are indifferent. Universe governed by rational logos (fate/determinism), but humans have free will in responses. Tripartite: Logic (clear thinking), Physics (nature as divine order), Ethics (living in accord with nature).
+- Key Practices: Premeditatio malorum (preemptive meditation on misfortunes, as in Marcus Aurelius' Meditations) to build resilience. "Things we lost are only things given back" likely refers to viewing possessions as loans from fortune-don't attach. Virtue > pleasure; accept determinism compatibly (focus on what you control).
+- Key Insight: "We suffer more in imagination than in reality" (Seneca). Endure with equanimity; fate is inevitable, but attitude is choice.
+###### Skepticism (Pyrrho of Elis, c. 360–270 BCE; Later: Sextus Empiricus)
+- Core Concept: Suspend judgment (epoché) on all beliefs, as senses and reason are unreliable-truth is unknowable. This leads to tranquility (ataraxia) by avoiding dogmatism and distress from uncertainty.
+- Key Insight: "Nothing is certain, not even this." Question everything; live by appearances without commitment.
 
-## Post Socrates
-`450` BCE   
+## Roman and Late Antique (c. 1st Century BCE – 6th Century CE)
+ Adapted Greek ideas to practical governance, law, and personal ethics. Amid empire-building, wars, and cultural syncretism (blending Greek, Roman, Eastern influences), focus remained on ethics but incorporated rhetoric, cosmology, and emerging monotheism.
 
-###### **Socrates**
-The poisoning of Socrates  for corrupting youth of Aten's. (Peloponnesian war)
-- **Socratic method**, by dialogue proves the arguments to be contradictory. asking his interlocutor for a definition of the subject. As he asks more questions, the interlocutor's answers eventually contradict the first definition. Socrates does not teach a fixed philosophical doctrine. Rather, he acknowledges his own ignorance while searching for truth with his pupils and interlocutors.
-
-###### **Plato**
-Socrates student create first academy.  Theory of forms, shadows in **cave** and prisoners. "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light. **All knowledge is inside** (Nature vs Nurture)
-
-###### **Aristoteles**  
-Born after Socrates died. End goal: living well.  real vs appearance good.  Desire depend on once opinion. and real good is product of  a rational wish. we need both. / luck, courage, temperance / create logic. 
-- He was teacher of young Alexander Great 
-
-## Hellenistic Age
-
-`300`  Age from abstract questions to ethic by political climate (`stoicism`, `cynicism`, `epicureanism`)  
-
-###### **Epicur**  
-Pleasure, emphasizing the pursuit of happiness and the importance of friendship for a fulfilling life.
+###### Neoplatonism (Plotinus, c. 204–270 CE)
+- Core Concept: Revived Plato with mystical elements. Hierarchy of reality: The One (ultimate, ineffable source) → Intellect (Forms) → Soul → Matter. Ascent via contemplation/purification to union with The One.
+- Key Insight: Evil as absence of good; soul's goal is escape from material world. Influenced Christianity (e.g., transcendence). Texts: Enneads.
 
 ```
-###### **Stoicism**, **Seneca**, **Marcus Aurelius**
-(meditations),- Faith -  (Logic Physic Etics)- sa wyizolowane i osobne. Things we lost its only thing given back. virtue  > pleasure  // detemrminism ?    
-
-Stoics: preemptive pesimistic meditation  (like Marcus Aurelius )
-
-###### Scepticism
-reason to knowledge (always suspnd judgement because you never sure)   
-
-```
-
-## Late Antique
-
 ###### **Filo**
 pierwszy czytal biblie tak zeby zrozumiec przenosnie. fan mojrzesza (z alexandrii)    
 
+```
+
+
+
+## Medieval Philosophy (c. 5th–15th Centuries CE)
+Europe's intellectual life preserved in monasteries amid invasions, feudalism, and the rise of Christianity/Islam. Philosophy intertwined with theology, focusing on faith-reason reconciliation, God's nature, and ethics. Divided into Patristic (early, Church Fathers), Scholasticism (high, university debates), and Late (nominalism/decline). Key influences: Rediscovery of Aristotle via Arabic translations (e.g., Avicenna, Averroes); Byzantine/Jewish contributions.
+
+Early Medieval / Patristic (Boethius, c. 480–524 CE)
+
+- Core Concept: Translated Aristotle/Plato into Latin, bridging antiquity. Consolation of Philosophy: Dialogue with Lady Philosophy; happiness from virtue/God, not fortune. Evil as non-being; free will compatible with divine foreknowledge.
+- Key Insight: "Nothing is miserable unless you think it so." Amid imprisonment/execution, emphasizes rational consolation over despair.
+
+Islamic and Jewish Influences (Avicenna, Averroes, Maimonides, c. 9th–12th Centuries)
+
+- Avicenna (Ibn Sina, 980–1037 CE): Persian polymath; integrated Aristotle with Islam. Essence-existence distinction; "flying man" thought experiment for soul's independence. Medicine/philosophy texts preserved Greek knowledge.
+- Averroes (Ibn Rushd, 1126–1198 CE): Andalusian; commentaries on Aristotle ("The Commentator"). Double truth: Philosophy and religion compatible but separate paths to truth.
+- Maimonides (1138–1204 CE): Jewish philosopher; Guide for the Perplexed harmonizes Torah with Aristotle. Negative theology: God beyond attributes.
+- Key Insight: Arabic scholars translated/transmitted classics, sparking Europe's "12th-Century Renaissance."
+
+High Medieval / Scholasticism (Anselm, Abelard, Aquinas, c. 11th–13th Centuries)
+
+- Anselm of Canterbury (1033–1109 CE): "Faith seeking understanding." Ontological argument: God as "that than which nothing greater can be conceived" must exist in reality.
+- Peter Abelard (1079–1142 CE): Dialectician; Sic et Non compiles contradictory Church quotes to resolve via reason. Ethics: Intent matters over acts. Famous for romance with Héloïse.
+- Thomas Aquinas (1225–1274 CE): Dominican; Summa Theologica synthesizes Aristotle (rediscovered) with Christianity. Five Ways (proofs for God: motion, causation, etc.). Faith/reason complementary: "Grace perfects nature."
+- Key Insight: Universities (e.g., Paris, Oxford) formalized debates; logic for theology. Virtue ethics with natural law—actions good if aligning with reason/God.
+
+Late Medieval (Duns Scotus, William of Ockham, c. 13th–14th Centuries)
+
+- John Duns Scotus (1266–1308 CE): Franciscan; univocity of being (God/human concepts analogous). Will over intellect; haecceity ("thisness") for individuality.
+- William of Ockham (1287–1347 CE): Nominalism: Universals as names, not real entities. Ockham's Razor: "Entities should not be multiplied beyond necessity." Separated faith/reason, influencing empiricism/science.
+- Key Insight: Critiqued Scholastic complexity; paved for Renaissance humanism and Reformation skepticism.
+
+
+
+
+##  Early Islamic Philosophy (c. 8th–13th Centuries CE)
+
+Emerging during the Islamic Golden Age under the Abbasid Caliphate (Baghdad as intellectual hub), this era synthesized Greek philosophy (Aristotle, Plato via translations) with Islamic theology, focusing on reason (aql) vs. revelation (wahy), metaphysics, ethics, and science. Amid cultural flourishing (House of Wisdom), philosophers addressed God's existence, soul's immortality, and knowledge's limits. Influenced by Neoplatonism and transmitted to Europe, sparking the Renaissance.
+
+Al-Kindi (c. 801–873 CE)
+- Core Concept: "Philosopher of the Arabs"; first to harmonize Greek thought with Islam. Emphasized philosophy as "handmaiden to theology." Optics, medicine, and metaphysics: Universe as emanation from God; intellect unites with divine.
+- Key Insight: Knowledge through reason complements faith; "We ought not to be ashamed of appreciating the truth and of acquiring it wherever it comes from."
+
+Al-Farabi (c. 872–950 CE)
+- Core Concept: "Second Teacher" after Aristotle. Ideal state in The Virtuous City—philosopher-king rules via reason/prophecy. Logic, music, politics: Soul ascends through intellect to Active Intellect (divine emanation).
+- Key Insight: Happiness (sa'ada) from intellectual perfection; religion as symbolic philosophy for masses.
+
+Avicenna (Ibn Sina, 980–1037 CE)
+- Core Concept: Polymath; Canon of Medicine and Book of Healing. Essence-existence distinction: Things exist contingently, God necessarily. Floating man argument: Self-awareness proves soul's independence.
+- Key Insight: Reason and revelation compatible; "The world is like a book in which the eternal intellect has written the essence of things."
+
+Al-Ghazali (1058–1111 CE)
+- Core Concept: Critic of philosophers in Incoherence of the Philosophers—attacks causality (occasionalism: God causes all). Mysticism (Sufism) over pure reason; Revival of Religious Sciences integrates ethics, law, spirituality.
+- Key Insight: Doubt leads to faith; reason has limits—intuition/heart for ultimate truth. Balanced orthodoxy with philosophy.
+
+Averroes (Ibn Rushd, 1126–1198 CE)
+- Core Concept: Andalusian; commentaries on Aristotle. Incoherence of the Incoherence defends philosophy against Al-Ghazali. Double truth: Philosophy for elite, religion for masses—both true in own realms.
+- Key Insight: Eternal universe compatible with creation; intellect as shared, immortal. Influenced Latin Scholastics.
+
+
 
 ```
-# 
-
-
-
-Pures victory/ (nieznaczące) shift to dogmatic (neo platonism)    
-
-
-Transition:
-- Plotinus. Unity + and - . If you take + then - as well.   
 
 # Medieval 400-1400  
 Dark Ages
@@ -97,6 +158,14 @@ Concentrate on vertue. We delude our self that we are happy.
 (validate what you believe as truth not search) connect with Islam.  Body mind separated    
 ###### Albazar
 knowing and experience different. You cannot see sounds with eyes. but thinks correlation = caisalation religion help see through which we will never understand but it works  
+```
+
+
+
+
+
+
+```
 
 # Renaissance 1300 - 1600
   (1300 black death)
