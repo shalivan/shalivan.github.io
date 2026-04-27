@@ -16,6 +16,9 @@ Related notes: [Ludology](/ludology/)  [Game Design](/gamedesign/)    [Game Mech
 
 [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
 
+Depth (space of possibilities) vs complexity (number of elements)
+
+
 
 https://youtu.be/Nj7EaryBgak
 crafting !!! 

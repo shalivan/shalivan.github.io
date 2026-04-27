@@ -18,6 +18,22 @@ Related notes: [Ludology](/ludology/)  [Game Design](/gamedesign/)    [Game Mech
 
 [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
 
+
+Linguistic communication , Mechanic communication 
+
+smart skill or power trio of gameplay 
+
+musisz wiedziec co robisz albo zrozumiec co czujesz/- game design
+
+
+albo masz plan od a do z albo chcesz cos osiagnac ale musisz przeaanalizowac co juz bylo i jak sie robi i co tak wlasciwie chcesz
+
+
+Art 
+propaganda / exploartion of unknown 
+
+art change to fasion, its in fasion to do sth., 
+
 ```
 # Structure 
 Journey from uncertainty to solution 
@@ -205,6 +221,37 @@ excuse
 momentum   
 payoff    
 
+```
+
+
+# Complex systems 
+
+
+chesterson fence  - principle advising that one should not remove or change any rule, tradition, or structure (the "fence") until the original reason for its existence is understood. 
+
+Connection more shape behaviours than the shapes itself
+
+
+Exploration vs Exploitation James March 
+to much exploration 
+- Explotarion - new ideas 
+- Exploitation - improve what perform well 
+both compete for resources 
+- Exploitation -stagnate 
+- Explotarion - distabilas 
+
+COMPLEX SYSTEMN - herbert simon 
+Human operate in bounded rationality - without infinite time information or  procesing power.  we sattle with 'good enough'. 
+
+
+
+
+```
+Gameplay vs Aquisition 
+
+Progresion 
+
+progresion require loop 
 ```
 # Players
 

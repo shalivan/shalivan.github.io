@@ -26,6 +26,7 @@ Conciopus of sometrhing every experience is diferent than previous.
 sturcture of information > integration of information
 
 # Consciousness (hard problem)
+
 Aware of self and enviroment
 - can be altered by
 
@@ -42,12 +43,12 @@ u can enyoy playing a games even it is not reality
 
 we learn and evolve to percive reality that can help us survive not see how it is
 
-|simulation (world view) |Percepts | Patterns
+|simulation (world view) | Percepts | Patterns | | 
 |---|---|---|
 |curent world state|Environmental | Visual Auditory Tactile(na zewnatrz)
-self somatic|Somatosensory | Tactile Proprioceptive
-self social + personal |Motivational | Proprioceptive Emotional
-self mental + (Mental stage (imagined state)) |Mental |Emotional Imaginery
+| self somatic|Somatosensory | Tactile Proprioceptive
+| self social + personal |Motivational | Proprioceptive Emotional
+| self mental + (Mental stage (imagined state)) |Mental |Emotional Imaginery
 
 self
 1. somatic

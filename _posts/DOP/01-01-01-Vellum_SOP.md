@@ -22,8 +22,6 @@ https://youtu.be/g1wT1LW7hfs
 
 https://youtu.be/gGCEinRceKc  << all throu vellum
 
-
-
 ---
 # Geometry
 Configure  Parameters  
@@ -386,3 +384,58 @@ Spatial Sort Interval. - Sot grain fluid  particles  in memory. It sould change 
 
 ----
 rest length - https://youtu.be/aNf-_dKI1VQ 
+
+
+
+
+
+TEMP Z NOTATNIKA: 
+```
+VELLUM 
+
+Edge length scale << zmniejszyć żeby mieć więcej foldów 
+
+compression stiffness - higher more retin wrinkles 
+ - low smoothens out 
+- hi wrinkles
+
+
+VELLUM BALOON PARAMS (cloth+pressure):
+- cloth 
+stretch  > stiffnes
+stretch > rest leng 
+bend > stiffness
+
+- pressure
+stretch > rest len 
+
+
+
+
+https://youtu.be/64ujNBGQ7P8
+bendstiffness
+VELLUM CRUMPLE 
+
+
+1) Bend > Sfiffnesss. 
+
+scale by  attribute 
+
+
+2) Bend > Plasticity 
+`treshold` if over treshold 
+`rate` - speed how fast harden. Higher quicker. 
+Hardning - 1: will be same like before if over on it will turn harder after time
+
+
+
+-----
+defaults 
+
+stretch stiffnes is verry high 
+bend i low at begining, so you have BANDY not STRETCHy by default - like CLOTH. 
+
+--- 
+Ferrero roche tut https://youtu.be/xrJzqh_dSRY 
+
+```

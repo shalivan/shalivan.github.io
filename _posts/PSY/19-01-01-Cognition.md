@@ -316,11 +316,11 @@ https://www.visualcapitalist.com/50-cognitive-biases-in-the-modern-world/
 
 ## Cognitive Errors
 
-|Cognitive Errors||
+|Cognitive Errors| |
 |--|--|
-|Deja vu  
-|Mirages
-|Hallucinations
+|Deja vu  | 
+|Mirages| 
+|Hallucinations| 
 
 
 
